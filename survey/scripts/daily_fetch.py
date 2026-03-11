@@ -258,6 +258,7 @@ def main():
             "summary": entry["description"][:200] if entry["description"] else "",
             "status": "pending_review",
             "matched_keywords": matched,
+            "fetched_date": datetime.now().strftime("%Y-%m-%d"),
         }
 
         new_papers.append(paper)

@@ -527,8 +527,12 @@ def main():
         data = yaml.safe_load(f)
     all_papers = data.get("papers", [])
 
-    # Find papers from daily fetch
-    new_papers = [p for p in all_papers if "matched_keywords" in p]
+    # Find papers from daily fetch — only those fetched on report_date
+    all_fetched = [p for p in all_papers if "matched_keywords" in p]
+    new_papers = [p for p in all_fetched if p.get("fetched_date") == report_date]
+    if not new_papers:
+        # Fallback for legacy papers without fetched_date
+        new_papers = all_fetched
     print(f"Total daily-fetched papers: {len(new_papers)}")
 
     if not new_papers:
