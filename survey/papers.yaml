@@ -1,0 +1,4423 @@
+papers:
+- id: biham1991differential
+  title: Differential Cryptanalysis of DES-like Cryptosystems
+  authors:
+  - Eli Biham
+  - Adi Shamir
+  venue: Journal of Cryptology 1991
+  year: 1991
+  url: ''
+  directions:
+  - differential
+  ciphers:
+  - DES
+  significance: high
+  summary: 提出差分分析方法，密码分析领域最重要的突破之一。
+  status: reviewed
+- id: lai1991markov
+  title: Markov Ciphers and Differential Cryptanalysis
+  authors:
+  - Xuejia Lai
+  - James L. Massey
+  - Sean Murphy
+  venue: EUROCRYPT 1991
+  year: 1991
+  url: https://eprint.iacr.org/2025/2205
+  directions:
+  - differential
+  ciphers: []
+  significance: high
+  summary: 建立差分分析的 Markov 密码理论框架，证明了差分概率计算的理论基础。
+  status: reviewed
+- id: knudsen1995truncated
+  title: Truncated and Higher Order Differentials
+  authors:
+  - Lars R. Knudsen
+  venue: FSE 1994
+  year: 1995
+  url: ''
+  directions:
+  - differential
+  - integral_division
+  ciphers: []
+  significance: high
+  summary: 提出 truncated differential 和高阶差分的概念，扩展了差分分析的范围。
+  status: reviewed
+- id: chabaud1998differential
+  title: Links Between Differential and Linear Cryptanalysis
+  authors:
+  - Florent Chabaud
+  - Serge Vaudenay
+  venue: EUROCRYPT 1994
+  year: 1994
+  url: https://eprint.iacr.org/2023/911
+  directions:
+  - differential
+  - linear
+  ciphers: []
+  significance: medium
+  summary: 揭示差分分析与线性分析之间的对偶关系。
+  status: reviewed
+- id: blondeau2013differential
+  title: 'Multiple Differential Cryptanalysis: Theory and Practice'
+  authors:
+  - Celine Blondeau
+  - Benoit Gerard
+  - Jean-Pierre Tillich
+  venue: FSE 2011
+  year: 2011
+  url: https://eprint.iacr.org/2023/580
+  directions:
+  - differential
+  ciphers:
+  - PRESENT
+  significance: medium
+  summary: 系统理论化多差分攻击，利用多条差分特征同时提高攻击效率。
+  status: reviewed
+- id: bar-on2018clusters
+  title: Differential Clusters and Related-Key Differential Probability
+  authors:
+  - Achiya Bar-On
+  - Orr Dunkelman
+  - Nathan Keller
+  - Ariel Weizman
+  venue: ToSC 2018
+  year: 2018
+  url: ''
+  directions:
+  - differential
+  - related_key
+  ciphers: []
+  significance: medium
+  summary: 分析差分 clustering 效应对实际攻击概率的影响。
+  status: reviewed
+- id: knudsen1998impossible
+  title: Impossible Differentials in Twofish
+  authors:
+  - Lars R. Knudsen
+  venue: Twofish Technical Report 1998
+  year: 1998
+  url: ''
+  directions:
+  - impossible_differential
+  ciphers:
+  - Twofish
+  significance: high
+  summary: 首次明确提出不可能差分概念，应用于 AES 候选算法 Twofish 的分析。
+  status: reviewed
+- id: biham1999miss
+  title: Cryptanalysis of Skipjack Reduced to 31 Rounds Using Impossible Differentials
+  authors:
+  - Eli Biham
+  - Alex Biryukov
+  - Adi Shamir
+  venue: EUROCRYPT 1999
+  year: 1999
+  url: ''
+  directions:
+  - impossible_differential
+  ciphers:
+  - Skipjack
+  significance: high
+  summary: 系统化 miss-in-the-middle 技术，将不可能差分发展为通用攻击框架。
+  status: reviewed
+- id: kim2003impossible_aes
+  title: Impossible Differential Cryptanalysis for Block Cipher Structures
+  authors:
+  - Jongsung Kim
+  - Seokhie Hong
+  - Jaechul Sung
+  - Sangjin Lee
+  - Jongin Lim
+  - Soohak Sung
+  venue: Indocrypt 2003
+  year: 2003
+  url: https://doi.org/10.1007/978-3-540-24582-7_6
+  directions:
+  - impossible_differential
+  ciphers:
+  - AES
+  significance: medium
+  summary: 将不可能差分系统化扩展到通用分组密码结构。
+  status: reviewed
+- id: sasaki2017milp_id
+  title: New Impossible Differential Search Tool from Design and Cryptanalysis Aspects
+  authors:
+  - Yu Sasaki
+  - Yosuke Todo
+  venue: EUROCRYPT 2017
+  year: 2017
+  url: https://eprint.iacr.org/2016/1181
+  directions:
+  - impossible_differential
+  - milp_sat_cp
+  ciphers:
+  - Midori
+  - SKINNY
+  - GIFT
+  significance: high
+  summary: 提出基于 MILP 的不可能差分自动搜索方法，结合设计与分析视角。
+  status: reviewed
+- id: hu2020id_milp
+  title: Automatic Search for Impossible Differentials and Zero-Correlation Linear Approximations
+  authors:
+  - Kai Hu
+  - Meiqin Wang
+  venue: ToSC 2020
+  year: 2020
+  url: http://eprint.iacr.org/2016/689
+  directions:
+  - impossible_differential
+  - zero_correlation
+  - milp_sat_cp
+  ciphers:
+  - SKINNY
+  - GIFT
+  - Midori
+  significance: medium
+  summary: 统一 MILP 框架同时搜索不可能差分和零相关线性逼近。
+  status: reviewed
+- id: wagner1999boomerang
+  title: The Boomerang Attack
+  authors:
+  - David Wagner
+  venue: FSE 1999
+  year: 1999
+  url: https://eprint.iacr.org/2026/205
+  directions:
+  - boomerang
+  ciphers: []
+  significance: high
+  summary: 提出回旋镖攻击，组合两条短差分特征绕过长路径概率过低的问题。
+  status: reviewed
+- id: kelsey1999amplified
+  title: Amplified Boomerang Attacks Against Reduced-Round MARS and Serpent
+  authors:
+  - John Kelsey
+  - Tadayoshi Kohno
+  - Bruce Schneier
+  venue: FSE 2000
+  year: 2000
+  url: ''
+  directions:
+  - boomerang
+  ciphers:
+  - MARS
+  - Serpent
+  significance: medium
+  summary: 提出 amplified boomerang 变体，增强攻击的灵活性。
+  status: reviewed
+- id: biham2002rectangle
+  title: New Results on Boomerang and Rectangle Attacks
+  authors:
+  - Eli Biham
+  - Orr Dunkelman
+  - Nathan Keller
+  venue: FSE 2002
+  year: 2002
+  url: https://eprint.iacr.org/2025/158
+  directions:
+  - boomerang
+  ciphers:
+  - Serpent
+  significance: high
+  summary: 提出 rectangle attack，将回旋镖从选择自适应明文模型推广到选择明文模型。
+  status: reviewed
+- id: cid2018bct
+  title: 'Boomerang Connectivity Table: A New Cryptanalysis Tool'
+  authors:
+  - Carlos Cid
+  - Tao Huang
+  - Thomas Peyrin
+  - Yu Sasaki
+  - Ling Song
+  venue: EUROCRYPT 2018
+  year: 2018
+  url: https://eprint.iacr.org/2018/161
+  directions:
+  - boomerang
+  - sbox
+  ciphers:
+  - SKINNY
+  - AES
+  significance: high
+  summary: 提出 BCT，首次精确刻画 S-box 层的回旋镖兼容性。
+  status: reviewed
+- id: song2019ubct
+  title: Boomerang Connectivity Table Revisited
+  authors:
+  - Ling Song
+  - Xianrui Qin
+  - Lei Hu
+  venue: ToSC 2019
+  year: 2019
+  url: https://eprint.iacr.org/2024/577
+  directions:
+  - boomerang
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 提出 UBCT 和 LBCT，进一步细化回旋镖分析精度。
+  status: reviewed
+- id: delaune2020boomerang_milp
+  title: Automated Search for Boomerang Distinguishers
+  authors:
+  - Haoyang Wang
+  - Thomas Peyrin
+  venue: ToSC 2020
+  year: 2020
+  url: https://eprint.iacr.org/2025/158
+  directions:
+  - boomerang
+  - milp_sat_cp
+  ciphers:
+  - SKINNY
+  - AES
+  - GIFT
+  significance: medium
+  summary: 基于 MILP 自动搜索回旋镖区分器，结合 BCT/UBCT/LBCT。
+  status: reviewed
+- id: matsui1993linear
+  title: Linear Cryptanalysis Method for DES Cipher
+  authors:
+  - Mitsuru Matsui
+  venue: EUROCRYPT 1993
+  year: 1993
+  url: https://eprint.iacr.org/2006/475
+  directions:
+  - linear
+  ciphers:
+  - DES
+  significance: high
+  summary: 提出线性分析方法，与差分分析并列为最重要的分组密码分析技术。
+  status: reviewed
+- id: matsui1994algorithm2
+  title: The First Experimental Cryptanalysis of the Data Encryption Standard
+  authors:
+  - Mitsuru Matsui
+  venue: CRYPTO 1994
+  year: 1994
+  url: https://eprint.iacr.org/2024/404
+  directions:
+  - linear
+  ciphers:
+  - DES
+  significance: high
+  summary: 首次在实验上用线性分析攻破 DES（Algorithm 2 密钥恢复）。
+  status: reviewed
+- id: hermelin2008multidim
+  title: Multidimensional Linear Cryptanalysis of Reduced Round Serpent
+  authors:
+  - Miia Hermelin
+  - Joo Yeon Cho
+  - Kaisa Nyberg
+  venue: ACISP 2008
+  year: 2008
+  url: https://eprint.iacr.org/2013/089
+  directions:
+  - linear
+  ciphers:
+  - Serpent
+  significance: medium
+  summary: 多维线性分析的系统化，同时利用多个线性逼近提高攻击效率。
+  status: reviewed
+- id: cho2010linear
+  title: Linear Cryptanalysis of Reduced-Round PRESENT
+  authors:
+  - Joo Yeon Cho
+  venue: CT-RSA 2010
+  year: 2010
+  url: https://eprint.iacr.org/2024/1363
+  directions:
+  - linear
+  ciphers:
+  - PRESENT
+  significance: medium
+  summary: 对 PRESENT 的线性分析，展示了比特级密码的线性弱点。
+  status: reviewed
+- id: bogdanov2012zero
+  title: Zero-Correlation Linear Cryptanalysis with Reduced Data Complexity
+  authors:
+  - Andrey Bogdanov
+  - Viktor Rijmen
+  venue: FSE 2012
+  year: 2012
+  url: ''
+  directions:
+  - zero_correlation
+  - linear
+  ciphers: []
+  significance: high
+  summary: 形式化零相关线性分析，与不可能差分对偶，提出降低数据复杂度的技术。
+  status: reviewed
+- id: bogdanov2014zero_correlation
+  title: Integral and Multidimensional Linear Distinguishers with Correlation Zero
+  authors:
+  - Andrey Bogdanov
+  - Gregor Leander
+  - Kaisa Nyberg
+  - Meiqin Wang
+  venue: ASIACRYPT 2012
+  year: 2012
+  url: https://doi.org/10.1007/978-3-642-34961-4_16
+  directions:
+  - zero_correlation
+  - integral_division
+  - linear
+  ciphers: []
+  significance: high
+  summary: 揭示零相关线性、积分攻击和多维线性之间的理论联系。
+  status: reviewed
+- id: daemen1997square
+  title: The Block Cipher Square
+  authors:
+  - Joan Daemen
+  - Lars R. Knudsen
+  - Vincent Rijmen
+  venue: FSE 1997
+  year: 1997
+  url: https://eprint.iacr.org/2024/483
+  directions:
+  - integral_division
+  ciphers:
+  - Square
+  significance: high
+  summary: 提出 Square 攻击（积分攻击的前身），在 Square 密码上首次展示。
+  status: reviewed
+- id: knudsen2002integral
+  title: Integral Cryptanalysis
+  authors:
+  - Lars R. Knudsen
+  - David Wagner
+  venue: FSE 2002
+  year: 2002
+  url: https://eprint.iacr.org/2026/365
+  directions:
+  - integral_division
+  ciphers: []
+  significance: high
+  summary: 将 Square 攻击推广为积分攻击的通用框架。
+  status: reviewed
+- id: todo2015division
+  title: Structural Evaluation by Generalized Integral Property
+  authors:
+  - Yosuke Todo
+  venue: EUROCRYPT 2015
+  year: 2015
+  url: https://eprint.iacr.org/2015/090
+  directions:
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - SIMON
+  - MISTY1
+  significance: high
+  summary: 提出 Division Property，将积分攻击推广为精确的代数性质传播分析。
+  status: reviewed
+- id: todo2016bit_division
+  title: Bit-Based Division Property and Application to SIMON Family
+  authors:
+  - Yosuke Todo
+  - Masakatu Morii
+  venue: FSE 2016
+  year: 2016
+  url: https://eprint.iacr.org/2016/285
+  directions:
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - SIMON
+  significance: high
+  summary: 将 Division Property 推广到比特级，显著提高分析精度。
+  status: reviewed
+- id: xiang2016dp_milp
+  title: Applying MILP Method to Searching Integral Distinguishers Based on Division Property for 6 Lightweight Block Ciphers
+  authors:
+  - Zejun Xiang
+  - Wentao Zhang
+  - Zhenzhen Bao
+  - Dongdai Lin
+  venue: ASIACRYPT 2016
+  year: 2016
+  url: https://eprint.iacr.org/2016/857
+  directions:
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - PRESENT
+  - SIMON
+  - GIFT
+  - RECTANGLE
+  - LBlock
+  significance: high
+  summary: 将 MILP 系统应用于 Division Property 搜索，大量密码的改进积分结果。
+  status: reviewed
+- id: sun2020three_subset
+  title: Three-Subset Meet-in-the-Middle Attack on Reduced GIFT and SPEEDY
+  authors:
+  - Siwei Sun
+  - et al.
+  venue: 2020
+  year: 2020
+  url: ''
+  directions:
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - GIFT
+  significance: medium
+  summary: 进一步精化 Division Property 的 SAT/MILP 自动搜索技术。
+  status: reviewed
+- id: courtois2002xsl
+  title: Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations
+  authors:
+  - Nicolas Courtois
+  - Alexander Klimov
+  - Jacques Patarin
+  - Adi Shamir
+  venue: EUROCRYPT 2000
+  year: 2000
+  url: ''
+  directions:
+  - algebraic
+  ciphers:
+  - AES
+  significance: high
+  summary: XSL/XL 算法攻击多变量方程组，催生了对 AES 代数安全性的讨论。
+  status: reviewed
+- id: dinur2009cube
+  title: Cube Attacks on Tweakable Black Box Polynomials
+  authors:
+  - Itai Dinur
+  - Adi Shamir
+  venue: EUROCRYPT 2009
+  year: 2009
+  url: https://eprint.iacr.org/2022/137
+  directions:
+  - algebraic
+  - integral_division
+  ciphers:
+  - Trivium
+  significance: high
+  summary: 提出 Cube Attack，利用高次多项式的超多项式恢复密钥。
+  status: reviewed
+- id: todo2017cube_dp
+  title: Cube Attacks on Non-Blackbox Polynomials Based on Division Property
+  authors:
+  - Yosuke Todo
+  - Takanori Isobe
+  - Yonglin Hao
+  - Willi Meier
+  venue: CRYPTO 2017
+  year: 2017
+  url: https://eprint.iacr.org/2017/306
+  directions:
+  - algebraic
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - Trivium
+  - Kreyvium
+  - ACORN
+  significance: high
+  summary: 用 Division Property 精确恢复 superpoly，大幅增强 Cube Attack。
+  status: reviewed
+- id: hao2020cube
+  title: Algebraic Method to Search for Superpoly
+  authors:
+  - Yonglin Hao
+  - et al.
+  venue: ToSC 2020
+  year: 2020
+  url: https://eprint.iacr.org/2023/1408
+  directions:
+  - algebraic
+  - integral_division
+  ciphers:
+  - Trivium
+  - Kreyvium
+  significance: medium
+  summary: 改进 superpoly 恢复的代数方法，扩展 Cube Attack 的轮数。
+  status: reviewed
+- id: diffie1977mitm
+  title: Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard
+  authors:
+  - Whitfield Diffie
+  - Martin Hellman
+  venue: IEEE Computer 1977
+  year: 1977
+  url: https://doi.org/10.1109/C-M.1977.217750
+  directions:
+  - meet_in_the_middle
+  ciphers:
+  - DES
+  significance: high
+  summary: 提出中间相遇攻击概念，证明双重 DES 不安全。
+  status: reviewed
+- id: demirci2008mitm_aes
+  title: A New Meet-in-the-Middle Attack on AES
+  authors:
+  - Hüseyin Demirci
+  - Ali Aydin Selcuk
+  venue: FSE 2008
+  year: 2008
+  url: https://eprint.iacr.org/2025/2213
+  directions:
+  - meet_in_the_middle
+  ciphers:
+  - AES
+  significance: high
+  summary: 对 AES 的新型 MITM 攻击，利用多重集合碰撞。
+  status: reviewed
+- id: bogdanov2011biclique
+  title: Biclique Cryptanalysis of the Full AES
+  authors:
+  - Andrey Bogdanov
+  - Dmitry Khovratovich
+  - Christian Rechberger
+  venue: ASIACRYPT 2011
+  year: 2011
+  url: https://eprint.iacr.org/2011/449
+  directions:
+  - meet_in_the_middle
+  ciphers:
+  - AES
+  significance: high
+  summary: 使用 biclique 技术对完整 AES 的首次理论攻击（2^126.1 for AES-128）。
+  status: reviewed
+- id: dong2021mitm_auto
+  title: Automatic Classical and Quantum Rebound Attacks on AES-like Hashing by Exploiting Related-Key Differentials
+  authors:
+  - Xiaoyang Dong
+  - et al.
+  venue: ASIACRYPT 2021
+  year: 2021
+  url: https://eprint.iacr.org/2021/1119
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers:
+  - AES
+  significance: medium
+  summary: 将 MITM 攻击的搜索过程自动化，使用 MILP 建模。
+  status: reviewed
+- id: biham1993rk
+  title: New Types of Cryptanalytic Attacks Using Related Keys
+  authors:
+  - Eli Biham
+  venue: EUROCRYPT 1993
+  year: 1993
+  url: ''
+  directions:
+  - related_key
+  - differential
+  ciphers: []
+  significance: high
+  summary: 提出相关密钥攻击框架。
+  status: reviewed
+- id: biryukov2009rk_aes
+  title: Related-Key Cryptanalysis of the Full AES-192 and AES-256
+  authors:
+  - Alex Biryukov
+  - Dmitry Khovratovich
+  venue: ASIACRYPT 2009
+  year: 2009
+  url: https://eprint.iacr.org/2024/315
+  directions:
+  - related_key
+  - differential
+  ciphers:
+  - AES
+  significance: high
+  summary: 对完整 AES-192/256 的相关密钥攻击，是 AES 最著名的分析结果之一。
+  status: reviewed
+- id: jean2014tweakey
+  title: 'Tweaks and Keys for Block Ciphers: The TWEAKEY Framework'
+  authors:
+  - Jérémy Jean
+  - Ivica Nikolić
+  - Thomas Peyrin
+  venue: ASIACRYPT 2014
+  year: 2014
+  url: https://eprint.iacr.org/2014/831
+  directions:
+  - related_key
+  - key_schedule
+  - tweakable
+  ciphers:
+  - SKINNY
+  significance: high
+  summary: 提出 TWEAKEY 框架，统一处理 tweak 和 key，成为后续 TBC 设计的基础。
+  status: reviewed
+- id: leander2011invariant
+  title: Invariant Subspace Attack Against Full Midori64
+  authors:
+  - Gregor Leander
+  - Martin Albrecht
+  - Benedikt Driessen
+  - et al.
+  venue: 2015
+  year: 2015
+  url: http://eprint.iacr.org/2015/1189
+  directions:
+  - invariant
+  ciphers:
+  - Midori
+  significance: high
+  summary: 发现 Midori64 的不变子空间，首次在全轮密码上实现此类攻击。
+  status: reviewed
+- id: todo2016invariant
+  title: 'Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64'
+  authors:
+  - Yosuke Todo
+  - Gregor Leander
+  - Yu Sasaki
+  venue: ASIACRYPT 2016
+  year: 2016
+  url: https://eprint.iacr.org/2016/732
+  directions:
+  - invariant
+  ciphers:
+  - SCREAM
+  - iSCREAM
+  - Midori
+  significance: high
+  summary: 提出非线性不变量攻击，推广了不变子空间方法。
+  status: reviewed
+- id: beierle2017subspace
+  title: Subspace Trail Cryptanalysis and its Applications to AES
+  authors:
+  - Christof Beierle
+  - et al.
+  venue: ToSC 2017
+  year: 2017
+  url: https://eprint.iacr.org/2016/592
+  directions:
+  - invariant
+  ciphers:
+  - AES
+  significance: medium
+  summary: 系统化子空间 trail 分析方法。
+  status: reviewed
+- id: mouha2011milp
+  title: Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming
+  authors:
+  - Nicky Mouha
+  - Qingju Wang
+  - Dawu Gu
+  - Bart Preneel
+  venue: Inscrypt 2011
+  year: 2011
+  url: https://eprint.iacr.org/2011/510
+  directions:
+  - milp_sat_cp
+  - differential
+  - linear
+  ciphers:
+  - AES
+  - Enocoro-128v2
+  significance: high
+  summary: 首次将 MILP 应用于差分和线性分析自动化。
+  status: reviewed
+- id: sun2014milp
+  title: Automatic Security Evaluation and (Related-key) Differential Characteristic Search
+  authors:
+  - Siwei Sun
+  - Lei Hu
+  - Peng Wang
+  - Kexin Qiao
+  - Xiaoshuang Ma
+  - Ling Song
+  venue: ASIACRYPT 2014
+  year: 2014
+  url: https://eprint.iacr.org/2014/747
+  directions:
+  - milp_sat_cp
+  - differential
+  - related_key
+  ciphers:
+  - SIMON
+  - PRESENT
+  - LBlock
+  - DES
+  significance: high
+  summary: 将 MILP 差分搜索从字节级扩展到比特级，提出 S-box DDT 凸包建模。
+  status: reviewed
+- id: fu2016sat
+  title: A SAT-based Model for Search of Differential Characteristics in the ARX Ciphers
+  authors:
+  - Kai Fu
+  - Meiqin Wang
+  - et al.
+  venue: IACR ePrint
+  year: 2016
+  url: https://eprint.iacr.org/2024/2003
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers:
+  - SPECK
+  significance: medium
+  summary: SAT 编码 ARX 密码差分传播，CaDiCaL/Kissat 求解。
+  status: reviewed
+- id: sun2017cp
+  title: Analysis of AES, SKINNY, and Others with Constraint Programming
+  authors:
+  - Siwei Sun
+  - David Gerault
+  - Pascal Lafourcade
+  - Qianqian Yang
+  - Yosuke Todo
+  - Kexin Qiao
+  - Lei Hu
+  venue: ToSC 2017
+  year: 2017
+  url: https://eprint.iacr.org/2017/161
+  directions:
+  - milp_sat_cp
+  - differential
+  - linear
+  ciphers:
+  - AES
+  - SKINNY
+  significance: medium
+  summary: 使用约束编程（CP）进行密码分析，与 MILP 方法性能对比。
+  status: reviewed
+- id: abdelkhalik2017convex
+  title: Refined Probability of Differential Characteristics Including Dependency Between Multiple Rounds
+  authors:
+  - Mohamed Tolba
+  - Ahmed Abdelkhalek
+  - Amr M. Youssef
+  venue: ToSC 2017
+  year: 2017
+  url: https://doi.org/10.13154/tosc.v2017.i2.203-227
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 改进 MILP 建模中差分概率的精确计算，考虑多轮依赖性。
+  status: reviewed
+- id: boura2020milp_tight
+  title: Tighter Trail Bounds from Refined S-box Modeling
+  authors:
+  - Christina Boura
+  - Daniel Coggia
+  venue: SAC 2020
+  year: 2020
+  url: ''
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 改进 S-box MILP 约束的紧致性，减少虚假解。
+  status: reviewed
+- id: gohr2019neural
+  title: Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning
+  authors:
+  - Aron Gohr
+  venue: CRYPTO 2019
+  year: 2019
+  url: https://eprint.iacr.org/2019/037
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - SPECK
+  significance: high
+  summary: 首次展示神经网络可以学习密码区分器，在 SPECK 上超越经典差分。
+  status: reviewed
+- id: benamira2021explain
+  title: A Deeper Look at Machine Learning-Based Cryptanalysis
+  authors:
+  - Adrien Benamira
+  - David Gerault
+  - Thomas Peyrin
+  - Quan Quan Tan
+  venue: EUROCRYPT 2021
+  year: 2021
+  url: https://eprint.iacr.org/2021/287
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - SPECK
+  significance: high
+  summary: 深入分析 Gohr 的神经区分器，发现网络本质上学习了 DDT 中的信息。
+  status: reviewed
+- id: baksi2022ml
+  title: Machine Learning-Assisted Differential Distinguishers For Lightweight Ciphers
+  authors:
+  - Anubhab Baksi
+  - Jakub Breier
+  - Xiaoyang Dong
+  - Yi Chen
+  venue: IACR ePrint
+  year: 2022
+  url: https://eprint.iacr.org/2020/571
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - GIFT
+  - PRESENT
+  - SIMON
+  - SKINNY
+  significance: medium
+  summary: 将 ML 辅助差分区分器推广到多个轻量级密码。
+  status: reviewed
+- id: chen2025beam
+  title: ML-Guided Beam Search for Differential Trail Discovery
+  authors:
+  - Chen et al.
+  venue: 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/2205
+  directions:
+  - ml_aided
+  - differential
+  - automated_search
+  ciphers:
+  - GIFT
+  significance: high
+  summary: 使用 ML 引导 Beam Search 搜索差分路径，与 MILP 方法对比。
+  status: reviewed
+- id: gohr2022neural_search
+  title: 'Neural Network-Based Differential Distinguishers: Further Analysis and New Results'
+  authors:
+  - Aron Gohr
+  - Gregor Leander
+  venue: 2022
+  year: 2022
+  url: https://eprint.iacr.org/2022/1765
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - SPECK
+  - SIMON
+  significance: medium
+  summary: 进一步分析和推广神经区分器到更多密码。
+  status: reviewed
+- id: matsui1994search
+  title: On Correlation Between the Order of S-boxes and the Strength of DES
+  authors:
+  - Mitsuru Matsui
+  venue: EUROCRYPT 1994
+  year: 1994
+  url: https://doi.org/10.1007/BFb0053451
+  directions:
+  - automated_search
+  - differential
+  ciphers:
+  - DES
+  significance: high
+  summary: Matsui 的分支定界搜索算法（Branch & Bound for DES），是差分路径搜索自动化的先驱。
+  status: reviewed
+- id: song2022ascon
+  title: New Insights on Differential and Linear Bounds using Mixed Integer Linear Programming
+  authors:
+  - Ling Song
+  - et al.
+  venue: ePrint 2022/1377
+  year: 2022
+  url: https://eprint.iacr.org/2022/1377
+  directions:
+  - differential
+  - milp_sat_cp
+  - automated_search
+  ciphers:
+  - Ascon
+  significance: high
+  summary: Ascon 的差分和线性安全性下界，使用 MILP+DFS 混合方法。
+  status: reviewed
+- id: kolbl2015simon_search
+  title: Observations on the SIMON Block Cipher Family
+  authors:
+  - Stefan Kölbl
+  - Gregor Leander
+  - Tyge Tiessen
+  venue: CRYPTO 2015
+  year: 2015
+  url: https://eprint.iacr.org/2015/145
+  directions:
+  - automated_search
+  - differential
+  - linear
+  ciphers:
+  - SIMON
+  significance: high
+  summary: 对 SIMON 的全面差分和线性分析，包含自动化搜索技术。
+  status: reviewed
+- id: nyberg1994sbox
+  title: Differentially Uniform Mappings for Cryptography
+  authors:
+  - Kaisa Nyberg
+  venue: EUROCRYPT 1993
+  year: 1994
+  url: https://doi.org/10.1007/3-540-48285-7_6
+  directions:
+  - sbox
+  ciphers: []
+  significance: high
+  summary: 形式化差分均匀度概念，建立 S-box 密码学性质的理论基础。
+  status: reviewed
+- id: leander2007sbox
+  title: On the Classification of 4 Bit S-Boxes
+  authors:
+  - Gregor Leander
+  - Axel Poschmann
+  venue: WAIFI 2007
+  year: 2007
+  url: https://eprint.iacr.org/2020/397
+  directions:
+  - sbox
+  - hardware_friendly
+  ciphers: []
+  significance: high
+  summary: 对所有 4-bit S-box 进行仿射等价分类，为轻量级密码 S-box 选择提供基础。
+  status: reviewed
+- id: canteaut2016sbox_criteria
+  title: A Unified Framework for S-box Design
+  authors:
+  - Anne Canteaut
+  - et al.
+  venue: 2016
+  year: 2016
+  url: ''
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 统一 S-box 安全性标准的评估框架。
+  status: reviewed
+- id: ullrich2011sbox_impl
+  title: Finding Optimal Bitsliced Implementations of 4×4 S-Boxes
+  authors:
+  - Markus Ullrich
+  - et al.
+  venue: SKEW 2011
+  year: 2011
+  url: ''
+  directions:
+  - sbox
+  - hardware_friendly
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: S-box 的最优 bitslice 实现搜索方法。
+  status: reviewed
+- id: banik2015gift_perm
+  title: Bit Permutation Based Ciphers and their Design Rationale
+  authors:
+  - Subhadeep Banik
+  - et al.
+  venue: 2017
+  year: 2017
+  url: ''
+  directions:
+  - permutation_layer
+  - hardware_friendly
+  ciphers:
+  - GIFT
+  - PRESENT
+  significance: medium
+  summary: 比特置换在轻量级密码中的设计原理和优化策略。
+  status: reviewed
+- id: daemen2002wide_trail
+  title: The Wide Trail Design Strategy
+  authors:
+  - Joan Daemen
+  - Vincent Rijmen
+  venue: IMA 2001 / The Design of Rijndael
+  year: 2002
+  url: https://eprint.iacr.org/2023/1803
+  directions:
+  - linear_diffusion
+  - round_function
+  ciphers:
+  - AES
+  - Rijndael
+  significance: high
+  summary: Wide Trail 策略，通过最大化分支数保证安全性下界，AES 设计核心理论。
+  status: reviewed
+- id: sim2015mds
+  title: Lightweight MDS Generalized Circulant Matrices
+  authors:
+  - Siang Meng Sim
+  - Khoo Khoongming
+  - et al.
+  venue: FSE 2015
+  year: 2015
+  url: https://eprint.iacr.org/2016/186
+  directions:
+  - linear_diffusion
+  - lightweight
+  - hardware_friendly
+  ciphers: []
+  significance: medium
+  summary: 轻量级 MDS 矩阵的系统化构造方法。
+  status: reviewed
+- id: sarkar2016mds_light
+  title: 'Lightweight Diffusion Layer: Importance of Toeplitz Matrices'
+  authors:
+  - Sumanta Sarkar
+  - Habeeb Syed
+  venue: IACR ToSC 2016
+  year: 2016
+  url: https://eprint.iacr.org/2016/835
+  directions:
+  - linear_diffusion
+  - hardware_friendly
+  ciphers: []
+  significance: medium
+  summary: 轻量级扩散层中 Toeplitz 矩阵的使用。
+  status: reviewed
+- id: feistel1973cipher
+  title: Cryptography and Computer Privacy
+  authors:
+  - Horst Feistel
+  venue: Scientific American 1973
+  year: 1973
+  url: https://eprint.iacr.org/2025/2232
+  directions:
+  - round_function
+  ciphers:
+  - Lucifer
+  significance: high
+  summary: Feistel 结构的提出，成为分组密码最基本的结构之一。
+  status: reviewed
+- id: zheng1996gfn
+  title: On the Construction of Block Ciphers Provably Secure and Not Relying on Any Unproved Hypotheses
+  authors:
+  - Yuliang Zheng
+  - Tsutomu Matsumoto
+  - Hideki Imai
+  venue: CRYPTO 1989
+  year: 1989
+  url: https://eprint.iacr.org/2026/020
+  directions:
+  - round_function
+  ciphers: []
+  significance: high
+  summary: 广义 Feistel 网络（GFN）的理论基础。
+  status: reviewed
+- id: luby1988prp
+  title: How to Construct Pseudorandom Permutations from Pseudorandom Functions
+  authors:
+  - Michael Luby
+  - Charles Rackoff
+  venue: SIAM J. Computing 1988
+  year: 1988
+  url: https://eprint.iacr.org/2025/2291
+  directions:
+  - round_function
+  ciphers: []
+  significance: high
+  summary: Luby-Rackoff 定理证明3轮 Feistel 结构是安全 PRP，密码学基本定理。
+  status: reviewed
+- id: khoo2017ks_analysis
+  title: On the Security of Key Schedule in Block Ciphers
+  authors:
+  - Khoongming Khoo
+  - et al.
+  venue: 2017
+  year: 2017
+  url: https://eprint.iacr.org/2025/2186
+  directions:
+  - key_schedule
+  - related_key
+  ciphers: []
+  significance: medium
+  summary: 密钥编排安全性的系统化分析。
+  status: reviewed
+- id: bogdanov2007present
+  title: 'PRESENT: An Ultra-Lightweight Block Cipher'
+  authors:
+  - Andrey Bogdanov
+  - Lars R. Knudsen
+  - Gregor Leander
+  - Christof Paar
+  - Axel Poschmann
+  - Matthew J.B. Robshaw
+  - Yannick Seurin
+  - Charlotte Vikkelsoe
+  venue: CHES 2007
+  year: 2007
+  url: https://doi.org/10.1007/978-3-540-74735-2_31
+  directions:
+  - hardware_friendly
+  - lightweight
+  - sbox
+  - permutation_layer
+  ciphers:
+  - PRESENT
+  significance: high
+  summary: PRESENT 密码，开创超轻量级 SPN 设计范式（1570 GE）。
+  status: reviewed
+- id: banik2017gift
+  title: 'GIFT: A Small Present'
+  authors:
+  - Subhadeep Banik
+  - Sumit Kumar Pandey
+  - Thomas Peyrin
+  - Yu Sasaki
+  - Siang Meng Sim
+  - Yosuke Todo
+  venue: CHES 2017
+  year: 2017
+  url: https://eprint.iacr.org/2017/622
+  directions:
+  - hardware_friendly
+  - lightweight
+  - sbox
+  - permutation_layer
+  ciphers:
+  - GIFT
+  significance: high
+  summary: GIFT 密码，PRESENT 的继承者，更好的安全性/面积比。
+  status: reviewed
+- id: beierle2016skinny
+  title: The SKINNY Family of Block Ciphers and Its Low-Latency Variant MANTIS
+  authors:
+  - Christof Beierle
+  - Jérémy Jean
+  - Stefan Kölbl
+  - Gregor Leander
+  - Amir Moradi
+  - Thomas Peyrin
+  - Yu Sasaki
+  - Pascal Sasdrich
+  - Siang Meng Sim
+  venue: CRYPTO 2016
+  year: 2016
+  url: https://eprint.iacr.org/2016/660
+  directions:
+  - hardware_friendly
+  - lightweight
+  - tweakable
+  - low_latency
+  ciphers:
+  - SKINNY
+  - MANTIS
+  significance: high
+  summary: SKINNY 可调密码族及低时延变体 MANTIS，基于 Tweakey 框架。
+  status: reviewed
+- id: guo2011led
+  title: The LED Block Cipher
+  authors:
+  - Jian Guo
+  - Thomas Peyrin
+  - Axel Poschmann
+  - Matt J.B. Robshaw
+  venue: CHES 2011
+  year: 2011
+  url: https://eprint.iacr.org/2024/1982
+  directions:
+  - hardware_friendly
+  - lightweight
+  - linear_diffusion
+  ciphers:
+  - LED
+  significance: medium
+  summary: LED 密码，基于 AES-like 结构的极轻量级设计，无密钥编排。
+  status: reviewed
+- id: decannierre2006katan
+  title: KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block Ciphers
+  authors:
+  - Christophe De Cannière
+  - Orr Dunkelman
+  - Miroslav Knežević
+  venue: CHES 2009
+  year: 2009
+  url: https://doi.org/10.1007/978-3-642-04138-9_20
+  directions:
+  - hardware_friendly
+  - lightweight
+  ciphers:
+  - KATAN
+  - KTANTAN
+  significance: medium
+  summary: KATAN/KTANTAN 极小面积密码（462-1054 GE），基于 LFSR 结构。
+  status: reviewed
+- id: zhang2015rectangle
+  title: 'RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms'
+  authors:
+  - Wentao Zhang
+  - Zhenzhen Bao
+  - Dongdai Lin
+  - Vincent Rijmen
+  - Bohan Yang
+  - Ingrid Verbauwhede
+  venue: Science China 2015
+  year: 2015
+  url: https://doi.org/10.1007/s11432-015-5459-7
+  directions:
+  - hardware_friendly
+  - software_friendly
+  - round_function
+  - permutation_layer
+  ciphers:
+  - RECTANGLE
+  significance: medium
+  summary: RECTANGLE 密码，面向 bitslice 实现优化的 SPN 设计。
+  status: reviewed
+- id: dobraunig2021ascon
+  title: 'Ascon v1.2: Lightweight Authenticated Encryption and Hashing'
+  authors:
+  - Christoph Dobraunig
+  - Maria Eichlseder
+  - Florian Mendel
+  - Martin Schläffer
+  venue: JoC 2021 / NIST LWC Winner
+  year: 2021
+  url: https://eprint.iacr.org/2021/1574
+  directions:
+  - lightweight
+  - aead
+  - hash_xof
+  - hardware_friendly
+  ciphers:
+  - Ascon
+  significance: high
+  summary: Ascon，NIST 轻量级密码标准，海绵结构 AEAD + Hash。
+  status: reviewed
+- id: beaulieu2015simon_speck
+  title: The SIMON and SPECK Families of Lightweight Block Ciphers
+  authors:
+  - Ray Beaulieu
+  - Douglas Shors
+  - Jason Smith
+  - Stefan Treatman-Clark
+  - Bryan Weeks
+  - Louis Wingers
+  venue: IACR ePrint 2013
+  year: 2013
+  url: https://eprint.iacr.org/2013/404
+  directions:
+  - lightweight
+  - hardware_friendly
+  - software_friendly
+  ciphers:
+  - SIMON
+  - SPECK
+  significance: high
+  summary: NSA 设计的 SIMON（硬件友好 Feistel）和 SPECK（软件友好 ARX）轻量级密码族。
+  status: reviewed
+- id: beierle2020craft
+  title: 'CRAFT: Lightweight Tweakable Block Cipher with Efficient Protection Against DFA Attacks'
+  authors:
+  - Christof Beierle
+  - Gregor Leander
+  - Amir Moradi
+  - Shahram Rasoolzadeh
+  venue: ToSC 2019
+  year: 2019
+  url: https://doi.org/10.13154/tosc.v2019.i1.5-45
+  directions:
+  - lightweight
+  - tweakable
+  - hardware_friendly
+  ciphers:
+  - CRAFT
+  significance: medium
+  summary: CRAFT，具有 DFA 防护的轻量级 TBC。
+  status: reviewed
+- id: borghoff2012prince
+  title: PRINCE – A Low-Latency Block Cipher for Pervasive Computing Applications
+  authors:
+  - Julia Borghoff
+  - Anne Canteaut
+  - Tim Güneysu
+  - et al.
+  venue: ASIACRYPT 2012
+  year: 2012
+  url: https://eprint.iacr.org/2012/529
+  directions:
+  - low_latency
+  - lightweight
+  ciphers:
+  - PRINCE
+  significance: high
+  summary: PRINCE，首个专门低时延优化设计，α-reflection 结构。
+  status: reviewed
+- id: banik2015midori
+  title: 'Midori: A Block Cipher for Low Energy'
+  authors:
+  - Subhadeep Banik
+  - et al.
+  venue: ASIACRYPT 2015
+  year: 2015
+  url: https://doi.org/10.1007/978-3-662-48800-3_17
+  directions:
+  - low_latency
+  - lightweight
+  - hardware_friendly
+  ciphers:
+  - Midori
+  significance: high
+  summary: Midori 密码，面向低能耗优化的分组密码设计。
+  status: reviewed
+- id: bernstein2008chacha
+  title: ChaCha, a variant of Salsa20
+  authors:
+  - Daniel J. Bernstein
+  venue: SASC 2008
+  year: 2008
+  url: https://eprint.iacr.org/2025/2128
+  directions:
+  - software_friendly
+  - round_function
+  ciphers:
+  - ChaCha
+  - Salsa20
+  significance: high
+  summary: ChaCha 流密码，ARX 结构典型代表，广泛应用于 TLS。
+  status: reviewed
+- id: bernstein2005salsa
+  title: Salsa20 specification
+  authors:
+  - Daniel J. Bernstein
+  venue: eSTREAM 2005
+  year: 2005
+  url: https://eprint.iacr.org/2025/289
+  directions:
+  - software_friendly
+  - round_function
+  ciphers:
+  - Salsa20
+  significance: high
+  summary: Salsa20，定义了 ARX 流密码的设计范式。
+  status: reviewed
+- id: beaulieu2015speck_sw
+  title: 'SIMON and SPECK: Block Ciphers for the Internet of Things'
+  authors:
+  - Ray Beaulieu
+  - et al.
+  venue: DAC 2015
+  year: 2015
+  url: https://eprint.iacr.org/2015/585
+  directions:
+  - software_friendly
+  - lightweight
+  ciphers:
+  - SPECK
+  significance: medium
+  summary: SPECK 的软件性能评估，在微控制器上表现优异。
+  status: reviewed
+- id: daemen2001rijndael
+  title: 'The Design of Rijndael: AES — The Advanced Encryption Standard'
+  authors:
+  - Joan Daemen
+  - Vincent Rijmen
+  venue: Springer 2002
+  year: 2002
+  url: https://doi.org/10.1007/978-3-662-60769-5
+  directions:
+  - high_throughput
+  - round_function
+  - linear_diffusion
+  - sbox
+  ciphers:
+  - AES
+  - Rijndael
+  significance: high
+  summary: AES/Rijndael 的设计文档，定义了现代 SPN 密码的标准范式。
+  status: reviewed
+- id: rogaway2004ocb
+  title: Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC
+  authors:
+  - Phillip Rogaway
+  venue: ASIACRYPT 2004
+  year: 2004
+  url: https://doi.org/10.1007/978-3-540-30539-2_2
+  directions:
+  - aead
+  - tweakable
+  ciphers:
+  - OCB
+  significance: high
+  summary: OCB 模式，率先实现单 pass AEAD 的经典工作。
+  status: reviewed
+- id: mcgrew2004gcm
+  title: The Galois/Counter Mode of Operation (GCM)
+  authors:
+  - David A. McGrew
+  - John Viega
+  venue: NIST SP 800-38D
+  year: 2004
+  url: https://doi.org/10.1007/978-3-540-30556-9_27
+  directions:
+  - aead
+  ciphers:
+  - AES-GCM
+  significance: high
+  summary: GCM 模式，TLS 中最广泛使用的 AEAD 方案。
+  status: reviewed
+- id: iwata2014cloc
+  title: 'CLOC: Authenticated Encryption for Short Input'
+  authors:
+  - Tetsu Iwata
+  - Kazuhiko Minematsu
+  - et al.
+  venue: FSE 2014
+  year: 2014
+  url: https://eprint.iacr.org/2014/157
+  directions:
+  - aead
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 面向短消息优化的轻量级 AEAD 方案。
+  status: reviewed
+- id: bertoni2007sponge
+  title: Sponge Functions
+  authors:
+  - Guido Bertoni
+  - Joan Daemen
+  - Michaël Peeters
+  - Gilles Van Assche
+  venue: ECRYPT Hash Workshop 2007
+  year: 2007
+  url: https://eprint.iacr.org/2026/055
+  directions:
+  - hash_xof
+  - round_function
+  ciphers:
+  - Keccak
+  significance: high
+  summary: 海绵结构的提出，成为 SHA-3 和轻量级 AEAD（Ascon 等）的基础。
+  status: reviewed
+- id: bertoni2011keccak
+  title: The Keccak SHA-3 submission
+  authors:
+  - Guido Bertoni
+  - Joan Daemen
+  - Michaël Peeters
+  - Gilles Van Assche
+  venue: NIST SHA-3 Competition 2011
+  year: 2011
+  url: https://eprint.iacr.org/2023/577
+  directions:
+  - hash_xof
+  ciphers:
+  - Keccak
+  - SHA-3
+  significance: high
+  summary: Keccak/SHA-3 规范，基于海绵结构的标准哈希函数。
+  status: reviewed
+- id: guo2011photon
+  title: 'PHOTON: An Ultra-Lightweight Hash Family'
+  authors:
+  - Jian Guo
+  - Thomas Peyrin
+  - Axel Poschmann
+  venue: CRYPTO 2011
+  year: 2011
+  url: https://eprint.iacr.org/2011/609
+  directions:
+  - hash_xof
+  - lightweight
+  - hardware_friendly
+  ciphers:
+  - PHOTON
+  significance: medium
+  summary: PHOTON，基于 AES-like P-置换的超轻量级哈希族。
+  status: reviewed
+- id: liskov2002tbc
+  title: Tweakable Block Ciphers
+  authors:
+  - Moses Liskov
+  - Ronald L. Rivest
+  - David Wagner
+  venue: CRYPTO 2002
+  year: 2002
+  url: https://eprint.iacr.org/2026/383
+  directions:
+  - tweakable
+  ciphers: []
+  significance: high
+  summary: 形式化可调分组密码概念，奠定 TBC 的理论基础。
+  status: reviewed
+- id: jean2016deoxys
+  title: Deoxys v1.41
+  authors:
+  - Jérémy Jean
+  - Ivica Nikolić
+  - Thomas Peyrin
+  - Yannick Seurin
+  venue: CAESAR Competition
+  year: 2016
+  url: ''
+  directions:
+  - tweakable
+  - aead
+  ciphers:
+  - Deoxys
+  significance: medium
+  summary: Deoxys AEAD 方案，基于 TWEAKEY 框架的 TBC。
+  status: reviewed
+- id: bariant2025aes_diff
+  title: New Techniques for Analyzing Differentials with Applications to AES
+  authors:
+  - Jean-François Biasse
+  - et al.
+  venue: ePrint 2025
+  year: 2025
+  url: ''
+  directions:
+  - differential
+  ciphers:
+  - AES
+  significance: high
+  summary: 对 AES 差分性质的新分析技术，证明 8 轮 AES 的 pairwise independence 上界为 2^-18。
+  status: pending_review
+- id: speedy2025diff
+  title: Improved Differential Cryptanalysis of SPEEDY
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/915
+  directions:
+  - differential
+  ciphers:
+  - SPEEDY
+  significance: medium
+  summary: 修正了 SPEEDY 差分攻击中的概率计算错误，给出 5.5 轮差分区分器。
+  status: pending_review
+- id: kuznyechik2025cdiff
+  title: Extended c-differential Distinguishers for Kuznyechik
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1238
+  directions:
+  - differential
+  ciphers:
+  - Kuznyechik
+  significance: high
+  summary: 提出 truncated inner c-differential 分析方法，首次对 9 轮 Kuznyechik 构建实际区分器。
+  status: pending_review
+- id: aes6_boomerang2024
+  title: Improved Boomerang Attacks on 6-Round AES
+  authors:
+  - Augustin Bariant
+  - Orr Dunkelman
+  - Nathan Keller
+  - Gaëtan Leurent
+  - Victor Mollimard
+  venue: ePrint 2024/977
+  year: 2024
+  url: https://eprint.iacr.org/2024/977
+  directions:
+  - boomerang
+  ciphers:
+  - AES
+  significance: high
+  summary: 结合 retracing 和 truncated boomerang 技术，给出实际内存开销的 6 轮 AES 攻击。
+  status: pending_review
+- id: iba_framework2025
+  title: Holistic Framework for Impossible Boomerang Attacks
+  authors:
+  - Chang Chen
+  - Guoyu Yang
+  - Qi Chen
+  - Wei Wang
+  - Jin Li
+  venue: ePrint 2025/126
+  year: 2025
+  url: https://eprint.iacr.org/2025/126
+  directions:
+  - boomerang
+  - impossible_differential
+  - milp_sat_cp
+  ciphers:
+  - SKINNY
+  - AES
+  significance: high
+  summary: 提出不可能回旋镖的通用框架和 MILP 自动搜索模型。
+  status: pending_review
+- id: ib_revisited2024
+  title: Impossible Boomerang Distinguishers Revisited
+  authors:
+  - Xichao Hu
+  - Lin Jiao
+  - Dengguo Feng
+  - Yonglin Hao
+  - Xinxin Gong
+  - Yongqiang Li
+  - Siwei Sun
+  venue: ePrint 2024/1008
+  year: 2024
+  url: https://eprint.iacr.org/2024/1008
+  directions:
+  - boomerang
+  - impossible_differential
+  ciphers:
+  - AES
+  - SPECK
+  - GIFT
+  - CHAM
+  - SKINNY
+  significance: medium
+  summary: 重新审视不可能回旋镖区分器框架，改进多个密码的轮数覆盖。
+  status: pending_review
+- id: boom_3diff2023
+  title: Revisiting the Boomerang Attack from a Perspective of 3-differential
+  authors:
+  - Yuval Gelles
+  - Ilan Komargodski
+  venue: ePrint 2023/1139
+  year: 2023
+  url: https://eprint.iacr.org/2023/1139
+  directions:
+  - boomerang
+  - differential
+  ciphers:
+  - GIFT
+  significance: medium
+  summary: 从 3-differential 视角精确计算回旋镖概率（无需假设），应用于 GIFT。
+  status: pending_review
+- id: solver_benchmark2024
+  title: A Comparative Analysis of SAT, SMT, MILP, and CP for Differential Cryptanalysis
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: ''
+  directions:
+  - milp_sat_cp
+  - differential
+  - automated_search
+  ciphers: []
+  significance: high
+  summary: 在 20+ 密码和 16 个求解器上系统比较 SAT/SMT/MILP/CP 的性能，涵盖优化、枚举和概率估计。
+  status: pending_review
+- id: window_heuristic2025
+  title: 'The Window Heuristic: Automating Differential Trail Search in ARX Ciphers'
+  authors:
+  - Emanuele Bellini 0002
+  - David Gérault
+  - Juan Grados 0002
+  - Thomas Peyrin
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2024/1743
+  directions:
+  - milp_sat_cp
+  - differential
+  - automated_search
+  ciphers:
+  - ChaCha
+  - SPECK
+  - LEA
+  - HIGHT
+  significance: high
+  summary: 提出 Window Heuristic 方法，通过部分线性化权衡大幅加速 ARX 密码的差分路径搜索。
+  status: pending_review
+- id: trail_estimator2025
+  title: 'Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers'
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/396
+  directions:
+  - milp_sat_cp
+  - differential
+  - automated_search
+  ciphers: []
+  significance: medium
+  summary: 自动验证差分 trail 有效性和概率的工具。
+  status: pending_review
+- id: id_automation2024
+  title: 'Impossible Differential Automation: Model Generation and New Techniques'
+  authors:
+  - Hosein Hadipour
+  - et al.
+  venue: ePrint 2024/1998
+  year: 2024
+  url: https://eprint.iacr.org/2024/1998
+  directions:
+  - impossible_differential
+  - milp_sat_cp
+  - automated_search
+  ciphers:
+  - AES
+  - SKINNY
+  - PRESENT
+  - SIMON
+  - SPECK
+  significance: high
+  summary: 自动生成不可能差分 MILP 模型的框架，支持多种密码结构。
+  status: pending_review
+- id: simon_dl_milp2024
+  title: Improved Differential-Linear Distinguishers for Simon and Simeck via MILP/MIQCP
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: ''
+  directions:
+  - milp_sat_cp
+  - linear
+  - differential
+  ciphers:
+  - SIMON
+  - Simeck
+  significance: medium
+  summary: 使用 MILP/MIQCP 自动搜索 Simon/Simeck 的差分-线性区分器，扩展攻击轮数。
+  status: pending_review
+- id: rethink_ml2025
+  title: 'Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective'
+  authors:
+  - Yufei Yuan
+  - Haiyi Xu
+  - Lei Zhang
+  - Wenling Wu
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1306
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - SPECK
+  significance: high
+  summary: 建立学习理论框架（CoTo 模型 + CPF），改进 SPECK32/64 区分器并扩展到 9 轮。
+  status: pending_review
+- id: neural_6years2024
+  title: 6 Years of Neural Differential Cryptanalysis
+  authors:
+  - Aron Gohr
+  - et al.
+  venue: ePrint 2024
+  year: 2024
+  url: https://eprint.iacr.org/2025/537
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - SPECK
+  - SIMON
+  significance: high
+  summary: 神经差分分析 6 年全面综述，总结各方法的优劣和发展方向。
+  status: pending_review
+- id: mixture_diff_ml2024
+  title: Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine Learning
+  authors: []
+  venue: 2024
+  year: 2024
+  url: ''
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - SIMON
+  significance: medium
+  summary: 使用 mixture differential 神经网络区分器改进 SIMON 攻击。
+  status: pending_review
+- id: dp_min_data2023
+  title: Provably Minimum Data Complexity Integral Distinguisher Based on Conventional Division Property
+  authors:
+  - Yilei Chen
+  - Zihan Hu
+  - Qipeng Liu
+  - Han Luo
+  - Yaxin Tu
+  venue: ePrint 2023/1498
+  year: 2023
+  url: https://eprint.iacr.org/2023/1498
+  directions:
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - GIFT
+  - PRESENT
+  - SIMON
+  significance: high
+  summary: 证明性最小数据复杂度的积分区分器搜索方法，在 GIFT/PRESENT/SIMON 上改进结果。
+  status: pending_review
+- id: integral_ease2023
+  title: Finding Integral Distinguishers with Ease
+  authors:
+  - Alexandru Cojocaru
+  - Juan Garay
+  - Fang Song
+  venue: ePrint 2023/798
+  year: 2023
+  url: https://eprint.iacr.org/2023/798
+  directions:
+  - integral_division
+  - milp_sat_cp
+  - automated_search
+  ciphers: []
+  significance: medium
+  summary: 自动化积分区分器发现框架，在多个密码上报告新的或改进的区分器。
+  status: pending_review
+- id: cube_trivium2024
+  title: A New Practical Cube Attack via Recovering Numerous Superpolys
+  authors:
+  - Jianming Lin
+  - Chang-An Zhao
+  - Yuhao Zheng
+  venue: ePrint 2024/1195
+  year: 2024
+  url: https://eprint.iacr.org/2024/1195
+  directions:
+  - algebraic
+  - integral_division
+  ciphers:
+  - Trivium
+  significance: high
+  summary: 实际恢复 820 和 832 轮 Trivium 密钥的 Cube Attack，刷新攻击记录。
+  status: pending_review
+- id: cube_stretch2023
+  title: 'Stretching Cube Attacks: Improved Methods to Recover Massive Superpolies'
+  authors:
+  - Shichen Wu
+  - Puwen Wei
+  - Ren Zhang
+  - Bowen Jiang
+  venue: ePrint 2023/1089
+  year: 2023
+  url: https://eprint.iacr.org/2023/1089
+  directions:
+  - algebraic
+  - integral_division
+  ciphers:
+  - Trivium
+  - Kreyvium
+  significance: medium
+  summary: 改进大规模 superpoly 恢复方法，扩展 Cube Attack 能力。
+  status: pending_review
+- id: cube_ascon2023
+  title: Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: https://eprint.iacr.org/2024/743
+  directions:
+  - algebraic
+  - aead
+  ciphers:
+  - Ascon
+  significance: high
+  summary: 对 Ascon AEAD 的改进条件 Cube Attack，在遵守 nonce 限制下的密钥恢复。
+  status: pending_review
+- id: cube_chilow2025
+  title: Cryptanalysis of ChiLow with Cube-Like Attacks
+  authors:
+  - Keitaro Hashimoto
+  - Wakaha Ogata
+  - Yusuke Sakai
+  venue: ePrint 2025/115
+  year: 2025
+  url: https://eprint.iacr.org/2025/115
+  directions:
+  - algebraic
+  - integral_division
+  ciphers:
+  - ChiLow
+  significance: medium
+  summary: 对 ChiLow-32 的条件 Cube Attack 和积分攻击。
+  status: pending_review
+- id: diff_mitm2023
+  title: Differential Meet-In-The-Middle Cryptanalysis
+  authors:
+  - Ling Song 0001
+  - Qianqian Yang 0003
+  - Huimin Liu
+  venue: CRYPTO 2023
+  year: 2023
+  url: https://eprint.iacr.org/2025/1918
+  directions:
+  - meet_in_the_middle
+  - differential
+  ciphers:
+  - SKINNY
+  - AES
+  significance: high
+  summary: 提出差分 MITM 方法，结合 MITM 和差分分析，应用于 SKINNY-128-384 和 AES-256。
+  status: pending_review
+- id: diff_mitm_revisit2023
+  title: Revisiting the Differential Meet-In-The-Middle Cryptanalysis
+  authors:
+  - Ling Song
+  - Qianqian Yang
+  - Huimin Liu
+  venue: ePrint 2023/1302
+  year: 2023
+  url: https://eprint.iacr.org/2023/1302
+  directions:
+  - meet_in_the_middle
+  - differential
+  ciphers:
+  - SKINNY
+  - AES
+  significance: medium
+  summary: 改进差分 MITM 攻击，引入经典差分技术变体。
+  status: pending_review
+- id: idma2024
+  title: Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY
+  authors:
+  - Ling Song
+  - Qinggan Fu
+  - Qianqian Yang
+  - Yin Lv
+  - Lei Hu
+  venue: ePrint 2024/1908
+  year: 2024
+  url: https://eprint.iacr.org/2024/1908
+  directions:
+  - meet_in_the_middle
+  - impossible_differential
+  ciphers:
+  - SKINNY
+  - ForkSKINNY
+  significance: high
+  summary: 提出通用 IDMA 框架，将不可能差分与 MITM 结合，改进 SKINNY 攻击 2 轮。
+  status: pending_review
+- id: auto_mitm2025
+  title: An Automated Model to Search For Differential Meet-In-The-Middle Attack
+  authors:
+  - Debasmita Chakraborty
+  - Soumya Sahoo
+  - Phuong Hoa Nguyen
+  - Santanu Sarkar
+  venue: ePrint 2025/1249
+  year: 2025
+  url: https://eprint.iacr.org/2025/1249
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  - automated_search
+  ciphers:
+  - SIMON
+  - Simeck
+  significance: high
+  summary: 自动化差分 MITM 攻击搜索工具，应用于比特级密码。
+  status: pending_review
+- id: thf2025
+  title: 'THF: Ultra-Low Latency Tweakable Block Cipher Family'
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: ''
+  directions:
+  - low_latency
+  - tweakable
+  - hardware_friendly
+  - linear_diffusion
+  ciphers:
+  - THF
+  significance: high
+  summary: THF 可调密码族，超低时延设计，对数深度 Toeplitz 哈希扩散，beyond-birthday-bound 安全性。
+  status: pending_review
+- id: uknit2023
+  title: 'uKNIT-BC: A New Low-Latency Block Cipher Design Strategy'
+  authors: []
+  venue: ePrint 2023
+  year: 2023
+  url: https://eprint.iacr.org/2024/1962
+  directions:
+  - low_latency
+  - hardware_friendly
+  ciphers:
+  - uKNIT
+  significance: medium
+  summary: 超低时延密码设计策略，优于 PRINCEv2 的时延/面积/能耗。
+  status: pending_review
+- id: vistrutah2025
+  title: The Large Block Cipher Family Vistrutah
+  authors:
+  - Roberto Avanzi
+  - Bishwajit Chakraborty 0002
+  - Eik List
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/976
+  directions:
+  - high_throughput
+  - round_function
+  ciphers:
+  - Vistrutah
+  significance: medium
+  summary: 大分组密码族 Vistrutah。
+  status: pending_review
+- id: eevee2023
+  title: Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation
+  authors:
+  - Amit Singh Bhati
+  - Erik Pohle
+  - Aysajan Abidin
+  - Elena Andreeva 0001
+  - Bart Preneel
+  venue: 2023
+  year: 2023
+  url: https://doi.org/10.1145/3576915.3623091
+  directions:
+  - aead
+  - lightweight
+  ciphers:
+  - Eevee
+  significance: medium
+  summary: 面向 IoT-to-cloud 的 AEAD 模式族（Umbreon/Jolteon/Espeon），不同安全/性能权衡。
+  status: pending_review
+- id: ascon_pq2025
+  title: Post-Quantum Security of Ascon AEAD Mode
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1059
+  directions:
+  - aead
+  - lightweight
+  ciphers:
+  - Ascon
+  significance: high
+  summary: 证明 Ascon AEAD 模式在后量子安全模型下的安全性。
+  status: pending_review
+- id: double_sponge2024
+  title: 'Double Sponge: A New Hashing Mode beyond Birthday Bound'
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: ''
+  directions:
+  - hash_xof
+  ciphers: []
+  significance: medium
+  summary: 双海绵哈希模式，使用两个 b-bit 置换达到超过 birthday bound 的安全性。
+  status: pending_review
+- id: sponge_ff2025
+  title: 'Sponge with Feed-Forward: Improved Preimage Security'
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/963
+  directions:
+  - hash_xof
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: 带 feed-forward 的海绵结构，改进原像和第二原像安全性上界。
+  status: pending_review
+- id: langford1994dl
+  title: Differential-Linear Cryptanalysis
+  authors:
+  - Susan K. Langford
+  - Martin E. Hellman
+  venue: CRYPTO 1994
+  year: 1994
+  url: https://doi.org/10.1007/s12095-024-00708-z
+  directions:
+  - differential
+  - linear
+  ciphers:
+  - DES
+  significance: high
+  summary: 提出差分-线性分析组合技术，将差分部分和线性部分的概率/偏差联合使用。
+  status: reviewed
+- id: biham2002dl
+  title: Enhancing Differential-Linear Cryptanalysis
+  authors:
+  - Eli Biham
+  - Orr Dunkelman
+  - Nathan Keller
+  venue: ASIACRYPT 2002
+  year: 2002
+  url: https://doi.org/10.1007/978-981-95-5018-0_12
+  directions:
+  - differential
+  - linear
+  ciphers: []
+  significance: medium
+  summary: 改进差分-线性分析框架，扩展到更多密码。
+  status: reviewed
+- id: bellini2023dl_arx
+  title: Fully Automated Differential-Linear Attacks against ARX Ciphers
+  authors:
+  - Emanuele Bellini
+  - David Gerault
+  - Juan Grados
+  - Rusydi H. Makarim
+  - Thomas Peyrin
+  venue: CT-RSA 2023
+  year: 2023
+  url: https://eprint.iacr.org/2023/181
+  directions:
+  - differential
+  - linear
+  - milp_sat_cp
+  - automated_search
+  ciphers:
+  - SPECK
+  - ChaCha
+  significance: high
+  summary: 全自动化 ARX 密码的差分-线性攻击，改进了 SPECK 和 ChaCha 的区分器。
+  status: pending_review
+- id: bellini2023dl_chacha
+  title: Boosting Differential-Linear Cryptanalysis of ChaCha7 with MILP
+  authors:
+  - Emanuele Bellini
+  - David Gerault
+  - Juan Grados
+  - Rusydi H. Makarim
+  - Thomas Peyrin
+  venue: ToSC 2023
+  year: 2023
+  url: https://doi.org/10.46586/tosc.v2023.i2.189-223
+  directions:
+  - differential
+  - linear
+  - milp_sat_cp
+  ciphers:
+  - ChaCha
+  significance: high
+  summary: 使用 MILP 增强 ChaCha7 的差分-线性分析。
+  status: pending_review
+- id: hu2023ho_dl
+  title: Revisiting Higher-Order Differential-Linear Attacks from an Algebraic Perspective
+  authors:
+  - Kai Hu
+  - Thomas Peyrin
+  - Quan Quan Tan
+  - Trevor Yap
+  venue: ASIACRYPT 2023
+  year: 2023
+  url: https://eprint.iacr.org/2022/1335
+  directions:
+  - differential
+  - linear
+  - algebraic
+  ciphers: []
+  significance: high
+  summary: 从代数视角重新审视高阶差分-线性攻击。
+  status: pending_review
+- id: tan2022key_dep
+  title: 'Mind Your Path: on (Key) Dependencies in Differential Characteristics'
+  authors:
+  - Quan Quan Tan
+  - Thomas Peyrin
+  venue: ToSC 2022 (Best Paper)
+  year: 2022
+  url: https://doi.org/10.46586/tosc.v2022.i4.179-207
+  directions:
+  - differential
+  - milp_sat_cp
+  ciphers: []
+  significance: high
+  summary: 分析差分特征中的密钥依赖性问题（FSE 2023 最佳论文奖）。
+  status: reviewed
+- id: hu2024tdt
+  title: TDT Method for Evaluating Differential-Linear Bias
+  authors:
+  - Kai Hu
+  - et al.
+  venue: CRYPTO 2024
+  year: 2024
+  url: ''
+  directions:
+  - differential
+  - linear
+  ciphers: []
+  significance: high
+  summary: 提出 TDT 方法和广义 DLCT 方法精确评估差分-线性偏差。
+  status: pending_review
+- id: dl_chacha_2024
+  title: Differential-Linear Cryptanalysis of Reduced Round ChaCha
+  authors:
+  - Zhichao Xu
+  - Hong Xu
+  - Lin Tan
+  - Wenfeng Qi
+  venue: ToSC 2024
+  year: 2024
+  url: https://eprint.iacr.org/2025/2128
+  directions:
+  - differential
+  - linear
+  ciphers:
+  - ChaCha
+  significance: medium
+  summary: 对减轮 ChaCha 的差分-线性分析。
+  status: pending_review
+- id: niu2022rotational_dl
+  title: Rotational Differential-Linear Distinguishers of ARX Ciphers with Arbitrary Output Linear Masks
+  authors:
+  - Zhongfeng Niu
+  - et al.
+  venue: CRYPTO 2022
+  year: 2022
+  url: https://eprint.iacr.org/2022/765
+  directions:
+  - differential
+  - linear
+  - automated_search
+  ciphers:
+  - ChaCha
+  - SPECK
+  significance: high
+  summary: 旋转差分-线性区分器的一般理论，在 ChaCha 和 SPECK 上找到显著改进。
+  status: reviewed
+- id: khovratovich2006rot
+  title: Rotational Cryptanalysis of ARX
+  authors:
+  - Dmitry Khovratovich
+  - Ivica Nikolić
+  venue: FSE 2010
+  year: 2010
+  url: https://eprint.iacr.org/2025/550
+  directions:
+  - differential
+  ciphers: []
+  significance: high
+  summary: 提出旋转密码分析（rotational cryptanalysis），ARX 密码的专用分析方法。
+  status: reviewed
+- id: chacha_6round2023
+  title: Cryptanalysis of Reduced Round ChaCha - New Attack and Deeper Analysis
+  authors:
+  - Sabyasachi Dey
+  - Hirendra Kumar Garai
+  - Subhamoy Maitra
+  venue: ePrint 2023/134
+  year: 2023
+  url: https://eprint.iacr.org/2023/134
+  directions:
+  - differential
+  - software_friendly
+  ciphers:
+  - ChaCha
+  significance: medium
+  summary: 改进 6 轮 ChaCha 攻击，分治法处理密钥比特。
+  status: pending_review
+- id: salsa_2024
+  title: Improved Key Recovery Attacks on Reduced-Round Salsa20
+  authors:
+  - Sabyasachi Dey
+  - Gregor Leander
+  - Nitin Kumar Sharma
+  venue: ePrint 2024/1363
+  year: 2024
+  url: https://eprint.iacr.org/2025/1830
+  directions:
+  - differential
+  - software_friendly
+  ciphers:
+  - Salsa20
+  significance: medium
+  summary: 改进减轮 Salsa20 的密钥恢复攻击。
+  status: pending_review
+- id: salsa_8round2025
+  title: Significantly Improved Cryptanalysis of Salsa20 With Two-Round Criteria
+  authors:
+  - Daehyeon Bae
+  - Sujin Park
+  - Minsig Choi
+  - Young-Giu Jung
+  - Changmin Jeong
+  - Heeseok Kim
+  - Seokhie Hong
+  venue: ePrint 2025/20
+  year: 2025
+  url: https://eprint.iacr.org/2025/20
+  directions:
+  - differential
+  - software_friendly
+  ciphers:
+  - Salsa20
+  significance: high
+  summary: 首次超过 8 轮的 Salsa20 分析（8.5 轮），大幅改进 Salsa20/8 攻击。
+  status: pending_review
+- id: mcts_speck2024
+  title: 'Monte Carlo Tree Search for Automatic Differential Characteristics Search: Application to SPECK'
+  authors:
+  - Emanuele Bellini
+  - David Gerault
+  - Matteo Protopapa
+  - Matteo Rossi
+  venue: ePrint 2024/126
+  year: 2024
+  url: https://eprint.iacr.org/2024/126
+  directions:
+  - automated_search
+  - differential
+  - ml_aided
+  ciphers:
+  - SPECK
+  significance: high
+  summary: 使用 MCTS（蒙特卡洛树搜索）自动搜索差分特征，在 SPECK 上验证。
+  status: pending_review
+- id: cascada2022
+  title: 'CASCADA: Characteristic Automated Search of Cryptographic Algorithms for Distinguishing Attacks'
+  authors: []
+  venue: ePrint 2022
+  year: 2022
+  url: https://eprint.iacr.org/2022/513
+  directions:
+  - automated_search
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 开源 Python 库，使用 SMT 求解器评估密码安全性。
+  status: pending_review
+- id: gift128_linear2022
+  title: Addendum to Linear Cryptanalyses of AEADs with GIFT-128
+  authors:
+  - Sun et al.
+  venue: ePrint 2022
+  year: 2022
+  url: https://eprint.iacr.org/2022/151
+  directions:
+  - linear
+  ciphers:
+  - GIFT
+  significance: medium
+  summary: 发现 19 轮线性逼近，将 GIFT-128 线性攻击扩展到 25 轮。
+  status: pending_review
+- id: gift_dl2025
+  title: Differential-Linear Cryptanalysis of the GIFT Family and GIFT-based Ciphers
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1931
+  directions:
+  - differential
+  - linear
+  ciphers:
+  - GIFT
+  - GIFT-COFB
+  - HyENA
+  significance: high
+  summary: GIFT 族的差分-线性分析，17 轮逼近 → 19 轮密钥恢复。
+  status: pending_review
+- id: gift_ml_dist2024
+  title: ML-based Improved Differential Distinguisher for GIFT-128
+  authors:
+  - Tarun Yadav
+  - Manoj Kumar
+  venue: ePrint 2024
+  year: 2024
+  url: https://eprint.iacr.org/2024/1370
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - GIFT
+  significance: medium
+  summary: GIFT-128 的 ML 差分区分器，7 轮 98.8% / 8 轮 99.8% 准确率。
+  status: pending_review
+- id: ascon_trail_bounds2022
+  title: Improved Differential and Linear Trail Bounds for Ascon
+  authors:
+  - Solane El Hirch
+  - Silvia Mella
+  - Alireza Mehrdad
+  - Joan Daemen
+  venue: ePrint 2022
+  year: 2022
+  url: https://eprint.iacr.org/2022/1377
+  directions:
+  - differential
+  - linear
+  - milp_sat_cp
+  ciphers:
+  - Ascon
+  significance: high
+  summary: Ascon 的改进差分和线性路径下界，首次给出 6 轮以上差分和 12 轮以上线性的上界。
+  status: pending_review
+- id: ascon_exact_security2023
+  title: Exact Security Analysis of ASCON
+  authors:
+  - Bishnu Chakraborty
+  - Chandranan Dhar
+  - Mridul Nandi
+  venue: ASIACRYPT 2023
+  year: 2023
+  url: https://eprint.iacr.org/2023/775
+  directions:
+  - aead
+  - lightweight
+  ciphers:
+  - Ascon
+  significance: high
+  summary: Ascon 的精确安全性分析（ASIACRYPT 2023）。
+  status: pending_review
+- id: ascon_sat2023
+  title: New Models for the Cryptanalysis of Ascon
+  authors:
+  - Mathieu Degré
+  - Patrick Derbez
+  - Lucie Lahaye
+  - André Schrottenloher
+  venue: ePrint 2023
+  year: 2023
+  url: https://eprint.iacr.org/2024/298
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers:
+  - Ascon
+  significance: medium
+  summary: Ascon-Hash 的 SAT 建模 MITM 攻击，4 轮内存从 2^54 降至 2^34。
+  status: pending_review
+- id: ascon_key_recovery2025
+  title: Improved Key Recovery Attacks on Ascon
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1029
+  directions:
+  - differential
+  - algebraic
+  ciphers:
+  - Ascon
+  significance: high
+  summary: 改进 Ascon-128 密钥恢复，7 轮 2^95.96 时间复杂度，nonce misuse 下扩展到 8-9 轮。
+  status: pending_review
+- id: ascon_ml2024
+  title: ML-based Improved Differential Distinguisher for Ascon
+  authors:
+  - Tarun Yadav
+  - Manoj Kumar
+  venue: ePrint 2024
+  year: 2024
+  url: https://eprint.iacr.org/2024/1370
+  directions:
+  - ml_aided
+  - differential
+  ciphers:
+  - Ascon
+  significance: medium
+  summary: Ascon 的 ML 差分区分器，4 轮准确率提升到 99.4%。
+  status: pending_review
+- id: skinny_rectangle2022
+  title: Improved Rectangle Attacks on SKINNY and CRAFT
+  authors:
+  - Qianqian Yang
+  - Ling Song
+  - Nana Zhang
+  - Danping Shi
+  - Libo Wang
+  - Jiahao Zhao
+  - Lei Hu
+  - Jian Weng
+  venue: ePrint 2022
+  year: 2022
+  url: https://eprint.iacr.org/2024/1197
+  directions:
+  - boomerang
+  - related_key
+  ciphers:
+  - SKINNY
+  - CRAFT
+  significance: medium
+  summary: SKINNY 的改进相关密钥 rectangle 攻击，28 轮 SKINNY-128-384。
+  status: pending_review
+- id: skinnye_cancellation2023
+  title: Tweakey Schedule Differential Cancellations in SKINNYe
+  authors:
+  - Lingyue Qin
+  - Xiaoyang Dong
+  - Anyu Wang
+  - Jialiang Hua
+  - Xiaoyun Wang
+  venue: ePrint 2023
+  year: 2023
+  url: https://eprint.iacr.org/2022/789
+  directions:
+  - key_schedule
+  - related_key
+  - differential
+  ciphers:
+  - SKINNY
+  significance: medium
+  summary: 发现 SKINNYe 密钥编排中异常差分抵消，导致 41 轮 rectangle 攻击。
+  status: pending_review
+- id: skinny_weak_subtk2023
+  title: Weak Subtweakeys in SKINNY Block Cipher
+  authors: []
+  venue: ePrint 2023
+  year: 2023
+  url: ''
+  directions:
+  - key_schedule
+  - linear
+  ciphers:
+  - SKINNY
+  significance: medium
+  summary: 发现 SKINNY 密钥编排中的弱子密钥导致高概率线性逼近。
+  status: pending_review
+- id: mds_ultralight2024
+  title: 'Ultra-Light MDS Matrices: Implementation Trees and Enumeration'
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: ''
+  directions:
+  - linear_diffusion
+  - hardware_friendly
+  ciphers: []
+  significance: medium
+  summary: 超轻量 MDS 矩阵的实现树算法，4×4 仅 35 XOR / 8×8 仅 67 XOR。
+  status: pending_review
+- id: mds_copy2022
+  title: Lightweight MDS Matrices with Copy Operations
+  authors: []
+  venue: ePrint 2022
+  year: 2022
+  url: ''
+  directions:
+  - linear_diffusion
+  - hardware_friendly
+  ciphers: []
+  significance: medium
+  summary: 使用 Copy 操作构造轻量级 MDS 矩阵的新方法。
+  status: pending_review
+- id: sbox_min_area2024
+  title: Minimum Area for Optimal 4-bit S-boxes
+  authors:
+  - Chenhao Jia
+  - Tingting Cui
+  - Qing Ling
+  - Yan He
+  - Kai Hu
+  - Yu Sun
+  - Meiqin Wang
+  venue: ePrint 2024
+  year: 2024
+  url: https://eprint.iacr.org/2025/386
+  directions:
+  - sbox
+  - hardware_friendly
+  ciphers: []
+  significance: medium
+  summary: 4-bit 最优 S-box 的最小面积实现研究。
+  status: pending_review
+- id: apn_biprojective2024
+  title: A Family of Biprojective APN Functions
+  authors:
+  - Lukas Kölsch
+  venue: ePrint 2024
+  year: 2024
+  url: https://doi.org/10.1016/j.ffa.2024.102494
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 双射 APN 函数族的构造和代数度分析。
+  status: pending_review
+- id: fixed_key_diff2022
+  title: Differential Cryptanalysis in the Fixed-Key Model
+  authors:
+  - Shiyao Chen
+  - Jian Guo
+  - Tianyu Zhang
+  venue: CRYPTO 2022
+  year: 2022
+  url: https://eprint.iacr.org/2025/2149
+  directions:
+  - differential
+  ciphers: []
+  significance: high
+  summary: 固定密钥模型下的差分分析理论框架（CRYPTO 2022）。
+  status: reviewed
+- id: gift_cofb
+  title: 'GIFT-COFB: A Lightweight AEAD based on GIFT-128'
+  authors:
+  - Subhadeep Banik
+  - Avik Chakraborti
+  - Tetsu Iwata
+  - Kazuhiko Minematsu
+  - Mridul Nandi
+  - Thomas Peyrin
+  - Yu Sasaki
+  - Siang Meng Sim
+  - Yosuke Todo
+  venue: NIST LWC Finalist
+  year: 2020
+  url: https://eprint.iacr.org/2021/648
+  directions:
+  - aead
+  - lightweight
+  - hardware_friendly
+  ciphers:
+  - GIFT
+  - GIFT-COFB
+  significance: high
+  summary: 基于 GIFT-128 的轻量级 AEAD，NIST LWC 决赛候选方案。
+  status: reviewed
+- id: romulus
+  title: Romulus v1.3
+  authors:
+  - Thomas Peyrin
+  - et al.
+  venue: NIST LWC Finalist
+  year: 2020
+  url: ''
+  directions:
+  - aead
+  - tweakable
+  - lightweight
+  ciphers:
+  - Romulus
+  - SKINNY
+  significance: medium
+  summary: 基于 SKINNY 的 Romulus AEAD 方案，NIST LWC 决赛候选。
+  status: reviewed
+- id: tinyjambu
+  title: 'TinyJAMBU: A Family of Lightweight Authenticated Encryption Algorithms'
+  authors:
+  - Hongjun Wu
+  - Tao Huang
+  venue: NIST LWC Finalist
+  year: 2019
+  url: ''
+  directions:
+  - aead
+  - lightweight
+  - hardware_friendly
+  ciphers:
+  - TinyJAMBU
+  significance: medium
+  summary: TinyJAMBU 轻量级 AEAD 族，基于 keyed 置换。
+  status: reviewed
+- id: sparkle
+  title: 'Esch256 and SPARKLE: Lightweight Hash and AEAD'
+  authors:
+  - Christof Beierle
+  - et al.
+  venue: NIST LWC Finalist
+  year: 2019
+  url: ''
+  directions:
+  - aead
+  - hash_xof
+  - lightweight
+  ciphers:
+  - SPARKLE
+  - Esch
+  significance: medium
+  summary: SPARKLE 置换族和基于它的 AEAD/Hash，NIST LWC 决赛候选。
+  status: reviewed
+- id: biryukov2014survey
+  title: Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers
+  authors:
+  - Alex Biryukov
+  - Ivica Nikolić
+  venue: EUROCRYPT 2014
+  year: 2014
+  url: https://eprint.iacr.org/2010/248
+  directions:
+  - related_key
+  - milp_sat_cp
+  - automated_search
+  ciphers:
+  - AES
+  significance: high
+  summary: 字节级分组密码相关密钥差分自动搜索。
+  status: reviewed
+- id: cube_survey2023
+  title: Fourteen Years of Cube Attacks
+  authors: []
+  venue: 2023
+  year: 2023
+  url: ''
+  directions:
+  - algebraic
+  - integral_division
+  ciphers: []
+  significance: medium
+  summary: Cube Attack 14 年发展的全面综述。
+  status: pending_review
+- id: zip_cipher2024
+  title: A General Framework of ZIP Ciphers
+  authors:
+  - Flórez-Gutiérrez et al.
+  venue: ASIACRYPT 2024
+  year: 2024
+  url: https://eprint.iacr.org/2025/2291
+  directions:
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: ZIP 密码的通用框架（ASIACRYPT 2024）。
+  status: pending_review
+- id: masking_threshold2023
+  title: Masking Thresholds for Lightweight Ciphers
+  authors: []
+  venue: CHES 2023
+  year: 2023
+  url: ''
+  directions:
+  - hardware_friendly
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 轻量级密码 masking 实现的门限复杂度分析。
+  status: pending_review
+- id: nyberg1994linear_approx
+  title: Linear Approximation of Block Ciphers
+  authors:
+  - Kaisa Nyberg
+  venue: EUROCRYPT 1994
+  year: 1994
+  url: https://eprint.iacr.org/2025/1931
+  directions:
+  - linear
+  ciphers: []
+  significance: high
+  summary: 首次描述 linear hull 效应，指出单条线性逼近不足以评估安全性。
+  status: reviewed
+- id: daemen1995correlation
+  title: Correlation Matrices
+  authors:
+  - Joan Daemen
+  - René Govaerts
+  - Joos Vandewalle
+  venue: FSE 1994
+  year: 1995
+  url: https://doi.org/10.1016/j.jmva.2025.105519
+  directions:
+  - linear
+  ciphers: []
+  significance: high
+  summary: 提出相关矩阵概念，系统描述布尔映射的线性性质。
+  status: reviewed
+- id: nyberg2001correlation
+  title: Correlation Theorems in Cryptanalysis
+  authors:
+  - Kaisa Nyberg
+  venue: Discrete Applied Mathematics 2001
+  year: 2001
+  url: https://eprint.iacr.org/2025/2334
+  directions:
+  - linear
+  ciphers: []
+  significance: medium
+  summary: 密码分析中的相关定理，线性分析的理论深化。
+  status: reviewed
+- id: princev2_2020
+  title: PRINCEv2 - More Security for (Almost) No Overhead
+  authors:
+  - Dušan Božilov
+  - Maria Eichlseder
+  - Miroslav Kneževic
+  - Baptiste Lambin
+  - Gregor Leander
+  - Thorben Moos
+  - Ventzislav Nikov
+  - Shahram Rasoolzadeh
+  - Yosuke Todo
+  - Friedrich Wiemer
+  venue: ePrint 2020/1269
+  year: 2020
+  url: https://eprint.iacr.org/2020/1269
+  directions:
+  - low_latency
+  - hardware_friendly
+  ciphers:
+  - PRINCE
+  significance: medium
+  summary: PRINCEv2 = PRINCE 的安全性增强版本，保持低时延特性。
+  status: reviewed
+- id: mantis2016
+  title: 'SKINNY and MANTIS: Lightweight Tweakable Block Ciphers'
+  authors:
+  - Christof Beierle
+  - Jérémy Jean
+  - Stefan Kölbl
+  - Gregor Leander
+  - Amir Moradi
+  - Thomas Peyrin
+  - Yu Sasaki
+  - Pascal Sasdrich
+  - Siang Meng Sim
+  venue: CRYPTO 2016
+  year: 2016
+  url: https://eprint.iacr.org/2016/660
+  directions:
+  - low_latency
+  - tweakable
+  - hardware_friendly
+  ciphers:
+  - SKINNY
+  - MANTIS
+  significance: high
+  summary: SKINNY/MANTIS 密码族设计论文，MANTIS 为低时延 TBC。
+  status: reviewed
+- id: qarma2017
+  title: The QARMA Block Cipher Family
+  authors:
+  - Roberto Avanzi
+  venue: ToSC 2017
+  year: 2017
+  url: https://eprint.iacr.org/2016/444
+  directions:
+  - low_latency
+  - tweakable
+  ciphers:
+  - QARMA
+  significance: high
+  summary: QARMA 密码族，用于 ARMv8 指针认证，低时延 TBC。
+  status: reviewed
+- id: qarmav2_2023
+  title: 'QARMAv2: A Redesign of QARMA'
+  authors: []
+  venue: ePrint 2023
+  year: 2023
+  url: https://eprint.iacr.org/2023/1833
+  directions:
+  - low_latency
+  - tweakable
+  ciphers:
+  - QARMA
+  significance: medium
+  summary: QARMA 的重新设计，改进安全性上界并支持更长 tweak。
+  status: pending_review
+- id: sonic2023
+  title: 'Sonic and SuperSonic: Low-Latency Cipher Families'
+  authors:
+  - Yanis Belkheyar
+  - Joan Daemen
+  - Christoph Dobraunig
+  - Santosh Ghosh
+  - Shahram Rasoolzadeh
+  venue: ePrint 2023/878
+  year: 2023
+  url: https://eprint.iacr.org/2023/878
+  directions:
+  - low_latency
+  - hardware_friendly
+  ciphers:
+  - Sonic
+  - SuperSonic
+  significance: medium
+  summary: 受 SIMON 启发的低时延密码族 Sonic/SuperSonic。
+  status: pending_review
+- id: bipbip2022
+  title: 'BipBip: A Low-Latency Tweakable Block Cipher with Small Dimensions'
+  authors:
+  - Yanis Belkheyar
+  - Joan Daemen
+  - Christoph Dobraunig
+  - Santosh Ghosh
+  - Shahram Rasoolzadeh
+  venue: ePrint 2022
+  year: 2022
+  url: https://doi.org/10.46586/tches.v2023.i1.326-368
+  directions:
+  - low_latency
+  - tweakable
+  - hardware_friendly
+  ciphers:
+  - BipBip
+  significance: medium
+  summary: 24-bit 超小维度低时延 TBC，面向 ASIC。
+  status: pending_review
+- id: matter2024
+  title: 'MATTER: A Wide-Block Tweakable Block Cipher'
+  authors:
+  - Roberto Avanzi
+  - Orr Dunkelman
+  - Kazuhiko Minematsu
+  venue: ePrint 2024/1186
+  year: 2024
+  url: https://eprint.iacr.org/2024/1186
+  directions:
+  - low_latency
+  - tweakable
+  - hardware_friendly
+  ciphers:
+  - MATTER
+  significance: medium
+  summary: 宽分组 TBC 密码 MATTER，面向内存加密的低时延低面积。
+  status: pending_review
+- id: twinkle2024
+  title: 'Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication'
+  authors:
+  - Jianhua Wang
+  - Tao Huang
+  - Shuang Wu
+  - Zilong Liu
+  venue: ePrint 2025/2119
+  year: 2024
+  url: https://eprint.iacr.org/2025/2119
+  directions:
+  - low_latency
+  - aead
+  - tweakable
+  ciphers:
+  - Twinkle
+  significance: medium
+  summary: 低时延 PRF 和认证加密方案 Twinkle。
+  status: pending_review
+- id: warp_integral2022
+  title: Integral Key-Recovery Attack on 32-Round WARP
+  authors: []
+  venue: ePrint 2022
+  year: 2022
+  url: ''
+  directions:
+  - integral_division
+  - milp_sat_cp
+  ciphers:
+  - WARP
+  significance: medium
+  summary: WARP 32/41 轮积分攻击，使用 monomial prediction + SAT 建模。
+  status: pending_review
+- id: pyjamask_integral2022
+  title: Integral Attacks on Pyjamask-96 and Pyjamask-128
+  authors:
+  - Jiamin Cui
+  - Kai Hu
+  - Qingju Wang
+  - Meiqin Wang
+  venue: ePrint 2022
+  year: 2022
+  url: https://eprint.iacr.org/2021/1572
+  directions:
+  - integral_division
+  - algebraic
+  ciphers:
+  - Pyjamask
+  significance: high
+  summary: 首次对全轮 Pyjamask-96 的密钥恢复攻击（无需全码本），11 轮积分区分器。
+  status: pending_review
+- id: future_integral2024
+  title: Integral Attack on the Full FUTURE Block Cipher
+  authors:
+  - Mathieu Degré
+  - Patrick Derbez
+  - Lucie Lahaye
+  - André Schrottenloher
+  venue: ePrint 2024/298
+  year: 2024
+  url: https://eprint.iacr.org/2024/298
+  directions:
+  - integral_division
+  ciphers:
+  - FUTURE
+  significance: high
+  summary: 对全轮 10 轮 FUTURE 的积分攻击，7 轮积分区分器。
+  status: pending_review
+- id: chi_algebraic2023
+  title: Algebraic Properties of the Boolean Map χ in Cryptographic Permutations
+  authors: []
+  venue: ePrint 2023
+  year: 2023
+  url: ''
+  directions:
+  - algebraic
+  - sbox
+  ciphers:
+  - Ascon
+  - Keccak
+  - Xoodoo
+  significance: medium
+  summary: 分析 χ 映射的代数性质（单变量多项式视角），用于 Ascon/Keccak/Xoodoo。
+  status: pending_review
+- id: mimc_degree2022
+  title: Algebraic Degree of Iterated Power Functions in MiMC
+  authors:
+  - Clémence Bouvier
+  - Anne Canteaut
+  - Léo Perrin
+  venue: ePrint 2022
+  year: 2022
+  url: https://eprint.iacr.org/2022/366
+  directions:
+  - algebraic
+  ciphers:
+  - MiMC
+  significance: medium
+  summary: 分析 MiMC 迭代幂函数的代数度增长行为。
+  status: pending_review
+- id: ascon_scfa2024
+  title: Side-Channel and Fault Protection for Ascon Hardware Implementations
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: https://eprint.iacr.org/2024/984
+  directions:
+  - hardware_friendly
+  - aead
+  ciphers:
+  - Ascon
+  significance: medium
+  summary: 首个同时具备侧信道和故障注入保护的 Ascon 硬件实现。
+  status: pending_review
+- id: stati2023
+  title: 'StaTI: Stable Threshold Implementation Against Side-Channel and Fault Attacks'
+  authors:
+  - Siemen Dhooghe
+  - Artemii Ovchinnikov
+  - Dilara Toprakhisar
+  venue: ePrint 2023
+  year: 2023
+  url: https://eprint.iacr.org/2023/1558
+  directions:
+  - hardware_friendly
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 稳定门限实现方案，同时抵抗侧信道和故障攻击。
+  status: pending_review
+- id: ascon_dfa2023
+  title: Differential Fault Analysis on Ascon Authenticated Encryption
+  authors: []
+  venue: ePrint 2023
+  year: 2023
+  url: https://eprint.iacr.org/2024/343
+  directions:
+  - algebraic
+  - aead
+  ciphers:
+  - Ascon
+  significance: medium
+  summary: Ascon 的差分故障分析（DFA），结合两种故障模型恢复完整密钥。
+  status: pending_review
+- id: ascon2019
+  title: Ascon v1.2
+  authors:
+  - Christoph Dobraunig
+  - Maria Eichlseder
+  - Florian Mendel
+  - Martin Schläffer
+  venue: NIST LWC Winner
+  year: 2019
+  url: https://doi.org/10.1007/s00145-021-09398-9
+  directions:
+  - aead
+  - hash_xof
+  - lightweight
+  ciphers:
+  - Ascon
+  significance: high
+  summary: Ascon 密码套件设计论文，NIST LWC 竞赛冠军。
+  status: reviewed
+- id: perfect_mp2024
+  title: Perfect Monomial Prediction for Modular Addition
+  authors:
+  - Kai Hu 0001
+  - Trevor Yap
+  venue: ToSC 2024-3 / FSE 2025
+  year: 2024
+  url: https://doi.org/10.46586/tosc.v2024.i3.177-199
+  directions:
+  - integral_division
+  - milp_sat_cp
+  - automated_search
+  ciphers:
+  - SPECK
+  - Alzette
+  significance: high
+  summary: 完美 monomial prediction 用于模加法，改进 ARX 密码积分区分器搜索。
+  status: pending_review
+- id: lemac2024
+  title: Fast AES-based Universal Hash Functions and MACs - LeMac and PetitMac
+  authors:
+  - Augustin Bariant
+  - Jules Baudrin
+  - Gaëtan Leurent
+  - Clara Pernot
+  - Léo Perrin
+  - Thomas Peyrin
+  venue: ToSC 2024-2 / FSE 2025
+  year: 2024
+  url: https://doi.org/10.46586/tosc.v2024.i2.35-67
+  directions:
+  - aead
+  - hardware_friendly
+  ciphers:
+  - AES
+  significance: medium
+  summary: 基于 AES 轮函数的超快 MAC，LeMac 在 Intel 处理器上速度领先。
+  status: pending_review
+- id: hsilu2025
+  title: 'Multiple Rows Mixers and Hsilu: A Family of Linear Layers and a Permutation with Fewer XORs'
+  authors:
+  - Yu
+  - Liu
+  venue: ToSC 2025-2
+  year: 2025
+  url: https://eprint.iacr.org/2025/1960
+  directions:
+  - linear_diffusion
+  - round_function
+  - hardware_friendly
+  ciphers:
+  - Hsilu
+  significance: high
+  summary: 320-bit 置换 Hsilu，基于多行混合器 (MRM) 的轻量级线性层，XOR 操作比 Ascon 更少。
+  status: pending_review
+- id: core_mp_trivium2025
+  title: Core Monomial Prediction for Weak-Key Superpoly Recovery in Stream Ciphers
+  authors: []
+  venue: ToSC 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1330
+  directions:
+  - algebraic
+  - integral_division
+  ciphers:
+  - Trivium
+  significance: medium
+  summary: 核心 monomial prediction 用于流密码弱密钥超级多项式恢复。
+  status: pending_review
+- id: warp2020
+  title: 'WARP: Revisiting GFN for Lightweight 128-bit Block Cipher'
+  authors: []
+  venue: SAC 2020
+  year: 2020
+  url: https://eprint.iacr.org/2020/1320
+  directions:
+  - hardware_friendly
+  - lightweight
+  ciphers:
+  - WARP
+  significance: medium
+  summary: WARP 128-bit 密码设计论文，Type-2 GFN 结构，面向小硬件。
+  status: reviewed
+- id: warp_diff2024
+  title: Improved Differential and Rectangle Attacks on WARP
+  authors: []
+  venue: ePrint 2024
+  year: 2024
+  url: ''
+  directions:
+  - differential
+  - boomerang
+  ciphers:
+  - WARP
+  significance: medium
+  summary: 改进 WARP 差分和 rectangle 攻击。
+  status: pending_review
+- id: partial_sums_fft2024
+  title: 'Partial Sums Meet FFT: Improved Attack on 6-Round AES'
+  authors:
+  - Orr Dunkelman
+  - Shibam Ghosh
+  - Nathan Keller
+  - Gaetan Leurent
+  - Avichai Marmor
+  - Victor Mollimard
+  venue: EUROCRYPT 2024
+  year: 2024
+  url: https://eprint.iacr.org/2024/089
+  directions:
+  - integral_division
+  - meet_in_the_middle
+  ciphers:
+  - AES
+  significance: high
+  summary: Partial sums + FFT 6 轮 AES 攻击，复杂度 2^46.4 次加法，改进 32 倍。同时改进 7 轮 Kuznyechik 80 倍。
+  status: pending_review
+- id: truncated_boom_aes2023
+  title: Truncated Boomerang Attacks and Application to AES-based Ciphers
+  authors:
+  - Augustin Bariant
+  - Gaëtan Leurent
+  venue: EUROCRYPT 2023
+  year: 2023
+  url: https://eprint.iacr.org/2022/701
+  directions:
+  - boomerang
+  - differential
+  ciphers:
+  - AES
+  significance: high
+  summary: 截断回旋镖攻击框架，6 轮 AES 结构区分器 2^87 → 密钥恢复 2^61。
+  status: pending_review
+- id: dl_boomerang_multi2024
+  title: Revisiting Differential-Linear Attacks via a Boomerang Perspective with Application to AES, Ascon, CLEFIA, SKINNY,
+    PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, and SERPENT
+  authors:
+  - Hosein Hadipour
+  - Patrick Derbez
+  - Maria Eichlseder
+  venue: CRYPTO 2024
+  year: 2024
+  url: https://eprint.iacr.org/2024/255
+  directions:
+  - differential
+  - linear
+  - boomerang
+  - automated_search
+  ciphers:
+  - AES
+  - Ascon
+  - CLEFIA
+  - SKINNY
+  - PRESENT
+  - KNOT
+  - TWINE
+  - WARP
+  - LBlock
+  - Simeck
+  - SERPENT
+  significance: high
+  summary: 从回旋镖视角重新审视差分-线性攻击，自动化工具+11 种密码改进结果（CRYPTO 2024）。
+  status: pending_review
+- id: enhance_datf2025
+  title: Enhancing the DATF Technique in Differential-Linear Cryptanalysis
+  authors: []
+  venue: ASIACRYPT 2025
+  year: 2025
+  url: https://eprint.iacr.org/2025/1632
+  directions:
+  - differential
+  - linear
+  - algebraic
+  ciphers:
+  - Ascon
+  - SERPENT
+  - Xoodyak
+  - Grain
+  significance: high
+  summary: 增强 DATF 技术提高差分-线性偏差估计精度，应用于 Ascon/Serpent/Xoodyak/Grain。
+  status: pending_review
+- id: geo_dl2026
+  title: Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
+  authors:
+  - Kai Hu
+  - et al.
+  venue: EUROCRYPT 2026
+  year: 2026
+  url: https://eprint.iacr.org/2026/358
+  directions:
+  - differential
+  - linear
+  ciphers: []
+  significance: high
+  summary: 几何方法逐轮逼近（高阶）差分-线性相关。
+  status: pending_review
+- id: whirlpool_preimage2024
+  title: Diving Deep into the Preimage Security of AES-like Hashing
+  authors:
+  - Shiyao Chen
+  - Jian Guo 0001
+  - Eik List
+  - Danping Shi
+  - Tianyu Zhang 0004
+  venue: ePrint 2024
+  year: 2024
+  url: https://doi.org/10.1007/978-3-031-58716-0_14
+  directions:
+  - meet_in_the_middle
+  - hash_xof
+  ciphers:
+  - Whirlpool
+  - AES
+  significance: medium
+  summary: 改进 6 轮 Whirlpool 原像攻击，使用 MITM + S-box 线性化。
+  status: pending_review
+- id: smaesh2023
+  title: 'SMAesH: Open-Source Masked AES Hardware with HPC Masking'
+  authors: []
+  venue: CHES 2023 Challenge
+  year: 2023
+  url: ''
+  directions:
+  - hardware_friendly
+  - sbox
+  ciphers:
+  - AES
+  significance: medium
+  summary: 开源掩码 AES 硬件实现 SMAesH，CHES 2023 挑战赛目标。
+  status: pending_review
+- id: clyde2020
+  title: 'Spook: Sponge-Based Leakage-Resistant Authenticated Encryption with a Masked Tweakable Block Cipher'
+  authors:
+  - Davide Bellizia
+  - Francesco Berti
+  - Olivier Bronchain
+  - Gaëtan Cassiers
+  - Sébastien Duval
+  - Chun Guo 0002
+  - Gregor Leander
+  - Gaëtan Leurent
+  - Itamar Levi
+  - Charles Momin
+  - Olivier Pereira
+  - Thomas Peters
+  - François-Xavier Standaert
+  - Balazs Udvarhelyi
+  - Friedrich Wiemer
+  venue: CHES 2020
+  year: 2020
+  url: https://doi.org/10.13154/tosc.v2020.iS1.295-349
+  directions:
+  - hardware_friendly
+  - aead
+  - tweakable
+  ciphers:
+  - Clyde
+  - Spook
+  significance: medium
+  summary: Spook AEAD 方案，基于 Clyde TBC（LS-design），面向抗泄漏。
+  status: reviewed
+- id: clefia2007
+  title: The 128-Bit Blockcipher CLEFIA
+  authors:
+  - Taizo Shirai
+  - Kyoji Shibutani
+  - Toru Akishita
+  - Shiho Moriai
+  - Tetsu Iwata
+  venue: FSE 2007
+  year: 2007
+  url: https://doi.org/10.17487/RFC6114
+  directions:
+  - hardware_friendly
+  - round_function
+  ciphers:
+  - CLEFIA
+  significance: medium
+  summary: CLEFIA 密码设计（Sony），4-branch GFN 结构。
+  status: reviewed
+- id: serpent1998
+  title: 'Serpent: A Proposal for the Advanced Encryption Standard'
+  authors:
+  - Ross Anderson
+  - Eli Biham
+  - Lars Knudsen
+  venue: AES Submission 1998
+  year: 1998
+  url: ''
+  directions:
+  - round_function
+  - sbox
+  ciphers:
+  - SERPENT
+  significance: high
+  summary: Serpent 密码，AES 竞赛候选方案，32 轮 SPN 保守设计。
+  status: reviewed
+- id: twine2012
+  title: 'TWINE: A Lightweight Block Cipher for Multiple Platforms'
+  authors:
+  - Tomoyasu Suzaki
+  - Kazuhiko Minematsu
+  - Sumio Morioka
+  - Eita Kobayashi
+  venue: SAC 2012
+  year: 2012
+  url: https://doi.org/10.1007/978-3-642-35999-6_22
+  directions:
+  - hardware_friendly
+  - software_friendly
+  - lightweight
+  ciphers:
+  - TWINE
+  significance: medium
+  summary: TWINE 轻量级密码，GFN 结构，面向多平台。
+  status: reviewed
+- id: lblock2011
+  title: 'LBlock: A Lightweight Block Cipher'
+  authors:
+  - Wenling Wu
+  - Lei Zhang
+  venue: ACNS 2011
+  year: 2011
+  url: https://eprint.iacr.org/2022/745
+  directions:
+  - hardware_friendly
+  - lightweight
+  ciphers:
+  - LBlock
+  significance: medium
+  summary: LBlock 轻量级密码，改良 Feistel 结构。
+  status: reviewed
+- id: simeck2015
+  title: 'Simeck: A Framework for Lightweight Block Ciphers'
+  authors: []
+  venue: CHES 2015
+  year: 2015
+  url: https://eprint.iacr.org/2025/178
+  directions:
+  - hardware_friendly
+  - lightweight
+  ciphers:
+  - Simeck
+  significance: medium
+  summary: Simeck 轻量级密码族，SIMON/SPECK 的混合简化设计。
+  status: reviewed
+- id: knot2019
+  title: 'KNOT: A Lightweight AEAD and Hashing Family'
+  authors: []
+  venue: NIST LWC 2019
+  year: 2019
+  url: ''
+  directions:
+  - aead
+  - hash_xof
+  - lightweight
+  ciphers:
+  - KNOT
+  significance: medium
+  summary: KNOT AEAD/Hash 族，基于 bit-slice 置换的轻量级方案。
+  status: reviewed
+- id: xoodyak2020
+  title: Xoodyak, a Lightweight Cryptographic Scheme
+  authors:
+  - Joan Daemen
+  - Seth Hoffert
+  - Gilles Van Assche
+  - Ronny Van Keer
+  venue: NIST LWC Finalist
+  year: 2020
+  url: https://eprint.iacr.org/2018/767
+  directions:
+  - aead
+  - hash_xof
+  - lightweight
+  ciphers:
+  - Xoodyak
+  - Xoodoo
+  significance: medium
+  summary: Xoodyak 轻量级 AEAD/Hash 方案，基于 Xoodoo 置换（Cyclist 模式）。NIST LWC 决赛候选。
+  status: reviewed
+- id: grain2011
+  title: 'Grain-128a: a new version of Grain-128 with optional authentication'
+  authors:
+  - Martin Ågren
+  - Martin Hell
+  - Thomas Johansson 0001
+  - Willi Meier
+  venue: IJWMC 2011
+  year: 2011
+  url: https://doi.org/10.1504/IJWMC.2011.044106
+  directions:
+  - software_friendly
+  - lightweight
+  ciphers:
+  - Grain
+  significance: medium
+  summary: Grain-128a 流密码，带可选认证的轻量级流密码。
+  status: reviewed
+- id: alzette2020
+  title: 'Alzette: A 64-bit ARX-box'
+  authors:
+  - Christof Beierle
+  - Alex Biryukov
+  - Luan Cardoso dos Santos
+  - Johann Großschädl
+  - Léo Perrin
+  - Aleksei Udovenko
+  - Vesselin Velichkov
+  - Qingju Wang
+  venue: CRYPTO 2020
+  year: 2020
+  url: https://eprint.iacr.org/2019/1378
+  directions:
+  - sbox
+  - software_friendly
+  ciphers:
+  - Alzette
+  - SPARKLE
+  significance: medium
+  summary: Alzette 64-bit ARX S-box，用于 SPARKLE 置换族的核心组件。
+  status: reviewed
+- id: cic_hmu_ae2024
+  title: High Multi-User Security Authenticated Encryption from Tweakable Block Ciphers
+  authors:
+  - Benoît Cogliati
+  - Jérémy Jean
+  - Thomas Peyrin
+  - Yannick Seurin
+  venue: CiC 2024
+  year: 2024
+  url: https://doi.org/10.62056/a3qjp2fgx
+  directions:
+  - aead
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: 从 TBC 构造高多用户安全 AE 方案（CiC 首卷）。
+  status: pending_review
+- id: dlct2019
+  title: Differential-Linear Connectivity Table
+  authors:
+  - Achiya Bar-On
+  - Orr Dunkelman
+  - Nathan Keller
+  - Ariel Weizman
+  venue: EUROCRYPT 2019
+  year: 2019
+  url: https://eprint.iacr.org/2019/256
+  directions:
+  - differential
+  - linear
+  ciphers: []
+  significance: high
+  summary: 提出 DLCT（差分-线性连接表），差分-线性分析的现代基础工具。
+  status: reviewed
+- id: retracing_boom2020
+  title: New Results on the Retracing Boomerang Attack
+  authors: []
+  venue: EUROCRYPT 2020
+  year: 2020
+  url: https://eprint.iacr.org/2022/025
+  directions:
+  - boomerang
+  ciphers:
+  - AES
+  significance: medium
+  summary: 回溯回旋镖攻击的新结果（EUROCRYPT 2020）。
+  status: reviewed
+- id: truncated_diff2025
+  title: 'Truncated Differentials: New Insights and Extensions'
+  authors: []
+  venue: ePrint 2025
+  year: 2025
+  url: ''
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 截断差分的新理论洞察和推广。
+  status: pending_review
+- id: hctr_a_beyond_2026
+  title: 'HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant'
+  authors: []
+  venue: ePrint 2026/383
+  year: 2026
+  url: https://eprint.iacr.org/2026/383
+  directions:
+  - permutation_layer
+  - lightweight
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: Current industry-standard block cipher modes of operation, such as CBC and GCM, are fundamentally limited by the
+    birthday bound $O(2^{n/2})$, a constraint that has evolved from a theoretical concern i
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - tweakable
+  - PRESENT
+- id: a_builtin_crypto_2026
+  title: 'A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?'
+  authors: []
+  venue: ePrint 2026/411
+  year: 2026
+  url: https://eprint.iacr.org/2026/411
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper proposes a built-in framework that embeds a dedicated ``Crypto Expert" directly into large language
+    models (LLMs) architecture. As an initial attempt, we design a differentiable proxy tailo
+  status: pending_review
+  matched_keywords:
+  - differential
+  - AES
+  - PRESENT
+- id: cryptanalysis_of_poseidonbased_2026
+  title: Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
+  authors: []
+  venue: ePrint 2026/409
+  year: 2026
+  url: https://eprint.iacr.org/2026/409
+  directions:
+  - permutation_layer
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: "Poseidon[GKR+19 ] and its successor Poseidon2[GKS23] are arithmetization-oriented\r\npermutations proposed for\
+    \ hashing inside algebraic proof systems. While there is extensive\r\nprior work on cryptanalys"
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - permutation
+  - PRESENT
+- id: oraclebased_multistep_strategy_2026
+  title: Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of
+    the Aradi Cipher
+  authors: []
+  venue: ePrint 2025/1097
+  year: 2026
+  url: https://eprint.iacr.org/2025/1097
+  directions:
+  - algebraic
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'The multistep solving strategy consists in a divide-and-conquer approach: when a multivariate polynomial system
+    is computationally infeasible to solve directly, one variable is assigned over the eleme'
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - block cipher
+  - PRESENT
+- id: investigating_the_wedge_2026
+  title: Investigating the Wedge Map on SNOVA
+  authors: []
+  venue: ePrint 2026/260
+  year: 2026
+  url: https://eprint.iacr.org/2026/260
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: This paper investigates the algebraic structure of SNOVA, a NIST PQC Round 2 candidate, with a specific focus on
+    the kernel dimension of the wedge map. We employ lifting techniques to transform the pu
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+- id: improved_integral_attack_2026
+  title: Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function
+  authors: []
+  venue: ePrint 2025/1806
+  year: 2026
+  url: https://eprint.iacr.org/2025/1806
+  directions:
+  - lightweight
+  - integral_division
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: The protection of executable code in embedded systems requires efficient mechanisms that ensure confidentiality
+    and integrity.  Belkheyar et al. recently proposed the Authenticated Code Encryption (AC
+  status: pending_review
+  matched_keywords:
+  - integral attack
+  - block cipher
+  - tweakable
+  - PRESENT
+- id: neuralinspired_advances_in_2026
+  title: Neural-Inspired Advances in Integral Cryptanalysis
+  authors: []
+  venue: ePrint 2025/852
+  year: 2026
+  url: https://eprint.iacr.org/2025/852
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The studies by Gohr et al. at Crypto 2019 and subsequent related works have demonstrated that neural networks can
+    offer new insights for cryptanalysis. Building on this insight, we leverage neural net
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - PRESENT
+  - SKINNY
+- id: deep_neural_cryptography_2026
+  title: Deep Neural Cryptography
+  authors: []
+  venue: ePrint 2025/288
+  year: 2026
+  url: https://eprint.iacr.org/2025/288
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'The wide adoption of deep neural networks (DNNs) raises the question of how can we equip them with a desired cryptographic
+    functionality (e.g, to decrypt an encrypted input, to verify that this input '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - AES
+- id: committing_security_of_2026
+  title: Committing Security of BBB Secure MACs
+  authors: []
+  venue: ePrint 2026/425
+  year: 2026
+  url: https://eprint.iacr.org/2026/425
+  directions:
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Committing security has recently emerged as an essential property for message authentication codes (MACs), driven
+    by applications such as abuse reporting in end-to-end encrypted messaging systems. Tra
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - block cipher
+- id: verification_theatre_false_2026
+  title: 'Verification Theatre: False Assurance in Formally Verified Cryptographic Libraries'
+  authors: []
+  venue: ePrint 2026/192
+  year: 2026
+  url: https://eprint.iacr.org/2026/192
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "Every formally verified system embeds a verification boundary: the interface between code with machine-checked\
+    \ proofs and code that is trusted without them.\r\nWe study what happens when this boundary i"
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+- id: new_techniques_for_2026
+  title: New Techniques for Analyzing Differentials with Application to AES
+  authors: []
+  venue: ePrint 2025/1326
+  year: 2026
+  url: https://eprint.iacr.org/2025/1326
+  directions:
+  - lightweight
+  - differential
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We propose new techniques for estimating the probability that an input difference leads to an output difference
+    in a block cipher (i.e., the probability of a differential) under the assumption of inde
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - permutation
+  - AES
+- id: the_och_authenticated_2026
+  title: The OCH Authenticated Encryption Scheme
+  authors: []
+  venue: ePrint 2026/439
+  year: 2026
+  url: https://eprint.iacr.org/2026/439
+  directions:
+  - meet_in_the_middle
+  - aead
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We specify OCH, the first authenticated encryption with associated data scheme built to provide 128-bit multi-user
+    AE security, 128-bit context commitment security, and 256-bit nonces with optional no
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - authenticated encryption
+  - AES
+  - ChaCha
+- id: on_extractability_of_2026
+  title: On Extractability of the KZG Family of Polynomial Commitment Schemes
+  authors: []
+  venue: ePrint 2025/514
+  year: 2026
+  url: https://eprint.iacr.org/2025/514
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present a unifying framework for proving the knowledge-soundness of KZG-like polynomial commitment schemes,
+    encompassing both univariate and multivariate variants. By conceptualizing the proof tech
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+- id: minimizing_mempool_dependency_2026
+  title: 'Minimizing Mempool Dependency in PoW Mining on Blockchain: A Paradigm Shift with Compressed Block Representation
+    for Enhanced Scalability, Decentralization and Security.'
+  authors: []
+  venue: ePrint 2026/141
+  year: 2026
+  url: https://eprint.iacr.org/2026/141
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: While existing Proof-of-Work (PoW) based blockchain protocols have demonstrated innovative potential, they face
+    inherent limitations regarding scalability, efficiency, and decentralization. The compac
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: efficient_quaternion_algorithms_2026
+  title: EFFICIENT QUATERNION ALGORITHMS FOR THE DEURING CORRESPONDENCE, AND APPLICATION TO THE EVALUATION OF MODULAR POLYNOMIALS
+  authors: []
+  venue: ePrint 2026/185
+  year: 2026
+  url: https://eprint.iacr.org/2026/185
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This work presents several algorithms to perform operations in\r\nthe quaternion ideals and orders stemming from\
+    \ the Deuring correspondence.\r\nWhile most of the desired operations can be solved with gene"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: zkmarket_ensuring_fairness_2026
+  title: 'zkMarket: Ensuring Fairness and Privacy in Decentralized Data Exchange'
+  authors: []
+  venue: ePrint 2024/1775
+  year: 2026
+  url: https://eprint.iacr.org/2024/1775
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ensuring fairness in blockchain-based data trading presents significant challenges, as the transparency of blockchain
+    can expose sensitive details and compromise fairness. Fairness ensures that the se
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: the_motteandbailey_framework_2026
+  title: 'The Motte-and-Bailey Framework for Leakage-Resilient Accordion Modes: Featuring Qaitbay and Alicante'
+  authors: []
+  venue: ePrint 2026/122
+  year: 2026
+  url: https://eprint.iacr.org/2026/122
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Accordion modes have experienced a surge in popularity, partially motivated by the recent NIST Accordion modes
+    project. None of the existing practical constructions is leakage-resilient by default. In
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: a_hardwaresoftware_cooptimization_2026
+  title: A Hardware/Software Co-Optimization of HQC Using Tightly-Coupled Accelerators on a 32-bit Ibex Core
+  authors: []
+  venue: ePrint 2026/478
+  year: 2026
+  url: https://eprint.iacr.org/2026/478
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'We present Hardware/Software co-optimization of Hamming Quasi-Cyclic (HQC) enabled by tightly coupled accelerators
+    implemented on a 32-bit Ibex RISC-V core. On the hardware side, we propose a unified '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+- id: signal_lost_integrity_2026
+  title: 'Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols'
+  authors: []
+  venue: ePrint 2026/484
+  year: 2026
+  url: https://eprint.iacr.org/2026/484
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Signal is a secure messaging app offering end-to-end security for pairwise and group communications. It has tens
+    of millions of users, and has heavily influenced the design of other secure messaging a
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+- id: debtaware_bonding_curves_2026
+  title: 'Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing'
+  authors: []
+  venue: ePrint 2026/483
+  year: 2026
+  url: https://eprint.iacr.org/2026/483
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Decentralized lending protocols rely on liquidation mechanisms tied to volatile oracle-derived prices, creating
+    cascading systemic risk during market downturns. We introduce debt-aware discrete bondin
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+- id: byzantine_consensus_in_2026
+  title: Byzantine Consensus in the Partially Authenticated Setting
+  authors: []
+  venue: ePrint 2026/470
+  year: 2026
+  url: https://eprint.iacr.org/2026/470
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Byzantine Agreement and Broadcast are traditionally studied in one of two extremes: the authenticated setting,
+    where a public key infrastructure (PKI) enables universally verifiable signatures and yie'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: key_attack_on_2026
+  title: Key Attack on the ACDGV Matrix Encryption Scheme
+  authors: []
+  venue: ePrint 2025/1292
+  year: 2026
+  url: https://eprint.iacr.org/2025/1292
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present an exponential-time key recovery attack on the public-key encryption scheme using matrix codes proposed
+    by Aragon et al. at Asiacrypt 2024. The secret key is a Gabidulin code expanded using
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: cryptanalysis_of_two_2026
+  title: Cryptanalysis of Two Alternating Moduli Weak PRFs
+  authors: []
+  venue: ePrint 2026/482
+  year: 2026
+  url: https://eprint.iacr.org/2026/482
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we present new cryptanalytic attacks on recently proposed, theory-inspired constructions of weak
+    pseudorandom functions (weak-PRFs). We demonstrate attacks on several such designs, showi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: registered_attributebased_encryption_2026
+  title: Registered Attribute-Based Encryption with Publicly Verifiable Certified Deletion, Everlasting Security, and More
+  authors: []
+  venue: ePrint 2025/2314
+  year: 2026
+  url: https://eprint.iacr.org/2025/2314
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Certified deletion ensures that encrypted data can be irreversibly deleted, preventing future recovery even if
+    decryption keys are later exposed. Although existing works have achieved certified deleti
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: remise_authorized_anonymous_2026
+  title: 'Remise: Authorized Anonymous Communication Systems'
+  authors: []
+  venue: ePrint 2026/481
+  year: 2026
+  url: https://eprint.iacr.org/2026/481
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "We present Remise, a two-server authorized anonymous\r\ncommunication system built on Distributed Oblivious\r\n\
+    RAM (DORAM). Remise supports two modes of opera-\r\ntion: (i) an anonymous bulletin board, wher"
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+- id: chopin_optimal_pairingbased_2026
+  title: 'CHOPIN: Optimal Pairing-Based Multilinear Polynomial Commitments from Bivariate KZG'
+  authors: []
+  venue: ePrint 2026/480
+  year: 2026
+  url: https://eprint.iacr.org/2026/480
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present CHOPIN, a pairing-based multilinear polynomial commitment scheme (PCS) achieving constant proof size
+    and a linear-time prover, constructed modularly from a bivariate PCS. CHOPIN generalizes
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+- id: strong_efficiency_lower_2026
+  title: Strong Efficiency Lower Bounds for Byzantine Agreement
+  authors: []
+  venue: ePrint 2026/479
+  year: 2026
+  url: https://eprint.iacr.org/2026/479
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Understanding the complexity of Byzantine agreement (BA) is a fundamental problem in distributed computing and
+    cryptography. Existing round- or communication lower bounds either restrict the class of '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: libra_patternscheduling_cooptimization_2026
+  title: 'Libra: Pattern-Scheduling Co-Optimization for Cross-Scheme FHE Code Generation over GPGPU'
+  authors: []
+  venue: ePrint 2026/456
+  year: 2026
+  url: https://eprint.iacr.org/2026/456
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose Libra, a compiler framework that automates efficient code generation for cross-scheme fully homomorphic
+    encryption (FHE) on highly parallel computing architectures. While it is known that l
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: dacpre_practical_anonymous_2026
+  title: 'DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices'
+  authors: []
+  venue: ePrint 2026/477
+  year: 2026
+  url: https://eprint.iacr.org/2026/477
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "One of the most important fundamental elements in\r\nguaranteeing data security is data access management. The\
+    \ two primary security components of data access control are typically authorisation and auth"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+- id: dutyfree_bits_projectivizing_2026
+  title: 'Duty-Free Bits: Projectivizing Garbling Schemes'
+  authors: []
+  venue: ePrint 2026/476
+  year: 2026
+  url: https://eprint.iacr.org/2026/476
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Garbling schemes are powerful primitives that enable secure computation between a mutually untrusting garbler and
+    evaluator. A projective garbling scheme is one that encodes the evaluator's input in a
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+- id: scaling_fully_secure_2026
+  title: Scaling Fully Secure MPC via Robust Recursive Search and Gap Amplification
+  authors: []
+  venue: ePrint 2026/475
+  year: 2026
+  url: https://eprint.iacr.org/2026/475
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new framework for secure computation of arithmetic circuits with two-thirds honest majority that lifts
+    semi-honest protocols to full malicious security. Our framework works with any linea
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: scalable_compliant_privacy_2026
+  title: Scalable Compliant Privacy on Starknet
+  authors: []
+  venue: ePrint 2026/474
+  year: 2026
+  url: https://eprint.iacr.org/2026/474
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a privacy protocol implemented on Starknet that enables confidential transactions while maintaining
+    regulatory compliance. Transfers hide the sender, receiver, and amount from external obse
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: on_the_estonian_2026
+  title: On the Estonian Internet Voting System, IVXV, SoK  and Suggestions
+  authors: []
+  venue: ePrint 2025/506
+  year: 2026
+  url: https://eprint.iacr.org/2025/506
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Estonian i-voting experience is probably the richest to analyze; a country that is considered a pioneer in
+    digitizing both the government and private sector since 2001 followed by online internet '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: fault_to_forge_2026
+  title: 'Fault to Forge: Fault Assisted Forging Attacks on LESS Signature Scheme'
+  authors: []
+  venue: ePrint 2025/1838
+  year: 2026
+  url: https://eprint.iacr.org/2025/1838
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: LESS is a digital signature scheme that is currently in the second round of the National Institute of Standards
+    and Technology’s (NIST’s) ongoing call for standardization of additional post-quantum si
+  status: pending_review
+  matched_keywords:
+  - permutation
+- id: pike_faster_isogenybased_2026
+  title: 'PIKE: Faster Isogeny-Based Public Key Encryption with Pairing-Assisted Decryption'
+  authors: []
+  venue: ePrint 2026/473
+  year: 2026
+  url: https://eprint.iacr.org/2026/473
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent work at Eurocrypt 2025 by Basso and Maino introduced POKÉ, an isogeny-based public key encryption (PKE)
+    scheme.  POKÉ shows how two parties can derive a shared secret on a higher-dimensional, S
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: descent_into_broken_2026
+  title: 'Descent into Broken Trust: Uncovering ML-DSA Subkeys with Scarce Leakage and Local Optimization'
+  authors: []
+  venue: ePrint 2026/472
+  year: 2026
+  url: https://eprint.iacr.org/2026/472
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ML-DSA (formerly CRYSTALS-Dilithium), the primary NIST post-quantum signature standard, relies on rejection sampling
+    to ensure that released signatures are statistically independent of the secret key.
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+- id: lookup_arguments_over_2026
+  title: Lookup Arguments over Rings and Applications to Batch-Verification of RAM Programs
+  authors: []
+  venue: ePrint 2026/471
+  year: 2026
+  url: https://eprint.iacr.org/2026/471
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Lookup arguments are a key technique in SNARKs for reducing the cost of operations which are “arithmetization-unfriendly”,
+    such as range checks and bitwise comparisons. The idea is to encode the valid
+  status: pending_review
+  matched_keywords:
+  - MITM
+- id: a_note_on_2026
+  title: A Note on ``Linear-Communication ACSS with Guaranteed Termination and Lower Amortized Bound''
+  authors: []
+  venue: ePrint 2026/469
+  year: 2026
+  url: https://eprint.iacr.org/2026/469
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this note, we demonstrate that the construction of asynchronous complete secret sharing (ACSS) proposed in
+    the recent work by Qin et al., accepted at Eurocrypt 2026, is insecure. In particular, we '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: tighter_proofs_for_2026
+  title: Tighter Proofs for PKE-to-KEM Transformations under Average-Case Decryption Error and without $\gamma$-Spread
+  authors: []
+  venue: ePrint 2026/468
+  year: 2026
+  url: https://eprint.iacr.org/2026/468
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the NIST post-quantum standardization process, Fujisaki-Okamoto-like (FO-like) transformation has become the
+    de facto paradigm for constructing IND-CCA secure key encapsulation mechanisms (KEMs) fr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: a_note_on_2026_1
+  title: A Note on the Equivalence Between Zero-knowledge and Quantum CSS Codes
+  authors: []
+  venue: ePrint 2026/467
+  year: 2026
+  url: https://eprint.iacr.org/2026/467
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge codes, introduced by Decatur, Goldreich, and Ron (ePrint 1997), are error-correcting codes in which
+    few codeword symbols reveal no information about the encoded message, and have been e
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: icefish_practical_zksnarks_2026
+  title: 'Icefish: Practical zk-SNARKs for Verifiable Genomics'
+  authors: []
+  venue: ePrint 2026/463
+  year: 2026
+  url: https://eprint.iacr.org/2026/463
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Individual genomic data is a uniquely sensitive type of user data. While many papers have considered using Multi-Party
+    Computation (MPC) or Fully Homomorphic Encryption (FHE) to allow collaborators to
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: semigroup_action_problems_2026
+  title: Semigroup Action Problems and Their Uses in Post-Quantum Cryptography
+  authors: []
+  venue: ePrint 2026/462
+  year: 2026
+  url: https://eprint.iacr.org/2026/462
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This survey article provides an overview of the Semigroup Action Problem (SAP) as a pivotal generalization of
+    the Discrete Logarithm Problem (DLP), tracing its theoretical evolution from foundational '
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: compact_hqc_with_2026
+  title: Compact HQC with new (un)balance
+  authors: []
+  venue: ePrint 2026/461
+  year: 2026
+  url: https://eprint.iacr.org/2026/461
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Hamming Quasi-Cyclic (HQC) is a leading code-based key-encapsulation mechanism (KEM), recently selected by NIST
+    for standardization, whose bandwidth and efficiency are balanced with the concrete cost '
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: a_resourceefficient_hardware_2026
+  title: A Resource-Efficient Hardware Accelerator for Large-Size NTT via Algorithm–Architecture Co-Design
+  authors: []
+  venue: ePrint 2026/460
+  year: 2026
+  url: https://eprint.iacr.org/2026/460
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Large-size Number Theoretic Transforms (NTTs) are key operations in modern Zero-Knowledge Proofs (ZKPs), where
+    the NTT size often reaches millions of points and the arithmetic is over wide prime field
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: the_art_of_2026
+  title: 'The Art of Linearization: From a KZG’s Trick to a General Commitment Framework'
+  authors: []
+  venue: ePrint 2026/458
+  year: 2026
+  url: https://eprint.iacr.org/2026/458
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: A useful linearization technique (or a trick) was introduced in the Marlin and Plonk SNARKs, which significantly
+    reduces the number of KZG polynomial commitment openings a SNARK prover has to send. Su
+  status: pending_review
+  matched_keywords:
+  - MITM
+- id: adaptively_secure_universally_2026
+  title: Adaptively Secure, Universally Composable Distributed Generation of Discrete-Logarithm Based Keys
+  authors: []
+  venue: ePrint 2026/457
+  year: 2026
+  url: https://eprint.iacr.org/2026/457
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Distributed key generation (DKG) protocols enable a set of parties to distributively generate a threshold-shared
+    key pair \((\mathsf{pk}, \mathsf{sk})\), such that at least \(t\) parties must particip
+  status: pending_review
+  matched_keywords:
+  - SAT
+- id: asynchronous_mpc_with_2026
+  title: Asynchronous MPC with Abort
+  authors: []
+  venue: ePrint 2026/455
+  year: 2026
+  url: https://eprint.iacr.org/2026/455
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Most prior works on secure Multi-Party Computation (MPC) in asynchronous networks study Guaranteed Output Delivery
+    (GOD), meaning that all parties learn the function output. Asynchronous MPC protocols
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: vision_a_modular_2026
+  title: 'Vision: A Modular Framework for Anonymous Credential Systems'
+  authors: []
+  venue: ePrint 2025/1981
+  year: 2026
+  url: https://eprint.iacr.org/2025/1981
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials enable the unlinkable presentation of previously attested information, or even only predicates
+    thereof. They are a versatile tool and currently enjoy attention in various real-wo
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+- id: learning_with_errors_2026
+  title: Learning with Errors over Group Rings Constructed by Semi-direct Product
+  authors: []
+  venue: ePrint 2023/1824
+  year: 2026
+  url: https://eprint.iacr.org/2023/1824
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Learning with Errors (LWE) problem has been widely utilized as a foundation for numerous cryptographic tools
+    over the years. In this study, we focus on an algebraic variant of the LWE problem call
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: on_limits_on_2026
+  title: On Limits on the Provable Consequences of Quantum Pseudorandomness
+  authors: []
+  venue: ePrint 2025/1863
+  year: 2026
+  url: https://eprint.iacr.org/2025/1863
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: There are various notions of quantum pseudorandomness, such as pseudorandom unitaries (PRUs), pseudorandom state
+    generators (PRSGs) and pseudorandom function-like state generators (PRFSGs). Unlike the
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: less_is_more_2026
+  title: 'Less is More: On Copy Complexity in Quantum Cryptography'
+  authors: []
+  venue: ePrint 2025/1855
+  year: 2026
+  url: https://eprint.iacr.org/2025/1855
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum cryptographic definitions are often sensitive to the number of copies of the cryptographic states revealed
+    to an adversary. Making definitional changes to the number of copies accessible to an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: designing_qcmdpc_public_2026
+  title: Designing QC-MDPC Public Key Encryption Schemes with Niederreiter's Construction and a Bit Flipping Decoder with
+    Bounded DFR
+  authors: []
+  venue: ePrint 2025/1043
+  year: 2026
+  url: https://eprint.iacr.org/2025/1043
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Post-quantum public key encryption (PKE) schemes employing Quasi-cyclic (QC) sparse\r\nparity-check matrix codes\
+    \ are enjoying significant success, thanks to their\r\ngood performance profile and reduction"
+  status: pending_review
+  matched_keywords:
+  - LED

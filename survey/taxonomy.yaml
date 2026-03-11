@@ -1,0 +1,140 @@
+# 对称密码研究论文分类体系
+# Symmetric Cipher Research Taxonomy
+
+taxonomy:
+  design:  # 算法设计 — 理解设计趋势，发现分析机会
+    components:  # 组件设计
+      sbox:
+        name: S-box 设计与评估
+        description: S-box 构造方法、差分均匀度、APN、代数度、实现成本权衡
+        keywords: [s-box, substitution box, APN, differential uniformity, algebraic degree, nonlinearity]
+
+      permutation_layer:
+        name: 置换层
+        description: 比特置换设计、ShiftRows 类操作、扩散效果评估
+        keywords: [bit permutation, ShiftRows, diffusion, wire crossing]
+
+      linear_diffusion:
+        name: 线性扩散层
+        description: MDS 矩阵、near-MDS、二元矩阵、分支数优化
+        keywords: [MDS, near-MDS, binary matrix, branch number, diffusion layer, mixing layer]
+
+      round_function:
+        name: 轮函数结构
+        description: SPN、Feistel、ARX、AND-RX、GFN 等结构比较与创新
+        keywords: [SPN, Feistel, ARX, AND-RX, generalized Feistel, round function]
+
+      key_schedule:
+        name: 密钥编排
+        description: 密钥编排设计、相关密钥安全性、轻量级密钥编排
+        keywords: [key schedule, key expansion, related-key, tweakey]
+
+    algorithms:  # 算法设计（按优化目标）
+      low_latency:
+        name: 低时延密码
+        description: 单轮/少轮实现、unrolled 设计、FHE 友好
+        keywords: [low latency, unrolled, single cycle, PRINCE, Midori, MANTIS, FHE-friendly]
+
+      high_throughput:
+        name: 高吞吐密码
+        description: 流水线友好、并行化设计、高速加密
+        keywords: [high throughput, pipeline, parallel, AES-NI, high speed]
+
+      hardware_friendly:
+        name: 硬件友好密码
+        description: 面积优化、功耗优化、ASIC/FPGA 实现
+        keywords: [hardware, ASIC, FPGA, gate equivalent, GE, area, power, PRESENT, GIFT, SKINNY]
+
+      software_friendly:
+        name: 软件友好密码
+        description: CPU 指令集优化、SIMD 友好、跨平台
+        keywords: [software, SIMD, vectorization, ChaCha, SPECK, ARX, bitslice]
+
+      lightweight:
+        name: 轻量级密码综合
+        description: IoT、RFID、NIST LWC 竞赛、资源受限环境
+        keywords: [lightweight, IoT, RFID, NIST LWC, constrained, Ascon, PHOTON, GIFT-COFB]
+
+    modes:  # 工作模式
+      aead:
+        name: 认证加密 (AEAD)
+        description: AE 方案设计、nonce-misuse resistance、在线/离线模式
+        keywords: [AEAD, authenticated encryption, nonce-misuse, online, OCB, GCM, CCM]
+
+      hash_xof:
+        name: 哈希与可扩展输出
+        description: 海绵结构、Merkle-Damgård、XOF 设计
+        keywords: [hash, sponge, XOF, Merkle-Damgard, SHA-3, PHOTON, Ascon-Hash]
+
+      tweakable:
+        name: 可调密码
+        description: TBC 设计、tweak 处理、基于 TBC 的模式
+        keywords: [tweakable, TBC, tweak, SKINNY, Deoxys, CRAFT]
+
+  analysis:  # 算法分析 — 建立技术库，寻找研究机会
+    modeling:  # 基于建模的自动化方法
+      milp_sat_cp:
+        name: MILP/SAT/CP 建模技术
+        description: 差分/线性传播的数学规划建模、约束编码、求解器优化
+        keywords: [MILP, SAT, CP, constraint programming, integer programming, Gurobi, CaDiCaL, OR-Tools]
+
+      ml_aided:
+        name: ML/LLM 辅助密码分析
+        description: 神经网络区分器、ML 引导搜索、LLM 策略生成
+        keywords: [machine learning, neural, deep learning, LLM, neural distinguisher, Gohr]
+
+      automated_search:
+        name: 自动化搜索框架
+        description: 通用搜索工具、分支定界、启发式搜索算法
+        keywords: [automated, framework, branch and bound, heuristic, search, tool]
+
+    attacks:  # 具体攻击技术
+      differential:
+        name: 差分分析
+        description: 差分路径搜索 (truncated, exact, clustering)、差分概率计算
+        keywords: [differential, truncated differential, differential trail, differential characteristic, DDT, probability]
+
+      impossible_differential:
+        name: 不可能差分
+        description: 不可能差分路径搜索、miss-in-the-middle、密钥恢复
+        keywords: [impossible differential, miss-in-the-middle, contradiction]
+
+      boomerang:
+        name: 回旋镖与 Rectangle
+        description: 回旋镖攻击、rectangle attack、BCT、boomerang switch
+        keywords: [boomerang, rectangle, BCT, boomerang connectivity table, sandwich]
+
+      linear:
+        name: 线性分析
+        description: 线性逼近、多线性、partitioning、LAT
+        keywords: [linear, linear approximation, LAT, correlation, multidimensional linear, partitioning]
+
+      zero_correlation:
+        name: 零相关线性
+        description: 零相关线性逼近搜索与利用
+        keywords: [zero correlation, zero-correlation linear]
+
+      integral_division:
+        name: 积分与 Division Property
+        description: 积分攻击、bit-based division property、MILP/SAT 建模
+        keywords: [integral, division property, bit-based, higher-order, cube, superpoly]
+
+      algebraic:
+        name: 代数攻击
+        description: Gröbner 基、Cube Attack、插值攻击
+        keywords: [algebraic, Groebner, cube attack, interpolation, algebraic degree]
+
+      meet_in_the_middle:
+        name: 中间相遇
+        description: MITM 攻击、biclique、splice-and-cut
+        keywords: [meet-in-the-middle, MITM, biclique, splice-and-cut, dissection]
+
+      related_key:
+        name: 相关密钥攻击
+        description: 相关密钥差分、相关密钥不可能差分、密钥编排弱点
+        keywords: [related-key, related key, key schedule weakness]
+
+      invariant:
+        name: 不变量与子空间
+        description: 不变量攻击、非线性不变量、子空间 trail
+        keywords: [invariant, nonlinear invariant, subspace trail, invariant subspace]

@@ -1,0 +1,60 @@
+name: Daily Paper Update
+
+on:
+  # Run every day at UTC 01:00 (Beijing 09:00)
+  schedule:
+    - cron: '0 1 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run daily pipeline
+        env:
+          BARK_KEY: ${{ secrets.BARK_KEY }}
+        run: |
+          # Inject Bark key into config if provided
+          if [ -n "$BARK_KEY" ]; then
+            python -c "
+          import yaml
+          with open('config.yaml', 'r') as f:
+              cfg = yaml.safe_load(f)
+          cfg.setdefault('survey', {})['bark_key'] = '$BARK_KEY'
+          with open('config.yaml', 'w') as f:
+              yaml.dump(cfg, f, allow_unicode=True, default_flow_style=False)
+          "
+          fi
+          python survey/scripts/daily_pipeline.py --no-download
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add survey/papers.yaml survey/OVERVIEW.md survey/reports/ survey/weekly_reports/ survey/scripts/.fetch_log.json
+          git diff --staged --quiet || git commit -m "📄 Daily paper update $(date +%Y-%m-%d)"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./survey/site
+          publish_branch: gh-pages

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-03-04</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-03-04</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日新论文报告 — 2026-03-04</h1>
+
+<blockquote>
+<p>自动生成于 2026-03-04 23:52</p>
+<p>数据来源：ePrint RSS | 今日新增：<strong>1 篇</strong>对称密码相关论文</p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 今日亮点</h2>
+
+<h3>Committing Security of BBB Secure MACs — MAC 的承诺安全性扩展到 BBB 构造</h3>
+
+<p>#### 📄 [Committing Security of BBB Secure MACs](https://eprint.iacr.org/2026/425)</p>
+
+<table><thead><tr>
+<th>属性</th>
+<th>详情</th>
+</tr></thead><tbody>
+<tr>
+<td>**来源**</td>
+<td>ePrint 2026/425</td>
+</tr>
+<tr>
+<td>**方向**</td>
+<td>MAC 安全性分析 / 密码学证明</td>
+</tr>
+<tr>
+<td>**基础**</td>
+<td>Bhaumik et al. (CRYPTO&#x27;24)、Chen et al. (ASIACRYPT&#x27;21)</td>
+</tr>
+</tbody></table>
+
+<p class="paper-entry"><strong>背景</strong>：近年"承诺安全性"(Committing Security) 成为 MAC 的新需求——传统不可伪造性/伪随机性不足以应对端到端加密系统中的滥用举报 (abuse reporting) 场景。CRYPTO'24 的 Bhaumik 等人首先形式化了 MAC 的承诺和上下文发现 (context-discovery) 概念，但只分析了 birthday-bound 安全的构造。</p>
+
+<p class="paper-entry"><strong>本文贡献</strong>：</p>
+<p>1. 将分析扩展到 <strong>Beyond-Birthday-Bound (BBB) 安全 MAC</strong></p>
+<p>2. 考察两类构造：</p>
+<p>- <strong>Chen et al. (ASIACRYPT&#x27;21)</strong> 的双分组密码+单块哈希方案</p>
+<p>- <strong>DbHtS</strong> (Double-block Hash-then-Sum) 范式的经典 BBB MAC</p>
+<p>3. <strong>发现</strong>：BBB MAC 的承诺安全性<strong>远非一致</strong>——</p>
+<p>- 部分构造被简单攻击击破</p>
+<p>- 部分展现韧性</p>
+<p>- <strong>安全性强依赖于结构设计选择</strong></p>
+
+<p class="paper-entry"><strong>意义</strong>：</p>
+<p>- 在 NIST 推进 BBB 安全模式标准化的背景下（参考昨日 HCTR++），MAC 的承诺安全性检验为选型提供了新维度</p>
+<p>- DbHtS 类 MAC（如 SUM-ECBC、PMAC+等）的安全性需要从承诺安全角度重新审视</p>
+
+<blockquote>
+<p>[!TIP]</p>
+<p><strong>与昨日亮点的联系</strong>：HCTR++ (2026/383) 针对 BBB 加密模式，本文针对 BBB MAC。两篇论文共同反映了社区在 <strong>BBB 安全构造标准化</strong> 方面的加速推进。</p>
+</blockquote>
+
+<hr>
+
+<h2>📊 今日概览</h2>
+
+<table><thead><tr>
+<th>分类</th>
+<th>今日新增</th>
+<th>累计（含昨日）</th>
+</tr></thead><tbody>
+<tr>
+<td>MAC/认证</td>
+<td>**1** (BBB MACs)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>代数/Cube</td>
+<td>0</td>
+<td>2 (ChiLow ×2)</td>
+</tr>
+<tr>
+<td>差分/ML</td>
+<td>0</td>
+<td>1 (Crypto Expert)</td>
+</tr>
+<tr>
+<td>积分</td>
+<td>0</td>
+<td>2 (ChiLow-32, Neural SKINNY)</td>
+</tr>
+<tr>
+<td>模式设计</td>
+<td>0</td>
+<td>1 (HCTR++)</td>
+</tr>
+<tr>
+<td>其他</td>
+<td>0</td>
+<td>3 (Poseidon, Neural Crypto, SNOVA)</td>
+</tr>
+</tbody></table>
+
+<hr>
+
+<h2>📄 今日新增论文</h2>
+
+<h3>[Committing Security of BBB Secure MACs](https://eprint.iacr.org/2026/425)</h3>
+
+<p>- <strong>来源</strong>: ePrint 2026/425</p>
+<p>- <strong>关键词</strong>: block cipher, MAC, beyond-birthday-bound, committing security</p>
+<p>- <strong>摘要</strong>: 将承诺安全性分析从 birthday-bound MAC 扩展到 BBB 安全 MAC，发现部分 BBB 构造（双分组密码+块哈希、DbHtS）的承诺安全性取决于结构设计选择。</p>
+
+<hr>
+
+<p><em>今日 1 篇新论文，累计 10 篇 pending_review</em></p>
+  </div>
+</body>
+</html>
