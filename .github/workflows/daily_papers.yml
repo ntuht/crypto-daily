@@ -25,7 +25,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml google-genai
 
       - name: Create config.yaml
         run: |
@@ -34,6 +34,13 @@ jobs:
             bark_key: "${{ secrets.BARK_KEY }}"
             site_base_url: "https://ntuht.github.io/crypto-daily"
             push_enabled: true
+            digest:
+              max_papers: 10
+              detailed_count: 3
+          llm:
+            provider: gemini
+            api_key: "${{ secrets.GEMINI_API_KEY }}"
+            model: gemini-2.5-flash
           EOF
 
       - name: Run daily pipeline

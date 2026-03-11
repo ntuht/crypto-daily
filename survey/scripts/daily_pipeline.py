@@ -1,12 +1,13 @@
 """
 daily_pipeline.py — Full daily paper update pipeline.
 
-Orchestrates: fetch → cleanup → report → overview → site build → push notification.
+Orchestrates: fetch → cleanup → digest (LLM) → overview → site build → push notification.
 
 Usage:
     python survey/scripts/daily_pipeline.py              # full run
     python survey/scripts/daily_pipeline.py --dry-run    # skip push notification
     python survey/scripts/daily_pipeline.py --no-download  # skip PDF download
+    python survey/scripts/daily_pipeline.py --no-llm     # skip LLM calls in digest
 """
 
 import subprocess
@@ -52,7 +53,7 @@ def run_step(name, script, args=None):
             cmd,
             cwd=str(PROJECT_DIR),
             capture_output=True,
-            timeout=120,
+            timeout=300,  # 5min to allow LLM calls
             env=env,
         )
         stdout = result.stdout.decode("utf-8", errors="replace")
@@ -86,7 +87,7 @@ def extract_new_count(fetch_output):
 
 
 def extract_highlights(report_date):
-    """Extract highlight paper titles from the daily report."""
+    """Extract highlight paper titles from the daily digest."""
     report_path = REPORTS_DIR / f"{report_date}.md"
     if not report_path.exists():
         return []
@@ -95,14 +96,13 @@ def extract_highlights(report_date):
         content = f.read()
 
     highlights = []
-    # Look for paper titles in the report (lines starting with **[title](url)**)
-    for match in re.finditer(r'\*\*\[([^\]]+)\]', content):
+    # Extract from "⭐ 重点推荐" section — headings like ### 1. [title](url)
+    for match in re.finditer(r'### \d+\.\s*\[([^\]]+)\]', content):
         title = match.group(1)
-        # Skip if too long, truncate
         if len(title) > 60:
             title = title[:57] + "..."
         highlights.append(title)
-        if len(highlights) >= 5:
+        if len(highlights) >= 3:
             break
 
     return highlights
@@ -111,6 +111,7 @@ def extract_highlights(report_date):
 def main():
     dry_run = "--dry-run" in sys.argv
     no_download = "--no-download" in sys.argv
+    no_llm = "--no-llm" in sys.argv
 
     config = load_config()
     today = datetime.now().strftime("%Y-%m-%d")
@@ -134,8 +135,11 @@ def main():
     # Step 2: Cleanup false positives
     run_step("Cleanup False Positives", "cleanup_fp.py")
 
-    # Step 3: Generate daily report
-    run_step("Generate Daily Report", "daily_report.py", [today])
+    # Step 3: Generate daily digest (LLM-powered)
+    digest_args = [today]
+    if no_llm:
+        digest_args.append("--no-llm")
+    run_step("Generate Daily Digest", "daily_digest.py", digest_args)
 
     # Step 4: Regenerate overview
     run_step("Update Overview", "render_overview.py")

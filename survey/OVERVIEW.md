@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 262 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 275 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████ (53)
+- **2026**: ██████████████████████████████████████████████████████████████████ (66)
 
 ## 算法设计
 
@@ -87,7 +87,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### 轻量级密码综合 (37 篇)
+### 轻量级密码综合 (39 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -97,6 +97,8 @@
 - 🟡 **2026** — Verification Theatre: False Assurance in Formally Verified Cryptographic Libraries
 - 🟡 **2026** — New Techniques for Analyzing Differentials with Application to AES
 - 🟡 **2026** — Remise: Authorized Anonymous Communication Systems
+- 🟡 **2026** — SoK: Offline Finding Protocols for Lightweight Location Tracking
+- 🟡 **2026** — SIMD HSS and aHMAC from Interval Encoding with Application to One-Bit-Per-Gate Garbling
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -243,6 +245,20 @@
 - 🔴 **2008** — ChaCha, a variant of Salsa20 [ChaCha, Salsa20]
 - 🔴 **2005** — Salsa20 specification [Salsa20]
 
+### 置换层 (11 篇)
+
+- 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
+- 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
+- 🟡 **2026** — New Techniques for Analyzing Differentials with Application to AES
+- 🟡 **2026** — The OCH Authenticated Encryption Scheme
+- 🟡 **2026** — A Hardware/Software Co-Optimization of HQC Using Tightly-Coupled Accelerators on a 32-bit Ibex Core
+- 🟡 **2026** — Fault to Forge: Fault Assisted Forging Attacks on LESS Signature Scheme
+- 🟡 **2026** — Linear Code Equivalence via Plücker Coordinates
+- 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
+- 🔴 **2017** — GIFT: A Small Present [GIFT]
+- 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
+- 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
+
 ### 哈希与可扩展输出 (11 篇)
 
 - 🟡 **2025** — Sponge with Feed-Forward: Improved Preimage Security
@@ -256,19 +272,6 @@
 - 🔴 **2011** — The Keccak SHA-3 submission [Keccak, SHA-3]
 - 🟡 **2011** — PHOTON: An Ultra-Lightweight Hash Family [PHOTON]
 - 🔴 **2007** — Sponge Functions [Keccak]
-
-### 置换层 (10 篇)
-
-- 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
-- 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
-- 🟡 **2026** — New Techniques for Analyzing Differentials with Application to AES
-- 🟡 **2026** — The OCH Authenticated Encryption Scheme
-- 🟡 **2026** — A Hardware/Software Co-Optimization of HQC Using Tightly-Coupled Accelerators on a 32-bit Ibex Core
-- 🟡 **2026** — Fault to Forge: Fault Assisted Forging Attacks on LESS Signature Scheme
-- 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
-- 🔴 **2017** — GIFT: A Small Present [GIFT]
-- 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
-- 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
 ### 线性扩散层 (9 篇)
 
@@ -296,7 +299,7 @@
 
 ## 算法分析
 
-### 差分分析 (91 篇)
+### 差分分析 (100 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -327,6 +330,15 @@
 - 🟡 **2026** — On Limits on the Provable Consequences of Quantum Pseudorandomness
 - 🟡 **2026** — Less is More: On Copy Complexity in Quantum Cryptography
 - 🟡 **2026** — Designing QC-MDPC Public Key Encryption Schemes with Niederreiter's Construction and a Bit Flipping Decoder with Bounded DFR
+- 🟡 **2026** — Single-Server Private Outsourcing of zk-SNARKs
+- 🟡 **2026** — Hybridization of Cryptographic Primitives: A Generalized Framework for Adaptive Security
+- 🟡 **2026** — Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On
+- 🟡 **2026** — $\mathsf{GlueLUT}$: Generalized Lookup Table Arguments over Residue Rings via Auxiliary Fields
+- 🟡 **2026** — The Landscape of Reusable Garbling
+- 🟡 **2026** — SoK: Private Transformer-Based Model Inference
+- 🟡 **2026** — Towards Modeling Cybersecurity Behavior of Humans in Organizations
+- 🟡 **2026** — Threshold Oblivious Pseudorandom Functions from Isogeny Group Actions
+- 🟡 **2026** — White-Box Attacks on PhotoDNA Perceptual Hash Function
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -493,6 +505,29 @@
 - 🔴 **1997** — The Block Cipher Square [Square]
 - 🔴 **1995** — Truncated and Higher Order Differentials
 
+### 中间相遇 (20 篇)
+
+- 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
+- 🟡 **2026** — Committing Security of BBB Secure MACs
+- 🟡 **2026** — The OCH Authenticated Encryption Scheme
+- 🟡 **2026** — On Extractability of the KZG Family of Polynomial Commitment Schemes
+- 🟡 **2026** — CHOPIN: Optimal Pairing-Based Multilinear Polynomial Commitments from Bivariate KZG
+- 🟡 **2026** — Lookup Arguments over Rings and Applications to Batch-Verification of RAM Programs
+- 🟡 **2026** — The Art of Linearization: From a KZG’s Trick to a General Commitment Framework
+- 🟡 **2026** — Vision: A Modular Framework for Anonymous Credential Systems
+- 🟡 **2026** — Bootstrapping-Free Blind PCS: Achieving Constant Depth and Linear Prover
+- 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
+- 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
+- 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
+- 🟡 **2024** — Diving Deep into the Preimage Security of AES-like Hashing [Whirlpool, AES]
+- 🔴 **2023** — Differential Meet-In-The-Middle Cryptanalysis [SKINNY, AES]
+- 🟡 **2023** — Revisiting the Differential Meet-In-The-Middle Cryptanalysis [SKINNY, AES]
+- 🟡 **2023** — New Models for the Cryptanalysis of Ascon [Ascon]
+- 🟡 **2021** — Automatic Classical and Quantum Rebound Attacks on AES-like Hashing by Exploiting Related-Key Differentials [AES]
+- 🔴 **2011** — Biclique Cryptanalysis of the Full AES [AES]
+- 🔴 **2008** — A New Meet-in-the-Middle Attack on AES [AES]
+- 🔴 **1977** — Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard [DES]
+
 ### 代数攻击 (19 篇)
 
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -514,28 +549,6 @@
 - 🔴 **2017** — Cube Attacks on Non-Blackbox Polynomials Based on Division Property [Trivium, Kreyvium, ACORN]
 - 🔴 **2009** — Cube Attacks on Tweakable Black Box Polynomials [Trivium]
 - 🔴 **2000** — Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations [AES]
-
-### 中间相遇 (19 篇)
-
-- 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
-- 🟡 **2026** — Committing Security of BBB Secure MACs
-- 🟡 **2026** — The OCH Authenticated Encryption Scheme
-- 🟡 **2026** — On Extractability of the KZG Family of Polynomial Commitment Schemes
-- 🟡 **2026** — CHOPIN: Optimal Pairing-Based Multilinear Polynomial Commitments from Bivariate KZG
-- 🟡 **2026** — Lookup Arguments over Rings and Applications to Batch-Verification of RAM Programs
-- 🟡 **2026** — The Art of Linearization: From a KZG’s Trick to a General Commitment Framework
-- 🟡 **2026** — Vision: A Modular Framework for Anonymous Credential Systems
-- 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
-- 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
-- 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
-- 🟡 **2024** — Diving Deep into the Preimage Security of AES-like Hashing [Whirlpool, AES]
-- 🔴 **2023** — Differential Meet-In-The-Middle Cryptanalysis [SKINNY, AES]
-- 🟡 **2023** — Revisiting the Differential Meet-In-The-Middle Cryptanalysis [SKINNY, AES]
-- 🟡 **2023** — New Models for the Cryptanalysis of Ascon [Ascon]
-- 🟡 **2021** — Automatic Classical and Quantum Rebound Attacks on AES-like Hashing by Exploiting Related-Key Differentials [AES]
-- 🔴 **2011** — Biclique Cryptanalysis of the Full AES [AES]
-- 🔴 **2008** — A New Meet-in-the-Middle Attack on AES [AES]
-- 🔴 **1977** — Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard [DES]
 
 ### 自动化搜索框架 (17 篇)
 
@@ -613,10 +626,11 @@
 - 🔴 **2009** — Related-Key Cryptanalysis of the Full AES-192 and AES-256 [AES]
 - 🔴 **1993** — New Types of Cryptanalytic Attacks Using Related Keys
 
-### 不变量与子空间 (5 篇)
+### 不变量与子空间 (6 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
+- 🟡 **2026** — Linear Code Equivalence via Plücker Coordinates
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

@@ -12,7 +12,20 @@ survey/pdfs/
 # Local fetch log
 survey/scripts/.fetch_log.json
 
+# Virtual environments
+.venv*/
+
+# Project-internal dirs (not for crypto-daily repo)
+.agents/
+strategy/
+analysis/
+cdl/
+.gemini/
+
 # OS files
 .DS_Store
 Thumbs.db
 *.swp
+
+# Temp files
+tmp_*
