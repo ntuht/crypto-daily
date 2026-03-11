@@ -27,22 +27,19 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
+      - name: Create config.yaml
+        run: |
+          cat > config.yaml <<EOF
+          survey:
+            bark_key: "${{ secrets.BARK_KEY }}"
+            site_base_url: "https://ntuht.github.io/crypto-daily"
+            push_enabled: true
+          EOF
+
       - name: Run daily pipeline
         env:
-          BARK_KEY: ${{ secrets.BARK_KEY }}
-        run: |
-          # Inject Bark key into config if provided
-          if [ -n "$BARK_KEY" ]; then
-            python -c "
-          import yaml
-          with open('config.yaml', 'r') as f:
-              cfg = yaml.safe_load(f)
-          cfg.setdefault('survey', {})['bark_key'] = '$BARK_KEY'
-          with open('config.yaml', 'w') as f:
-              yaml.dump(cfg, f, allow_unicode=True, default_flow_style=False)
-          "
-          fi
-          python survey/scripts/daily_pipeline.py --no-download
+          PYTHONIOENCODING: utf-8
+        run: python survey/scripts/daily_pipeline.py --no-download
 
       - name: Commit updated data
         run: |
