@@ -4421,3 +4421,266 @@ papers:
   status: pending_review
   matched_keywords:
   - LED
+- id: singleserver_private_outsourcing_2026
+  title: Single-Server Private Outsourcing of zk-SNARKs
+  authors: []
+  venue: ePrint 2025/2113
+  year: 2026
+  url: https://eprint.iacr.org/2025/2113
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Succinct zero-knowledge arguments (zk-SNARKs) enable a prover to convince a verifier of the truth of a statement
+    via a succinct and efficiently verifiable proof without revealing any additional inform
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: hybridization_of_cryptographic_2026
+  title: 'Hybridization of Cryptographic Primitives: A Generalized Framework for Adaptive Security'
+  authors: []
+  venue: ePrint 2026/350
+  year: 2026
+  url: https://eprint.iacr.org/2026/350
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Hybrid cryptographic schemes combine multiple primitives to provide resilience against diverse threats, particularly
+    in the post-quantum era where classical algorithms face potential quantum attacks. '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: bootstrappingfree_blind_pcs_2026
+  title: 'Bootstrapping-Free Blind PCS: Achieving Constant Depth and Linear Prover'
+  authors: []
+  venue: ePrint 2026/487
+  year: 2026
+  url: https://eprint.iacr.org/2026/487
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this work, we construct a new and highly efficient blind polynomial commitment scheme (PCS) over non-binary
+    fields. Our scheme is specifically designed to handle encrypted coefficients without requ
+  status: pending_review
+  matched_keywords:
+  - MITM
+- id: trustworthy_agent_network_2026
+  title: 'Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On'
+  authors: []
+  venue: ePrint 2026/497
+  year: 2026
+  url: https://eprint.iacr.org/2026/497
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The rapid advancement of Large Language Models has given rise to autonomous LLM-based agents capable of complex
+    reasoning and execution. As these agents transition from isolated operation to collabora
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: linear_code_equivalence_2026
+  title: Linear Code Equivalence via Plücker Coordinates
+  authors: []
+  venue: ePrint 2026/495
+  year: 2026
+  url: https://eprint.iacr.org/2026/495
+  directions:
+  - invariant
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The assumed hardness of the Linear Code Equivalence problem (LCE) lies at the core of the security of the LESS
+    signature scheme and other signature schemes with advanced functionalities. The LCE probl
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  - PRESENT
+- id: mathsfgluelut_generalized_lookup_2026
+  title: '$\mathsf{GlueLUT}$: Generalized Lookup Table Arguments over Residue Rings via Auxiliary Fields'
+  authors: []
+  venue: ePrint 2026/494
+  year: 2026
+  url: https://eprint.iacr.org/2026/494
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Lookup Table (LUT) arguments are a central efficiency primitive in modern SNARKs, and existing high-performance
+    constructions are largely tailored to large fields. Meanwhile, an increasingly important
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: the_landscape_of_2026
+  title: The Landscape of Reusable Garbling
+  authors: []
+  venue: ePrint 2026/492
+  year: 2026
+  url: https://eprint.iacr.org/2026/492
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Reusability is a recurring theme in cryptography, appearing in various contexts where a one-time setup produces
+    an encoded program that can be applied to multiple inputs. Prominent examples include in
+  status: pending_review
+  matched_keywords:
+  - LED
+- id: sok_private_transformerbased_2026
+  title: 'SoK: Private Transformer-Based Model Inference'
+  authors: []
+  venue: ePrint 2026/491
+  year: 2026
+  url: https://eprint.iacr.org/2026/491
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The growing demand for privacy-preserving Transformer inference has led to the emergence of numerous protocols
+    designed to protect sensitive data and model parameters. These protocols utilize diverse '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+- id: towards_modeling_cybersecurity_2026
+  title: Towards Modeling Cybersecurity Behavior of Humans in Organizations
+  authors: []
+  venue: ePrint 2026/490
+  year: 2026
+  url: https://eprint.iacr.org/2026/490
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We undertake a comprehensive and structured synthesis of the drivers of human behavior in cybersecurity, focusing
+    specifically on people within organizations (i.e., especially employees in companies),
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: threshold_oblivious_pseudorandom_2026
+  title: Threshold Oblivious Pseudorandom Functions from Isogeny Group Actions
+  authors: []
+  venue: ePrint 2026/489
+  year: 2026
+  url: https://eprint.iacr.org/2026/489
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new verifiable oblivious pseudorandom function (VOPRF) from isogeny group actions. Our construction
+    is twice as fast as the previous state of the art of Delpech de Saint Guilhem and Peder
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: sok_offline_finding_2026
+  title: 'SoK: Offline Finding Protocols for Lightweight Location Tracking'
+  authors: []
+  venue: ePrint 2026/488
+  year: 2026
+  url: https://eprint.iacr.org/2026/488
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Offline finding (OF) protocols---such as Apple's Find My, Google's Find Hub, Samsung’s SmartThingsFind, and Tile---enable
+    hundreds of millions of users to track their belongings via Bluetooth-based tr
+  status: pending_review
+  matched_keywords:
+  - lightweight
+- id: whitebox_attacks_on_2026
+  title: White-Box Attacks on PhotoDNA Perceptual Hash Function
+  authors: []
+  venue: ePrint 2026/486
+  year: 2026
+  url: https://eprint.iacr.org/2026/486
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 𝑃ℎ𝑜𝑡𝑜𝐷𝑁𝐴 is a widely deployed perceptual hash function used for the detection of illicit content such as Child
+    Sexual Abuse Material (CSAM). This paper presents the first mathematical description of 𝐴
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: simd_hss_and_2026
+  title: SIMD HSS and aHMAC from Interval Encoding with Application to One-Bit-Per-Gate Garbling
+  authors: []
+  venue: ePrint 2026/485
+  year: 2026
+  url: https://eprint.iacr.org/2026/485
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Primitives enabling homomorphic computation over secret-shared values--Homomorphic Secret Sharing (HSS) and algebraic
+    Homomorphic MACs (aHMAC)--have recently emerged as efficient alternatives to ciphe
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+- id: vroom_accelerating_almost_2026
+  title: 'VROOM: Accelerating (Almost All) Number-Theoretic Cryptography Using Vectorization and the Residue Number System'
+  authors: []
+  venue: ePrint 2026/393
+  year: 2026
+  url: https://eprint.iacr.org/2026/393
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Modular arithmetic with a large prime modulus is a dominant computational cost in number-theoretic cryptography.
+    Modular operations are especially challenging to parallelize efficiently on CPUs using '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+- id: a_novel_leakage_2026
+  title: A Novel Leakage Model in OpenSSL’s Miller-Rabin Primality Test
+  authors: []
+  venue: ePrint 2025/977
+  year: 2026
+  url: https://eprint.iacr.org/2025/977
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At CRYPTO 2009, Heninger and Shacham presented a branch-and-prune algorithm for reconstructing an RSA private key
+    given a random fraction of its private components. This method has been widely adopted
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+- id: serval_slackfree_2sound_2026
+  title: 'Serval: Slack-Free ℓ2-Sound Polynomial Commitments from Lattices'
+  authors: []
+  venue: ePrint 2025/1903
+  year: 2026
+  url: https://eprint.iacr.org/2025/1903
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Polynomial commitment schemes (PCSs) are a core primitive in modern proof systems, especially SNARKs. \r\nLattice-based\
+    \ PCSs are a natural post-quantum alternative, but existing constructions typically "
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+- id: sumcheck_is_all_2026
+  title: 'Sum-check Is All You Need: An Opinionated Survey on Fast Provers in SNARK Design'
+  authors: []
+  venue: ePrint 2025/2041
+  year: 2026
+  url: https://eprint.iacr.org/2025/2041
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'SNARKs work by having a prover commit to a witness and then prove that the committed witness is valid. The prover’s
+    work is dominated by two tasks: (i) committing to data and (ii) proving that the com'
+  status: pending_review
+  matched_keywords:
+  - MITM
