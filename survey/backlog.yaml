@@ -1,0 +1,484 @@
+papers:
+- id: exact_formula_for_2026
+  title: Exact Formula for RX-Differential Probability Through Modular Addition for All Rotations
+  url: https://doi.org/10.46586/TOSC.V2025.I1.542-591
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - differential
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 23
+  added_date: '2026-03-12'
+  authors:
+  - Alex Biryukov
+  - Baptiste Lambin
+  - Aleksei Udovenko
+- id: extending_the_quasidifferential_2026
+  title: 'Extending the Quasidifferential Framework: From Fixed-Key to Expected Differential Probability'
+  url: https://doi.org/10.46586/TOSC.V2025.I1.515-541
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - differential
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 23
+  added_date: '2026-03-12'
+  authors:
+  - Christina Boura
+  - Patrick Derbez
+  - Baptiste Germon
+- id: efficient_and_composable_2026
+  title: Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
+  url: https://doi.org/10.46586/TCHES.V2025.I1.656-683
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - S-box
+  - AES
+  directions:
+  - sbox
+  summary: ''
+  heuristic_score: 23
+  added_date: '2026-03-12'
+  authors:
+  - Vedad Hadzic
+  - Roderick Bloem
+- id: on_the_plaintext_2026
+  title: On the Plaintext Awareness of AEAD Schemes
+  url: https://doi.org/10.46586/TOSC.V2025.I4.231-261
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - AEAD
+  directions:
+  - aead
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Mario Marhuenda Beltrán
+  - Mustafa Khairallah
+- id: new_general_mds_2026
+  title: New General MDS Matrix Construction Method Towards Low Area
+  url: https://doi.org/10.46586/TOSC.V2025.I3.868-890
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - MDS
+  directions:
+  - linear_diffusion
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Yan He
+  - Tingting Cui
+  - Qing Ling
+  - Xi Han
+- id: how_to_implement_2026
+  title: How to Implement Authenticated Encryption on XTS-Enabled Devices
+  url: https://doi.org/10.46586/TOSC.V2025.I4.167-198
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - authenticated encryption
+  - LED
+  directions:
+  - aead
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Akiko Inoue
+  - Kazuhiko Minematsu
+  - Rei Ueno
+  - Naofumi Homma
+- id: how_small_can_2026
+  title: How Small Can S-boxes Be?
+  url: https://doi.org/10.46586/TOSC.V2025.I1.592-622
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - S-box
+  directions:
+  - sbox
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Chenhao Jia
+  - Tingting Cui
+  - Qing Ling
+  - Yan He
+  - Kai Hu 0001
+  - Yu Sun
+  - Meiqin Wang
+- id: revisiting_leakageresilient_macs_2026
+  title: Revisiting Leakage-Resilient MACs and Succinctly-Committing AEAD More Applications of Pseudo-Random Injections
+  url: https://doi.org/10.46586/TOSC.V2025.I1.211-239
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - AEAD
+  directions:
+  - aead
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Mustafa Khairallah
+- id: thf_designing_lowlatency_2026
+  title: 'THF: Designing Low-Latency Tweakable Block Ciphers'
+  url: https://doi.org/10.46586/TOSC.V2025.I4.125-166
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - block cipher
+  - tweakable
+  directions:
+  - lightweight
+  - tweakable
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Jianhua Wang
+  - Tao Huang
+  - Guang Zeng
+  - Tianyou Ding
+  - Shuang Wu
+  - Siwei Sun
+- id: mds_diffusion_layers_2026
+  title: 'MDS Diffusion Layers for Arithmetization-Oriented Symmetric Ciphers: The Rotational-Add Construction'
+  url: https://doi.org/10.46586/TOSC.V2025.I3.827-867
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - diffusion
+  - MDS
+  directions:
+  - linear_diffusion
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Baofeng Wu
+  - Wen Kong
+  - Dewei Kong
+  - Hailun Yan
+- id: cymric_shorttailed_but_2026
+  title: 'Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs'
+  url: https://doi.org/10.46586/TCHES.V2025.I3.437-469
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - authenticated encryption
+  - LED
+  directions:
+  - aead
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Alexandre Adomnicai
+  - Wonseok Choi 0002
+  - Yeongmin Lee
+  - Kazuhiko Minematsu
+  - Yusuke Naito 0001
+- id: aether_an_ultrahigh_2026
+  title: 'AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme'
+  url: https://doi.org/10.46586/TCHES.V2025.I2.705-742
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - authenticated encryption
+  directions:
+  - aead
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Subhadeep Banik
+  - Andrea Caforio
+  - Tatsuya Ishikawa
+  - Takanori Isobe 0001
+  - Mostafizar Rahman
+  - Kosei Sakamoto
+- id: extending_randomnessfree_firstorder_2026
+  title: Extending Randomness-Free First-Order Masking Schemes and Applications to Masking-Friendly S-boxes
+  url: https://doi.org/10.46586/TCHES.V2025.I1.340-366
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - S-box
+  directions:
+  - sbox
+  summary: ''
+  heuristic_score: 17
+  added_date: '2026-03-12'
+  authors:
+  - Lixuan Wu
+  - Yanhong Fan 0001
+  - Weijia Wang 0003
+  - Bart Preneel
+  - Meiqin Wang
+- id: generalizations_of_chichi_2026
+  title: 'Generalizations of ChiChi: Families of Low-Latency Permutations in Any Even Dimension'
+  url: https://doi.org/10.46586/TOSC.V2025.I3.800-826
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - permutation
+  directions:
+  - permutation_layer
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Samuele Andreoli
+  - Gregor Leander
+  - Enrico Piccione
+  - Lukas Stennes
+- id: improved_cryptanalysis_of_2026
+  title: Improved Cryptanalysis of GIFT-64
+  url: https://doi.org/10.46586/TOSC.V2025.I4.284-307
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - GIFT
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Patrick Derbez
+  - Baptiste Germon
+  - Bastien Michel
+  - María Naya-Plasencia
+- id: chosenkey_distinguishing_attacks_2026
+  title: Chosen-Key Distinguishing Attacks on Full AES-192, AES-256, Kiasu-BC, and More
+  url: https://doi.org/10.46586/TOSC.V2025.I3.400-443
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - AES
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Xiaoyang Dong 0001
+  - Jian Guo 0001
+  - Shun Li 0004
+  - Phuong Pham
+- id: poseidon_and_neptune_2026
+  title: 'Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails'
+  url: https://doi.org/10.46586/TOSC.V2025.I2.34-86
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - subspace trail
+  directions:
+  - invariant
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Lorenzo Grassi 0001
+  - Katharina Koschatko
+  - Christian Rechberger
+- id: observations_on_the_2026
+  title: Observations on the BayesianKeySearch with Applications to Simon and Simeck
+  url: https://doi.org/10.46586/TOSC.V2025.I3.755-799
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - SIMON
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Zezhou Hou
+  - Zhenzhen Bao
+  - Jinyu Lu
+  - Shaozhen Chen
+- id: sok_security_of_2026
+  title: 'SoK: Security of the Ascon Modes'
+  url: https://doi.org/10.46586/TOSC.V2025.I1.138-210
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - Ascon
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Charlotte Lefevre
+  - Bart Mennink
+- id: on_constructing_aes_2026
+  title: On Constructing AEs with Leakage and Faults
+  url: https://doi.org/10.46586/TOSC.V2025.I4.199-230
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - AES
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Thomas Peters
+  - Sayandeep Saha
+  - Yaobin Shen
+  - François-Xavier Standaert
+- id: cryptanalysis_theory_versus_2026
+  title: 'Cryptanalysis: Theory Versus Practice Correcting Cryptanalysis Results on Ascon, ChaCha, and Serpent Using GPUs'
+  url: https://doi.org/10.46586/TOSC.V2025.I3.729-754
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - Ascon
+  - ChaCha
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Cihangir Tezcan
+  - Gregor Leander
+  - Hosein Hadipour
+- id: probing_secure_composability_2026
+  title: 'Probing Secure Composability Without Fresh Randomness: Theory and Application to Ascon'
+  url: https://doi.org/10.46586/TCHES.V2025.I4.972-1009
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - Ascon
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 12
+  added_date: '2026-03-12'
+  authors:
+  - Vahid Jahandideh
+  - Bart Mennink
+  - Lejla Batina
+- id: autodiver_automatically_verifying_2026
+  title: 'AutoDiVer: Automatically Verifying Differential Characteristics and Learning Key Conditions'
+  url: https://doi.org/10.46586/TOSC.V2025.I1.471-514
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - differential
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 11
+  added_date: '2026-03-12'
+  authors:
+  - Marcel Nageler
+  - Shibam Ghosh
+  - Marlene Jüttler
+  - Maria Eichlseder
+- id: divideandconquer_sat_for_2026
+  title: Divide-and-Conquer SAT for Exploring Optimal Differential and Linear Characteristics and Its Applications
+  url: https://doi.org/10.46586/TOSC.V2025.I3.516-576
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - differential
+  - SAT
+  directions:
+  - differential
+  - milp_sat_cp
+  summary: ''
+  heuristic_score: 11
+  added_date: '2026-03-12'
+  authors:
+  - Kazuma Taka
+  - Kosei Sakamoto
+  - Ryoma Ito 0001
+  - Rentaro Shiba
+  - Shion Utsumi
+  - Takanori Isobe 0001
+- id: accelerating_hashbased_polynomial_2026
+  title: Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover Time
+  url: https://doi.org/10.46586/TCHES.V2025.I4.341-385
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - MITM
+  directions:
+  - meet_in_the_middle
+  summary: ''
+  heuristic_score: 11
+  added_date: '2026-03-12'
+  authors:
+  - Florian Hirner
+  - Florian Krieger
+  - Constantin Piber
+  - Sujoy Sinha Roy
+- id: shortcut2secrets_a_tablebased_2026
+  title: 'Shortcut2Secrets: A Table-based Differential Fault Attack Framework'
+  url: https://doi.org/10.46586/TCHES.V2025.I2.385-419
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - differential
+  directions:
+  - differential
+  summary: ''
+  heuristic_score: 11
+  added_date: '2026-03-12'
+  authors:
+  - Weizhe Wang
+  - Pierrick Méaux
+  - Deng Tang
+- id: satbased_space_partitioning_2026
+  title: SAT-Based Space Partitioning and Applications to Ascon-Hash256 Cryptanalysis
+  url: https://doi.org/10.46586/TOSC.V2025.I3.577-632
+  source: tosc
+  venue: TOSC 2025
+  matched_keywords:
+  - SAT
+  - Ascon
+  directions:
+  - milp_sat_cp
+  summary: ''
+  heuristic_score: 6
+  added_date: '2026-03-12'
+  authors:
+  - Guozhen Liu
+  - Shun Li
+  - Huina Li
+  - Weidong Qiu
+  - Siwei Sun
+- id: keyvisor_a_lightweight_2026
+  title: KeyVisor - A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies
+  url: https://doi.org/10.46586/TCHES.V2025.I3.1-31
+  source: tches
+  venue: TCHES/CHES 2025
+  matched_keywords:
+  - lightweight
+  directions:
+  - lightweight
+  summary: ''
+  heuristic_score: 5
+  added_date: '2026-03-12'
+  authors:
+  - Fabian Schwarz
+  - Jan Philipp Thoma
+  - Christian Rossow
+  - Tim Güneysu

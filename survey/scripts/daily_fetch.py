@@ -27,6 +27,17 @@ PDFS_DIR = SURVEY_DIR / "pdfs"
 FETCH_LOG = SURVEY_DIR / "scripts" / ".fetch_log.json"
 
 EPRINT_RSS_URL = "https://eprint.iacr.org/rss/rss.xml"
+DBLP_API_URL = "https://dblp.org/search/publ/api"
+
+# DBLP table-of-contents paths for IACR venues
+DBLP_SOURCES = {
+    "tosc":      {"path": "journals/tosc/tosc{year}",      "venue_label": "TOSC"},
+    "tches":     {"path": "journals/tches/tches{year}",    "venue_label": "TCHES/CHES"},
+    "crypto":    {"path": "conf/crypto/crypto{year}",       "venue_label": "CRYPTO"},
+    "eurocrypt": {"path": "conf/eurocrypt/eurocrypt{year}",  "venue_label": "EUROCRYPT"},
+    "asiacrypt": {"path": "conf/asiacrypt/asiacrypt{year}",  "venue_label": "ASIACRYPT"},
+    "cic":       {"path": "journals/cic/cic{year}",         "venue_label": "CIC"},
+}
 
 # Core keywords for filtering — union of all direction keywords
 FILTER_KEYWORDS = [
@@ -112,6 +123,66 @@ def fetch_eprint_rss():
         })
 
     print(f"  Found {len(entries)} entries in RSS feed")
+    return entries
+
+
+def fetch_dblp_source(source_name, year):
+    """
+    Fetch papers from a DBLP table-of-contents for a given year.
+    Returns list of entry dicts in same format as fetch_eprint_rss.
+    """
+    source = DBLP_SOURCES[source_name]
+    toc_path = source["path"].format(year=year)
+    venue_label = source["venue_label"]
+
+    query = f'toc:db/{toc_path}.bht:'
+    url = f"{DBLP_API_URL}?q={urllib.parse.quote(query)}&h=1000&format=json"
+
+    print(f"  Fetching {venue_label} {year} from DBLP...")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "CryptoLLM-Survey/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as e:
+        print(f"  Error fetching DBLP {source_name}: {e}")
+        return []
+
+    hits = data.get("result", {}).get("hits", {})
+    total = int(hits.get("@total", 0))
+    if total == 0:
+        print(f"  No entries for {venue_label} {year}")
+        return []
+
+    entries = []
+    for hit in hits.get("hit", []):
+        info = hit.get("info", {})
+        title = info.get("title", "").rstrip(".")
+        dblp_key = info.get("key", "")
+        doi = info.get("doi", "")
+        ee = info.get("ee", "")  # electronic edition URL
+
+        # Extract authors
+        authors_data = info.get("authors", {}).get("author", [])
+        if isinstance(authors_data, dict):
+            authors_data = [authors_data]
+        authors = [a.get("text", "") for a in authors_data]
+
+        # Build link — prefer DOI, fallback to ee
+        link = f"https://doi.org/{doi}" if doi else ee
+
+        entries.append({
+            "title": title,
+            "link": link,
+            "description": "",  # DBLP doesn't provide abstracts
+            "pub_date": "",
+            "eprint_id": "",
+            "dblp_key": dblp_key,
+            "authors": authors,
+            "source": source_name,
+            "venue_label": f"{venue_label} {year}",
+        })
+
+    print(f"  Found {len(entries)} entries for {venue_label} {year}")
     return entries
 
 
@@ -216,20 +287,67 @@ def main():
     existing_papers = papers_data.get("papers", [])
     existing_ids = {p["id"] for p in existing_papers if "id" in p}
 
-    # Fetch new entries
-    entries = fetch_eprint_rss()
+    # Import dedup
+    from dedup import is_duplicate, pick_authoritative
+
+    # ── Collect entries from all sources ──
+    all_entries = []
+
+    # Source 1: ePrint RSS
+    eprint_entries = fetch_eprint_rss()
+    for e in eprint_entries:
+        e.setdefault("source", "eprint")
+        e.setdefault("venue_label", "ePrint")
+        e.setdefault("authors", [])
+    all_entries.extend(eprint_entries)
+
+    # Source 2-7: DBLP venues
+    current_year = datetime.now().year
+    for source_name in DBLP_SOURCES:
+        for year in [current_year, current_year - 1]:
+            entries = fetch_dblp_source(source_name, year)
+            all_entries.extend(entries)
+
+    print(f"\nTotal entries across all sources: {len(all_entries)}")
 
     new_papers = []
-    for entry in entries:
-        if entry["eprint_id"] in seen_ids:
-            continue
+    skipped_dup = 0
+    for entry in all_entries:
+        source = entry.get("source", "eprint")
+        # Build a unique seen key per source
+        if source == "eprint":
+            seen_key = f"eprint:{entry['eprint_id']}"
+            if entry["eprint_id"] in seen_ids or seen_key in seen_ids:
+                continue
+        else:
+            seen_key = f"dblp:{entry.get('dblp_key', entry['title'][:50])}"
+            if seen_key in seen_ids:
+                continue
 
         # Check keyword match
         text = f"{entry['title']} {entry['description']}"
         matched = matches_keywords(text)
 
         if not matched:
-            seen_ids.add(entry["eprint_id"])
+            seen_ids.add(seen_key)
+            continue
+
+        # Cross-source dedup: check if this paper already exists
+        candidate = {
+            "title": entry["title"],
+            "url": entry["link"],
+            "source": source,
+        }
+        is_dup, existing_match = is_duplicate(candidate, existing_papers)
+        if is_dup:
+            # If new source is more authoritative, update the existing entry
+            better = pick_authoritative(candidate, existing_match)
+            if better is candidate and existing_match:
+                existing_match["source"] = source
+                existing_match["venue"] = entry.get("venue_label", existing_match.get("venue", ""))
+                print(f"  UPGRADE: {entry['title'][:60]}... ({existing_match.get('source','?')} -> {source})")
+            skipped_dup += 1
+            seen_ids.add(seen_key)
             continue
 
         # Create paper entry
@@ -248,8 +366,8 @@ def main():
         paper = {
             "id": paper_id,
             "title": entry["title"],
-            "authors": [],  # RSS doesn't always have authors
-            "venue": f"ePrint {entry['eprint_id']}",
+            "authors": entry.get("authors", []),
+            "venue": entry.get("venue_label", f"ePrint {entry.get('eprint_id', '')}"),
             "year": year,
             "url": entry["link"],
             "directions": directions,
@@ -259,18 +377,20 @@ def main():
             "status": "pending_review",
             "matched_keywords": matched,
             "fetched_date": datetime.now().strftime("%Y-%m-%d"),
+            "source": source,
         }
 
         new_papers.append(paper)
         existing_ids.add(paper_id)
-        seen_ids.add(entry["eprint_id"])
+        existing_papers.append(paper)  # for dedup of subsequent entries
+        seen_ids.add(seen_key)
 
-        print(f"  NEW: {entry['title'][:80]}...")
+        src_tag = f"[{source.upper()}]" if source != "eprint" else "[ePrint]"
+        print(f"  NEW {src_tag}: {entry['title'][:70]}...")
         print(f"       Keywords: {', '.join(matched[:5])}")
-        print(f"       Directions: {', '.join(directions)}")
 
-        # Download PDF
-        if not no_download and entry["link"]:
+        # Download PDF (ePrint only)
+        if not no_download and source == "eprint" and entry["link"]:
             pdf_url = entry["link"].rstrip("/") + ".pdf"
             direction = directions[0] if directions else "uncategorized"
             pdf_path = PDFS_DIR / direction / f"{paper_id}.pdf"
@@ -278,12 +398,14 @@ def main():
 
     # Save results
     if new_papers:
-        existing_papers.extend(new_papers)
         papers_data["papers"] = existing_papers
         save_yaml_file(PAPERS_FILE, papers_data)
         print(f"\n✅ Added {len(new_papers)} new papers to {PAPERS_FILE}")
     else:
         print("\nNo new matching papers found.")
+
+    if skipped_dup > 0:
+        print(f"  ({skipped_dup} duplicates skipped across sources)")
 
     # Update fetch log
     fetch_log["last_fetch"] = datetime.now().isoformat()
@@ -296,3 +418,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

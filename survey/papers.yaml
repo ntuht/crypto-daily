@@ -159,8 +159,7 @@ papers:
   summary: 提出基于 MILP 的不可能差分自动搜索方法，结合设计与分析视角。
   status: reviewed
 - id: hu2020id_milp
-  title: Automatic Search for Impossible Differentials and Zero-Correlation Linear
-    Approximations
+  title: Automatic Search for Impossible Differentials and Zero-Correlation Linear Approximations
   authors:
   - Kai Hu
   - Meiqin Wang
@@ -432,8 +431,7 @@ papers:
   summary: 将 Division Property 推广到比特级，显著提高分析精度。
   status: reviewed
 - id: xiang2016dp_milp
-  title: Applying MILP Method to Searching Integral Distinguishers Based on Division
-    Property for 6 Lightweight Block Ciphers
+  title: Applying MILP Method to Searching Integral Distinguishers Based on Division Property for 6 Lightweight Block Ciphers
   authors:
   - Zejun Xiang
   - Wentao Zhang
@@ -471,8 +469,7 @@ papers:
   summary: 进一步精化 Division Property 的 SAT/MILP 自动搜索技术。
   status: reviewed
 - id: courtois2002xsl
-  title: Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial
-    Equations
+  title: Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations
   authors:
   - Nicolas Courtois
   - Alexander Klimov
@@ -589,8 +586,7 @@ papers:
   summary: 使用 biclique 技术对完整 AES 的首次理论攻击（2^126.1 for AES-128）。
   status: reviewed
 - id: dong2021mitm_auto
-  title: Automatic Classical and Quantum Rebound Attacks on AES-like Hashing by Exploiting
-    Related-Key Differentials
+  title: Automatic Classical and Quantum Rebound Attacks on AES-like Hashing by Exploiting Related-Key Differentials
   authors:
   - Xiaoyang Dong
   - et al.
@@ -671,8 +667,7 @@ papers:
   summary: 发现 Midori64 的不变子空间，首次在全轮密码上实现此类攻击。
   status: reviewed
 - id: todo2016invariant
-  title: 'Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and
-    Midori64'
+  title: 'Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64'
   authors:
   - Yosuke Todo
   - Gregor Leander
@@ -725,8 +720,7 @@ papers:
   summary: 首次将 MILP 应用于差分和线性分析自动化。
   status: reviewed
 - id: sun2014milp
-  title: Automatic Security Evaluation and (Related-key) Differential Characteristic
-    Search
+  title: Automatic Security Evaluation and (Related-key) Differential Characteristic Search
   authors:
   - Siwei Sun
   - Lei Hu
@@ -790,8 +784,7 @@ papers:
   summary: 使用约束编程（CP）进行密码分析，与 MILP 方法性能对比。
   status: reviewed
 - id: abdelkhalik2017convex
-  title: Refined Probability of Differential Characteristics Including Dependency
-    Between Multiple Rounds
+  title: Refined Probability of Differential Characteristics Including Dependency Between Multiple Rounds
   authors:
   - Mohamed Tolba
   - Ahmed Abdelkhalek
@@ -892,8 +885,7 @@ papers:
   summary: 使用 ML 引导 Beam Search 搜索差分路径，与 MILP 方法对比。
   status: reviewed
 - id: gohr2022neural_search
-  title: 'Neural Network-Based Differential Distinguishers: Further Analysis and New
-    Results'
+  title: 'Neural Network-Based Differential Distinguishers: Further Analysis and New Results'
   authors:
   - Aron Gohr
   - Gregor Leander
@@ -925,8 +917,7 @@ papers:
   summary: Matsui 的分支定界搜索算法（Branch & Bound for DES），是差分路径搜索自动化的先驱。
   status: reviewed
 - id: song2022ascon
-  title: New Insights on Differential and Linear Bounds using Mixed Integer Linear
-    Programming
+  title: New Insights on Differential and Linear Bounds using Mixed Integer Linear Programming
   authors:
   - Ling Song
   - et al.
@@ -1099,8 +1090,7 @@ papers:
   summary: Feistel 结构的提出，成为分组密码最基本的结构之一。
   status: reviewed
 - id: zheng1996gfn
-  title: On the Construction of Block Ciphers Provably Secure and Not Relying on Any
-    Unproved Hypotheses
+  title: On the Construction of Block Ciphers Provably Secure and Not Relying on Any Unproved Hypotheses
   authors:
   - Yuliang Zheng
   - Tsutomu Matsumoto
@@ -1235,8 +1225,7 @@ papers:
   summary: LED 密码，基于 AES-like 结构的极轻量级设计，无密钥编排。
   status: reviewed
 - id: decannierre2006katan
-  title: KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block
-    Ciphers
+  title: KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block Ciphers
   authors:
   - Christophe De Cannière
   - Orr Dunkelman
@@ -1318,8 +1307,7 @@ papers:
   summary: NSA 设计的 SIMON（硬件友好 Feistel）和 SPECK（软件友好 ARX）轻量级密码族。
   status: reviewed
 - id: beierle2020craft
-  title: 'CRAFT: Lightweight Tweakable Block Cipher with Efficient Protection Against
-    DFA Attacks'
+  title: 'CRAFT: Lightweight Tweakable Block Cipher with Efficient Protection Against DFA Attacks'
   authors:
   - Christof Beierle
   - Gregor Leander
@@ -1439,8 +1427,7 @@ papers:
   summary: AES/Rijndael 的设计文档，定义了现代 SPN 密码的标准范式。
   status: reviewed
 - id: rogaway2004ocb
-  title: Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes
-    OCB and PMAC
+  title: Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC
   authors:
   - Phillip Rogaway
   venue: ASIACRYPT 2004
@@ -1590,7 +1577,7 @@ papers:
 - id: speedy2025diff
   title: Improved Differential Cryptanalysis of SPEEDY
   authors: []
-  venue: ePrint 2025
+  venue: TOSC 2025
   year: 2025
   url: https://eprint.iacr.org/2025/915
   directions:
@@ -1600,6 +1587,7 @@ papers:
   significance: medium
   summary: 修正了 SPEEDY 差分攻击中的概率计算错误，给出 5.5 轮差分区分器。
   status: pending_review
+  source: tosc
 - id: kuznyechik2025cdiff
   title: Extended c-differential Distinguishers for Kuznyechik
   authors: []
@@ -1730,10 +1718,9 @@ papers:
   summary: 提出 Window Heuristic 方法，通过部分线性化权衡大幅加速 ARX 密码的差分路径搜索。
   status: pending_review
 - id: trail_estimator2025
-  title: 'Trail-Estimator: An Automated Verifier for Differential Trails in Block
-    Ciphers'
+  title: 'Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers'
   authors: []
-  venue: ePrint 2025
+  venue: TOSC 2025
   year: 2025
   url: https://eprint.iacr.org/2025/396
   directions:
@@ -1744,6 +1731,7 @@ papers:
   significance: medium
   summary: 自动验证差分 trail 有效性和概率的工具。
   status: pending_review
+  source: tosc
 - id: id_automation2024
   title: 'Impossible Differential Automation: Model Generation and New Techniques'
   authors:
@@ -1817,8 +1805,7 @@ papers:
   summary: 神经差分分析 6 年全面综述，总结各方法的优劣和发展方向。
   status: pending_review
 - id: mixture_diff_ml2024
-  title: Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine
-    Learning
+  title: Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine Learning
   authors: []
   venue: 2024
   year: 2024
@@ -1832,8 +1819,7 @@ papers:
   summary: 使用 mixture differential 神经网络区分器改进 SIMON 攻击。
   status: pending_review
 - id: dp_min_data2023
-  title: Provably Minimum Data Complexity Integral Distinguisher Based on Conventional
-    Division Property
+  title: Provably Minimum Data Complexity Integral Distinguisher Based on Conventional Division Property
   authors:
   - Yilei Chen
   - Zihan Hu
@@ -1974,8 +1960,7 @@ papers:
   summary: 改进差分 MITM 攻击，引入经典差分技术变体。
   status: pending_review
 - id: idma2024
-  title: Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY
-    and ForkSKINNY
+  title: Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY
   authors:
   - Ling Song
   - Qinggan Fu
@@ -2050,7 +2035,7 @@ papers:
   - Roberto Avanzi
   - Bishwajit Chakraborty 0002
   - Eik List
-  venue: ePrint 2025
+  venue: TOSC 2025
   year: 2025
   url: https://eprint.iacr.org/2025/976
   directions:
@@ -2061,6 +2046,7 @@ papers:
   significance: medium
   summary: 大分组密码族 Vistrutah。
   status: pending_review
+  source: tosc
 - id: eevee2023
   title: Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation
   authors:
@@ -2260,8 +2246,7 @@ papers:
   summary: 对减轮 ChaCha 的差分-线性分析。
   status: pending_review
 - id: niu2022rotational_dl
-  title: Rotational Differential-Linear Distinguishers of ARX Ciphers with Arbitrary
-    Output Linear Masks
+  title: Rotational Differential-Linear Distinguishers of ARX Ciphers with Arbitrary Output Linear Masks
   authors:
   - Zhongfeng Niu
   - et al.
@@ -2348,8 +2333,7 @@ papers:
   summary: 首次超过 8 轮的 Salsa20 分析（8.5 轮），大幅改进 Salsa20/8 攻击。
   status: pending_review
 - id: mcts_speck2024
-  title: 'Monte Carlo Tree Search for Automatic Differential Characteristics Search:
-    Application to SPECK'
+  title: 'Monte Carlo Tree Search for Automatic Differential Characteristics Search: Application to SPECK'
   authors:
   - Emanuele Bellini
   - David Gerault
@@ -2368,8 +2352,7 @@ papers:
   summary: 使用 MCTS（蒙特卡洛树搜索）自动搜索差分特征，在 SPECK 上验证。
   status: pending_review
 - id: cascada2022
-  title: 'CASCADA: Characteristic Automated Search of Cryptographic Algorithms for
-    Distinguishing Attacks'
+  title: 'CASCADA: Characteristic Automated Search of Cryptographic Algorithms for Distinguishing Attacks'
   authors: []
   venue: ePrint 2022
   year: 2022
@@ -2721,8 +2704,7 @@ papers:
   summary: SPARKLE 置换族和基于它的 AEAD/Hash，NIST LWC 决赛候选。
   status: reviewed
 - id: biryukov2014survey
-  title: Automatic Search for Related-Key Differential Characteristics in Byte-Oriented
-    Block Ciphers
+  title: Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers
   authors:
   - Alex Biryukov
   - Ivica Nikolić
@@ -3144,7 +3126,7 @@ papers:
   - Clara Pernot
   - Léo Perrin
   - Thomas Peyrin
-  venue: ToSC 2024-2 / FSE 2025
+  venue: TOSC 2025
   year: 2024
   url: https://doi.org/10.46586/tosc.v2024.i2.35-67
   directions:
@@ -3155,13 +3137,13 @@ papers:
   significance: medium
   summary: 基于 AES 轮函数的超快 MAC，LeMac 在 Intel 处理器上速度领先。
   status: pending_review
+  source: tosc
 - id: hsilu2025
-  title: 'Multiple Rows Mixers and Hsilu: A Family of Linear Layers and a Permutation
-    with Fewer XORs'
+  title: 'Multiple Rows Mixers and Hsilu: A Family of Linear Layers and a Permutation with Fewer XORs'
   authors:
   - Yu
   - Liu
-  venue: ToSC 2025-2
+  venue: TOSC 2025
   year: 2025
   url: https://eprint.iacr.org/2025/1960
   directions:
@@ -3173,6 +3155,7 @@ papers:
   significance: high
   summary: 320-bit 置换 Hsilu，基于多行混合器 (MRM) 的轻量级线性层，XOR 操作比 Ascon 更少。
   status: pending_review
+  source: tosc
 - id: core_mp_trivium2025
   title: Core Monomial Prediction for Weak-Key Superpoly Recovery in Stream Ciphers
   authors: []
@@ -3233,8 +3216,7 @@ papers:
   ciphers:
   - AES
   significance: high
-  summary: Partial sums + FFT 6 轮 AES 攻击，复杂度 2^46.4 次加法，改进 32 倍。同时改进 7 轮 Kuznyechik
-    80 倍。
+  summary: Partial sums + FFT 6 轮 AES 攻击，复杂度 2^46.4 次加法，改进 32 倍。同时改进 7 轮 Kuznyechik 80 倍。
   status: pending_review
 - id: truncated_boom_aes2023
   title: Truncated Boomerang Attacks and Application to AES-based Ciphers
@@ -3253,9 +3235,8 @@ papers:
   summary: 截断回旋镖攻击框架，6 轮 AES 结构区分器 2^87 → 密钥恢复 2^61。
   status: pending_review
 - id: dl_boomerang_multi2024
-  title: Revisiting Differential-Linear Attacks via a Boomerang Perspective with Application
-    to AES, Ascon, CLEFIA, SKINNY, PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, and
-    SERPENT
+  title: Revisiting Differential-Linear Attacks via a Boomerang Perspective with Application to AES, Ascon, CLEFIA, SKINNY,
+    PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, and SERPENT
   authors:
   - Hosein Hadipour
   - Patrick Derbez
@@ -3302,8 +3283,7 @@ papers:
   summary: 增强 DATF 技术提高差分-线性偏差估计精度，应用于 Ascon/Serpent/Xoodyak/Grain。
   status: pending_review
 - id: geo_dl2026
-  title: Round-Based Approximation of (Higher-Order) Differential-Linear Correlation
-    - A Geometric Approach
+  title: Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
   authors:
   - Kai Hu
   - et al.
@@ -3352,8 +3332,7 @@ papers:
   summary: 开源掩码 AES 硬件实现 SMAesH，CHES 2023 挑战赛目标。
   status: pending_review
 - id: clyde2020
-  title: 'Spook: Sponge-Based Leakage-Resistant Authenticated Encryption with a Masked
-    Tweakable Block Cipher'
+  title: 'Spook: Sponge-Based Leakage-Resistant Authenticated Encryption with a Masked Tweakable Block Cipher'
   authors:
   - Davide Bellizia
   - Francesco Berti
@@ -3615,9 +3594,8 @@ papers:
   - tweakable
   ciphers: []
   significance: medium
-  summary: Current industry-standard block cipher modes of operation, such as CBC
-    and GCM, are fundamentally limited by the birthday bound $O(2^{n/2})$, a constraint
-    that has evolved from a theoretical concern i
+  summary: Current industry-standard block cipher modes of operation, such as CBC and GCM, are fundamentally limited by the
+    birthday bound $O(2^{n/2})$, a constraint that has evolved from a theoretical concern i
   status: pending_review
   matched_keywords:
   - block cipher
@@ -3635,9 +3613,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: This paper proposes a built-in framework that embeds a dedicated ``Crypto
-    Expert" directly into large language models (LLMs) architecture. As an initial
-    attempt, we design a differentiable proxy tailo
+  summary: This paper proposes a built-in framework that embeds a dedicated ``Crypto Expert" directly into large language
+    models (LLMs) architecture. As an initial attempt, we design a differentiable proxy tailo
   status: pending_review
   matched_keywords:
   - differential
@@ -3655,9 +3632,8 @@ papers:
   - algebraic
   ciphers: []
   significance: medium
-  summary: "Poseidon[GKR+19 ] and its successor Poseidon2[GKS23] are arithmetization-oriented\r\
-    \npermutations proposed for hashing inside algebraic proof systems. While there\
-    \ is extensive\r\nprior work on cryptanalys"
+  summary: "Poseidon[GKR+19 ] and its successor Poseidon2[GKS23] are arithmetization-oriented\r\npermutations proposed for\
+    \ hashing inside algebraic proof systems. While there is extensive\r\nprior work on cryptanalys"
   status: pending_review
   matched_keywords:
   - algebraic attack
@@ -3665,8 +3641,8 @@ papers:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: oraclebased_multistep_strategy_2026
-  title: Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite
-    Fields and Algebraic Cryptanalysis of the Aradi Cipher
+  title: Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of
+    the Aradi Cipher
   authors: []
   venue: ePrint 2025/1097
   year: 2026
@@ -3676,9 +3652,8 @@ papers:
   - lightweight
   ciphers: []
   significance: medium
-  summary: 'The multistep solving strategy consists in a divide-and-conquer approach:
-    when a multivariate polynomial system is computationally infeasible to solve directly,
-    one variable is assigned over the eleme'
+  summary: 'The multistep solving strategy consists in a divide-and-conquer approach: when a multivariate polynomial system
+    is computationally infeasible to solve directly, one variable is assigned over the eleme'
   status: pending_review
   matched_keywords:
   - algebraic attack
@@ -3695,17 +3670,15 @@ papers:
   - invariant
   ciphers: []
   significance: medium
-  summary: This paper investigates the algebraic structure of SNOVA, a NIST PQC Round
-    2 candidate, with a specific focus on the kernel dimension of the wedge map. We
-    employ lifting techniques to transform the pu
+  summary: This paper investigates the algebraic structure of SNOVA, a NIST PQC Round 2 candidate, with a specific focus on
+    the kernel dimension of the wedge map. We employ lifting techniques to transform the pu
   status: pending_review
   matched_keywords:
   - invariant
   - PRESENT
   fetched_date: '2026-03-11'
 - id: improved_integral_attack_2026
-  title: Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi
-    Function
+  title: Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function
   authors: []
   venue: ePrint 2025/1806
   year: 2026
@@ -3716,9 +3689,8 @@ papers:
   - tweakable
   ciphers: []
   significance: medium
-  summary: The protection of executable code in embedded systems requires efficient
-    mechanisms that ensure confidentiality and integrity.  Belkheyar et al. recently
-    proposed the Authenticated Code Encryption (AC
+  summary: The protection of executable code in embedded systems requires efficient mechanisms that ensure confidentiality
+    and integrity.  Belkheyar et al. recently proposed the Authenticated Code Encryption (AC
   status: pending_review
   matched_keywords:
   - integral attack
@@ -3736,9 +3708,8 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: The studies by Gohr et al. at Crypto 2019 and subsequent related works
-    have demonstrated that neural networks can offer new insights for cryptanalysis.
-    Building on this insight, we leverage neural net
+  summary: The studies by Gohr et al. at Crypto 2019 and subsequent related works have demonstrated that neural networks can
+    offer new insights for cryptanalysis. Building on this insight, we leverage neural net
   status: pending_review
   matched_keywords:
   - meet-in-the-middle
@@ -3755,9 +3726,8 @@ papers:
   - lightweight
   ciphers: []
   significance: medium
-  summary: 'The wide adoption of deep neural networks (DNNs) raises the question of
-    how can we equip them with a desired cryptographic functionality (e.g, to decrypt
-    an encrypted input, to verify that this input '
+  summary: 'The wide adoption of deep neural networks (DNNs) raises the question of how can we equip them with a desired cryptographic
+    functionality (e.g, to decrypt an encrypted input, to verify that this input '
   status: pending_review
   matched_keywords:
   - block cipher
@@ -3774,17 +3744,15 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: Committing security has recently emerged as an essential property for message
-    authentication codes (MACs), driven by applications such as abuse reporting in
-    end-to-end encrypted messaging systems. Tra
+  summary: Committing security has recently emerged as an essential property for message authentication codes (MACs), driven
+    by applications such as abuse reporting in end-to-end encrypted messaging systems. Tra
   status: pending_review
   matched_keywords:
   - MITM
   - block cipher
   fetched_date: '2026-03-11'
 - id: verification_theatre_false_2026
-  title: 'Verification Theatre: False Assurance in Formally Verified Cryptographic
-    Libraries'
+  title: 'Verification Theatre: False Assurance in Formally Verified Cryptographic Libraries'
   authors: []
   venue: ePrint 2026/192
   year: 2026
@@ -3793,9 +3761,8 @@ papers:
   - lightweight
   ciphers: []
   significance: medium
-  summary: "Every formally verified system embeds a verification boundary: the interface\
-    \ between code with machine-checked proofs and code that is trusted without them.\r\
-    \nWe study what happens when this boundary i"
+  summary: "Every formally verified system embeds a verification boundary: the interface between code with machine-checked\
+    \ proofs and code that is trusted without them.\r\nWe study what happens when this boundary i"
   status: pending_review
   matched_keywords:
   - lightweight
@@ -3813,9 +3780,8 @@ papers:
   - permutation_layer
   ciphers: []
   significance: medium
-  summary: We propose new techniques for estimating the probability that an input
-    difference leads to an output difference in a block cipher (i.e., the probability
-    of a differential) under the assumption of inde
+  summary: We propose new techniques for estimating the probability that an input difference leads to an output difference
+    in a block cipher (i.e., the probability of a differential) under the assumption of inde
   status: pending_review
   matched_keywords:
   - differential
@@ -3835,9 +3801,8 @@ papers:
   - permutation_layer
   ciphers: []
   significance: medium
-  summary: We specify OCH, the first authenticated encryption with associated data
-    scheme built to provide 128-bit multi-user AE security, 128-bit context commitment
-    security, and 256-bit nonces with optional no
+  summary: We specify OCH, the first authenticated encryption with associated data scheme built to provide 128-bit multi-user
+    AE security, 128-bit context commitment security, and 256-bit nonces with optional no
   status: pending_review
   matched_keywords:
   - MITM
@@ -3856,9 +3821,8 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: We present a unifying framework for proving the knowledge-soundness of
-    KZG-like polynomial commitment schemes, encompassing both univariate and multivariate
-    variants. By conceptualizing the proof tech
+  summary: We present a unifying framework for proving the knowledge-soundness of KZG-like polynomial commitment schemes,
+    encompassing both univariate and multivariate variants. By conceptualizing the proof tech
   status: pending_review
   matched_keywords:
   - MITM
@@ -3866,9 +3830,8 @@ papers:
   - LED
   fetched_date: '2026-03-11'
 - id: minimizing_mempool_dependency_2026
-  title: 'Minimizing Mempool Dependency in PoW Mining on Blockchain: A Paradigm Shift
-    with Compressed Block Representation for Enhanced Scalability, Decentralization
-    and Security.'
+  title: 'Minimizing Mempool Dependency in PoW Mining on Blockchain: A Paradigm Shift with Compressed Block Representation
+    for Enhanced Scalability, Decentralization and Security.'
   authors: []
   venue: ePrint 2026/141
   year: 2026
@@ -3877,16 +3840,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: While existing Proof-of-Work (PoW) based blockchain protocols have demonstrated
-    innovative potential, they face inherent limitations regarding scalability, efficiency,
-    and decentralization. The compac
+  summary: While existing Proof-of-Work (PoW) based blockchain protocols have demonstrated innovative potential, they face
+    inherent limitations regarding scalability, efficiency, and decentralization. The compac
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: efficient_quaternion_algorithms_2026
-  title: EFFICIENT QUATERNION ALGORITHMS FOR THE DEURING CORRESPONDENCE, AND APPLICATION
-    TO THE EVALUATION OF MODULAR POLYNOMIALS
+  title: EFFICIENT QUATERNION ALGORITHMS FOR THE DEURING CORRESPONDENCE, AND APPLICATION TO THE EVALUATION OF MODULAR POLYNOMIALS
   authors: []
   venue: ePrint 2026/185
   year: 2026
@@ -3895,9 +3856,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: "This work presents several algorithms to perform operations in\r\nthe\
-    \ quaternion ideals and orders stemming from the Deuring correspondence.\r\nWhile\
-    \ most of the desired operations can be solved with gene"
+  summary: "This work presents several algorithms to perform operations in\r\nthe quaternion ideals and orders stemming from\
+    \ the Deuring correspondence.\r\nWhile most of the desired operations can be solved with gene"
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -3912,16 +3872,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Ensuring fairness in blockchain-based data trading presents significant
-    challenges, as the transparency of blockchain can expose sensitive details and
-    compromise fairness. Fairness ensures that the se
+  summary: Ensuring fairness in blockchain-based data trading presents significant challenges, as the transparency of blockchain
+    can expose sensitive details and compromise fairness. Fairness ensures that the se
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: the_motteandbailey_framework_2026
-  title: 'The Motte-and-Bailey Framework for Leakage-Resilient Accordion Modes: Featuring
-    Qaitbay and Alicante'
+  title: 'The Motte-and-Bailey Framework for Leakage-Resilient Accordion Modes: Featuring Qaitbay and Alicante'
   authors: []
   venue: ePrint 2026/122
   year: 2026
@@ -3930,17 +3888,15 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Accordion modes have experienced a surge in popularity, partially motivated
-    by the recent NIST Accordion modes project. None of the existing practical constructions
-    is leakage-resilient by default. In
+  summary: Accordion modes have experienced a surge in popularity, partially motivated by the recent NIST Accordion modes
+    project. None of the existing practical constructions is leakage-resilient by default. In
   status: pending_review
   matched_keywords:
   - PRESENT
   - LED
   fetched_date: '2026-03-11'
 - id: a_hardwaresoftware_cooptimization_2026
-  title: A Hardware/Software Co-Optimization of HQC Using Tightly-Coupled Accelerators
-    on a 32-bit Ibex Core
+  title: A Hardware/Software Co-Optimization of HQC Using Tightly-Coupled Accelerators on a 32-bit Ibex Core
   authors: []
   venue: ePrint 2026/478
   year: 2026
@@ -3949,9 +3905,8 @@ papers:
   - permutation_layer
   ciphers: []
   significance: medium
-  summary: 'We present Hardware/Software co-optimization of Hamming Quasi-Cyclic (HQC)
-    enabled by tightly coupled accelerators implemented on a 32-bit Ibex RISC-V core.
-    On the hardware side, we propose a unified '
+  summary: 'We present Hardware/Software co-optimization of Hamming Quasi-Cyclic (HQC) enabled by tightly coupled accelerators
+    implemented on a 32-bit Ibex RISC-V core. On the hardware side, we propose a unified '
   status: pending_review
   matched_keywords:
   - permutation
@@ -3968,9 +3923,8 @@ papers:
   - milp_sat_cp
   ciphers: []
   significance: medium
-  summary: Signal is a secure messaging app offering end-to-end security for pairwise
-    and group communications. It has tens of millions of users, and has heavily influenced
-    the design of other secure messaging a
+  summary: Signal is a secure messaging app offering end-to-end security for pairwise and group communications. It has tens
+    of millions of users, and has heavily influenced the design of other secure messaging a
   status: pending_review
   matched_keywords:
   - SAT
@@ -3978,8 +3932,7 @@ papers:
   - LED
   fetched_date: '2026-03-11'
 - id: debtaware_bonding_curves_2026
-  title: 'Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable
-    Borrowing'
+  title: 'Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing'
   authors: []
   venue: ePrint 2026/483
   year: 2026
@@ -3988,9 +3941,8 @@ papers:
   - invariant
   ciphers: []
   significance: medium
-  summary: Decentralized lending protocols rely on liquidation mechanisms tied to
-    volatile oracle-derived prices, creating cascading systemic risk during market
-    downturns. We introduce debt-aware discrete bondin
+  summary: Decentralized lending protocols rely on liquidation mechanisms tied to volatile oracle-derived prices, creating
+    cascading systemic risk during market downturns. We introduce debt-aware discrete bondin
   status: pending_review
   matched_keywords:
   - invariant
@@ -4006,9 +3958,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'Byzantine Agreement and Broadcast are traditionally studied in one of
-    two extremes: the authenticated setting, where a public key infrastructure (PKI)
-    enables universally verifiable signatures and yie'
+  summary: 'Byzantine Agreement and Broadcast are traditionally studied in one of two extremes: the authenticated setting,
+    where a public key infrastructure (PKI) enables universally verifiable signatures and yie'
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4023,9 +3974,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: We present an exponential-time key recovery attack on the public-key encryption
-    scheme using matrix codes proposed by Aragon et al. at Asiacrypt 2024. The secret
-    key is a Gabidulin code expanded using
+  summary: We present an exponential-time key recovery attack on the public-key encryption scheme using matrix codes proposed
+    by Aragon et al. at Asiacrypt 2024. The secret key is a Gabidulin code expanded using
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4040,16 +3990,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: In this work, we present new cryptanalytic attacks on recently proposed,
-    theory-inspired constructions of weak pseudorandom functions (weak-PRFs). We demonstrate
-    attacks on several such designs, showi
+  summary: In this work, we present new cryptanalytic attacks on recently proposed, theory-inspired constructions of weak
+    pseudorandom functions (weak-PRFs). We demonstrate attacks on several such designs, showi
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: registered_attributebased_encryption_2026
-  title: Registered Attribute-Based Encryption with Publicly Verifiable Certified
-    Deletion, Everlasting Security, and More
+  title: Registered Attribute-Based Encryption with Publicly Verifiable Certified Deletion, Everlasting Security, and More
   authors: []
   venue: ePrint 2025/2314
   year: 2026
@@ -4058,9 +4006,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Certified deletion ensures that encrypted data can be irreversibly deleted,
-    preventing future recovery even if decryption keys are later exposed. Although
-    existing works have achieved certified deleti
+  summary: Certified deletion ensures that encrypted data can be irreversibly deleted, preventing future recovery even if
+    decryption keys are later exposed. Although existing works have achieved certified deleti
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4076,9 +4023,8 @@ papers:
   - lightweight
   ciphers: []
   significance: medium
-  summary: "We present Remise, a two-server authorized anonymous\r\ncommunication\
-    \ system built on Distributed Oblivious\r\nRAM (DORAM). Remise supports two modes\
-    \ of opera-\r\ntion: (i) an anonymous bulletin board, wher"
+  summary: "We present Remise, a two-server authorized anonymous\r\ncommunication system built on Distributed Oblivious\r\n\
+    RAM (DORAM). Remise supports two modes of opera-\r\ntion: (i) an anonymous bulletin board, wher"
   status: pending_review
   matched_keywords:
   - lightweight
@@ -4086,8 +4032,7 @@ papers:
   - LED
   fetched_date: '2026-03-11'
 - id: chopin_optimal_pairingbased_2026
-  title: 'CHOPIN: Optimal Pairing-Based Multilinear Polynomial Commitments from Bivariate
-    KZG'
+  title: 'CHOPIN: Optimal Pairing-Based Multilinear Polynomial Commitments from Bivariate KZG'
   authors: []
   venue: ePrint 2026/480
   year: 2026
@@ -4096,9 +4041,8 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: We present CHOPIN, a pairing-based multilinear polynomial commitment scheme
-    (PCS) achieving constant proof size and a linear-time prover, constructed modularly
-    from a bivariate PCS. CHOPIN generalizes
+  summary: We present CHOPIN, a pairing-based multilinear polynomial commitment scheme (PCS) achieving constant proof size
+    and a linear-time prover, constructed modularly from a bivariate PCS. CHOPIN generalizes
   status: pending_review
   matched_keywords:
   - MITM
@@ -4115,16 +4059,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'Understanding the complexity of Byzantine agreement (BA) is a fundamental
-    problem in distributed computing and cryptography. Existing round- or communication
-    lower bounds either restrict the class of '
+  summary: 'Understanding the complexity of Byzantine agreement (BA) is a fundamental problem in distributed computing and
+    cryptography. Existing round- or communication lower bounds either restrict the class of '
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: libra_patternscheduling_cooptimization_2026
-  title: 'Libra: Pattern-Scheduling Co-Optimization for Cross-Scheme FHE Code Generation
-    over GPGPU'
+  title: 'Libra: Pattern-Scheduling Co-Optimization for Cross-Scheme FHE Code Generation over GPGPU'
   authors: []
   venue: ePrint 2026/456
   year: 2026
@@ -4133,16 +4075,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: We propose Libra, a compiler framework that automates efficient code generation
-    for cross-scheme fully homomorphic encryption (FHE) on highly parallel computing
-    architectures. While it is known that l
+  summary: We propose Libra, a compiler framework that automates efficient code generation for cross-scheme fully homomorphic
+    encryption (FHE) on highly parallel computing architectures. While it is known that l
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: dacpre_practical_anonymous_2026
-  title: 'DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption
-    for Implantable Medical Devices'
+  title: 'DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices'
   authors: []
   venue: ePrint 2026/477
   year: 2026
@@ -4151,9 +4091,8 @@ papers:
   - milp_sat_cp
   ciphers: []
   significance: medium
-  summary: "One of the most important fundamental elements in\r\nguaranteeing data\
-    \ security is data access management. The two primary security components of data\
-    \ access control are typically authorisation and auth"
+  summary: "One of the most important fundamental elements in\r\nguaranteeing data security is data access management. The\
+    \ two primary security components of data access control are typically authorisation and auth"
   status: pending_review
   matched_keywords:
   - SAT
@@ -4169,9 +4108,8 @@ papers:
   - milp_sat_cp
   ciphers: []
   significance: medium
-  summary: Garbling schemes are powerful primitives that enable secure computation
-    between a mutually untrusting garbler and evaluator. A projective garbling scheme
-    is one that encodes the evaluator's input in a
+  summary: Garbling schemes are powerful primitives that enable secure computation between a mutually untrusting garbler and
+    evaluator. A projective garbling scheme is one that encodes the evaluator's input in a
   status: pending_review
   matched_keywords:
   - SAT
@@ -4187,9 +4125,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: We present a new framework for secure computation of arithmetic circuits
-    with two-thirds honest majority that lifts semi-honest protocols to full malicious
-    security. Our framework works with any linea
+  summary: We present a new framework for secure computation of arithmetic circuits with two-thirds honest majority that lifts
+    semi-honest protocols to full malicious security. Our framework works with any linea
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4205,9 +4142,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: We present a privacy protocol implemented on Starknet that enables confidential
-    transactions while maintaining regulatory compliance. Transfers hide the sender,
-    receiver, and amount from external obse
+  summary: We present a privacy protocol implemented on Starknet that enables confidential transactions while maintaining
+    regulatory compliance. Transfers hide the sender, receiver, and amount from external obse
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4223,9 +4159,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'The Estonian i-voting experience is probably the richest to analyze; a
-    country that is considered a pioneer in digitizing both the government and private
-    sector since 2001 followed by online internet '
+  summary: 'The Estonian i-voting experience is probably the richest to analyze; a country that is considered a pioneer in
+    digitizing both the government and private sector since 2001 followed by online internet '
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4241,9 +4176,8 @@ papers:
   - permutation_layer
   ciphers: []
   significance: medium
-  summary: LESS is a digital signature scheme that is currently in the second round
-    of the National Institute of Standards and Technology’s (NIST’s) ongoing call
-    for standardization of additional post-quantum si
+  summary: LESS is a digital signature scheme that is currently in the second round of the National Institute of Standards
+    and Technology’s (NIST’s) ongoing call for standardization of additional post-quantum si
   status: pending_review
   matched_keywords:
   - permutation
@@ -4258,16 +4192,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Recent work at Eurocrypt 2025 by Basso and Maino introduced POKÉ, an isogeny-based
-    public key encryption (PKE) scheme.  POKÉ shows how two parties can derive a shared
-    secret on a higher-dimensional, S
+  summary: Recent work at Eurocrypt 2025 by Basso and Maino introduced POKÉ, an isogeny-based public key encryption (PKE)
+    scheme.  POKÉ shows how two parties can derive a shared secret on a higher-dimensional, S
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: descent_into_broken_2026
-  title: 'Descent into Broken Trust: Uncovering ML-DSA Subkeys with Scarce Leakage
-    and Local Optimization'
+  title: 'Descent into Broken Trust: Uncovering ML-DSA Subkeys with Scarce Leakage and Local Optimization'
   authors: []
   venue: ePrint 2026/472
   year: 2026
@@ -4276,17 +4208,15 @@ papers:
   - milp_sat_cp
   ciphers: []
   significance: medium
-  summary: ML-DSA (formerly CRYSTALS-Dilithium), the primary NIST post-quantum signature
-    standard, relies on rejection sampling to ensure that released signatures are
-    statistically independent of the secret key.
+  summary: ML-DSA (formerly CRYSTALS-Dilithium), the primary NIST post-quantum signature standard, relies on rejection sampling
+    to ensure that released signatures are statistically independent of the secret key.
   status: pending_review
   matched_keywords:
   - SAT
   - LED
   fetched_date: '2026-03-11'
 - id: lookup_arguments_over_2026
-  title: Lookup Arguments over Rings and Applications to Batch-Verification of RAM
-    Programs
+  title: Lookup Arguments over Rings and Applications to Batch-Verification of RAM Programs
   authors: []
   venue: ePrint 2026/471
   year: 2026
@@ -4295,16 +4225,14 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: Lookup arguments are a key technique in SNARKs for reducing the cost of
-    operations which are “arithmetization-unfriendly”, such as range checks and bitwise
-    comparisons. The idea is to encode the valid
+  summary: Lookup arguments are a key technique in SNARKs for reducing the cost of operations which are “arithmetization-unfriendly”,
+    such as range checks and bitwise comparisons. The idea is to encode the valid
   status: pending_review
   matched_keywords:
   - MITM
   fetched_date: '2026-03-11'
 - id: a_note_on_2026
-  title: A Note on ``Linear-Communication ACSS with Guaranteed Termination and Lower
-    Amortized Bound''
+  title: A Note on ``Linear-Communication ACSS with Guaranteed Termination and Lower Amortized Bound''
   authors: []
   venue: ePrint 2026/469
   year: 2026
@@ -4313,16 +4241,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'In this note, we demonstrate that the construction of asynchronous complete
-    secret sharing (ACSS) proposed in the recent work by Qin et al., accepted at Eurocrypt
-    2026, is insecure. In particular, we '
+  summary: 'In this note, we demonstrate that the construction of asynchronous complete secret sharing (ACSS) proposed in
+    the recent work by Qin et al., accepted at Eurocrypt 2026, is insecure. In particular, we '
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: tighter_proofs_for_2026
-  title: Tighter Proofs for PKE-to-KEM Transformations under Average-Case Decryption
-    Error and without $\gamma$-Spread
+  title: Tighter Proofs for PKE-to-KEM Transformations under Average-Case Decryption Error and without $\gamma$-Spread
   authors: []
   venue: ePrint 2026/468
   year: 2026
@@ -4331,9 +4257,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: In the NIST post-quantum standardization process, Fujisaki-Okamoto-like
-    (FO-like) transformation has become the de facto paradigm for constructing IND-CCA
-    secure key encapsulation mechanisms (KEMs) fr
+  summary: In the NIST post-quantum standardization process, Fujisaki-Okamoto-like (FO-like) transformation has become the
+    de facto paradigm for constructing IND-CCA secure key encapsulation mechanisms (KEMs) fr
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4348,9 +4273,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Zero-knowledge codes, introduced by Decatur, Goldreich, and Ron (ePrint
-    1997), are error-correcting codes in which few codeword symbols reveal no information
-    about the encoded message, and have been e
+  summary: Zero-knowledge codes, introduced by Decatur, Goldreich, and Ron (ePrint 1997), are error-correcting codes in which
+    few codeword symbols reveal no information about the encoded message, and have been e
   status: pending_review
   matched_keywords:
   - LED
@@ -4365,9 +4289,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Individual genomic data is a uniquely sensitive type of user data. While
-    many papers have considered using Multi-Party Computation (MPC) or Fully Homomorphic
-    Encryption (FHE) to allow collaborators to
+  summary: Individual genomic data is a uniquely sensitive type of user data. While many papers have considered using Multi-Party
+    Computation (MPC) or Fully Homomorphic Encryption (FHE) to allow collaborators to
   status: pending_review
   matched_keywords:
   - LED
@@ -4382,9 +4305,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'This survey article provides an overview of the Semigroup Action Problem
-    (SAP) as a pivotal generalization of the Discrete Logarithm Problem (DLP), tracing
-    its theoretical evolution from foundational '
+  summary: 'This survey article provides an overview of the Semigroup Action Problem (SAP) as a pivotal generalization of
+    the Discrete Logarithm Problem (DLP), tracing its theoretical evolution from foundational '
   status: pending_review
   matched_keywords:
   - LED
@@ -4399,16 +4321,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'Hamming Quasi-Cyclic (HQC) is a leading code-based key-encapsulation mechanism
-    (KEM), recently selected by NIST for standardization, whose bandwidth and efficiency
-    are balanced with the concrete cost '
+  summary: 'Hamming Quasi-Cyclic (HQC) is a leading code-based key-encapsulation mechanism (KEM), recently selected by NIST
+    for standardization, whose bandwidth and efficiency are balanced with the concrete cost '
   status: pending_review
   matched_keywords:
   - LED
   fetched_date: '2026-03-11'
 - id: a_resourceefficient_hardware_2026
-  title: A Resource-Efficient Hardware Accelerator for Large-Size NTT via Algorithm–Architecture
-    Co-Design
+  title: A Resource-Efficient Hardware Accelerator for Large-Size NTT via Algorithm–Architecture Co-Design
   authors: []
   venue: ePrint 2026/460
   year: 2026
@@ -4417,9 +4337,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Large-size Number Theoretic Transforms (NTTs) are key operations in modern
-    Zero-Knowledge Proofs (ZKPs), where the NTT size often reaches millions of points
-    and the arithmetic is over wide prime field
+  summary: Large-size Number Theoretic Transforms (NTTs) are key operations in modern Zero-Knowledge Proofs (ZKPs), where
+    the NTT size often reaches millions of points and the arithmetic is over wide prime field
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4435,16 +4354,14 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: A useful linearization technique (or a trick) was introduced in the Marlin
-    and Plonk SNARKs, which significantly reduces the number of KZG polynomial commitment
-    openings a SNARK prover has to send. Su
+  summary: A useful linearization technique (or a trick) was introduced in the Marlin and Plonk SNARKs, which significantly
+    reduces the number of KZG polynomial commitment openings a SNARK prover has to send. Su
   status: pending_review
   matched_keywords:
   - MITM
   fetched_date: '2026-03-11'
 - id: adaptively_secure_universally_2026
-  title: Adaptively Secure, Universally Composable Distributed Generation of Discrete-Logarithm
-    Based Keys
+  title: Adaptively Secure, Universally Composable Distributed Generation of Discrete-Logarithm Based Keys
   authors: []
   venue: ePrint 2026/457
   year: 2026
@@ -4453,9 +4370,8 @@ papers:
   - milp_sat_cp
   ciphers: []
   significance: medium
-  summary: Distributed key generation (DKG) protocols enable a set of parties to distributively
-    generate a threshold-shared key pair \((\mathsf{pk}, \mathsf{sk})\), such that
-    at least \(t\) parties must particip
+  summary: Distributed key generation (DKG) protocols enable a set of parties to distributively generate a threshold-shared
+    key pair \((\mathsf{pk}, \mathsf{sk})\), such that at least \(t\) parties must particip
   status: pending_review
   matched_keywords:
   - SAT
@@ -4470,9 +4386,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Most prior works on secure Multi-Party Computation (MPC) in asynchronous
-    networks study Guaranteed Output Delivery (GOD), meaning that all parties learn
-    the function output. Asynchronous MPC protocols
+  summary: Most prior works on secure Multi-Party Computation (MPC) in asynchronous networks study Guaranteed Output Delivery
+    (GOD), meaning that all parties learn the function output. Asynchronous MPC protocols
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4488,9 +4403,8 @@ papers:
   - milp_sat_cp
   ciphers: []
   significance: medium
-  summary: Anonymous credentials enable the unlinkable presentation of previously
-    attested information, or even only predicates thereof. They are a versatile tool
-    and currently enjoy attention in various real-wo
+  summary: Anonymous credentials enable the unlinkable presentation of previously attested information, or even only predicates
+    thereof. They are a versatile tool and currently enjoy attention in various real-wo
   status: pending_review
   matched_keywords:
   - MITM
@@ -4507,9 +4421,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: The Learning with Errors (LWE) problem has been widely utilized as a foundation
-    for numerous cryptographic tools over the years. In this study, we focus on an
-    algebraic variant of the LWE problem call
+  summary: The Learning with Errors (LWE) problem has been widely utilized as a foundation for numerous cryptographic tools
+    over the years. In this study, we focus on an algebraic variant of the LWE problem call
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4525,9 +4438,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: There are various notions of quantum pseudorandomness, such as pseudorandom
-    unitaries (PRUs), pseudorandom state generators (PRSGs) and pseudorandom function-like
-    state generators (PRFSGs). Unlike the
+  summary: There are various notions of quantum pseudorandomness, such as pseudorandom unitaries (PRUs), pseudorandom state
+    generators (PRSGs) and pseudorandom function-like state generators (PRFSGs). Unlike the
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4542,17 +4454,16 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Quantum cryptographic definitions are often sensitive to the number of
-    copies of the cryptographic states revealed to an adversary. Making definitional
-    changes to the number of copies accessible to an
+  summary: Quantum cryptographic definitions are often sensitive to the number of copies of the cryptographic states revealed
+    to an adversary. Making definitional changes to the number of copies accessible to an
   status: pending_review
   matched_keywords:
   - PRESENT
   - LED
   fetched_date: '2026-03-11'
 - id: designing_qcmdpc_public_2026
-  title: Designing QC-MDPC Public Key Encryption Schemes with Niederreiter's Construction
-    and a Bit Flipping Decoder with Bounded DFR
+  title: Designing QC-MDPC Public Key Encryption Schemes with Niederreiter's Construction and a Bit Flipping Decoder with
+    Bounded DFR
   authors: []
   venue: ePrint 2025/1043
   year: 2026
@@ -4561,9 +4472,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: "Post-quantum public key encryption (PKE) schemes employing Quasi-cyclic\
-    \ (QC) sparse\r\nparity-check matrix codes are enjoying significant success, thanks\
-    \ to their\r\ngood performance profile and reduction"
+  summary: "Post-quantum public key encryption (PKE) schemes employing Quasi-cyclic (QC) sparse\r\nparity-check matrix codes\
+    \ are enjoying significant success, thanks to their\r\ngood performance profile and reduction"
   status: pending_review
   matched_keywords:
   - LED
@@ -4578,16 +4488,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Succinct zero-knowledge arguments (zk-SNARKs) enable a prover to convince
-    a verifier of the truth of a statement via a succinct and efficiently verifiable
-    proof without revealing any additional inform
+  summary: Succinct zero-knowledge arguments (zk-SNARKs) enable a prover to convince a verifier of the truth of a statement
+    via a succinct and efficiently verifiable proof without revealing any additional inform
   status: pending_review
   matched_keywords:
   - LED
   fetched_date: '2026-03-11'
 - id: hybridization_of_cryptographic_2026
-  title: 'Hybridization of Cryptographic Primitives: A Generalized Framework for Adaptive
-    Security'
+  title: 'Hybridization of Cryptographic Primitives: A Generalized Framework for Adaptive Security'
   authors: []
   venue: ePrint 2026/350
   year: 2026
@@ -4596,9 +4504,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'Hybrid cryptographic schemes combine multiple primitives to provide resilience
-    against diverse threats, particularly in the post-quantum era where classical
-    algorithms face potential quantum attacks. '
+  summary: 'Hybrid cryptographic schemes combine multiple primitives to provide resilience against diverse threats, particularly
+    in the post-quantum era where classical algorithms face potential quantum attacks. '
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4613,16 +4520,14 @@ papers:
   - meet_in_the_middle
   ciphers: []
   significance: medium
-  summary: In this work, we construct a new and highly efficient blind polynomial
-    commitment scheme (PCS) over non-binary fields. Our scheme is specifically designed
-    to handle encrypted coefficients without requ
+  summary: In this work, we construct a new and highly efficient blind polynomial commitment scheme (PCS) over non-binary
+    fields. Our scheme is specifically designed to handle encrypted coefficients without requ
   status: pending_review
   matched_keywords:
   - MITM
   fetched_date: '2026-03-11'
 - id: trustworthy_agent_network_2026
-  title: 'Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not
-    Bolted On'
+  title: 'Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On'
   authors: []
   venue: ePrint 2026/497
   year: 2026
@@ -4631,9 +4536,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: The rapid advancement of Large Language Models has given rise to autonomous
-    LLM-based agents capable of complex reasoning and execution. As these agents transition
-    from isolated operation to collabora
+  summary: The rapid advancement of Large Language Models has given rise to autonomous LLM-based agents capable of complex
+    reasoning and execution. As these agents transition from isolated operation to collabora
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4649,9 +4553,8 @@ papers:
   - invariant
   ciphers: []
   significance: medium
-  summary: The assumed hardness of the Linear Code Equivalence problem (LCE) lies
-    at the core of the security of the LESS signature scheme and other signature schemes
-    with advanced functionalities. The LCE probl
+  summary: The assumed hardness of the Linear Code Equivalence problem (LCE) lies at the core of the security of the LESS
+    signature scheme and other signature schemes with advanced functionalities. The LCE probl
   status: pending_review
   matched_keywords:
   - invariant
@@ -4659,8 +4562,7 @@ papers:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: mathsfgluelut_generalized_lookup_2026
-  title: '$\mathsf{GlueLUT}$: Generalized Lookup Table Arguments over Residue Rings
-    via Auxiliary Fields'
+  title: '$\mathsf{GlueLUT}$: Generalized Lookup Table Arguments over Residue Rings via Auxiliary Fields'
   authors: []
   venue: ePrint 2026/494
   year: 2026
@@ -4669,9 +4571,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Lookup Table (LUT) arguments are a central efficiency primitive in modern
-    SNARKs, and existing high-performance constructions are largely tailored to large
-    fields. Meanwhile, an increasingly important
+  summary: Lookup Table (LUT) arguments are a central efficiency primitive in modern SNARKs, and existing high-performance
+    constructions are largely tailored to large fields. Meanwhile, an increasingly important
   status: pending_review
   matched_keywords:
   - LED
@@ -4686,9 +4587,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: Reusability is a recurring theme in cryptography, appearing in various
-    contexts where a one-time setup produces an encoded program that can be applied
-    to multiple inputs. Prominent examples include in
+  summary: Reusability is a recurring theme in cryptography, appearing in various contexts where a one-time setup produces
+    an encoded program that can be applied to multiple inputs. Prominent examples include in
   status: pending_review
   matched_keywords:
   - LED
@@ -4703,9 +4603,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 'The growing demand for privacy-preserving Transformer inference has led
-    to the emergence of numerous protocols designed to protect sensitive data and
-    model parameters. These protocols utilize diverse '
+  summary: 'The growing demand for privacy-preserving Transformer inference has led to the emergence of numerous protocols
+    designed to protect sensitive data and model parameters. These protocols utilize diverse '
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4721,9 +4620,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: We undertake a comprehensive and structured synthesis of the drivers of
-    human behavior in cybersecurity, focusing specifically on people within organizations
-    (i.e., especially employees in companies),
+  summary: We undertake a comprehensive and structured synthesis of the drivers of human behavior in cybersecurity, focusing
+    specifically on people within organizations (i.e., especially employees in companies),
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4738,9 +4636,8 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: We present a new verifiable oblivious pseudorandom function (VOPRF) from
-    isogeny group actions. Our construction is twice as fast as the previous state
-    of the art of Delpech de Saint Guilhem and Peder
+  summary: We present a new verifiable oblivious pseudorandom function (VOPRF) from isogeny group actions. Our construction
+    is twice as fast as the previous state of the art of Delpech de Saint Guilhem and Peder
   status: pending_review
   matched_keywords:
   - PRESENT
@@ -4755,9 +4652,8 @@ papers:
   - lightweight
   ciphers: []
   significance: medium
-  summary: Offline finding (OF) protocols---such as Apple's Find My, Google's Find
-    Hub, Samsung’s SmartThingsFind, and Tile---enable hundreds of millions of users
-    to track their belongings via Bluetooth-based tr
+  summary: Offline finding (OF) protocols---such as Apple's Find My, Google's Find Hub, Samsung’s SmartThingsFind, and Tile---enable
+    hundreds of millions of users to track their belongings via Bluetooth-based tr
   status: pending_review
   matched_keywords:
   - lightweight
@@ -4772,16 +4668,14 @@ papers:
   - differential
   ciphers: []
   significance: medium
-  summary: 𝑃ℎ𝑜𝑡𝑜𝐷𝑁𝐴 is a widely deployed perceptual hash function used for the detection
-    of illicit content such as Child Sexual Abuse Material (CSAM). This paper presents
-    the first mathematical description of 𝐴
+  summary: 𝑃ℎ𝑜𝑡𝑜𝐷𝑁𝐴 is a widely deployed perceptual hash function used for the detection of illicit content such as Child
+    Sexual Abuse Material (CSAM). This paper presents the first mathematical description of 𝐴
   status: pending_review
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-11'
 - id: simd_hss_and_2026
-  title: SIMD HSS and aHMAC from Interval Encoding with Application to One-Bit-Per-Gate
-    Garbling
+  title: SIMD HSS and aHMAC from Interval Encoding with Application to One-Bit-Per-Gate Garbling
   authors: []
   venue: ePrint 2026/485
   year: 2026
@@ -4790,12 +4684,1006 @@ papers:
   - lightweight
   ciphers: []
   significance: medium
-  summary: Primitives enabling homomorphic computation over secret-shared values--Homomorphic
-    Secret Sharing (HSS) and algebraic Homomorphic MACs (aHMAC)--have recently emerged
-    as efficient alternatives to ciphe
+  summary: Primitives enabling homomorphic computation over secret-shared values--Homomorphic Secret Sharing (HSS) and algebraic
+    Homomorphic MACs (aHMAC)--have recently emerged as efficient alternatives to ciphe
   status: pending_review
   matched_keywords:
   - lightweight
   - PRESENT
   - LED
   fetched_date: '2026-03-11'
+- id: generalizations_of_chichi_2026
+  title: 'Generalizations of ChiChi: Families of Low-Latency Permutations in Any Even Dimension'
+  authors:
+  - Samuele Andreoli
+  - Gregor Leander
+  - Enrico Piccione
+  - Lukas Stennes
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.800-826
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: differential_cryptanalysis_of_2026
+  title: Differential Cryptanalysis of the Reduced Pointer Authentication Code Function Used in Arm&apos;s FEAT_PACQARMA3
+    Feature
+  authors:
+  - Roberto Avanzi
+  - Orr Dunkelman
+  - Shibam Ghosh
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.380-419
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: dialga_a_family_2026
+  title: 'Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers'
+  authors:
+  - Subhadeep Banik
+  - Tatsuya Ishikawa
+  - Takanori Isobe 0001
+  - Ryoma Ito 0001
+  - Kazuhiko Minematsu
+  - Kazuma Nakata
+  - Mostafizar Rahman
+  - Kosei Sakamoto
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.70-124
+  directions:
+  - lightweight
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - tweakable
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: on_the_plaintext_2026
+  title: On the Plaintext Awareness of AEAD Schemes
+  authors:
+  - Mario Marhuenda Beltrán
+  - Mustafa Khairallah
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.231-261
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: exact_formula_for_2026
+  title: Exact Formula for RX-Differential Probability Through Modular Addition for All Rotations
+  authors:
+  - Alex Biryukov
+  - Baptiste Lambin
+  - Aleksei Udovenko
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.542-591
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: extending_the_quasidifferential_2026
+  title: 'Extending the Quasidifferential Framework: From Fixed-Key to Expected Differential Probability'
+  authors:
+  - Christina Boura
+  - Patrick Derbez
+  - Baptiste Germon
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.515-541
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: mixbasis_geometric_approach_2026
+  title: Mix-Basis Geometric Approach to Boomerang Distinguishers
+  authors:
+  - Chengcheng Chang
+  - Hosein Hadipour
+  - Kai Hu 0001
+  - Muzhou Li
+  - Meiqin Wang
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.693-728
+  directions:
+  - boomerang
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - boomerang
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: improved_cryptanalysis_of_2026
+  title: Improved Cryptanalysis of GIFT-64
+  authors:
+  - Patrick Derbez
+  - Baptiste Germon
+  - Bastien Michel
+  - María Naya-Plasencia
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.284-307
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - GIFT
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: chosenkey_distinguishing_attacks_2026
+  title: Chosen-Key Distinguishing Attacks on Full AES-192, AES-256, Kiasu-BC, and More
+  authors:
+  - Xiaoyang Dong 0001
+  - Jian Guo 0001
+  - Shun Li 0004
+  - Phuong Pham
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.400-443
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: poseidon_and_neptune_2026
+  title: 'Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails'
+  authors:
+  - Lorenzo Grassi 0001
+  - Katharina Koschatko
+  - Christian Rechberger
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I2.34-86
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - subspace trail
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: new_general_mds_2026
+  title: New General MDS Matrix Construction Method Towards Low Area
+  authors:
+  - Yan He
+  - Tingting Cui
+  - Qing Ling
+  - Xi Han
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.868-890
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - MDS
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: observations_on_the_2026
+  title: Observations on the BayesianKeySearch with Applications to Simon and Simeck
+  authors:
+  - Zezhou Hou
+  - Zhenzhen Bao
+  - Jinyu Lu
+  - Shaozhen Chen
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.755-799
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - SIMON
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: how_to_implement_2026
+  title: How to Implement Authenticated Encryption on XTS-Enabled Devices
+  authors:
+  - Akiko Inoue
+  - Kazuhiko Minematsu
+  - Rei Ueno
+  - Naofumi Homma
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.167-198
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - LED
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: how_small_can_2026
+  title: How Small Can S-boxes Be?
+  authors:
+  - Chenhao Jia
+  - Tingting Cui
+  - Qing Ling
+  - Yan He
+  - Kai Hu 0001
+  - Yu Sun
+  - Meiqin Wang
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.592-622
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - S-box
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: revisiting_leakageresilient_macs_2026
+  title: Revisiting Leakage-Resilient MACs and Succinctly-Committing AEAD More Applications of Pseudo-Random Injections
+  authors:
+  - Mustafa Khairallah
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.211-239
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: sok_security_of_2026
+  title: 'SoK: Security of the Ascon Modes'
+  authors:
+  - Charlotte Lefevre
+  - Bart Mennink
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.138-210
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - Ascon
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: cube_attacks_with_2026
+  title: 'Cube Attacks with Elimination Strategy: Key Recovery Attacks on Trivium'
+  authors:
+  - Haoran Li
+  - Shichang Wang
+  - Meicheng Liu
+  - Willi Meier
+  - Dongdai Lin
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.308-356
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - cube attack
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: satbased_space_partitioning_2026
+  title: SAT-Based Space Partitioning and Applications to Ascon-Hash256 Cryptanalysis
+  authors:
+  - Guozhen Liu
+  - Shun Li
+  - Huina Li
+  - Weidong Qiu
+  - Siwei Sun
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.577-632
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - Ascon
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: multidimensional_linear_cryptanalysis_2026
+  title: Multidimensional Linear Cryptanalysis of AEGIS
+  authors:
+  - Yinuo Liu
+  - Tian Tian
+  - Jing Yang
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.368-399
+  directions:
+  - linear
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - linear cryptanalysis
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: choseniv_algebraic_attack_2026
+  title: Chosen-IV Algebraic Attack on Randomized Ciphers FASTA and HERA
+  authors:
+  - Fukang Liu
+  - Tianning Wang
+  - Jianqiang Ni
+  - Daisuke Yamamoto
+  - Guilherme T. S. Sato
+  - Haoyang Wang
+  - Willi Meier
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.357-380
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: minimized_prfs_from_2026
+  title: Minimized PRFs from Public Permutations
+  authors:
+  - Bart Mennink
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.230-260
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: autodiver_automatically_verifying_2026
+  title: 'AutoDiVer: Automatically Verifying Differential Characteristics and Learning Key Conditions'
+  authors:
+  - Marcel Nageler
+  - Shibam Ghosh
+  - Marlene Jüttler
+  - Maria Eichlseder
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.471-514
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: on_constructing_aes_2026
+  title: On Constructing AEs with Leakage and Faults
+  authors:
+  - Thomas Peters
+  - Sayandeep Saha
+  - Yaobin Shen
+  - François-Xavier Standaert
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.199-230
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: linear_cancellations_in_2026
+  title: Linear Cancellations in the MitM Attacks on Sponge Functions
+  authors:
+  - Lingyue Qin
+  - Boxin Zhao
+  - Qingliang Hou
+  - Keting Jia
+  - Gaoli Wang
+  - Xiaoyang Dong 0001
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.633-692
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: divideandconquer_sat_for_2026
+  title: Divide-and-Conquer SAT for Exploring Optimal Differential and Linear Characteristics and Its Applications
+  authors:
+  - Kazuma Taka
+  - Kosei Sakamoto
+  - Ryoma Ito 0001
+  - Rentaro Shiba
+  - Shion Utsumi
+  - Takanori Isobe 0001
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.516-576
+  directions:
+  - differential
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: cryptanalysis_theory_versus_2026
+  title: 'Cryptanalysis: Theory Versus Practice Correcting Cryptanalysis Results on Ascon, ChaCha, and Serpent Using GPUs'
+  authors:
+  - Cihangir Tezcan
+  - Gregor Leander
+  - Hosein Hadipour
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.729-754
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - Ascon
+  - ChaCha
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: thf_designing_lowlatency_2026
+  title: 'THF: Designing Low-Latency Tweakable Block Ciphers'
+  authors:
+  - Jianhua Wang
+  - Tao Huang
+  - Guang Zeng
+  - Tianyou Ding
+  - Shuang Wu
+  - Siwei Sun
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I4.125-166
+  directions:
+  - lightweight
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - tweakable
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: a_new_standalone_2026
+  title: A New Stand-Alone MAC Construct Called SMAC
+  authors:
+  - Dachao Wang
+  - Alexander Maximov
+  - Patrik Ekdahl
+  - Thomas Johansson 0001
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.5-43
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: mds_diffusion_layers_2026
+  title: 'MDS Diffusion Layers for Arithmetization-Oriented Symmetric Ciphers: The Rotational-Add Construction'
+  authors:
+  - Baofeng Wu
+  - Wen Kong
+  - Dewei Kong
+  - Hailun Yan
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I3.827-867
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - diffusion
+  - MDS
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: improved_search_of_2026
+  title: Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP
+  authors:
+  - Xinhao Zeng
+  - Lin Tan
+  - Hong Xu
+  venue: TOSC 2025
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2025.I1.444-470
+  directions:
+  - boomerang
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - boomerang
+  - Feistel
+  fetched_date: '2026-03-12'
+  source: tosc
+- id: donapost_be_mean_2026
+  title: 'Don&apos;t be mean: Reducing Approximation Noise in TFHE through Mean Compensation'
+  authors:
+  - Thomas de Ruijter
+  - Jan-Pieter D&apos;Anvers
+  - Ingrid Verbauwhede
+  venue: TCHES/CHES 2026
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2026.I1.82-104
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-12'
+  source: tches
+- id: cymric_shorttailed_but_2026
+  title: 'Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs'
+  authors:
+  - Alexandre Adomnicai
+  - Wonseok Choi 0002
+  - Yeongmin Lee
+  - Kazuhiko Minematsu
+  - Yusuke Naito 0001
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I3.437-469
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - LED
+  fetched_date: '2026-03-12'
+  source: tches
+- id: aether_an_ultrahigh_2026
+  title: 'AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme'
+  authors:
+  - Subhadeep Banik
+  - Andrea Caforio
+  - Tatsuya Ishikawa
+  - Takanori Isobe 0001
+  - Mostafizar Rahman
+  - Kosei Sakamoto
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I2.705-742
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-03-12'
+  source: tches
+- id: a_highperformance_nttmsm_2026
+  title: A High-performance NTT/MSM Accelerator for Zero-knowledge Proof Using Load-balanced Fully-pipelined Montgomery Multiplier
+  authors:
+  - Xiangren Chen
+  - Bohan Yang 0001
+  - Wenping Zhu
+  - Hanning Wang
+  - Qichao Tao
+  - Shuying Yin
+  - Min Zhu 0001
+  - Shaojun Wei
+  - Leibo Liu
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I1.275-313
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-12'
+  source: tches
+- id: a_trap_for_2026
+  title: 'A TRAP for SAT: On the Imperviousness of a Transistor-Level Programmable Fabric to Satisfiability-Based Attacks'
+  authors:
+  - Aric Fowler
+  - Mohammed Shayan
+  - Mustafa M. Shihab
+  - Thomas Broadfoot
+  - Peter Beerel
+  - Carl Sechen
+  - Yiorgos Makris
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I2.579-603
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-12'
+  source: tches
+- id: codebased_masking_from_2026
+  title: 'Code-based Masking: From Fields to Bits Bitsliced Higher-Order Masked SKINNY'
+  authors:
+  - John Gaspoz
+  - Siemen Dhooghe
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I3.212-237
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - SKINNY
+  fetched_date: '2026-03-12'
+  source: tches
+- id: practical_opcodebased_fault_2026
+  title: Practical Opcode-based Fault Attack on AES-NI
+  authors:
+  - Xue Gong
+  - Xin Zhang 0110
+  - Qianmei Wu
+  - Fan Zhang
+  - Junge Xu
+  - Qingni Shen
+  - Zhi Zhang 0001
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I3.693-716
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-03-12'
+  source: tches
+- id: efficient_and_composable_2026
+  title: Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
+  authors:
+  - Vedad Hadzic
+  - Roderick Bloem
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I1.656-683
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  fetched_date: '2026-03-12'
+  source: tches
+- id: accelerating_hashbased_polynomial_2026
+  title: Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover Time
+  authors:
+  - Florian Hirner
+  - Florian Krieger
+  - Constantin Piber
+  - Sujoy Sinha Roy
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I4.341-385
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-12'
+  source: tches
+- id: probing_secure_composability_2026
+  title: 'Probing Secure Composability Without Fresh Randomness: Theory and Application to Ascon'
+  authors:
+  - Vahid Jahandideh
+  - Bart Mennink
+  - Lejla Batina
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I4.972-1009
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - Ascon
+  fetched_date: '2026-03-12'
+  source: tches
+- id: a_framework_for_2026
+  title: A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to
+    AES, SNOW3G, and Saturnin
+  authors:
+  - Yongjin Jeon
+  - Seungjun Baek 0002
+  - Giyoon Kim
+  - Jongsung Kim
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I1.586-631
+  directions:
+  - sbox
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - S-box
+  - AES
+  fetched_date: '2026-03-12'
+  source: tches
+- id: tofa_towards_fault_2026
+  title: 'ToFA: Towards Fault Analysis of GIFT and GIFT-like Ciphers Leveraging Truncated Impossible Differentials'
+  authors:
+  - Anup Kumar Kundu
+  - Shibam Ghosh
+  - Aikata Aikata
+  - Dhiman Saha
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I3.614-643
+  directions:
+  - differential
+  - impossible_differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  - impossible differential
+  - GIFT
+  fetched_date: '2026-03-12'
+  source: tches
+- id: rudraksh_a_compact_2026
+  title: 'Rudraksh: A compact and lightweight post-quantum key-encapsulation mechanism'
+  authors:
+  - Suparna Kundu
+  - Archisman Ghosh 0002
+  - Angshuman Karmakar
+  - Shreyas Sen
+  - Ingrid Verbauwhede
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I2.647-680
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-03-12'
+  source: tches
+- id: optimsm_fpga_hardware_2026
+  title: 'OPTIMSM: FPGA hardware accelerator for Zero-Knowledge MSM'
+  authors:
+  - Xander Pottier
+  - Thomas de Ruijter
+  - Jonas Bertels
+  - Wouter Legiest
+  - Michiel Van Beirendonck
+  - Ingrid Verbauwhede
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I2.489-510
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-12'
+  source: tches
+- id: dash_accelerating_distributed_2026
+  title: 'Dash: Accelerating Distributed Private Convolutional Neural Network Inference with Arithmetic Garbled Circuits'
+  authors:
+  - Jonas Sander
+  - Sebastian Berndt 0001
+  - Ida Bruhns
+  - Thomas Eisenbarth 0001
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I1.420-449
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-12'
+  source: tches
+- id: keyvisor_a_lightweight_2026
+  title: KeyVisor - A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies
+  authors:
+  - Fabian Schwarz
+  - Jan Philipp Thoma
+  - Christian Rossow
+  - Tim Güneysu
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I3.1-31
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-03-12'
+  source: tches
+- id: shortcut2secrets_a_tablebased_2026
+  title: 'Shortcut2Secrets: A Table-based Differential Fault Attack Framework'
+  authors:
+  - Weizhe Wang
+  - Pierrick Méaux
+  - Deng Tang
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I2.385-419
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-03-12'
+  source: tches
+- id: extending_randomnessfree_firstorder_2026
+  title: Extending Randomness-Free First-Order Masking Schemes and Applications to Masking-Friendly S-boxes
+  authors:
+  - Lixuan Wu
+  - Yanhong Fan 0001
+  - Weijia Wang 0003
+  - Bart Preneel
+  - Meiqin Wang
+  venue: TCHES/CHES 2025
+  year: 2026
+  url: https://doi.org/10.46586/TCHES.V2025.I1.340-366
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - S-box
+  fetched_date: '2026-03-12'
+  source: tches

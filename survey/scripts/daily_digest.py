@@ -24,6 +24,7 @@ SURVEY_DIR = Path(__file__).resolve().parent.parent
 PROJECT_DIR = SURVEY_DIR.parent
 PAPERS_FILE = SURVEY_DIR / "papers.yaml"
 REPORTS_DIR = SURVEY_DIR / "reports" / "daily"
+BACKLOG_FILE = SURVEY_DIR / "backlog.yaml"
 CONFIG_FILE = PROJECT_DIR / "config.yaml"
 
 
@@ -501,6 +502,31 @@ def render_digest_md(report_date, top_papers, other_papers, analysis, stats):
 
 # ── Main ────────────────────────────────────────────────────────────
 
+def load_backlog():
+    """Load backlog pool from backlog.yaml."""
+    if BACKLOG_FILE.exists():
+        with open(BACKLOG_FILE, "r", encoding="utf-8") as f:
+            return yaml.safe_load(f) or {"papers": []}
+    return {"papers": []}
+
+
+def save_backlog(data):
+    """Save backlog pool to backlog.yaml."""
+    with open(BACKLOG_FILE, "w", encoding="utf-8") as f:
+        yaml.dump(data, f, allow_unicode=True, default_flow_style=False, sort_keys=False, width=120)
+
+
+def expire_backlog(pool_papers, max_age_days=30):
+    """Remove pool entries older than max_age_days."""
+    from datetime import timedelta
+    cutoff = (datetime.now() - timedelta(days=max_age_days)).strftime("%Y-%m-%d")
+    kept = [p for p in pool_papers if p.get("added_date", "2099-01-01") >= cutoff]
+    expired = len(pool_papers) - len(kept)
+    if expired > 0:
+        print(f"  Expired {expired} papers from backlog pool (>{max_age_days} days old)")
+    return kept
+
+
 def load_config():
     """Load config from config.yaml."""
     if CONFIG_FILE.exists():
@@ -534,6 +560,19 @@ def main():
         # Fallback for legacy papers without fetched_date
         new_papers = all_fetched
     print(f"Total daily-fetched papers: {len(new_papers)}")
+
+    # ── Load backlog pool ──
+    backlog = load_backlog()
+    pool_papers = backlog.get("papers", [])
+    # Expire old pool entries (>30 days)
+    pool_papers = expire_backlog(pool_papers, max_age_days=30)
+    pool_ids = {p["id"] for p in pool_papers}
+    new_ids = {p["id"] for p in new_papers}
+    # Add pool papers that aren't already in today's fetch
+    from_pool = [p for p in pool_papers if p["id"] not in new_ids]
+    if from_pool:
+        print(f"  Adding {len(from_pool)} papers from backlog pool")
+        new_papers.extend(from_pool)
 
     if not new_papers:
         print("No new papers from daily fetch.")
@@ -628,6 +667,35 @@ def main():
 
     print(f"\nDigest generated: {report_path}")
     print(f"  {len(selected)} papers ({len(top_papers)} detailed + {len(other_papers)} brief)")
+
+    # ── Update backlog pool ──
+    selected_ids = {p["id"] for p in selected}
+    # Save unselected papers that passed heuristic back to pool
+    new_pool = []
+    for p in passed:
+        if p["id"] not in selected_ids:
+            pool_entry = {
+                "id": p["id"],
+                "title": p.get("title", ""),
+                "url": p.get("url", ""),
+                "source": p.get("source", "eprint"),
+                "venue": p.get("venue", ""),
+                "matched_keywords": p.get("matched_keywords", []),
+                "directions": p.get("directions", []),
+                "summary": p.get("summary", ""),
+                "heuristic_score": p.get("_heuristic_score", 0),
+                "added_date": p.get("fetched_date", report_date),
+                "authors": p.get("authors", []),
+            }
+            new_pool.append(pool_entry)
+    # Also keep pool entries that weren't in today's candidates at all
+    candidate_ids = {p["id"] for p in passed}
+    for p in pool_papers:
+        if p["id"] not in candidate_ids and p["id"] not in selected_ids:
+            new_pool.append(p)
+    save_backlog({"papers": new_pool})
+    if new_pool:
+        print(f"  Backlog pool: {len(new_pool)} papers saved for future use")
 
 
 if __name__ == "__main__":
