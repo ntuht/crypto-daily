@@ -45,9 +45,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add survey/papers.yaml survey/OVERVIEW.md survey/reports/ survey/weekly_reports/ survey/scripts/.fetch_log.json
-          git diff --staged --quiet || git commit -m "📄 Daily paper update $(date +%Y-%m-%d)"
-          git push
+          git add --force survey/papers.yaml survey/OVERVIEW.md survey/scripts/.fetch_log.json || true
+          git add survey/reports/ survey/weekly_reports/ || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📄 Daily paper update $(date +%Y-%m-%d)"
+            git push
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
