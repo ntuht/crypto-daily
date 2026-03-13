@@ -5687,3 +5687,348 @@ papers:
   - S-box
   fetched_date: '2026-03-12'
   source: tches
+- id: provable_security_and_2026
+  title: Provable Security and Privacy Analysis of WPA3's SAE and SAE-PK Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/348
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: SAE and SAE-PK are the core security protocols introduced in the latest Wi-Fi security standard, WPA3, to protect
+    personal networks. SAE-PK extends SAE to prevent the so-called evil twin attacks, wher
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: from_textsftssuf2_to_2026
+  title: 'From $\textsf{TS-SUF-2}$ to $\textsf{TS-SUF-4}$: Practical Security Enhancements for $\textsf{FROST2}$ Threshold
+    Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/075
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold signature schemes play a vital role in securing digital assets within blockchain and distributed systems.
+    $\textsf{FROST2}$ stands out as a practical threshold Schnorr signature scheme, note
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: improving_neuralinspired_integral_2026
+  title: Improving Neural-Inspired Integral Distinguishers via a Linear-Algebraic Approach
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/340
+  directions:
+  - integral_division
+  - software_friendly
+  - milp_sat_cp
+  - round_function
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The recent study has demonstrated that neural networks can serve as a navigator for an automatic search model for
+    integral cryptanalysis with a reduction in computational complexity. However, the inhe
+  status: pending_review
+  matched_keywords:
+  - division property
+  - SAT
+  - block cipher
+  - ARX
+  - SPN
+  - lightweight
+  - PRESENT
+  - SKINNY
+  - SIMON
+  - SPECK
+  - Midori
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: robust_additive_randomized_2026
+  title: Robust Additive Randomized Encodings from IO and Pseudo-Non-linear Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/249
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Additive randomized encodings (ARE), introduced by Halevi, Ishai, Kushilevitz, and Rabin (CRYPTO 2023), reduce
+    the computation of a k-party function $f (x_1, . . . , x_k )$ to locally computing encodi
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: relaxed_modular_pcs_2026
+  title: Relaxed Modular PCS from Arbitrary PCS and Applications to SNARKs for Integers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/347
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: \emph{Modular Polynomial Commitment Schemes (Mod-PCS)} extend standard PCSs by enabling provable evaluation of
+    integer polynomials modulo a random modulus, providing a natural foundation for SNARKs th
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: voting_with_coercion_2026
+  title: Voting with coercion resistance and everlasting privacy using linkable ring signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/002
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a novel linkable ring signature scheme that possesses unconditional anonymity together with a voting
+    protocol that utilizes it to achieve coercion resistance and everlasting privacy. In our
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: adcbe_optimizing_worstcase_2026
+  title: 'ADC-BE: Optimizing Worst-Case Bandwidth in Broadcast Encryption with Boolean Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/650
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recently, Dupin and Abelard [DA24] proposed a broadcast encryption scheme, outperforming the Complete Subtree-based
+    and Subset Difference broadcast encryption in terms of encryption cost and bandwidth
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: making_uncertified_dag_2026
+  title: Making Uncertified DAG BFT Provably Live with Linear Payload and Quadratic Metadata Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/567
+  directions:
+  - meet_in_the_middle
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: Uncertified DAG-based BFT protocols, such as Mysticeti and Cordial Miners, achieve state-of-the-art latency by
+    eliminating per-block quorum certificates. However, they have lacked rigorous liveness pr
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - low latency
+  - PRESENT
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: postquantum_security_of_2026
+  title: Post-Quantum Security of the Sum of Even-Mansour
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2274
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The Sum of Even-Mansour (SoEM) construction was proposed by Chen et al. at Crypto 2019. This construction implements
+    a pseudorandom permutation via the modular addition of two independent Even-Mansour
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: adaptive_adversaries_in_2026
+  title: 'Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/510
+  directions:
+  - ml_aided
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Federated Learning (FL) has emerged as a prominent paradigm for collaborative machine learning that enables model
+    training without exposing private data through data decentralisation. Despite these ad
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: amplification_of_noninteractive_2026
+  title: Amplification of Non-Interactive Zero Knowledge, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/224
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In an $(\varepsilon_s,\varepsilon_z)$-weak non-interactive zero knowledge (NIZK), the soundness error is at most
+    $\varepsilon_s$ and the zero-knowledge error is at most $\varepsilon_z$. Goyal, Jain, a
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: tsspv_traceable_secret_2026
+  title: 'TSS-PV: Traceable Secret Sharing with Public Verifiability'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2261
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: High-value custodial systems require both Public Verifiability (PVSS) to audit key distribution and Traceability
+    (TSS) to identify insider leakage via black-box ``reconstruction boxes.'' Existing sche
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: on_the_traceability_2026
+  title: 'On the Traceability of Group Signatures: Uncorrupted User Must Exist'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2014
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Group signatures (GS) are a well-known cryptographic primitive that provide both anonymity and traceability. Several
+    implication results have been established, mainly focusing on different security le
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: compression_and_decompression_2026
+  title: Compression And Decompression Under FHE Using Error-Correcting Codes and Copy-And-Recurse
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/504
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Compression has been a fundamental problem in computer science for decades. Simply put, we want to represent a
+    low-entropy vector $v$ of size $n$ with less than $n$ elements so that $v$ can be reconst
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: efficient_rlwe_based_2026
+  title: Efficient RLWE based Chosen-Ciphertext Secure Dual-Receiver Encryption and Sender-Binding KEM in the Standard Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/502
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Key encapsulation mechanism (KEM) is an often used primitive in communication, closely related to public key encryption
+    (PKE). Dual-receiver encryption (DRE) is another primitive closely related to PK
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: more_briss_in_2026
+  title: 'More Brisés in Ballet: Extending Differential and Linear Cryptanalysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/501
+  directions:
+  - linear
+  - impossible_differential
+  - differential
+  - software_friendly
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: In this work, we present new cryptanalytic results on the Ballet block cipher family, a simplified Lay-Massey ARX
+    construction with a linear key schedule, winner of the symmetric algorithm category in
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - impossible differential
+  - block cipher
+  - ARX
+  - PRESENT
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: expander_properties_of_2026
+  title: Expander properties of superspecial isogeny digraphs with level structure
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/500
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Charles, Goren and Lauter proved that the supersingular $\ell$-isogeny graph is a Ramanujan graph, which is an
+    optimal expander. Jordan and Zaytman argued that this is no longer true in dimension two,
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
+- id: accelerating_faest_signatures_2026
+  title: 'Accelerating FAEST Signatures on ARM: NEON SIMD AES and Parallel VOLE Optimization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/499
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: FAEST is a post-quantum digital signature candidate whose performance is dominated by repeated AES-CTR-based PRG
+    calls in the VOLE-in-the-Head phase, yet its reference implementation provides no FAEST
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  - PRESENT
+  fetched_date: '2026-03-13'
+  source: eprint
