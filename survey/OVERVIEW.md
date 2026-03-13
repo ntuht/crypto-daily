@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 343 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 344 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (134)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (135)
 
 ## 算法设计
 
@@ -463,7 +463,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (49 篇)
+### MILP/SAT/CP 建模技术 (50 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -480,6 +480,7 @@
 - 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
 - 🟡 **2026** — Efficient RLWE based Chosen-Ciphertext Secure Dual-Receiver Encryption and Sender-Binding KEM in the Standard Model
 - 🟡 **2026** — Unclonable Encryption in the Haar Random Oracle Model
+- 🟡 **2026** — How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers

@@ -6069,3 +6069,22 @@ papers:
   - PRESENT
   fetched_date: '2026-03-13'
   source: eprint
+- id: how_to_think_2026
+  title: 'How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2086
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'End-to-end encryption (E2EE) has become the gold standard for securing communications, bringing strong confidentiality
+    and privacy guarantees to billions of users worldwide. However, the current push '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-13'
+  source: eprint
