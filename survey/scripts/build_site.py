@@ -505,6 +505,7 @@ def generate_html(papers, taxonomy):
         <div class="stat-item"><span class="stat-value">{high_count}</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">{year_range}</span> 年份跨度</div>
         <div class="stat-item"><span class="stat-value">{len(ciphers_count)}</span> 密码算法</div>
+        <a href="daily/index.html" class="stat-item" style="text-decoration:none;background:linear-gradient(135deg,rgba(108,99,255,0.25),rgba(167,139,250,0.15));border-color:var(--accent);cursor:pointer;">📄 <span class="stat-value">每日精选</span></a>
       </div>
     </div>
   </header>
