@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-03-12</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-03-12</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-03-12</h1>
+
+<blockquote>
+<p>自动生成于 2026-03-12 07:43</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 48 篇 → 启发式 38 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP](https://doi.org/10.46586/TOSC.V2025.I1.444-470)</h3>
+
+<blockquote>
+<p>ePrint improved_search_of_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Boomerang攻击是评估分组密码安全性的重要差分攻击技术，其核心在于寻找有效的Boomerang区分器。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种改进的搜索算法，旨在更高效地发现广义Feistel结构密码的Boomerang区分器，通过优化路径搜索和条件评估来提高发现长区分器的能力。研究者将此方法应用于WARP分组密码，成功找到了更长或更具优势的Boomerang区分器，从而揭示了WARP在Boomerang攻击下的潜在弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为评估广义Feistel结构密码（包括WARP）的抗Boomerang攻击能力提供了更强大的工具，并可能启发未来密码设计中对Boomerang安全性的考量。</p>
+
+<hr>
+
+<h3>2. [Cube Attacks with Elimination Strategy: Key Recovery Attacks on Trivium](https://doi.org/10.46586/TOSC.V2025.I4.308-356)</h3>
+
+<blockquote>
+<p>ePrint cube_attacks_with_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Cube攻击是一种针对流密码和分组密码的代数攻击方法，通过多项式求和来恢复密钥位，但其效率常受限于密钥流多项式的复杂性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了一种结合消除策略的Cube攻击方法，旨在更有效地识别和利用密钥流中的低度多项式关系，从而简化攻击过程并提高成功率。研究者将这种改进的Cube攻击应用于Trivium流密码，成功实现了对部分或完整密钥的恢复攻击，展示了其在实际密码分析中的有效性和优越性。</p>
+
+<p>🎯 <strong>意义</strong>：该研究提升了Cube攻击的实用性，为评估Trivium等流密码的安全性提供了新的视角和更强大的攻击工具，对流密码设计具有指导意义。</p>
+
+<hr>
+
+<h3>3. [Multidimensional Linear Cryptanalysis of AEGIS](https://doi.org/10.46586/TOSC.V2025.I3.368-399)</h3>
+
+<blockquote>
+<p>ePrint multidimensional_linear_cryptanalysis_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：线性密码分析是评估分组密码和流密码安全性的经典方法之一，而多维线性分析是其高级变体，通过组合多个线性逼近来增强攻击效果。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文首次将多维线性密码分析技术应用于AEGIS认证加密算法，通过构建多个线性逼近的组合来提高区分器的优势，从而发现更长的攻击链。研究者详细分析了AEGIS的内部结构，识别出多维线性偏差，并利用这些偏差构造了针对AEGIS的有效攻击，揭示了其在多维线性攻击下的安全性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作首次揭示了AEGIS在多维线性攻击下的安全性，为AEGIS的安全性评估提供了重要的补充，并可能启发未来认证加密算法的设计以更好地抵御此类高级攻击。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I3.614-643" target="_blank">ToFA: Towards Fault Analysis of GIFT and GIFT-like Ciphers Leveraging Truncated Impossible Differentials</a></strong></p>
+
+<blockquote>
+<p>本文提出ToFA，一种利用截断不可能差分对GIFT及其类似密码进行故障分析的新方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.380-419" target="_blank">Differential Cryptanalysis of the Reduced Pointer Authentication Code Function Used in Arm&apos;s FEAT_PACQARMA3 Feature</a></strong></p>
+
+<blockquote>
+<p>本文对Arm FEAT_PACQARMA3功能中使用的简化指针认证码函数进行了差分密码分析。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.693-728" target="_blank">Mix-Basis Geometric Approach to Boomerang Distinguishers</a></strong></p>
+
+<blockquote>
+<p>本文提出一种混合基几何方法，以新的视角和工具来构造和分析Boomerang区分器。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.357-380" target="_blank">Chosen-IV Algebraic Attack on Randomized Ciphers FASTA and HERA</a></strong></p>
+
+<blockquote>
+<p>本文对随机化密码FASTA和HERA提出了选择IV的代数攻击，揭示了其在特定条件下的弱点。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.633-692" target="_blank">Linear Cancellations in the MitM Attacks on Sponge Functions</a></strong></p>
+
+<blockquote>
+<p>本文研究了海绵函数中间相遇攻击中的线性抵消现象，以提高攻击效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I1.586-631" target="_blank">A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to AES, SNOW3G, and Saturnin</a></strong></p>
+
+<blockquote>
+<p>本文提出了一个基于Boyar-Peralta算法启发式生成S盒电路的框架，并应用于AES、SNOW3G和Saturnin。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.70-124" target="_blank">Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers</a></strong></p>
+
+<blockquote>
+<p>本文介绍Dialga，一个利用多重线性层实现低延迟的可调分组密码家族。</p>
+</blockquote>
+
+<p><em>精选自 48 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>

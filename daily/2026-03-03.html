@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-03-03</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-03-03</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日新论文报告 — 2026-03-03</h1>
+
+<blockquote>
+<p>自动生成于 2026-03-03 20:00</p>
+<p>数据来源：ePrint RSS | 筛选后：<strong>9 篇</strong>对称密码相关论文</p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 亮点论文深度解读</h2>
+
+<h3>亮点 1：ChiLow 遭遇首轮密集攻击 — 两篇独立工作攻至 7/8 轮</h3>
+
+<p class="paper-entry"><strong>ChiLow</strong> 是 EUROCRYPT 2025 上由 Belkheyar 等（包括 Joan Daemen）提出的可调分组密码族，专为嵌入式代码加密设计。核心非线性组件是二次函数 χχ（ChiChi），仅 8 轮，追求超低时延。设计者自己能攻到 4 轮——<strong>今天两篇独立工作同时将攻击推进到 7/8 轮</strong>。</p>
+
+<p>#### 📄 [Cryptanalysis of ChiLow with Cube-Like Attacks](https://eprint.iacr.org/2025/1581)（Peng 等）</p>
+
+<p>三种 Cube-like 攻击策略：</p>
+
+<table><thead><tr>
+<th>攻击类型</th>
+<th>轮数</th>
+<th>时间</th>
+<th>数据</th>
+<th>设定</th>
+</tr></thead><tbody>
+<tr>
+<td>Conditional Cube</td>
+<td>5</td>
+<td>2³²</td>
+<td>2²³·⁵⁸</td>
+<td>多 tweak</td>
+</tr>
+<tr>
+<td>Conditional Cube</td>
+<td>6</td>
+<td>2¹²⁰</td>
+<td>2⁴⁰</td>
+<td>多 tweak</td>
+</tr>
+<tr>
+<td>**Borderline Cube**</td>
+<td>**5**</td>
+<td>**2³²**</td>
+<td>**2¹⁸·⁵⁸**</td>
+<td>多 tweak，**实际可执行**</td>
+</tr>
+<tr>
+<td>**Borderline Cube**</td>
+<td>**6**</td>
+<td>**2³⁴**</td>
+<td>**2³³·⁵⁸**</td>
+<td>多 tweak，**实际可执行**</td>
+</tr>
+<tr>
+<td>Integral (Cube+3r)</td>
+<td>**7**</td>
+<td>2¹²⁷·⁷⁸</td>
+<td>—</td>
+<td>单 tweak</td>
+</tr>
+</tbody></table>
+
+<p class="paper-entry"><strong>关键洞察</strong>：χχ 函数的代数次数仅为 2（二次），使得 Cube/积分攻击特别有效。Borderline Cube 是一种新技术——介于传统 Cube 和积分之间。</p>
+
+<p>#### 📄 [Improved Integral Attack on ChiLow-32](https://eprint.iacr.org/2025/1806)</p>
+
+<table><thead><tr>
+<th>指标</th>
+<th>数值</th>
+</tr></thead><tbody>
+<tr>
+<td>攻击轮数</td>
+<td>**7/8** 轮</td>
+</tr>
+<tr>
+<td>数据</td>
+<td>仅 2⁶·³² 选择密文</td>
+</tr>
+<tr>
+<td>时间</td>
+<td>2¹²¹·⁷⁵</td>
+</tr>
+<tr>
+<td>内存</td>
+<td>可忽略</td>
+</tr>
+</tbody></table>
+
+<p class="paper-entry"><strong>突破</strong>：解决了设计者提出的开放问题——如何从恢复的轮 tweak 密钥推导出主密钥。利用 χχ 函数的<strong>可逆性</strong>反推密钥调度。</p>
+
+<blockquote>
+<p>[!IMPORTANT]</p>
+<p><strong>安全性评估</strong>：8 轮完整 ChiLow 目前仍安全，但安全裕度已从 4→1 轮迅速缩小。低时延密码的安全裕度本就紧张，ChiLow 的后续版本可能需要增加轮数或调整 χχ 函数。</p>
+</blockquote>
+
+<hr>
+
+<h3>亮点 2：LLM 内嵌密码学专家 — 与 CryptoLLM 高度相关</h3>
+
+<p>#### 📄 [A Built-in Crypto Expert for Artificial Intelligence](https://eprint.iacr.org/2026/411)</p>
+
+<p>这篇论文提出了一个<strong>将 AES 作为可微分模块直接嵌入 LLM 架构</strong>的框架：</p>
+
+<p>```</p>
+<p>LLM 架构 → Mixture-of-Experts (MoE)</p>
+<p>├── 普通 Expert（语言任务）</p>
+<p>└── Crypto Expert（AES 可微代理）</p>
+<p>├── SoftXOR 神经元</p>
+<p>├── SoftLUT 神经元（模拟 S-box）</p>
+<p>└── GF Conv 神经元（模拟 MixColumns）</p>
+<p>```</p>
+
+<p class="paper-entry"><strong>技术细节</strong>：</p>
+<p>1. <strong>可微分代理</strong>：用 SoftXOR、SoftLUT、GF Conv 三种定制神经元模拟 AES 的布尔运算，支持梯度反向传播</p>
+<p>2. <strong>训练阶段</strong>：LLM 学习自动路由敏感 token 到 Crypto Expert 进行加密</p>
+<p>3. <strong>推理阶段</strong>：将可微分代理替换为真实离散 AES，保证可证明安全性</p>
+<p>4. <strong>评估</strong>：相比 ReLU 表示法，大幅减少神经元数量和时延；能抵抗连续域差分攻击</p>
+
+<blockquote>
+<p>[!TIP]</p>
+<p><strong>与 CryptoLLM 的关联</strong>：这篇工作从&quot;安全&quot;角度将密码学嵌入 LLM，而我们的 CryptoLLM 从&quot;分析&quot;角度构建 LLM 辅助密码分析能力。两个方向互补——可微分密码组件（SoftXOR/SoftLUT）的技术对我们建模密码原语也有参考价值。</p>
+</blockquote>
+
+<hr>
+
+<h3>亮点 3：神经网络指导积分分析 — SKINNY 最优结果提升 2 轮</h3>
+
+<p>#### 📄 [Neural-Inspired Advances in Integral Cryptanalysis](https://eprint.iacr.org/2025/852)</p>
+
+<p>这篇论文将 Gohr (CRYPTO 2019) 的神经网络密码分析方法推广到<strong>积分攻击</strong>领域：</p>
+
+<p class="paper-entry"><strong>方法论创新</strong>：</p>
+<p>1. 用 NN 直接学习积分性质的特征 → 发现传统自动化搜索遗漏的高质量区分器</p>
+<p>2. 将 NN 发现的非随机结构通过布尔函数分析<strong>翻译为经典形式</strong></p>
+<p>3. 改进 meet-in-the-middle 搜索框架，在精度和计算成本间取得更好平衡</p>
+
+<p class="paper-entry"><strong>SKINNY 攻击结果</strong>：</p>
+
+<table><thead><tr>
+<th>变体</th>
+<th>本文</th>
+<th>之前最优</th>
+<th>提升</th>
+</tr></thead><tbody>
+<tr>
+<td>SKINNY-n-n</td>
+<td>**16 轮**</td>
+<td>14 轮</td>
+<td>**+2 轮**</td>
+</tr>
+<tr>
+<td>SKINNY-n-2n</td>
+<td>**18 轮**</td>
+<td>—</td>
+<td>首次 (单 tweakey)</td>
+</tr>
+<tr>
+<td>SKINNY-n-3n</td>
+<td>**20 轮**</td>
+<td>—</td>
+<td>首次 (单 tweakey)</td>
+</tr>
+</tbody></table>
+
+<blockquote>
+<p>[!IMPORTANT]</p>
+<p><strong>意义</strong>：这是 ML 辅助密码分析从&quot;差分&quot;领域推广到&quot;积分&quot;领域的标志性工作。之前 Gohr 系列主要做差分区分器，本文证明 NN 在积分领域同样能发现传统方法找不到的新结构。</p>
+</blockquote>
+
+<hr>
+
+<h3>亮点 4：HCTR++ — 面向 NIST 标准化的 BBB 安全宽块模式</h3>
+
+<p>#### 📄 [HCTR++: A Beyond Birthday Bound Secure HCTR2 Variant](https://eprint.iacr.org/2026/383)</p>
+
+<p class="paper-entry"><strong>背景</strong>：NIST 正在推进 Accordion Mode 项目，征集 Beyond Birthday Bound (BBB) 安全的 VIL-SPRP（变长强伪随机置换）。HCTR2 是 Google 设计的宽块模式（用于 Android 磁盘加密），但仅有 birthday bound 安全性。</p>
+
+<p class="paper-entry"><strong>HCTR++ 改进</strong>：将 HCTR2 的安全上界从 O(2^{n/2}) 提升到接近 O(2^n)，是对 NIST Accordion Mode 征集的直接贡献。</p>
+
+<p class="paper-entry"><strong>BBB 三大方法论</strong>：</p>
+<p>- XOR of Permutations (XORP)</p>
+<p>- Tweakable Block Ciphers (TBC)</p>
+<p>- Fresh Rekeying</p>
+
+<hr>
+
+<h2>📊 概览</h2>
+
+<table><thead><tr>
+<th>方向</th>
+<th>数量</th>
+<th>论文</th>
+</tr></thead><tbody>
+<tr>
+<td>代数/Cube</td>
+<td>2</td>
+<td>Aradi 密码攻击, **ChiLow Cube** ⭐</td>
+</tr>
+<tr>
+<td>差分</td>
+<td>1</td>
+<td>**LLM Crypto Expert** ⭐</td>
+</tr>
+<tr>
+<td>积分</td>
+<td>2</td>
+<td>**ChiLow-32 积分** ⭐, ChiLow Cube</td>
+</tr>
+<tr>
+<td>轻量级</td>
+<td>2</td>
+<td>ChiLow-32, Deep Neural Crypto</td>
+</tr>
+<tr>
+<td>ML+积分</td>
+<td>1</td>
+<td>**Neural-Inspired 积分 SKINNY** ⭐</td>
+</tr>
+<tr>
+<td>置换/模式</td>
+<td>2</td>
+<td>**HCTR++** ⭐, Poseidon 攻击</td>
+</tr>
+<tr>
+<td>不变量</td>
+<td>1</td>
+<td>SNOVA Wedge Map</td>
+</tr>
+</tbody></table>
+
+<h2>📄 其他论文</h2>
+
+<h3>[Oracle-Based Multistep Strategy — Aradi Cipher Cryptanalysis](https://eprint.iacr.org/2025/1097)</h3>
+<p>- <strong>来源</strong>: ePrint 2025/1097</p>
+<p>- <strong>关键词</strong>: algebraic attack, block cipher</p>
+<p>- <strong>简述</strong>: 多步求解策略对有限域多项式系统的分治方法，应用于 Aradi 密码的代数分析。</p>
+
+<h3>[Deep Neural Cryptography](https://eprint.iacr.org/2025/288)</h3>
+<p>- <strong>来源</strong>: ePrint 2025/288</p>
+<p>- <strong>关键词</strong>: block cipher, AES</p>
+<p>- <strong>简述</strong>: 探索 DNN 如何执行密码学功能（解密/验证），涉及 AES。</p>
+
+<h3>[Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols](https://eprint.iacr.org/2026/409)</h3>
+<p>- <strong>来源</strong>: ePrint 2026/409</p>
+<p>- <strong>关键词</strong>: algebraic attack, permutation</p>
+<p>- <strong>简述</strong>: 对 ZK 证明中广泛使用的 Poseidon/Poseidon2 算术化置换的密码分析。</p>
+
+<h3>[Investigating the Wedge Map on SNOVA](https://eprint.iacr.org/2026/260)</h3>
+<p>- <strong>来源</strong>: ePrint 2026/260</p>
+<p>- <strong>关键词</strong>: invariant</p>
+<p>- <strong>简述</strong>: NIST PQC 候选方案 SNOVA 的代数结构分析（多变量签名，非对称方向）。</p>
+
+<hr>
+
+<p><em>共 9 篇新论文。状态：`pending_review`</em></p>
+  </div>
+</body>
+</html>
