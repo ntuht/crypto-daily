@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 344 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 346 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (135)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (137)
 
 ## 算法设计
 
@@ -328,7 +328,7 @@
 
 ## 算法分析
 
-### 差分分析 (132 篇)
+### 差分分析 (134 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -400,6 +400,8 @@
 - 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
 - 🟡 **2026** — Expander properties of superspecial isogeny digraphs with level structure
 - 🟡 **2026** — SCALE-FL: Scalable Cryptography-based Aggregation with Lightweight Enclaves for Federated Learning
+- 🟡 **2026** — Query-Optimal IOPPs for Linear-Time Encodable Codes
+- 🟡 **2026** — „One More Time”: Security of One-time Signature Scheme Using Run-length Encoding Under Two-message Attacks
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]

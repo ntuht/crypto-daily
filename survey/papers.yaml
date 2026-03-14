@@ -6088,3 +6088,37 @@ papers:
   - LED
   fetched_date: '2026-03-13'
   source: eprint
+- id: queryoptimal_iopps_for_2026
+  title: Query-Optimal IOPPs for Linear-Time Encodable Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1588
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the first Interactive Oracle Proof of Proximity (IOPP) for linear-time encodable codes that achieves
+    $\lambda$-bit security with linear prover time and optimal $O(\lambda)$ query complexity
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-14'
+  source: eprint
+- id: one_more_time_2026
+  title: '„One More Time”: Security of One-time Signature Scheme Using Run-length Encoding Under Two-message Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/142
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we examine the One-time signature scheme using run-length encoding, as proposed by Steinwandt et
+    al., under the scenario where an adversary is allowed to obtain signatures on two messag
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-14'
+  source: eprint
