@@ -6193,3 +6193,20 @@ papers:
   - PRESENT
   fetched_date: '2026-03-15'
   source: eprint
+- id: a_comprehensive_break_2026
+  title: A Comprehensive Break of the Tropical Matrix-Based Signature Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/387
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the recent preprint [GMS26], Grigoriev, Monico and Shpilrain proposed a digital signature protocol based on
+    matrices over the tropical integer semiring. we show that the scheme can be completely br
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-15'
+  source: eprint
