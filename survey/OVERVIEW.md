@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 350 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 351 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (141)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (142)
 
 ## 算法设计
 
@@ -328,7 +328,7 @@
 
 ## 算法分析
 
-### 差分分析 (137 篇)
+### 差分分析 (138 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -405,6 +405,7 @@
 - 🟡 **2026** — Homomorphic Signature-based Witness Encryption and Applications
 - 🟡 **2026** — A proof of P≠NP (New symmetric encryption  algorithm against any linear attacks and  differential attacks)
 - 🟡 **2026** — The HyperFrog Cryptosystem: High-Genus Voxel Topology as a Trapdoor for Post-Quantum KEMs
+- 🟡 **2026** — A Comprehensive Break of the Tropical Matrix-Based Signature Scheme
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
