@@ -620,33 +620,39 @@ def main():
         print(f"\n=== LLM Skipped (--no-llm) ===")
         print(f"  Using heuristic top {len(selected)}")
     else:
-        # Create LLM backend (import directly to avoid strategy/__init__.py)
-        llm_config = config.get("llm", {}).copy()
-        import importlib.util
-        backends_path = PROJECT_DIR / "strategy" / "llm_backends.py"
-        spec = importlib.util.spec_from_file_location("llm_backends", backends_path)
-        llm_mod = importlib.util.module_from_spec(spec)
-        sys.modules["llm_backends"] = llm_mod  # register before exec for dataclass
-        spec.loader.exec_module(llm_mod)
+        try:
+            # Create LLM backend (import directly to avoid strategy/__init__.py)
+            llm_config = config.get("llm", {}).copy()
+            import importlib.util
+            backends_path = PROJECT_DIR / "strategy" / "llm_backends.py"
+            spec = importlib.util.spec_from_file_location("llm_backends", backends_path)
+            llm_mod = importlib.util.module_from_spec(spec)
+            sys.modules["llm_backends"] = llm_mod  # register before exec for dataclass
+            spec.loader.exec_module(llm_mod)
 
-        # Override: use fast model for digest (Pro is too slow)
-        llm_config["model"] = "gemini-2.5-flash"
-        llm_config["temperature"] = 0.3
-        llm_config["max_tokens"] = 8192  # need room for thinking + output
-        llm = llm_mod.create_llm_backend(llm_config)
-        print(f"  LLM backend: {llm.model_name}")
+            # Override: use fast model for digest (Pro is too slow)
+            llm_config["model"] = "gemini-2.5-flash"
+            llm_config["temperature"] = 0.3
+            llm_config["max_tokens"] = 8192  # need room for thinking + output
+            llm = llm_mod.create_llm_backend(llm_config)
+            print(f"  LLM backend: {llm.model_name}")
 
-        # Stage 2: LLM ranking
-        print(f"\n=== Stage 2: LLM Relevance Ranking ===")
-        selected = llm_rank(passed, llm, max_papers=max_papers)
+            # Stage 2: LLM ranking
+            print(f"\n=== Stage 2: LLM Relevance Ranking ===")
+            selected = llm_rank(passed, llm, max_papers=max_papers)
 
-        # Stage 3: LLM analysis
-        if selected:
-            print(f"\n=== Stage 3: LLM Chinese Analysis ===")
-            top = selected[:detailed_count]
-            others = selected[detailed_count:]
-            analysis = llm_analyze(top, others, llm)
-            print(f"  LLM usage: {llm.usage.summary()}")
+            # Stage 3: LLM analysis
+            if selected:
+                print(f"\n=== Stage 3: LLM Chinese Analysis ===")
+                top = selected[:detailed_count]
+                others = selected[detailed_count:]
+                analysis = llm_analyze(top, others, llm)
+                print(f"  LLM usage: {llm.usage.summary()}")
+        except Exception as e:
+            print(f"\n  [WARN] LLM processing failed: {e}")
+            print(f"  Falling back to heuristic-only mode")
+            selected = passed[:max_papers]
+            analysis = None
 
     # ── Render report ──
     top_papers = selected[:detailed_count]
