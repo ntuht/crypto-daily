@@ -178,6 +178,7 @@ def fetch_dblp_source(source_name, year):
             "eprint_id": "",
             "dblp_key": dblp_key,
             "authors": authors,
+            "year": int(info.get("year", year)),  # actual publication year
             "source": source_name,
             "venue_label": f"{venue_label} {year}",
         })
@@ -301,12 +302,11 @@ def main():
         e.setdefault("authors", [])
     all_entries.extend(eprint_entries)
 
-    # Source 2-7: DBLP venues
+    # Source 2-7: DBLP venues (current year only — older papers already captured)
     current_year = datetime.now().year
     for source_name in DBLP_SOURCES:
-        for year in [current_year, current_year - 1]:
-            entries = fetch_dblp_source(source_name, year)
-            all_entries.extend(entries)
+        entries = fetch_dblp_source(source_name, current_year)
+        all_entries.extend(entries)
 
     print(f"\nTotal entries across all sources: {len(all_entries)}")
 
@@ -350,9 +350,9 @@ def main():
             seen_ids.add(seen_key)
             continue
 
-        # Create paper entry
-        year = datetime.now().year
-        paper_id = generate_paper_id(entry["title"], year)
+        # Use actual publication year from source (DBLP has it; ePrint = current year)
+        pub_year = entry.get("year", datetime.now().year)
+        paper_id = generate_paper_id(entry["title"], pub_year)
 
         # Avoid duplicate IDs
         base_id = paper_id
@@ -368,7 +368,7 @@ def main():
             "title": entry["title"],
             "authors": entry.get("authors", []),
             "venue": entry.get("venue_label", f"ePrint {entry.get('eprint_id', '')}"),
-            "year": year,
+            "year": pub_year,
             "url": entry["link"],
             "directions": directions,
             "ciphers": [],
