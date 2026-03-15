@@ -6122,3 +6122,74 @@ papers:
   - PRESENT
   fetched_date: '2026-03-14'
   source: eprint
+- id: homomorphic_signaturebased_witness_2026
+  title: Homomorphic Signature-based Witness Encryption and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/443
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Signature-based witness encryption (SWE) schemes recently emerged as a viable alternative to instantiate timed-release
+    cryptography in the honest majority setting. In particular, assuming threshold tr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-15'
+  source: eprint
+- id: publickey_quantum_fire_2026
+  title: Public-Key Quantum Fire and Key-Fire From Classical Oracles
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/726
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Quantum fire is a distribution of quantum states that can be efficiently cloned, but cannot be efficiently converted
+    into a classical string. First considered by Nehoran and Zhandry (ITCS'24) and late
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-03-15'
+  source: eprint
+- id: a_proof_of_2026
+  title: A proof of P≠NP (New symmetric encryption  algorithm against any linear attacks and  differential attacks)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/445
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: P  vs  NP  problem  is  the   most  important  unresolved  problem  in  the  field  of computational complexity.
+    Its impact has penetrated into all aspects of algorithm design,  especially  in  the  f
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-03-15'
+  source: eprint
+- id: the_hyperfrog_cryptosystem_2026
+  title: 'The HyperFrog Cryptosystem: High-Genus Voxel Topology as a Trapdoor for Post-Quantum KEMs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/195
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present HyperFrog, a lattice-based Key Encapsulation Mechanism (KEM) targeting post-quantum security levels.
+    The construction instantiates a variant of the Learning With Errors (LWE) problem in whi
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-03-15'
+  source: eprint

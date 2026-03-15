@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 346 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 350 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (137)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (141)
 
 ## 算法设计
 
@@ -328,7 +328,7 @@
 
 ## 算法分析
 
-### 差分分析 (134 篇)
+### 差分分析 (137 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -402,6 +402,9 @@
 - 🟡 **2026** — SCALE-FL: Scalable Cryptography-based Aggregation with Lightweight Enclaves for Federated Learning
 - 🟡 **2026** — Query-Optimal IOPPs for Linear-Time Encodable Codes
 - 🟡 **2026** — „One More Time”: Security of One-time Signature Scheme Using Run-length Encoding Under Two-message Attacks
+- 🟡 **2026** — Homomorphic Signature-based Witness Encryption and Applications
+- 🟡 **2026** — A proof of P≠NP (New symmetric encryption  algorithm against any linear attacks and  differential attacks)
+- 🟡 **2026** — The HyperFrog Cryptosystem: High-Genus Voxel Topology as a Trapdoor for Post-Quantum KEMs
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -465,7 +468,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (50 篇)
+### MILP/SAT/CP 建模技术 (51 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -483,6 +486,7 @@
 - 🟡 **2026** — Efficient RLWE based Chosen-Ciphertext Secure Dual-Receiver Encryption and Sender-Binding KEM in the Standard Model
 - 🟡 **2026** — Unclonable Encryption in the Haar Random Oracle Model
 - 🟡 **2026** — How To Think About End-To-End Encryption and AI: Training, Processing, Disclosure, and Consent
+- 🟡 **2026** — Public-Key Quantum Fire and Key-Fire From Classical Oracles
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
