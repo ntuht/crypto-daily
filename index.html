@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-03-15 07:24</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-03-16 03:23</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">351</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">370</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,7 +35,7 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">351</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">370</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">46</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
@@ -43,23 +43,23 @@
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">22</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">20</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">17</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">14</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">15</span></div>
+  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">15</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">14</span></div>
-  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">14</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">11</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">138</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">51</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">148</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">54</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">32</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">26</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">25</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">24</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">21</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">17</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">12</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">15</span></div>
   <div class="dir-item" data-dir="impossible_differential" onclick="filterDir('impossible_differential')">不可能差分 <span class="count">11</span></div>
   <div class="dir-item" data-dir="related_key" onclick="filterDir('related_key')">相关密钥攻击 <span class="count">9</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">7</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 351 篇论文</div>
+        <div class="result-count" id="resultCount">显示 370 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -1935,6 +1935,255 @@ good performance profile and reduction</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">In the recent preprint [GMS26], Grigoriev, Monico and Shpilrain proposed a digital signature protocol based on matrices over the tropical integer semiring. we show that the scheme can be completely br</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="sumcheck_protocol_for_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="sum-check protocol for approximate computations   motivated by the mismatch between floating-point arithmetic, which is intrinsically approximate, and verifiable computing protocols for exact computations, we develop a generalization of the sum-check">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2152" target="_blank">Sum-check protocol for approximate computations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Motivated by the mismatch between floating-point arithmetic, which is intrinsically approximate, and verifiable computing protocols for exact computations, we develop a generalization of the sum-check</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="securely_scaling_autonomy_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="securely scaling autonomy: the role of cryptography in future unmanned aircraft systems (uas)   the decentralisation of autonomous unmanned aircraft systems (uas) introduces significant challenges for establishing secure communication and consensus in contested, resource-constrained environments">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/512" target="_blank">Securely Scaling Autonomy: The Role of Cryptography in Future Unmanned Aircraft Systems (UAS)</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The decentralisation of autonomous Unmanned Aircraft Systems (UAS) introduces significant challenges for establishing secure communication and consensus in contested, resource-constrained environments</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="sasta_singlefault_nonce_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="sasta: single-fault nonce respecting differential attack on hybrid homomorphic encryption   fully homomorphic encryption offers an effective solution for privacy-preserving computation, but its adoption is hindered by substantial computational and communication overheads. to address these, t">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/041" target="_blank">SASTA: Single-Fault Nonce Respecting Differential Attack on Hybrid Homomorphic Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fully Homomorphic Encryption offers an effective solution for privacy-preserving computation, but its adoption is hindered by substantial computational and communication overheads. To address these, t</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="dynamic_zksnarks_with_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="dynamic zk-snarks (with applications to sparse zk-snarks and ivc)   in this work, we introduce \emph{dynamic zk-snarks}. a dynamic zk-snark extends a standard zk-snark with an additional \emph{update} algorithm. this algorithm takes as input a valid source statement–w">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1566" target="_blank">Dynamic zk-SNARKs (with applications to sparse zk-SNARKs and IVC)</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work, we introduce \emph{dynamic zk-SNARKs}. A dynamic zk-SNARK extends a standard zk-SNARK with an additional \emph{update} algorithm. This algorithm takes as input a valid source statement–w</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="roundoptimal_gucsecure_blind_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="round-optimal guc-secure blind signatures from minimal computational and setup assumptions   a blind signature scheme is an interactive protocol that enables a user to obtain a signature on a message without revealing any information about the message–signature pair to the signer. despite mor">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/145" target="_blank">Round-Optimal GUC-Secure Blind Signatures from Minimal Computational and Setup Assumptions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A blind signature scheme is an interactive protocol that enables a user to obtain a signature on a message without revealing any information about the message–signature pair to the signer. Despite mor</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="when_trying_to_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="when trying to catch cheaters breaks the mpc: breaking and fixing delayed consistency checks in trident, fantastic four, swift, and quad (full version)   actively secure multi-party computation in the honest-majority setting often relies on multiple parties computing the same message to be sent. this additional redundancy allows to detect when a party">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/234" target="_blank">When Trying to Catch Cheaters Breaks the MPC: Breaking and Fixing Delayed Consistency Checks in Trident, Fantastic Four, SWIFT, and Quad (Full Version)</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Actively secure multi-party computation in the honest-majority setting often relies on multiple parties computing the same message to be sent. This additional redundancy allows to detect when a party</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="module_learning_with_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="module learning with errors and structured extrapolated dihedral cosets   the module learning with errors (mlwe) problem is the fundamental hardness assumption underlying the key encapsulation and signature schemes ml-kem and ml-dsa, which have been selected by nist for pos">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/155" target="_blank">Module Learning With Errors and Structured Extrapolated Dihedral Cosets</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Module Learning With Errors (MLWE) problem is the fundamental hardness assumption underlying the key encapsulation and signature schemes ML-KEM and ML-DSA, which have been selected by NIST for pos</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="unimsm_an_efficient_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="unimsm: an efficient and flexible hardware accelerator for multi-scalar multiplication   multi-scalar multiplication (msm) is a central kernel in cryptographic systems, which evaluates large linear combinations of elliptic-curve points.
+practical msms couple millions of terms with hundre">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/521" target="_blank">UniMSM: An Efficient and Flexible Hardware Accelerator for Multi-Scalar Multiplication</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multi-scalar multiplication (MSM) is a central kernel in cryptographic systems, which evaluates large linear combinations of elliptic-curve points.
+Practical MSMs couple millions of terms with hundre</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="sparse_optimisation_and_2026" data-dirs="milp_sat_cp,ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="sparse optimisation and quantum-inspired encoding for ransomware detection   ransomware remains a persistent cybersecurity threat difficult to detect due to high-dimensional network traffic and sophisticated obfuscation techniques. existing feature selection methods often stru">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/520" target="_blank">Sparse optimisation and quantum-inspired encoding for ransomware detection</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Ransomware remains a persistent cybersecurity threat difficult to detect due to high-dimensional network traffic and sophisticated obfuscation techniques. Existing feature selection methods often stru</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_generalized_partial_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a generalized partial exposure lattice attack against an rsa variant based on cubic pell curves   nitaj and seck recently published an rsa variant (mjaga 2024) based on the cubic pell equation $\mathcal{p}_c(n): u^3+cv^3+c^2w^3-3cuvw= 1$ over $\mathbb{z}/n\mathbb{z}$ when $n=p^rq^s$. in their cryp">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/519" target="_blank">A Generalized Partial Exposure Lattice Attack Against an RSA variant Based on Cubic Pell Curves</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Nitaj and Seck recently published an RSA variant (MJAGA 2024) based on the cubic Pell equation $\mathcal{P}_c(N): u^3+cv^3+c^2w^3-3cuvw= 1$ over $\mathbb{Z}/N\mathbb{Z}$ when $N=p^rq^s$. In their cryp</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="multiinstance_security_degradation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="multi-instance security degradation of code-based kems   the security of most prominent code-based key encapsulation mechanisms (kems) relies on the hardness of the syndrome decoding problem. it is well-known that in the presence of $n$ syndromes, one gets">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/517" target="_blank">Multi-Instance Security Degradation of Code-Based KEMs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The security of most prominent code-based key encapsulation mechanisms (KEMs) relies on the hardness of the syndrome decoding problem. It is well-known that in the presence of $n$ syndromes, one gets</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="towards_compact_uovbased_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="towards compact uov-based mq signatures: rectangular and lifted whipping structures   multivariate quadratic (mq) signatures offer fast signing and verification with small signatures, but their practicality is often limited by large public keys. recent schemes, such as mayo, address th">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/516" target="_blank">Towards Compact UOV-Based MQ Signatures: Rectangular and Lifted Whipping Structures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multivariate quadratic (MQ) signatures offer fast signing and verification with small signatures, but their practicality is often limited by large public keys. Recent schemes, such as MAYO, address th</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="privacy_at_your_2026" data-dirs="ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="privacy at your fingertips: enabling rapid client-side operations in fully homomorphic encryption   fully homomorphic encryption (fhe) allows users to offload large computations to servers without revealing the underlying data. due to this unique feature, it is applicable to a variety of domains, in">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/515" target="_blank">Privacy at your Fingertips: Enabling Rapid Client-Side Operations in Fully Homomorphic Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fully Homomorphic Encryption (FHE) allows users to offload large computations to servers without revealing the underlying data. Due to this unique feature, it is applicable to a variety of domains, in</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="zkbsa_auditable_blockchain_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="zkbsa: auditable blockchain stealth address   stealth addresses provide receiver privacy but lack mechanisms for regulatory compliance, creating a critical gap in regulated financial blockchains where amounts are transparent yet identities must r">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/513" target="_blank">zkBSA: Auditable Blockchain Stealth Address</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Stealth addresses provide receiver privacy but lack mechanisms for regulatory compliance, creating a critical gap in regulated financial blockchains where amounts are transparent yet identities must r</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="humanextractable_zk_proofs_2026" data-dirs="software_friendly"
+     data-year="2026" data-significance="medium"
+     data-search="human-extractable zk proofs of knowledge: a solution to dark daos   a decentralized autonomous organization (dao) is a pioneering evolution to realize a decentralized democratic governance over a blockchain. in a dao, stakeholders usually make collective decisions thr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/511" target="_blank">Human-Extractable ZK Proofs of Knowledge: A Solution to Dark DAOs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A Decentralized Autonomous Organization (DAO) is a pioneering evolution to realize a decentralized democratic governance over a blockchain. In a DAO, stakeholders usually make collective decisions thr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">软件友好密码</span></div>
+</div>
+
+<div class="paper-card" data-id="fhorget_a_cryptographic_2026" data-dirs="ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="fhorget: a cryptographic solution for secure machine unlearning   data regulations grant users the right to be forgotten, empowering them to control if and when their data is used in applications such as machine learning training. machine unlearning offers a promisi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/510" target="_blank">FHorgEt: A Cryptographic Solution for Secure Machine Unlearning</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Data regulations grant users the right to be forgotten, empowering them to control if and when their data is used in applications such as machine learning training. Machine unlearning offers a promisi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="puff_maximally_proactive_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="puff: maximally proactive security for free in perfectly secure mpc with guaranteed output delivery   achieving proactive security in perfectly-secure multi-party computation (mpc) with guaranteed output delivery is a significant challenge, primarily because traditional protocols require all participa">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/509" target="_blank">PUFF: Maximally Proactive Security for Free in Perfectly Secure MPC with Guaranteed Output Delivery</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Achieving proactive security in perfectly-secure Multi-Party Computation (MPC) with guaranteed output delivery is a significant challenge, primarily because traditional protocols require all participa</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="schnorr_blind_signatures_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="schnorr blind signatures and signed elgamal kem in algebraic group action model   schnorr blind signature is one of the most efficient and widely used blind signatures. at crypto&#x27;23, katsumata et al. proposed csi-otter, the first blind signature from isogenies, which does not follo">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/508" target="_blank">Schnorr Blind Signatures and Signed ElGamal KEM in Algebraic Group Action Model</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Schnorr blind signature is one of the most efficient and widely used blind signatures. At CRYPTO&#x27;23, Katsumata et al. proposed CSI-Otter, the first blind signature from isogenies, which does not follo</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="practically_efficient_lineartime_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="practically efficient linear-time protocols for server-aided private set union and third party private set operations   we present protocols for server-aided private set union (psu), third-party private set difference (tp-psd) and third-party private symmetric difference (tp-psymd). in a third-party setting, the receiv">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/507" target="_blank">Practically Efficient Linear-Time Protocols for Server-Aided Private Set Union and Third Party Private Set Operations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present protocols for server-aided private set union (PSU), third-party private set difference (TP-PSD) and third-party private symmetric difference (TP-PSymD). In a third-party setting, the receiv</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
