@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 370 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 373 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (161)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (164)
 
 ## 算法设计
 
@@ -330,7 +330,7 @@
 
 ## 算法分析
 
-### 差分分析 (148 篇)
+### 差分分析 (150 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -418,6 +418,8 @@
 - 🟡 **2026** — PUFF: Maximally Proactive Security for Free in Perfectly Secure MPC with Guaranteed Output Delivery
 - 🟡 **2026** — Schnorr Blind Signatures and Signed ElGamal KEM in Algebraic Group Action Model
 - 🟡 **2026** — Practically Efficient Linear-Time Protocols for Server-Aided Private Set Union and Third Party Private Set Operations
+- 🟡 **2026** — Optimizing Differential Privacy in Federated Analytics under Known Input Distributions
+- 🟡 **2026** — Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -738,12 +740,13 @@
 - 🔴 **2009** — Related-Key Cryptanalysis of the Full AES-192 and AES-256 [AES]
 - 🔴 **1993** — New Types of Cryptanalytic Attacks Using Related Keys
 
-### 不变量与子空间 (7 篇)
+### 不变量与子空间 (8 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
 - 🟡 **2026** — Linear Code Equivalence via Plücker Coordinates
 - 🟡 **2026** — Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails
+- 🟡 **2026** — The module action for isogeny based cryptography
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

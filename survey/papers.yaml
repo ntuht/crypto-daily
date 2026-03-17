@@ -3792,7 +3792,7 @@ papers:
 - id: the_och_authenticated_2026
   title: The OCH Authenticated Encryption Scheme
   authors: []
-  venue: ePrint 2026/439
+  venue: ePrint
   year: 2026
   url: https://eprint.iacr.org/2026/439
   directions:
@@ -3811,6 +3811,7 @@ papers:
   - AES
   - ChaCha
   fetched_date: '2026-03-11'
+  source: eprint
 - id: on_extractability_of_2026
   title: On Extractability of the KZG Family of Polynomial Commitment Schemes
   authors: []
@@ -6549,4 +6550,57 @@ papers:
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-16'
+  source: eprint
+- id: optimizing_differential_privacy_2026
+  title: Optimizing Differential Privacy in Federated Analytics under Known Input Distributions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/220
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Differential privacy (DP) is one of the most efficient tools for protecting the privacy of individual data holders
+    under computation. This property guarantees that the computation outputs for every pa
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-03-17'
+  source: eprint
+- id: the_module_action_2026
+  title: The module action for isogeny based cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1556
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We extend the usual ideal action on oriented elliptic curves to a (Hermitian) module action on oriented (polarised)
+    abelian varieties. Oriented abelian varieties are naturally enriched in $R$-modules,
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-03-17'
+  source: eprint
+- id: enabling_indexfree_adjacency_2026
+  title: Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2047
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Obliviousness has been regarded as an essential property in encrypted databases (EDBs) for mitigating leakage from
+    access patterns. Yet despite decades of work, practical oblivious graph processing re
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-17'
   source: eprint
