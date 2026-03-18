@@ -6604,3 +6604,133 @@ papers:
   - LED
   fetched_date: '2026-03-17'
   source: eprint
+- id: traceable_secret_sharing_2026
+  title: Traceable Secret Sharing Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1980
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In a secret sharing scheme for a monotone access structure $\mathcal{A}$, one can share a secret among a set of
+    parties such that all subsets of parties authorized by $\mathcal{A}$ can reconstruct the
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: neuralcpa_a_deep_2026
+  title: 'NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/328
+  directions:
+  - ml_aided
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: A Chosen-Plaintext Attack (CPA) is a cryptographic analysis game for encryption, where an adversary queries an
+    encryption oracle with plaintexts and observes the mapping to their ciphertexts. At an ar
+  status: pending_review
+  matched_keywords:
+  - neural distinguisher
+  - block cipher
+  - AES
+  - PRESENT
+  - SIMON
+  - SPECK
+  - KATAN
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: on_the_security_2026
+  title: On the Security Risks of Covert Password Manager Providers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1278
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Password managers have become widely adopted and are commonly recommended to improve user security. However, current
+    cloud-based solutions rely on the implicit assumption that password manager provide
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: integer_commitments_old_2026
+  title: Integer Commitments, Old and New Tools
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/081
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: This self-contained and detailed tutorial covers RSA-based integer commitments and related protocols. It also presents
+    a new, highly efficient setup protocol for sampling commitment parameters.
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: too_hot_to_2026
+  title: 'Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/071
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: "The past years have witnessed a considerable increase in research\r\nefforts on neural network-assisted profiled\
+    \ side-channel analysis\r\n(SCA). At the same time, studies have identified challenges, inclu"
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: parallel_spooky_pebbling_2026
+  title: Parallel Spooky Pebbling Makes Regev Factoring More Practical
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1887
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: '"Pebble games," an abstraction from classical reversible computing, have found use in the design of quantum circuits
+    for inherently sequential tasks. Gidney showed that allowing Hadamard basis measure'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: riscv_based_vectorization_2026
+  title: RISC-V based Vectorization of Classic McEliece Key Generation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/523
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum computers can break or weaken classical cryptography using Shor’s and Grover’s algorithms. This threat
+    drives the development of post-quantum cryptography (PQC) algorithms, such as the Classic
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-18'
+  source: eprint
