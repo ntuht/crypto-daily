@@ -3792,7 +3792,7 @@ papers:
 - id: the_och_authenticated_2026
   title: The OCH Authenticated Encryption Scheme
   authors: []
-  venue: ePrint 2026/439
+  venue: ePrint
   year: 2026
   url: https://eprint.iacr.org/2026/439
   directions:
@@ -3811,6 +3811,7 @@ papers:
   - AES
   - ChaCha
   fetched_date: '2026-03-11'
+  source: eprint
 - id: on_extractability_of_2026
   title: On Extractability of the KZG Family of Polynomial Commitment Schemes
   authors: []
@@ -6209,4 +6210,672 @@ papers:
   matched_keywords:
   - PRESENT
   fetched_date: '2026-03-15'
+  source: eprint
+- id: sumcheck_protocol_for_2026
+  title: Sum-check protocol for approximate computations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2152
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Motivated by the mismatch between floating-point arithmetic, which is intrinsically approximate, and verifiable
+    computing protocols for exact computations, we develop a generalization of the sum-check
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: securely_scaling_autonomy_2026
+  title: 'Securely Scaling Autonomy: The Role of Cryptography in Future Unmanned Aircraft Systems (UAS)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/512
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The decentralisation of autonomous Unmanned Aircraft Systems (UAS) introduces significant challenges for establishing
+    secure communication and consensus in contested, resource-constrained environments
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - CRAFT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: sasta_singlefault_nonce_2026
+  title: 'SASTA: Single-Fault Nonce Respecting Differential Attack on Hybrid Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/041
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption offers an effective solution for privacy-preserving computation, but its adoption
+    is hindered by substantial computational and communication overheads. To address these, t
+  status: pending_review
+  matched_keywords:
+  - differential
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: dynamic_zksnarks_with_2026
+  title: Dynamic zk-SNARKs (with applications to sparse zk-SNARKs and IVC)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1566
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: In this work, we introduce \emph{dynamic zk-SNARKs}. A dynamic zk-SNARK extends a standard zk-SNARK with an additional
+    \emph{update} algorithm. This algorithm takes as input a valid source statement–w
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: roundoptimal_gucsecure_blind_2026
+  title: Round-Optimal GUC-Secure Blind Signatures from Minimal Computational and Setup Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/145
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: A blind signature scheme is an interactive protocol that enables a user to obtain a signature on a message without
+    revealing any information about the message–signature pair to the signer. Despite mor
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AES
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: when_trying_to_2026
+  title: 'When Trying to Catch Cheaters Breaks the MPC: Breaking and Fixing Delayed Consistency Checks in Trident, Fantastic
+    Four, SWIFT, and Quad (Full Version)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/234
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Actively secure multi-party computation in the honest-majority setting often relies on multiple parties computing
+    the same message to be sent. This additional redundancy allows to detect when a party '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: module_learning_with_2026
+  title: Module Learning With Errors and Structured Extrapolated Dihedral Cosets
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/155
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Module Learning With Errors (MLWE) problem is the fundamental hardness assumption underlying the key encapsulation
+    and signature schemes ML-KEM and ML-DSA, which have been selected by NIST for pos
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: unimsm_an_efficient_2026
+  title: 'UniMSM: An Efficient and Flexible Hardware Accelerator for Multi-Scalar Multiplication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/521
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Multi-scalar multiplication (MSM) is a central kernel in cryptographic systems, which evaluates large linear combinations\
+    \ of elliptic-curve points.\r\nPractical MSMs couple millions of terms with hundre"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: sparse_optimisation_and_2026
+  title: Sparse optimisation and quantum-inspired encoding for ransomware detection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/520
+  directions:
+  - milp_sat_cp
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Ransomware remains a persistent cybersecurity threat difficult to detect due to high-dimensional network traffic
+    and sophisticated obfuscation techniques. Existing feature selection methods often stru
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: a_generalized_partial_2026
+  title: A Generalized Partial Exposure Lattice Attack Against an RSA variant Based on Cubic Pell Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/519
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Nitaj and Seck recently published an RSA variant (MJAGA 2024) based on the cubic Pell equation $\mathcal{P}_c(N):
+    u^3+cv^3+c^2w^3-3cuvw= 1$ over $\mathbb{Z}/N\mathbb{Z}$ when $N=p^rq^s$. In their cryp'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: multiinstance_security_degradation_2026
+  title: Multi-Instance Security Degradation of Code-Based KEMs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/517
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The security of most prominent code-based key encapsulation mechanisms (KEMs) relies on the hardness of the syndrome
+    decoding problem. It is well-known that in the presence of $n$ syndromes, one gets '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: towards_compact_uovbased_2026
+  title: 'Towards Compact UOV-Based MQ Signatures: Rectangular and Lifted Whipping Structures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/516
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multivariate quadratic (MQ) signatures offer fast signing and verification with small signatures, but their practicality
+    is often limited by large public keys. Recent schemes, such as MAYO, address th
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: privacy_at_your_2026
+  title: 'Privacy at your Fingertips: Enabling Rapid Client-Side Operations in Fully Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/515
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) allows users to offload large computations to servers without revealing the
+    underlying data. Due to this unique feature, it is applicable to a variety of domains, in
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: zkbsa_auditable_blockchain_2026
+  title: 'zkBSA: Auditable Blockchain Stealth Address'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/513
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Stealth addresses provide receiver privacy but lack mechanisms for regulatory compliance, creating a critical gap
+    in regulated financial blockchains where amounts are transparent yet identities must r
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: humanextractable_zk_proofs_2026
+  title: 'Human-Extractable ZK Proofs of Knowledge: A Solution to Dark DAOs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/511
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: A Decentralized Autonomous Organization (DAO) is a pioneering evolution to realize a decentralized democratic governance
+    over a blockchain. In a DAO, stakeholders usually make collective decisions thr
+  status: pending_review
+  matched_keywords:
+  - ARX
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: fhorget_a_cryptographic_2026
+  title: 'FHorgEt: A Cryptographic Solution for Secure Machine Unlearning'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/510
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Data regulations grant users the right to be forgotten, empowering them to control if and when their data is used
+    in applications such as machine learning training. Machine unlearning offers a promisi
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: puff_maximally_proactive_2026
+  title: 'PUFF: Maximally Proactive Security for Free in Perfectly Secure MPC with Guaranteed Output Delivery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/509
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Achieving proactive security in perfectly-secure Multi-Party Computation (MPC) with guaranteed output delivery
+    is a significant challenge, primarily because traditional protocols require all participa
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: schnorr_blind_signatures_2026
+  title: Schnorr Blind Signatures and Signed ElGamal KEM in Algebraic Group Action Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/508
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Schnorr blind signature is one of the most efficient and widely used blind signatures. At CRYPTO'23, Katsumata
+    et al. proposed CSI-Otter, the first blind signature from isogenies, which does not follo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: practically_efficient_lineartime_2026
+  title: Practically Efficient Linear-Time Protocols for Server-Aided Private Set Union and Third Party Private Set Operations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/507
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present protocols for server-aided private set union (PSU), third-party private set difference (TP-PSD) and
+    third-party private symmetric difference (TP-PSymD). In a third-party setting, the receiv
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-16'
+  source: eprint
+- id: optimizing_differential_privacy_2026
+  title: Optimizing Differential Privacy in Federated Analytics under Known Input Distributions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/220
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Differential privacy (DP) is one of the most efficient tools for protecting the privacy of individual data holders
+    under computation. This property guarantees that the computation outputs for every pa
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-03-17'
+  source: eprint
+- id: the_module_action_2026
+  title: The module action for isogeny based cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1556
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We extend the usual ideal action on oriented elliptic curves to a (Hermitian) module action on oriented (polarised)
+    abelian varieties. Oriented abelian varieties are naturally enriched in $R$-modules,
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-03-17'
+  source: eprint
+- id: enabling_indexfree_adjacency_2026
+  title: Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2047
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Obliviousness has been regarded as an essential property in encrypted databases (EDBs) for mitigating leakage from
+    access patterns. Yet despite decades of work, practical oblivious graph processing re
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-17'
+  source: eprint
+- id: traceable_secret_sharing_2026
+  title: Traceable Secret Sharing Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1980
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In a secret sharing scheme for a monotone access structure $\mathcal{A}$, one can share a secret among a set of
+    parties such that all subsets of parties authorized by $\mathcal{A}$ can reconstruct the
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: neuralcpa_a_deep_2026
+  title: 'NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/328
+  directions:
+  - ml_aided
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: A Chosen-Plaintext Attack (CPA) is a cryptographic analysis game for encryption, where an adversary queries an
+    encryption oracle with plaintexts and observes the mapping to their ciphertexts. At an ar
+  status: pending_review
+  matched_keywords:
+  - neural distinguisher
+  - block cipher
+  - AES
+  - PRESENT
+  - SIMON
+  - SPECK
+  - KATAN
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: on_the_security_2026
+  title: On the Security Risks of Covert Password Manager Providers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1278
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Password managers have become widely adopted and are commonly recommended to improve user security. However, current
+    cloud-based solutions rely on the implicit assumption that password manager provide
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: integer_commitments_old_2026
+  title: Integer Commitments, Old and New Tools
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/081
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: This self-contained and detailed tutorial covers RSA-based integer commitments and related protocols. It also presents
+    a new, highly efficient setup protocol for sampling commitment parameters.
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: too_hot_to_2026
+  title: 'Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/071
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: "The past years have witnessed a considerable increase in research\r\nefforts on neural network-assisted profiled\
+    \ side-channel analysis\r\n(SCA). At the same time, studies have identified challenges, inclu"
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: parallel_spooky_pebbling_2026
+  title: Parallel Spooky Pebbling Makes Regev Factoring More Practical
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1887
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: '"Pebble games," an abstraction from classical reversible computing, have found use in the design of quantum circuits
+    for inherently sequential tasks. Gidney showed that allowing Hadamard basis measure'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: riscv_based_vectorization_2026
+  title: RISC-V based Vectorization of Classic McEliece Key Generation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/523
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum computers can break or weaken classical cryptography using Shor’s and Grover’s algorithms. This threat
+    drives the development of post-quantum cryptography (PQC) algorithms, such as the Classic
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-18'
+  source: eprint
+- id: evh_randomized_symmetric_2026
+  title: 'EvH: Randomized Symmetric Cipher Paradigm with Holographic Storage and Parallelism, Compression, & Erasure Recovery
+    Integration'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1539
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Standard symmetric encryption schemes, such as AES, other block ciphers and their modes, and stream ciphers, are
+    highly effective and efficient for many standard scenarios. All of them have been deriv
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: may_the_force_2026
+  title: 'May the Force $\textit{not}$ Be with you: Brute-Force Resistant Biometric Authentication and Key Reconstruction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1211
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: "The use of biometric-based security protocols is on the steep rise. As\r\nbiometrics become more popular, we witness\
+    \ more attacks. For example, recent\r\nBrutePrint/InfinityGauntlet attacks showed how to "
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: encrypted_multimap_that_2026
+  title: Encrypted Multi-map that Hides Query, Access, and Volume Patterns
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2091
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present an encrypted multi-map, a fundamental data structure underlying\r\nsearchable encryption/structured\
+    \ encryption. Our protocol supports updates and\r\nis designed for applications demanding very "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: machinechecked_security_for_2026
+  title: Machine-Checked Security for $\mathrm{XMSS}$ as in RFC 8391 and $\mathrm{SPHINCS}^{+}$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/408
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This work presents a novel machine-checked tight security\r\nproof for $\\mathrm{XMSS}$ — a stateful hash-based\
+    \ signature scheme that is (1) standardized in RFC 8391 and NIST SP 800-208, and (2) employed"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: on_the_power_2026
+  title: 'On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/238
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Cryptographic proof systems enable a verifier to be convinced of a computation's correctness  without re-executing
+    it; common efficiency requirements include both succinct proofs and fast verification
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: optimizing_and_implementing_2026
+  title: Optimizing and Implementing Fischlin's Transform for UC-Secure Zero-Knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/526
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fischlin's transform (CRYPTO 2005) is an alternative to the Fiat-Shamir transform that enables straight-line extraction
+    when proving knowledge. In this work we focus on the problem of using the Fischl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: quasar_sublinear_multicast_2026
+  title: 'Quasar: Sublinear Multi-Cast Commitment Mixing in Recursive Accumulation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1912
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Sitting at the core of folding-based recursion, multi-instance accumulation still forces the recursive verifier
+    to combine $\ell$ committed objects, incurring $\Theta(\ell)$ circuit-expensive commitme
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: bridging_usability_and_2026
+  title: 'Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1319
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However,
+    the performance of tensor operations in HE is highly sensitive to how the plaintext d
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-03-19'
   source: eprint
