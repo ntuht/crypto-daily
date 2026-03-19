@@ -6879,3 +6879,37 @@ papers:
   - PRESENT
   fetched_date: '2026-03-19'
   source: eprint
+- id: impossibility_of_cpad_2026
+  title: Impossibility of CPAD security for a class of FHE schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/203
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we focus on the class of at least linearly homomorphic schemes such that their homomorphic addition
+    operator is itself a linear operator over the ciphertext domain. This class of scheme
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: registered_functional_encryption_2026
+  title: Registered Functional Encryption for Attribute-Weighted Sums with Access Control
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/836
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we present Functional Encryption (FE) schemes for Attribute-Weighted Sums (AWS), introduced by Abdalla,
+    Gong and Wee (Crypto 2020) in the registration-based setting (RFE). In such a sett
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint

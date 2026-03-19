@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 388 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 390 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (179)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (181)
 
 ## 算法设计
 
@@ -334,7 +334,7 @@
 
 ## 算法分析
 
-### 差分分析 (155 篇)
+### 差分分析 (157 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -429,6 +429,8 @@
 - 🟡 **2026** — Encrypted Multi-map that Hides Query, Access, and Volume Patterns
 - 🟡 **2026** — Machine-Checked Security for $\mathrm{XMSS}$ as in RFC 8391 and $\mathrm{SPHINCS}^{+}$
 - 🟡 **2026** — Optimizing and Implementing Fischlin's Transform for UC-Secure Zero-Knowledge
+- 🟡 **2026** — Impossibility of CPAD security for a class of FHE schemes
+- 🟡 **2026** — Registered Functional Encryption for Attribute-Weighted Sums with Access Control
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
