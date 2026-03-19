@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 380 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 388 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (171)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (179)
 
 ## 算法设计
 
-### 轻量级密码综合 (47 篇)
+### 轻量级密码综合 (49 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -64,6 +64,8 @@
 - 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
 - 🟡 **2026** — SCALE-FL: Scalable Cryptography-based Aggregation with Lightweight Enclaves for Federated Learning
 - 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
+- 🟡 **2026** — EvH: Randomized Symmetric Cipher Paradigm with Holographic Storage and Parallelism, Compression, & Erasure Recovery Integration
+- 🟡 **2026** — Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -137,7 +139,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### 认证加密 (AEAD) (28 篇)
+### 认证加密 (AEAD) (29 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -145,6 +147,7 @@
 - 🟡 **2026** — Revisiting Leakage-Resilient MACs and Succinctly-Committing AEAD More Applications of Pseudo-Random Injections
 - 🟡 **2026** — Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs
 - 🟡 **2026** — AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme
+- 🟡 **2026** — May the Force $\textit{not}$ Be with you: Brute-Force Resistant Biometric Authentication and Key Reconstruction
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -331,7 +334,7 @@
 
 ## 算法分析
 
-### 差分分析 (152 篇)
+### 差分分析 (155 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -423,6 +426,9 @@
 - 🟡 **2026** — Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications
 - 🟡 **2026** — Parallel Spooky Pebbling Makes Regev Factoring More Practical
 - 🟡 **2026** — RISC-V based Vectorization of Classic McEliece Key Generation
+- 🟡 **2026** — Encrypted Multi-map that Hides Query, Access, and Volume Patterns
+- 🟡 **2026** — Machine-Checked Security for $\mathrm{XMSS}$ as in RFC 8391 and $\mathrm{SPHINCS}^{+}$
+- 🟡 **2026** — Optimizing and Implementing Fischlin's Transform for UC-Secure Zero-Knowledge
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -486,7 +492,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (56 篇)
+### MILP/SAT/CP 建模技术 (57 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -510,6 +516,7 @@
 - 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
 - 🟡 **2026** — Traceable Secret Sharing Revisited
 - 🟡 **2026** — On the Security Risks of Covert Password Manager Providers
+- 🟡 **2026** — On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -580,7 +587,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### 中间相遇 (27 篇)
+### 中间相遇 (29 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -598,6 +605,8 @@
 - 🟡 **2026** — Round-Optimal GUC-Secure Blind Signatures from Minimal Computational and Setup Assumptions
 - 🟡 **2026** — zkBSA: Auditable Blockchain Stealth Address
 - 🟡 **2026** — Integer Commitments, Old and New Tools
+- 🟡 **2026** — On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More
+- 🟡 **2026** — Quasar: Sublinear Multi-Cast Commitment Mixing in Recursive Accumulation
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]

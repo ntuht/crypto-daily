@@ -6734,3 +6734,148 @@ papers:
   - PRESENT
   fetched_date: '2026-03-18'
   source: eprint
+- id: evh_randomized_symmetric_2026
+  title: 'EvH: Randomized Symmetric Cipher Paradigm with Holographic Storage and Parallelism, Compression, & Erasure Recovery
+    Integration'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1539
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Standard symmetric encryption schemes, such as AES, other block ciphers and their modes, and stream ciphers, are
+    highly effective and efficient for many standard scenarios. All of them have been deriv
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: may_the_force_2026
+  title: 'May the Force $\textit{not}$ Be with you: Brute-Force Resistant Biometric Authentication and Key Reconstruction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1211
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: "The use of biometric-based security protocols is on the steep rise. As\r\nbiometrics become more popular, we witness\
+    \ more attacks. For example, recent\r\nBrutePrint/InfinityGauntlet attacks showed how to "
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: encrypted_multimap_that_2026
+  title: Encrypted Multi-map that Hides Query, Access, and Volume Patterns
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2091
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present an encrypted multi-map, a fundamental data structure underlying\r\nsearchable encryption/structured\
+    \ encryption. Our protocol supports updates and\r\nis designed for applications demanding very "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: machinechecked_security_for_2026
+  title: Machine-Checked Security for $\mathrm{XMSS}$ as in RFC 8391 and $\mathrm{SPHINCS}^{+}$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/408
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This work presents a novel machine-checked tight security\r\nproof for $\\mathrm{XMSS}$ — a stateful hash-based\
+    \ signature scheme that is (1) standardized in RFC 8391 and NIST SP 800-208, and (2) employed"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: on_the_power_2026
+  title: 'On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/238
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Cryptographic proof systems enable a verifier to be convinced of a computation's correctness  without re-executing
+    it; common efficiency requirements include both succinct proofs and fast verification
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: optimizing_and_implementing_2026
+  title: Optimizing and Implementing Fischlin's Transform for UC-Secure Zero-Knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/526
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fischlin's transform (CRYPTO 2005) is an alternative to the Fiat-Shamir transform that enables straight-line extraction
+    when proving knowledge. In this work we focus on the problem of using the Fischl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: quasar_sublinear_multicast_2026
+  title: 'Quasar: Sublinear Multi-Cast Commitment Mixing in Recursive Accumulation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1912
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Sitting at the core of folding-based recursion, multi-instance accumulation still forces the recursive verifier
+    to combine $\ell$ committed objects, incurring $\Theta(\ell)$ circuit-expensive commitme
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-19'
+  source: eprint
+- id: bridging_usability_and_2026
+  title: 'Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1319
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However,
+    the performance of tensor operations in HE is highly sensitive to how the plaintext d
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-03-19'
+  source: eprint
