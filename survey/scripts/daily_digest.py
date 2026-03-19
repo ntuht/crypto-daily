@@ -621,20 +621,13 @@ def main():
         print(f"  Using heuristic top {len(selected)}")
     else:
         try:
-            # Create LLM backend (import directly to avoid strategy/__init__.py)
+            # Try standalone wrapper first (works in CI)
+            from llm_wrapper import create_llm
             llm_config = config.get("llm", {}).copy()
-            import importlib.util
-            backends_path = PROJECT_DIR / "strategy" / "llm_backends.py"
-            spec = importlib.util.spec_from_file_location("llm_backends", backends_path)
-            llm_mod = importlib.util.module_from_spec(spec)
-            sys.modules["llm_backends"] = llm_mod  # register before exec for dataclass
-            spec.loader.exec_module(llm_mod)
-
-            # Override: use fast model for digest (Pro is too slow)
             llm_config["model"] = "gemini-2.5-flash"
             llm_config["temperature"] = 0.3
-            llm_config["max_tokens"] = 8192  # need room for thinking + output
-            llm = llm_mod.create_llm_backend(llm_config)
+            llm_config["max_tokens"] = 8192
+            llm = create_llm(llm_config)
             print(f"  LLM backend: {llm.model_name}")
 
             # Stage 2: LLM ranking
