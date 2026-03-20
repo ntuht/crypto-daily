@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 390 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 403 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (181)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (194)
 
 ## 算法设计
 
@@ -334,7 +334,7 @@
 
 ## 算法分析
 
-### 差分分析 (157 篇)
+### 差分分析 (164 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -431,6 +431,13 @@
 - 🟡 **2026** — Optimizing and Implementing Fischlin's Transform for UC-Secure Zero-Knowledge
 - 🟡 **2026** — Impossibility of CPAD security for a class of FHE schemes
 - 🟡 **2026** — Registered Functional Encryption for Attribute-Weighted Sums with Access Control
+- 🟡 **2026** — Broken By Design: A Longitudinal Analysis of Cryptographic Failures in Alipay Mobile Payment Infrastructure
+- 🟡 **2026** — $k$-out-of-$n$ Proofs and Applications to Privacy-Preserving Cryptocurrencies
+- 🟡 **2026** — A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+- 🟡 **2026** — Balthazar Wallet: Making Password Authentication Practical on Web3 via OPAQUE and Privacy-Preserving Smart Contracts
+- 🟡 **2026** — Benchmarking Exported Key Material from Commercial QKD Systems Using SENTRY-Q: A Model-Based Output Validator
+- 🟡 **2026** — Full Secret Key Recovery of First-order Masked Crystals-Kyber implementation using multiple distinct chosen-ciphertexts
+- 🟡 **2026** — QR-UOV without Rejection Sampling: Security Analysis and High-Speed Implementation
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -494,7 +501,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (57 篇)
+### MILP/SAT/CP 建模技术 (58 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -519,6 +526,7 @@
 - 🟡 **2026** — Traceable Secret Sharing Revisited
 - 🟡 **2026** — On the Security Risks of Covert Password Manager Providers
 - 🟡 **2026** — On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More
+- 🟡 **2026** — S-two Whitepaper
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -589,7 +597,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### 中间相遇 (29 篇)
+### 中间相遇 (30 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -609,6 +617,7 @@
 - 🟡 **2026** — Integer Commitments, Old and New Tools
 - 🟡 **2026** — On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More
 - 🟡 **2026** — Quasar: Sublinear Multi-Cast Commitment Mixing in Recursive Accumulation
+- 🟡 **2026** — Distance of RAA Codes over Large Finite Fields (with Applications in zkSNARKs and PCGs)
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -673,7 +682,7 @@
 - 🔴 **2009** — Cube Attacks on Tweakable Black Box Polynomials [Trivium]
 - 🔴 **2000** — Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations [AES]
 
-### ML/LLM 辅助密码分析 (17 篇)
+### ML/LLM 辅助密码分析 (20 篇)
 
 - 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
 - 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
@@ -681,6 +690,9 @@
 - 🟡 **2026** — FHorgEt: A Cryptographic Solution for Secure Machine Unlearning
 - 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
 - 🟡 **2026** — Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis
+- 🟡 **2026** — MatriGear: Accelerating Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
+- 🟡 **2026** — A Review of IC Logical Reverse Engineering Techniques
+- 🟡 **2026** — SoK: Understanding zkVM: From Research to Practice
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
 - 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
@@ -759,13 +771,14 @@
 - 🔴 **2009** — Related-Key Cryptanalysis of the Full AES-192 and AES-256 [AES]
 - 🔴 **1993** — New Types of Cryptanalytic Attacks Using Related Keys
 
-### 不变量与子空间 (8 篇)
+### 不变量与子空间 (9 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
 - 🟡 **2026** — Linear Code Equivalence via Plücker Coordinates
 - 🟡 **2026** — Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails
 - 🟡 **2026** — The module action for isogeny based cryptography
+- 🟡 **2026** — Hashing-friendly elliptic curves
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

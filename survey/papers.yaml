@@ -6913,3 +6913,232 @@ papers:
   - PRESENT
   fetched_date: '2026-03-19'
   source: eprint
+- id: broken_by_design_2026
+  title: 'Broken By Design: A Longitudinal Analysis of Cryptographic Failures in Alipay Mobile Payment Infrastructure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/526
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a systematic security analysis of Alipay's APK signing certificate, issued in 2009 using md5WithRSAEncryption
+    with RSA-1024 and still active in 2026, serving over one billion users. Through
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: matrigear_accelerating_authenticated_2026
+  title: 'MatriGear: Accelerating Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1502
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The SPDZ protocol family is a popular choice for secure multi-party computation (MPC) in a dishonest majority setting
+    with active adversaries. Over the past decade, a series of studies have focused on
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: koutofn_proofs_and_2026
+  title: $k$-out-of-$n$ Proofs and Applications to Privacy-Preserving Cryptocurrencies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/884
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Cryptocurrencies enable transactions among mutually distrustful users. While UTXO-based cryptocurrencies offer\
+    \ mature solutions achieving strong privacy and supporting multi-receiver transfers, \r\nacco"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: stwo_whitepaper_2026
+  title: S-two Whitepaper
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/532
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "This whitepaper describes S-two, a circle STARK (Haböck, Levit, Papini 2024) over the Mersenne prime field with\
+    \ modulus $p =2^{31} -1$.\r\nWe formalize the \"flat AIR\" circuit model, a modern arithmetiza"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: hashingfriendly_elliptic_curves_2026
+  title: Hashing-friendly elliptic curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1926
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: This article aims to consider batch hashing to elliptic curves. The given kind of hash functions found numerous
+    applications in elliptic curve cryptography. In practice, a hash-to-curve function is of
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: a_maliciouslysecure_postquantum_2026
+  title: A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/533
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We construct protocols for oblivious pseudorandom functions (OPRFs) based on alternating moduli assumptions in
+    the "Crypto Dark Matter" paradigm (Boneh et al, TCC 2016). Prior OPRFs based on this type
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: a_review_of_2026
+  title: A Review of IC Logical Reverse Engineering Techniques
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/531
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: In the modern, globalized supply chain for application specific integrated circuits (ASICs), reverse engineering
+    (RE) techniques can be employed for malicious and benign reasons. This survey defines t
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: balthazar_wallet_making_2026
+  title: 'Balthazar Wallet: Making Password Authentication Practical on Web3 via OPAQUE and Privacy-Preserving Smart Contracts'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/530
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Username & password is the most common authentication method in Web2 because of its high usability and efficient
+    protection against brute-force attacks by applying rate limits on the server. In contra
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: benchmarking_exported_key_2026
+  title: 'Benchmarking Exported Key Material from Commercial QKD Systems Using SENTRY-Q: A Model-Based Output Validator'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/529
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Quantum Key Distribution (QKD) enables two par-\r\nties to establish fresh cryptographic key material with information-\r\
+    \ntheoretic security guarantees, given an authenticated classical\r\nchannel and appr"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: full_secret_key_2026
+  title: Full Secret Key Recovery of First-order Masked Crystals-Kyber implementation using multiple distinct chosen-ciphertexts
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/528
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Abstract. We present a novel side-channel attack on first-order masked\r\nimplementations of Crystals-Kyber. It\
+    \ deploys a new distinguisher in the\r\ncontext of post-quantum cryptography. It relies on com"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: qruov_without_rejection_2026
+  title: 'QR-UOV without Rejection Sampling: Security Analysis and High-Speed Implementation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/527
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: QR-UOV is a multivariate signature scheme derived from UOV that achieves compact public keys by exploiting quotient-ring
+    structure, making it a promising candidate for post-quantum digital signatures.
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: sok_understanding_zkvm_2026
+  title: 'SoK: Understanding zkVM: From Research to Practice'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/525
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge virtual machine (zkVM) is a powerful infrastructure for proving the correctness of a program execution
+    with a succinct proof, attracting significant interest from researchers, developer
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
+- id: distance_of_raa_2026
+  title: Distance of RAA Codes over Large Finite Fields (with Applications in zkSNARKs and PCGs)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/524
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Error-correcting codes play a central role in modern cryptography, enabling efficient constructions of primitives
+    such as zero knowledge proofs and secure multiparty computations. Among them, repeat-a
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-03-20'
+  source: eprint
