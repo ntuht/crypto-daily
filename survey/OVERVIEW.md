@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 403 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 409 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (194)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (200)
 
 ## 算法设计
 
-### 轻量级密码综合 (49 篇)
+### 轻量级密码综合 (50 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -66,6 +66,7 @@
 - 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
 - 🟡 **2026** — EvH: Randomized Symmetric Cipher Paradigm with Holographic Storage and Parallelism, Compression, & Erasure Recovery Integration
 - 🟡 **2026** — Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -219,10 +220,11 @@
 - 🔴 **2004** — Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC [OCB]
 - 🔴 **2002** — Tweakable Block Ciphers
 
-### 轮函数结构 (17 篇)
+### 轮函数结构 (18 篇)
 
 - 🟡 **2026** — Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP
 - 🟡 **2026** — Improving Neural-Inspired Integral Distinguishers via a Linear-Algebraic Approach
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
 - 🟡 **2025** — The Large Block Cipher Family Vistrutah [Vistrutah]
 - 🟡 **2025** — Sponge with Feed-Forward: Improved Preimage Security
 - 🔴 **2025** — Multiple Rows Mixers and Hsilu: A Family of Linear Layers and a Permutation with Fewer XORs [Hsilu]
@@ -239,7 +241,7 @@
 - 🔴 **1988** — How to Construct Pseudorandom Permutations from Pseudorandom Functions
 - 🔴 **1973** — Cryptography and Computer Privacy [Lucifer]
 
-### 置换层 (15 篇)
+### 置换层 (16 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -252,6 +254,7 @@
 - 🟡 **2026** — Minimized PRFs from Public Permutations
 - 🟡 **2026** — Post-Quantum Security of the Sum of Even-Mansour
 - 🟡 **2026** — Dynamic zk-SNARKs (with applications to sparse zk-SNARKs and IVC)
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
@@ -334,7 +337,7 @@
 
 ## 算法分析
 
-### 差分分析 (164 篇)
+### 差分分析 (168 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -438,6 +441,10 @@
 - 🟡 **2026** — Benchmarking Exported Key Material from Commercial QKD Systems Using SENTRY-Q: A Model-Based Output Validator
 - 🟡 **2026** — Full Secret Key Recovery of First-order Masked Crystals-Kyber implementation using multiple distinct chosen-ciphertexts
 - 🟡 **2026** — QR-UOV without Rejection Sampling: Security Analysis and High-Speed Implementation
+- 🟡 **2026** — Post-Quantum Readiness in EdDSA Chains
+- 🟡 **2026** — Ultra short signatures with Dragon $HFE_{LL'}$
+- 🟡 **2026** — Quasi-perfect (de)compression of elliptic curve points in the highly $2$-adic scenario
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -501,7 +508,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (58 篇)
+### MILP/SAT/CP 建模技术 (59 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -527,6 +534,7 @@
 - 🟡 **2026** — On the Security Risks of Covert Password Manager Providers
 - 🟡 **2026** — On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More
 - 🟡 **2026** — S-two Whitepaper
+- 🟡 **2026** — Inferring Bivariate Polynomials for Homomorphic Encryption Application
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -658,6 +666,31 @@
 - 🔴 **1997** — The Block Cipher Square [Square]
 - 🔴 **1995** — Truncated and Higher Order Differentials
 
+### ML/LLM 辅助密码分析 (22 篇)
+
+- 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
+- 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
+- 🟡 **2026** — Privacy at your Fingertips: Enabling Rapid Client-Side Operations in Fully Homomorphic Encryption
+- 🟡 **2026** — FHorgEt: A Cryptographic Solution for Secure Machine Unlearning
+- 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
+- 🟡 **2026** — Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis
+- 🟡 **2026** — MatriGear: Accelerating Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
+- 🟡 **2026** — A Review of IC Logical Reverse Engineering Techniques
+- 🟡 **2026** — SoK: Understanding zkVM: From Research to Practice
+- 🟡 **2026** — ROTL: Faster Lookup Table Evaluation
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
+- 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
+- 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
+- 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
+- 🟡 **2024** — Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine Learning [SIMON]
+- 🔴 **2024** — Monte Carlo Tree Search for Automatic Differential Characteristics Search: Application to SPECK [SPECK]
+- 🟡 **2024** — ML-based Improved Differential Distinguisher for GIFT-128 [GIFT]
+- 🟡 **2024** — ML-based Improved Differential Distinguisher for Ascon [Ascon]
+- 🟡 **2022** — Machine Learning-Assisted Differential Distinguishers For Lightweight Ciphers [GIFT, PRESENT, SIMON, SKINNY]
+- 🟡 **2022** — Neural Network-Based Differential Distinguishers: Further Analysis and New Results [SPECK, SIMON]
+- 🔴 **2021** — A Deeper Look at Machine Learning-Based Cryptanalysis [SPECK]
+- 🔴 **2019** — Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning [SPECK]
+
 ### 代数攻击 (21 篇)
 
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -681,29 +714,6 @@
 - 🔴 **2017** — Cube Attacks on Non-Blackbox Polynomials Based on Division Property [Trivium, Kreyvium, ACORN]
 - 🔴 **2009** — Cube Attacks on Tweakable Black Box Polynomials [Trivium]
 - 🔴 **2000** — Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations [AES]
-
-### ML/LLM 辅助密码分析 (20 篇)
-
-- 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
-- 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
-- 🟡 **2026** — Privacy at your Fingertips: Enabling Rapid Client-Side Operations in Fully Homomorphic Encryption
-- 🟡 **2026** — FHorgEt: A Cryptographic Solution for Secure Machine Unlearning
-- 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
-- 🟡 **2026** — Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis
-- 🟡 **2026** — MatriGear: Accelerating Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
-- 🟡 **2026** — A Review of IC Logical Reverse Engineering Techniques
-- 🟡 **2026** — SoK: Understanding zkVM: From Research to Practice
-- 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
-- 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
-- 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
-- 🟡 **2024** — Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine Learning [SIMON]
-- 🔴 **2024** — Monte Carlo Tree Search for Automatic Differential Characteristics Search: Application to SPECK [SPECK]
-- 🟡 **2024** — ML-based Improved Differential Distinguisher for GIFT-128 [GIFT]
-- 🟡 **2024** — ML-based Improved Differential Distinguisher for Ascon [Ascon]
-- 🟡 **2022** — Machine Learning-Assisted Differential Distinguishers For Lightweight Ciphers [GIFT, PRESENT, SIMON, SKINNY]
-- 🟡 **2022** — Neural Network-Based Differential Distinguishers: Further Analysis and New Results [SPECK, SIMON]
-- 🔴 **2021** — A Deeper Look at Machine Learning-Based Cryptanalysis [SPECK]
-- 🔴 **2019** — Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning [SPECK]
 
 ### 自动化搜索框架 (17 篇)
 
@@ -759,8 +769,9 @@
 - 🔴 **1999** — Cryptanalysis of Skipjack Reduced to 31 Rounds Using Impossible Differentials [Skipjack]
 - 🔴 **1998** — Impossible Differentials in Twofish [Twofish]
 
-### 相关密钥攻击 (9 篇)
+### 相关密钥攻击 (10 篇)
 
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
 - 🟡 **2023** — Tweakey Schedule Differential Cancellations in SKINNYe [SKINNY]
 - 🟡 **2022** — Improved Rectangle Attacks on SKINNY and CRAFT [SKINNY, CRAFT]
 - 🟡 **2018** — Differential Clusters and Related-Key Differential Probability

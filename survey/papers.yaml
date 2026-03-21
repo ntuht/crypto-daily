@@ -7142,3 +7142,122 @@ papers:
   - LED
   fetched_date: '2026-03-20'
   source: eprint
+- id: postquantum_readiness_in_2026
+  title: Post-Quantum Readiness in EdDSA Chains
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1368
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum computers pose a critical threat to blockchains that rely on ECDSA, such as Bitcoin and Ethereum, due to
+    public key exposure and lack of post-quantum protections. Existing proposals for migrat
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-21'
+  source: eprint
+- id: ultra_short_signatures_2026
+  title: Ultra short signatures with Dragon $HFE_{LL'}$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/404
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We will present in this paper two new (post-Quantum) multivariate signature schemes, one with short signature,
+    called $HFE_{LL’}$, and one with even shorter ("ultra-short") signatures, called $D-HFE_{
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-21'
+  source: eprint
+- id: quasiperfect_decompression_of_2026
+  title: Quasi-perfect (de)compression of elliptic curve points in the highly $2$-adic scenario
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1693
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this short note, a new laconic, secure, and efficient (de)compression method is provided for points of any
+    elliptic curve over any highly $2$-adic finite field of large characteristic. Such fields '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-21'
+  source: eprint
+- id: inferring_bivariate_polynomials_2026
+  title: Inferring Bivariate Polynomials for Homomorphic Encryption Application
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/844
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Inspired by the advancements in (fully) homomorphic encryption during the last decades and its practical applications,
+    we conduct a preliminary study on the underlying mathematical structure of the co
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-21'
+  source: eprint
+- id: rotl_faster_lookup_2026
+  title: 'ROTL: Faster Lookup Table Evaluation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1093
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Lookup table (LUT) is an important cryptography primitive, widely used in secure applications such as private set
+    intersection, boolean circuit evaluation, and privacy-preserving machine learning. How
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-03-21'
+  source: eprint
+- id: improved_relatedkey_differential_2026
+  title: Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/535
+  directions:
+  - ml_aided
+  - permutation_layer
+  - round_function
+  - lightweight
+  - differential
+  - related_key
+  ciphers: []
+  significance: medium
+  summary: Related-key differential neural distinguishers have recently attracted increasing attention in block-cipher cryptanalysis,
+    yet their construction still relies heavily on cipher-specific manual design.
+  status: pending_review
+  matched_keywords:
+  - differential
+  - related-key
+  - related key
+  - neural distinguisher
+  - block cipher
+  - permutation
+  - SPN
+  - lightweight
+  - PRESENT
+  - SKINNY
+  - LED
+  fetched_date: '2026-03-21'
+  source: eprint
