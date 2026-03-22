@@ -3436,7 +3436,7 @@ papers:
 - id: simeck2015
   title: 'Simeck: A Framework for Lightweight Block Ciphers'
   authors: []
-  venue: CHES 2015
+  venue: ePrint
   year: 2015
   url: https://eprint.iacr.org/2025/178
   directions:
@@ -3447,6 +3447,7 @@ papers:
   significance: medium
   summary: Simeck 轻量级密码族，SIMON/SPECK 的混合简化设计。
   status: reviewed
+  source: eprint
 - id: knot2019
   title: 'KNOT: A Lightweight AEAD and Hashing Family'
   authors: []
@@ -7260,4 +7261,95 @@ papers:
   - SKINNY
   - LED
   fetched_date: '2026-03-21'
+  source: eprint
+- id: spectral_theory_of_2026
+  title: Spectral Theory of Isogeny Graphs and Quantum Sampling of Secure Supersingular Elliptic Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/171
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we study the problem of sampling random supersingular elliptic curves with unknown endomorphism
+    rings. This problem has recently gained considerable attention as many isogeny-based cryp
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-22'
+  source: eprint
+- id: issuer_hiding_for_2026
+  title: Issuer Hiding for BBS-Based Anonymous Credentials
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2080
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Anonymous-credential schemes allow users to obtain credentials on various attributes, and then use those credentials
+    to give unlinkable proofs about the values of some attributes without leaking anyth
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-22'
+  source: eprint
+- id: orca_and_dolphin_2026
+  title: 'Orca And Dolphin: Efficient Bivariate And Multilinear Polynomial Commitment Schemes Under Standard Assumptions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/539
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Most polynomial commitment schemes have either superlinear prover time or superconstant argument size. Recently,
+    Ganesh, Patranabis, and Singh introduced SamaritanPCS, and Eagen and Gabizon proposed M
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-03-22'
+  source: eprint
+- id: proofcarrying_data_via_2026
+  title: Proof-Carrying Data via Holography Accumulation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/538
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Succinct non-interactive arguments of knowledge (SNARKs) enable the verification of complex computations via short
+    proofs. Recursive proof composition allows long-running or distributed computations t
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-22'
+  source: eprint
+- id: cheap_digit_decomposition_2026
+  title: Cheap Digit Decomposition and Large Plaintext Spaces in FHEW using Phase Splitting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/537
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption algorithms enable users to perform computation on encrypted data. Since the first
+    candidate scheme was proposed in 2009 by Gentry, schemes have rapidly improved in all met
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-22'
   source: eprint
