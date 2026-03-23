@@ -7353,3 +7353,479 @@ papers:
   - LED
   fetched_date: '2026-03-22'
   source: eprint
+- id: hybrid_kem_constructions_2026
+  title: Hybrid KEM Constructions from Classical PKEs and Post-Quantum KEMs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/569
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "The rapid progress of quantum computing threatens widely deployed\r\npublic-key cryptosystems such as RSA and\
+    \ Diffie–Hellman, accelerating\r\nthe transition toward post-quantum cryptography (PQC).\r\nDuring"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: when_randomness_isnt_2026
+  title: 'When Randomness Isn’t Random: Practical Fault Attack on Post-Quantum Lattice Standards'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2009
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Post-quantum cryptographic schemes like ML-KEM and ML-DSA have been standardized to secure digital communication
+    against quantum threats. While their theoretical foundations are robust, we identify a '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: an_innovative_lightweight_2026
+  title: An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/213
+  directions:
+  - sbox
+  - permutation_layer
+  - software_friendly
+  - linear_diffusion
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "This paper introduces \"Little OaldresPuzzle_Cryptic,\" a novel lightweight symmetric encryption algorithm.\r\n\
+    \r\nAt the core of this algorithm are two main cryptographic components: the NeoAlzette permuta"
+  status: pending_review
+  matched_keywords:
+  - differential
+  - S-box
+  - permutation
+  - diffusion
+  - ARX
+  - lightweight
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: syncirc_efficient_synthesis_2026
+  title: 'SynCirc: Efficient Synthesis of Depth-Optimized Circuits from High-Level Languages (Extended Version)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/561
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Secure Multi-Party Computation (MPC) enables secure computation on private data. Many of today''s efficient MPC
+    protocols need a representation of the evaluated function as circuit composed of Boolean '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: playing_tag_with_2026
+  title: 'Playing Tag with Okamoto-Schnorr: Three-Move Pairing-Free Blind Signatures from DDH'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/571
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This paper presents the first blind signature scheme in a pairing-free group with the following properties: (1)
+    the signing protocol consists of only three moves; (2) the proof of one-more unforgeabil'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - CRAFT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: itoken_onetimeuse_anonymous_2026
+  title: 'iToken: One-Time-Use Anonymous Token with Issuance Hiding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/570
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Privacy-Enhancing Know Your Customer (KYC) integrates one-time-use anonymous tokens (OTATs) into self-sovereign
+    identity frameworks, such as the EU Digital Identity (EUDI) Wallet, Apple’s Private Acce
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: lowdepth_construction_of_2026
+  title: Low-Depth Construction of Grover Oracles from Fully Functional Quantum Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/568
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Grover oracle is the core component of the Grover search algorithm. Instead of constructing a Grover oracle
+    from scratch, we consider the common practice of constructing a Grover oracle from an ex
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: secretshared_shuffle_from_2026
+  title: Secret-Shared Shuffle from Authenticated Correlations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/566
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Shuffle is a basic primitive for secure computation. Secret-shared shuffle refers to oblivious permutation over
+    secret-shared data, which has broad applications in secret-sharing-based secure computat
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: zeeperio_verifying_governmental_2026
+  title: 'Zeeperio: Verifying Governmental Elections with Ethereum'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/565
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Scantegrity II became the first governmental election run with a cryptographic end-to-end election verification\
+    \ (E2E-V) protocol. \r\nE2E-V protocols allow the public to verify proofs that the election "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: tapas_efficient_twoserver_2026
+  title: 'TAPAS: Efficient Two-Server Asymmetric Private Aggregation Beyond Prio(+)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/564
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Privacy‑preserving aggregation is a cornerstone for AI systems that learn from distributed data without exposing
+    individual records, especially in federated learning and telemetry. Existing two‑server
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: new_approaches_to_2026
+  title: New Approaches to Zero-Knowledge SNARG Constructions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/562
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Zero-Knowledge Succinct Non-Interactive Arguments (zkSNARGs) are SNARGs in which the proof reveals nothing except
+    the validity of the claim. zkSNARGs for NP can be constructed generically from SNARGs '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: privade_privacypreserving_data_2026
+  title: 'PrivaDE: Privacy-preserving Data Evaluation for Blockchain-based Data Marketplaces'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/559
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Evaluating the usefulness of data before purchase is essential when obtaining data for high-quality machine learning
+    models, yet both model builders and data providers are often unwilling to reveal th
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: cryptanalysis_of_four_2026
+  title: Cryptanalysis of four arbitrated quantum signature schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/558
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Arbitrated quantum signature (AQS) schemes aim at ensuring the authenticity of a message with the help of an arbitrator.
+    Moreover, they aim at preventing repudiation, both from a sender that denies th
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: tpntt_batch_ntt_2026
+  title: 'TP-NTT: Batch NTT Hardware with Application to Relinearization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/556
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) enables arbitrary computation on encrypted data without decryption, providing
+    strong privacy guarantees for secure cloud computing, encrypted analytics, and privacy-
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: privalean_lowlatency_and_2026
+  title: 'PrivaLean: Low-Latency and High-Accuracy System for Secure 2PC Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/554
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure multi-party computation offers a powerful paradigm for protecting private information. However, its significant
+    computational overhead and high communication latency limit its further applicati
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: nidkg_noninteractive_distributed_2026
+  title: 'NI-DKG: Non-Interactive Distributed Key Generation Using Blockchain and Zero-Knowledge Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/552
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present a non-interactive DKG protocol that eliminates complaint procedures through the systematic use of ZK
+    proofs. The protocol requires a timed public bulletin board with adjoined computing capa
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: succinct_verification_of_2026
+  title: Succinct Verification of Lattice-Based Compressed $\Sigma$-Protocols via Delegated Proofs of Correct Folding of Cryptographically
+    Generated Public Parameters
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/551
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Inner product arguments are a widely used primitive in cryptography. The bulletproofs framework and subsequently
+    compressed $\Sigma$ protocols provide a powerful folding technique that allows for succ
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: solving_the_linear_2026
+  title: Solving the Linear Code Equivalence Problem from Single Codeword Matching
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/550
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: In the Linear Code Equivalence (LCE) problem, one seeks the isometry of the Hamming space $\mathbb{F}_q^n$ relating
+    two given linear codes. This problem is considered computationally hard for any alph
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: look_ahead_practical_2026
+  title: 'Look Ahead! Practical CCA-secure Steganography: Cover-Source Switching meets Lattice Gaussian Sampling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/549
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Steganography studies methods to not only protect the confidentiality of messages but also to conceal the very
+    act of message transmission. Prior provably secure stegosystems are predominantly constru
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: postquantum_cryptography_from_2026
+  title: Post-Quantum Cryptography from Quantum Stabilizer Decoding
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/548
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Post-quantum cryptography currently rests on a small number of hardness assumptions, posing significant risks should
+    any one of them be compromised. This vulnerability motivates the search for new and
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: hyperelliptic_gluing_isogeny_2026
+  title: 'Hyperelliptic Gluing Isogeny Diffie–Hellman (HGIDH): A Genus-2 Gluing Isogeny Key-Exchange'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/546
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "In this work, we propose Hyperelliptic Gluing Isogeny Diffie–\r\nHellman (HGIDH), a key-exchange protocol built\
+    \ from gluing isogenies\r\nbetween the product of two supersingular elliptic curves and the Ja"
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: aggregatorbased_voting_using_2026
+  title: Aggregator-Based Voting using proof of Partition
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/545
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present Aggios, a scalable and privacy preserving proxy voting system designed for frequent and large-scale
+    elections such as Decentralized Autonomous Organizations (DAO), when storing votes on the
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: hare_compact_hqc_2026
+  title: 'HARE: Compact HQC via Distance-Informed Erasure Decoding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/544
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present HARE, a KEM scheme based on the HQC framework with reduced public key and ciphertext sizes. The core
+    idea is to introduce a distance-informed erasure decoding technique for the concatenated
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: mtsf_markettheoretic_security_2026
+  title: 'MTSF --- Market-Theoretic Security Framework: A Unified Paradigm For The Art Of Proving and Disproving Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/543
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cryptographic security proofs are the invisible backbone of modern digital systems, yet they remain fragmented
+    across multiple paradigms—game-based proofs, Universal Composability (UC), formal verific
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: veridp_verifiable_differentially_2026
+  title: 'VERIDP: Verifiable Differentially Private Training'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/542
+  directions:
+  - differential
+  - ml_aided
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Stochastic Gradient Descent (SGD) is the foundation of modern machine learning (ML). In privacy-sensitive settings,
+    gradients can reveal details about individual data points. Differential Privacy (DP)
+  status: pending_review
+  matched_keywords:
+  - differential
+  - MITM
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
+- id: towards_verifiable_ai_2026
+  title: Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/541
+  directions:
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: When large AI models are deployed as cloud-based services, clients have no guarantee that responses are correct
+    or were produced by the intended model. Rerunning inference locally is infeasible for la
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-23'
+  source: eprint
