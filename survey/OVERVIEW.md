@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 440 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 454 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (231)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (245)
 
 ## 算法设计
 
-### 轻量级密码综合 (53 篇)
+### 轻量级密码综合 (57 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -70,6 +70,10 @@
 - 🟡 **2026** — An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG
 - 🟡 **2026** — TAPAS: Efficient Two-Server Asymmetric Private Aggregation Beyond Prio(+)
 - 🟡 **2026** — Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference
+- 🟡 **2026** — Golden: Lightweight Non-Interactive Distributed Key Generation
+- 🟡 **2026** — HCTR+: An Optimally Secure TBC-based Accordion Mode
+- 🟡 **2026** — Two-Party BBS+ Signature in Two Passes
+- 🟡 **2026** — AES-based Multi-instance TCCR Hash with High Security, and Applications
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -143,7 +147,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### 认证加密 (AEAD) (29 篇)
+### 认证加密 (AEAD) (30 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -152,6 +156,7 @@
 - 🟡 **2026** — Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs
 - 🟡 **2026** — AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme
 - 🟡 **2026** — May the Force $\textit{not}$ Be with you: Brute-Force Resistant Biometric Authentication and Key Reconstruction
+- 🟡 **2026** — HCTR+: An Optimally Secure TBC-based Accordion Mode
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -201,12 +206,14 @@
 - 🔴 **1998** — Serpent: A Proposal for the Advanced Encryption Standard [SERPENT]
 - 🔴 **1994** — Differentially Uniform Mappings for Cryptography
 
-### 可调密码 (20 篇)
+### 可调密码 (22 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function
 - 🟡 **2026** — Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers
 - 🟡 **2026** — THF: Designing Low-Latency Tweakable Block Ciphers
+- 🟡 **2026** — HCTR+: An Optimally Secure TBC-based Accordion Mode
+- 🟡 **2026** — AES-based Multi-instance TCCR Hash with High Security, and Applications
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🟡 **2024** — MATTER: A Wide-Block Tweakable Block Cipher [MATTER]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -346,7 +353,7 @@
 
 ## 算法分析
 
-### 差分分析 (183 篇)
+### 差分分析 (187 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -469,6 +476,10 @@
 - 🟡 **2026** — HARE: Compact HQC via Distance-Informed Erasure Decoding
 - 🟡 **2026** — MTSF --- Market-Theoretic Security Framework: A Unified Paradigm For The Art Of Proving and Disproving Security
 - 🟡 **2026** — VERIDP: Verifiable Differentially Private Training
+- 🟡 **2026** — TOOP: A transfer of ownership protocol over Bitcoin
+- 🟡 **2026** — A Universal Blinder: One-round Blind Signatures from FHE
+- 🟡 **2026** — Incremental Single-Server Private Information Retrieval
+- 🟡 **2026** — Earpicks: Tightly Secure Two-Round Multi- and Threshold Signatures
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -532,7 +543,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (64 篇)
+### MILP/SAT/CP 建模技术 (67 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -564,6 +575,9 @@
 - 🟡 **2026** — Hybrid KEM Constructions from Classical PKEs and Post-Quantum KEMs
 - 🟡 **2026** — Look Ahead! Practical CCA-secure Steganography: Cover-Source Switching meets Lattice Gaussian Sampling
 - 🟡 **2026** — Post-Quantum Cryptography from Quantum Stabilizer Decoding
+- 🟡 **2026** — Refined Modelling of the Primal Attack, and Variants Against Module-Learning With Errors
+- 🟡 **2026** — Efficient Batched IBE from Lattices in the Standard Model
+- 🟡 **2026** — RoKoko: Lattice-based Succinct Arguments, a Committed Refinement
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -599,7 +613,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (38 篇)
+### 中间相遇 (43 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -628,6 +642,11 @@
 - 🟡 **2026** — Hyperelliptic Gluing Isogeny Diffie–Hellman (HGIDH): A Genus-2 Gluing Isogeny Key-Exchange
 - 🟡 **2026** — VERIDP: Verifiable Differentially Private Training
 - 🟡 **2026** — Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference
+- 🟡 **2026** — Golden: Lightweight Non-Interactive Distributed Key Generation
+- 🟡 **2026** — FRIVail: A Data Availability Scheme based on FRI Binius
+- 🟡 **2026** — Radical 3-isogenies for the ideal class group actions on $(2, \varepsilon)$-structures
+- 🟡 **2026** — RoKoko: Lattice-based Succinct Arguments, a Committed Refinement
+- 🟡 **2026** — AES-based Multi-instance TCCR Hash with High Security, and Applications
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -675,7 +694,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### ML/LLM 辅助密码分析 (25 篇)
+### ML/LLM 辅助密码分析 (26 篇)
 
 - 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
 - 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
@@ -691,6 +710,7 @@
 - 🟡 **2026** — PrivaDE: Privacy-preserving Data Evaluation for Blockchain-based Data Marketplaces
 - 🟡 **2026** — TP-NTT: Batch NTT Hardware with Application to Relinearization
 - 🟡 **2026** — VERIDP: Verifiable Differentially Private Training
+- 🟡 **2026** — Oblivious Exact (Un)Learning of Extremely Randomized Trees
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
 - 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
