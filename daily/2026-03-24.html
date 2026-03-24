@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-03-24</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-03-24</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-03-24</h1>
+
+<blockquote>
+<p>自动生成于 2026-03-24 02:46</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 14 篇 → 启发式 4 篇 → 精选 <strong>4 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [HCTR+: An Optimally Secure TBC-based Accordion Mode](https://eprint.iacr.org/2024/2053)</h3>
+
+<blockquote>
+<p>ePrint hctr_an_optimally_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：可调宽块密码的设计在过去二十年取得了显著进展，从Naor和Reingold的宽块密码开始，不断有新的构造涌现，以满足日益增长的安全和性能需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了HCTR+，一种基于可调块密码（TBC）的“手风琴模式”（Accordion Mode），旨在实现最优安全性。HCTR+通过巧妙的构造，在保持高效性的同时，提供了理论上可证明的最高安全级别，有效解决了现有宽块密码在安全性和效率之间权衡的挑战。</p>
+
+<p>🎯 <strong>意义</strong>：HCTR+的提出为设计高效且具有最优安全保障的宽块密码提供了新的范式，有望在需要高安全性和大块数据处理的应用中发挥关键作用，例如安全存储和通信。</p>
+
+<hr>
+
+<h3>2. [AES-based Multi-instance TCCR Hash with High Security, and Applications](https://eprint.iacr.org/2024/1271)</h3>
+
+<blockquote>
+<p>ePrint aesbased_multiinstance_tccr_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：相关鲁棒哈希函数（CRHF）是密码学中的重要构建模块，广泛应用于零知识证明、承诺方案等多种协议中，其安全性直接影响上层应用的可靠性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究提出了一种基于AES的多实例TCCR哈希函数，旨在提供高安全性。该构造利用AES的成熟安全性作为底层原语，通过创新的多实例设计增强了对各种攻击的鲁棒性，并优化了性能以适应实际应用需求，特别是在处理多输入场景时表现出色。</p>
+
+<p>🎯 <strong>意义</strong>：这种高安全性的AES基多实例TCCR哈希函数，将为零知识证明等前沿密码学应用提供更坚实的基础，提升相关协议的整体安全性和效率，推动其在隐私保护计算领域的实际部署。</p>
+
+<hr>
+
+<h3>3. [Golden: Lightweight Non-Interactive Distributed Key Generation](https://eprint.iacr.org/2025/1924)</h3>
+
+<blockquote>
+<p>ePrint golden_lightweight_noninteractive_2026 | 相关性 7/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：分布式密钥生成（DKG）是构建安全多方计算、门限密码系统和区块链等系统的核心原语，但现有方案常面临交互复杂性或效率瓶颈，限制了其在实际场景中的应用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了名为“Golden”的非交互式分布式密钥生成协议。Golden的核心贡献在于以轻量级、非交互的方式实现了公开可验证性，并能直接输出Shamir秘密共享，显著降低了协议的复杂度和通信开销，使其在资源受限环境中也具备实用性。</p>
+
+<p>🎯 <strong>意义</strong>：Golden协议的出现，为需要高效、去中心化密钥生成的场景（如门限签名、MPC协议）提供了实用且安全的解决方案，极大地简化了密钥管理流程，提升了分布式系统的可用性和安全性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1409" target="_blank">Oblivious Exact (Un)Learning of Extremely Randomized Trees</a></strong></p>
+
+<blockquote>
+<p>为响应“遗忘权”要求，本文提出了一种对极端随机树进行精确遗忘学习的方法，以实现机器学习模型中的数据删除。</p>
+</blockquote>
+
+<p><em>精选自 14 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>

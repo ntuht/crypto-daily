@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-03-23 02:55</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-03-24 02:46</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">440</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">454</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,13 +35,13 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">440</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">454</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">53</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">57</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
-  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">29</span></div>
+  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">30</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
-  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">20</span></div>
+  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">22</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">19</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">18</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">16</span></div>
@@ -51,11 +51,11 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">183</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">64</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">38</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">187</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">67</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">43</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">32</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">25</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">26</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">25</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">21</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 440 篇论文</div>
+        <div class="result-count" id="resultCount">显示 454 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -3139,6 +3139,188 @@ between the product of two supersingular elliptic curves and the Ja</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">When large AI models are deployed as cloud-based services, clients have no guarantee that responses are correct or were produced by the intended model. Rerunning inference locally is infeasible for la</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="golden_lightweight_noninteractive_2026" data-dirs="meet_in_the_middle,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="golden: lightweight non-interactive distributed key generation   we present golden, a non-interactive distributed key generation (dkg) protocol. golden achieves public verifiability in a lightweight, non-interactive manner, outputting shamir secret shares of a fiel">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1924" target="_blank">Golden: Lightweight Non-Interactive Distributed Key Generation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present Golden, a non-interactive Distributed Key Generation (DKG) protocol. Golden achieves public verifiability in a lightweight, non-interactive manner, outputting Shamir secret shares of a fiel</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="refined_modelling_of_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="refined modelling of the primal attack, and variants against module-learning with errors   the primal attack reduces learning with errors (lwe) to the unique shortest vector problem (usvp), and then applies lattice reduction such as bkz to solve the latter. estimating the cost of the attack">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2195" target="_blank">Refined Modelling of the Primal Attack, and Variants Against Module-Learning With Errors</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The primal attack reduces Learning with Errors (LWE) to the unique Shortest Vector Problem (uSVP), and then applies lattice reduction such as BKZ to solve the latter. Estimating the cost of the attack</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="oblivious_exact_unlearning_2026" data-dirs="ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="oblivious exact (un)learning of extremely randomized trees   recent regulations such as the gdpr have given the right to be forgotten to users, which requires that they can ask for the deletion of their data. yet, enforcing such deletions for machine learning (">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1409" target="_blank">Oblivious Exact (Un)Learning of Extremely Randomized Trees</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Recent regulations such as the GDPR have given the right to be forgotten to users, which requires that they can ask for the deletion of their data. Yet, enforcing such deletions for machine learning (</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="frivail_a_data_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="frivail: a data availability scheme based on fri binius   data availability sampling (das) has emerged as a key scalability technique for blockchain systems, enabling light clients to verify that block data have been fully published without downloading them">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2292" target="_blank">FRIVail: A Data Availability Scheme based on FRI Binius</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Data Availability Sampling (DAS) has emerged as a key scalability technique for blockchain systems, enabling light clients to verify that block data have been fully published without downloading them</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="toop_a_transfer_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="toop: a transfer of ownership protocol over bitcoin   we present the transfer of ownership protocol (toop). toop solves a limitation of all existing bitvm-like protocols (and utxo blockchains at large) that restricts the unlocking transfers to addresses">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/964" target="_blank">TOOP: A transfer of ownership protocol over Bitcoin</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present the Transfer of Ownership Protocol (TOOP). TOOP solves a limitation of all existing BitVM-like protocols (and UTxO blockchains at large) that restricts the unlocking transfers to addresses</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_batched_ibe_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="efficient batched ibe from lattices in the standard model   in this work, we present the first lattice-based construction of batched ibe in the standard model, whose security is proven under the succinct lwe assumption. prior batched ibe schemes are only known">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2158" target="_blank">Efficient Batched IBE from Lattices in the Standard Model</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work, we present the first lattice-based construction of batched IBE in the standard model, whose security is proven under the succinct LWE assumption. Prior batched IBE schemes are only known</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="radical_3isogenies_for_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="radical 3-isogenies for the ideal class group actions on $(2, \varepsilon)$-structures   chenu and smith introduced the notion of $(d,\varepsilon)$-structures, pairs consisting of an elliptic curve over $\mathbb{f}_{p^2}$ and an isogeny of degree $d$ from the curve to its galois conjugate">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/576" target="_blank">Radical 3-isogenies for the ideal class group actions on $(2, \varepsilon)$-structures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Chenu and Smith introduced the notion of $(d,\varepsilon)$-structures, pairs consisting of an elliptic curve over $\mathbb{F}_{p^2}$ and an isogeny of degree $d$ from the curve to its Galois conjugate</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="hctr_an_optimally_2026" data-dirs="tweakable,lightweight,aead"
+     data-year="2026" data-significance="medium"
+     data-search="hctr+: an optimally secure tbc-based accordion mode   the design of tweakable wide-block ciphers has advanced significantly over the past two decades. this evolution began with the wide-block cipher by naor and reingold. since then, numerous construction">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/2053" target="_blank">HCTR+: An Optimally Secure TBC-based Accordion Mode</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The design of tweakable wide-block ciphers has advanced significantly over the past two decades. This evolution began with the wide-block cipher by Naor and Reingold. Since then, numerous construction</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">可调密码</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="twoparty_bbs_signature_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="two-party bbs+ signature in two passes   the bbs+/bbs signature scheme is a key building block for anonymous credentials and privacy-preserving authentication and is currently being standardized and increasingly deployed in practice. to avoi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/573" target="_blank">Two-Party BBS+ Signature in Two Passes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The BBS+/BBS signature scheme is a key building block for anonymous credentials and privacy-preserving authentication and is currently being standardized and increasingly deployed in practice. To avoi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="rokoko_latticebased_succinct_2026" data-dirs="meet_in_the_middle,milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="rokoko: lattice-based succinct arguments, a committed refinement   we present rokoko, a new lattice-based succinct argument system that achieves a linear-time prover alongside polylogarithmic communication and verifier complexity. asymptotically, our construction imp">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/575" target="_blank">RoKoko: Lattice-based Succinct Arguments, a Committed Refinement</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present RoKoko, a new lattice-based succinct argument system that achieves a linear-time prover alongside polylogarithmic communication and verifier complexity. Asymptotically, our construction imp</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="a_universal_blinder_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a universal blinder: one-round blind signatures from fhe   we construct compilers that convert any secure signature scheme into a single-round blind signature scheme. an important property of the construction is that the final blind signature has exactly the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/574" target="_blank">A Universal Blinder: One-round Blind Signatures from FHE</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We construct compilers that convert any secure signature scheme into a single-round blind signature scheme. An important property of the construction is that the final blind signature has exactly the</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="aesbased_multiinstance_tccr_2026" data-dirs="tweakable,meet_in_the_middle,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="aes-based multi-instance tccr hash with high security, and applications   correlation robust hash function (crhf) is an important class of building blocks that have found applications in many cryptographic applications, including various protocols for zero-knowledge proof,">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1271" target="_blank">AES-based Multi-instance TCCR Hash with High Security, and Applications</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Correlation robust hash function (CRHF) is an important class of building blocks that have found applications in many cryptographic applications, including various protocols for zero-knowledge proof,</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">可调密码</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="incremental_singleserver_private_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="incremental single-server private information retrieval   incremental preprocessing in private information retrieval (pir) schemes refers to handle insertions, modifications, and deletions to the database without requiring complete preprocessing after each u">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/030" target="_blank">Incremental Single-Server Private Information Retrieval</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Incremental preprocessing in private information retrieval (PIR) schemes refers to handle insertions, modifications, and deletions to the database without requiring complete preprocessing after each u</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="earpicks_tightly_secure_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="earpicks: tightly secure two-round multi- and threshold signatures   multi-signatures are a fundamental cryptographic primitive in distributed systems, enabling a set of parties to jointly produce a compact signature on a common message. of particular interest are cons">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/572" target="_blank">Earpicks: Tightly Secure Two-Round Multi- and Threshold Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multi-signatures are a fundamental cryptographic primitive in distributed systems, enabling a set of parties to jointly produce a compact signature on a common message. Of particular interest are cons</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
