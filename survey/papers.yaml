@@ -8092,3 +8092,89 @@ papers:
   - PRESENT
   fetched_date: '2026-03-24'
   source: eprint
+- id: optimal_proximity_gaps_2026
+  title: Optimal Proximity Gaps for Subspace-Design Codes and (Random) Reed-Solomon Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2054
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Reed-Solomon (RS) codes were recently shown to exhibit an intriguing $\textit{proximity gap}$ phenomenon. Specifically,
+    given a collection of strings with some algebraic structure (such as belonging t
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-25'
+  source: eprint
+- id: bacon_an_improved_2026
+  title: 'BACON: An Improved Vector Commitment Construction with Applications to Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1411
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: All-but-one Vector Commitments (AVCs) allow a committed vector to be verified by randomly opening all but one of
+    the committed values. Typically, AVCs are instantiated using Goldwasser-Goldreich-Mical
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AES
+  fetched_date: '2026-03-25'
+  source: eprint
+- id: snarks_for_stateful_2026
+  title: SNARKs for Stateful Computations on Authenticated Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/404
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a new generalization of (zk-)SNARKs specifically designed for the application domain of safety-critical
+    control systems. These need to be protected against adversarial tampering as well as '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-25'
+  source: eprint
+- id: vkproof_succinct_verification_2026
+  title: 'vkproof: Succinct verification of indexed verifying keys using modular compilation and polynomial fingerprinting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/581
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce vkproof, a preprocessing SNARG which enables verification of the Varuna verifying key (or that of
+    any similar proof system based on Marlin [Chi+20]) for the R1CS compiled from a given hig
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-25'
+  source: eprint
+- id: two_decades_of_2026
+  title: Two Decades of Identity-Based Identification Schemes- A Survey on Challenges and Advances
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/577
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Identity-based Identification (IBI) schemes have gained significant popularity in the field of cryptography due
+    to their superior efficiency and scalability. However, the increasing number of proposed
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-25'
+  source: eprint

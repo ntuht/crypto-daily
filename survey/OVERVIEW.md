@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 454 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 459 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (245)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (250)
 
 ## 算法设计
 
@@ -353,7 +353,7 @@
 
 ## 算法分析
 
-### 差分分析 (187 篇)
+### 差分分析 (191 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -480,6 +480,10 @@
 - 🟡 **2026** — A Universal Blinder: One-round Blind Signatures from FHE
 - 🟡 **2026** — Incremental Single-Server Private Information Retrieval
 - 🟡 **2026** — Earpicks: Tightly Secure Two-Round Multi- and Threshold Signatures
+- 🟡 **2026** — Optimal Proximity Gaps for Subspace-Design Codes and (Random) Reed-Solomon Codes
+- 🟡 **2026** — SNARKs for Stateful Computations on Authenticated Data
+- 🟡 **2026** — vkproof: Succinct verification of indexed verifying keys using modular compilation and polynomial fingerprinting
+- 🟡 **2026** — Two Decades of Identity-Based Identification Schemes- A Survey on Challenges and Advances
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -613,7 +617,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (43 篇)
+### 中间相遇 (44 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -647,6 +651,7 @@
 - 🟡 **2026** — Radical 3-isogenies for the ideal class group actions on $(2, \varepsilon)$-structures
 - 🟡 **2026** — RoKoko: Lattice-based Succinct Arguments, a Committed Refinement
 - 🟡 **2026** — AES-based Multi-instance TCCR Hash with High Security, and Applications
+- 🟡 **2026** — BACON: An Improved Vector Commitment Construction with Applications to Signatures
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
