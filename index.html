@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-03-25 02:51</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-03-26 03:16</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">459</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">475</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,15 +35,15 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">459</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">475</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">57</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">58</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
-  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">30</span></div>
+  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">32</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">22</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">19</span></div>
-  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">18</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">21</span></div>
+  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">19</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">16</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">14</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">12</span></div>
@@ -51,13 +51,13 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">191</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">67</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">44</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">199</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">69</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">46</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">32</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">26</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">25</span></div>
-  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">21</span></div>
+  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">22</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">17</span></div>
   <div class="dir-item" data-dir="impossible_differential" onclick="filterDir('impossible_differential')">不可能差分 <span class="count">11</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 459 篇论文</div>
+        <div class="result-count" id="resultCount">显示 475 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -3385,6 +3385,216 @@ between the product of two supersingular elliptic curves and the Ja</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">Identity-based Identification (IBI) schemes have gained significant popularity in the field of cryptography due to their superior efficiency and scalability. However, the increasing number of proposed</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_note_on_2026_2" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a note on hctr++   a recent accordion mode has been proposed by öztürk et al.: hctr++ construction proposed in [oky26, cryptology eprint archive, paper 2026/383]. i identify a fundamental correctness flaw in the design.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/591" target="_blank">A Note on HCTR++</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A recent Accordion mode has been proposed by Öztürk et al.: HCTR++ construction proposed in [OKY26, Cryptology ePrint Archive, Paper 2026/383]. I identify a fundamental correctness flaw in the design.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="feistel_tools_reprogramming_2026" data-dirs="permutation_layer,round_function"
+     data-year="2026" data-significance="medium"
+     data-search="feistel tools: reprogramming and query-recording for qrps   we present a new generic approach to extend proof techniques in the quantum random oracle model (qrom) — such as query-recording and reprogramming — to the quantum random permutation model (qrpm). our">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/146" target="_blank">Feistel Tools: Reprogramming and Query-Recording for QRPs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a new generic approach to extend proof techniques in the quantum random oracle model (QROM) — such as query-recording and reprogramming — to the quantum random permutation model (QRPM). Our</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span><span class="tag tag-direction">轮函数结构</span></div>
+</div>
+
+<div class="paper-card" data-id="sok_instruction_set_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="sok: instruction set extensions for cryptographers   framed within the general context of cyber-security, standard cryptographic constructions often represent an enabling technology for associated solutions.  alongside or in combination with their desig">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1323" target="_blank">SoK: Instruction Set Extensions for Cryptographers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Framed within the general context of cyber-security, standard cryptographic constructions often represent an enabling technology for associated solutions.  Alongside or in combination with their desig</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="registrationoptimized_dynamic_group_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="registration-optimized dynamic group time-based one-time passwords for offline mobile access   mobile access within public finance and enterprise environments often requires lightweight anonymous authentication, allowing users to prove authorization without disclosing their identities. group ti">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/595" target="_blank">Registration-Optimized Dynamic Group Time-based One-time Passwords for Offline Mobile Access</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication, allowing users to prove authorization without disclosing their identities. Group Ti</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="analyzing_the_webrtc_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="analyzing the webrtc ecosystem and breaking authentication in dtls-srtp   dtls-srtp was designed to secure real-time media communication and is found in prominent audio and video call platforms, including zoom, teams, and google meet. notably, it is part of web real-time co">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/584" target="_blank">Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">DTLS-SRTP was designed to secure real-time media communication and is found in prominent audio and video call platforms, including Zoom, Teams, and Google Meet. Notably, it is part of Web Real-Time Co</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="breaking_and_fixing_2026" data-dirs="aead,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="breaking and fixing macakey   the sponge construction underpins many modern symmetric primitives, enabling efficient hashing and authenticated encryption. while full-state absorption is known to be secure in keyed sponges, the sec">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2038" target="_blank">Breaking and Fixing MacaKey</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The sponge construction underpins many modern symmetric primitives, enabling efficient hashing and authenticated encryption. While full-state absorption is known to be secure in keyed sponges, the sec</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">认证加密 (AEAD)</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_compilers_for_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="efficient compilers for verifiable dynamic searchable symmetric encryption   we construct compilers to generically transform any dynamic searchable symmetric encryption (dsse) scheme that is secure against a semi-honest server into one that is secure against a malicious server">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/594" target="_blank">Efficient Compilers for Verifiable Dynamic Searchable Symmetric Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We construct compilers to generically transform any dynamic Searchable Symmetric Encryption (DSSE) scheme that is secure against a semi-honest server into one that is secure against a malicious server</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="performance_analysis_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="performance analysis of parameterizable hqc hardware architecture   this work presents a constant-time hardware design for hqc (hamming quasi-cyclic), a code-based key encapsulation mechanism selected for standardization by nist&#x27;s post-quantum cryptography process. wh">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/592" target="_blank">Performance Analysis of Parameterizable HQC Hardware Architecture</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This work presents a constant-time hardware design for HQC (Hamming Quasi-Cyclic), a code-based key encapsulation mechanism selected for standardization by NIST&#x27;s Post-Quantum Cryptography process. Wh</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_security_2026_1" data-dirs="milp_sat_cp,algebraic"
+     data-year="2026" data-significance="medium"
+     data-search="on the security of constraint-friendly map-to-curve relations   groth, malvai, miller and zhang (asiacrypt 2025) introduced constraint-friendly map-to-elliptic-curve-group relations that bypass the inner cryptographic hash when hashing to elliptic curve groups ins">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/590" target="_blank">On the Security of Constraint-Friendly Map-to-Curve Relations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Groth, Malvai, Miller and Zhang (Asiacrypt 2025) introduced constraint-friendly map-to-elliptic-curve-group relations that bypass the inner cryptographic hash when hashing to elliptic curve groups ins</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">代数攻击</span></div>
+</div>
+
+<div class="paper-card" data-id="frostlass_flexible_ringoriented_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="frostlass: flexible ring-oriented schnorr-like thresholdized linkably anonymous signature scheme   frost is a pragmatic method of thresholdizing schnorr signatures, permitting a threshold quorum of $t$ signers out of $n$ total individuals to sign for a message. this scheme improved on the state of">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/589" target="_blank">FROSTLASS: Flexible Ring-Oriented Schnorr-like Thresholdized Linkably Anonymous Signature Scheme</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">FROST is a pragmatic method of thresholdizing Schnorr signatures, permitting a threshold quorum of $t$ signers out of $n$ total individuals to sign for a message. This scheme improved on the state of</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="tailored_limb_counts_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="tailored limb counts, faster arithmetic: improved tmvp decompositions for curve5453 and curve6071   curve5453 and curve6071 are montgomery curves over the primes $2^{545}-3$ and $2^{607}-1$, providing 271- and 302-bit classical security, respectively.
+their tmvp-based field multiplication in 10-lim">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/588" target="_blank">Tailored Limb Counts, Faster Arithmetic: Improved TMVP Decompositions for Curve5453 and Curve6071</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Curve5453 and Curve6071 are Montgomery curves over the primes $2^{545}-3$ and $2^{607}-1$, providing 271- and 302-bit classical security, respectively.
+Their TMVP-based field multiplication in 10-lim</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="speeding_up_sumcheck_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="speeding up sum-check proving (extended version)   the sum-check protocol is a foundational primitive in modern cryptographic proof systems, but its prover-side cost has emerged as a concrete bottleneck. this paper introduces three complementary techn">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/587" target="_blank">Speeding Up Sum-Check Proving (Extended Version)</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The sum-check protocol is a foundational primitive in modern cryptographic proof systems, but its prover-side cost has emerged as a concrete bottleneck. This paper introduces three complementary techn</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="bulletproofs_verifierefficient_arithmetic_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="bulletproofs*: verifier-efficient arithmetic circuit proofs via folding   we present bulletproofs* (bp*, bulletproofsstar), a folding scheme for arithmetic circuit proofs under standard assumptions and without preprocessing, i.e., for the arithmetic circuit satisfiability l">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/586" target="_blank">Bulletproofs*: Verifier-Efficient Arithmetic Circuit Proofs via Folding</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present Bulletproofs* (BP*, BulletproofsStar), a folding scheme for arithmetic circuit proofs under standard assumptions and without preprocessing, i.e., for the arithmetic circuit satisfiability l</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="formatpreserving_compressiontolerating_authenticated_2026" data-dirs="aead"
+     data-year="2026" data-significance="medium"
+     data-search="format-preserving compression-tolerating authenticated encryption for images   we study the problem of provably-secure format-preserving authenticated encryption scheme for images, where decryption is successful even when ciphertexts undergo compression. this novel primitive off">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/585" target="_blank">Format-Preserving Compression-Tolerating Authenticated Encryption for Images</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study the problem of provably-secure format-preserving authenticated encryption scheme for images, where decryption is successful even when ciphertexts undergo compression. This novel primitive off</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="sok_updatable_publickey_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="sok: updatable public-key encryption   updatable (public-key) encryption is a broad concept covering (public-key) encryption schemes whose keys can evolve over time to support secure key rotation and limit the impact of key compromise. the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/583" target="_blank">SoK: Updatable Public-Key Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Updatable (public-key) encryption is a broad concept covering (public-key) encryption schemes whose keys can evolve over time to support secure key rotation and limit the impact of key compromise. The</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="frozentru_cold_boot_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="frozentru: cold boot attacks on ntru-based hash-and-sign signatures   cold boot attacks, first introduced by halderman et al. (usenix&#x27;08), are a class of attacks that aim at recovering cryptographic secrets stored in volatile memory after a computer is powered off, usin">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/582" target="_blank">FrozenTRU: Cold Boot Attacks on NTRU-Based Hash-and-Sign Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Cold boot attacks, first introduced by Halderman et al. (USENIX&#x27;08), are a class of attacks that aim at recovering cryptographic secrets stored in volatile memory after a computer is powered off, usin</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 

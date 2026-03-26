@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-03-26</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-03-26</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-03-26</h1>
+
+<blockquote>
+<p>自动生成于 2026-03-26 03:16</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 16 篇 → 启发式 8 篇 → 精选 <strong>8 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Efficient Compilers for Verifiable Dynamic Searchable Symmetric Encryption](https://eprint.iacr.org/2026/594)</h3>
+
+<blockquote>
+<p>ePrint efficient_compilers_for_2026 | 相关性 9/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的动态可搜索对称加密（DSSE）方案通常只在半诚实服务器模型下提供安全性，这限制了它们在更强威胁模型下的应用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文构建了通用的编译器，能够将任何对半诚实服务器安全的DSSE方案，转换为对恶意服务器也安全的方案。这些编译器旨在通过提供可验证性，确保即使在服务器行为恶意时，数据的搜索和更新操作也能保持安全和正确。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为构建更健壮、更广泛适用的可搜索加密方案提供了通用工具和理论基础，提升了DSSE在实际部署中的安全性。</p>
+
+<hr>
+
+<h3>2. [Format-Preserving Compression-Tolerating Authenticated Encryption for Images](https://eprint.iacr.org/2026/585)</h3>
+
+<blockquote>
+<p>ePrint formatpreserving_compressiontolerating_authenticated_2026 | 相关性 9/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：图像在传输和存储过程中常需进行压缩，但传统的加密方案在密文被压缩后可能导致解密失败或失去认证性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究并提出了一种新颖的密码学原语——格式保持且容忍压缩的认证加密方案，专门针对图像数据设计。该方案确保即使密文经过压缩，也能成功解密并保持认证性，同时维持图像的原始格式。</p>
+
+<p>🎯 <strong>意义</strong>：这为在实际应用中（如云存储、社交媒体）安全处理和传输图像提供了实用的解决方案，解决了加密与数据处理兼容性的难题。</p>
+
+<hr>
+
+<h3>3. [Feistel Tools: Reprogramming and Query-Recording for QRPs](https://eprint.iacr.org/2026/146)</h3>
+
+<blockquote>
+<p>ePrint feistel_tools_reprogramming_2026 | 相关性 9/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：量子随机谕言模型（QROM）中的证明技术在分析量子密码方案安全性方面非常有效，但将其扩展到更真实的量子随机置换模型（QRPM）面临挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种新的通用方法，利用Feistel结构将QROM中的查询记录和重编程等证明技术推广到QRPM。这使得在QRPM中对基于置换的密码方案进行更严格的量子安全性分析成为可能，从而弥合了理论模型与实际应用之间的差距。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为量子密码学中的安全性证明提供了强大的新工具，有助于设计和分析抗量子攻击的密码原语。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2038" target="_blank">Breaking and Fixing MacaKey</a></strong></p>
+
+<blockquote>
+<p>本文分析并修复了基于海绵结构的MacaKey认证加密方案中的安全漏洞。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/584" target="_blank">Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP</a></strong></p>
+
+<blockquote>
+<p>本文分析了WebRTC生态系统，并揭示了DTLS-SRTP在实时媒体通信中的认证漏洞。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/582" target="_blank">FrozenTRU: Cold Boot Attacks on NTRU-Based Hash-and-Sign Signatures</a></strong></p>
+
+<blockquote>
+<p>本文提出了针对基于NTRU的哈希-签名方案的冷启动攻击（FrozenTRU），旨在恢复存储在易失性内存中的密码密钥。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/595" target="_blank">Registration-Optimized Dynamic Group Time-based One-time Passwords for Offline Mobile Access</a></strong></p>
+
+<blockquote>
+<p>本文提出了一种注册优化的动态群组基于时间的一次性密码方案，用于离线移动访问中的轻量级匿名认证。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/590" target="_blank">On the Security of Constraint-Friendly Map-to-Curve Relations</a></strong></p>
+
+<blockquote>
+<p>本文研究了Groth等人提出的约束友好型椭圆曲线映射关系的安全性，该关系旨在绕过内部密码学限制。</p>
+</blockquote>
+
+<p><em>精选自 16 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
