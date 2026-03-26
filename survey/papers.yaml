@@ -8178,3 +8178,287 @@ papers:
   - PRESENT
   fetched_date: '2026-03-25'
   source: eprint
+- id: a_note_on_2026_2
+  title: A Note on HCTR++
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/591
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A recent Accordion mode has been proposed by Öztürk et al.: HCTR++ construction proposed in [OKY26, Cryptology
+    ePrint Archive, Paper 2026/383]. I identify a fundamental correctness flaw in the design.'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: feistel_tools_reprogramming_2026
+  title: 'Feistel Tools: Reprogramming and Query-Recording for QRPs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/146
+  directions:
+  - permutation_layer
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: We present a new generic approach to extend proof techniques in the quantum random oracle model (QROM) — such as
+    query-recording and reprogramming — to the quantum random permutation model (QRPM). Our
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - Feistel
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: sok_instruction_set_2026
+  title: 'SoK: Instruction Set Extensions for Cryptographers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1323
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Framed within the general context of cyber-security, standard cryptographic constructions often represent an enabling
+    technology for associated solutions.  Alongside or in combination with their desig
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: registrationoptimized_dynamic_group_2026
+  title: Registration-Optimized Dynamic Group Time-based One-time Passwords for Offline Mobile Access
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/595
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication,
+    allowing users to prove authorization without disclosing their identities. Group Ti
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: analyzing_the_webrtc_2026
+  title: Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/584
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: DTLS-SRTP was designed to secure real-time media communication and is found in prominent audio and video call platforms,
+    including Zoom, Teams, and Google Meet. Notably, it is part of Web Real-Time Co
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: breaking_and_fixing_2026
+  title: Breaking and Fixing MacaKey
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2038
+  directions:
+  - aead
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The sponge construction underpins many modern symmetric primitives, enabling efficient hashing and authenticated
+    encryption. While full-state absorption is known to be secure in keyed sponges, the sec
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - authenticated encryption
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: efficient_compilers_for_2026
+  title: Efficient Compilers for Verifiable Dynamic Searchable Symmetric Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/594
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We construct compilers to generically transform any dynamic Searchable Symmetric Encryption (DSSE) scheme that
+    is secure against a semi-honest server into one that is secure against a malicious server
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: performance_analysis_of_2026
+  title: Performance Analysis of Parameterizable HQC Hardware Architecture
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/592
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This work presents a constant-time hardware design for HQC (Hamming Quasi-Cyclic), a code-based key encapsulation
+    mechanism selected for standardization by NIST's Post-Quantum Cryptography process. Wh
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: on_the_security_2026_1
+  title: On the Security of Constraint-Friendly Map-to-Curve Relations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/590
+  directions:
+  - milp_sat_cp
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Groth, Malvai, Miller and Zhang (Asiacrypt 2025) introduced constraint-friendly map-to-elliptic-curve-group relations
+    that bypass the inner cryptographic hash when hashing to elliptic curve groups ins
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - SAT
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: frostlass_flexible_ringoriented_2026
+  title: 'FROSTLASS: Flexible Ring-Oriented Schnorr-like Thresholdized Linkably Anonymous Signature Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/589
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'FROST is a pragmatic method of thresholdizing Schnorr signatures, permitting a threshold quorum of $t$ signers
+    out of $n$ total individuals to sign for a message. This scheme improved on the state of '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: tailored_limb_counts_2026
+  title: 'Tailored Limb Counts, Faster Arithmetic: Improved TMVP Decompositions for Curve5453 and Curve6071'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/588
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Curve5453 and Curve6071 are Montgomery curves over the primes $2^{545}-3$ and $2^{607}-1$, providing 271- and\
+    \ 302-bit classical security, respectively.\r\nTheir TMVP-based field multiplication in 10-lim"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: speeding_up_sumcheck_2026
+  title: Speeding Up Sum-Check Proving (Extended Version)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/587
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The sum-check protocol is a foundational primitive in modern cryptographic proof systems, but its prover-side cost
+    has emerged as a concrete bottleneck. This paper introduces three complementary techn
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: bulletproofs_verifierefficient_arithmetic_2026
+  title: 'Bulletproofs*: Verifier-Efficient Arithmetic Circuit Proofs via Folding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/586
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present Bulletproofs* (BP*, BulletproofsStar), a folding scheme for arithmetic circuit proofs under standard
+    assumptions and without preprocessing, i.e., for the arithmetic circuit satisfiability l
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: formatpreserving_compressiontolerating_authenticated_2026
+  title: Format-Preserving Compression-Tolerating Authenticated Encryption for Images
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/585
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: We study the problem of provably-secure format-preserving authenticated encryption scheme for images, where decryption
+    is successful even when ciphertexts undergo compression. This novel primitive off
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: sok_updatable_publickey_2026
+  title: 'SoK: Updatable Public-Key Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/583
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Updatable (public-key) encryption is a broad concept covering (public-key) encryption schemes whose keys can evolve
+    over time to support secure key rotation and limit the impact of key compromise. The
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-26'
+  source: eprint
+- id: frozentru_cold_boot_2026
+  title: 'FrozenTRU: Cold Boot Attacks on NTRU-Based Hash-and-Sign Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/582
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cold boot attacks, first introduced by Halderman et al. (USENIX'08), are a class of attacks that aim at recovering
+    cryptographic secrets stored in volatile memory after a computer is powered off, usin
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-03-26'
+  source: eprint
