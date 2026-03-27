@@ -8462,3 +8462,85 @@ papers:
   - PRESENT
   fetched_date: '2026-03-26'
   source: eprint
+- id: inke_fast_isogenybased_2026
+  title: 'INKE: Fast Isogeny-Based PKE Using Intermediate Curves'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1458
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: POKE (Point-Based Key Exchange), proposed by Basso and Maino at Eurocrypt 2025, is currently the fastest known
+    isogeny-based public-key encryption scheme, combining a SIDH-like protocol with higher-di
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-27'
+  source: eprint
+- id: low_communication_threshold_2026
+  title: Low Communication Threshold FHE from Standard (Module-)LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/409
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold fully homomorphic encryption (ThFHE) is a multi-party extension of FHE; any subset of at least $T$ out
+    of $N$ parties can decrypt the ciphertexts by combining their decryption shares. Recent
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-27'
+  source: eprint
+- id: analysis_of_diffusion_2026
+  title: Analysis of Diffusion Properties in Generalized Feistel Ciphers under Multidimensional Linear Cryptanalysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2333
+  directions:
+  - linear_diffusion
+  - lightweight
+  - linear
+  - round_function
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: This paper presents a unified framework for generic attacks on Generalized Feistel Ciphers, with a primary focus
+    on Type 1, Type 2, and unbalanced contracting (U-Type 1) Feistel constructions with non
+  status: pending_review
+  matched_keywords:
+  - linear cryptanalysis
+  - block cipher
+  - permutation
+  - diffusion
+  - Feistel
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-27'
+  source: eprint
+- id: is_the_hardlabel_2026
+  title: Is the Hard-Label Cryptanalytic Model Extraction Really Polynomial?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1868
+  directions:
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Deep Neural Networks (DNNs) have attracted significant attention, and their internal models are now considered
+    valuable intellectual assets. Extracting such a model via oracle access to a DNN is conce
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - LED
+  fetched_date: '2026-03-27'
+  source: eprint
