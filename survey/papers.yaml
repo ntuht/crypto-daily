@@ -8544,3 +8544,275 @@ papers:
   - LED
   fetched_date: '2026-03-27'
   source: eprint
+- id: revisiting_keyedverification_anonymous_2026
+  title: Revisiting Keyed-Verification Anonymous Credentials
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1552
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Keyed-verification anonymous credentials (KVACs) have demonstrated their practicality through large-scale deployments
+    in privacy-critical systems like Signal and Tor.  Despite their widespread adoptio
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: a_comparative_evaluation_2026
+  title: A Comparative Evaluation of DATA and Microwalk for Detecting Constant-Time Violations in Cryptographic Libraries
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/611
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "DATA [22] and Microwalk [23] are two advanced dynamic binary instrumentation (DBI) tools  for detecting constant-time\
+    \ (CT) violations in software implementations.\r\nThis paper presents a comparative ev"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: concrete_estimation_of_2026
+  title: Concrete Estimation of Correctness and IND-CPA-D Security for FHE via Rare Event Simulation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/610
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: By construction, Fully Homomorphic Encryption schemes have probabilistic correctness due to their underlying cryptographic
+    assumptions. The family of Learning With Errors (LWE) problems assumes that a
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: a_fiatshamir_transformation_2026
+  title: A Fiat–Shamir Transformation From Duplex Sponges
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/536
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We analyze a variant of the Fiat–Shamir transformation based on an ideal permutation. The transformation relies
+    on the popular duplex sponge paradigm, and minimizes the number of calls to the permutat
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: postquantum_blockchains_with_2026
+  title: Post-Quantum Blockchains with Agility in Mind
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/609
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blockchains intend to provide long-term integrity guarantees through cryptographic primitives that may become vulnerable
+    over time due to algorithmic advances or paradigm shifts such as quantum comput
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: refined_approxsvp_rank_2026
+  title: Refined Approx-SVP Rank Reduction Conditions and Adaptive Lattice Reduction for MSIS Security Estimation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/607
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The security of lattice-based cryptography relies critically on the concrete hardness of the approximate shortest
+    vector problem (Approx-SVP). For cryptographic-sized instances, existing Approx-SVP ra
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: pdnet_learning_deviceinvariant_2026
+  title: 'PD-Net: Learning Device-Invariant Representations for Heterogeneous Cross-Device Side-Channel Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/606
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Heterogeneous cross-device side-channel attacks remain a critical yet underexplored challenge, as models trained
+    on one device often fail to generalize across architectures. This paper presents PD-Net
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: adaptivelysecure_proxy_reencryption_2026
+  title: Adaptively-Secure Proxy Re-Encryption with Tight Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/605
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: (Bi-Directional) Proxy Re-Encryption ($\mathsf{PRE}$) is a public-key encryption scheme that allows a proxy, holding
+    a re-encryption key from $i$ to $j$, to transform a ciphertext intended for $i$ int
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: catcrypt_from_rust_2026
+  title: 'CatCrypt: From Rust to Cryptographic Security in Lean'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/604
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We describe the methodology and scope of CatCrypt, a library for machine-checked cryptographic security proofs
+    in Lean. CatCrypt provides an end-to-end pipeline from Rust reference implementations to '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: oblivious_spacesaving_heavyhitter_2026
+  title: 'Oblivious SpaceSaving: Heavy-Hitter Detection over Fully Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/603
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Heavy-hitter detection is a fundamental primitive in stream analytics, with applications in network monitoring,
+    telemetry, and large-scale data systems. In many practical deployments, this computation
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: confidential_transfers_for_2026
+  title: Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/602
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We introduce Confidential Transfers for Multi-Purpose Tokens (Confidential MPTs) on the XRP Ledger, a cryptographic
+    extension of the XLS-33 token standard that enables confidential balances and hidden
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: cryptanalysis_of_the_2026
+  title: Cryptanalysis of the Lightweight Stream Cipher RRSC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/601
+  directions:
+  - lightweight
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: This paper presents a security evaluation of the RRSC lightweight stream cipher in its 64-bit and 128-bit variants.
+    The analysis examines the key update process, internal component interactions, and d
+  status: pending_review
+  matched_keywords:
+  - diffusion
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: hadal_centralized_label_2026
+  title: 'Hadal: Centralized Label DP Training without a Trusted Party'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/600
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We explore distributed training in a setting where features are held by one party and labels are held by another.
+    In this context, we focus on label Differential Privacy (DP), where the labels require
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: triangulating_meetinthemiddle_attack_2026
+  title: Triangulating Meet-in-the-Middle Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/598
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: To penetrate more rounds with Meet-in-the-Middle (MitM) attack, the neutral words are usually subject to some linear
+    constraints, e.g., Sasaki and Aoki's initial structure technique. At CRYPTO 2021, D
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - MITM
+  - AES
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
+- id: efficiency_improvement_of_2026
+  title: 'Efficiency Improvement of Deniable FHE: Tighter Deniability Analysis and TFHE-based Construction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/597
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Fully homomorphic encryption (FHE) is a cryptographic scheme that can take ciphertexts as inputs and compute a
+    new ciphertext of a function of the underlying messages without decryption. FHE has been '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-03-28'
+  source: eprint
