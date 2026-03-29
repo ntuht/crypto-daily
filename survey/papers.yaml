@@ -8816,3 +8816,20 @@ papers:
   - LED
   fetched_date: '2026-03-28'
   source: eprint
+- id: on_witness_encryption_2026
+  title: On Witness Encryption and Laconic Zero-Knowledge Arguments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1932
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Witness encryption (WE) (Garg et al, STOC’13) is a powerful cryptographic primitive that is closely related to
+    the notion of indistinguishability obfuscation (Barak et, JACM’12, Garg et al, FOCS’13). '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-03-29'
+  source: eprint

@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 494 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 495 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (285)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (286)
 
 ## 算法设计
 
@@ -367,7 +367,7 @@
 
 ## 算法分析
 
-### 差分分析 (206 篇)
+### 差分分析 (207 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -513,6 +513,7 @@
 - 🟡 **2026** — Post-Quantum Blockchains with Agility in Mind
 - 🟡 **2026** — Adaptively-Secure Proxy Re-Encryption with Tight Security
 - 🟡 **2026** — Hadal: Centralized Label DP Training without a Trusted Party
+- 🟡 **2026** — On Witness Encryption and Laconic Zero-Knowledge Arguments
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
