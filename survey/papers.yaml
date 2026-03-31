@@ -8833,3 +8833,90 @@ papers:
   - LED
   fetched_date: '2026-03-29'
   source: eprint
+- id: fast_cube_roots_2026
+  title: Fast cube roots in Fp2 via the algebraic torus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/392
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Computing cube roots in quadratic extensions of finite fields is a subroutine that arises in elliptic-curve point
+    decompression, hash-to-curve and isogeny-based protocols. We present a new algorithm t
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-31'
+  source: eprint
+- id: haechi_simple_commitmentbased_2026
+  title: 'Haechi: Simple Commitment-based Keyless In-person Verifiable Elections'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/613
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: For decades, verifiable election systems have typically relied on encrypting ballots to maintain voter privacy.
+    Encryption requires keys, and the management of these keys is usually one of the most cu
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-03-31'
+  source: eprint
+- id: threshold_blind_signatures_2026
+  title: Threshold Blind Signatures from CDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1798
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Blind signatures are a versatile cryptographic primitive with many applications, especially in privacy-preserving
+    technologies. Threshold blind signature schemes (TBS) enhance blind signatures with a '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-03-31'
+  source: eprint
+- id: partially_registered_multiauthority_2026
+  title: Partially Registered Multi-authority Attribute-based Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/808
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Attribute-based encryption can be considered a generalization of public key encryption, enabling fine-grained\
+    \ access control over\r\nencrypted data using predetermined access policies. In general, we di"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-03-31'
+  source: eprint
+- id: blackbox_noninteractive_zero_2026
+  title: Black-Box Non-Interactive Zero Knowledge from Vector Trapdoor Hash
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1514
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present a new approach for constructing non-interactive zero-knowledge (NIZK) proof systems from vector trapdoor
+    hashing (VTDH) -- a generalization of trapdoor hashing [Döttling et al., Crypto'19].
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-03-31'
+  source: eprint

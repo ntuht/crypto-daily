@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 495 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 500 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (286)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (291)
 
 ## 算法设计
 
@@ -367,7 +367,7 @@
 
 ## 算法分析
 
-### 差分分析 (207 篇)
+### 差分分析 (209 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -514,6 +514,8 @@
 - 🟡 **2026** — Adaptively-Secure Proxy Re-Encryption with Tight Security
 - 🟡 **2026** — Hadal: Centralized Label DP Training without a Trusted Party
 - 🟡 **2026** — On Witness Encryption and Laconic Zero-Knowledge Arguments
+- 🟡 **2026** — Fast cube roots in Fp2 via the algebraic torus
+- 🟡 **2026** — Partially Registered Multi-authority Attribute-based Encryption
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -577,7 +579,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (73 篇)
+### MILP/SAT/CP 建模技术 (75 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -618,6 +620,8 @@
 - 🟡 **2026** — Refined Approx-SVP Rank Reduction Conditions and Adaptive Lattice Reduction for MSIS Security Estimation
 - 🟡 **2026** — CatCrypt: From Rust to Cryptographic Security in Lean
 - 🟡 **2026** — Efficiency Improvement of Deniable FHE: Tighter Deniability Analysis and TFHE-based Construction
+- 🟡 **2026** — Threshold Blind Signatures from CDH
+- 🟡 **2026** — Black-Box Non-Interactive Zero Knowledge from Vector Trapdoor Hash
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -653,7 +657,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (48 篇)
+### 中间相遇 (49 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -692,6 +696,7 @@
 - 🟡 **2026** — Efficient Compilers for Verifiable Dynamic Searchable Symmetric Encryption
 - 🟡 **2026** — Revisiting Keyed-Verification Anonymous Credentials
 - 🟡 **2026** — Triangulating Meet-in-the-Middle Attack
+- 🟡 **2026** — Haechi: Simple Commitment-based Keyless In-person Verifiable Elections
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
