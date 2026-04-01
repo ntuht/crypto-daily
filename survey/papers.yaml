@@ -8499,7 +8499,7 @@ papers:
 - id: analysis_of_diffusion_2026
   title: Analysis of Diffusion Properties in Generalized Feistel Ciphers under Multidimensional Linear Cryptanalysis
   authors: []
-  venue: ePrint
+  venue: TOSC 2026
   year: 2026
   url: https://eprint.iacr.org/2025/2333
   directions:
@@ -8523,7 +8523,7 @@ papers:
   - PRESENT
   - LED
   fetched_date: '2026-03-27'
-  source: eprint
+  source: tosc
 - id: is_the_hardlabel_2026
   title: Is the Hard-Label Cryptanalytic Model Extraction Really Polynomial?
   authors: []
@@ -8920,3 +8920,262 @@ papers:
   - LED
   fetched_date: '2026-03-31'
   source: eprint
+- id: mathsftalong_bandwidthefficient_tworound_2026
+  title: '$\mathsf{TalonG}$: Bandwidth-Efficient Two-Round Threshold Signatures from Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/303
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures split the secret key among $n$ parties, where any subset of at least $t$ parties can collaboratively
+    produce a valid signature. They have been widely deployed in applications such
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-01'
+  source: eprint
+- id: ring_signatures_for_2026
+  title: 'Ring Signatures for Deniable AKEM: Gandalf''s Fellowship'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/890
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ring signatures, a cryptographic primitive introduced by Rivest, Shamir and Tauman (ASIACRYPT 2001), offer signer
+    anonymity within dynamically formed user groups. Recent advancements have focused on l
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-01'
+  source: eprint
+- id: a_simplified_roundbyround_2026
+  title: A Simplified Round-by-round Soundness Proof of FRI
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1993
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The FRI protocol (ICALP '18) is one of the most influential and widely deployed building blocks at the core of
+    modern SNARK systems. While its concrete security is well understood, existing security p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-01'
+  source: eprint
+- id: migrating_bitcoin_and_2026
+  title: Migrating Bitcoin and Ethereum Addresses to the Quantum Blockchain Era
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/352
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Recent advances in quantum computing threaten the cryptographic foundations of blockchain systems, including Bitcoin
+    and Ethereum, which rely on elliptic-curve cryptography (ECC) for security. Algorit
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-01'
+  source: eprint
+- id: lowcost_anonymous_reputation_2026
+  title: Low-cost anonymous reputation update for IoT applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1105
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents a novel zero-trust anonymous reputation update protocol for IoT crowd-sensing applications.
+    We use a suite of cryptographic functions to achieve  anonymity, including unlinkability
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-01'
+  source: eprint
+- id: on_the_security_2026_2
+  title: On the Security of MPC-in-the-Head Signatures with Correlated GGM Trees
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/615
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Recent MPC-in-the-Head techniques enable the construction of signature schemes with compact signature sizes from
+    various hardness assumptions. These techniques rely on commitments based on GGM trees, '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-04-01'
+  source: eprint
+- id: differentiallinear_cryptanalysis_and_2026
+  title: Differential-Linear Cryptanalysis and Cube Attacks on ChiLow
+  authors:
+  - Cheng Che
+  - Tian Tian
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.293-317
+  directions:
+  - linear
+  - algebraic
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - cube attack
+  fetched_date: '2026-04-01'
+  source: tosc
+- id: computeraided_proof_for_2026
+  title: Computer-Aided Proof for Extended Generalized Feistel Networks
+  authors:
+  - Yuchao Chen
+  - Chun Guo
+  - Muzhou Li
+  - Shuo Peng
+  - Hao Lei
+  - Guang Zeng
+  - Meiqin Wang
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.345-375
+  directions:
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - Feistel
+  fetched_date: '2026-04-01'
+  source: tosc
+- id: a_knownplaintext_attack_2026
+  title: A Known-Plaintext Attack with Minimal Data Complexity on 25-Round CRAFT
+  authors:
+  - Eran Lambooij
+  - Patrick Neumann 0004
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.212-225
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - CRAFT
+  fetched_date: '2026-04-01'
+  source: tosc
+- id: cube_and_integral_2026
+  title: Cube and Integral Attacks on ChiLow-32
+  authors:
+  - Shuo Peng
+  - Akram Khalesi
+  - Zahra Ahmadian
+  - Hosein Hadipour
+  - Jiahui He 0002
+  - Kai Hu 0001
+  - Zhongfeng Niu
+  - Shahram Rasoolzadeh
+  - Meiqin Wang
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.253-292
+  directions:
+  - integral_division
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - integral attack
+  fetched_date: '2026-04-01'
+  source: tosc
+- id: quantum_truncated_differential_2026
+  title: Quantum Truncated Differential Attacks Using Convolutions
+  authors:
+  - Aurel Pichollet-Mugnier
+  - André Schrottenloher
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.148-188
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-04-01'
+  source: tosc
+- id: differential_pattern_transition_2026
+  title: Differential Pattern Transition Characterizing the Differential Behavior of AES-like Linear Layers
+  authors:
+  - Jianhua Wang
+  - Tao Huang
+  - Siwei Sun
+  - Hailun Yan
+  - Guang Zeng
+  - Shuang Wu
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.410-440
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  - AES
+  fetched_date: '2026-04-01'
+  source: tosc
+- id: fourier_analysis_of_2026
+  title: Fourier Analysis of Neural Distinguishers
+  authors:
+  - Yufei Yuan
+  - Wenling Wu
+  - Lei Zhang 0186
+  - Ruichen Wu
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.V2026.I1.441-467
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - neural distinguisher
+  fetched_date: '2026-04-01'
+  source: tosc
