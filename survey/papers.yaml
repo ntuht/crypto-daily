@@ -9179,3 +9179,152 @@ papers:
   - neural distinguisher
   fetched_date: '2026-04-01'
   source: tosc
+- id: sok_connecting_the_2026
+  title: 'SoK: Connecting the Dots in Privacy-Preserving ML - Systematization of MPC Protocols and Conversions Between Secret
+    Sharing Schemes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1679
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Privacy-preserving machine learning (PPML) has become increasingly important due to the need to protect sensitive
+    data during training and inference. Secure multiparty computation (MPC) and homomorphi
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: a_prompt_framework_2026
+  title: A Prompt Framework for LLM-Based Fully Automated Simple Power Analysis on Cryptosystems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2069
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Side-channel analysis is a powerful technique to extract secret data from cryptographic devices. However, this
+    task heavily relies on experts and specialized tools, particularly in the case of simple '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: sir_a_sparseinteraction_2026
+  title: 'SIR: A Sparse-Interaction Keystream Generator with a Hardware-Oriented Architecture'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/009
+  directions:
+  - lightweight
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'Lightweight keystream generators are widely used in resource-constrained digital systems, where implementation
+    efficiency in area, power, and logic structure is a primary design concern. Conventional '
+  status: pending_review
+  matched_keywords:
+  - diffusion
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: weakkey_cryptanalysis_of_2026
+  title: Weak-key cryptanalysis of Blink
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/624
+  directions:
+  - tweakable
+  - invariant
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: This note describes a weak-key attack on the tweakable block cipher Blink, which was recently introduced at FSE
+    2026. Specifically, it is shown that two rounds of Blink admit several nonlinear invaria
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - block cipher
+  - tweakable
+  - Midori
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: efficient_conflictfree_ntt_2026
+  title: 'Efficient Conflict-Free NTT Hardware Architecture with Single-Port RAMs: Applications to ML-DSA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/621
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a Number Theoretic Transform (NTT) hardware architecture based on the Prouhet-Thue-Morse (PTM) code,
+    enabling NTT implementations relying only on single-port RAMs (SPRAMs), rather than usin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: ahab_asynchronous_highthroughput_2026
+  title: 'AHAB: Asynchronous, High-throughput, Adaptively-secure, Batched Threshold Schnorr Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/620
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present AHAB, a suite of protocols for threshold Schnorr signatures in the asynchronous communication setting
+    with guaranteed output delivery (robustness). We build on the AVSS and GoAVSS protocols
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: breaking_the_oneway_2026
+  title: 'Breaking the One-Way Property of a SHA-3 Implementation via Fault Injection: Key Recovery Attacks on Post-Quantum
+    Digital Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/619
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'This paper presents fault‑injection attacks on six candidates of the Round‑2 NIST post‑quantum digital signatures
+    call: code-based schemes CROSS and LESS, multivariate schemes MAYO, and MPC-in-the-Hea'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-04-02'
+  source: eprint
+- id: scaling_of_memory_2026
+  title: Scaling of Memory and Bandwidth Requirements of Post-Quantum Signatures with Message Size
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/617
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this work we analyse the qualitative memory and bandwidth efficiency properties of the currently standardised
+    post-quantum signatures as such and of their protocol integrations mainly in the X.509 '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-02'
+  source: eprint
