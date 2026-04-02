@@ -414,6 +414,29 @@ def llm_analyze(top_papers, other_papers, llm):
 
 # ── Markdown Rendering ──────────────────────────────────────────────
 
+def _format_authors(paper):
+    """Format author list as a comma-separated string (max 5 shown)."""
+    authors = paper.get("authors", [])
+    if not authors:
+        return ""
+    if isinstance(authors, str):
+        return authors
+    if len(authors) > 5:
+        return ", ".join(authors[:5]) + f" et al. ({len(authors)}人)"
+    return ", ".join(authors)
+
+
+def _get_pdf_url(paper):
+    """Construct PDF link from paper URL."""
+    url = paper.get("url", "")
+    if not url:
+        return ""
+    # ePrint papers: append .pdf
+    if "eprint.iacr.org" in url:
+        return url.rstrip("/") + ".pdf"
+    # DOI or other: the URL itself typically leads to the paper
+    return url
+
 def render_digest_md(report_date, top_papers, other_papers, analysis, stats):
     """Render the curated daily digest as Markdown."""
     lines = []
@@ -446,10 +469,19 @@ def render_digest_md(report_date, top_papers, other_papers, analysis, stats):
         title = p["title"]
         url = p.get("url", f"https://eprint.iacr.org/{pid}")
         score = p.get("_llm_score", "?")
+        authors = _format_authors(p)
+        pdf_url = _get_pdf_url(p)
 
         lines.append(f"### {i+1}. [{title}]({url})")
         lines.append("")
-        lines.append(f"> ePrint {pid} | 相关性 {score}/10")
+        if authors:
+            lines.append(f"**作者**：{authors}")
+            lines.append("")
+        meta_parts = [f"{p.get('venue', pid)}"]
+        meta_parts.append(f"相关性 {score}/10")
+        if pdf_url:
+            meta_parts.append(f"[📎 PDF]({pdf_url})")
+        lines.append(f"> {' | '.join(meta_parts)}")
         lines.append("")
 
         info = detailed_map.get(pid, {})
@@ -483,16 +515,21 @@ def render_digest_md(report_date, top_papers, other_papers, analysis, stats):
             title = p["title"]
             url = p.get("url", f"https://eprint.iacr.org/{pid}")
             score = p.get("_llm_score", "?")
+            authors = _format_authors(p)
+            pdf_url = _get_pdf_url(p)
 
             info = brief_map.get(pid, {})
             summary_cn = info.get("summary_cn", p.get("_llm_reason", ""))
 
-            lines.append(f"**[{title}]({url})**")
+            pdf_link = f" | [📎 PDF]({pdf_url})" if pdf_url else ""
+            lines.append(f"**[{title}]({url})**{pdf_link}")
+            if authors:
+                lines.append(f"*{authors}*")
             lines.append("")
             if summary_cn:
                 lines.append(f"> {summary_cn}")
             else:
-                lines.append(f"> ePrint {pid}")
+                lines.append(f"> {p.get('venue', pid)}")
             lines.append("")
 
     lines.append(f"*精选自 {stats['total']} 篇 ePrint 候选论文*")
