@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-02</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-02</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-02</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-02 02:56</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 95 篇 → 启发式 90 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Weak-key cryptanalysis of Blink](https://eprint.iacr.org/2026/624)</h3>
+
+<blockquote>
+<p>ePrint weakkey_cryptanalysis_of_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Blink是一种新提出的可调分组密码，其安全性需要进行全面评估。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文针对Blink的两个轮次，发现并利用了多个非线性不变关系，从而构造了一种弱密钥攻击。这种攻击揭示了在特定密钥条件下，Blink的内部结构存在可被利用的漏洞。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究揭示了Blink在弱密钥设置下的潜在安全风险，对后续的密码设计改进和安全性评估具有重要指导意义。</p>
+
+<hr>
+
+<h3>2. [HCTR+: An Optimally Secure TBC-based Accordion Mode](https://eprint.iacr.org/2024/2053)</h3>
+
+<blockquote>
+<p>ePrint hctr_an_optimally_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：可调宽块密码的设计在过去二十年取得了显著进展，但实现最优安全性仍是挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了HCTR+，这是一种基于可调分组密码（TBC）的手风琴模式，旨在提供最优安全性。HCTR+通过创新的结构设计，有效利用了TBC的特性，实现了超越生日界限的安全性。</p>
+
+<p>🎯 <strong>意义</strong>：HCTR+为构建高效且具有最优安全保障的宽块密码提供了新的范例，对未来高性能密码系统的设计具有重要参考价值。</p>
+
+<hr>
+
+<h3>3. [Differential Pattern Transition Characterizing the Differential Behavior of AES-like Linear Layers](https://doi.org/10.46586/TOSC.V2026.I1.410-440)</h3>
+
+<blockquote>
+<p>ePrint differential_pattern_transition_2026 | 相关性 10/10</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：差分密码分析是评估分组密码安全性的核心方法之一，其中线性层的差分行为分析至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了“差分模式转换”的概念，以精确刻画AES类分组密码中线性层的差分传播特性。通过分析这些模式转换，研究者能够更系统地理解和预测差分路径在线性层中的演变，从而辅助寻找更优的差分特征。</p>
+
+<p>🎯 <strong>意义</strong>：这一新概念为AES类密码的差分分析提供了更精细的工具，有助于发现更强的差分攻击或证明更高的差分安全性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/409" target="_blank">Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols</a></strong></p>
+
+<blockquote>
+<p>本文对基于Poseidon及其后续版本Poseidon2的Fiat-Shamir协议进行了密码分析，揭示了其在代数证明系统哈希应用中的潜在漏洞。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.70-124" target="_blank">Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers</a></strong></p>
+
+<blockquote>
+<p>Dialga是一个低延迟可调分组密码家族，其设计特点是采用了多线性层结构，旨在优化性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.125-166" target="_blank">THF: Designing Low-Latency Tweakable Block Ciphers</a></strong></p>
+
+<blockquote>
+<p>THF提出了一种设计低延迟可调分组密码的新方法，旨在提升加密操作的速度和效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I3.437-469" target="_blank">Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs</a></strong></p>
+
+<blockquote>
+<p>Cymric是一种针对短输入设计的认证加密方案，它通过“短尾”结构实现了超越生日界限的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I2.705-742" target="_blank">AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme</a></strong></p>
+
+<blockquote>
+<p>AETHER是一种认证加密方案，旨在实现超高吞吐量和低能耗，适用于资源受限或高性能要求的环境。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/383" target="_blank">HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant</a></strong></p>
+
+<blockquote>
+<p>HCTR$^{++}$是HCTR2的一个变体，旨在突破传统分组密码模式的生日界限，提供超越生日界限的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.284-307" target="_blank">Improved Cryptanalysis of GIFT-64</a></strong></p>
+
+<blockquote>
+<p>本文对轻量级分组密码GIFT-64进行了改进的密码分析，发现了更有效的攻击方法。</p>
+</blockquote>
+
+<p><em>精选自 95 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
