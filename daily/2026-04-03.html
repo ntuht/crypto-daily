@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-03</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-03</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-03</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-03 03:17</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 37 篇 → 启发式 30 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Deep Learning-Assisted Improved Differential Fault Attacks on Lightweight Stream Ciphers](https://eprint.iacr.org/2026/626)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/626.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：轻量级密码在资源受限的物联网（IoT）设备中广泛部署，但由于其公开可访问性，这些设备面临着潜在的故障攻击威胁。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种深度学习辅助的改进差分故障攻击（DFA）方法，通过利用深度学习模型分析故障注入后的密码行为，能够更精确地识别密钥信息。该方法旨在提高对轻量级流密码进行DFA的成功率和效率。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为评估和增强物联网设备中轻量级密码的安全性提供了新的视角和工具，对未来密码设计具有指导意义。</p>
+
+<hr>
+
+<h3>2. [Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers](https://doi.org/10.46586/TOSC.V2025.I4.70-124)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Subhadeep Banik, Tatsuya Ishikawa, Takanori Isobe 0001, Ryoma Ito 0001, Kazuhiko Minematsu et al. (8人)</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.70-124)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：针对物联网等对延迟敏感的应用场景，设计高效且安全的低延迟可调分组密码是当前密码学研究的重要方向。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了Dialga系列可调分组密码，其核心创新在于采用了多线性层结构来优化性能。这种设计旨在在保持高安全性的同时，显著降低加密和解密的延迟，使其更适用于实时性要求高的环境。</p>
+
+<p>🎯 <strong>意义</strong>：Dialga为未来低延迟、高安全性的可调分组密码设计提供了新的思路和具体实现方案，有望推动相关应用的发展。</p>
+
+<hr>
+
+<h3>3. [THF: Designing Low-Latency Tweakable Block Ciphers](https://doi.org/10.46586/TOSC.V2025.I4.125-166)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Jianhua Wang, Tao Huang, Guang Zeng, Tianyou Ding, Shuang Wu et al. (6人)</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.125-166)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在边缘计算和物联网等对计算资源和响应时间有严格限制的场景中，设计具有低延迟特性的可调分组密码至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文介绍了THF，一种专注于实现低延迟的可调分组密码设计方法。该设计可能通过优化内部结构、减少轮数或采用并行化策略来最小化加密操作的延迟，同时确保其在可调分组密码模型下的安全性。</p>
+
+<p>🎯 <strong>意义</strong>：THF为构建适用于实时应用且兼顾安全性的新型可调分组密码提供了实用的设计原则和潜在方案，具有重要的工程实践价值。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I3.437-469" target="_blank">Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I3.437-469)</p>
+<p><em>Alexandre Adomnicai, Wonseok Choi 0002, Yeongmin Lee, Kazuhiko Minematsu, Yusuke Naito 0001</em></p>
+
+<blockquote>
+<p>Cymric是一种针对短输入设计的认证加密方案，通过“短尾”结构实现了超越生日界限的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I2.705-742" target="_blank">AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I2.705-742)</p>
+<p><em>Subhadeep Banik, Andrea Caforio, Tatsuya Ishikawa, Takanori Isobe 0001, Mostafizar Rahman et al. (6人)</em></p>
+
+<blockquote>
+<p>AETHER是一种认证加密方案，旨在提供超高吞吐量和极低能耗，适用于性能敏感的应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.284-307" target="_blank">Improved Cryptanalysis of GIFT-64</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.284-307)</p>
+<p><em>Patrick Derbez, Baptiste Germon, Bastien Michel, María Naya-Plasencia</em></p>
+
+<blockquote>
+<p>本文对轻量级分组密码GIFT-64提出了改进的密码分析方法，揭示了其潜在的弱点。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.400-443" target="_blank">Chosen-Key Distinguishing Attacks on Full AES-192, AES-256, Kiasu-BC, and More</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.400-443)</p>
+<p><em>Xiaoyang Dong 0001, Jian Guo 0001, Shun Li 0004, Phuong Pham</em></p>
+
+<blockquote>
+<p>论文展示了针对完整AES-192、AES-256、Kiasu-BC等密码的选定密钥区分攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I2.34-86" target="_blank">Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I2.34-86)</p>
+<p><em>Lorenzo Grassi 0001, Katharina Koschatko, Christian Rechberger</em></p>
+
+<blockquote>
+<p>本文利用子空间轨迹技术，通过Gröbner基密码分析方法研究了Poseidon和Neptune密码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.755-799" target="_blank">Observations on the BayesianKeySearch with Applications to Simon and Simeck</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.755-799)</p>
+<p><em>Zezhou Hou, Zhenzhen Bao, Jinyu Lu, Shaozhen Chen</em></p>
+
+<blockquote>
+<p>该研究对BayesianKeySearch算法进行了观察，并将其应用于Simon和Simeck密码的分析。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.729-754" target="_blank">Cryptanalysis: Theory Versus Practice Correcting Cryptanalysis Results on Ascon, ChaCha, and Serpent Using GPUs</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.729-754)</p>
+<p><em>Cihangir Tezcan, Gregor Leander, Hosein Hadipour</em></p>
+
+<blockquote>
+<p>本文通过GPU修正了Ascon、ChaCha和Serpent的密码分析结果，探讨了密码分析理论与实践的差异。</p>
+</blockquote>
+
+<p><em>精选自 37 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
