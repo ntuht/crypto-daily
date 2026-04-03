@@ -11,7 +11,7 @@ papers:
   - sbox
   summary: ''
   heuristic_score: 23
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Vedad Hadzic
   - Roderick Bloem
@@ -30,35 +30,12 @@ papers:
   - milp_sat_cp
   summary: ''
   heuristic_score: 23
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Yongjin Jeon
   - Seungjun Baek 0002
   - Giyoon Kim
   - Jongsung Kim
-- id: dialga_a_family_2026
-  title: 'Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers'
-  url: https://doi.org/10.46586/TOSC.V2025.I4.70-124
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - block cipher
-  - tweakable
-  directions:
-  - lightweight
-  - tweakable
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-03-12'
-  authors:
-  - Subhadeep Banik
-  - Tatsuya Ishikawa
-  - Takanori Isobe 0001
-  - Ryoma Ito 0001
-  - Kazuhiko Minematsu
-  - Kazuma Nakata
-  - Mostafizar Rahman
-  - Kosei Sakamoto
 - id: on_the_plaintext_2026
   title: On the Plaintext Awareness of AEAD Schemes
   url: https://doi.org/10.46586/TOSC.V2025.I4.231-261
@@ -70,7 +47,7 @@ papers:
   - aead
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Mario Marhuenda Beltrán
   - Mustafa Khairallah
@@ -85,7 +62,7 @@ papers:
   - linear_diffusion
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Yan He
   - Tingting Cui
@@ -103,7 +80,7 @@ papers:
   - aead
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Akiko Inoue
   - Kazuhiko Minematsu
@@ -120,7 +97,7 @@ papers:
   - sbox
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Chenhao Jia
   - Tingting Cui
@@ -140,30 +117,9 @@ papers:
   - aead
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Mustafa Khairallah
-- id: thf_designing_lowlatency_2026
-  title: 'THF: Designing Low-Latency Tweakable Block Ciphers'
-  url: https://doi.org/10.46586/TOSC.V2025.I4.125-166
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - block cipher
-  - tweakable
-  directions:
-  - lightweight
-  - tweakable
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-03-12'
-  authors:
-  - Jianhua Wang
-  - Tao Huang
-  - Guang Zeng
-  - Tianyou Ding
-  - Shuang Wu
-  - Siwei Sun
 - id: mds_diffusion_layers_2026
   title: 'MDS Diffusion Layers for Arithmetization-Oriented Symmetric Ciphers: The Rotational-Add Construction'
   url: https://doi.org/10.46586/TOSC.V2025.I3.827-867
@@ -176,50 +132,12 @@ papers:
   - linear_diffusion
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Baofeng Wu
   - Wen Kong
   - Dewei Kong
   - Hailun Yan
-- id: cymric_shorttailed_but_2026
-  title: 'Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs'
-  url: https://doi.org/10.46586/TCHES.V2025.I3.437-469
-  source: tches
-  venue: TCHES/CHES 2025
-  matched_keywords:
-  - authenticated encryption
-  - LED
-  directions:
-  - aead
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-03-12'
-  authors:
-  - Alexandre Adomnicai
-  - Wonseok Choi 0002
-  - Yeongmin Lee
-  - Kazuhiko Minematsu
-  - Yusuke Naito 0001
-- id: aether_an_ultrahigh_2026
-  title: 'AETHER: An Ultra-High Throughput and Low Energy Authenticated Encryption Scheme'
-  url: https://doi.org/10.46586/TCHES.V2025.I2.705-742
-  source: tches
-  venue: TCHES/CHES 2025
-  matched_keywords:
-  - authenticated encryption
-  directions:
-  - aead
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-03-12'
-  authors:
-  - Subhadeep Banik
-  - Andrea Caforio
-  - Tatsuya Ishikawa
-  - Takanori Isobe 0001
-  - Mostafizar Rahman
-  - Kosei Sakamoto
 - id: extending_randomnessfree_firstorder_2026
   title: Extending Randomness-Free First-Order Masking Schemes and Applications to Masking-Friendly S-boxes
   url: https://doi.org/10.46586/TCHES.V2025.I1.340-366
@@ -231,7 +149,7 @@ papers:
   - sbox
   summary: ''
   heuristic_score: 17
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Lixuan Wu
   - Yanhong Fan 0001
@@ -249,79 +167,12 @@ papers:
   - permutation_layer
   summary: ''
   heuristic_score: 12
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Samuele Andreoli
   - Gregor Leander
   - Enrico Piccione
   - Lukas Stennes
-- id: improved_cryptanalysis_of_2026
-  title: Improved Cryptanalysis of GIFT-64
-  url: https://doi.org/10.46586/TOSC.V2025.I4.284-307
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - GIFT
-  directions:
-  - differential
-  summary: ''
-  heuristic_score: 12
-  added_date: '2026-03-12'
-  authors:
-  - Patrick Derbez
-  - Baptiste Germon
-  - Bastien Michel
-  - María Naya-Plasencia
-- id: chosenkey_distinguishing_attacks_2026
-  title: Chosen-Key Distinguishing Attacks on Full AES-192, AES-256, Kiasu-BC, and More
-  url: https://doi.org/10.46586/TOSC.V2025.I3.400-443
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - AES
-  directions:
-  - differential
-  summary: ''
-  heuristic_score: 12
-  added_date: '2026-03-12'
-  authors:
-  - Xiaoyang Dong 0001
-  - Jian Guo 0001
-  - Shun Li 0004
-  - Phuong Pham
-- id: poseidon_and_neptune_2026
-  title: 'Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails'
-  url: https://doi.org/10.46586/TOSC.V2025.I2.34-86
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - subspace trail
-  directions:
-  - invariant
-  summary: ''
-  heuristic_score: 12
-  added_date: '2026-03-12'
-  authors:
-  - Lorenzo Grassi 0001
-  - Katharina Koschatko
-  - Christian Rechberger
-- id: observations_on_the_2026
-  title: Observations on the BayesianKeySearch with Applications to Simon and Simeck
-  url: https://doi.org/10.46586/TOSC.V2025.I3.755-799
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - SIMON
-  directions:
-  - differential
-  summary: ''
-  heuristic_score: 12
-  added_date: '2026-03-12'
-  authors:
-  - Zezhou Hou
-  - Zhenzhen Bao
-  - Jinyu Lu
-  - Shaozhen Chen
 - id: sok_security_of_2026
   title: 'SoK: Security of the Ascon Modes'
   url: https://doi.org/10.46586/TOSC.V2025.I1.138-210
@@ -333,7 +184,7 @@ papers:
   - differential
   summary: ''
   heuristic_score: 12
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Charlotte Lefevre
   - Bart Mennink
@@ -348,29 +199,12 @@ papers:
   - differential
   summary: ''
   heuristic_score: 12
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Thomas Peters
   - Sayandeep Saha
   - Yaobin Shen
   - François-Xavier Standaert
-- id: cryptanalysis_theory_versus_2026
-  title: 'Cryptanalysis: Theory Versus Practice Correcting Cryptanalysis Results on Ascon, ChaCha, and Serpent Using GPUs'
-  url: https://doi.org/10.46586/TOSC.V2025.I3.729-754
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - Ascon
-  - ChaCha
-  directions:
-  - differential
-  summary: ''
-  heuristic_score: 12
-  added_date: '2026-03-12'
-  authors:
-  - Cihangir Tezcan
-  - Gregor Leander
-  - Hosein Hadipour
 - id: probing_secure_composability_2026
   title: 'Probing Secure Composability Without Fresh Randomness: Theory and Application to Ascon'
   url: https://doi.org/10.46586/TCHES.V2025.I4.972-1009
@@ -382,7 +216,7 @@ papers:
   - differential
   summary: ''
   heuristic_score: 12
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Vahid Jahandideh
   - Bart Mennink
@@ -398,7 +232,7 @@ papers:
   - differential
   summary: ''
   heuristic_score: 11
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Marcel Nageler
   - Shibam Ghosh
@@ -417,7 +251,7 @@ papers:
   - milp_sat_cp
   summary: ''
   heuristic_score: 11
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Kazuma Taka
   - Kosei Sakamoto
@@ -436,7 +270,7 @@ papers:
   - meet_in_the_middle
   summary: ''
   heuristic_score: 11
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Florian Hirner
   - Florian Krieger
@@ -453,11 +287,27 @@ papers:
   - differential
   summary: ''
   heuristic_score: 11
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Weizhe Wang
   - Pierrick Méaux
   - Deng Tang
+- id: securing_elliptic_curve_2026
+  title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations'
+  url: https://eprint.iacr.org/2026/625
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - PRESENT
+  - PHOTON
+  - LED
+  directions:
+  - differential
+  summary: The expected emergence of cryptographically relevant quantum computers (CRQCs) will represent a singular discontinuity
+    in the history of digital security, with wide ranging impacts. This whitepaper se
+  heuristic_score: 6
+  added_date: '2026-04-03'
+  authors: []
 - id: satbased_space_partitioning_2026
   title: SAT-Based Space Partitioning and Applications to Ascon-Hash256 Cryptanalysis
   url: https://doi.org/10.46586/TOSC.V2025.I3.577-632
@@ -470,7 +320,7 @@ papers:
   - milp_sat_cp
   summary: ''
   heuristic_score: 6
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Guozhen Liu
   - Shun Li
@@ -488,7 +338,7 @@ papers:
   - lightweight
   summary: ''
   heuristic_score: 5
-  added_date: '2026-03-12'
+  added_date: '2026-04-03'
   authors:
   - Fabian Schwarz
   - Jan Philipp Thoma

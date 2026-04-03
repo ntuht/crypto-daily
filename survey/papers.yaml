@@ -9328,3 +9328,166 @@ papers:
   - PRESENT
   fetched_date: '2026-04-02'
   source: eprint
+- id: distefano_decentralized_infrastructure_2026
+  title: 'DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts and Nothing More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1063
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We design DiStefano: an efficient, maliciously-secure framework for generating private commitments over TLS-encrypted
+    web traffic, for verification by a designated third-party. DiStefano provides many'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: fast_and_compact_2026
+  title: Fast and Compact Lattice-Based Registration-Based Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/628
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Registration-based Encryption ($\mathsf{RBE}$) is an emerging paradigm to remove the key escrow problem in identity-based
+    encryption (IBE) systems. $\mathsf{RBE}$ represents a promising alternative to
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: piranhas_privacypreserving_remote_2026
+  title: 'PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2228
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Remote attestation is a fundamental security mechanism for assessing the integrity of remote devices. In practice,
+    widespread adoption of attestation schemes is hindered by a lack of public verifiabil
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: efficient_and_parallel_2026
+  title: Efficient and Parallel Implementation of Isogeny-based Deterministic Group Actions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/627
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent work by Houben (Asiacrypt'25) introduced a new formulation for class group actions on supersingular elliptic
+    curves oriented by an imaginary quadratic order for an arbitrarily large discriminan
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: harts_highthreshold_adaptively_2026
+  title: 'HARTS: High-Threshold, Adaptively Secure, and Robust Threshold Schnorr Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/280
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold variants of the Schnorr signature scheme have recently been at the center of attention due to their applications
+    to cryptocurrencies. However, existing constructions for threshold Schnorr si
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: rethinking_rpkp_a_2026
+  title: 'Rethinking r-PKP: a New Formulation for the Relaxed Permuted Kernel Problem'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/631
+  directions:
+  - permutation_layer
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Among the schemes in the second round of NIST's additional call for Post-Quantum signatures, PERK builds its security
+    on the intractability of the Permuted Kernel Problem (PKP). In its original formul
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - permutation
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: asymptotic_analysis_of_2026
+  title: Asymptotic Analysis of Ternary Sparse LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/630
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present an asymptotic analysis of the ternary variant of Sparse Learning with Errors (spLWE), a structured LWE
+    variant proposed by Jain--Lin--Saha (CRYPTO'24) in which each equation involves only $
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: deep_learningassisted_improved_2026
+  title: Deep Learning-Assisted Improved Differential Fault Attacks on Lightweight Stream Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/626
+  directions:
+  - lightweight
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Lightweight cryptographic primitives are widely deployed in resource-constraint environment, particularly in the
+    Internet of Things (IoT) devices. Due to their public accessibility, these devices are '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - lightweight
+  - LED
+  fetched_date: '2026-04-03'
+  source: eprint
+- id: securing_elliptic_curve_2026
+  title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/625
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The expected emergence of cryptographically relevant quantum computers (CRQCs) will represent a singular discontinuity
+    in the history of digital security, with wide ranging impacts. This whitepaper se
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - PHOTON
+  - LED
+  fetched_date: '2026-04-03'
+  source: eprint
