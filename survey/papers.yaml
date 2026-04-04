@@ -9491,3 +9491,73 @@ papers:
   - LED
   fetched_date: '2026-04-03'
   source: eprint
+- id: accurate_bgv_parameters_2026
+  title: 'Accurate BGV Parameters Selection: Accounting for Secret and Public Key Dependencies in Average-Case Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2027
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The Brakerski-Gentry-Vaikuntanathan (BGV) scheme is one of the most significant fully homomorphic encryption (FHE)\
+    \ schemes. \r\nIt belongs to a class of FHE schemes whose security is based on the presum"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-04'
+  source: eprint
+- id: instarand_instantly_available_2026
+  title: 'InstaRand: Instantly Available and Instantly Verifiable On-chain Randomness'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/896
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Web3 applications, such as on-chain gaming, require unbiased and publicly verifiable randomness that can be obtained
+    quickly and cost-effectively whenever needed. Existing services, such as those base
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-04'
+  source: eprint
+- id: a_combinatorial_attack_2026
+  title: A Combinatorial Attack on Ternary Sparse Learning with Errors (sLWE)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2007
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Sparse Learning With Errors (sLWE), introduced at CRYPTO 2024 by Jain et al., is a recent hardness assumption
+    aimed at improving the efficiency–security trade-off of lattice-based cryptography in the '
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-04'
+  source: eprint
+- id: a_tight_security_2026
+  title: A tight security analysis of the FIPS-205 standard (SLH-DSA)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/632
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The SPHINCS+ framework, recently standardized by NIST as SLH-DSA (FIPS 205), is a leading stateless hash-based
+    signature scheme for the post-quantum era. Concrete-security evaluation of SPHINCS+ faces
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-04'
+  source: eprint

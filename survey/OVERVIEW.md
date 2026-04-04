@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 530 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 534 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (321)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (325)
 
 ## 算法设计
 
@@ -375,7 +375,7 @@
 
 ## 算法分析
 
-### 差分分析 (227 篇)
+### 差分分析 (230 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -542,6 +542,9 @@
 - 🟡 **2026** — Asymptotic Analysis of Ternary Sparse LWE
 - 🟡 **2026** — Deep Learning-Assisted Improved Differential Fault Attacks on Lightweight Stream Ciphers
 - 🟡 **2026** — Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations
+- 🟡 **2026** — Accurate BGV Parameters Selection: Accounting for Secret and Public Key Dependencies in Average-Case Analysis
+- 🟡 **2026** — InstaRand: Instantly Available and Instantly Verifiable On-chain Randomness
+- 🟡 **2026** — A tight security analysis of the FIPS-205 standard (SLH-DSA)
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -686,7 +689,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (53 篇)
+### 中间相遇 (54 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -730,6 +733,7 @@
 - 🟡 **2026** — Migrating Bitcoin and Ethereum Addresses to the Quantum Blockchain Era
 - 🟡 **2026** — On the Security of MPC-in-the-Head Signatures with Correlated GGM Trees
 - 🟡 **2026** — DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts and Nothing More
+- 🟡 **2026** — A Combinatorial Attack on Ternary Sparse Learning with Errors (sLWE)
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
