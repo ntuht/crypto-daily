@@ -9561,3 +9561,203 @@ papers:
   - LED
   fetched_date: '2026-04-04'
   source: eprint
+- id: hyperveritas_verifying_image_2026
+  title: 'HyperVerITAS: Verifying Image Transformations at Scale on Boolean Hypercubes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/641
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present $\mathsf{HyperVerITAS}$, a new zero-knowledge proof (ZKP) system for image provenance that enables scalable,
+    efficient, and privacy-preserving verification of image transformations. $\maths
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: synthesis_of_rtlbased_2026
+  title: Synthesis of RTL-based Characterization Programs for Fault Injection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/648
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Fault injection attacks pose a significant threat\r\nto the security of embedded devices. While their effects\
+    \ are\r\ncommonly modeled as instruction skips or data corruption,\r\ncharacterizing these faults "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: ssledag_a_highthroughput_2026
+  title: 'SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader
+    Election'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/647
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: SSLE-DAG Proof-of-Stake (PoS) blockchains with publicly visible leader schedules expose future proposers to targeted
+    Denial-of-Service (DoS) attacks. Single Secret Leader Election (SSLE) techniques ad
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: toward_provable_security_2026
+  title: 'Toward Provable Security in Anamorphic Extension: New Constructions and Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/645
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In a dictatorial setting where the receiver’s secret key may be exposed to an adversary, anamorphic encryption
+    enables secure communication. Since its introduction in 2022, anamorphic cryptography has
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: sok_the_weakestlink_2026
+  title: 'SoK: The Weakest-Link Principle in Public Key Infrastructures and Modern Mitigation Strategies'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/642
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As digital transformation accelerates, securing communication through hierarchical Public Key Infrastructures (PKIs)
+    is increasingly critical. Yet, this centralized trust architecture remains inherent
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: synchronous_bft_with_2026
+  title: Synchronous BFT with Provability and Fast Path for the Age of Blockchains
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/639
+  directions:
+  - low_latency
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Synchronous Byzantine fault tolerant (BFT) protocols offer stronger security guarantees, increasing resilience
+    from one third to one half. However, existing constructions suffer from three drawbacks t
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - low latency
+  - PRESENT
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: verirag_efficient_zeroknowledge_2026
+  title: 'VeriRAG: Efficient Zero-Knowledge Proofs for Verifiable Retrieval-Augmented Generation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/637
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Retrieval-Augmented Generation (RAG) is widely used to enhance Large Language Models (LLMs), yet the "hallucination"
+    characteristic allows malicious providers to bypass retrieval or claim non-existent
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: from_lfsrs_to_2026
+  title: 'From LFSRs to LFGs: Periodicity and Structural Transformations in Stream Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/636
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Feedback shift registers, such as Linear Feedback Shift Registers (LFSRs), Multi-Recursive Matrix Methods (MRMMs),
+    and Lagged Fibonacci Generators (LFGs), are fundamental components in stream cipher-b
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: lowstack_haetae_for_2026
+  title: Low-Stack HAETAE for Memory-Constrained Microcontrollers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/635
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present a low-stack implementation of the module-lattice signature scheme \\(\\mathrm{HAETAE}\\), targeting\
+    \ microcontrollers with \\(8\\,\\mathrm{kB}\\)–\\(16\\,\\mathrm{kB}\\) of available SRAM.\r\nOn such dev"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: plasmablind_a_private_2026
+  title: 'PlasmaBlind: A Private Layer 2 With Instant Client-Side Proving'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/634
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "In this technical note, we discuss a new direction in the design of privacy-preserving and scalable Layer-2 (L2)\
+    \ protocols by presenting a concrete construction, PlasmaBlind.\r\n\r\nTo minimize the L2 use"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint
+- id: progressive_sievingstyle_informationset_2026
+  title: Progressive Sieving-Style Information-Set Decoding Algorithm
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/633
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Information set decoding (ISD) algorithm is the main tool to estimate the concrete bit security of code-based cryptographic
+    schemes including Classic McEliece, HQC and BIKE. Inspired by sieving method
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-05'
+  source: eprint

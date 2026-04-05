@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 534 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 545 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (325)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (336)
 
 ## 算法设计
 
@@ -330,9 +330,10 @@
 - 🔴 **2002** — The Wide Trail Design Strategy [AES, Rijndael]
 - 🔴 **2002** — The Design of Rijndael: AES — The Advanced Encryption Standard [AES, Rijndael]
 
-### 低时延密码 (14 篇)
+### 低时延密码 (15 篇)
 
 - 🟡 **2026** — Making Uncertified DAG BFT Provably Live with Linear Payload and Quadratic Metadata Communication
+- 🟡 **2026** — Synchronous BFT with Provability and Fast Path for the Age of Blockchains
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🟡 **2024** — MATTER: A Wide-Block Tweakable Block Cipher [MATTER]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -375,7 +376,7 @@
 
 ## 算法分析
 
-### 差分分析 (230 篇)
+### 差分分析 (238 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -545,6 +546,14 @@
 - 🟡 **2026** — Accurate BGV Parameters Selection: Accounting for Secret and Public Key Dependencies in Average-Case Analysis
 - 🟡 **2026** — InstaRand: Instantly Available and Instantly Verifiable On-chain Randomness
 - 🟡 **2026** — A tight security analysis of the FIPS-205 standard (SLH-DSA)
+- 🟡 **2026** — Synthesis of RTL-based Characterization Programs for Fault Injection
+- 🟡 **2026** — Toward Provable Security in Anamorphic Extension: New Constructions and Analysis
+- 🟡 **2026** — SoK: The Weakest-Link Principle in Public Key Infrastructures and Modern Mitigation Strategies
+- 🟡 **2026** — VeriRAG: Efficient Zero-Knowledge Proofs for Verifiable Retrieval-Augmented Generation
+- 🟡 **2026** — From LFSRs to LFGs: Periodicity and Structural Transformations in Stream Ciphers
+- 🟡 **2026** — Low-Stack HAETAE for Memory-Constrained Microcontrollers
+- 🟡 **2026** — PlasmaBlind: A Private Layer 2 With Instant Client-Side Proving
+- 🟡 **2026** — Progressive Sieving-Style Information-Set Decoding Algorithm
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -608,7 +617,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (78 篇)
+### MILP/SAT/CP 建模技术 (79 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -654,6 +663,7 @@
 - 🟡 **2026** — Migrating Bitcoin and Ethereum Addresses to the Quantum Blockchain Era
 - 🟡 **2026** — On the Security of MPC-in-the-Head Signatures with Correlated GGM Trees
 - 🟡 **2026** — DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts and Nothing More
+- 🟡 **2026** — Synchronous BFT with Provability and Fast Path for the Age of Blockchains
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -689,7 +699,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (54 篇)
+### 中间相遇 (57 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -734,6 +744,9 @@
 - 🟡 **2026** — On the Security of MPC-in-the-Head Signatures with Correlated GGM Trees
 - 🟡 **2026** — DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts and Nothing More
 - 🟡 **2026** — A Combinatorial Attack on Ternary Sparse Learning with Errors (sLWE)
+- 🟡 **2026** — HyperVerITAS: Verifying Image Transformations at Scale on Boolean Hypercubes
+- 🟡 **2026** — SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader Election
+- 🟡 **2026** — Synchronous BFT with Provability and Fast Path for the Age of Blockchains
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]

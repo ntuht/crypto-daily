@@ -1,85 +1,4 @@
 papers:
-- id: on_the_plaintext_2026
-  title: On the Plaintext Awareness of AEAD Schemes
-  url: https://doi.org/10.46586/TOSC.V2025.I4.231-261
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - AEAD
-  directions:
-  - aead
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-04-04'
-  authors:
-  - Mario Marhuenda Beltrán
-  - Mustafa Khairallah
-- id: new_general_mds_2026
-  title: New General MDS Matrix Construction Method Towards Low Area
-  url: https://doi.org/10.46586/TOSC.V2025.I3.868-890
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - MDS
-  directions:
-  - linear_diffusion
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-04-04'
-  authors:
-  - Yan He
-  - Tingting Cui
-  - Qing Ling
-  - Xi Han
-- id: how_to_implement_2026
-  title: How to Implement Authenticated Encryption on XTS-Enabled Devices
-  url: https://doi.org/10.46586/TOSC.V2025.I4.167-198
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - authenticated encryption
-  - LED
-  directions:
-  - aead
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-04-04'
-  authors:
-  - Akiko Inoue
-  - Kazuhiko Minematsu
-  - Rei Ueno
-  - Naofumi Homma
-- id: revisiting_leakageresilient_macs_2026
-  title: Revisiting Leakage-Resilient MACs and Succinctly-Committing AEAD More Applications of Pseudo-Random Injections
-  url: https://doi.org/10.46586/TOSC.V2025.I1.211-239
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - AEAD
-  directions:
-  - aead
-  summary: ''
-  heuristic_score: 17
-  added_date: '2026-04-04'
-  authors:
-  - Mustafa Khairallah
-- id: generalizations_of_chichi_2026
-  title: 'Generalizations of ChiChi: Families of Low-Latency Permutations in Any Even Dimension'
-  url: https://doi.org/10.46586/TOSC.V2025.I3.800-826
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - permutation
-  directions:
-  - permutation_layer
-  summary: ''
-  heuristic_score: 12
-  added_date: '2026-04-04'
-  authors:
-  - Samuele Andreoli
-  - Gregor Leander
-  - Enrico Piccione
-  - Lukas Stennes
 - id: accelerating_hashbased_polynomial_2026
   title: Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover Time
   url: https://doi.org/10.46586/TCHES.V2025.I4.341-385
@@ -91,28 +10,27 @@ papers:
   - meet_in_the_middle
   summary: ''
   heuristic_score: 11
-  added_date: '2026-04-04'
+  added_date: '2026-04-05'
   authors:
   - Florian Hirner
   - Florian Krieger
   - Constantin Piber
   - Sujoy Sinha Roy
-- id: shortcut2secrets_a_tablebased_2026
-  title: 'Shortcut2Secrets: A Table-based Differential Fault Attack Framework'
-  url: https://doi.org/10.46586/TCHES.V2025.I2.385-419
-  source: tches
-  venue: TCHES/CHES 2025
+- id: ssledag_a_highthroughput_2026
+  title: 'SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader
+    Election'
+  url: https://eprint.iacr.org/2026/647
+  source: eprint
+  venue: ePrint
   matched_keywords:
-  - differential
+  - MITM
   directions:
-  - differential
-  summary: ''
-  heuristic_score: 11
-  added_date: '2026-04-04'
-  authors:
-  - Weizhe Wang
-  - Pierrick Méaux
-  - Deng Tang
+  - meet_in_the_middle
+  summary: SSLE-DAG Proof-of-Stake (PoS) blockchains with publicly visible leader schedules expose future proposers to targeted
+    Denial-of-Service (DoS) attacks. Single Secret Leader Election (SSLE) techniques ad
+  heuristic_score: 8
+  added_date: '2026-04-05'
+  authors: []
 - id: securing_elliptic_curve_2026
   title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations'
   url: https://eprint.iacr.org/2026/625
@@ -127,41 +45,5 @@ papers:
   summary: The expected emergence of cryptographically relevant quantum computers (CRQCs) will represent a singular discontinuity
     in the history of digital security, with wide ranging impacts. This whitepaper se
   heuristic_score: 6
-  added_date: '2026-04-04'
+  added_date: '2026-04-05'
   authors: []
-- id: satbased_space_partitioning_2026
-  title: SAT-Based Space Partitioning and Applications to Ascon-Hash256 Cryptanalysis
-  url: https://doi.org/10.46586/TOSC.V2025.I3.577-632
-  source: tosc
-  venue: TOSC 2025
-  matched_keywords:
-  - SAT
-  - Ascon
-  directions:
-  - milp_sat_cp
-  summary: ''
-  heuristic_score: 6
-  added_date: '2026-04-04'
-  authors:
-  - Guozhen Liu
-  - Shun Li
-  - Huina Li
-  - Weidong Qiu
-  - Siwei Sun
-- id: keyvisor_a_lightweight_2026
-  title: KeyVisor - A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies
-  url: https://doi.org/10.46586/TCHES.V2025.I3.1-31
-  source: tches
-  venue: TCHES/CHES 2025
-  matched_keywords:
-  - lightweight
-  directions:
-  - lightweight
-  summary: ''
-  heuristic_score: 5
-  added_date: '2026-04-04'
-  authors:
-  - Fabian Schwarz
-  - Jan Philipp Thoma
-  - Christian Rossow
-  - Tim Güneysu
