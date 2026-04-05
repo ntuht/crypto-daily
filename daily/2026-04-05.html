@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-05</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-05</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-05</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-05 03:26</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 21 篇 → 启发式 13 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [On the Plaintext Awareness of AEAD Schemes](https://doi.org/10.46586/TOSC.V2025.I4.231-261)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Mario Marhuenda Beltrán, Mustafa Khairallah</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 9/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.231-261)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：明文感知性（Plaintext Awareness, PA）是密码学中的一个重要安全概念，通常用于证明公钥加密或数字签名方案的安全性，确保有效密文或签名对应着一个已知的明文。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究深入探讨了将明文感知性概念应用于认证加密与关联数据（AEAD）方案的挑战与意义。它可能提出了针对AEAD方案的PA新形式化定义，分析了现有AEAD构造在这些定义下的表现，并可能设计了满足PA特性的新型AEAD方案或改进方法。</p>
+
+<p>🎯 <strong>意义</strong>：理解和实现AEAD方案的明文感知性，有助于增强其在特定应用场景下的安全保证，尤其是在对抗伪造密文攻击或确保明文来源完整性方面具有重要价值。</p>
+
+<hr>
+
+<h3>2. [New General MDS Matrix Construction Method Towards Low Area](https://doi.org/10.46586/TOSC.V2025.I3.868-890)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Yan He, Tingting Cui, Qing Ling, Xi Han</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 9/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.868-890)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：MDS（Maximum Distance Separable）矩阵是许多对称密码算法（如分组密码和哈希函数）中提供扩散性的核心组件，其高效构造对于密码算法的性能至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：该论文提出了一种新颖且通用的MDS矩阵构造方法，其核心贡献在于优化了硬件实现时的面积开销。这可能通过创新的代数结构、高效的搜索算法或特定的优化技术实现，旨在生成在资源受限环境中更具优势的MDS矩阵。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为设计更紧凑、更高效的对称密码硬件实现提供了关键工具，对于物联网设备、嵌入式系统以及高性能计算等领域具有显著的实际应用价值。</p>
+
+<hr>
+
+<h3>3. [How to Implement Authenticated Encryption on XTS-Enabled Devices](https://doi.org/10.46586/TOSC.V2025.I4.167-198)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Akiko Inoue, Kazuhiko Minematsu, Rei Ueno, Naofumi Homma</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 9/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.167-198)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：XTS模式主要用于磁盘加密，提供扇区级别的可调加密，但其本身不提供数据认证功能，而现代安全需求往往要求同时具备机密性和完整性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究探讨了在已支持或基于XTS的设备上实现认证加密的实用策略和技术。它可能提出了将认证加密（AE）模式与XTS结合的方案，设计了在XTS之上叠加认证层的安全协议，或详细阐述了如何利用现有XTS硬件/软件模块同时确保AE属性的实现细节，并分析了其安全性和性能权衡。</p>
+
+<p>🎯 <strong>意义</strong>：该研究为开发者和系统架构师提供了宝贵的指导，使其能够在不彻底改造现有XTS基础设施的情况下，为存储系统添加强大的数据认证功能，从而显著提升数据安全性和完整性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.211-239" target="_blank">Revisiting Leakage-Resilient MACs and Succinctly-Committing AEAD More Applications of Pseudo-Random Injections</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.211-239)</p>
+<p><em>Mustafa Khairallah</em></p>
+
+<blockquote>
+<p>本文重新审视了抗侧信道泄漏的MAC和简洁承诺的AEAD方案，并探索了伪随机注入在其中的更多应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.800-826" target="_blank">Generalizations of ChiChi: Families of Low-Latency Permutations in Any Even Dimension</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.800-826)</p>
+<p><em>Samuele Andreoli, Gregor Leander, Enrico Piccione, Lukas Stennes</em></p>
+
+<blockquote>
+<p>本文提出了ChiChi置换的推广，构建了适用于任意偶数维度的低延迟置换族，旨在优化密码学原语的性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I2.385-419" target="_blank">Shortcut2Secrets: A Table-based Differential Fault Attack Framework</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I2.385-419)</p>
+<p><em>Weizhe Wang, Pierrick Méaux, Deng Tang</em></p>
+
+<blockquote>
+<p>本文介绍了一个名为Shortcut2Secrets的基于表格的差分故障攻击框架，用于分析和利用密码算法中的故障。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/636" target="_blank">From LFSRs to LFGs: Periodicity and Structural Transformations in Stream Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/636.pdf)</p>
+
+<blockquote>
+<p>本文探讨了流密码中从LFSR到LFG的周期性及结构转换，分析了线性反馈移位寄存器等序列生成器的特性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.577-632" target="_blank">SAT-Based Space Partitioning and Applications to Ascon-Hash256 Cryptanalysis</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.577-632)</p>
+<p><em>Guozhen Liu, Shun Li, Huina Li, Weidong Qiu, Siwei Sun</em></p>
+
+<blockquote>
+<p>本文研究了基于SAT的空间划分技术，并将其应用于Ascon-Hash256哈希函数的密码分析，以评估其安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/645" target="_blank">Toward Provable Security in Anamorphic Extension: New Constructions and Analysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/645.pdf)</p>
+
+<blockquote>
+<p>应用对称密码算法</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I3.1-31" target="_blank">KeyVisor - A Lightweight ISA Extension for Protected Key Handles with CPU-enforced Usage Policies</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I3.1-31)</p>
+<p><em>Fabian Schwarz, Jan Philipp Thoma, Christian Rossow, Tim Güneysu</em></p>
+
+<blockquote>
+<p>轻量级密码应用</p>
+</blockquote>
+
+<p><em>精选自 21 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
