@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-06</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-06</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-06</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-06 03:29</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 335 篇 → 启发式 125 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [The OCH Authenticated Encryption Scheme](https://eprint.iacr.org/2026/439)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/439.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的认证加密方案在多用户环境下的安全性和上下文承诺方面可能存在不足，尤其是在提供高安全级别（如128位）和长随机数（如256位）时。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了OCH，这是首个专为提供128位多用户认证加密（AE）安全性、128位上下文承诺安全性以及支持256位随机数的认证加密带关联数据（AEAD）方案。OCH的设计旨在满足高安全需求，并通过其新颖的结构实现了这些安全目标，同时还提供了可选的无随机数（nonce-less）模式，增加了方案的灵活性。</p>
+
+<p>🎯 <strong>意义</strong>：OCH的提出为未来高安全性、多用户环境下的认证加密设计提供了新的范例，特别是在需要强上下文承诺和灵活随机数管理的应用中具有重要参考价值。</p>
+
+<hr>
+
+<h3>2. [More Brisés in Ballet: Extending Differential and Linear Cryptanalysis](https://eprint.iacr.org/2026/501)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/501.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Ballet分组密码家族作为一种简化的Lay-Massey ARX结构，在对称算法竞赛中脱颖而出，其安全性需要通过深入的密码分析来全面评估。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文对Ballet分组密码家族进行了新的密码分析，通过扩展差分和线性密码分析方法，揭示了该密码家族的更多脆弱性。研究人员利用改进的技术，成功地找到了针对Ballet的更长或更有效的差分和线性特征，并可能利用其线性密钥编排的特性来增强攻击效果。</p>
+
+<p>🎯 <strong>意义</strong>：这些新的密码分析结果不仅加深了对Ballet密码安全性的理解，也为未来ARX结构分组密码的设计和评估提供了宝贵的经验和改进方向。</p>
+
+<hr>
+
+<h3>3. [Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function](https://eprint.iacr.org/2025/1806)</h3>
+
+<blockquote>
+<p>ePrint 2025/1806 | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2025/1806.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：嵌入式系统中可执行代码的机密性和完整性保护至关重要，Belkheyar等人提出的认证代码加密（ACE）方案中的核心组件ChiLow-32分组密码的安全性需要进一步评估。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文通过利用ChiChi函数的逆运算，显著改进了对ChiLow-32分组密码的积分攻击。研究人员发现，通过巧妙地运用ChiChi函数的代数特性，可以更有效地构造积分区分器，从而减少攻击所需的轮数或数据复杂度，揭示了ChiLow-32在特定攻击模型下的潜在弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作不仅提升了对ChiLow-32安全性的理解，也为未来嵌入式系统加密算法的设计者提供了警示，强调了在设计过程中充分考虑非线性组件逆运算特性的重要性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.444-470" target="_blank">Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.444-470)</p>
+<p><em>Xinhao Zeng, Lin Tan, Hong Xu</em></p>
+
+<blockquote>
+<p>本文提出了一种改进的回旋区分器搜索方法，并将其应用于广义Feistel结构密码，特别是在WARP分组密码上取得了新的分析结果。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/535" target="_blank">Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/535.pdf)</p>
+
+<blockquote>
+<p>本文改进了SPN分组密码的相关密钥差分神经网络区分器构造方法，提升了其在密码分析中的有效性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/213" target="_blank">An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/213.pdf)</p>
+
+<blockquote>
+<p>本文介绍了一种名为“Little OaldresPuzzle_Cryptic”的新型轻量级对称加密算法，其核心集成了NeoAlzette ARX S-box和XCR CSPRNG。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2333" target="_blank">Analysis of Diffusion Properties in Generalized Feistel Ciphers under Multidimensional Linear Cryptanalysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2333.pdf)</p>
+
+<blockquote>
+<p>本文提出了一个统一框架，用于在多维线性密码分析下对广义Feistel密码（特别是Type 1、Type 2和非平衡结构）进行通用攻击，并分析其扩散特性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1539" target="_blank">EvH: Randomized Symmetric Cipher Paradigm with Holographic Storage and Parallelism, Compression, & Erasure Recovery Integration</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1539.pdf)</p>
+
+<blockquote>
+<p>本文提出了EvH，一种随机化对称密码范式，集成了全息存储、并行处理、压缩和擦除恢复功能，旨在超越传统对称加密方案的局限性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.308-356" target="_blank">Cube Attacks with Elimination Strategy: Key Recovery Attacks on Trivium</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.308-356)</p>
+<p><em>Haoran Li, Shichang Wang, Meicheng Liu, Willi Meier, Dongdai Lin</em></p>
+
+<blockquote>
+<p>本文利用消除策略改进了立方攻击，成功对流密码Trivium实施了密钥恢复攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.368-399" target="_blank">Multidimensional Linear Cryptanalysis of AEGIS</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.368-399)</p>
+<p><em>Yinuo Liu, Tian Tian, Jing Yang</em></p>
+
+<blockquote>
+<p>本文对AEGIS认证加密方案进行了多维线性密码分析，旨在评估其在复杂攻击模型下的安全性。</p>
+</blockquote>
+
+<p><em>精选自 335 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
