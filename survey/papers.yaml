@@ -9761,3 +9761,198 @@ papers:
   - LED
   fetched_date: '2026-04-05'
   source: eprint
+- id: signature_placement_in_2026
+  title: 'Signature Placement in Post-Quantum TLS Certificate Hierarchies: An Experimental Study of ML-DSA and SLH-DSA in
+    TLS 1.3 Authentication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/666
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Post-quantum migration in TLS 1.3 should not be understood as a flat substitution problem in which one signature
+    algorithm is replaced by another and the resulting deployment cost is read directly fro
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: the_last_challenge_2026
+  title: The Last Challenge Attack on Fiat-Shamir in KZG-based SNARKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/398
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Fiat-Shamir transform [11] is a fundamental technique for converting sound public-coin interactive protocols
+    into sound non-interactive protocols. While the theoretical transformation is conceptua
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: applications_of_bruhatchevalleyrenner_2026
+  title: Applications of Bruhat-Chevalley-Renner Decomposition to Metric-Aware Code-Based Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/665
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'We introduce metric-aware code-based cryptography by moving beyond the Hamming metric to the Niederreiter-Rosenbloom-Tsfasman
+    (NRT) and sum-rank metrics and by exploiting their linear isometry groups '
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: expanders_meet_reedmuller_2026
+  title: 'Expanders Meet Reed--Muller: Easy Instances of Noisy k-XOR'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/664
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In the noisy $k$-XOR problem, one is given $y \in \mathbb F_2^M$ and must distinguish between the case where $y$
+    is uniform and the case where $y = Ax + e$, where $A$ is the adjacency matrix of a $k$-
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: pseudorandomness_of_uflm_2026
+  title: 'Pseudorandomness of UFLM: A Characterization via Its Linear Layer'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/661
+  directions:
+  - round_function
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: This paper systematically analyzes the security of the two-branch Unified Feistel Lai Massey (UFLM) structure with
+    independent random round functions under chosen plaintext and chosen ciphertext attac
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - Feistel
+  - PRESENT
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: qedlite_lightweight_detection_2026
+  title: 'QED-Lite: Lightweight Detection of Quantum-Vulnerable ELF Binaries via Cryptographic Library Version Fingerprinting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/660
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "The advancement of quantum computing poses a serious\r\nthreat to widely-used public-key cryptographic systems,\
+    \ leaving organizations with the challenge of identifying quantum-vulnerable (QV)\r\nexecutabl"
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: delegate_coalition_proof_2026
+  title: 'Delegate: Coalition Proof Incentivized Outsourced Computation with Smart Contracts'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/658
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In incentivized outsourced computation,an outsourcer hands a computation to multiple contractors, and in return
+    expects the same computation output from each. The state-of-the-art proposals succeed in
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: fast_and_efficient_2026
+  title: Fast and Efficient Perfectly Secure Network-Agnostic Secure Computation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/655
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Secure multiparty computation (MPC) enables mutually distrustful parties to jointly compute over private data\
+    \ without revealing their inputs. \r\nWhile protocols in both synchronous and asynchronous set"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: random_robust_secret_2026
+  title: Random Robust Secret Sharing with Perfect Privacy and its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/653
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Secret Sharing schemes allows a dealer to distribute $n$ shares $s_1,\ldots, s_n$ of a secret $s$ so that any $t$
+    shares suffice to reconstruct the secret, while any $t-1$ shares reveal no information
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: counting_and_recovering_2026
+  title: Counting and recovering the quadratic relations of a vectorial function
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/652
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A recent paper by Calderini et al. investigates the use of a CCZ transformation to mask the quadratic central
+    map in a multivariate scheme, providing an instance leading to a system of degree four. A '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-07'
+  source: eprint
+- id: robot_robust_threshold_2026
+  title: 'Robot: Robust Threshold BBS+ in Two Rounds'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/651
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The BBS+ signature scheme is a widely used foundation for anonymous credential systems. It is favored for its support
+    of selective disclosure and its efficiency in proving credential possession. Howev
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-07'
+  source: eprint
