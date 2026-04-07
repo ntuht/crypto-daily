@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-07</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-07</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-07</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-07 03:20</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 126 篇 → 启发式 118 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [ToFA: Towards Fault Analysis of GIFT and GIFT-like Ciphers Leveraging Truncated Impossible Differentials](https://doi.org/10.46586/TCHES.V2025.I3.614-643)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Anup Kumar Kundu, Shibam Ghosh, Aikata Aikata, Dhiman Saha</p>
+
+<blockquote>
+<p>TCHES/CHES 2025 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I3.614-643)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：故障分析是评估轻量级分组密码（如GIFT及其变体）在实际部署中安全性的重要手段。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种名为ToFA的新型故障分析方法，它创造性地利用截断不可能差分（Truncated Impossible Differentials）来识别和利用GIFT及其类似密码中的故障传播特性。通过这种方法，研究者能够更有效地定位密钥位或内部状态，从而实现对密码的攻击。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为轻量级密码的故障分析提供了新的视角和工具，有助于设计更具鲁棒性的密码方案。</p>
+
+<hr>
+
+<h3>2. [Differential-Linear Cryptanalysis and Cube Attacks on ChiLow](https://doi.org/10.46586/TOSC.V2026.I1.293-317)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Cheng Che, Tian Tian</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2026.I1.293-317)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：ChiLow作为一种密码算法，其安全性需通过多种密码分析技术进行全面评估，以确保其在实际应用中的可靠性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文对ChiLow密码进行了差分-线性密码分析和魔方攻击。研究者可能通过结合差分和线性特性来构建攻击，并利用魔方攻击技术在多轮迭代中寻找代数弱点，从而揭示ChiLow在特定轮数下的安全性缺陷。</p>
+
+<p>🎯 <strong>意义</strong>：这些分析结果揭示了ChiLow密码的潜在弱点，为密码设计者改进算法提供了关键反馈。</p>
+
+<hr>
+
+<h3>3. [Cube and Integral Attacks on ChiLow-32](https://doi.org/10.46586/TOSC.V2026.I1.253-292)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Shuo Peng, Akram Khalesi, Zahra Ahmadian, Hosein Hadipour, Jiahui He 0002 et al. (9人)</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2026.I1.253-292)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：积分攻击和魔方攻击是两种强大的密码分析技术，常用于评估分组密码（尤其是那些基于SPN结构）的安全性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文针对ChiLow-32分组密码应用了魔方攻击和积分攻击。研究者通过识别密码中的代数结构和累积特性，构造了能够区分或恢复密钥的攻击，从而揭示了ChiLow-32在特定轮数下的安全性边界。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为ChiLow-32的安全性评估提供了重要证据，有助于理解其在不同攻击模型下的抗性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/626" target="_blank">Deep Learning-Assisted Improved Differential Fault Attacks on Lightweight Stream Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/626.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种深度学习辅助的改进差分故障攻击方法，旨在更有效地攻击物联网设备中部署的轻量级流密码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/598" target="_blank">Triangulating Meet-in-the-Middle Attack</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/598.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种名为“三角化”的新型中间相遇攻击技术，通过对中性词施加线性约束来突破更多轮密码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1326" target="_blank">New Techniques for Analyzing Differentials with Application to AES</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1326.pdf)</p>
+
+<blockquote>
+<p>本文提出了分析差分传播概率的新技术，并将其应用于AES，以更精确地评估输入差分到输出差分的概率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.380-419" target="_blank">Differential Cryptanalysis of the Reduced Pointer Authentication Code Function Used in Arm&apos;s FEAT_PACQARMA3 Feature</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.380-419)</p>
+<p><em>Roberto Avanzi, Orr Dunkelman, Shibam Ghosh</em></p>
+
+<blockquote>
+<p>差分密码分析应用</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.357-380" target="_blank">Chosen-IV Algebraic Attack on Randomized Ciphers FASTA and HERA</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.357-380)</p>
+<p><em>Fukang Liu, Tianning Wang, Jianqiang Ni, Daisuke Yamamoto, Guilherme T. S. Sato et al. (7人)</em></p>
+
+<blockquote>
+<p>代数攻击密码分析</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1097" target="_blank">Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1097.pdf)</p>
+
+<blockquote>
+<p>代数攻击密码分析</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/601" target="_blank">Cryptanalysis of the Lightweight Stream Cipher RRSC</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/601.pdf)</p>
+
+<blockquote>
+<p>流密码密码分析</p>
+</blockquote>
+
+<p><em>精选自 126 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
