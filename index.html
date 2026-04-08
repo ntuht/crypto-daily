@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-07 03:20</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-08 03:22</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">556</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">573</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,25 +35,25 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">556</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">573</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">65</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">32</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">26</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">27</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">23</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">22</span></div>
-  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">16</span></div>
+  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">17</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">15</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">15</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">242</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">82</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">58</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">255</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">83</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">59</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">34</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">28</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">26</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 556 篇论文</div>
+        <div class="result-count" id="resultCount">显示 573 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -4672,6 +4672,241 @@ While protocols in both synchronous and asynchronous set</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">The BBS+ signature scheme is a widely used foundation for anonymous credential systems. It is favored for its support of selective disclosure and its efficiency in proving credential possession. Howev</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="reducing_the_number_2026" data-dirs="software_friendly"
+     data-year="2026" data-significance="medium"
+     data-search="reducing the number of qubits in quantum discrete logarithms on elliptic curves   solving the discrete logarithm problem on the group of points of an elliptic curve is one of the major cryptographic applications of shor&#x27;s algorithm. however, current estimates for the number of qubi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/280" target="_blank">Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Solving the Discrete Logarithm problem on the group of points of an elliptic curve is one of the major cryptographic applications of Shor&#x27;s algorithm. However, current estimates for the number of qubi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">软件友好密码</span></div>
+</div>
+
+<div class="paper-card" data-id="verification_facade_masquerading_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="verification facade: masquerading insecure cryptographic implementations as verified code   hax is a verification pipeline that translates a subset of rust into f*, enabling machine-checked proofs of panic freedom and functional correctness for cryptographic implementations being developed i">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/670" target="_blank">Verification Facade: Masquerading Insecure Cryptographic Implementations as Verified Code</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Hax is a verification pipeline that translates a subset of Rust into F*, enabling machine-checked proofs of panic freedom and functional correctness for cryptographic implementations being developed i</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="finding_and_evaluating_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="finding and evaluating parameters for bgv   fully homomorphic encryption (fhe) is a groundbreaking technology that allows for arbitrary computations to be performed on encrypted data. state-of-the-art schemes such as  brakerski gentry vaikuntan">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2022/706" target="_blank">Finding and Evaluating Parameters for BGV</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fully Homomorphic Encryption (FHE) is a groundbreaking technology that allows for arbitrary computations to be performed on encrypted data. State-of-the-art schemes such as  Brakerski Gentry Vaikuntan</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="improved_circuit_synthesis_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="improved circuit synthesis with multi-value bootstrapping for fhew-like schemes   in recent years, the research community has made great progress in improving techniques for privacy-preserving computation, such as fully homomorphic encryption (fhe). despite the progress, there rema">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2023/1223" target="_blank">Improved Circuit Synthesis with Multi-Value Bootstrapping for FHEW-like Schemes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In recent years, the research community has made great progress in improving techniques for privacy-preserving computation, such as fully homomorphic encryption (FHE). Despite the progress, there rema</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_new_perspective_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a new perspective on key switching for bgv-like schemes   fully homomorphic encryption is a promising approach when computing on encrypted data, especially when sensitive data is involved. for bfv, bgv, and ckks, three state-of-the-art encryption schemes, th">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2023/1642" target="_blank">A New Perspective on Key Switching for BGV-like Schemes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fully homomorphic encryption is a promising approach when computing on encrypted data, especially when sensitive data is involved. For BFV, BGV, and CKKS, three state-of-the-art encryption schemes, th</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_unbiasability_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="on the (un)biasability of existing verifiable random functions   verifiable random functions (vrfs) play a fundamental role in modern blockchain designs because of their applications in leader election protocols. in such contexts, however, the original definition b">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2176" target="_blank">On the (Un)biasability of Existing Verifiable Random Functions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Verifiable Random Functions (VRFs) play a fundamental role in modern blockchain designs because of their applications in leader election protocols. In such contexts, however, the original definition b</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="tempo_an_mlkem_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="tempo: an ml-kem to pake compiler resilient to timing attacks   kem-to-pake compilers have been recently proposed to leverage post-quantum kem standardization efforts. these typically follow the encrypted key exchange (eke) paradigm, where the kem public key is en">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1399" target="_blank">Tempo: An ML-KEM to PAKE Compiler Resilient to Timing Attacks</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">KEM-to-PAKE compilers have been recently proposed to leverage post-quantum KEM standardization efforts. These typically follow the Encrypted Key Exchange (EKE) paradigm, where the KEM public key is en</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="tighter_quantum_security_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="tighter quantum security for fiat-shamir-with-aborts and hash-and-sign-with-retry signatures   we revisit the quantum security (in the qrom) of digital signature schemes that follow the fiat-shamir-with-aborts (fswa) or the probabilistic hash-and-sign with retry/abort (hswa) design paradigm. im">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/985" target="_blank">Tighter Quantum Security for Fiat-Shamir-with-Aborts and Hash-and-Sign-with-Retry Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We revisit the quantum security (in the QROM) of digital signature schemes that follow the Fiat-Shamir-with-aborts (FSwA) or the probabilistic hash-and-sign with retry/abort (HSwA) design paradigm. Im</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="tworound_threshold_signature_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="two-round threshold signature from algebraic one-more learning with errors   threshold signatures have recently seen a renewed interest due to applications in cryptocurrency while nist has released a call for multi-party threshold schemes, with a deadline for submission expect">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/496" target="_blank">Two-Round Threshold Signature from Algebraic One-More Learning with Errors</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Threshold signatures have recently seen a renewed interest due to applications in cryptocurrency while NIST has released a call for multi-party threshold schemes, with a deadline for submission expect</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_need_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="on the need for (quantum) memory with short outputs   in this work, we establish the first separation between computation with bounded and unbounded space, for problems with short outputs (i.e., working memory can be exponentially larger than output size">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/403" target="_blank">On the Need for (Quantum) Memory with Short Outputs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work, we establish the first separation between computation with bounded and unbounded space, for problems with short outputs (i.e., working memory can be exponentially larger than output size</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_batch_threshold_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="efficient batch threshold encryption using partial fraction techniques   batch encryption enables a holder of the secret key to publish a succinct pre-decryption key for a set of ciphertexts, such that exactly that set can be decrypted while other ciphertexts remain secret">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/674" target="_blank">Efficient Batch Threshold Encryption Using Partial Fraction Techniques</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Batch encryption enables a holder of the secret key to publish a succinct pre-decryption key for a set of ciphertexts, such that exactly that set can be decrypted while other ciphertexts remain secret</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_merkletree_consistent_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="efficient merkle-tree consistent accumulator   a consistent accumulator computes a digest for a
+dynamically-growing set of elements, with a proof of consistency of
+the new digest with the previous digests. consistent accumulators
+are in wide us">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/673" target="_blank">Efficient Merkle-Tree Consistent Accumulator</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A consistent accumulator computes a digest for a
+dynamically-growing set of elements, with a proof of consistency of
+the new digest with the previous digests. Consistent accumulators
+are in wide us</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="floss_fast_linear_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="floss: fast linear online secret-shared shuffling   randomly permuting secret data vectors is a core building block in many privacy-preserving protocols, including those for analytics, advertising, and communication.
+existing approaches either rely on">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/672" target="_blank">FLOSS: Fast Linear Online Secret-Shared Shuffling</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Randomly permuting secret data vectors is a core building block in many privacy-preserving protocols, including those for analytics, advertising, and communication.
+Existing approaches either rely on</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="a_note_on_2026_3" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="a note on the unsuitability of liga for linkable ring signatures: the perils of non-commutativity   in this work, we study the proposal for a linkable ring signature (lrs) in
+[kts+24]. it is instantiated from the group action based 
+framework described in [bkp20], using the lattice isomorphism 
+g">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/671" target="_blank">A note on the Unsuitability of LIGA for Linkable Ring Signatures: The perils of non-commutativity</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work, we study the proposal for a linkable ring signature (LRS) in
+[KTS+24]. It is instantiated from the group action based 
+framework described in [BKP20], using the Lattice Isomorphism 
+G</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="braess_paradox_in_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="braess paradox in layer-2 blockchain payment networks   payment channel networks (pcns) are a leading method to deal with the scalability limitations of blockchain networks. pcns allow users to execute transactions without committing them to the blockchain">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/669" target="_blank">Braess Paradox in Layer-2 Blockchain Payment Networks</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Payment channel networks (PCNs) are a leading method to deal with the scalability limitations of blockchain networks. PCNs allow users to execute transactions without committing them to the blockchain</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="cryptographic_implications_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="cryptographic implications of worst-case hardness of time-bounded kolmogorov complexity   we consider the worst-case hardness of the gap version of the classic time-bounded kolmogorov complexity problem—$gap_pmk^tp[s_1,s_2]$—where the goal is to determine whether for a given string x, $k^t">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/668" target="_blank">Cryptographic Implications of Worst-Case Hardness of Time-Bounded Kolmogorov Complexity</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We consider the worst-case hardness of the gap version of the classic time-bounded Kolmogorov complexity problem—$Gap_pMK^tP[s_1,s_2]$—where the goal is to determine whether for a given string x, $K^t</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="which_privacy_blanket_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="which privacy blanket is optimal in the shuffle model?   in recent years, the shuffle model has emerged as a prevalent paradigm in privacy-preserving data analysis, centered on the principle of \textit{privacy amplification via shuffling}: an individual use">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/667" target="_blank">Which Privacy Blanket is Optimal in the Shuffle Model?</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In recent years, the shuffle model has emerged as a prevalent paradigm in privacy-preserving data analysis, centered on the principle of \textit{privacy amplification via shuffling}: an individual use</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 

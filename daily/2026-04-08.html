@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-08</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-08</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-08</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-08 03:22</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 125 篇 → 启发式 111 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Committing Security of BBB Secure MACs](https://eprint.iacr.org/2026/425)</h3>
+
+<blockquote>
+<p>ePrint 2026/425 | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/425.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：承诺安全性作为消息认证码（MAC）的一项关键属性，在端到端加密消息系统的滥用报告等应用中日益受到关注。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究深入分析了BBB安全MAC方案的承诺安全性。通过建立新的安全模型或分析框架，论文评估了在特定攻击场景下，BBB安全MAC能否有效阻止发送者否认其发送的消息，并量化了其承诺强度。这有助于理解现有MAC方案在承诺安全方面的局限性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为设计更具承诺安全性的MAC方案提供了理论基础和实践指导，对于提升现代加密通信的不可否认性和可追溯性具有重要意义。</p>
+
+<hr>
+
+<h3>2. [Exact Formula for RX-Differential Probability Through Modular Addition for All Rotations](https://doi.org/10.46586/TOSC.V2025.I1.542-591)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Alex Biryukov, Baptiste Lambin, Aleksei Udovenko</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.542-591)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：RX-差分分析是评估密码算法安全性的重要工具，尤其对于涉及旋转（Rotation）、异或（XOR）和模加（Modular Addition）操作的算法，精确计算其差分概率是核心挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本论文致力于推导一个精确的数学公式，用于计算数据通过模加操作后，在所有可能旋转量下的RX-差分概率。研究可能利用了组合数学、数论或概率论的先进技术，细致分析了输入差分、模加操作和旋转对输出差分分布的影响，从而得到了一个普适性的精确表达式。</p>
+
+<p>🎯 <strong>意义</strong>：这一精确公式极大地提升了对包含模加和旋转操作的密码算法进行RX-差分分析的效率和准确性，为密码设计者和分析者提供了评估算法安全性的强大工具。</p>
+
+<hr>
+
+<h3>3. [Extending the Quasidifferential Framework: From Fixed-Key to Expected Differential Probability](https://doi.org/10.46586/TOSC.V2025.I1.515-541)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Christina Boura, Patrick Derbez, Baptiste Germon</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.515-541)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：差分分析是评估分组密码安全性的核心方法，但传统的分析多集中于固定密钥下的差分概率，而实际攻击中更关注所有密钥上的平均表现，即期望差分概率。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究旨在扩展现有的准差分（Quasidifferential）框架，使其能够有效地从固定密钥下的差分概率分析过渡到计算期望差分概率。这可能涉及引入新的理论模型、数学工具或计算方法，以桥接这两种概率概念，从而更准确地反映密码算法在实际应用中的平均安全性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作使得差分分析更贴近实际的密码攻击场景，为密码算法的安全性评估提供了更全面和准确的视角，有助于设计更具鲁棒性的密码系统。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.633-692" target="_blank">Linear Cancellations in the MitM Attacks on Sponge Functions</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.633-692)</p>
+<p><em>Lingyue Qin, Boxin Zhao, Qingliang Hou, Keting Jia, Gaoli Wang et al. (6人)</em></p>
+
+<blockquote>
+<p>本文研究了海绵函数中间相遇攻击中线性抵消现象，揭示了其对攻击效率和复杂度的影响。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I1.656-683" target="_blank">Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I1.656-683)</p>
+<p><em>Vedad Hadzic, Roderick Bloem</em></p>
+
+<blockquote>
+<p>直接研究S盒设计</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I1.586-631" target="_blank">A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to AES, SNOW3G, and Saturnin</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I1.586-631)</p>
+<p><em>Yongjin Jeon, Seungjun Baek 0002, Giyoon Kim, Jongsung Kim</em></p>
+
+<blockquote>
+<p>直接研究S盒设计</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/585" target="_blank">Format-Preserving Compression-Tolerating Authenticated Encryption for Images</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/585.pdf)</p>
+
+<blockquote>
+<p>本文研究了一种针对图像的格式保持且容忍压缩的认证加密方案，确保即使密文被压缩也能成功解密并提供可证明的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/2053" target="_blank">HCTR+: An Optimally Secure TBC-based Accordion Mode</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/2053.pdf)</p>
+
+<blockquote>
+<p>本文提出了HCTR+，一种基于可调宽块密码（TBC）的Accordion模式，实现了最优安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/624" target="_blank">Weak-key cryptanalysis of Blink</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/624.pdf)</p>
+
+<blockquote>
+<p>本文揭示了FSE 2026上提出的可调分组密码Blink的弱密钥攻击，表明在特定密钥下其安全性存在缺陷。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/409" target="_blank">Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/409.pdf)</p>
+
+<blockquote>
+<p>直接研究对称置换分析</p>
+</blockquote>
+
+<p><em>精选自 125 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
