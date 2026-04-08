@@ -9956,3 +9956,299 @@ papers:
   - PRESENT
   fetched_date: '2026-04-07'
   source: eprint
+- id: reducing_the_number_2026
+  title: Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/280
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: Solving the Discrete Logarithm problem on the group of points of an elliptic curve is one of the major cryptographic
+    applications of Shor's algorithm. However, current estimates for the number of qubi
+  status: pending_review
+  matched_keywords:
+  - ARX
+  - PRESENT
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: verification_facade_masquerading_2026
+  title: 'Verification Facade: Masquerading Insecure Cryptographic Implementations as Verified Code'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/670
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Hax is a verification pipeline that translates a subset of Rust into F*, enabling machine-checked proofs of panic
+    freedom and functional correctness for cryptographic implementations being developed i
+  status: pending_review
+  matched_keywords:
+  - ChaCha
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: finding_and_evaluating_2026
+  title: Finding and Evaluating Parameters for BGV
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/706
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) is a groundbreaking technology that allows for arbitrary computations to be
+    performed on encrypted data. State-of-the-art schemes such as  Brakerski Gentry Vaikuntan
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: improved_circuit_synthesis_2026
+  title: Improved Circuit Synthesis with Multi-Value Bootstrapping for FHEW-like Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1223
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In recent years, the research community has made great progress in improving techniques for privacy-preserving
+    computation, such as fully homomorphic encryption (FHE). Despite the progress, there rema
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: a_new_perspective_2026
+  title: A New Perspective on Key Switching for BGV-like Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1642
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption is a promising approach when computing on encrypted data, especially when sensitive
+    data is involved. For BFV, BGV, and CKKS, three state-of-the-art encryption schemes, th
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: on_the_unbiasability_2026
+  title: On the (Un)biasability of Existing Verifiable Random Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2176
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Verifiable Random Functions (VRFs) play a fundamental role in modern blockchain designs because of their applications
+    in leader election protocols. In such contexts, however, the original definition b
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: tempo_an_mlkem_2026
+  title: 'Tempo: An ML-KEM to PAKE Compiler Resilient to Timing Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1399
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: KEM-to-PAKE compilers have been recently proposed to leverage post-quantum KEM standardization efforts. These typically
+    follow the Encrypted Key Exchange (EKE) paradigm, where the KEM public key is en
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: tighter_quantum_security_2026
+  title: Tighter Quantum Security for Fiat-Shamir-with-Aborts and Hash-and-Sign-with-Retry Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/985
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We revisit the quantum security (in the QROM) of digital signature schemes that follow the Fiat-Shamir-with-aborts
+    (FSwA) or the probabilistic hash-and-sign with retry/abort (HSwA) design paradigm. Im
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: tworound_threshold_signature_2026
+  title: Two-Round Threshold Signature from Algebraic One-More Learning with Errors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/496
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures have recently seen a renewed interest due to applications in cryptocurrency while NIST has
+    released a call for multi-party threshold schemes, with a deadline for submission expect
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: on_the_need_2026
+  title: On the Need for (Quantum) Memory with Short Outputs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/403
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we establish the first separation between computation with bounded and unbounded space, for problems
+    with short outputs (i.e., working memory can be exponentially larger than output size
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: efficient_batch_threshold_2026
+  title: Efficient Batch Threshold Encryption Using Partial Fraction Techniques
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/674
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Batch encryption enables a holder of the secret key to publish a succinct pre-decryption key for a set of ciphertexts,
+    such that exactly that set can be decrypted while other ciphertexts remain secret
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: efficient_merkletree_consistent_2026
+  title: Efficient Merkle-Tree Consistent Accumulator
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/673
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "A consistent accumulator computes a digest for a\r\ndynamically-growing set of elements, with a proof of consistency\
+    \ of\r\nthe new digest with the previous digests. Consistent accumulators\r\nare in wide us"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: floss_fast_linear_2026
+  title: 'FLOSS: Fast Linear Online Secret-Shared Shuffling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/672
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: "Randomly permuting secret data vectors is a core building block in many privacy-preserving protocols, including\
+    \ those for analytics, advertising, and communication.\r\nExisting approaches either rely on"
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: a_note_on_2026_3
+  title: 'A note on the Unsuitability of LIGA for Linkable Ring Signatures: The perils of non-commutativity'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/671
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "In this work, we study the proposal for a linkable ring signature (LRS) in\r\n[KTS+24]. It is instantiated from\
+    \ the group action based \r\nframework described in [BKP20], using the Lattice Isomorphism \r\nG"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: braess_paradox_in_2026
+  title: Braess Paradox in Layer-2 Blockchain Payment Networks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/669
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Payment channel networks (PCNs) are a leading method to deal with the scalability limitations of blockchain networks.
+    PCNs allow users to execute transactions without committing them to the blockchain
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: cryptographic_implications_of_2026
+  title: Cryptographic Implications of Worst-Case Hardness of Time-Bounded Kolmogorov Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/668
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We consider the worst-case hardness of the gap version of the classic time-bounded Kolmogorov complexity problem—$Gap_pMK^tP[s_1,s_2]$—where
+    the goal is to determine whether for a given string x, $K^t
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
+- id: which_privacy_blanket_2026
+  title: Which Privacy Blanket is Optimal in the Shuffle Model?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/667
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In recent years, the shuffle model has emerged as a prevalent paradigm in privacy-preserving data analysis, centered
+    on the principle of \textit{privacy amplification via shuffling}: an individual use'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-04-08'
+  source: eprint
