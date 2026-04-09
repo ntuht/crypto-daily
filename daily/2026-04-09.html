@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-09</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-09</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-09</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-09 02:57</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 112 篇 → 启发式 103 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Mix-Basis Geometric Approach to Boomerang Distinguishers](https://doi.org/10.46586/TOSC.V2025.I3.693-728)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Chengcheng Chang, Hosein Hadipour, Kai Hu 0001, Muzhou Li, Meiqin Wang</p>
+
+<blockquote>
+<p>TOSC 2025 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.693-728)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：回旋镖攻击是差分攻击的一种变体，用于分析分组密码的安全性，其有效性依赖于寻找特定的差分路径。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种混合基几何方法，旨在通过几何视角对回旋镖区分器进行建模和分析，可能通过更抽象的数学框架来系统地发现或理解其特性，从而为构造或评估回旋镖攻击提供新工具。</p>
+
+<p>🎯 <strong>意义</strong>：这为评估分组密码抵抗回旋镖攻击的能力提供了新的理论工具和分析视角，有助于密码设计者构建更安全的算法。</p>
+
+<hr>
+
+<h3>2. [A proof of P≠NP (New symmetric encryption  algorithm against any linear attacks and  differential attacks)](https://eprint.iacr.org/2025/445)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2025/445.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：P vs NP问题是计算复杂性理论中一个核心的未解难题，对算法设计和理论计算机科学具有深远影响。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文声称给出了P≠NP问题的证明，并在此理论基础上设计了一种新型对称加密算法。该算法据称能抵抗所有已知的线性攻击和差分攻击，这在对称密码学领域是一个极其强烈的声明。</p>
+
+<p>🎯 <strong>意义</strong>：如果P≠NP的证明成立，将对整个计算机科学产生革命性影响；而提出的加密算法若真能抵抗所有线性与差分攻击，则在对称密码学领域具有重大突破性，但此类声明通常需要极其严谨的同行评审和验证。</p>
+
+<hr>
+
+<h3>3. [Quantum Truncated Differential Attacks Using Convolutions](https://doi.org/10.46586/TOSC.V2026.I1.148-188)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Aurel Pichollet-Mugnier, André Schrottenloher</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2026.I1.148-188)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：截断差分攻击是分析分组密码安全性的重要方法，而量子计算的兴起促使研究人员探索其对现有密码分析技术的影响。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种利用卷积操作的量子截断差分攻击方法，旨在探索量子计算如何加速或改进传统截断差分攻击的效率和效果，可能通过量子并行性或特定量子算法来优化差分路径的搜索。</p>
+
+<p>🎯 <strong>意义</strong>：这有助于评估在量子计算背景下，现有分组密码抵抗截断差分攻击的安全性，并为设计抗量子密码提供参考。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.70-124" target="_blank">Dialga: A Family of Low-Latency Tweakable Block Ciphers Using Multiple Linear Layers</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.70-124)</p>
+<p><em>Subhadeep Banik, Tatsuya Ishikawa, Takanori Isobe 0001, Ryoma Ito 0001, Kazuhiko Minematsu et al. (8人)</em></p>
+
+<blockquote>
+<p>Dialga是一个低延迟可调分组密码家族，其设计特点是采用了多个线性层以优化性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.231-261" target="_blank">On the Plaintext Awareness of AEAD Schemes</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.231-261)</p>
+<p><em>Mario Marhuenda Beltrán, Mustafa Khairallah</em></p>
+
+<blockquote>
+<p>研究AEAD方案</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.592-622" target="_blank">How Small Can S-boxes Be?</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.592-622)</p>
+<p><em>Chenhao Jia, Tingting Cui, Qing Ling, Yan He, Kai Hu 0001 et al. (7人)</em></p>
+
+<blockquote>
+<p>研究对称密码S-box组件</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.211-239" target="_blank">Revisiting Leakage-Resilient MACs and Succinctly-Committing AEAD More Applications of Pseudo-Random Injections</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.211-239)</p>
+<p><em>Mustafa Khairallah</em></p>
+
+<blockquote>
+<p>本文重新审视了抗泄漏MAC和简洁承诺AEAD方案，并探讨了伪随机注入在这些方案中的更多应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I4.125-166" target="_blank">THF: Designing Low-Latency Tweakable Block Ciphers</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I4.125-166)</p>
+<p><em>Jianhua Wang, Tao Huang, Guang Zeng, Tianyou Ding, Shuang Wu et al. (6人)</em></p>
+
+<blockquote>
+<p>THF是一个关于设计低延迟可调分组密码的研究，旨在优化密码算法在特定应用场景下的性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I3.827-867" target="_blank">MDS Diffusion Layers for Arithmetization-Oriented Symmetric Ciphers: The Rotational-Add Construction</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I3.827-867)</p>
+<p><em>Baofeng Wu, Wen Kong, Dewei Kong, Hailun Yan</em></p>
+
+<blockquote>
+<p>研究对称密码扩散层</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TCHES.V2025.I3.437-469" target="_blank">Cymric: Short-tailed but Mighty Beyond-birthday-bound Secure Authenticated Encryption for Short Inputs</a></strong> | [📎 PDF](https://doi.org/10.46586/TCHES.V2025.I3.437-469)</p>
+<p><em>Alexandre Adomnicai, Wonseok Choi 0002, Yeongmin Lee, Kazuhiko Minematsu, Yusuke Naito 0001</em></p>
+
+<blockquote>
+<p>设计认证加密方案</p>
+</blockquote>
+
+<p><em>精选自 112 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
