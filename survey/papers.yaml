@@ -10252,3 +10252,200 @@ papers:
   - LED
   fetched_date: '2026-04-08'
   source: eprint
+- id: efficiently_provable_approximations_2026
+  title: Efficiently Provable Approximations for Non-Polynomial Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2326
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Zero-Knowledge Proofs (ZKPs) are now widely used to verify the correctness of various types of computations. However,
+    despite phenomenal advancements, current ZKPs are inefficient for applications tha
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: threshold_signatures_reloaded_2026
+  title: 'Threshold Signatures Reloaded: ML-DSA and Enhanced Raccoon with Identifiable Aborts'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1166
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures enable multiple participants to collaboratively produce a digital signature, ensuring both
+    fault tolerance and decentralization. As we transition to the post-quantum era, lattice-
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: hermine_an_efficient_2026
+  title: 'Hermine: An Efficient Lattice-based FROST-like Threshold Signature'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/419
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures have regained a strong interest recently, driven by applications in cryptocurrencies and NIST's
+    ongoing call for threshold schemes. Among them, FROST - a classical threshold Schno
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: partial_fraction_techniques_2026
+  title: Partial Fraction Techniques for Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2081
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Partial fraction decomposition is a fundamental technique in mathematics where products of rational functions
+    can be expressed as sums of fractions. While rational functions have been used in various '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: veil_lightweight_zeroknowledge_2026
+  title: 'VEIL: Lightweight Zero-Knowledge for Hash-Based Multilinear Proof Systems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/683
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: As efficient proof systems mature rapidly, more practical use cases that require zero-knowledge (ZK) guarantees
+    are arising. Adding ZK typically requires either composing the non-zk base system with a
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: witnessindistinguishable_arguments_of_2026
+  title: Witness-Indistinguishable Arguments of Knowledge and One-Way Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/682
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: "In this paper we study the cryptographic complexity of non-trivial witness-indistinguishable (WI) arguments of\
+    \ knowledge. We establish that:\r\n\r\n- Assuming that $NP\\not\\subseteq P/poly$, the existence "
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: the_many_faces_2026
+  title: 'The many faces of Schnorr: a touch-up'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/681
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In a previous paper [Shoup 2023], we presented a modular toolkit for analyzing threshold Schnorr signature schemes,
+    built around "enhanced attack modes" in the non-distributed setting. In this note, w
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: compressed_key_exchange_2026
+  title: Compressed Key Exchange Protocol from Orientations of Large Discriminant Using AVX-512
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/679
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'CSIDH (Commutative Supersingular Isogeny Diffie--Hellman) is a class-group-based key-exchange protocol operated
+    on supersingular elliptic curves, which, at the time of its proposal, exhibited several '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: mergeable_snargs_for_2026
+  title: Mergeable SNARGs for Trapdoor Languages and Their Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/678
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new method for merging short computationally sound proofs (SNARGs). Intuitively, this means going
+    from short proofs of two statements to a short proof of a statement that is a ``logical c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: splash_speculative_leakageadaptive_2026
+  title: 'SPLASH: SPeculative Leakage-Adaptive Secure Hardware'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/677
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Modern processors are largely fixed at the time of fabrication, rendering post-silicon security updates infeasible.
+    This lack of flexibility is especially problematic for speculative execution attacks
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-09'
+  source: eprint
+- id: an_efficient_identitybased_2026
+  title: An Efficient Identity-Based Blind Signature Scheme from SM9
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/676
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blind signatures are a fundamental cryptographic primitive enabling privacy-preserving protocols such as e-cash,
+    e-voting, and anonymous authentication. However, achieving both formal security and com
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-09'
+  source: eprint
