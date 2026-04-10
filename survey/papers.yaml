@@ -10449,3 +10449,89 @@ papers:
   - PRESENT
   fetched_date: '2026-04-09'
   source: eprint
+- id: ohlala_combined_security_2026
+  title: 'OhLaLa: Combined Security against Region Fault Attacks in Constant Protection Order'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1275
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ensuring rigorous protection against physical attacks that simultaneously combine passive side-channel observations
+    with active fault injections is a recent and rapidly evolving research area. Polynom
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-10'
+  source: eprint
+- id: accelerating_frodokem_in_2026
+  title: Accelerating FrodoKEM in Hardware
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2269
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: FrodoKEM, a conservative post-quantum key encapsulation mechanism based on the plain Learning with Errors (LWE)
+    problem, has been recommended for use by several government cybersecurity agencies and i
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-04-10'
+  source: eprint
+- id: gggsw_chosenciphertext_secure_2026
+  title: 'GG-GSW: Chosen-Ciphertext Secure Leveled FHE From Gadget Trapdoors'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/316
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We build a leveled fully homomorphic encryption (FHE) scheme that achieves IND-CCA1 security under the  learning
+    with errors (LWE) assumption in the standard model. It is the first scheme of this kind
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-10'
+  source: eprint
+- id: smallfield_hashbased_snargs_2026
+  title: Small-field hash-based SNARGs are less sound than conjectured
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2197
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Hash-based succinct non-interactive arguments (SNARGs) are a widely studied and deployed class of proof systems.
+    The security of practical hash-based SNARGs relies on two combinatorial parameters of i
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-10'
+  source: eprint
+- id: bermuda_a_bpseccompatible_2026
+  title: 'BERMUDA: A BPSec-Compatible Key Management Scheme for DTNs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/806
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Delay- and Disruption-tolerant Networks (DTNs) enable communication in challenging environments like space and
+    underwater. Despite the need for secure communication, key management remains an unresolv
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-10'
+  source: eprint

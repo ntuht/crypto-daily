@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 584 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 589 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (375)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (380)
 
 ## 算法设计
 
@@ -383,7 +383,7 @@
 
 ## 算法分析
 
-### 差分分析 (261 篇)
+### 差分分析 (266 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -584,6 +584,11 @@
 - 🟡 **2026** — Mergeable SNARGs for Trapdoor Languages and Their Applications
 - 🟡 **2026** — SPLASH: SPeculative Leakage-Adaptive Secure Hardware
 - 🟡 **2026** — An Efficient Identity-Based Blind Signature Scheme from SM9
+- 🟡 **2026** — OhLaLa: Combined Security against Region Fault Attacks in Constant Protection Order
+- 🟡 **2026** — Accelerating FrodoKEM in Hardware
+- 🟡 **2026** — GG-GSW: Chosen-Ciphertext Secure Leveled FHE From Gadget Trapdoors
+- 🟡 **2026** — Small-field hash-based SNARGs are less sound than conjectured
+- 🟡 **2026** — BERMUDA: A BPSec-Compatible Key Management Scheme for DTNs
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
