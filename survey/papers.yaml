@@ -10535,3 +10535,433 @@ papers:
   - PRESENT
   fetched_date: '2026-04-10'
   source: eprint
+- id: towards_scalable_yoso_2026
+  title: Towards Scalable YOSO MPC via Packed Secret-Sharing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/635
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The YOSO (You Only Speak Once) model, introduced by Gentry et al. (CRYPTO 2021), helps to achieve strong security
+    guarantees in cryptographic protocols for  distributed settings, like blockchains, wit
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: languageagnostic_detection_of_2026
+  title: Language-Agnostic Detection of Computation-Constraint Inconsistencies in ZKP Programs via Value Inference
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2120
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs (ZKPs) allow a prover to convince a verifier of a statement's truth without revealing any
+    other information. In recent years, ZKPs have matured into a practical technology underp
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: a_practical_neighborhood_2026
+  title: A Practical Neighborhood Search Attack on Oracle MLWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/177
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Oracle Module Learning with Errors (Oracle MLWE) assumption, recently introduced by Liu et al. (Asiacrypt~2025),
+    strengthens standard (Module) LWE by allowing masked linear leakages of the secret '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: multiparty_functional_encryption_2026
+  title: 'Multi-Party Functional Encryption (MPFE): A tool in the distributed and decentralized world'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1902
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Functional Encryption (FE) is a concept that generalizes public-key encryption, allowing a party that owns a private
+    key to find a function of the plaintext (instead of the plaintext itself). Multi-Pa
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: proxcode_efficient_proximity_2026
+  title: 'ProxCode: Efficient Proximity Searchable Encryption from Error Correcting Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/999
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This work builds approximate proximity searchable encryption. Secure biometric databases are the primary application.\
+    \ \r\nPrior work (Kuzu, Islam, and Kantarcioglu, ICDE 2012) combines locality-sensitiv"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: atcompromise_security_the_2026
+  title: 'At-Compromise Security: The Case for Alert Blindness'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/252
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We start from the observation in prior work that cryptography broadly intuits security goals – as modelled in games
+    or ideal functionalities – while claiming realism. This stands in contrast to crypto
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: the_pipes_model_2026
+  title: The Pipes Model for Latency and Throughput Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1116
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Protocols for State-Machine-Replication (sometimes called 'blockchain' protocols)  generally make use of rotating
+    leaders to drive consensus. In typical protocols (henceforth called 'single-sender' pr
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: compact_efficient_and_2026
+  title: Compact, Efficient and CCA-Secure Updatable Encryption from Isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1853
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Updatable Encryption (UE) allows ciphertexts to be updated under new keys without decryption, enabling efficient
+    key rotation. Constructing post-quantum UE with strong security guarantees is challengi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: quick_draw_queries_2026
+  title: 'Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key
+    Exchange'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/703
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Basically, public-key searchable encryption schemes require a linear search time with respect to the total number
+    of ciphertexts. Xu, Wu, Wang, Susilo, Domingo-Ferrer, and Jin (IEEE Transactions on In
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - AES
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: a_constructive_treatment_2026
+  title: A Constructive Treatment of Authentication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/702
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We review the traditional techniques of message authentication from the perspective of Constructive Cryptography,
+    one of the major composable security frameworks. For each of the 'textbook' means of m
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: boolean_arithmetic_over_2026
+  title: Boolean Arithmetic over $\mathbb{F}_2$ from Group Commutators
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/701
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper studies efficient realizations of arithmetic over the binary field $\mathbb{F}_2$ in nonabelian groups
+    using only intrinsic group operations, namely multiplication and inversion. The constr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: postquantum_secure_ktimes_2026
+  title: Post-Quantum Secure k-Times Traceable Ring Signature
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/697
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ring signatures are cryptographic primitives that enable a user to sign a message on behalf of a group of users
+    in an anonymous manner. The anonymity of the signer is the fundamental security property
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: a_key_schedule_2026
+  title: A Key Schedule Design and Evaluation under Boundary Round-Key Leakage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/696
+  directions:
+  - round_function
+  - milp_sat_cp
+  - differential
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We study key-schedule design under boundary round-key leakage, namely leakage of the first round key, the last
+    round key, or both end round keys. We propose the nonlinear key-schedule $\mathrm{RK}_i =
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - permutation
+  - SPN
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: 2g2t_constantsize_statistically_2026
+  title: '2G2T: Constant-Size, Statistically Sound MSM Outsourcing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/695
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-scalar multiplication (MSM), $MSM(\vec{P},\vec{x})=\sum_{i=1}^n x_i P_i$, is a dominant computational kernel
+    in discrete-logarithm–based cryptography and often becomes a bottleneck for verifiers
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: proximity_signatures_2026
+  title: Proximity Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/694
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this note we introduce the concept of proximity signatures, where verifiers who can only access a small part
+    of some data would like a guarantee that (a) this data is “close” to a uniquely decodabl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: breaking_optimized_hqc_2026
+  title: 'Breaking Optimized HQC: The First Cache-Timing Full Decryption Oracle Key-Recovery Attack in Post-Quantum Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/693
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Hamming Quasi-Cyclic (HQC) has been selected by NIST for standardization in the post-quantum landscape. As deployment
+    approaches, implementation security becomes as critical as mathematical hardness. '
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: efficient_partially_blind_2026
+  title: Efficient Partially Blind Signatures from Isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/692
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: (Partially) blind signatures are foundational cryptographic primitives that enable privacy-preserving authentication
+    in digital systems. Blind signatures allow a user to obtain a signature on a messag
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: pipesc_a_resourceefficient_2026
+  title: 'PipeSC: A Resource-efficient and Pipelined Hardware Accelerator for Sumcheck Protocol'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/691
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge Succinct Non-interactive Arguments of Knowledge (zk-SNARKs) are cryptographic protocols that allow
+    a prover to convince verifiers of the correctness of a statement without revealing any
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: multivariate_witnesshiding_adaptor_2026
+  title: Multivariate Witness-Hiding Adaptor Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/690
+  directions:
+  - meet_in_the_middle
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Adaptor signatures extend digital signatures with conditional disclosure capabilities, enabling atomic swaps, payment
+    channels, and other advanced blockchain protocols. Although post-quantum adaptor s
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: evaluating_pqc_kems_2026
+  title: Evaluating PQC KEMs, Combiners, and Cascade Encryption via Adaptive IND-CPA Testing Using Deep Learning
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/689
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Ensuring ciphertext indistinguishability is fundamental to cryptographic security, but empirically validating this
+    property in real implementations and hybrid settings presents practical challenges. T
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AES
+  - PRESENT
+  - ChaCha
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: too_far_behind_2026
+  title: Too Far Behind? Narrowing the Gap with a Dual-Enhanced Two-Stage Algebraic Framework for LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/688
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The Learning with Errors (LWE) problem forms the foundation for numerous post-quantum cryptographic schemes, such
+    as the NIST-selected CRYSTALS-KYBER and CRYSTALS-DILITHIUM. Algebraic analysis on LWE '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: highthroughput_sidechannelprotected_stream_2026
+  title: High-Throughput Side-Channel-Protected Stream Cipher Hardware for 6G Systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/687
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: Emerging 6G communication systems impose unprecedented requirements on cryptographic primitives, demanding ultra-high
+    throughput, low latency, and strong resistance to implementation-level attacks. LO
+  status: pending_review
+  matched_keywords:
+  - low latency
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: secure_msm_outsourcing_2026
+  title: Secure MSM Outsourcing Computation for Zero-knowledge Proof Generation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/686
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proof (ZKP) schemes enable a prover to convince a verifier of the validity of a statement without
+    revealing the underlying secret. These schemes have found extensive applications in sec
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-12'
+  source: eprint
+- id: zeal_pir_for_2026
+  title: 'Zeal: PIR for Non-Cooperative Databases'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/684
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Information Retrieval (PIR), a set of techniques from the literature on cryptography, enables the retrieval
+    of data from a public database while concealing the intent of those querying it, eve
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-04-12'
+  source: eprint
