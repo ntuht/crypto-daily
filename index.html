@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-11 02:53</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-12 03:34</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">589</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">613</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,25 +35,25 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">589</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">613</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">66</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">68</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">32</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">28</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">29</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
+  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">23</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">23</span></div>
-  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">22</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">17</span></div>
+  <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">16</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">15</span></div>
-  <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">15</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">266</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">85</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">60</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">284</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">88</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">62</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">34</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">29</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">26</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 589 篇论文</div>
+        <div class="result-count" id="resultCount">显示 613 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -5119,6 +5119,320 @@ G</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">Delay- and Disruption-tolerant Networks (DTNs) enable communication in challenging environments like space and underwater. Despite the need for secure communication, key management remains an unresolv</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="towards_scalable_yoso_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="towards scalable yoso mpc via packed secret-sharing   the yoso (you only speak once) model, introduced by gentry et al. (crypto 2021), helps to achieve strong security guarantees in cryptographic protocols for  distributed settings, like blockchains, wit">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/635" target="_blank">Towards Scalable YOSO MPC via Packed Secret-Sharing</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The YOSO (You Only Speak Once) model, introduced by Gentry et al. (CRYPTO 2021), helps to achieve strong security guarantees in cryptographic protocols for  distributed settings, like blockchains, wit</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="languageagnostic_detection_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="language-agnostic detection of computation-constraint inconsistencies in zkp programs via value inference   zero-knowledge proofs (zkps) allow a prover to convince a verifier of a statement&#x27;s truth without revealing any other information. in recent years, zkps have matured into a practical technology underp">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2120" target="_blank">Language-Agnostic Detection of Computation-Constraint Inconsistencies in ZKP Programs via Value Inference</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Zero-knowledge proofs (ZKPs) allow a prover to convince a verifier of a statement&#x27;s truth without revealing any other information. In recent years, ZKPs have matured into a practical technology underp</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_practical_neighborhood_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a practical neighborhood search attack on oracle mlwe   the oracle module learning with errors (oracle mlwe) assumption, recently introduced by liu et al. (asiacrypt~2025), strengthens standard (module) lwe by allowing masked linear leakages of the secret">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/177" target="_blank">A Practical Neighborhood Search Attack on Oracle MLWE</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Oracle Module Learning with Errors (Oracle MLWE) assumption, recently introduced by Liu et al. (Asiacrypt~2025), strengthens standard (Module) LWE by allowing masked linear leakages of the secret</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="multiparty_functional_encryption_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="multi-party functional encryption (mpfe): a tool in the distributed and decentralized world   functional encryption (fe) is a concept that generalizes public-key encryption, allowing a party that owns a private key to find a function of the plaintext (instead of the plaintext itself). multi-pa">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1902" target="_blank">Multi-Party Functional Encryption (MPFE): A tool in the distributed and decentralized world</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Functional Encryption (FE) is a concept that generalizes public-key encryption, allowing a party that owns a private key to find a function of the plaintext (instead of the plaintext itself). Multi-Pa</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="proxcode_efficient_proximity_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="proxcode: efficient proximity searchable encryption from error correcting codes   this work builds approximate proximity searchable encryption. secure biometric databases are the primary application. 
+prior work (kuzu, islam, and kantarcioglu, icde 2012) combines locality-sensitiv">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/999" target="_blank">ProxCode: Efficient Proximity Searchable Encryption from Error Correcting Codes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This work builds approximate proximity searchable encryption. Secure biometric databases are the primary application. 
+Prior work (Kuzu, Islam, and Kantarcioglu, ICDE 2012) combines locality-sensitiv</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="atcompromise_security_the_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="at-compromise security: the case for alert blindness   we start from the observation in prior work that cryptography broadly intuits security goals – as modelled in games or ideal functionalities – while claiming realism. this stands in contrast to crypto">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/252" target="_blank">At-Compromise Security: The Case for Alert Blindness</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We start from the observation in prior work that cryptography broadly intuits security goals – as modelled in games or ideal functionalities – while claiming realism. This stands in contrast to crypto</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="the_pipes_model_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="the pipes model for latency and throughput analysis   protocols for state-machine-replication (sometimes called &#x27;blockchain&#x27; protocols)  generally make use of rotating leaders to drive consensus. in typical protocols (henceforth called &#x27;single-sender&#x27; pr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1116" target="_blank">The Pipes Model for Latency and Throughput Analysis</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Protocols for State-Machine-Replication (sometimes called &#x27;blockchain&#x27; protocols)  generally make use of rotating leaders to drive consensus. In typical protocols (henceforth called &#x27;single-sender&#x27; pr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="compact_efficient_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="compact, efficient and cca-secure updatable encryption from isogenies   updatable encryption (ue) allows ciphertexts to be updated under new keys without decryption, enabling efficient key rotation. constructing post-quantum ue with strong security guarantees is challengi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1853" target="_blank">Compact, Efficient and CCA-Secure Updatable Encryption from Isogenies</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Updatable Encryption (UE) allows ciphertexts to be updated under new keys without decryption, enabling efficient key rotation. Constructing post-quantum UE with strong security guarantees is challengi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="quick_draw_queries_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="quick draw queries: lightweight searchable public-key ciphertexts with hidden structures via non-interactive key exchange   basically, public-key searchable encryption schemes require a linear search time with respect to the total number of ciphertexts. xu, wu, wang, susilo, domingo-ferrer, and jin (ieee transactions on in">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/703" target="_blank">Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key Exchange</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Basically, public-key searchable encryption schemes require a linear search time with respect to the total number of ciphertexts. Xu, Wu, Wang, Susilo, Domingo-Ferrer, and Jin (IEEE Transactions on In</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="a_constructive_treatment_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a constructive treatment of authentication   we review the traditional techniques of message authentication from the perspective of constructive cryptography, one of the major composable security frameworks. for each of the &#x27;textbook&#x27; means of m">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/702" target="_blank">A Constructive Treatment of Authentication</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We review the traditional techniques of message authentication from the perspective of Constructive Cryptography, one of the major composable security frameworks. For each of the &#x27;textbook&#x27; means of m</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="boolean_arithmetic_over_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="boolean arithmetic over $\mathbb{f}_2$ from group commutators   this paper studies efficient realizations of arithmetic over the binary field $\mathbb{f}_2$ in nonabelian groups using only intrinsic group operations, namely multiplication and inversion. the constr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/701" target="_blank">Boolean Arithmetic over $\mathbb{F}_2$ from Group Commutators</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper studies efficient realizations of arithmetic over the binary field $\mathbb{F}_2$ in nonabelian groups using only intrinsic group operations, namely multiplication and inversion. The constr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="postquantum_secure_ktimes_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="post-quantum secure k-times traceable ring signature   ring signatures are cryptographic primitives that enable a user to sign a message on behalf of a group of users in an anonymous manner. the anonymity of the signer is the fundamental security property">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/697" target="_blank">Post-Quantum Secure k-Times Traceable Ring Signature</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Ring signatures are cryptographic primitives that enable a user to sign a message on behalf of a group of users in an anonymous manner. The anonymity of the signer is the fundamental security property</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_key_schedule_2026" data-dirs="round_function,milp_sat_cp,differential,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="a key schedule design and evaluation under boundary round-key leakage   we study key-schedule design under boundary round-key leakage, namely leakage of the first round key, the last round key, or both end round keys. we propose the nonlinear key-schedule $\mathrm{rk}_i =">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/696" target="_blank">A Key Schedule Design and Evaluation under Boundary Round-Key Leakage</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study key-schedule design under boundary round-key leakage, namely leakage of the first round key, the last round key, or both end round keys. We propose the nonlinear key-schedule $\mathrm{RK}_i =</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轮函数结构</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="2g2t_constantsize_statistically_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="2g2t: constant-size, statistically sound msm outsourcing   multi-scalar multiplication (msm), $msm(\vec{p},\vec{x})=\sum_{i=1}^n x_i p_i$, is a dominant computational kernel in discrete-logarithm–based cryptography and often becomes a bottleneck for verifiers">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/695" target="_blank">2G2T: Constant-Size, Statistically Sound MSM Outsourcing</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multi-scalar multiplication (MSM), $MSM(\vec{P},\vec{x})=\sum_{i=1}^n x_i P_i$, is a dominant computational kernel in discrete-logarithm–based cryptography and often becomes a bottleneck for verifiers</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="proximity_signatures_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="proximity signatures   in this note we introduce the concept of proximity signatures, where verifiers who can only access a small part of some data would like a guarantee that (a) this data is “close” to a uniquely decodabl">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/694" target="_blank">Proximity Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this note we introduce the concept of proximity signatures, where verifiers who can only access a small part of some data would like a guarantee that (a) this data is “close” to a uniquely decodabl</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="breaking_optimized_hqc_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="breaking optimized hqc: the first cache-timing full decryption oracle key-recovery attack in post-quantum cryptography   hamming quasi-cyclic (hqc) has been selected by nist for standardization in the post-quantum landscape. as deployment approaches, implementation security becomes as critical as mathematical hardness.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/693" target="_blank">Breaking Optimized HQC: The First Cache-Timing Full Decryption Oracle Key-Recovery Attack in Post-Quantum Cryptography</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Hamming Quasi-Cyclic (HQC) has been selected by NIST for standardization in the post-quantum landscape. As deployment approaches, implementation security becomes as critical as mathematical hardness.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_partially_blind_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="efficient partially blind signatures from isogenies   (partially) blind signatures are foundational cryptographic primitives that enable privacy-preserving authentication in digital systems. blind signatures allow a user to obtain a signature on a messag">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/692" target="_blank">Efficient Partially Blind Signatures from Isogenies</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">(Partially) blind signatures are foundational cryptographic primitives that enable privacy-preserving authentication in digital systems. Blind signatures allow a user to obtain a signature on a messag</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="pipesc_a_resourceefficient_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="pipesc: a resource-efficient and pipelined hardware accelerator for sumcheck protocol   zero-knowledge succinct non-interactive arguments of knowledge (zk-snarks) are cryptographic protocols that allow a prover to convince verifiers of the correctness of a statement without revealing any">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/691" target="_blank">PipeSC: A Resource-efficient and Pipelined Hardware Accelerator for Sumcheck Protocol</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Zero-knowledge Succinct Non-interactive Arguments of Knowledge (zk-SNARKs) are cryptographic protocols that allow a prover to convince verifiers of the correctness of a statement without revealing any</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="multivariate_witnesshiding_adaptor_2026" data-dirs="meet_in_the_middle,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="multivariate witness-hiding adaptor signatures   adaptor signatures extend digital signatures with conditional disclosure capabilities, enabling atomic swaps, payment channels, and other advanced blockchain protocols. although post-quantum adaptor s">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/690" target="_blank">Multivariate Witness-Hiding Adaptor Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Adaptor signatures extend digital signatures with conditional disclosure capabilities, enabling atomic swaps, payment channels, and other advanced blockchain protocols. Although post-quantum adaptor s</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="evaluating_pqc_kems_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="evaluating pqc kems, combiners, and cascade encryption via adaptive ind-cpa testing using deep learning   ensuring ciphertext indistinguishability is fundamental to cryptographic security, but empirically validating this property in real implementations and hybrid settings presents practical challenges. t">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/689" target="_blank">Evaluating PQC KEMs, Combiners, and Cascade Encryption via Adaptive IND-CPA Testing Using Deep Learning</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Ensuring ciphertext indistinguishability is fundamental to cryptographic security, but empirically validating this property in real implementations and hybrid settings presents practical challenges. T</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="too_far_behind_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="too far behind? narrowing the gap with a dual-enhanced two-stage algebraic framework for lwe   the learning with errors (lwe) problem forms the foundation for numerous post-quantum cryptographic schemes, such as the nist-selected crystals-kyber and crystals-dilithium. algebraic analysis on lwe">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/688" target="_blank">Too Far Behind? Narrowing the Gap with a Dual-Enhanced Two-Stage Algebraic Framework for LWE</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Learning with Errors (LWE) problem forms the foundation for numerous post-quantum cryptographic schemes, such as the NIST-selected CRYSTALS-KYBER and CRYSTALS-DILITHIUM. Algebraic analysis on LWE</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="highthroughput_sidechannelprotected_stream_2026" data-dirs="low_latency"
+     data-year="2026" data-significance="medium"
+     data-search="high-throughput side-channel-protected stream cipher hardware for 6g systems   emerging 6g communication systems impose unprecedented requirements on cryptographic primitives, demanding ultra-high throughput, low latency, and strong resistance to implementation-level attacks. lo">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/687" target="_blank">High-Throughput Side-Channel-Protected Stream Cipher Hardware for 6G Systems</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Emerging 6G communication systems impose unprecedented requirements on cryptographic primitives, demanding ultra-high throughput, low latency, and strong resistance to implementation-level attacks. LO</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">低时延密码</span></div>
+</div>
+
+<div class="paper-card" data-id="secure_msm_outsourcing_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="secure msm outsourcing computation for zero-knowledge proof generation   zero-knowledge proof (zkp) schemes enable a prover to convince a verifier of the validity of a statement without revealing the underlying secret. these schemes have found extensive applications in sec">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/686" target="_blank">Secure MSM Outsourcing Computation for Zero-knowledge Proof Generation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Zero-knowledge proof (ZKP) schemes enable a prover to convince a verifier of the validity of a statement without revealing the underlying secret. These schemes have found extensive applications in sec</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="zeal_pir_for_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="zeal: pir for non-cooperative databases   private information retrieval (pir), a set of techniques from the literature on cryptography, enables the retrieval of data from a public database while concealing the intent of those querying it, eve">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/684" target="_blank">Zeal: PIR for Non-Cooperative Databases</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Private Information Retrieval (PIR), a set of techniques from the literature on cryptography, enables the retrieval of data from a public database while concealing the intent of those querying it, eve</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
