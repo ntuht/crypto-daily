@@ -10965,3 +10965,165 @@ papers:
   - PRESENT
   fetched_date: '2026-04-12'
   source: eprint
+- id: secure_lookup_tables_2026
+  title: 'Secure Lookup Tables: Faster, Leaner, and More General'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2109
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure lookup table (LUT) protocols allow retrieving values from a table at secret indices, and have become a promising
+    approach for the secure evaluation of non-linear functions. Most existing LUT pr
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: alternating_sponge_a_2026
+  title: 'Alternating Sponge: A Low-Memory Hash Function with Beyond-Birthday-Bound Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/707
+  directions:
+  - permutation_layer
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: An improved low-memory hash function scheme called Alternating Sponge (ASP) is proposed to achieve the beyond-birthday-bound
+    security with respect to the capacity $c$. The scheme redesigns the state l
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - diffusion
+  - LED
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: jesseq_efficient_zeroknowledge_2026
+  title: 'JesseQ: Efficient Zero-Knowledge Proofs for Circuits over Any Field'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/533
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent advances in Vector Oblivious Linear Evaluation (VOLE) protocols have enabled constant-round, fast, and scalable
+    (designated-verifier) zero-knowledge proofs, significantly reducing prover comput
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: optimizing_and_implementing_2026_1
+  title: Optimizing and Implementing Threshold MAYO
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/710
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Threshold signatures distribute trust across multiple parties, eliminating\r\nsingle points of failure and reducing\
+    \ insider and key-exfiltration risks—properties that are increasingly important for high"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: bat_small_and_2026
+  title: 'BAT: Small and Fast KEM over NTRU Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/031
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present $\BAT$ -- an IND-CCA secure key encapsulation mechanism (KEM) that is based on NTRU but follows an encryption/decryption
+    paradigm distinct from classical NTRU KEMs. It demonstrates a new ap
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: dropin_masked_modular_2026
+  title: 'Drop-In Masked Modular Reduction for ML-DSA: Cutting Side-Channel Cost in the Root-of-Trust'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/711
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Masking is an effective defense against side-channel attacks, yet it remains costly under hardware constraints.
+    The Caliptra Root-of-Trust is a representative case, where its masked ML-DSA implementat
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: zkrag_efficiently_proving_2026
+  title: 'zkRAG: Efficiently Proving RAG Retrieval in Zero Knowledge'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/709
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Retrieval-augmented generation (RAG) systems critically depend on a vector-retrieval stage that selects relevant
+    documents from a large embedding database. In a RAG-as-a-Service setting, however, clie
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: block_circulant_codes_2026
+  title: Block Circulant Codes for Ethereum PeerDAS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/708
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this report, we describe how block circulant (BC) codes can serve as an alternative to one-dimensional (1D)
+    and two-dimensional (2D) Reed–Solomon (RS) codes in the Ethereum PeerDAS protocol. We beg
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-13'
+  source: eprint
+- id: improved_cryptanalysis_of_2026_1
+  title: Improved Cryptanalysis of the Permuted Kernel Problem with Applications to PERK v2.2.0, SUSHSYFISH and PKP-DSS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/706
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The Permuted Kernel Problem (PKP), introduced by Shamir, is a computationally hard problem underlying recent post-quantum
+    signature schemes such as PERK, SUSHSYFISH and PKP-DSS. Among these, PERK is a
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  fetched_date: '2026-04-13'
+  source: eprint
