@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-12 03:34</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-13 03:40</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">613</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">622</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,25 +35,25 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">613</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">622</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">68</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">69</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">32</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">29</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">30</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">23</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">23</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">17</span></div>
+  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">16</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">16</span></div>
-  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">15</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">284</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">88</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">62</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">288</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">89</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">64</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">34</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">29</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">26</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 613 篇论文</div>
+        <div class="result-count" id="resultCount">显示 622 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -5434,6 +5434,125 @@ Prior work (Kuzu, Islam, and Kantarcioglu, ICDE 2012) combines locality-sensitiv
   <div class="paper-authors"></div>
   <div class="paper-summary">Private Information Retrieval (PIR), a set of techniques from the literature on cryptography, enables the retrieval of data from a public database while concealing the intent of those querying it, eve</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="secure_lookup_tables_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="secure lookup tables: faster, leaner, and more general   secure lookup table (lut) protocols allow retrieving values from a table at secret indices, and have become a promising approach for the secure evaluation of non-linear functions. most existing lut pr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2109" target="_blank">Secure Lookup Tables: Faster, Leaner, and More General</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Secure lookup table (LUT) protocols allow retrieving values from a table at secret indices, and have become a promising approach for the secure evaluation of non-linear functions. Most existing LUT pr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="alternating_sponge_a_2026" data-dirs="permutation_layer,linear_diffusion"
+     data-year="2026" data-significance="medium"
+     data-search="alternating sponge: a low-memory hash function with beyond-birthday-bound security   an improved low-memory hash function scheme called alternating sponge (asp) is proposed to achieve the beyond-birthday-bound security with respect to the capacity $c$. the scheme redesigns the state l">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/707" target="_blank">Alternating Sponge: A Low-Memory Hash Function with Beyond-Birthday-Bound Security</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">An improved low-memory hash function scheme called Alternating Sponge (ASP) is proposed to achieve the beyond-birthday-bound security with respect to the capacity $c$. The scheme redesigns the state l</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span><span class="tag tag-direction">线性扩散层</span></div>
+</div>
+
+<div class="paper-card" data-id="jesseq_efficient_zeroknowledge_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="jesseq: efficient zero-knowledge proofs for circuits over any field   recent advances in vector oblivious linear evaluation (vole) protocols have enabled constant-round, fast, and scalable (designated-verifier) zero-knowledge proofs, significantly reducing prover comput">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/533" target="_blank">JesseQ: Efficient Zero-Knowledge Proofs for Circuits over Any Field</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Recent advances in Vector Oblivious Linear Evaluation (VOLE) protocols have enabled constant-round, fast, and scalable (designated-verifier) zero-knowledge proofs, significantly reducing prover comput</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="optimizing_and_implementing_2026_1" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="optimizing and implementing threshold mayo   threshold signatures distribute trust across multiple parties, eliminating
+single points of failure and reducing insider and key-exfiltration risks—properties that are increasingly important for high">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/710" target="_blank">Optimizing and Implementing Threshold MAYO</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Threshold signatures distribute trust across multiple parties, eliminating
+single points of failure and reducing insider and key-exfiltration risks—properties that are increasingly important for high</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="bat_small_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="bat: small and fast kem over ntru lattices   we present $\bat$ -- an ind-cca secure key encapsulation mechanism (kem) that is based on ntru but follows an encryption/decryption paradigm distinct from classical ntru kems. it demonstrates a new ap">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2022/031" target="_blank">BAT: Small and Fast KEM over NTRU Lattices</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present $\BAT$ -- an IND-CCA secure key encapsulation mechanism (KEM) that is based on NTRU but follows an encryption/decryption paradigm distinct from classical NTRU KEMs. It demonstrates a new ap</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="dropin_masked_modular_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="drop-in masked modular reduction for ml-dsa: cutting side-channel cost in the root-of-trust   masking is an effective defense against side-channel attacks, yet it remains costly under hardware constraints. the caliptra root-of-trust is a representative case, where its masked ml-dsa implementat">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/711" target="_blank">Drop-In Masked Modular Reduction for ML-DSA: Cutting Side-Channel Cost in the Root-of-Trust</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Masking is an effective defense against side-channel attacks, yet it remains costly under hardware constraints. The Caliptra Root-of-Trust is a representative case, where its masked ML-DSA implementat</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="zkrag_efficiently_proving_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="zkrag: efficiently proving rag retrieval in zero knowledge   retrieval-augmented generation (rag) systems critically depend on a vector-retrieval stage that selects relevant documents from a large embedding database. in a rag-as-a-service setting, however, clie">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/709" target="_blank">zkRAG: Efficiently Proving RAG Retrieval in Zero Knowledge</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Retrieval-augmented generation (RAG) systems critically depend on a vector-retrieval stage that selects relevant documents from a large embedding database. In a RAG-as-a-Service setting, however, clie</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="block_circulant_codes_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="block circulant codes for ethereum peerdas   in this report, we describe how block circulant (bc) codes can serve as an alternative to one-dimensional (1d) and two-dimensional (2d) reed–solomon (rs) codes in the ethereum peerdas protocol. we beg">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/708" target="_blank">Block Circulant Codes for Ethereum PeerDAS</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this report, we describe how block circulant (BC) codes can serve as an alternative to one-dimensional (1D) and two-dimensional (2D) Reed–Solomon (RS) codes in the Ethereum PeerDAS protocol. We beg</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="improved_cryptanalysis_of_2026_1" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="improved cryptanalysis of the permuted kernel problem with applications to perk v2.2.0, sushsyfish and pkp-dss   the permuted kernel problem (pkp), introduced by shamir, is a computationally hard problem underlying recent post-quantum signature schemes such as perk, sushsyfish and pkp-dss. among these, perk is a">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/706" target="_blank">Improved Cryptanalysis of the Permuted Kernel Problem with Applications to PERK v2.2.0, SUSHSYFISH and PKP-DSS</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Permuted Kernel Problem (PKP), introduced by Shamir, is a computationally hard problem underlying recent post-quantum signature schemes such as PERK, SUSHSYFISH and PKP-DSS. Among these, PERK is a</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
