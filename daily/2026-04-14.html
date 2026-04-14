@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-14</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-14</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-14</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-14 03:30</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 68 篇 → 启发式 61 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Computer-Aided Proof for Extended Generalized Feistel Networks](https://doi.org/10.46586/TOSC.V2026.I1.345-375)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Yuchao Chen, Chun Guo, Muzhou Li, Shuo Peng, Hao Lei et al. (7人)</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.V2026.I1.345-375)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Feistel网络是分组密码设计中的基础结构，其安全性分析对密码学至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：该论文利用计算机辅助证明方法，对扩展广义Feistel网络（GFN）的特定安全属性或结构特性进行形式化验证。这通常涉及将密码结构抽象为数学模型，并借助自动化工具来证明其在特定攻击模型下的安全性或满足预设的设计标准，从而提升分析的严谨性和可靠性。</p>
+
+<p>🎯 <strong>意义</strong>：这种方法有助于提高复杂密码结构设计的可信度，并为未来密码分析提供更坚实的理论基础和验证手段。</p>
+
+<hr>
+
+<h3>2. [SIR: A Sparse-Interaction Keystream Generator with a Hardware-Oriented Architecture](https://eprint.iacr.org/2026/009)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/009.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在资源受限的数字系统中，轻量级密钥流生成器对面积、功耗和逻辑结构效率有着极高的要求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了SIR，一种创新的稀疏交互密钥流生成器，其设计理念专注于硬件实现效率。通过优化内部组件的连接和操作方式，SIR旨在最小化硬件资源消耗，同时确保足够的密码学安全性，以满足物联网（IoT）等低功耗设备的需求。</p>
+
+<p>🎯 <strong>意义</strong>：SIR的设计为在资源极度受限的环境中部署高效且安全的加密方案提供了新的思路和具体实现。</p>
+
+<hr>
+
+<h3>3. [A Fiat–Shamir Transformation From Duplex Sponges](https://eprint.iacr.org/2025/536)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2025/536.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Fiat-Shamir变换是构建非交互式零知识证明的关键工具，而双工海绵结构在现代密码学原语设计中扮演着重要角色。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：该论文分析了一种基于理想置换的Fiat-Shamir变换变体，该变体巧妙地利用了流行的双工海绵范式。其核心贡献在于通过优化转换过程，显著减少了对底层置换函数的调用次数，从而提高了整体效率。</p>
+
+<p>🎯 <strong>意义</strong>：这种优化对于提升基于Fiat-Shamir和海绵结构的密码协议的性能和效率具有重要意义，尤其是在需要频繁进行证明生成的场景。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/146" target="_blank">Feistel Tools: Reprogramming and Query-Recording for QRPs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/146.pdf)</p>
+
+<blockquote>
+<p>论文提出了一种通用方法，用于将量子随机预言模型（QROM）中的查询记录和重编程等证明技术扩展到Feistel结构。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/661" target="_blank">Pseudorandomness of UFLM: A Characterization via Its Linear Layer</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/661.pdf)</p>
+
+<blockquote>
+<p>本论文通过分析其线性层，系统地表征了具有独立随机轮函数的双分支统一Feistel-Lai-Massey (UFLM) 结构的伪随机性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/071" target="_blank">Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/071.pdf)</p>
+
+<blockquote>
+<p>论文提出温度校准方法，以提高神经网络辅助的侧信道分析（SCA）结果的置信度。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/606" target="_blank">PD-Net: Learning Device-Invariant Representations for Heterogeneous Cross-Device Side-Channel Attacks</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/606.pdf)</p>
+
+<blockquote>
+<p>PD-Net旨在学习设备无关的表示，以解决异构跨设备侧信道攻击中模型泛化能力差的挑战。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2026.I1.441-467" target="_blank">Fourier Analysis of Neural Distinguishers</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2026.I1.441-467)</p>
+<p><em>Yufei Yuan, Wenling Wu, Lei Zhang 0186, Ruichen Wu</em></p>
+
+<blockquote>
+<p>论文通过傅里叶分析方法，深入探讨了神经网络区分器的工作原理和特性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/670" target="_blank">Verification Facade: Masquerading Insecure Cryptographic Implementations as Verified Code</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/670.pdf)</p>
+
+<blockquote>
+<p>论文揭示了如何通过“验证门面”将不安全的密码学实现伪装成经过验证的代码，并提出了Hax验证管道。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1211" target="_blank">May the Force $\textit{not}$ Be with you: Brute-Force Resistant Biometric Authentication and Key Reconstruction</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1211.pdf)</p>
+
+<blockquote>
+<p>论文提出了一种抗暴力破解的生物识别认证和密钥重构方案，以应对生物识别技术日益增长的安全威胁。</p>
+</blockquote>
+
+<p><em>精选自 68 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
