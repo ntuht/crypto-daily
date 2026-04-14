@@ -181,7 +181,7 @@ papers:
   title: The Boomerang Attack
   authors:
   - David Wagner
-  venue: FSE 1999
+  venue: ePrint
   year: 1999
   url: https://eprint.iacr.org/2026/205
   directions:
@@ -190,6 +190,7 @@ papers:
   significance: high
   summary: 提出回旋镖攻击，组合两条短差分特征绕过长路径概率过低的问题。
   status: reviewed
+  source: eprint
 - id: kelsey1999amplified
   title: Amplified Boomerang Attacks Against Reduced-Round MARS and Serpent
   authors:
@@ -11126,4 +11127,186 @@ papers:
   matched_keywords:
   - meet-in-the-middle
   fetched_date: '2026-04-13'
+  source: eprint
+- id: threshold_publickey_encryption_2026
+  title: 'Threshold Public-Key Encryption:  Definitions, Relations, and CPA-to-CCA Transforms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1665
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Threshold public-key encryption (TPKE) allows $t$ out of $k$ parties to jointly decrypt a ciphertext, while ensuring
+    confidentiality against any coalition of $t-1$ parties. Despite its long history an
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: sustained_space_and_2026
+  title: Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/832
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Memory-hard functions (MHFs) are a useful cryptographic primitive which can be used to design egalitarian proof
+    of work puzzles and to protect low entropy secrets like passwords against brute-force at
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: proofs_of_space_2026
+  title: Proofs of Space with Maximal Hardness
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1530
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In a proof of space, a prover performs a complex computation with a large output. A verifier periodically checks
+    that the prover still holds the output. The security goal for a proof of space construc
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: on_the_active_2026
+  title: On the Active Security of the PEARL-SCALLOP Group Action
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/191
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present an active attack against the PEARL-SCALLOP group action. Modelling Alice as an oracle that outputs the
+    action by a secret ideal class on suitably chosen oriented elliptic curves, we show ho
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: optimal_byzantine_agreement_2026
+  title: Optimal Byzantine Agreement in the Presence of Message Drops
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1738
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: To more accurately capture real-world network and adversarial behaviors, recent research has explored Byzantine
+    Agreement (BA) under various mixed-fault models. The breakthroughs by Loss et al. (TCC'2
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: adaptive_nike_for_2026
+  title: Adaptive NIKE for Unbounded Parties
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/035
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This paper presents the first construction of adaptively secure non-interactive key exchange (NIKE) for an unbounded\
+    \ number of parties in the standard model.\r\nWhile prior unbounded protocols were rest"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: cyclo_lightweight_latticebased_2026
+  title: 'Cyclo: Lightweight Lattice-based Folding via Partial Range Checks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/359
+  directions:
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Folding is a powerful technique for constructing efficient succinct proof systems, especially for computations\
+    \ that are expressed in a streaming fashion.\r\n  In this work, we present Cyclo, a new latti"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: jagged_polynomial_commitments_2026
+  title: 'Jagged Polynomial Commitments (or: How to Stack Multilinears)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/917
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Modern SNARK constructions, almost ubiquitously, rely on a polynomial commitment scheme (PCS) --- a method by which
+    a prover can commit to a large polynomial $P$ and later provide evaluation proofs of
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: how_to_make_2026
+  title: 'How To Make Delegated Payments on Bitcoin: A Question for the AI Agentic Future'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/395
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'AI agents and custodial services are increasingly being entrusted as intermediaries to conduct transactions on
+    behalf of institutions. The stakes are high: The digital asset market is projected to exc'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-14'
+  source: eprint
+- id: mathsfspectra_intervalagnostic_vector_2026
+  title: '$\mathsf{Spectra}$: Interval-Agnostic Vector Range Argument for Unstructured Range Assertions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/339
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'A structured vector range argument proves that a committed vector $\mathbf{v}$ lies in a well-structured range
+    of the form $[0,2^d-1]$. This structure makes the protocol extremely efficient, although '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-14'
   source: eprint
