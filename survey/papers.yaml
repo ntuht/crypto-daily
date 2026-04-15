@@ -11310,3 +11310,101 @@ papers:
   - PRESENT
   fetched_date: '2026-04-14'
   source: eprint
+- id: asynchronous_distributed_key_2026
+  title: Asynchronous Distributed Key Generation with Flexible Threshold and Batched Key Derivation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1463
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Distributed Key Generation (DKG) is a vital security foundation for decentralized technologies like blockchain
+    and threshold signatures. However, existing asynchronous DKG (ADKG) protocols face bottle
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-04-15'
+  source: eprint
+- id: postquantum_security_of_2026_1
+  title: Post-Quantum Security of Block Cipher Constructions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/209
+  directions:
+  - milp_sat_cp
+  - lightweight
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: Block ciphers are versatile cryptographic ingredients that are used in a wide range of applications ranging from
+    secure Internet communications to disk encryption. While post-quantum security of publi
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - block cipher
+  - tweakable
+  fetched_date: '2026-04-15'
+  source: eprint
+- id: haystack_ciphers_whitebox_2026
+  title: 'Haystack ciphers: White-box countermeasures as Symmetric encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1635
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the area of white-box cryptography implementations, many existing protections are susceptible to attacks derived
+    from physical cryptanalysis, which can be applied with minimal human effort and no p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-15'
+  source: eprint
+- id: mifa_an_milpbased_2026
+  title: 'MIFA: An MILP-based Framework for Improving Differential Fault Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2070
+  directions:
+  - milp_sat_cp
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: At ASIACRYPT 2021, Baksi et al. introduced DEFAULT, a block cipher designed to algorithmically resist Differential
+    Fault Attack (DFA), claiming 64-bit DFA security regardless of the number of injected
+  status: pending_review
+  matched_keywords:
+  - differential
+  - MILP
+  - mixed-integer
+  - block cipher
+  - PRESENT
+  fetched_date: '2026-04-15'
+  source: eprint
+- id: fabricx_scaling_hyperledger_2026
+  title: 'Fabric-X: Scaling Hyperledger Fabric for Asset Exchange'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1717
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The adoption of Distributed Ledger Technology (DLT) for critical financial infrastructures like Central Bank Digital
+    Currencies (CBDCs) is hindered by a significant performance gap. Permissioned block
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-15'
+  source: eprint
