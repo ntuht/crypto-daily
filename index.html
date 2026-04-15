@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-14 03:30</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-15 03:28</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">632</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">637</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,15 +35,15 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">632</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">637</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">70</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">72</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">32</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">30</span></div>
+  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">24</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">23</span></div>
-  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">23</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">17</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">16</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">16</span></div>
@@ -51,9 +51,9 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">292</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">92</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">68</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">295</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">94</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">69</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">34</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">29</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">26</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 632 篇论文</div>
+        <div class="result-count" id="resultCount">显示 637 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -5687,6 +5687,71 @@ While prior unbounded protocols were rest</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">A structured vector range argument proves that a committed vector $\mathbf{v}$ lies in a well-structured range of the form $[0,2^d-1]$. This structure makes the protocol extremely efficient, although</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="asynchronous_distributed_key_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="asynchronous distributed key generation with flexible threshold and batched key derivation   distributed key generation (dkg) is a vital security foundation for decentralized technologies like blockchain and threshold signatures. however, existing asynchronous dkg (adkg) protocols face bottle">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1463" target="_blank">Asynchronous Distributed Key Generation with Flexible Threshold and Batched Key Derivation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Distributed Key Generation (DKG) is a vital security foundation for decentralized technologies like blockchain and threshold signatures. However, existing asynchronous DKG (ADKG) protocols face bottle</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="postquantum_security_of_2026_1" data-dirs="milp_sat_cp,lightweight,tweakable"
+     data-year="2026" data-significance="medium"
+     data-search="post-quantum security of block cipher constructions   block ciphers are versatile cryptographic ingredients that are used in a wide range of applications ranging from secure internet communications to disk encryption. while post-quantum security of publi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/209" target="_blank">Post-Quantum Security of Block Cipher Constructions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Block ciphers are versatile cryptographic ingredients that are used in a wide range of applications ranging from secure Internet communications to disk encryption. While post-quantum security of publi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">可调密码</span></div>
+</div>
+
+<div class="paper-card" data-id="haystack_ciphers_whitebox_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="haystack ciphers: white-box countermeasures as symmetric encryption   in the area of white-box cryptography implementations, many existing protections are susceptible to attacks derived from physical cryptanalysis, which can be applied with minimal human effort and no p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1635" target="_blank">Haystack ciphers: White-box countermeasures as Symmetric encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In the area of white-box cryptography implementations, many existing protections are susceptible to attacks derived from physical cryptanalysis, which can be applied with minimal human effort and no p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="mifa_an_milpbased_2026" data-dirs="milp_sat_cp,differential,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="mifa: an milp-based framework for improving differential fault attacks   at asiacrypt 2021, baksi et al. introduced default, a block cipher designed to algorithmically resist differential fault attack (dfa), claiming 64-bit dfa security regardless of the number of injected">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2070" target="_blank">MIFA: An MILP-based Framework for Improving Differential Fault Attacks</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">At ASIACRYPT 2021, Baksi et al. introduced DEFAULT, a block cipher designed to algorithmically resist Differential Fault Attack (DFA), claiming 64-bit DFA security regardless of the number of injected</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="fabricx_scaling_hyperledger_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="fabric-x: scaling hyperledger fabric for asset exchange   the adoption of distributed ledger technology (dlt) for critical financial infrastructures like central bank digital currencies (cbdcs) is hindered by a significant performance gap. permissioned block">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2023/1717" target="_blank">Fabric-X: Scaling Hyperledger Fabric for Asset Exchange</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The adoption of Distributed Ledger Technology (DLT) for critical financial infrastructures like Central Bank Digital Currencies (CBDCs) is hindered by a significant performance gap. Permissioned block</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
