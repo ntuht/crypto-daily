@@ -11408,3 +11408,188 @@ papers:
   - LED
   fetched_date: '2026-04-15'
   source: eprint
+- id: analyze_the_security_2026
+  title: Analyze the Security of the AEAD Scheme HiAE by Algebraic Techniques
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1203
+  directions:
+  - aead
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: HiAE is a well-designed AEAD scheme using AES round functions, delivering outstanding performance on both ARM and
+    x86 processors. Some existing AEAD schemes such as Rocca (ToSC 2021) have been shown t
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - AEAD
+  - AES
+  - PRESENT
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: featurefence_a_regularization_2026
+  title: 'FeatureFence: A Regularization Approach for Energy-Efficient Secure Inference on Edge NPUs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1899
+  directions:
+  - ml_aided
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Feature-snooping attacks (FSA) are very powerful for reverse engineering machine learning models running on neural
+    processing units (NPUs). While memory encryption is an effective countermeasure for c
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  - LED
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: persistent_bittorrent_trackers_2026
+  title: Persistent BitTorrent Trackers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2131
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Private BitTorrent trackers enforce upload-to-download ratios to prevent free-riding, but suffer from three critical
+    weaknesses: reputation cannot move between trackers, centralized servers create sin'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: grafhen_is_not_2026
+  title: GRAFHEN is not IND-CPA secure
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/700
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "GRAFHEN is a recently proposed noise-free fully homomorphic encryption scheme based on rewriting systems in symmetric\
+    \ groups.\r\n\r\nWe show that GRAFHEN is not IND-CPA secure by constructing a polynomial"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: fullyadaptive_tworound_threshold_2026
+  title: Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1478
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Threshold Schnorr signatures enable $t$-out-of-$n$ parties to collaboratively produce signatures that are indistinguishable
+    from standard Schnorr signatures, ensuring compatibility with existing verif
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: private_ip_address_2026
+  title: Private IP Address Inference in NAT Networks via Off-Path TCP Control-Plane Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/149
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent work at NDSS 2024 demonstrated that widely deployed NAT behaviors in Wi-Fi routers – including port preservation,
+    insufficient reverse path validation, and the absence of TCP window tracking en
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: chosen_ciphertext_secure_2026
+  title: Chosen Ciphertext Secure Functional Encryption from Constrained Witness PRF
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2021/512
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Functional encryption generates sophisticated keys for users so that they can learn specific functions of the encrypted
+    message. We provide a generic construction of chosen ciphertext attacks (CCA) se
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: mathsfveloz_efficient_and_2026
+  title: '$\mathsf{Veloz}$: Efficient and Flexible Distribution Framework for Code-Based Polynomial Commitment Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/714
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Polynomial commitment schemes (PCSs) are a fundamental cryptographic primitive that allows a prover to reveal
+    evaluations for a committed polynomial. Motivated by the inefficiency of proof generation '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: how_to_construct_2026
+  title: How to construct even faster and indifferentiable hash functions from random permutations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/713
+  directions:
+  - invariant
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Designing cryptographic hash functions that simultaneously achieve high throughput and strong provable security
+    remains a fundamental challenge in symmetric cryptography. Traditional constructions, su
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  - PRESENT
+  fetched_date: '2026-04-16'
+  source: eprint
+- id: public_key_encryption_2026
+  title: Public Key Encryption from High-Corruption Constraint Satisfaction Problems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/712
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We give a public key encryption scheme with plausible quasi-exponential security based on the conjectured intractability
+    of two constraint satisfaction problems (CSPs), both of which are instantiated '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-16'
+  source: eprint
