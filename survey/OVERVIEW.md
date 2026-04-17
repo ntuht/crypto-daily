@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 647 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 650 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (438)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (441)
 
 ## 算法设计
 
@@ -199,7 +199,7 @@
 - 🔴 **2004** — Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC [OCB]
 - 🔴 **2004** — The Galois/Counter Mode of Operation (GCM) [AES-GCM]
 
-### 置换层 (31 篇)
+### 置换层 (32 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -228,6 +228,7 @@
 - 🟡 **2026** — A Key Schedule Design and Evaluation under Boundary Round-Key Leakage
 - 🟡 **2026** — Alternating Sponge: A Low-Memory Hash Function with Beyond-Birthday-Bound Security
 - 🟡 **2026** — How to construct even faster and indifferentiable hash functions from random permutations
+- 🟡 **2026** — Tighter trail bounds for Xoodoo
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
@@ -398,7 +399,7 @@
 
 ## 算法分析
 
-### 差分分析 (297 篇)
+### 差分分析 (299 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -635,6 +636,8 @@
 - 🟡 **2026** — Fabric-X: Scaling Hyperledger Fabric for Asset Exchange
 - 🟡 **2026** — GRAFHEN is not IND-CPA secure
 - 🟡 **2026** — Private IP Address Inference in NAT Networks via Off-Path TCP Control-Plane Attack
+- 🟡 **2026** — Tighter trail bounds for Xoodoo
+- 🟡 **2026** — Lattice-based Threshold Blind Signatures
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -798,7 +801,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (72 篇)
+### 中间相遇 (73 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -861,6 +864,7 @@
 - 🟡 **2026** — Analyze the Security of the AEAD Scheme HiAE by Algebraic Techniques
 - 🟡 **2026** — Persistent BitTorrent Trackers
 - 🟡 **2026** — $\mathsf{Veloz}$: Efficient and Flexible Distribution Framework for Code-Based Polynomial Commitment Scheme
+- 🟡 **2026** — UltraProofs: Scalable Reed-Solomon Code Commitment
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]

@@ -11593,3 +11593,59 @@ papers:
   - SAT
   fetched_date: '2026-04-16'
   source: eprint
+- id: tighter_trail_bounds_2026
+  title: Tighter trail bounds for Xoodoo
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/1088
+  directions:
+  - differential
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Determining bounds on the differential probability of differential trails and the squared correlation contribution
+    of linear trails forms an important part of the security evaluation of a permutation.
+  status: pending_review
+  matched_keywords:
+  - differential
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-17'
+  source: eprint
+- id: latticebased_threshold_blind_2026
+  title: Lattice-based Threshold Blind Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1566
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blind signatures are a central tool for privacy-preserving protocols. They allow users to obtain signatures from
+    a signer without the signer seeing the signed message. For instance, it enables electro
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-17'
+  source: eprint
+- id: ultraproofs_scalable_reedsolomon_2026
+  title: 'UltraProofs: Scalable Reed-Solomon Code Commitment'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/865
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Reed–Solomon (RS) codes underpin a wide range of cryptographic protocols, from verifiable secret sharing (VSS)\
+    \ to blockchain data availability (DA).  \r\nAn RS code commitment enables a prover to distri"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-17'
+  source: eprint
