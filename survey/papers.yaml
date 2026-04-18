@@ -11649,3 +11649,37 @@ papers:
   - PRESENT
   fetched_date: '2026-04-17'
   source: eprint
+- id: lin2xor_lemma_an_2026
+  title: 'Lin2-Xor Lemma: an OR-proof that leads to the membership proof and signature'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2020/688
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This paper introduces a logarithmic-size membership proof, Lin2Selector, obtained by iterating a new OR-reduction
+    step, formalized as a standalone argument Lin2Xor. Our main technical contribution is '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-18'
+  source: eprint
+- id: the_syndrome_weight_2026
+  title: The Syndrome Weight Distribution in Quasi-Cyclic Codes, Applications to BIKE and HQC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2218
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Many important code-based cryptographic schemes such as the NIST post-quantum competition finalist BIKE and the
+    to be standardized HQC scheme rely on Quasi-Cyclic Moderate-Density Parity-Check codes (
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-18'
+  source: eprint

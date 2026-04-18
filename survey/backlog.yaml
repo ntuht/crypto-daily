@@ -1,19 +1,4 @@
 papers:
-- id: relaxed_modular_pcs_2026
-  title: Relaxed Modular PCS from Arbitrary PCS and Applications to SNARKs for Integers
-  url: https://eprint.iacr.org/2026/347
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: \emph{Modular Polynomial Commitment Schemes (Mod-PCS)} extend standard PCSs by enabling provable evaluation of
-    integer polynomials modulo a random modulus, providing a natural foundation for SNARKs th
-  heuristic_score: 11
-  added_date: '2026-04-17'
-  authors: []
 - id: integer_commitments_old_2026
   title: Integer Commitments, Old and New Tools
   url: https://eprint.iacr.org/2025/081
@@ -28,24 +13,7 @@ papers:
   summary: This self-contained and detailed tutorial covers RSA-based integer commitments and related protocols. It also presents
     a new, highly efficient setup protocol for sampling commitment parameters.
   heuristic_score: 11
-  added_date: '2026-04-17'
-  authors: []
-- id: on_the_power_2026
-  title: 'On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More'
-  url: https://eprint.iacr.org/2025/238
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - SAT
-  - LED
-  directions:
-  - milp_sat_cp
-  - meet_in_the_middle
-  summary: Cryptographic proof systems enable a verifier to be convinced of a computation's correctness  without re-executing
-    it; common efficiency requirements include both succinct proofs and fast verification
-  heuristic_score: 11
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: quasar_sublinear_multicast_2026
   title: 'Quasar: Sublinear Multi-Cast Commitment Mixing in Recursive Accumulation'
@@ -59,40 +27,7 @@ papers:
   summary: Sitting at the core of folding-based recursion, multi-instance accumulation still forces the recursive verifier
     to combine $\ell$ committed objects, incurring $\Theta(\ell)$ circuit-expensive commitme
   heuristic_score: 11
-  added_date: '2026-04-17'
-  authors: []
-- id: orca_and_dolphin_2026
-  title: 'Orca And Dolphin: Efficient Bivariate And Multilinear Polynomial Commitment Schemes Under Standard Assumptions'
-  url: https://eprint.iacr.org/2026/539
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - SAT
-  - LED
-  directions:
-  - milp_sat_cp
-  - meet_in_the_middle
-  summary: Most polynomial commitment schemes have either superlinear prover time or superconstant argument size. Recently,
-    Ganesh, Patranabis, and Singh introduced SamaritanPCS, and Eagen and Gabizon proposed M
-  heuristic_score: 11
-  added_date: '2026-04-17'
-  authors: []
-- id: proofcarrying_data_via_2026
-  title: Proof-Carrying Data via Holography Accumulation
-  url: https://eprint.iacr.org/2026/538
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  - LED
-  directions:
-  - meet_in_the_middle
-  summary: Succinct non-interactive arguments of knowledge (SNARKs) enable the verification of complex computations via short
-    proofs. Recursive proof composition allows long-running or distributed computations t
-  heuristic_score: 11
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: new_approaches_to_2026
   title: New Approaches to Zero-Knowledge SNARG Constructions
@@ -107,37 +42,7 @@ papers:
   summary: 'Zero-Knowledge Succinct Non-Interactive Arguments (zkSNARGs) are SNARGs in which the proof reveals nothing except
     the validity of the claim. zkSNARGs for NP can be constructed generically from SNARGs '
   heuristic_score: 11
-  added_date: '2026-04-17'
-  authors: []
-- id: analyzing_the_webrtc_2026
-  title: Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP
-  url: https://eprint.iacr.org/2026/584
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: DTLS-SRTP was designed to secure real-time media communication and is found in prominent audio and video call platforms,
-    including Zoom, Teams, and Google Meet. Notably, it is part of Web Real-Time Co
-  heuristic_score: 11
-  added_date: '2026-04-17'
-  authors: []
-- id: on_the_security_2026_1
-  title: On the Security of Constraint-Friendly Map-to-Curve Relations
-  url: https://eprint.iacr.org/2026/590
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - algebraic attack
-  - SAT
-  directions:
-  - milp_sat_cp
-  - algebraic
-  summary: Groth, Malvai, Miller and Zhang (Asiacrypt 2025) introduced constraint-friendly map-to-elliptic-curve-group relations
-    that bypass the inner cryptographic hash when hashing to elliptic curve groups ins
-  heuristic_score: 11
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: revisiting_keyedverification_anonymous_2026
   title: Revisiting Keyed-Verification Anonymous Credentials
@@ -151,7 +56,7 @@ papers:
   summary: Keyed-verification anonymous credentials (KVACs) have demonstrated their practicality through large-scale deployments
     in privacy-critical systems like Signal and Tor.  Despite their widespread adoptio
   heuristic_score: 11
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: mathsftalong_bandwidthefficient_tworound_2026
   title: '$\mathsf{TalonG}$: Bandwidth-Efficient Two-Round Threshold Signatures from Lattices'
@@ -166,7 +71,7 @@ papers:
   summary: Threshold signatures split the secret key among $n$ parties, where any subset of at least $t$ parties can collaboratively
     produce a valid signature. They have been widely deployed in applications such
   heuristic_score: 11
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: partial_fraction_techniques_2026
   title: Partial Fraction Techniques for Cryptography
@@ -181,7 +86,7 @@ papers:
   summary: 'Partial fraction decomposition is a fundamental technique in mathematics where products of rational functions
     can be expressed as sums of fractions. While rational functions have been used in various '
   heuristic_score: 11
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: hashingfriendly_elliptic_curves_2026
   title: Hashing-friendly elliptic curves
@@ -196,7 +101,7 @@ papers:
   summary: This article aims to consider batch hashing to elliptic curves. The given kind of hash functions found numerous
     applications in elliptic curve cryptography. In practice, a hash-to-curve function is of
   heuristic_score: 10
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: ssledag_a_highthroughput_2026
   title: 'SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader
@@ -211,23 +116,7 @@ papers:
   summary: SSLE-DAG Proof-of-Stake (PoS) blockchains with publicly visible leader schedules expose future proposers to targeted
     Denial-of-Service (DoS) attacks. Single Secret Leader Election (SSLE) techniques ad
   heuristic_score: 8
-  added_date: '2026-04-17'
-  authors: []
-- id: proofs_of_space_2026
-  title: Proofs of Space with Maximal Hardness
-  url: https://eprint.iacr.org/2023/1530
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - PRESENT
-  - LED
-  directions:
-  - milp_sat_cp
-  summary: In a proof of space, a prover performs a complex computation with a large output. A verifier periodically checks
-    that the prover still holds the output. The security goal for a proof of space construc
-  heuristic_score: 6
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: securely_scaling_autonomy_2026
   title: 'Securely Scaling Autonomy: The Role of Cryptography in Future Unmanned Aircraft Systems (UAS)'
@@ -242,7 +131,7 @@ papers:
   summary: The decentralisation of autonomous Unmanned Aircraft Systems (UAS) introduces significant challenges for establishing
     secure communication and consensus in contested, resource-constrained environments
   heuristic_score: 6
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: sok_understanding_zkvm_2026
   title: 'SoK: Understanding zkVM: From Research to Practice'
@@ -258,22 +147,7 @@ papers:
   summary: Zero-knowledge virtual machine (zkVM) is a powerful infrastructure for proving the correctness of a program execution
     with a succinct proof, attracting significant interest from researchers, developer
   heuristic_score: 6
-  added_date: '2026-04-17'
-  authors: []
-- id: solving_the_linear_2026
-  title: Solving the Linear Code Equivalence Problem from Single Codeword Matching
-  url: https://eprint.iacr.org/2026/550
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - permutation
-  - LED
-  directions:
-  - permutation_layer
-  summary: In the Linear Code Equivalence (LCE) problem, one seeks the isometry of the Hamming space $\mathbb{F}_q^n$ relating
-    two given linear codes. This problem is considered computationally hard for any alph
-  heuristic_score: 6
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: confidential_transfers_for_2026
   title: Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger
@@ -289,7 +163,7 @@ papers:
   summary: We introduce Confidential Transfers for Multi-Purpose Tokens (Confidential MPTs) on the XRP Ledger, a cryptographic
     extension of the XLS-33 token standard that enables confidential balances and hidden
   heuristic_score: 6
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: ahab_asynchronous_highthroughput_2026
   title: 'AHAB: Asynchronous, High-throughput, Adaptively-secure, Batched Threshold Schnorr Signatures'
@@ -303,7 +177,7 @@ papers:
   summary: We present AHAB, a suite of protocols for threshold Schnorr signatures in the asynchronous communication setting
     with guaranteed output delivery (robustness). We build on the AVSS and GoAVSS protocols
   heuristic_score: 6
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: securing_elliptic_curve_2026
   title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations'
@@ -319,21 +193,7 @@ papers:
   summary: The expected emergence of cryptographically relevant quantum computers (CRQCs) will represent a singular discontinuity
     in the history of digital security, with wide ranging impacts. This whitepaper se
   heuristic_score: 6
-  added_date: '2026-04-17'
-  authors: []
-- id: expanders_meet_reedmuller_2026
-  title: 'Expanders Meet Reed--Muller: Easy Instances of Noisy k-XOR'
-  url: https://eprint.iacr.org/2026/664
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  directions:
-  - milp_sat_cp
-  summary: In the noisy $k$-XOR problem, one is given $y \in \mathbb F_2^M$ and must distinguish between the case where $y$
-    is uniform and the case where $y = Ax + e$, where $A$ is the adjacency matrix of a $k$-
-  heuristic_score: 6
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: fullyadaptive_tworound_threshold_2026
   title: Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH
@@ -348,7 +208,7 @@ papers:
   summary: Threshold Schnorr signatures enable $t$-out-of-$n$ parties to collaboratively produce signatures that are indistinguishable
     from standard Schnorr signatures, ensuring compatibility with existing verif
   heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: zkrag_efficiently_proving_2026
   title: 'zkRAG: Efficiently Proving RAG Retrieval in Zero Knowledge'
@@ -364,24 +224,7 @@ papers:
   summary: Retrieval-augmented generation (RAG) systems critically depend on a vector-retrieval stage that selects relevant
     documents from a large embedding database. In a RAG-as-a-Service setting, however, clie
   heuristic_score: 5
-  added_date: '2026-04-17'
-  authors: []
-- id: quick_draw_queries_2026
-  title: 'Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key
-    Exchange'
-  url: https://eprint.iacr.org/2026/703
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - AES
-  - LED
-  directions:
-  - lightweight
-  summary: Basically, public-key searchable encryption schemes require a linear search time with respect to the total number
-    of ciphertexts. Xu, Wu, Wang, Susilo, Domingo-Ferrer, and Jin (IEEE Transactions on In
-  heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: bridging_usability_and_2026
   title: 'Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption'
@@ -396,7 +239,7 @@ papers:
   summary: Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However,
     the performance of tensor operations in HE is highly sensitive to how the plaintext d
   heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: registrationoptimized_dynamic_group_2026
   title: Registration-Optimized Dynamic Group Time-based One-time Passwords for Offline Mobile Access
@@ -410,7 +253,7 @@ papers:
   summary: Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication,
     allowing users to prove authorization without disclosing their identities. Group Ti
   heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: qedlite_lightweight_detection_2026
   title: 'QED-Lite: Lightweight Detection of Quantum-Vulnerable ELF Binaries via Cryptographic Library Version Fingerprinting'
@@ -424,7 +267,7 @@ papers:
   summary: "The advancement of quantum computing poses a serious\r\nthreat to widely-used public-key cryptographic systems,\
     \ leaving organizations with the challenge of identifying quantum-vulnerable (QV)\r\nexecutabl"
   heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: reducing_the_number_2026
   title: Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
@@ -439,7 +282,7 @@ papers:
   summary: Solving the Discrete Logarithm problem on the group of points of an elliptic curve is one of the major cryptographic
     applications of Shor's algorithm. However, current estimates for the number of qubi
   heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
 - id: veil_lightweight_zeroknowledge_2026
   title: 'VEIL: Lightweight Zero-Knowledge for Hash-Based Multilinear Proof Systems'
@@ -454,5 +297,5 @@ papers:
   summary: As efficient proof systems mature rapidly, more practical use cases that require zero-knowledge (ZK) guarantees
     are arising. Adding ZK typically requires either composing the non-zk base system with a
   heuristic_score: 5
-  added_date: '2026-04-17'
+  added_date: '2026-04-18'
   authors: []
