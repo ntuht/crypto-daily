@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-18</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-18</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-18</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-18 03:19</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 32 篇 → 启发式 30 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP](https://eprint.iacr.org/2026/584)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 8/10 | [📎 PDF](https://eprint.iacr.org/2026/584.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：DTLS-SRTP是WebRTC生态中用于保护实时媒体通信的关键协议，广泛应用于Zoom、Teams和Google Meet等主流音视频会议平台。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文对DTLS-SRTP的认证机制进行了深入分析，发现其在某些配置下存在漏洞，允许攻击者绕过认证。研究者通过构造特定的攻击场景，成功演示了如何利用这些漏洞，从而在WebRTC通信中实现中间人攻击或伪造身份。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了现有实时通信协议中潜在的安全风险，对改进WebRTC及相关平台的安全性具有重要指导意义。</p>
+
+<hr>
+
+<h3>2. [Solving the Linear Code Equivalence Problem from Single Codeword Matching](https://eprint.iacr.org/2026/550)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 8/10 | [📎 PDF](https://eprint.iacr.org/2026/550.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：线性码等价问题（LCE）是编码理论中的一个核心难题，旨在找到两个线性码之间的汉明空间等距变换，其计算难度被认为是密码学中的一个重要基础。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种新颖的方法，通过匹配单个码字来解决线性码等价问题，这显著简化了传统上需要匹配整个码字集合的复杂性。研究者设计了高效的算法，利用码字的结构特性和代数工具，将LCE问题转化为更易处理的子问题。</p>
+
+<p>🎯 <strong>意义</strong>：这一突破性进展为解决LCE问题提供了新的视角和工具，可能对基于编码的密码系统安全性分析和设计产生深远影响。</p>
+
+<hr>
+
+<h3>3. [Expanders Meet Reed--Muller: Easy Instances of Noisy k-XOR](https://eprint.iacr.org/2026/664)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 8/10 | [📎 PDF](https://eprint.iacr.org/2026/664.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：噪声k-XOR问题是一个重要的计算难题，要求区分一个向量是随机的还是由一个稀疏矩阵乘以秘密向量并加上噪声生成的，在密码学和学习理论中有广泛应用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文通过结合扩展图（Expanders）和Reed-Muller码的特性，构造了噪声k-XOR问题的一类“易处理”实例。研究者利用扩展图的良好连接性和Reed-Muller码的代数结构，设计了一种新的编码方式，使得在这些特定实例下，即使存在噪声，也能高效地恢复秘密向量或区分数据来源。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作不仅加深了对噪声k-XOR问题复杂性的理解，也为设计具有特定结构的安全系统或分析其弱点提供了新的思路。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/703" target="_blank">Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key Exchange</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/703.pdf)</p>
+
+<blockquote>
+<p>本文通过非交互式密钥交换，提出了一种轻量级、具有隐藏结构的公钥可搜索密文方案，旨在解决传统方案中线性搜索时间的问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/347" target="_blank">Relaxed Modular PCS from Arbitrary PCS and Applications to SNARKs for Integers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/347.pdf)</p>
+
+<blockquote>
+<p>本文从任意多项式承诺方案（PCS）构建了松弛模多项式承诺方案（Mod-PCS），并将其应用于整数SNARKs，实现对整数多项式模随机数的证明性求值。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/238" target="_blank">On the Power of Polynomial Preprocessing: Proving Computations in Sublinear Time, and More</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/238.pdf)</p>
+
+<blockquote>
+<p>本文探讨了多项式预处理在密码证明系统中的强大作用，实现了次线性时间内的计算证明，并扩展了其应用范围。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/539" target="_blank">Orca And Dolphin: Efficient Bivariate And Multilinear Polynomial Commitment Schemes Under Standard Assumptions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/539.pdf)</p>
+
+<blockquote>
+<p>本文提出了Orca和Dolphin两种高效的双变量及多线性多项式承诺方案，在标准假设下解决了现有方案中证明者时间超线性或论证大小超常数的问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/538" target="_blank">Proof-Carrying Data via Holography Accumulation</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/538.pdf)</p>
+
+<blockquote>
+<p>本文通过全息累加技术实现了证明携带数据（PCD），为SNARKs的递归证明组合提供了新的高效方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/590" target="_blank">On the Security of Constraint-Friendly Map-to-Curve Relations</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/590.pdf)</p>
+
+<blockquote>
+<p>本文分析了Groth等人提出的约束友好型椭圆曲线群映射关系的安全性，该关系旨在绕过内部密码学限制。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2023/1530" target="_blank">Proofs of Space with Maximal Hardness</a></strong> | [📎 PDF](https://eprint.iacr.org/2023/1530.pdf)</p>
+
+<blockquote>
+<p>本文研究了具有最大难度的空间证明（PoS），旨在确保证明者持续持有大量存储空间，并抵抗各种优化攻击。</p>
+</blockquote>
+
+<p><em>精选自 32 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
