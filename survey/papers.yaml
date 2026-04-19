@@ -11683,3 +11683,217 @@ papers:
   - LED
   fetched_date: '2026-04-18'
   source: eprint
+- id: towards_zero_rotation_2026
+  title: 'Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/730
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) using Homomorphic
+    Encryption (HE) for linear computations. Nevertheless, the high computational cos
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: codebased_scalable_collaborative_2026
+  title: Code-based Scalable Collaborative SNARKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/729
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We propose the first collaborative SNARK based on error-correcting codes that is scalable, i.e., the proof computation
+    overhead is distributed among the $N$ provers. As a starting point, we introduce '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: automated_formal_analysis_2026
+  title: 'Automated formal analysis of Signal’s Double Ratchet: attacks, fixes and security proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/727
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The Double Ratchet (DR) protocol is a core security component of several end-to-end encrypted communications\r\
+    \nservices, primarily Signal Messenger, WhatsApp, and Facebook Messenger, servicing billions"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: bitsliced_segmentbased_search_2026
+  title: Bitsliced Segment-Based Search Technique for Low-Depth and Hardware-Efficient S-Box Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/726
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: In this paper, we propose a new widely applicable technique for constructing low-depth S-box circuits, which we
+    call SLICE (Segmented Low‑depth Iterative Circuit Exploration). SLICE reduces circuit de
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  - PRESENT
+  - Ascon
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: hintfree_multisignatures_2026
+  title: Hint-Free Multi-Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/723
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In a (non-interactive) multi-signature scheme, parties independently generate keys and produce signatures on a
+    common message, which can be aggregated into a single signature verifiable with respect t
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: misusing_the_lattice_2026
+  title: (Mis)using the Lattice Isomorphism Problem. Cryptanalysis of the double-LIP and Construction of LIP-Based Blind Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/722
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We explore the design of blind schemes based on the Lattice Isomorphism Problem (LIP), a recently proposed group-action-based
+    assumption for post-quantum cryptography. Our work highlights both the pot
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: improving_latticefold_with_2026
+  title: Improving LatticeFold+ with ℓ2-norm Checks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/721
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Folding schemes enable incremental proving by compressing many relation instances into a small accumulator. Recent
+    lattice-based constructions such as LatticeFold+ [CRYPTO '25] achieve post-quantum se
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: abracapadabra_full_break_2026
+  title: 'ABRA-CAPA-DABRA: Full break of CAPA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/720
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In a paper presented at CRYPTO18, Reparaz et al. introduce a new model called the ``Tile-Probe-and-Fault-Model''.
+    This model proposes to cover more realistic side-channel attacks by considering so-cal
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: polynomialtime_cryptanalytic_extraction_2026
+  title: Polynomial-Time Cryptanalytic Extraction of Graph Neural Networks in the Hard-Label Setting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/719
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: Graph neural network parameters are valuable intellectual property, and high-fidelity extraction enables model
+    stealing, evasion, and downstream abuse. Prior cryptanalytic extraction can recover exact
+  status: pending_review
+  matched_keywords:
+  - ARX
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: zeroknowledge_proof_of_2026
+  title: 'Zero-Knowledge Proof of Progress: Secure Multi-Phase Capture-the-Flag Competitions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/718
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Existing Capture-the-Flag (CTF) platforms trust a single organizer, offer limited auditability, and are vulnerable
+    to infrastructure-level manipulation. We propose zk–MPSFV, a zk-SNARK-based, multi-ph
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: scalable_registrationbased_encryption_2026
+  title: Scalable Registration-Based Encryption from Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/717
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Registration-Based Encryption (RBE) is a public-key encryption mechanism which allows a user to register their
+    identity (e.g. email address) and self-generated public key with a key curator (e.g. an o
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-19'
+  source: eprint
+- id: isesupported_erasure_of_2026
+  title: ISE-supported erasure of residual shares
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/716
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Careful management of shares stored in the architectural, general-purpose register file is an important aspect
+    of software-based implementations of masking, because it can impact the associated side-c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-19'
+  source: eprint

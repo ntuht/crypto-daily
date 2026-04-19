@@ -1,108 +1,4 @@
 papers:
-- id: integer_commitments_old_2026
-  title: Integer Commitments, Old and New Tools
-  url: https://eprint.iacr.org/2025/081
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  - LED
-  directions:
-  - meet_in_the_middle
-  summary: This self-contained and detailed tutorial covers RSA-based integer commitments and related protocols. It also presents
-    a new, highly efficient setup protocol for sampling commitment parameters.
-  heuristic_score: 11
-  added_date: '2026-04-18'
-  authors: []
-- id: quasar_sublinear_multicast_2026
-  title: 'Quasar: Sublinear Multi-Cast Commitment Mixing in Recursive Accumulation'
-  url: https://eprint.iacr.org/2025/1912
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: Sitting at the core of folding-based recursion, multi-instance accumulation still forces the recursive verifier
-    to combine $\ell$ committed objects, incurring $\Theta(\ell)$ circuit-expensive commitme
-  heuristic_score: 11
-  added_date: '2026-04-18'
-  authors: []
-- id: new_approaches_to_2026
-  title: New Approaches to Zero-Knowledge SNARG Constructions
-  url: https://eprint.iacr.org/2026/562
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - LED
-  directions:
-  - meet_in_the_middle
-  summary: 'Zero-Knowledge Succinct Non-Interactive Arguments (zkSNARGs) are SNARGs in which the proof reveals nothing except
-    the validity of the claim. zkSNARGs for NP can be constructed generically from SNARGs '
-  heuristic_score: 11
-  added_date: '2026-04-18'
-  authors: []
-- id: revisiting_keyedverification_anonymous_2026
-  title: Revisiting Keyed-Verification Anonymous Credentials
-  url: https://eprint.iacr.org/2024/1552
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: Keyed-verification anonymous credentials (KVACs) have demonstrated their practicality through large-scale deployments
-    in privacy-critical systems like Signal and Tor.  Despite their widespread adoptio
-  heuristic_score: 11
-  added_date: '2026-04-18'
-  authors: []
-- id: mathsftalong_bandwidthefficient_tworound_2026
-  title: '$\mathsf{TalonG}$: Bandwidth-Efficient Two-Round Threshold Signatures from Lattices'
-  url: https://eprint.iacr.org/2026/303
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: Threshold signatures split the secret key among $n$ parties, where any subset of at least $t$ parties can collaboratively
-    produce a valid signature. They have been widely deployed in applications such
-  heuristic_score: 11
-  added_date: '2026-04-18'
-  authors: []
-- id: partial_fraction_techniques_2026
-  title: Partial Fraction Techniques for Cryptography
-  url: https://eprint.iacr.org/2025/2081
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: 'Partial fraction decomposition is a fundamental technique in mathematics where products of rational functions
-    can be expressed as sums of fractions. While rational functions have been used in various '
-  heuristic_score: 11
-  added_date: '2026-04-18'
-  authors: []
-- id: hashingfriendly_elliptic_curves_2026
-  title: Hashing-friendly elliptic curves
-  url: https://eprint.iacr.org/2025/1926
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  - LED
-  directions:
-  - invariant
-  summary: This article aims to consider batch hashing to elliptic curves. The given kind of hash functions found numerous
-    applications in elliptic curve cryptography. In practice, a hash-to-curve function is of
-  heuristic_score: 10
-  added_date: '2026-04-18'
-  authors: []
 - id: ssledag_a_highthroughput_2026
   title: 'SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader
     Election'
@@ -116,22 +12,21 @@ papers:
   summary: SSLE-DAG Proof-of-Stake (PoS) blockchains with publicly visible leader schedules expose future proposers to targeted
     Denial-of-Service (DoS) attacks. Single Secret Leader Election (SSLE) techniques ad
   heuristic_score: 8
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
-- id: securely_scaling_autonomy_2026
-  title: 'Securely Scaling Autonomy: The Role of Cryptography in Future Unmanned Aircraft Systems (UAS)'
-  url: https://eprint.iacr.org/2026/512
+- id: towards_zero_rotation_2026
+  title: 'Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption'
+  url: https://eprint.iacr.org/2026/730
   source: eprint
   venue: ePrint
   matched_keywords:
-  - SAT
-  - CRAFT
+  - machine learning
   directions:
-  - milp_sat_cp
-  summary: The decentralisation of autonomous Unmanned Aircraft Systems (UAS) introduces significant challenges for establishing
-    secure communication and consensus in contested, resource-constrained environments
+  - ml_aided
+  summary: Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) using Homomorphic
+    Encryption (HE) for linear computations. Nevertheless, the high computational cos
   heuristic_score: 6
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: sok_understanding_zkvm_2026
   title: 'SoK: Understanding zkVM: From Research to Practice'
@@ -147,7 +42,7 @@ papers:
   summary: Zero-knowledge virtual machine (zkVM) is a powerful infrastructure for proving the correctness of a program execution
     with a succinct proof, attracting significant interest from researchers, developer
   heuristic_score: 6
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: confidential_transfers_for_2026
   title: Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger
@@ -163,7 +58,7 @@ papers:
   summary: We introduce Confidential Transfers for Multi-Purpose Tokens (Confidential MPTs) on the XRP Ledger, a cryptographic
     extension of the XLS-33 token standard that enables confidential balances and hidden
   heuristic_score: 6
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: ahab_asynchronous_highthroughput_2026
   title: 'AHAB: Asynchronous, High-throughput, Adaptively-secure, Batched Threshold Schnorr Signatures'
@@ -177,7 +72,7 @@ papers:
   summary: We present AHAB, a suite of protocols for threshold Schnorr signatures in the asynchronous communication setting
     with guaranteed output delivery (robustness). We build on the AVSS and GoAVSS protocols
   heuristic_score: 6
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: securing_elliptic_curve_2026
   title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations'
@@ -193,7 +88,7 @@ papers:
   summary: The expected emergence of cryptographically relevant quantum computers (CRQCs) will represent a singular discontinuity
     in the history of digital security, with wide ranging impacts. This whitepaper se
   heuristic_score: 6
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: fullyadaptive_tworound_threshold_2026
   title: Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH
@@ -208,7 +103,7 @@ papers:
   summary: Threshold Schnorr signatures enable $t$-out-of-$n$ parties to collaboratively produce signatures that are indistinguishable
     from standard Schnorr signatures, ensuring compatibility with existing verif
   heuristic_score: 5
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: zkrag_efficiently_proving_2026
   title: 'zkRAG: Efficiently Proving RAG Retrieval in Zero Knowledge'
@@ -224,7 +119,7 @@ papers:
   summary: Retrieval-augmented generation (RAG) systems critically depend on a vector-retrieval stage that selects relevant
     documents from a large embedding database. In a RAG-as-a-Service setting, however, clie
   heuristic_score: 5
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: bridging_usability_and_2026
   title: 'Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption'
@@ -239,21 +134,7 @@ papers:
   summary: Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However,
     the performance of tensor operations in HE is highly sensitive to how the plaintext d
   heuristic_score: 5
-  added_date: '2026-04-18'
-  authors: []
-- id: registrationoptimized_dynamic_group_2026
-  title: Registration-Optimized Dynamic Group Time-based One-time Passwords for Offline Mobile Access
-  url: https://eprint.iacr.org/2026/595
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  directions:
-  - lightweight
-  summary: Mobile access within public finance and enterprise environments often requires lightweight anonymous authentication,
-    allowing users to prove authorization without disclosing their identities. Group Ti
-  heuristic_score: 5
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: qedlite_lightweight_detection_2026
   title: 'QED-Lite: Lightweight Detection of Quantum-Vulnerable ELF Binaries via Cryptographic Library Version Fingerprinting'
@@ -267,7 +148,7 @@ papers:
   summary: "The advancement of quantum computing poses a serious\r\nthreat to widely-used public-key cryptographic systems,\
     \ leaving organizations with the challenge of identifying quantum-vulnerable (QV)\r\nexecutabl"
   heuristic_score: 5
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: reducing_the_number_2026
   title: Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
@@ -282,7 +163,7 @@ papers:
   summary: Solving the Discrete Logarithm problem on the group of points of an elliptic curve is one of the major cryptographic
     applications of Shor's algorithm. However, current estimates for the number of qubi
   heuristic_score: 5
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []
 - id: veil_lightweight_zeroknowledge_2026
   title: 'VEIL: Lightweight Zero-Knowledge for Hash-Based Multilinear Proof Systems'
@@ -297,5 +178,5 @@ papers:
   summary: As efficient proof systems mature rapidly, more practical use cases that require zero-knowledge (ZK) guarantees
     are arising. Adding ZK typically requires either composing the non-zk base system with a
   heuristic_score: 5
-  added_date: '2026-04-18'
+  added_date: '2026-04-19'
   authors: []

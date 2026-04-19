@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 652 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 664 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (443)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (455)
 
 ## 算法设计
 
@@ -234,6 +234,33 @@
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
+### S-box 设计与评估 (24 篇)
+
+- 🟡 **2026** — How Small Can S-boxes Be?
+- 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
+- 🟡 **2026** — A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to AES, SNOW3G, and Saturnin
+- 🟡 **2026** — Extending Randomness-Free First-Order Masking Schemes and Applications to Masking-Friendly S-boxes
+- 🟡 **2026** — Accelerating FAEST Signatures on ARM: NEON SIMD AES and Parallel VOLE Optimization
+- 🟡 **2026** — An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG
+- 🟡 **2026** — Bitsliced Segment-Based Search Technique for Low-Depth and Hardware-Efficient S-Box Circuits
+- 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
+- 🟡 **2024** — A Family of Biprojective APN Functions
+- 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
+- 🟡 **2023** — Algebraic Properties of the Boolean Map χ in Cryptographic Permutations [Ascon, Keccak, Xoodoo]
+- 🟡 **2023** — StaTI: Stable Threshold Implementation Against Side-Channel and Fault Attacks
+- 🟡 **2023** — SMAesH: Open-Source Masked AES Hardware with HPC Masking [AES]
+- 🟡 **2020** — Alzette: A 64-bit ARX-box [Alzette, SPARKLE]
+- 🟡 **2019** — Boomerang Connectivity Table Revisited
+- 🔴 **2018** — Boomerang Connectivity Table: A New Cryptanalysis Tool [SKINNY, AES]
+- 🔴 **2017** — GIFT: A Small Present [GIFT]
+- 🟡 **2016** — A Unified Framework for S-box Design
+- 🟡 **2011** — Finding Optimal Bitsliced Implementations of 4×4 S-Boxes
+- 🔴 **2007** — On the Classification of 4 Bit S-Boxes
+- 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
+- 🔴 **2002** — The Design of Rijndael: AES — The Advanced Encryption Standard [AES, Rijndael]
+- 🔴 **1998** — Serpent: A Proposal for the Advanced Encryption Standard [SERPENT]
+- 🔴 **1994** — Differentially Uniform Mappings for Cryptography
+
 ### 可调密码 (24 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
@@ -261,32 +288,6 @@
 - 🔴 **2004** — Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC [OCB]
 - 🔴 **2002** — Tweakable Block Ciphers
 
-### S-box 设计与评估 (23 篇)
-
-- 🟡 **2026** — How Small Can S-boxes Be?
-- 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
-- 🟡 **2026** — A Framework for Generating S-Box Circuits with Boyar-Peralta Algorithm-Based Heuristics, and Its Applications to AES, SNOW3G, and Saturnin
-- 🟡 **2026** — Extending Randomness-Free First-Order Masking Schemes and Applications to Masking-Friendly S-boxes
-- 🟡 **2026** — Accelerating FAEST Signatures on ARM: NEON SIMD AES and Parallel VOLE Optimization
-- 🟡 **2026** — An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG
-- 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
-- 🟡 **2024** — A Family of Biprojective APN Functions
-- 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
-- 🟡 **2023** — Algebraic Properties of the Boolean Map χ in Cryptographic Permutations [Ascon, Keccak, Xoodoo]
-- 🟡 **2023** — StaTI: Stable Threshold Implementation Against Side-Channel and Fault Attacks
-- 🟡 **2023** — SMAesH: Open-Source Masked AES Hardware with HPC Masking [AES]
-- 🟡 **2020** — Alzette: A 64-bit ARX-box [Alzette, SPARKLE]
-- 🟡 **2019** — Boomerang Connectivity Table Revisited
-- 🔴 **2018** — Boomerang Connectivity Table: A New Cryptanalysis Tool [SKINNY, AES]
-- 🔴 **2017** — GIFT: A Small Present [GIFT]
-- 🟡 **2016** — A Unified Framework for S-box Design
-- 🟡 **2011** — Finding Optimal Bitsliced Implementations of 4×4 S-Boxes
-- 🔴 **2007** — On the Classification of 4 Bit S-Boxes
-- 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
-- 🔴 **2002** — The Design of Rijndael: AES — The Advanced Encryption Standard [AES, Rijndael]
-- 🔴 **1998** — Serpent: A Proposal for the Advanced Encryption Standard [SERPENT]
-- 🔴 **1994** — Differentially Uniform Mappings for Cryptography
-
 ### 轮函数结构 (23 篇)
 
 - 🟡 **2026** — Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP
@@ -313,13 +314,14 @@
 - 🔴 **1988** — How to Construct Pseudorandom Permutations from Pseudorandom Functions
 - 🔴 **1973** — Cryptography and Computer Privacy [Lucifer]
 
-### 软件友好密码 (17 篇)
+### 软件友好密码 (18 篇)
 
 - 🟡 **2026** — Improving Neural-Inspired Integral Distinguishers via a Linear-Algebraic Approach
 - 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
 - 🟡 **2026** — Human-Extractable ZK Proofs of Knowledge: A Solution to Dark DAOs
 - 🟡 **2026** — An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG
 - 🟡 **2026** — Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
+- 🟡 **2026** — Polynomial-Time Cryptanalytic Extraction of Graph Neural Networks in the Hard-Label Setting
 - 🔴 **2025** — Significantly Improved Cryptanalysis of Salsa20 With Two-Round Criteria [Salsa20]
 - 🟡 **2024** — Improved Key Recovery Attacks on Reduced-Round Salsa20 [Salsa20]
 - 🟡 **2023** — Cryptanalysis of Reduced Round ChaCha - New Attack and Deeper Analysis [ChaCha]
@@ -399,7 +401,7 @@
 
 ## 算法分析
 
-### 差分分析 (301 篇)
+### 差分分析 (308 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -640,6 +642,13 @@
 - 🟡 **2026** — Lattice-based Threshold Blind Signatures
 - 🟡 **2026** — Lin2-Xor Lemma: an OR-proof that leads to the membership proof and signature
 - 🟡 **2026** — The Syndrome Weight Distribution in Quasi-Cyclic Codes, Applications to BIKE and HQC
+- 🟡 **2026** — Automated formal analysis of Signal’s Double Ratchet: attacks, fixes and security proofs
+- 🟡 **2026** — Hint-Free Multi-Signatures
+- 🟡 **2026** — (Mis)using the Lattice Isomorphism Problem. Cryptanalysis of the double-LIP and Construction of LIP-Based Blind Signatures
+- 🟡 **2026** — Improving LatticeFold+ with ℓ2-norm Checks
+- 🟡 **2026** — ABRA-CAPA-DABRA: Full break of CAPA
+- 🟡 **2026** — Zero-Knowledge Proof of Progress: Secure Multi-Phase Capture-the-Flag Competitions
+- 🟡 **2026** — ISE-supported erasure of residual shares
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -703,7 +712,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (97 篇)
+### MILP/SAT/CP 建模技术 (99 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -768,6 +777,8 @@
 - 🟡 **2026** — FeatureFence: A Regularization Approach for Energy-Efficient Secure Inference on Edge NPUs
 - 🟡 **2026** — Chosen Ciphertext Secure Functional Encryption from Constrained Witness PRF
 - 🟡 **2026** — Public Key Encryption from High-Corruption Constraint Satisfaction Problems
+- 🟡 **2026** — Code-based Scalable Collaborative SNARKs
+- 🟡 **2026** — Scalable Registration-Based Encryption from Lattices
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -916,7 +927,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### ML/LLM 辅助密码分析 (30 篇)
+### ML/LLM 辅助密码分析 (31 篇)
 
 - 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
 - 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
@@ -937,6 +948,7 @@
 - 🟡 **2026** — SoK: Connecting the Dots in Privacy-Preserving ML - Systematization of MPC Protocols and Conversions Between Secret Sharing Schemes
 - 🟡 **2026** — Efficiently Provable Approximations for Non-Polynomial Functions
 - 🟡 **2026** — FeatureFence: A Regularization Approach for Energy-Efficient Secure Inference on Edge NPUs
+- 🟡 **2026** — Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
 - 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
