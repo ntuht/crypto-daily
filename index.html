@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-18 03:19</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-04-19 03:38</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">652</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">664</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,27 +35,27 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">652</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">664</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">73</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">33</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">32</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">24</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">24</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">23</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">23</span></div>
-  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">17</span></div>
+  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">18</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">16</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">16</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">301</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">97</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">308</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">99</span></div>
   <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">73</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">34</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">30</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">31</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">26</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">24</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 652 篇论文</div>
+        <div class="result-count" id="resultCount">显示 664 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -5952,6 +5952,164 @@ An RS code commitment enables a prover to distri</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">Many important code-based cryptographic schemes such as the NIST post-quantum competition finalist BIKE and the to be standardized HQC scheme rely on Quasi-Cyclic Moderate-Density Parity-Check codes (</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="towards_zero_rotation_2026" data-dirs="ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="towards zero rotation and beyond: architecting neural networks for fast secure inference with homomorphic encryption   privacy-preserving deep learning addresses privacy concerns in machine learning as a service (mlaas) using homomorphic encryption (he) for linear computations. nevertheless, the high computational cos">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/730" target="_blank">Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) using Homomorphic Encryption (HE) for linear computations. Nevertheless, the high computational cos</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="codebased_scalable_collaborative_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="code-based scalable collaborative snarks   we propose the first collaborative snark based on error-correcting codes that is scalable, i.e., the proof computation overhead is distributed among the $n$ provers. as a starting point, we introduce">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/729" target="_blank">Code-based Scalable Collaborative SNARKs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We propose the first collaborative SNARK based on error-correcting codes that is scalable, i.e., the proof computation overhead is distributed among the $N$ provers. As a starting point, we introduce</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="automated_formal_analysis_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="automated formal analysis of signal’s double ratchet: attacks, fixes and security proofs   the double ratchet (dr) protocol is a core security component of several end-to-end encrypted communications
+services, primarily signal messenger, whatsapp, and facebook messenger, servicing billions">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/727" target="_blank">Automated formal analysis of Signal’s Double Ratchet: attacks, fixes and security proofs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Double Ratchet (DR) protocol is a core security component of several end-to-end encrypted communications
+services, primarily Signal Messenger, WhatsApp, and Facebook Messenger, servicing billions</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="bitsliced_segmentbased_search_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="bitsliced segment-based search technique for low-depth and hardware-efficient s-box circuits   in this paper, we propose a new widely applicable technique for constructing low-depth s-box circuits, which we call slice (segmented low‑depth iterative circuit exploration). slice reduces circuit de">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/726" target="_blank">Bitsliced Segment-Based Search Technique for Low-Depth and Hardware-Efficient S-Box Circuits</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this paper, we propose a new widely applicable technique for constructing low-depth S-box circuits, which we call SLICE (Segmented Low‑depth Iterative Circuit Exploration). SLICE reduces circuit de</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="hintfree_multisignatures_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="hint-free multi-signatures   in a (non-interactive) multi-signature scheme, parties independently generate keys and produce signatures on a common message, which can be aggregated into a single signature verifiable with respect t">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/723" target="_blank">Hint-Free Multi-Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In a (non-interactive) multi-signature scheme, parties independently generate keys and produce signatures on a common message, which can be aggregated into a single signature verifiable with respect t</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="misusing_the_lattice_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="(mis)using the lattice isomorphism problem. cryptanalysis of the double-lip and construction of lip-based blind signatures   we explore the design of blind schemes based on the lattice isomorphism problem (lip), a recently proposed group-action-based assumption for post-quantum cryptography. our work highlights both the pot">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/722" target="_blank">(Mis)using the Lattice Isomorphism Problem. Cryptanalysis of the double-LIP and Construction of LIP-Based Blind Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We explore the design of blind schemes based on the Lattice Isomorphism Problem (LIP), a recently proposed group-action-based assumption for post-quantum cryptography. Our work highlights both the pot</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="improving_latticefold_with_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="improving latticefold+ with ℓ2-norm checks   folding schemes enable incremental proving by compressing many relation instances into a small accumulator. recent lattice-based constructions such as latticefold+ [crypto &#x27;25] achieve post-quantum se">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/721" target="_blank">Improving LatticeFold+ with ℓ2-norm Checks</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Folding schemes enable incremental proving by compressing many relation instances into a small accumulator. Recent lattice-based constructions such as LatticeFold+ [CRYPTO &#x27;25] achieve post-quantum se</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="abracapadabra_full_break_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="abra-capa-dabra: full break of capa   in a paper presented at crypto18, reparaz et al. introduce a new model called the ``tile-probe-and-fault-model&#x27;&#x27;. this model proposes to cover more realistic side-channel attacks by considering so-cal">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/720" target="_blank">ABRA-CAPA-DABRA: Full break of CAPA</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In a paper presented at CRYPTO18, Reparaz et al. introduce a new model called the ``Tile-Probe-and-Fault-Model&#x27;&#x27;. This model proposes to cover more realistic side-channel attacks by considering so-cal</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="polynomialtime_cryptanalytic_extraction_2026" data-dirs="software_friendly"
+     data-year="2026" data-significance="medium"
+     data-search="polynomial-time cryptanalytic extraction of graph neural networks in the hard-label setting   graph neural network parameters are valuable intellectual property, and high-fidelity extraction enables model stealing, evasion, and downstream abuse. prior cryptanalytic extraction can recover exact">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/719" target="_blank">Polynomial-Time Cryptanalytic Extraction of Graph Neural Networks in the Hard-Label Setting</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Graph neural network parameters are valuable intellectual property, and high-fidelity extraction enables model stealing, evasion, and downstream abuse. Prior cryptanalytic extraction can recover exact</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">软件友好密码</span></div>
+</div>
+
+<div class="paper-card" data-id="zeroknowledge_proof_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="zero-knowledge proof of progress: secure multi-phase capture-the-flag competitions   existing capture-the-flag (ctf) platforms trust a single organizer, offer limited auditability, and are vulnerable to infrastructure-level manipulation. we propose zk–mpsfv, a zk-snark-based, multi-ph">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/718" target="_blank">Zero-Knowledge Proof of Progress: Secure Multi-Phase Capture-the-Flag Competitions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Existing Capture-the-Flag (CTF) platforms trust a single organizer, offer limited auditability, and are vulnerable to infrastructure-level manipulation. We propose zk–MPSFV, a zk-SNARK-based, multi-ph</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="scalable_registrationbased_encryption_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="scalable registration-based encryption from lattices   registration-based encryption (rbe) is a public-key encryption mechanism which allows a user to register their identity (e.g. email address) and self-generated public key with a key curator (e.g. an o">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/717" target="_blank">Scalable Registration-Based Encryption from Lattices</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Registration-Based Encryption (RBE) is a public-key encryption mechanism which allows a user to register their identity (e.g. email address) and self-generated public key with a key curator (e.g. an o</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="isesupported_erasure_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="ise-supported erasure of residual shares   careful management of shares stored in the architectural, general-purpose register file is an important aspect of software-based implementations of masking, because it can impact the associated side-c">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/716" target="_blank">ISE-supported erasure of residual shares</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Careful management of shares stored in the architectural, general-purpose register file is an important aspect of software-based implementations of masking, because it can impact the associated side-c</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
