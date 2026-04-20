@@ -1,19 +1,4 @@
 papers:
-- id: ssledag_a_highthroughput_2026
-  title: 'SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader
-    Election'
-  url: https://eprint.iacr.org/2026/647
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: SSLE-DAG Proof-of-Stake (PoS) blockchains with publicly visible leader schedules expose future proposers to targeted
-    Denial-of-Service (DoS) attacks. Single Secret Leader Election (SSLE) techniques ad
-  heuristic_score: 8
-  added_date: '2026-04-19'
-  authors: []
 - id: towards_zero_rotation_2026
   title: 'Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption'
   url: https://eprint.iacr.org/2026/730
@@ -26,100 +11,7 @@ papers:
   summary: Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) using Homomorphic
     Encryption (HE) for linear computations. Nevertheless, the high computational cos
   heuristic_score: 6
-  added_date: '2026-04-19'
-  authors: []
-- id: sok_understanding_zkvm_2026
-  title: 'SoK: Understanding zkVM: From Research to Practice'
-  url: https://eprint.iacr.org/2026/525
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  - PRESENT
-  - LED
-  directions:
-  - ml_aided
-  summary: Zero-knowledge virtual machine (zkVM) is a powerful infrastructure for proving the correctness of a program execution
-    with a succinct proof, attracting significant interest from researchers, developer
-  heuristic_score: 6
-  added_date: '2026-04-19'
-  authors: []
-- id: confidential_transfers_for_2026
-  title: Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger
-  url: https://eprint.iacr.org/2026/602
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  - PRESENT
-  - LED
-  directions:
-  - invariant
-  summary: We introduce Confidential Transfers for Multi-Purpose Tokens (Confidential MPTs) on the XRP Ledger, a cryptographic
-    extension of the XLS-33 token standard that enables confidential balances and hidden
-  heuristic_score: 6
-  added_date: '2026-04-19'
-  authors: []
-- id: ahab_asynchronous_highthroughput_2026
-  title: 'AHAB: Asynchronous, High-throughput, Adaptively-secure, Batched Threshold Schnorr Signatures'
-  url: https://eprint.iacr.org/2026/620
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - PRESENT
-  directions:
-  - differential
-  summary: We present AHAB, a suite of protocols for threshold Schnorr signatures in the asynchronous communication setting
-    with guaranteed output delivery (robustness). We build on the AVSS and GoAVSS protocols
-  heuristic_score: 6
-  added_date: '2026-04-19'
-  authors: []
-- id: securing_elliptic_curve_2026
-  title: 'Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations'
-  url: https://eprint.iacr.org/2026/625
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - PRESENT
-  - PHOTON
-  - LED
-  directions:
-  - differential
-  summary: The expected emergence of cryptographically relevant quantum computers (CRQCs) will represent a singular discontinuity
-    in the history of digital security, with wide ranging impacts. This whitepaper se
-  heuristic_score: 6
-  added_date: '2026-04-19'
-  authors: []
-- id: fullyadaptive_tworound_threshold_2026
-  title: Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH
-  url: https://eprint.iacr.org/2025/1478
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - LED
-  directions:
-  - lightweight
-  summary: Threshold Schnorr signatures enable $t$-out-of-$n$ parties to collaboratively produce signatures that are indistinguishable
-    from standard Schnorr signatures, ensuring compatibility with existing verif
-  heuristic_score: 5
-  added_date: '2026-04-19'
-  authors: []
-- id: zkrag_efficiently_proving_2026
-  title: 'zkRAG: Efficiently Proving RAG Retrieval in Zero Knowledge'
-  url: https://eprint.iacr.org/2026/709
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  - LED
-  directions:
-  - lightweight
-  summary: Retrieval-augmented generation (RAG) systems critically depend on a vector-retrieval stage that selects relevant
-    documents from a large embedding database. In a RAG-as-a-Service setting, however, clie
-  heuristic_score: 5
-  added_date: '2026-04-19'
+  added_date: '2026-04-20'
   authors: []
 - id: bridging_usability_and_2026
   title: 'Bridging Usability and Performance: A Tensor Compiler for Autovectorizing Homomorphic Encryption'
@@ -134,7 +26,7 @@ papers:
   summary: Homomorphic encryption (HE) offers strong privacy guarantees by enabling computation over encrypted data. However,
     the performance of tensor operations in HE is highly sensitive to how the plaintext d
   heuristic_score: 5
-  added_date: '2026-04-19'
+  added_date: '2026-04-20'
   authors: []
 - id: qedlite_lightweight_detection_2026
   title: 'QED-Lite: Lightweight Detection of Quantum-Vulnerable ELF Binaries via Cryptographic Library Version Fingerprinting'
@@ -148,7 +40,7 @@ papers:
   summary: "The advancement of quantum computing poses a serious\r\nthreat to widely-used public-key cryptographic systems,\
     \ leaving organizations with the challenge of identifying quantum-vulnerable (QV)\r\nexecutabl"
   heuristic_score: 5
-  added_date: '2026-04-19'
+  added_date: '2026-04-20'
   authors: []
 - id: reducing_the_number_2026
   title: Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
@@ -163,20 +55,5 @@ papers:
   summary: Solving the Discrete Logarithm problem on the group of points of an elliptic curve is one of the major cryptographic
     applications of Shor's algorithm. However, current estimates for the number of qubi
   heuristic_score: 5
-  added_date: '2026-04-19'
-  authors: []
-- id: veil_lightweight_zeroknowledge_2026
-  title: 'VEIL: Lightweight Zero-Knowledge for Hash-Based Multilinear Proof Systems'
-  url: https://eprint.iacr.org/2026/683
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - LED
-  directions:
-  - lightweight
-  summary: As efficient proof systems mature rapidly, more practical use cases that require zero-knowledge (ZK) guarantees
-    are arising. Adding ZK typically requires either composing the non-zk base system with a
-  heuristic_score: 5
-  added_date: '2026-04-19'
+  added_date: '2026-04-20'
   authors: []

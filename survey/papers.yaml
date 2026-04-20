@@ -11897,3 +11897,118 @@ papers:
   - PRESENT
   fetched_date: '2026-04-19'
   source: eprint
+- id: short_pairingbased_noninteractive_2026
+  title: Short Pairing-based Non-interactive Zero-Knowledge Arguments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2009/390
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We construct non-interactive zero-knowledge arguments for circuit satisfiability with perfect completeness, perfect
+    zero knowledge and computational soundness. The non-interactive zero-knowledge argum
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-04-20'
+  source: eprint
+- id: additive_ffts_for_2026
+  title: Additive FFTs for HQC on ARM Cortex-M4, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/739
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents an optimized implementation of the Hamming Quasi-Cyclic (HQC) key encapsulation mechanism,
+    leveraging the additive fast Fourier transform (FFT) for polynomial multiplication. A pri
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-20'
+  source: eprint
+- id: spock_sequential_proofs_2026
+  title: 'SPoCK: Sequential Proofs of Complete Knowledge'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/738
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A proof of knowledge certifies that the prover “knows” a secret. This property is established by the existence
+    of an extractor that, given access to the prover, can extract the secret. Unfortunately, '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-20'
+  source: eprint
+- id: compact_fully_asynchronous_2026
+  title: Compact Fully Asynchronous Updatable Public Key Encryption Scheme from Hamming Quasi-Cyclic Cryptosystem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/736
+  directions:
+  - milp_sat_cp
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: In this work, we propose the first code-based $\mathsf{uPKE}$ from the hamming quasi-cyclic public key encryption
+    scheme $(\mathsf{hqcPKE})$ of Gaborit et al. by integrating an efficient key-update me
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  fetched_date: '2026-04-20'
+  source: eprint
+- id: claaspmp_an_automated_2026
+  title: 'CLAASP-MP: An Automated MILP Framework for Monomial Prediction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/735
+  directions:
+  - sbox
+  - integral_division
+  - milp_sat_cp
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We present CLAASP-MP, a monomial prediction (MP) tool based on the three-subset division property without unknown
+    subset (3SDP-woU), integrated into CLAASP, a library for automated analysis of symmetr
+  status: pending_review
+  matched_keywords:
+  - division property
+  - MILP
+  - block cipher
+  - S-box
+  - permutation
+  - PRESENT
+  - ChaCha
+  fetched_date: '2026-04-20'
+  source: eprint
+- id: assessing_geometric_security_2026
+  title: 'Assessing Geometric Security of AES Neural Realizations: Linear-Time Key Recovery via Neural Leakage'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/734
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We investigate the security of AES-128/192/256 when implemented as ReLU-based neural networks via the natural sum-of-corners
+    construction. Although these implementations are bit-exact on Boolean input
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-04-20'
+  source: eprint
