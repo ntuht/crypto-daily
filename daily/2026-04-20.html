@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-20</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-20</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-20</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-20 03:40</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 18 篇 → 启发式 14 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [CLAASP-MP: An Automated MILP Framework for Monomial Prediction](https://eprint.iacr.org/2026/735)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/735.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：单项式预测（Monomial Prediction, MP）是评估对称密码算法抗差分攻击能力的关键技术，尤其在差分性质分析中具有重要作用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了CLAASP-MP工具，它基于无未知子集的“三子集划分性质”（3SDP-woU），并将其集成到自动化对称密码分析库CLAASP中。CLAASP-MP通过混合整数线性规划（MILP）模型自动化地进行单项式预测，显著提升了分析效率和准确性，能够发现和验证密码算法的单项式性质。</p>
+
+<p>🎯 <strong>意义</strong>：该工具为密码学研究人员提供了一个高效且自动化的平台，有助于更深入地理解对称密码算法的安全边界，并加速新算法的设计与评估。</p>
+
+<hr>
+
+<h3>2. [Assessing Geometric Security of AES Neural Realizations: Linear-Time Key Recovery via Neural Leakage](https://eprint.iacr.org/2026/734)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/734.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着神经网络在硬件实现中的应用，评估其作为密码算法实现时的侧信道安全性变得至关重要，特别是针对基于ReLU的AES神经网络实现。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究了通过“角和构造”（sum-of-corners construction）实现的基于ReLU的AES-128/192/256神经网络的安全性。作者发现，尽管这些实现对于布尔输入是位精确的，但其内部激活值存在“神经泄漏”，并利用这些泄漏设计了一种线性时间密钥恢复攻击，揭示了这类实现固有的几何弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了神经网络实现密码算法时可能引入的全新侧信道漏洞，为未来安全硬件设计和密码实现提供了重要的警示和研究方向。</p>
+
+<hr>
+
+<h3>3. [SoK: Understanding zkVM: From Research to Practice](https://eprint.iacr.org/2026/525)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 4/10 | [📎 PDF](https://eprint.iacr.org/2026/525.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：零知识虚拟机（zkVM）作为一种能够简洁证明程序执行正确性的强大基础设施，正受到研究人员和开发者的广泛关注，尤其在区块链和隐私计算领域。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提供了一项系统性知识（SoK）研究，全面梳理了zkVM领域从理论研究到实际应用的发展脉络。它深入分析了zkVM的核心技术、设计范式、性能权衡以及当前面临的挑战，并对现有zkVM项目进行了分类和比较，旨在为读者提供一个清晰、全面的zkVM图景。</p>
+
+<p>🎯 <strong>意义</strong>：这项SoK工作为zkVM领域的初学者和专家提供了宝贵的资源，有助于统一术语、识别关键研究方向，并加速zkVM技术在区块链、隐私计算等领域的落地应用。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/602" target="_blank">Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/602.pdf)</p>
+
+<blockquote>
+<p>本文为XRP Ledger上的多用途代币引入了保密转账功能，通过密码学扩展实现了交易金额和资产类型的隐私保护。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/647" target="_blank">SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader Election</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/647.pdf)</p>
+
+<blockquote>
+<p>SSLE-DAG提出了一种高吞吐量权益证明共识协议，通过结合自适应DAG和单一秘密领导者选举来抵御针对未来区块提议者的DoS攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/709" target="_blank">zkRAG: Efficiently Proving RAG Retrieval in Zero Knowledge</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/709.pdf)</p>
+
+<blockquote>
+<p>zkRAG提出了一种在零知识证明系统中高效验证检索增强生成（RAG）系统检索阶段正确性的方法，确保了数据隐私和结果可信。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/683" target="_blank">VEIL: Lightweight Zero-Knowledge for Hash-Based Multilinear Proof Systems</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/683.pdf)</p>
+
+<blockquote>
+<p>VEIL提出了一种轻量级的零知识方案，用于基于哈希的多线性证明系统，旨在降低在实际应用中添加零知识保证的开销。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/620" target="_blank">AHAB: Asynchronous, High-throughput, Adaptively-secure, Batched Threshold Schnorr Signatures</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/620.pdf)</p>
+
+<blockquote>
+<p>AHAB提出了一套在异步通信环境下，提供高吞吐量、自适应安全和批量处理能力的门限Schnorr签名协议。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/625" target="_blank">Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/625.pdf)</p>
+
+<blockquote>
+<p>本文评估了量子计算机对椭圆曲线加密货币的威胁，并提出了相应的资源估算和缓解策略，以应对后量子时代的挑战。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1478" target="_blank">Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1478.pdf)</p>
+
+<blockquote>
+<p>本文基于DDH假设构建了一种全自适应的两轮门限Schnorr签名方案，实现了多方协作签名的效率和安全性。</p>
+</blockquote>
+
+<p><em>精选自 18 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
