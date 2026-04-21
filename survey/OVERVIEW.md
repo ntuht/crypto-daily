@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 670 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 674 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (461)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (465)
 
 ## 算法设计
 
@@ -405,7 +405,7 @@
 
 ## 算法分析
 
-### 差分分析 (311 篇)
+### 差分分析 (314 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -656,6 +656,9 @@
 - 🟡 **2026** — Additive FFTs for HQC on ARM Cortex-M4, Revisited
 - 🟡 **2026** — SPoCK: Sequential Proofs of Complete Knowledge
 - 🟡 **2026** — Assessing Geometric Security of AES Neural Realizations: Linear-Time Key Recovery via Neural Leakage
+- 🟡 **2026** — Robust Non-Interactive Zero-Knowledge Combiners
+- 🟡 **2026** — Round-Optimal Identity-Based Blind Signature from Module Lattice Assumptions
+- 🟡 **2026** — PhantomCrypt: Second-Order Deniable Encryption with Post-Quantum Security
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1068,7 +1071,7 @@
 - 🟡 **2000** — Amplified Boomerang Attacks Against Reduced-Round MARS and Serpent [MARS, Serpent]
 - 🔴 **1999** — The Boomerang Attack
 
-### 不变量与子空间 (15 篇)
+### 不变量与子空间 (16 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
@@ -1082,6 +1085,7 @@
 - 🟡 **2026** — Weak-key cryptanalysis of Blink
 - 🟡 **2026** — Applications of Bruhat-Chevalley-Renner Decomposition to Metric-Aware Code-Based Cryptography
 - 🟡 **2026** — How to construct even faster and indifferentiable hash functions from random permutations
+- 🟡 **2026** — Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

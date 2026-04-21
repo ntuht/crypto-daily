@@ -12012,3 +12012,77 @@ papers:
   - AES
   fetched_date: '2026-04-20'
   source: eprint
+- id: robust_noninteractive_zeroknowledge_2026
+  title: Robust Non-Interactive Zero-Knowledge Combiners
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/240
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A $t$-out-of-$n$ robust non-interactive zero-knowledge (NIZK) combiner is a construction that, given access to
+    $n$ candidate instantiations of a NIZK for some language, itself implements a NIZK for th
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-21'
+  source: eprint
+- id: roundoptimal_identitybased_blind_2026
+  title: Round-Optimal Identity-Based Blind Signature from Module Lattice Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/226
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This work presents a round optimal identity-based blind signature scheme based on module lattices. Our construction
+    extends Fischlin's two-round blind signature framework [CRYPTO'06] to the identity-b
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-21'
+  source: eprint
+- id: phantomcrypt_secondorder_deniable_2026
+  title: 'PhantomCrypt: Second-Order Deniable Encryption with Post-Quantum Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/275
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Traditional deniable encryption focuses on denying the $content$ of secret communications by allowing plausible
+    alternative plaintexts under coercion. However, the recognizable use of deniable encrypt
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-21'
+  source: eprint
+- id: crossalgorithm_deep_learningbased_2026
+  title: Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/301
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Deep Learning-based Non-profiled Side-Channel Analysis (DL-NSCA) enables automatic feature extraction without a
+    profiling device, but existing approaches mainly target non-linear operations, requiring
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - AES
+  - PRESENT
+  - Ascon
+  - LED
+  fetched_date: '2026-04-21'
+  source: eprint
