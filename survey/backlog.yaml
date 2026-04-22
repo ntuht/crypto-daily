@@ -1,1 +1,15 @@
-papers: []
+papers:
+- id: a_simple_batched_2026
+  title: A Simple Batched Threshold Encryption Scheme
+  url: https://eprint.iacr.org/2026/760
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - SAT
+  directions:
+  - milp_sat_cp
+  summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
+    not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
+  heuristic_score: 6
+  added_date: '2026-04-22'
+  authors: []

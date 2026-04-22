@@ -12086,3 +12086,421 @@ papers:
   - LED
   fetched_date: '2026-04-21'
   source: eprint
+- id: practical_semiopen_chat_2026
+  title: Practical Semi-Open Chat Groups for Secure Messaging Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/469
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Secure messaging groups in applications such as Signal, Telegram, and Whatsapp are nowadays used for rapid and
+    widespread dissemination of information to large groups of people. This is common even in
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: efficient_highorder_masking_2026
+  title: Efficient High-Order Masking of FrodoKEM’s CDT-Based Gaussian Sampler
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1308
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: FrodoKEM is a conservative lattice-based KEM based on the Learning With Errors problem. While it was not selected
+    for NIST standardization, it remains a strong candidate for high-security applications
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: practical_subvector_commitments_2026
+  title: Practical Subvector Commitments with Optimal Opening Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/118
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We introduce a simple pairing-based vector commitment with subvector opening where, after a one-time preprocessing,
+    the prover can open a subvector of size $\ell$ in linear time. Our focus is on pract
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: dynamic_group_timebased_2026
+  title: Dynamic Group Time-based One-time Passwords
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/766
+  directions:
+  - lightweight
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Group time-based one-time passwords (GTOTP)  is a novel lightweight cryptographic primitive for achieving anonymous
+    client authentication, which enables the efficient generation of time-based one-time
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: mbu_scalable_and_2026
+  title: 'MBU:  Scalable and Constant-Round  Evaluation of Non-linear Functions in Standard MPC Setting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/765
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: After more than four decades of research, multi-party computation (MPC) has achieved remarkable success in handling
+    2-variable multiplication and comparison-based functions (e.g., ReLU) with practical
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: cedar_a_compact_2026
+  title: 'CEDAR: A Compact and Efficient Decoder Architecture for RS-RM Code in HQC'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/764
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The rapid development of quantum computing has driven a new wave of cryptographic innovation: Post-Quantum Cryptography
+    (PQC), a class of algorithms that resist quantum attacks. In particular, the Nat'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: leah_lightweight_and_2026
+  title: 'LEAH: Lightweight and Efficient Hardware Accelerator for Code-based PQC Scheme HQC'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/763
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The advent of quantum computing poses a significant threat to modern cryptography. To address this challenge, the
+    National Institute of Standards and Technology (NIST) has initiated the Post-Quantum C
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: the_sumcheck_protocol_2026
+  title: The Sum-Check Protocol over the Monomial Basis, and Other Optimizations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/762
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The sum-check protocol underpins SNARKs with the fastest known provers. For an $n$-variate polynomial $g$ defined
+    over a finite field $\mathbb{F}$, the protocol enables an untrusted prover to convince
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: improved_garbled_ram_2026
+  title: Improved Garbled RAM via Garbled Merge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/761
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Consider the problem of merging inside a garbled circuit (GC) two arrays of $w$-bit elements, yielding a single
+    length-$n$ array. This garbled merge problem is core to garbled random access memory (GR
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: a_simple_batched_2026
+  title: A Simple Batched Threshold Encryption Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/760
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
+    not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: integral_distinguishers_and_2026
+  title: Integral Distinguishers and a 4-Round Key-Recovery Attack on Kuznyechik Without Initial Key Whitening
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/757
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Kuznyechik is a 128-bit block cipher standardized in GOST~R~34.12--2015. In this paper We study Kuznyechik from
+    the viewpoint of integral cryptanalysis, i.e., we track how structured multisets of chos
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: integral_attack_on_2026
+  title: Integral Attack on Reduced-Round Kalyna
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/756
+  directions:
+  - lightweight
+  - integral_division
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: We study integral cryptanalysis of the Ukrainian block cipher Kalyna and focus on constructing reduced-round distinguishers
+    and key-recovery attacks with low data, time, and memory complexities. Altho
+  status: pending_review
+  matched_keywords:
+  - integral attack
+  - block cipher
+  - SPN
+  - LED
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: acts_attestations_of_2026
+  title: 'ACTS: Attestations of Contents in TLS Sessions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/755
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'An essential requirement for the large-scale adoption of Web3 is enabling users to benefit from their data even
+    within already deployed systems. This raises an important open question: how can existin'
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: btx_simple_and_2026
+  title: 'BTX: Simple and Efficient Batch Threshold Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/754
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Batched threshold encryption (BTE) enables a committee of servers to jointly decrypt any chosen subset of ciphertexts
+    from a large pool, while all remaining ciphertexts stay private. BTE is a key buil
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: ddrsse_duplicated_retrieval_2026
+  title: 'DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/753
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Searchable Symmetric Encryption (SSE) schemes enable efficient keyword searches over encrypted documents at the
+    cost of some leakage. An SSE scheme is said to be system-wide secure if it resists crypt
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: glitchsnipe_toward_localized_2026
+  title: 'GlitchSnipe: Toward Localized Voltage Fault Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/752
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Voltage glitching is one of the most prominent fault injection techniques due to its effectiveness and simplicity.
+    Although it is generally regarded as a spatially global fault method, in which the in
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: ligesis_distributionfriendly_polynomial_2026
+  title: 'LigeSIS: Distribution-friendly Polynomial Commitment \\ Based on Error-correcting Code'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/751
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Polynomial commitment schemes (PCS) are a fundamental building block of modern proof systems. As proof system applications
+    scale to increasingly large workloads, distributed PCS become essential for r
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: mcu_exact_and_2026
+  title: 'MCU: Exact and Constant-Round Nonlinear Function Evaluation in MPC without Preprocessing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/750
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The rapid proliferation of artificial intelligence (AI) applications—from large language models to deep neural
+    networks—has led to an unprecedented demand for massive training data. This, in turn, has
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: relatedkey_multipair_neural_2026
+  title: 'Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/748
+  directions:
+  - lightweight
+  - differential
+  - related_key
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Neural differential cryptanalysis has recently been extended to related-key and multi-pair settings, enabling neural
+    distinguishers to aggregate weak statistical biases across multiple ciphertext pair
+  status: pending_review
+  matched_keywords:
+  - differential
+  - related-key
+  - neural distinguisher
+  - block cipher
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: mdssstar_private_heavyhitters_2026
+  title: 'MDSS-STAR: Private Heavy-Hitters through Multi-Dealer Secret Sharing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/747
+  directions:
+  - linear_diffusion
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We propose a new private telemetry system for computing t-heavy hitters in the STAR (Davidson et al., CCS 2022)
+    and POPSTAR (Li et al., USENIX 2024) model. In this setting, each client generates a rep
+  status: pending_review
+  matched_keywords:
+  - MDS
+  - lightweight
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: roundoptimal_privacy_preserving_2026
+  title: Round-Optimal Privacy Preserving Authenticated Key Exchange Even for Incomplete Sessions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/745
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Several modern applications, such as Signal or WireGuard, use efficient Noise-like implicit authentication key
+    exchanges that  require only a small number of exponentiations and two interactions. Thes
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: improved_rate_for_2026
+  title: Improved Rate for Non-Malleable Codes and Time-Lock Puzzles
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/743
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Non-malleable codes allow a sender to transmit a message to a receiver, while providing a ``best-possible'' integrity
+    guarantee to ensure that no attacker---who cannot already decode the message---can
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-04-22'
+  source: eprint
+- id: efficient_and_postquantum_2026
+  title: Efficient and Post-Quantum Conjunctive Dynamic SSE with Strong Privacy Guarantees
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/742
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Designing dynamic searchable symmetric encryption (DSSE) supporting conjunctive keyword queries over encrypted
+    document collections is an important research area. Unfortunately, state-of-the-art conju
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-04-22'
+  source: eprint
