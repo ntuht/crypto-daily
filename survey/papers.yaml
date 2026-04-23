@@ -12504,3 +12504,262 @@ papers:
   - LED
   fetched_date: '2026-04-22'
   source: eprint
+- id: latticebased_ring_verifiable_2026
+  title: Lattice-based Ring Verifiable Random Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/772
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Verifiable Random Functions (VRFs) provide publicly verifiable pseudorandomness uniquely determined by a secret
+    key and an input. While widely used in decentralized protocols, standard VRF verificatio
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: compact_and_tightly_2026
+  title: Compact and Tightly Secure (Anonymous) IBE from Module LWE in the QROM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1765
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a new compact and tightly secure (anonymous) identity-based encryption (IBE) scheme based on the module
+    learning with errors (MLWE) assumption, known as the standard lattice assumption, in '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: mathsfgrasp_secure_collaborative_2026
+  title: '$\mathsf{GraSP}$: Secure Collaborative Graph Processing Made Scalable'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/590
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Secure graph processing enables computing on graphs while hiding the graph topology as well as the associated node/edge
+    data. This facilitates collaborative analysis among multiple data owners, who ma
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: bridging_privacy_and_2026
+  title: 'Bridging Privacy and Utility: A Verifiable Framework for Data Valuation via Zero-Knowledge Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/385
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "Deep learning’s hunger for high-quality data has catalyzed a burgeoning\r\neconomy of decentralized data marketplaces.\
+    \ However, a\r\nfundamental trust deficit stifles this ecosystem: buyers fear data\r\npoi"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: permutationbased_hash_from_2026
+  title: 'Permutation-Based Hash from Non-Idealized Assumptions: Adding Feed-Forward to Sponge'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1006
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Avoiding feeding forward seems to be a major goal of the sponge construction. We make a step back and investigate
+    adding feeding forward back to sponge. The obtained sponge-with-feeding-forward constr
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: how_strong_is_2026
+  title: How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations
+    of ML-KEM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/777
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Side-channel attacks exploiting Plaintext-Checking Oracles (PCOs) instantiated thanks to the leakage of the re-encryption
+    step taking place during decapsulation are a well-known weakness of ML-KEM. An
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: scoutct_sound_constanttime_2026
+  title: 'SCOUT-CT: Sound Constant-Time Outcome with Uncertainty Tracking using multi-taint analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/776
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Side-channel attacks are an important class of security exploits, in which an attacker gains access to confidential\
+    \ data by observing information inadvertently leaked by a system.\r\nWriting constant-ti"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: differential_and_linear_2026
+  title: Differential and Linear Cryptanalysis of Modular Addition
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/775
+  directions:
+  - linear
+  - differential
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: This paper presents a comprehensive analysis of modular addition from a cryptanalytic perspective, focusing on
+    both linear and differential cryptanalysis techniques. We examine the probability distrib
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - ARX
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: provably_secure_hybrid_2026
+  title: Provably Secure Hybrid Inner Product and Boolean Masking via Composable Conversion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/774
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Masking is a representative side-channel countermeasure that provides provable security. Among masking schemes,
+    Boolean masking (BM) is widely adopted due to its simple sharing structure, while inner '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: practical_attacks_on_2026
+  title: Practical Attacks on Session Messenger and Oxen Blockchain
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/773
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Session is a decentralised secure (anonymous) messenger that combines onion routing with the Oxen Proof-of-Stake
+    blockchain to provide metadata-private communication. Our study presents the first comp
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: vectorinput_hashing_modes_2026
+  title: Vector-Input Hashing Modes for Collision-Resistant Pseudorandom Function
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/771
+  directions:
+  - related_key
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This paper presents vector-input keyed hashing modes that construct collision-resistant pseudorandom functions
+    (CR PRFs) using a keyed hash function, where a vector refers to a sequence of variable-le
+  status: pending_review
+  matched_keywords:
+  - related-key
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: cryptanalysis_of_heckeke_2026
+  title: 'Cryptanalysis of Hecke-KE: A Linear-Algebra Attack via Hecke Eigenbasis Decomposition'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/770
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We give a passive attack on the Hecke-KE key-exchange scheme. The scheme proposes using products of Hecke operators
+    on $S_k(\Gamma_0(N))$ as a one-way function. We show that the Hecke algebra acting o
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: highorder_masking_for_2026
+  title: High-Order Masking for MQOM v2.1 Signing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/769
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents the first high-order fully-shared masking construction for MQOM v2.1, a candidate in NIST's
+    additional digital signature standardization process. We provide a baseline high-order m
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-23'
+  source: eprint
+- id: towards_more_efficient_2026
+  title: Towards More Efficient Registration-Based Encryption from LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/768
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Registration-based encryption (RBE) effectively addresses the key escrow problem in identity-based encryption.
+    However, existing post-quantum RBE schemes suffer from prohibitive ciphertext sizes in th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-23'
+  source: eprint

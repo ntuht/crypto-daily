@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 697 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 711 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (488)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (502)
 
 ## 算法设计
 
-### 轻量级密码综合 (80 篇)
+### 轻量级密码综合 (81 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -97,6 +97,7 @@
 - 🟡 **2026** — Integral Attack on Reduced-Round Kalyna
 - 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
 - 🟡 **2026** — MDSS-STAR: Private Heavy-Hitters through Multi-Dealer Secret Sharing
+- 🟡 **2026** — $\mathsf{GraSP}$: Secure Collaborative Graph Processing Made Scalable
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -170,7 +171,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### 置换层 (35 篇)
+### 置换层 (36 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -203,6 +204,7 @@
 - 🟡 **2026** — Compact Fully Asynchronous Updatable Public Key Encryption Scheme from Hamming Quasi-Cyclic Cryptosystem
 - 🟡 **2026** — CLAASP-MP: An Automated MILP Framework for Monomial Prediction
 - 🟡 **2026** — Efficient and Post-Quantum Conjunctive Dynamic SSE with Strong Privacy Guarantees
+- 🟡 **2026** — Permutation-Based Hash from Non-Idealized Assumptions: Adding Feed-Forward to Sponge
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
@@ -326,7 +328,7 @@
 - 🔴 **2004** — Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC [OCB]
 - 🔴 **2002** — Tweakable Block Ciphers
 
-### 软件友好密码 (18 篇)
+### 软件友好密码 (19 篇)
 
 - 🟡 **2026** — Improving Neural-Inspired Integral Distinguishers via a Linear-Algebraic Approach
 - 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
@@ -334,6 +336,7 @@
 - 🟡 **2026** — An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG
 - 🟡 **2026** — Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
 - 🟡 **2026** — Polynomial-Time Cryptanalytic Extraction of Graph Neural Networks in the Hard-Label Setting
+- 🟡 **2026** — Differential and Linear Cryptanalysis of Modular Addition
 - 🔴 **2025** — Significantly Improved Cryptanalysis of Salsa20 With Two-Round Criteria [Salsa20]
 - 🟡 **2024** — Improved Key Recovery Attacks on Reduced-Round Salsa20 [Salsa20]
 - 🟡 **2023** — Cryptanalysis of Reduced Round ChaCha - New Attack and Deeper Analysis [ChaCha]
@@ -414,7 +417,7 @@
 
 ## 算法分析
 
-### 差分分析 (323 篇)
+### 差分分析 (331 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -677,6 +680,14 @@
 - 🟡 **2026** — GlitchSnipe: Toward Localized Voltage Fault Attacks
 - 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
 - 🟡 **2026** — Round-Optimal Privacy Preserving Authenticated Key Exchange Even for Incomplete Sessions
+- 🟡 **2026** — Lattice-based Ring Verifiable Random Functions
+- 🟡 **2026** — Compact and Tightly Secure (Anonymous) IBE from Module LWE in the QROM
+- 🟡 **2026** — How Strong is the FO-Calypse, Really? Instantiating Plaintext-Checking Oracles against Masked Software Implementations of ML-KEM
+- 🟡 **2026** — SCOUT-CT: Sound Constant-Time Outcome with Uncertainty Tracking using multi-taint analysis
+- 🟡 **2026** — Differential and Linear Cryptanalysis of Modular Addition
+- 🟡 **2026** — Practical Attacks on Session Messenger and Oxen Blockchain
+- 🟡 **2026** — High-Order Masking for MQOM v2.1 Signing
+- 🟡 **2026** — Towards More Efficient Registration-Based Encryption from LWE
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -740,7 +751,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (105 篇)
+### MILP/SAT/CP 建模技术 (110 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -813,6 +824,11 @@
 - 🟡 **2026** — Practical Semi-Open Chat Groups for Secure Messaging Applications
 - 🟡 **2026** — Dynamic Group Time-based One-time Passwords
 - 🟡 **2026** — A Simple Batched Threshold Encryption Scheme
+- 🟡 **2026** — $\mathsf{GraSP}$: Secure Collaborative Graph Processing Made Scalable
+- 🟡 **2026** — Bridging Privacy and Utility: A Verifiable Framework for Data Valuation via Zero-Knowledge Proofs
+- 🟡 **2026** — Provably Secure Hybrid Inner Product and Boolean Masking via Composable Conversion
+- 🟡 **2026** — Vector-Input Hashing Modes for Collision-Resistant Pseudorandom Function
+- 🟡 **2026** — Cryptanalysis of Hecke-KE: A Linear-Algebra Attack via Hecke Eigenbasis Decomposition
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -848,7 +864,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (77 篇)
+### 中间相遇 (78 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -916,6 +932,7 @@
 - 🟡 **2026** — The Sum-Check Protocol over the Monomial Basis, and Other Optimizations
 - 🟡 **2026** — LigeSIS: Distribution-friendly Polynomial Commitment \\ Based on Error-correcting Code
 - 🟡 **2026** — Improved Rate for Non-Malleable Codes and Time-Lock Puzzles
+- 🟡 **2026** — Bridging Privacy and Utility: A Verifiable Framework for Data Valuation via Zero-Knowledge Proofs
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -927,6 +944,44 @@
 - 🔴 **2011** — Biclique Cryptanalysis of the Full AES [AES]
 - 🔴 **2008** — A New Meet-in-the-Middle Attack on AES [AES]
 - 🔴 **1977** — Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard [DES]
+
+### 线性分析 (35 篇)
+
+- 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
+- 🟡 **2026** — Multidimensional Linear Cryptanalysis of AEGIS
+- 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
+- 🟡 **2026** — Analysis of Diffusion Properties in Generalized Feistel Ciphers under Multidimensional Linear Cryptanalysis
+- 🟡 **2026** — Differential-Linear Cryptanalysis and Cube Attacks on ChiLow
+- 🟡 **2026** — Differential and Linear Cryptanalysis of Modular Addition
+- 🔴 **2025** — Differential-Linear Cryptanalysis of the GIFT Family and GIFT-based Ciphers [GIFT, GIFT-COFB, HyENA]
+- 🔴 **2025** — Enhancing the DATF Technique in Differential-Linear Cryptanalysis [Ascon, SERPENT, Xoodyak, Grain]
+- 🟡 **2024** — Improved Differential-Linear Distinguishers for Simon and Simeck via MILP/MIQCP [SIMON, Simeck]
+- 🔴 **2024** — TDT Method for Evaluating Differential-Linear Bias
+- 🟡 **2024** — Differential-Linear Cryptanalysis of Reduced Round ChaCha [ChaCha]
+- 🔴 **2024** — Revisiting Differential-Linear Attacks via a Boomerang Perspective with Application to AES, Ascon, CLEFIA, SKINNY, PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, and SERPENT [AES, Ascon, CLEFIA, SKINNY, PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, SERPENT]
+- 🔴 **2023** — Fully Automated Differential-Linear Attacks against ARX Ciphers [SPECK, ChaCha]
+- 🔴 **2023** — Boosting Differential-Linear Cryptanalysis of ChaCha7 with MILP [ChaCha]
+- 🔴 **2023** — Revisiting Higher-Order Differential-Linear Attacks from an Algebraic Perspective
+- 🟡 **2023** — Weak Subtweakeys in SKINNY Block Cipher [SKINNY]
+- 🔴 **2022** — Rotational Differential-Linear Distinguishers of ARX Ciphers with Arbitrary Output Linear Masks [ChaCha, SPECK]
+- 🟡 **2022** — Addendum to Linear Cryptanalyses of AEADs with GIFT-128 [GIFT]
+- 🔴 **2022** — Improved Differential and Linear Trail Bounds for Ascon [Ascon]
+- 🔴 **2019** — Differential-Linear Connectivity Table
+- 🟡 **2017** — Analysis of AES, SKINNY, and Others with Constraint Programming [AES, SKINNY]
+- 🔴 **2015** — Observations on the SIMON Block Cipher Family [SIMON]
+- 🔴 **2012** — Zero-Correlation Linear Cryptanalysis with Reduced Data Complexity
+- 🔴 **2012** — Integral and Multidimensional Linear Distinguishers with Correlation Zero
+- 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
+- 🟡 **2010** — Linear Cryptanalysis of Reduced-Round PRESENT [PRESENT]
+- 🟡 **2008** — Multidimensional Linear Cryptanalysis of Reduced Round Serpent [Serpent]
+- 🟡 **2002** — Enhancing Differential-Linear Cryptanalysis
+- 🟡 **2001** — Correlation Theorems in Cryptanalysis
+- 🔴 **1995** — Correlation Matrices
+- 🟡 **1994** — Links Between Differential and Linear Cryptanalysis
+- 🔴 **1994** — The First Experimental Cryptanalysis of the Data Encryption Standard [DES]
+- 🔴 **1994** — Differential-Linear Cryptanalysis [DES]
+- 🔴 **1994** — Linear Approximation of Block Ciphers
+- 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
 ### ML/LLM 辅助密码分析 (34 篇)
 
@@ -964,43 +1019,6 @@
 - 🟡 **2022** — Neural Network-Based Differential Distinguishers: Further Analysis and New Results [SPECK, SIMON]
 - 🔴 **2021** — A Deeper Look at Machine Learning-Based Cryptanalysis [SPECK]
 - 🔴 **2019** — Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning [SPECK]
-
-### 线性分析 (34 篇)
-
-- 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
-- 🟡 **2026** — Multidimensional Linear Cryptanalysis of AEGIS
-- 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
-- 🟡 **2026** — Analysis of Diffusion Properties in Generalized Feistel Ciphers under Multidimensional Linear Cryptanalysis
-- 🟡 **2026** — Differential-Linear Cryptanalysis and Cube Attacks on ChiLow
-- 🔴 **2025** — Differential-Linear Cryptanalysis of the GIFT Family and GIFT-based Ciphers [GIFT, GIFT-COFB, HyENA]
-- 🔴 **2025** — Enhancing the DATF Technique in Differential-Linear Cryptanalysis [Ascon, SERPENT, Xoodyak, Grain]
-- 🟡 **2024** — Improved Differential-Linear Distinguishers for Simon and Simeck via MILP/MIQCP [SIMON, Simeck]
-- 🔴 **2024** — TDT Method for Evaluating Differential-Linear Bias
-- 🟡 **2024** — Differential-Linear Cryptanalysis of Reduced Round ChaCha [ChaCha]
-- 🔴 **2024** — Revisiting Differential-Linear Attacks via a Boomerang Perspective with Application to AES, Ascon, CLEFIA, SKINNY, PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, and SERPENT [AES, Ascon, CLEFIA, SKINNY, PRESENT, KNOT, TWINE, WARP, LBlock, Simeck, SERPENT]
-- 🔴 **2023** — Fully Automated Differential-Linear Attacks against ARX Ciphers [SPECK, ChaCha]
-- 🔴 **2023** — Boosting Differential-Linear Cryptanalysis of ChaCha7 with MILP [ChaCha]
-- 🔴 **2023** — Revisiting Higher-Order Differential-Linear Attacks from an Algebraic Perspective
-- 🟡 **2023** — Weak Subtweakeys in SKINNY Block Cipher [SKINNY]
-- 🔴 **2022** — Rotational Differential-Linear Distinguishers of ARX Ciphers with Arbitrary Output Linear Masks [ChaCha, SPECK]
-- 🟡 **2022** — Addendum to Linear Cryptanalyses of AEADs with GIFT-128 [GIFT]
-- 🔴 **2022** — Improved Differential and Linear Trail Bounds for Ascon [Ascon]
-- 🔴 **2019** — Differential-Linear Connectivity Table
-- 🟡 **2017** — Analysis of AES, SKINNY, and Others with Constraint Programming [AES, SKINNY]
-- 🔴 **2015** — Observations on the SIMON Block Cipher Family [SIMON]
-- 🔴 **2012** — Zero-Correlation Linear Cryptanalysis with Reduced Data Complexity
-- 🔴 **2012** — Integral and Multidimensional Linear Distinguishers with Correlation Zero
-- 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
-- 🟡 **2010** — Linear Cryptanalysis of Reduced-Round PRESENT [PRESENT]
-- 🟡 **2008** — Multidimensional Linear Cryptanalysis of Reduced Round Serpent [Serpent]
-- 🟡 **2002** — Enhancing Differential-Linear Cryptanalysis
-- 🟡 **2001** — Correlation Theorems in Cryptanalysis
-- 🔴 **1995** — Correlation Matrices
-- 🟡 **1994** — Links Between Differential and Linear Cryptanalysis
-- 🔴 **1994** — The First Experimental Cryptanalysis of the Data Encryption Standard [DES]
-- 🔴 **1994** — Differential-Linear Cryptanalysis [DES]
-- 🔴 **1994** — Linear Approximation of Block Ciphers
-- 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
 ### 积分与 Division Property (28 篇)
 
@@ -1119,6 +1137,21 @@
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]
 
+### 相关密钥攻击 (12 篇)
+
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
+- 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
+- 🟡 **2026** — Vector-Input Hashing Modes for Collision-Resistant Pseudorandom Function
+- 🟡 **2023** — Tweakey Schedule Differential Cancellations in SKINNYe [SKINNY]
+- 🟡 **2022** — Improved Rectangle Attacks on SKINNY and CRAFT [SKINNY, CRAFT]
+- 🟡 **2018** — Differential Clusters and Related-Key Differential Probability
+- 🟡 **2017** — On the Security of Key Schedule in Block Ciphers
+- 🔴 **2014** — Tweaks and Keys for Block Ciphers: The TWEAKEY Framework [SKINNY]
+- 🔴 **2014** — Automatic Security Evaluation and (Related-key) Differential Characteristic Search [SIMON, PRESENT, LBlock, DES]
+- 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
+- 🔴 **2009** — Related-Key Cryptanalysis of the Full AES-192 and AES-256 [AES]
+- 🔴 **1993** — New Types of Cryptanalytic Attacks Using Related Keys
+
 ### 不可能差分 (11 篇)
 
 - 🟡 **2026** — ToFA: Towards Fault Analysis of GIFT and GIFT-like Ciphers Leveraging Truncated Impossible Differentials
@@ -1132,20 +1165,6 @@
 - 🟡 **2003** — Impossible Differential Cryptanalysis for Block Cipher Structures [AES]
 - 🔴 **1999** — Cryptanalysis of Skipjack Reduced to 31 Rounds Using Impossible Differentials [Skipjack]
 - 🔴 **1998** — Impossible Differentials in Twofish [Twofish]
-
-### 相关密钥攻击 (11 篇)
-
-- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
-- 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
-- 🟡 **2023** — Tweakey Schedule Differential Cancellations in SKINNYe [SKINNY]
-- 🟡 **2022** — Improved Rectangle Attacks on SKINNY and CRAFT [SKINNY, CRAFT]
-- 🟡 **2018** — Differential Clusters and Related-Key Differential Probability
-- 🟡 **2017** — On the Security of Key Schedule in Block Ciphers
-- 🔴 **2014** — Tweaks and Keys for Block Ciphers: The TWEAKEY Framework [SKINNY]
-- 🔴 **2014** — Automatic Security Evaluation and (Related-key) Differential Characteristic Search [SIMON, PRESENT, LBlock, DES]
-- 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
-- 🔴 **2009** — Related-Key Cryptanalysis of the Full AES-192 and AES-256 [AES]
-- 🔴 **1993** — New Types of Cryptanalytic Attacks Using Related Keys
 
 ### 零相关线性 (3 篇)
 
