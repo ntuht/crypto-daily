@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 711 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 730 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (502)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (521)
 
 ## 算法设计
 
-### 轻量级密码综合 (81 篇)
+### 轻量级密码综合 (82 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -98,6 +98,7 @@
 - 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
 - 🟡 **2026** — MDSS-STAR: Private Heavy-Hitters through Multi-Dealer Secret Sharing
 - 🟡 **2026** — $\mathsf{GraSP}$: Secure Collaborative Graph Processing Made Scalable
+- 🟡 **2026** — Neural Leakage–based Cryptanalysis of LowMC with Linear Complexity
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -417,7 +418,7 @@
 
 ## 算法分析
 
-### 差分分析 (331 篇)
+### 差分分析 (344 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -688,6 +689,19 @@
 - 🟡 **2026** — Practical Attacks on Session Messenger and Oxen Blockchain
 - 🟡 **2026** — High-Order Masking for MQOM v2.1 Signing
 - 🟡 **2026** — Towards More Efficient Registration-Based Encryption from LWE
+- 🟡 **2026** — Secure and Updatable Single Password Authentication
+- 🟡 **2026** — CipherSkip: Efficient Sparse Matrix Multiplication with FHE
+- 🟡 **2026** — Streaming Function Secret Sharing and Its Applications
+- 🟡 **2026** — Masking Ordering Failures in BFT SMR via Proactive Pre-Commit Execution
+- 🟡 **2026** — sigma-rs: A Modular Approach for Keyed-Verification Anonymous Credentials
+- 🟡 **2026** — Oriole: Adaptively Secure Partially Non-Interactive Threshold Signatures from Lattices
+- 🟡 **2026** — Equivocal Broadcast Encryption: Adaptively-Secure Optimal Distributed Broadcast Encryption from Lattices
+- 🟡 **2026** — Towards a Field-Informed Risk-Based Framework for PQC Migration in Legacy Systems
+- 🟡 **2026** — Secret-Carrying Puzzles and Garbled Circuits Optimized for Zero-knowledge Proofs
+- 🟡 **2026** — Efficient Construction of Threshold BBS+ Signatures and its Extensions
+- 🟡 **2026** — Batch-Puncturing Circuit CP-ABE (and More) from Lattices
+- 🟡 **2026** — Montgomery Multiplication in Signed Redundant Representations
+- 🟡 **2026** — Cobra: All-in-one for full-fledged defense — a hybrid nested KEM
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -751,7 +765,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (110 篇)
+### MILP/SAT/CP 建模技术 (114 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -829,6 +843,10 @@
 - 🟡 **2026** — Provably Secure Hybrid Inner Product and Boolean Masking via Composable Conversion
 - 🟡 **2026** — Vector-Input Hashing Modes for Collision-Resistant Pseudorandom Function
 - 🟡 **2026** — Cryptanalysis of Hecke-KE: A Linear-Algebra Attack via Hecke Eigenbasis Decomposition
+- 🟡 **2026** — How (Not) to Simulate PLONK
+- 🟡 **2026** — Foundations of Verifiably Encrypted (Blind) Signatures
+- 🟡 **2026** — Integral Resistance and Degree Bounds for Complex Linear Layers: Application to PRINCE and Lower-Latency Alternatives
+- 🟡 **2026** — Panther: Robust Hybrid KEM Combiners via Structural Splicing
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -945,6 +963,44 @@
 - 🔴 **2008** — A New Meet-in-the-Middle Attack on AES [AES]
 - 🔴 **1977** — Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard [DES]
 
+### ML/LLM 辅助密码分析 (35 篇)
+
+- 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
+- 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
+- 🟡 **2026** — Privacy at your Fingertips: Enabling Rapid Client-Side Operations in Fully Homomorphic Encryption
+- 🟡 **2026** — FHorgEt: A Cryptographic Solution for Secure Machine Unlearning
+- 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
+- 🟡 **2026** — Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis
+- 🟡 **2026** — MatriGear: Accelerating Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
+- 🟡 **2026** — A Review of IC Logical Reverse Engineering Techniques
+- 🟡 **2026** — SoK: Understanding zkVM: From Research to Practice
+- 🟡 **2026** — ROTL: Faster Lookup Table Evaluation
+- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
+- 🟡 **2026** — PrivaDE: Privacy-preserving Data Evaluation for Blockchain-based Data Marketplaces
+- 🟡 **2026** — TP-NTT: Batch NTT Hardware with Application to Relinearization
+- 🟡 **2026** — VERIDP: Verifiable Differentially Private Training
+- 🟡 **2026** — Oblivious Exact (Un)Learning of Extremely Randomized Trees
+- 🟡 **2026** — Fourier Analysis of Neural Distinguishers
+- 🟡 **2026** — SoK: Connecting the Dots in Privacy-Preserving ML - Systematization of MPC Protocols and Conversions Between Secret Sharing Schemes
+- 🟡 **2026** — Efficiently Provable Approximations for Non-Polynomial Functions
+- 🟡 **2026** — FeatureFence: A Regularization Approach for Energy-Efficient Secure Inference on Edge NPUs
+- 🟡 **2026** — Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption
+- 🟡 **2026** — MBU:  Scalable and Constant-Round  Evaluation of Non-linear Functions in Standard MPC Setting
+- 🟡 **2026** — MCU: Exact and Constant-Round Nonlinear Function Evaluation in MPC without Preprocessing
+- 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
+- 🟡 **2026** — Multipath PA-PUFs generate all Boolean functions
+- 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
+- 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
+- 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
+- 🟡 **2024** — Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine Learning [SIMON]
+- 🔴 **2024** — Monte Carlo Tree Search for Automatic Differential Characteristics Search: Application to SPECK [SPECK]
+- 🟡 **2024** — ML-based Improved Differential Distinguisher for GIFT-128 [GIFT]
+- 🟡 **2024** — ML-based Improved Differential Distinguisher for Ascon [Ascon]
+- 🟡 **2022** — Machine Learning-Assisted Differential Distinguishers For Lightweight Ciphers [GIFT, PRESENT, SIMON, SKINNY]
+- 🟡 **2022** — Neural Network-Based Differential Distinguishers: Further Analysis and New Results [SPECK, SIMON]
+- 🔴 **2021** — A Deeper Look at Machine Learning-Based Cryptanalysis [SPECK]
+- 🔴 **2019** — Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning [SPECK]
+
 ### 线性分析 (35 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
@@ -982,43 +1038,6 @@
 - 🔴 **1994** — Differential-Linear Cryptanalysis [DES]
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
-
-### ML/LLM 辅助密码分析 (34 篇)
-
-- 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
-- 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
-- 🟡 **2026** — Privacy at your Fingertips: Enabling Rapid Client-Side Operations in Fully Homomorphic Encryption
-- 🟡 **2026** — FHorgEt: A Cryptographic Solution for Secure Machine Unlearning
-- 🟡 **2026** — NeuralCPA: A Deep Learning Perspective on Chosen-Plaintext Attacks
-- 🟡 **2026** — Too Hot To Be True: Temperature Calibration for Higher Confidence in NN-assisted Side-channel Analysis
-- 🟡 **2026** — MatriGear: Accelerating Authenticated Matrix Triple Generation with Scalable Prime Fields via Optimized HE Packing
-- 🟡 **2026** — A Review of IC Logical Reverse Engineering Techniques
-- 🟡 **2026** — SoK: Understanding zkVM: From Research to Practice
-- 🟡 **2026** — ROTL: Faster Lookup Table Evaluation
-- 🟡 **2026** — Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers
-- 🟡 **2026** — PrivaDE: Privacy-preserving Data Evaluation for Blockchain-based Data Marketplaces
-- 🟡 **2026** — TP-NTT: Batch NTT Hardware with Application to Relinearization
-- 🟡 **2026** — VERIDP: Verifiable Differentially Private Training
-- 🟡 **2026** — Oblivious Exact (Un)Learning of Extremely Randomized Trees
-- 🟡 **2026** — Fourier Analysis of Neural Distinguishers
-- 🟡 **2026** — SoK: Connecting the Dots in Privacy-Preserving ML - Systematization of MPC Protocols and Conversions Between Secret Sharing Schemes
-- 🟡 **2026** — Efficiently Provable Approximations for Non-Polynomial Functions
-- 🟡 **2026** — FeatureFence: A Regularization Approach for Energy-Efficient Secure Inference on Edge NPUs
-- 🟡 **2026** — Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption
-- 🟡 **2026** — MBU:  Scalable and Constant-Round  Evaluation of Non-linear Functions in Standard MPC Setting
-- 🟡 **2026** — MCU: Exact and Constant-Round Nonlinear Function Evaluation in MPC without Preprocessing
-- 🟡 **2026** — Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers
-- 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
-- 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
-- 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
-- 🟡 **2024** — Mixture Differential Cryptanalysis on Round-Reduced SIMON32/64 Using Machine Learning [SIMON]
-- 🔴 **2024** — Monte Carlo Tree Search for Automatic Differential Characteristics Search: Application to SPECK [SPECK]
-- 🟡 **2024** — ML-based Improved Differential Distinguisher for GIFT-128 [GIFT]
-- 🟡 **2024** — ML-based Improved Differential Distinguisher for Ascon [Ascon]
-- 🟡 **2022** — Machine Learning-Assisted Differential Distinguishers For Lightweight Ciphers [GIFT, PRESENT, SIMON, SKINNY]
-- 🟡 **2022** — Neural Network-Based Differential Distinguishers: Further Analysis and New Results [SPECK, SIMON]
-- 🔴 **2021** — A Deeper Look at Machine Learning-Based Cryptanalysis [SPECK]
-- 🔴 **2019** — Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning [SPECK]
 
 ### 积分与 Division Property (28 篇)
 

@@ -12763,3 +12763,337 @@ papers:
   - PRESENT
   fetched_date: '2026-04-23'
   source: eprint
+- id: secure_and_updatable_2026
+  title: Secure and Updatable Single Password Authentication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/784
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Passwords remain the dominant authentication method despite weaknesses such as offline dictionary attacks and password
+    reuse. Single Password Authentication (SPA) mitigates these risks by protecting h
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: cipherskip_efficient_sparse_2026
+  title: 'CipherSkip: Efficient Sparse Matrix Multiplication with FHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/297
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Sparse General Matrix–Matrix Multiplication (SpGEMM) is a fundamental but computationally intensive operation that
+    underpins many scientific workloads, including numerous AI applications. With the inc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: how_not_to_2026
+  title: How (Not) to Simulate PLONK
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/848
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'PLONK is a zk-SNARK system by Gabizon, Williamson, and Ciobotaru with proofs of constant size (0.5 KB) and sublinear
+    verification time. Its setup is circuit-independent supporting proofs of arbitrary '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: multipath_papufs_generate_2026
+  title: Multipath PA-PUFs generate all Boolean functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/349
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: In this paper, we propose a generalized model of Priority Arbiter-based Physical Unclonable Function (PA-PUF) with
+    an arbitrary number of paths inside each switch. We first develop a mathematical mode
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: streaming_function_secret_2026
+  title: Streaming Function Secret Sharing and Its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2304
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Collecting statistics from users of software and online services is crucial to improve service quality, yet obtaining
+    such insights while preserving individual privacy remains a challenge. Function se
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: masking_ordering_failures_2026
+  title: Masking Ordering Failures in BFT SMR via Proactive Pre-Commit Execution
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/796
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Modern Byzantine fault-tolerant state machine replication (BFT SMR) systems adopt a decoupled BFT consensus process
+    to separate data dissemination from transaction ordering as it enables efficient (as
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: sigmars_a_modular_2026
+  title: 'sigma-rs: A Modular Approach for Keyed-Verification Anonymous Credentials'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/794
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We introduce a new software stack in Rust aimed at simplifying\r\nconstructions and deployments of protocols based\
+    \ on\r\nmodern anonymous credential systems.\r\n\r\nThe stack, called sigma-rs, through its lay"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: oriole_adaptively_secure_2026
+  title: 'Oriole: Adaptively Secure Partially Non-Interactive Threshold Signatures from Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/793
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the first lattice-based, partially non-interactive threshold signature scheme that tolerates the adaptive
+    corruption of up to $T-1$ signers, where $T$ is the signing threshold.  Our constru
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: equivocal_broadcast_encryption_2026
+  title: 'Equivocal Broadcast Encryption: Adaptively-Secure Optimal Distributed Broadcast Encryption from Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/792
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the first Distributed Broadcast Encryption (DBE) scheme from falsifiable lattice assumptions that achieves
+    adaptive security with optimal parameters (short public/secret keys and ciphertext
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: towards_a_fieldinformed_2026
+  title: Towards a Field-Informed Risk-Based Framework for PQC Migration in Legacy Systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/790
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Ongoing advances in quantum computing represent a growing risk to modern cryptography (potentially threatening
+    both asymmetric and symmetric encryption protocols), thereby challenging the foundations '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: foundations_of_verifiably_2026
+  title: Foundations of Verifiably Encrypted (Blind) Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/789
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Many blockchain-based applications can be seen as instances of fair exchange of two signatures. Adaptor signatures
+    (AS) and, more concretely, their extractability property, are commonly combined with '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: secretcarrying_puzzles_and_2026
+  title: Secret-Carrying Puzzles and Garbled Circuits Optimized for Zero-knowledge Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/788
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "In this work, we introduce the concept of Obliviously Checkable\r\nSecret-Carrying Puzzles (OxSP) and build proof-friendly\
+    \ Garbled Circuits\r\n(GCs) to enable their practical implementation. OxSPs allow o"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: efficient_construction_of_2026
+  title: Efficient Construction of Threshold BBS+ Signatures and its Extensions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/787
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: BBS+ signatures are widely adopted in privacy-preserving systems such as anonymous credentials and Direct Anonymous
+    Attestation (DAA). To strengthen key security and eliminate single points of failure
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: integral_resistance_and_2026
+  title: 'Integral Resistance and Degree Bounds for Complex Linear Layers: Application to PRINCE and Lower-Latency Alternatives'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/786
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The integral-resistance property provides strong arguments against integral distinguishers. Recently, Zeng and
+    Tian proposed a new method to show this property for AES. In this paper, we provide a gen
+  status: pending_review
+  matched_keywords:
+  - MILP
+  - SAT
+  - AES
+  - PRINCE
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: neural_leakagebased_cryptanalysis_2026
+  title: Neural Leakage–based Cryptanalysis of LowMC with Linear Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/785
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: MPC-in-the-Head protocols enable post-quantum digital signatures based solely on symmetric primitives, with PICNIC
+    being a prominent example built on the LowMC block cipher. While existing analyses as
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: batchpuncturing_circuit_cpabe_2026
+  title: Batch-Puncturing Circuit CP-ABE (and More) from Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/783
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Puncturable attribute-based encryption ($\mathsf{PABE}$) not only supports fine-grained access control over encrypted
+    data, but also enables users to revoke the decryption capability for specific mess
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: panther_robust_hybrid_2026
+  title: 'Panther: Robust Hybrid KEM Combiners via Structural Splicing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/781
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present Panther, a family of six robust hybrid key encapsulation mechanism (KEM) combiners that pair FrodoKEM
+    (unstructured LWE) with ML-KEM (module-LWE, FIPS 203) so that IND-CCA2 security holds w
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: montgomery_multiplication_in_2026
+  title: Montgomery Multiplication in Signed Redundant Representations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/780
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we explore the use of Montgomery multiplication with a multi-limb redundant representation of integers,
+    in particular in combination with signed reduction factors. We develop techniques
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-24'
+  source: eprint
+- id: cobra_allinone_for_2026
+  title: 'Cobra: All-in-one for full-fledged defense — a hybrid nested KEM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/778
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The transition to post-quantum cryptography (PQC) is constrained by the limited cryptanalytic history of individual\
+    \ PQC algorithms. Hybrid constructions, which combine several\r\nprimitives so that brea"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-24'
+  source: eprint
