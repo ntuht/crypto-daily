@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 730 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 736 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (521)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (527)
 
 ## 算法设计
 
-### 轻量级密码综合 (82 篇)
+### 轻量级密码综合 (83 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -99,6 +99,7 @@
 - 🟡 **2026** — MDSS-STAR: Private Heavy-Hitters through Multi-Dealer Secret Sharing
 - 🟡 **2026** — $\mathsf{GraSP}$: Secure Collaborative Graph Processing Made Scalable
 - 🟡 **2026** — Neural Leakage–based Cryptanalysis of LowMC with Linear Complexity
+- 🟡 **2026** — Vega: Low-Latency Zero-Knowledge Proofs over Existing Credentials
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -211,7 +212,7 @@
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 认证加密 (AEAD) (33 篇)
+### 认证加密 (AEAD) (34 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -224,6 +225,7 @@
 - 🟡 **2026** — Breaking and Fixing MacaKey
 - 🟡 **2026** — Format-Preserving Compression-Tolerating Authenticated Encryption for Images
 - 🟡 **2026** — Analyze the Security of the AEAD Scheme HiAE by Algebraic Techniques
+- 🟡 **2026** — EQuADiSE: Efficient Quantum-safe Adaptive Distributed Symmetric-key Encryption
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -418,7 +420,7 @@
 
 ## 算法分析
 
-### 差分分析 (344 篇)
+### 差分分析 (347 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -702,6 +704,9 @@
 - 🟡 **2026** — Batch-Puncturing Circuit CP-ABE (and More) from Lattices
 - 🟡 **2026** — Montgomery Multiplication in Signed Redundant Representations
 - 🟡 **2026** — Cobra: All-in-one for full-fledged defense — a hybrid nested KEM
+- 🟡 **2026** — Accelerating FALCON: Speed Records for FALCON's SamplerZ on Xilinx FPGAs
+- 🟡 **2026** — Breaking the Myth of MPCitH Inefficiency: Optimizing MQOM for Embedded Platforms
+- 🟡 **2026** — Outsourced Private Set Intersection for Pairwise Analytics
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -765,7 +770,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (114 篇)
+### MILP/SAT/CP 建模技术 (115 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -847,6 +852,7 @@
 - 🟡 **2026** — Foundations of Verifiably Encrypted (Blind) Signatures
 - 🟡 **2026** — Integral Resistance and Degree Bounds for Complex Linear Layers: Application to PRINCE and Lower-Latency Alternatives
 - 🟡 **2026** — Panther: Robust Hybrid KEM Combiners via Structural Splicing
+- 🟡 **2026** — Factorisation-Based Multivariate Schemes: Structural Properties and New Constructions
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers

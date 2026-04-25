@@ -13097,3 +13097,110 @@ papers:
   - LED
   fetched_date: '2026-04-24'
   source: eprint
+- id: vega_lowlatency_zeroknowledge_2026
+  title: 'Vega: Low-Latency Zero-Knowledge Proofs over Existing Credentials'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2094
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: As digital identity verification becomes increasingly pervasive, existing privacy-preserving approaches are still
+    limited by complex circuit designs, large proof sizes, trusted setups, or high latency
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-25'
+  source: eprint
+- id: accelerating_falcon_speed_2026
+  title: 'Accelerating FALCON: Speed Records for FALCON''s SamplerZ on Xilinx FPGAs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1490
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: FALCON is a NIST-selected post-quantum digital signature scheme whose performance bottleneck lies in the SamplerZ
+    subroutine for discrete Gaussian sampling. We present a throughput-optimized, custom h
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-25'
+  source: eprint
+- id: breaking_the_myth_2026
+  title: 'Breaking the Myth of MPCitH Inefficiency: Optimizing MQOM for Embedded Platforms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/078
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Signature schemes based on the MPC-in-the-Head (MPCitH) paradigm play an important role in enabling cryptosystems
+    founded on a wide diversity of hardness assumptions. While the design of such schemes '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-25'
+  source: eprint
+- id: outsourced_private_set_2026
+  title: Outsourced Private Set Intersection for Pairwise Analytics
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/801
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper studies privacy-preserving data analytics in settings where multiple parties hold sensitive datasets
+    and want to compute global statistics without revealing their data. We focus on computin
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-04-25'
+  source: eprint
+- id: equadise_efficient_quantumsafe_2026
+  title: 'EQuADiSE: Efficient Quantum-safe Adaptive Distributed Symmetric-key Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/799
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Distributed symmetric-key encryption (DiSE), introduced in CCS' 18 enables threshold versions of traditional (symmetric-key)
+    authenticated encryption. In DiSE, the long-term master secret key is secre
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - PRESENT
+  fetched_date: '2026-04-25'
+  source: eprint
+- id: factorisationbased_multivariate_schemes_2026
+  title: 'Factorisation-Based Multivariate Schemes: Structural Properties and New Constructions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/797
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Trapdoor constructions are an active research area in Multivariate Cryptography. The presented work studies trapdoors
+    based on factor decomposition in algebraic structures, with emphasis on polynomial
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-25'
+  source: eprint
