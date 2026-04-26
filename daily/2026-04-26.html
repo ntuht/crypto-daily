@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-26</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-26</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-26</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-26 03:44</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 526 篇 → 启发式 177 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [The OCH Authenticated Encryption Scheme](https://eprint.iacr.org/2026/439)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 ?/10 | [📎 PDF](https://eprint.iacr.org/2026/439.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的认证加密（AEAD）方案在多用户环境下的安全性和上下文承诺（context commitment）方面可能存在不足，难以满足高安全等级需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了OCH，这是首个旨在提供128位多用户AE安全、128位上下文承诺安全以及支持256位随机数（nonce）的AEAD方案。OCH的设计着重于在复杂安全模型下提供高等级的安全性保证，以应对日益增长的多用户和多上下文应用场景。</p>
+
+<p>🎯 <strong>意义</strong>：OCH的提出为未来设计和评估多用户、高安全等级的认证加密方案树立了新的基准，尤其适用于对安全要求极高的应用场景。</p>
+
+<hr>
+
+<h3>2. [Analyze the Security of the AEAD Scheme HiAE by Algebraic Techniques](https://eprint.iacr.org/2025/1203)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 ?/10 | [📎 PDF](https://eprint.iacr.org/2025/1203.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：HiAE是一种基于AES轮函数的高性能AEAD方案，但其在代数攻击下的安全性尚未得到充分评估，而其他类似方案如Rocca已被发现存在安全漏洞。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文运用代数技术对HiAE方案的安全性进行了深入分析，旨在发现潜在的弱点。通过构建并求解描述HiAE内部状态的代数方程组，研究人员能够评估其抵抗代数攻击的能力，并与现有攻击方法进行对比。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了HiAE在代数攻击下的安全性状况，为高性能AEAD方案的设计者提供了宝贵的反馈，并强调了在追求性能的同时进行严格安全分析的重要性。</p>
+
+<hr>
+
+<h3>3. [More Brisés in Ballet: Extending Differential and Linear Cryptanalysis](https://eprint.iacr.org/2026/501)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 ?/10 | [📎 PDF](https://eprint.iacr.org/2026/501.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Ballet是一种基于ARX结构的简化Lay-Massey分组密码，其安全性此前主要通过传统的差分和线性密码分析进行评估，但可能存在未被发现的攻击路径。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文扩展了传统的差分和线性密码分析方法，对Ballet分组密码家族进行了新的密码分析。研究人员可能引入了更复杂的差分或线性特征，或者结合其他技术来发现更长的攻击链，从而揭示其潜在的弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这些新的密码分析结果加深了对Ballet分组密码安全性的理解，为未来ARX结构密码的设计和评估提供了新的视角和工具。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/748" target="_blank">Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/748.pdf)</p>
+
+<blockquote>
+<p>本文分析了相关密钥多对神经区分器在轻量级分组密码中的应用，展示了其聚合弱区分特征的能力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1806" target="_blank">Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1806.pdf)</p>
+
+<blockquote>
+<p>ePrint 2025/1806</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.444-470" target="_blank">Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.444-470)</p>
+<p><em>Xinhao Zeng, Lin Tan, Hong Xu</em></p>
+
+<blockquote>
+<p>TOSC 2025</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/425" target="_blank">Committing Security of BBB Secure MACs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/425.pdf)</p>
+
+<blockquote>
+<p>ePrint 2026/425</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/535" target="_blank">Improved Related-Key Differential Neural Distinguishers for SPN Block Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/535.pdf)</p>
+
+<blockquote>
+<p>ePrint</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/213" target="_blank">An Innovative Lightweight Symmetric Encryption Algorithm Integrating NeoAlzette ARX S-box and XCR CSPRNG</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/213.pdf)</p>
+
+<blockquote>
+<p>ePrint</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2333" target="_blank">Analysis of Diffusion Properties in Generalized Feistel Ciphers under Multidimensional Linear Cryptanalysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2333.pdf)</p>
+
+<blockquote>
+<p>TOSC 2026</p>
+</blockquote>
+
+<p><em>精选自 526 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
