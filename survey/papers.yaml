@@ -13204,3 +13204,38 @@ papers:
   - PRESENT
   fetched_date: '2026-04-25'
   source: eprint
+- id: avx2_implementation_of_2026
+  title: AVX2 Implementation of QR-UOV for Modern x86 Processors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1599
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: QR-UOV is a multivariate signature scheme selected as one of the candidates in the second round of the NIST PQC
+    Additional Digital Signatures process.  This paper presents software acceleration method
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-27'
+  source: eprint
+- id: the_malice_of_2026
+  title: 'The Malice of ELFs: Practical Anamorphic-Resistant Encryption without Random Oracles'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/305
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The concept of Anamorphic Encryption (Persiano, Phan, and Yung, EUROCRYPT'22), aims to enable private communication
+    in settings where the usage of encryption is heavily controlled by a central authori
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-04-27'
+  source: eprint

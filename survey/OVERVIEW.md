@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 736 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 738 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (527)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (529)
 
 ## 算法设计
 
@@ -420,7 +420,7 @@
 
 ## 算法分析
 
-### 差分分析 (347 篇)
+### 差分分析 (348 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -707,6 +707,7 @@
 - 🟡 **2026** — Accelerating FALCON: Speed Records for FALCON's SamplerZ on Xilinx FPGAs
 - 🟡 **2026** — Breaking the Myth of MPCitH Inefficiency: Optimizing MQOM for Embedded Platforms
 - 🟡 **2026** — Outsourced Private Set Intersection for Pairwise Analytics
+- 🟡 **2026** — AVX2 Implementation of QR-UOV for Modern x86 Processors
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -770,7 +771,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (115 篇)
+### MILP/SAT/CP 建模技术 (116 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -853,6 +854,7 @@
 - 🟡 **2026** — Integral Resistance and Degree Bounds for Complex Linear Layers: Application to PRINCE and Lower-Latency Alternatives
 - 🟡 **2026** — Panther: Robust Hybrid KEM Combiners via Structural Splicing
 - 🟡 **2026** — Factorisation-Based Multivariate Schemes: Structural Properties and New Constructions
+- 🟡 **2026** — The Malice of ELFs: Practical Anamorphic-Resistant Encryption without Random Oracles
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
