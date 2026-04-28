@@ -13239,3 +13239,262 @@ papers:
   - LED
   fetched_date: '2026-04-27'
   source: eprint
+- id: attacking_singlecycle_ciphers_2026
+  title: Attacking Single-Cycle Ciphers on Modern FPGAs featuring Explainable Deep Learning
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/478
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: In this paper, we revisit the question of key recovery using side-channel analysis for unrolled, single-cycle block
+    ciphers. In particular, we study the Princev2 cipher. While it has been shown vulner
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - PRINCE
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: when_data_movement_2026
+  title: 'When Data Movement Becomes the Bottleneck in Modern Workloads: Compute-in-Transit as an Architectural Model'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/807
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In modern computing workloads, performance is increasingly constrained not by computation, but by the cost of moving
+    data. This shift reflects both the scale and structure of contemporary applications
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - PHOTON
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: a_primer_on_2026
+  title: 'A Primer on Dependency in Polynomial Product: Identify, Exploit, and Trim'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/802
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Many lattice-based encryption schemes allow a negligible but nonzero decryption failure rate (DFR), which is closely
+    tied to both correctness and security through failure-based attacks. Several module
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: anonymous_credentials_from_2026
+  title: Anonymous credentials from ECDSA
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2010
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymous digital credentials allow a user to prove possession of an attribute that has been asserted by an identity
+    issuer without the user revealing any extra information about themselves.  For exam
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: zkprover_noninteractive_zeroknowledge_2026
+  title: 'ZK-ProVer: Non-Interactive Zero-Knowledge Certification for SAT-Based Program Verification'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1152
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Program verification ensures software correctness through formal methods but often incurs substantial computational
+    overhead. In SAT-based verification, the verification task is reduced to satisfiabil
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: mpspeed_implementing_and_2026
+  title: 'MPSpeed: Implementing and Optimizing MPC-in-the-Head Digital Signatures in Hardware'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/206
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The Multi-Party Computation (MPC)-in-the-Head (MPCitH) framework enables the construction of post-quantum Digital
+    Signature Algorithms (DSAs), offering competitive public key sizes. However, this come
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AES
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: a_snark_for_2026
+  title: A SNARK for (Non-)Subsequences with Text-Sub-Linear Proving Time
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/008
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: A keyword $\mathbf{s}$ is a subsequence of a text $\mathbf{t}$ if $\mathbf{s}$ can be obtained by deleting some
+    characters from $\mathbf{t}$; otherwise, $\mathbf{s}$ is a non-subsequence of $\mathbf{t
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: et_tu_brute_2026
+  title: Et tu, Brute? SCA Assisted CCA using Valid Ciphertexts - A Case Study on HQC KEM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1626
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "HQC is a code-based key encapsulation mechanism (KEM)\r\nthat was selected to move to the fourth round of the\
+    \ NIST post-quantum\r\nstandardization process. While this scheme was previously targeted by\r\nsi"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: efficient_bootstrapping_of_2026
+  title: Efficient Bootstrapping of Matrices in FHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/811
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In recent years, Fully Homomorphic encryption (FHE) has proven to be a practical solution to various privacy preserving
+    applications such as neural network inference, private information retrieval, an
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: decomposing_multiplication_a_2026
+  title: 'Decomposing Multiplication: A Vertical Packing Approach for Faster TFHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/810
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) enables private data processing on untrusted servers. However, FHE performance
+    remains a critical bottleneck for applications like machine learning, which heavily re
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: formal_verification_integration_2026
+  title: Formal Verification, Integration and Physical Evaluation of Prime-Field Masking on Silicon
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/809
+  directions:
+  - lightweight
+  - round_function
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: The resistance of provably secure masked circuits to physical attacks depends in part on the underlying algebraic
+    group and recombination function. Masking over finite fields of odd prime order has be
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - Feistel
+  - tweakable
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: new_techniques_for_2026_1
+  title: New Techniques for Communication-Efficient Secure Comparison Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/808
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'Secure comparison is a fundamental building block frequently employed in various applications of secure multiparty
+    computation, such as secure machine learning. Such protocols based on secret sharing '
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: pairingbased_verifiable_shuffles_2026
+  title: Pairing-Based Verifiable Shuffles with Logarithmic-Size Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/805
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: A verifiable shuffle proves that a list of output ciphertexts is a rerandomized permutation of a list of input
+    ciphertexts, without revealing either the permutation or the rerandomization factors. Ver
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-28'
+  source: eprint
+- id: x24_down_cryptanalysis_2026
+  title: 'X24 Down: Cryptanalysis of Hankel-based Multivariate Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/803
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The X24 multivariate signature scheme was introduced by Di Muzio, Feussner, and Semaev at PQCrypto 2026. It offers
+    remarkably short signatures, together with a new design approach for multivariate sig
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-28'
+  source: eprint
