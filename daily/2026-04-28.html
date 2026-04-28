@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-04-28</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-04-28</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-04-28</h1>
+
+<blockquote>
+<p>自动生成于 2026-04-28 03:54</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 76 篇 → 启发式 65 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Key Schedule Design and Evaluation under Boundary Round-Key Leakage](https://eprint.iacr.org/2026/696)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/696.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：传统上，密码算法的密钥编排设计通常假设轮密钥是安全的，但现实中的侧信道攻击可能导致首轮、末轮或两端轮密钥的泄露。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究在边界轮密钥泄露（如首轮、末轮或两者）的威胁模型下，提出了一种创新的非线性密钥编排方案。该方案旨在通过精心设计的结构，即使在部分轮密钥泄露的情况下，也能保持整体密钥恢复的难度，并对其安全性进行了理论分析和评估。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为设计在侧信道攻击下更具鲁棒性的密钥编排提供了新的思路和具体方案，对未来密码算法的抗侧信道设计具有重要指导意义。</p>
+
+<hr>
+
+<h3>2. [How to construct even faster and indifferentiable hash functions from random permutations](https://eprint.iacr.org/2026/713)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/713.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在对称密码学中，设计兼具高吞吐量和强可证明安全性的哈希函数是一个长期存在的根本性挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：针对传统哈希函数构造（如海绵结构）在速度和安全性上的权衡，论文提出了一种新的构造方法，该方法基于随机置换。通过优化内部结构，旨在实现更快的处理速度，并提供严格的不可区分性（indifferentiability）安全性证明，从而在理论上保证其安全性。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为构建下一代高性能且安全可证的哈希函数提供了理论基础和实用指导，有望推动哈希函数设计领域的发展。</p>
+
+<hr>
+
+<h3>3. [Alternating Sponge: A Low-Memory Hash Function with Beyond-Birthday-Bound Security](https://eprint.iacr.org/2026/707)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/707.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的低内存哈希函数在安全性上往往受限于生日界攻击，难以满足对更高安全级别有需求的场景。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种名为“交替海绵”（Alternating Sponge, ASP）的改进型低内存哈希函数方案。该方案通过重新设计状态长度和内部迭代机制，巧妙地利用交替操作，使其在容量 $c$ 的情况下能够达到超生日界（Beyond-Birthday-Bound, BBB）安全性。</p>
+
+<p>🎯 <strong>意义</strong>：该方案为资源受限环境下需要高安全性（超生日界）的哈希应用提供了新的选择和设计范式，具有重要的实际应用价值。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2022/1088" target="_blank">Tighter trail bounds for Xoodoo</a></strong> | [📎 PDF](https://eprint.iacr.org/2022/1088.pdf)</p>
+
+<blockquote>
+<p>本文旨在为Xoodoo密码算法的差分路径概率和线性路径相关性贡献提供更紧密的界限，以提升其安全性分析的精确度。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/726" target="_blank">Bitsliced Segment-Based Search Technique for Low-Depth and Hardware-Efficient S-Box Circuits</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/726.pdf)</p>
+
+<blockquote>
+<p>论文提出了一种名为SLICE的位切片分段搜索技术，用于构造低深度且硬件高效的S盒电路，以优化密码算法的实现。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/624" target="_blank">Weak-key cryptanalysis of Blink</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/624.pdf)</p>
+
+<blockquote>
+<p>本研究揭示了FSE 2026上提出的可调块密码Blink存在弱密钥攻击，表明其在特定密钥下安全性不足。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/301" target="_blank">Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/301.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种利用对称泄露的跨算法深度学习非剖面侧信道攻击方法，以克服现有DL-NSCA的局限性并提高攻击效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2026.I1.410-440" target="_blank">Differential Pattern Transition Characterizing the Differential Behavior of AES-like Linear Layers</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2026.I1.410-440)</p>
+<p><em>Jianhua Wang, Tao Huang, Siwei Sun, Hailun Yan, Guang Zeng et al. (6人)</em></p>
+
+<blockquote>
+<p>论文通过差分模式转换来刻画AES类线性层的差分行为，深入分析其密码学特性，为差分分析提供新工具。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1006" target="_blank">Permutation-Based Hash from Non-Idealized Assumptions: Adding Feed-Forward to Sponge</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1006.pdf)</p>
+
+<blockquote>
+<p>本文在非理想化假设下，探讨了在海绵结构中重新引入前馈机制，以设计基于置换的哈希函数，旨在优化其性能和安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/478" target="_blank">Attacking Single-Cycle Ciphers on Modern FPGAs featuring Explainable Deep Learning</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/478.pdf)</p>
+
+<blockquote>
+<p>本文利用可解释深度学习，重新审视了在现代FPGA上对展开的单周期块密码进行侧信道密钥恢复攻击，提高了攻击的有效性。</p>
+</blockquote>
+
+<p><em>精选自 76 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
