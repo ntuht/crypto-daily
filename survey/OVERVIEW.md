@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 752 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 756 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (543)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (547)
 
 ## 算法设计
 
-### 轻量级密码综合 (85 篇)
+### 轻量级密码综合 (86 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -102,6 +102,7 @@
 - 🟡 **2026** — Vega: Low-Latency Zero-Knowledge Proofs over Existing Credentials
 - 🟡 **2026** — Attacking Single-Cycle Ciphers on Modern FPGAs featuring Explainable Deep Learning
 - 🟡 **2026** — Formal Verification, Integration and Physical Evaluation of Prime-Field Masking on Silicon
+- 🟡 **2026** — Lightweight PQ KEM and Hybrid MQTT Protocol for 8-bit AVR Sensor Nodes
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -426,7 +427,7 @@
 
 ## 算法分析
 
-### 差分分析 (353 篇)
+### 差分分析 (356 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -719,6 +720,9 @@
 - 🟡 **2026** — Et tu, Brute? SCA Assisted CCA using Valid Ciphertexts - A Case Study on HQC KEM
 - 🟡 **2026** — Efficient Bootstrapping of Matrices in FHE
 - 🟡 **2026** — X24 Down: Cryptanalysis of Hankel-based Multivariate Signatures
+- 🟡 **2026** — DART: Decentralized, Anonymous, and Regulation-friendly Tokenization
+- 🟡 **2026** — On the Use of Atkin and Weber Modular Polynomials in Isogeny Proofs of Knowledge
+- 🟡 **2026** — Introducing GRAFHEN: GRoup-bAsed Fully Homomorphic Encryption without Noise
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]

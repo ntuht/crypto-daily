@@ -13498,3 +13498,75 @@ papers:
   - PRESENT
   fetched_date: '2026-04-28'
   source: eprint
+- id: dart_decentralized_anonymous_2026
+  title: 'DART: Decentralized, Anonymous, and Regulation-friendly Tokenization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/239
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce DART, a fully anonymous, account-based payment system that addresses real-world requirements, including
+    regulatory compliance, while achieving constant transaction size. DART supports mul
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-29'
+  source: eprint
+- id: lightweight_pq_kem_2026
+  title: Lightweight PQ KEM and Hybrid MQTT Protocol for 8-bit AVR Sensor Nodes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/248
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Most PQC schemes remain too resource-intensive for ultra-constrained 8-bit AVR wireless sensor nodes. In this work,
+    we present a comprehensive approach to practical lightweight PQC for such devices, c
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - Ascon
+  - LED
+  fetched_date: '2026-04-29'
+  source: eprint
+- id: on_the_use_2026
+  title: On the Use of Atkin and Weber Modular Polynomials in Isogeny Proofs of Knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/193
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs of knowledge of isogenies constitute a key building block in the design of isogeny-based
+    signature schemes and have numerous other practical applications. A recent line of work i
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-04-29'
+  source: eprint
+- id: introducing_grafhen_groupbased_2026
+  title: 'Introducing GRAFHEN: GRoup-bAsed Fully Homomorphic Encryption without Noise'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1907
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present GRAFHEN, a new cryptographic scheme which offers Fully Homomorphic Encryption without the need for bootstrapping
+    (or in other words, without noise). Building on the work of Nuida and others
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-29'
+  source: eprint
