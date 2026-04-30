@@ -13570,3 +13570,219 @@ papers:
   - PRESENT
   fetched_date: '2026-04-29'
   source: eprint
+- id: a_reduced_set_2026
+  title: A reduced set of submatrices for a faster evaluation of the MDS property of a circulant matrix with entries that
+    are powers of two
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1521
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: In this paper a reduced set of submatrices for a faster evaluation of the MDS property of a circulant matrix, with
+    entries that are powers of two, is proposed. A proposition is made that under the con
+  status: pending_review
+  matched_keywords:
+  - MDS
+  - PRESENT
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: rejectionfree_framework_of_2026
+  title: Rejection-Free Framework of Zero-Knowledge Proof Based on Hint-MLWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2239
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "Commit-and-prove zero-knowledge proofs are generalized ver-\r\nsions of zero-knowledge protocols that permit proving\
+    \ relations over the committed elements in addition testifying the knowledge of the ini"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: adaptively_secure_partially_2026
+  title: Adaptively Secure Partially Non-Interactive Threshold Schnorr Signatures in the AGM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1953
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Very recently, Crites et al. (CRYPTO 2025) gave a proof for the full adaptive security of FROST (Komlo and Goldberg,
+    SAC 2020), the state-of-the-art two-round threshold Schnorr signature scheme, which
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: correction_fault_attack_2026
+  title: Correction Fault Attack on CROSS under Unknown Bit Flips
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1885
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recognising the need for PQC signature schemes with different size and performance trade-offs than the ML-DSA and
+    SLH-DSA standards, in 2023 NIST launched a competition for additional signature algori
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: maliciously_secure_exact_2026
+  title: Maliciously Secure Exact Fixed-Point Multiplication over Power-of-Two Rings for Replicated 3PC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/822
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Exact fixed-point multiplication over $\mathbb{Z}_{2^k}$ is a fundamental primitive for secure fixed-point arithmetic.
+    However, in the honest-majority, maliciously secure 3PC setting, no prior work si
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: a_spectral_approach_2026
+  title: A spectral approach to arithmetic correlations for binary FCSR sequences with prime connection integers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/821
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Arithmetic correlation is an important metric for measuring feedback with carry shift register (FCSR) sequences,
+    and its value should be as small as possible. For binary FCSR sequences with a prime co
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: topologydriven_symbolic_verification_2026
+  title: Topology-Driven Symbolic Verification of Post-Quantum Migration Paths Using Tamarin Prover
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/819
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The transition from classical public-key cryptography to post-quantum\r\ncryptography introduces protocol-level\
+    \ risks that are not fully addressed\r\nby configuration review, performance benchmarking, or "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: solmae_lightweight_postquantum_2026
+  title: 'SOLMAE: Lightweight Post-Quantum Signature based on NTRU lattices with Hybrid Sampling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/817
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The paper introduces SOLMAE, a lightweight post-quantum signature scheme that follows the traditional hash-and-sign
+    paradigm of Gentry–Peikert–Vaikuntanathan and is instantiated over NTRU lattices usi
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: nonadaptive_programmable_prfs_2026
+  title: Non-Adaptive Programmable PRFs and Applications to Stacked Garbling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/815
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Garbled circuits are a fundamental primitive in cryptography. While the size of garbled circuits in Yao's original
+    scheme grows linearly with the circuit size, a recent line of work on stacked garblin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: threshold_signatures_asaservice_2026
+  title: 'Threshold Signatures as-a-Service: Achieving Threshold ML-DSA in One Online Round'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/814
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We formally define Threshold Signatures as-a-Service (TSaaS), in which the honest parties performing the threshold
+    signature respond only to the signing requests of a designated client. This model cap
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: practical_postquantum_secure_2026
+  title: Practical Post-Quantum Secure Publicly Verifiable Secret Sharing and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/813
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present a new framework for constructing practically efficient publicly verifiable secret sharing(PVSS) with
+    non-interactive dealers, in that the dealer may go offline after sending a single messag
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-30'
+  source: eprint
+- id: mosaic_practical_malicious_2026
+  title: 'Mosaic: Practical Malicious Security for Garbled Circuits on Bitcoin'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/812
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Bitcoin''s scripting language cannot verify arbitrary computation natively, yet applications such as trust-minimized
+    bridges depend on this capability. Recent techniques employ garbled circuits: the pr'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-04-30'
+  source: eprint
