@@ -13786,3 +13786,60 @@ papers:
   - LED
   fetched_date: '2026-04-30'
   source: eprint
+- id: aresares_onlinefriendly_robust_2026
+  title: 'ARES/ARES+: Online-Friendly Robust Threshold ECDSA with Amortized Costs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/130
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold ECDSA has been an active research topic in recent years, driven by its wide-ranging applications, particularly
+    in blockchain domains. In these real-world applications, robustness is a critic
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-01'
+  source: eprint
+- id: thunderbolt_a_formally_2026
+  title: 'Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/709
+  directions:
+  - invariant
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present Thunderbolt, an off-chain protocol that transfers Bitcoin UTXO ownership with seconds-scale latency,
+    requires no channel graph, no routing, and no liquidity rebalancing, and lets the recipi
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-01'
+  source: eprint
+- id: tricycle_private_transformer_2026
+  title: 'Tricycle: Private Transformer Inference with Tricyclic Encodings'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1200
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The growing deployment of large language models (LLMs) in privacy-sensitive settings demands inference mechanisms
+    that preserve data confidentiality. Homomorphic encryption (HE) offers a principled so
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-01'
+  source: eprint

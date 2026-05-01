@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 768 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 771 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (559)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (562)
 
 ## 算法设计
 
-### 轻量级密码综合 (87 篇)
+### 轻量级密码综合 (88 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -104,6 +104,7 @@
 - 🟡 **2026** — Formal Verification, Integration and Physical Evaluation of Prime-Field Masking on Silicon
 - 🟡 **2026** — Lightweight PQ KEM and Hybrid MQTT Protocol for 8-bit AVR Sensor Nodes
 - 🟡 **2026** — SOLMAE: Lightweight Post-Quantum Signature based on NTRU lattices with Hybrid Sampling
+- 🟡 **2026** — Tricycle: Private Transformer Inference with Tricyclic Encodings
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -429,7 +430,7 @@
 
 ## 算法分析
 
-### 差分分析 (362 篇)
+### 差分分析 (363 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -731,6 +732,7 @@
 - 🟡 **2026** — Topology-Driven Symbolic Verification of Post-Quantum Migration Paths Using Tamarin Prover
 - 🟡 **2026** — Non-Adaptive Programmable PRFs and Applications to Stacked Garbling
 - 🟡 **2026** — Threshold Signatures as-a-Service: Achieving Threshold ML-DSA in One Online Round
+- 🟡 **2026** — ARES/ARES+: Online-Friendly Robust Threshold ECDSA with Amortized Costs
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -917,7 +919,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (82 篇)
+### 中间相遇 (83 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -990,6 +992,7 @@
 - 🟡 **2026** — MPSpeed: Implementing and Optimizing MPC-in-the-Head Digital Signatures in Hardware
 - 🟡 **2026** — Practical Post-Quantum Secure Publicly Verifiable Secret Sharing and Applications
 - 🟡 **2026** — Mosaic: Practical Malicious Security for Garbled Circuits on Bitcoin
+- 🟡 **2026** — Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -1178,7 +1181,7 @@
 - 🟡 **2000** — Amplified Boomerang Attacks Against Reduced-Round MARS and Serpent [MARS, Serpent]
 - 🔴 **1999** — The Boomerang Attack
 
-### 不变量与子空间 (16 篇)
+### 不变量与子空间 (17 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
@@ -1193,6 +1196,7 @@
 - 🟡 **2026** — Applications of Bruhat-Chevalley-Renner Decomposition to Metric-Aware Code-Based Cryptography
 - 🟡 **2026** — How to construct even faster and indifferentiable hash functions from random permutations
 - 🟡 **2026** — Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage
+- 🟡 **2026** — Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]
