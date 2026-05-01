@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-01</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-01</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-01</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-01 04:03</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 39 篇 → 启发式 38 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [PD-Net: Learning Device-Invariant Representations for Heterogeneous Cross-Device Side-Channel Attacks](https://eprint.iacr.org/2026/606)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/606.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：异构跨设备侧信道攻击面临模型泛化性差的挑战，即在一个设备上训练的模型难以有效攻击其他架构的设备。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了PD-Net，一个旨在学习设备无关表示的神经网络架构。PD-Net通过特定的训练策略和网络设计，能够从不同设备采集的侧信道数据中提取出与设备硬件特性无关的攻击特征，从而显著提升了跨设备攻击的成功率和泛化能力。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为解决跨设备侧信道攻击中的泛化性难题提供了新的思路和有效的解决方案，对提升侧信道攻击的实用性和防御策略的鲁棒性具有重要意义。</p>
+
+<hr>
+
+<h3>2. [Toward Provable Security in Anamorphic Extension: New Constructions and Analysis](https://eprint.iacr.org/2026/645)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/645.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在接收方私钥可能暴露给攻击者的“独裁”场景下，变形加密（Anamorphic Encryption）提供了一种独特的安全通信机制。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文针对2022年引入的变形密码学，提出了新的变形加密方案构造，并对其可证明安全性进行了深入分析。这些新构造旨在增强现有方案的安全性，并在更广泛的威胁模型下提供形式化证明，确保即使在私钥泄露的情况下，通信的机密性也能得到维护。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究推动了变形加密理论和实践的发展，为在极端安全假设下实现安全通信提供了更坚实的基础和更可靠的方案。</p>
+
+<hr>
+
+<h3>3. [ACTS: Attestations of Contents in TLS Sessions](https://eprint.iacr.org/2026/755)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/755.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Web3大规模应用的关键在于，即使在现有系统中，用户也能从其数据中获益，这引出了如何证明现有系统内数据内容的问题。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了ACTS（Attestations of Contents in TLS Sessions），一种允许用户证明TLS会话内容真实性的机制。ACTS通过结合密码学原语和协议设计，使得用户能够生成可验证的证明，确认特定TLS会话中传输的数据内容，而无需修改底层TLS协议或依赖第三方信任。</p>
+
+<p>🎯 <strong>意义</strong>：ACTS为Web3生态系统中的数据所有权和可信性提供了创新解决方案，使用户能够更好地控制和利用其在传统Web服务中的数据。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/752" target="_blank">GlitchSnipe: Toward Localized Voltage Fault Attacks</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/752.pdf)</p>
+
+<blockquote>
+<p>本文提出了GlitchSnipe，旨在实现更精确的局部电压故障注入攻击，以克服传统电压毛刺攻击在定位上的局限性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/809" target="_blank">Formal Verification, Integration and Physical Evaluation of Prime-Field Masking on Silicon</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/809.pdf)</p>
+
+<blockquote>
+<p>本文对基于素数域掩码的电路进行了形式化验证、集成与物理评估，以确保其对侧信道攻击的抵抗能力，并分析了代数群和重组函数的影响。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/684" target="_blank">Zeal: PIR for Non-Cooperative Databases</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/684.pdf)</p>
+
+<blockquote>
+<p>提及PRESENT和差分分析</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/664" target="_blank">Expanders Meet Reed--Muller: Easy Instances of Noisy k-XOR</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/664.pdf)</p>
+
+<blockquote>
+<p>本文结合扩展图和Reed-Muller码，研究了带噪声k-XOR问题的“简单”实例，旨在区分随机数据与由线性编码产生的带噪声数据。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2023/1521" target="_blank">A reduced set of submatrices for a faster evaluation of the MDS property of a circulant matrix with entries that are powers of two</a></strong> | [📎 PDF](https://eprint.iacr.org/2023/1521.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种更小的子矩阵集合，用于更快地评估由2的幂次作为元素的循环矩阵的MDS特性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/709" target="_blank">Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/709.pdf)</p>
+
+<blockquote>
+<p>本文提出了Thunderbolt，一个经过形式化验证的链下比特币传输协议，实现了秒级延迟的UTXO所有权转移，且无需通道图或路由。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2081" target="_blank">Partial Fraction Techniques for Cryptography</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2081.pdf)</p>
+
+<blockquote>
+<p>本文探讨了分式分解技术在密码学中的应用，展示了如何利用这一数学工具解决密码学中的特定问题。</p>
+</blockquote>
+
+<p><em>精选自 39 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
