@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-02</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-02</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-02</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-02 03:36</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 40 篇 → 启发式 31 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers](https://eprint.iacr.org/2026/824)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/824.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的抗侧信道AEAD（带认证加密）方案通常不兼容密钥长度等于分组长度的单长度分组密码。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了UEDTDM和UEDTMX两种新的抗侧信道AEAD方案，它们专门设计用于支持单长度分组密码，并在安全性上提供了严谨的证明。</p>
+
+<p>🎯 <strong>意义</strong>：这些方案显著提升了抗侧信道AEAD在资源受限环境中的实用性和兼容性。</p>
+
+<hr>
+
+<h3>2. [Efficient Implementation of ARIA on ARMv8 via Cryptographic Extensions](https://eprint.iacr.org/2026/826)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/826.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：ARIA分组密码作为韩国国家标准和IETF标准被广泛使用，但在现代ARMv8处理器上的高效实现研究相对较少。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文利用ARMv8架构的加密扩展指令集，对ARIA分组密码进行了优化实现，并详细分析了其在不同模式下的性能表现。</p>
+
+<p>🎯 <strong>意义</strong>：该研究为ARIA在ARMv8平台上的部署提供了高性能的实现方案，有助于其在移动和嵌入式设备中的应用。</p>
+
+<hr>
+
+<h3>3. [Dynamic Group Time-based One-time Passwords](https://eprint.iacr.org/2026/766)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/766.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：群组基于时间的一次性密码（GTOTP）是一种轻量级密码原语，用于实现匿名客户端认证。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种动态群组基于时间的一次性密码方案，它允许群组成员动态加入或退出，并能高效生成一次性密码，同时保持匿名性。</p>
+
+<p>🎯 <strong>意义</strong>：该方案提升了GTOTP的灵活性和实用性，使其更适用于需要动态成员管理的匿名认证场景。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/625" target="_blank">Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/625.pdf)</p>
+
+<blockquote>
+<p>本文评估了量子计算机对椭圆曲线加密货币的威胁，并提出了相应的缓解策略及资源估算。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/660" target="_blank">QED-Lite: Lightweight Detection of Quantum-Vulnerable ELF Binaries via Cryptographic Library Version Fingerprinting</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/660.pdf)</p>
+
+<blockquote>
+<p>QED-Lite通过密码库版本指纹识别技术，实现对ELF二进制文件中量子脆弱性的轻量级检测。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1552" target="_blank">Revisiting Keyed-Verification Anonymous Credentials</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1552.pdf)</p>
+
+<blockquote>
+<p>本文重新审视了带密钥验证的匿名凭证（KVACs）的理论与实践，探讨其在隐私保护系统中的应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2131" target="_blank">Persistent BitTorrent Trackers</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2131.pdf)</p>
+
+<blockquote>
+<p>本文提出了持久化BitTorrent追踪器，旨在解决现有私有追踪器在声誉管理和数据迁移方面的关键弱点。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/801" target="_blank">Outsourced Private Set Intersection for Pairwise Analytics</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/801.pdf)</p>
+
+<blockquote>
+<p>本文研究了外包私有集合交集（PSI）技术，用于在多方持有敏感数据时进行隐私保护的成对分析。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/602" target="_blank">Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/602.pdf)</p>
+
+<blockquote>
+<p>本文为XRP Ledger上的多用途代币引入了保密转账功能，作为XLS-33代币标准的密码学扩展。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2023/1530" target="_blank">Proofs of Space with Maximal Hardness</a></strong> | [📎 PDF](https://eprint.iacr.org/2023/1530.pdf)</p>
+
+<blockquote>
+<p>本文提出了具有最大难度的空间证明（PoS）方案，旨在优化证明者存储数据的效率和验证者的安全性。</p>
+</blockquote>
+
+<p><em>精选自 40 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
