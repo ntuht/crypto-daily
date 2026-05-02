@@ -13843,3 +13843,222 @@ papers:
   - LED
   fetched_date: '2026-05-01'
   source: eprint
+- id: zkagent_verifiable_llm_2026
+  title: 'zkAgent: Verifiable LLM Agent Execution via One-Shot Transcript Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/199
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: LLM-based agents, which interleave large language model inference with external tool calls, are increasingly deployed
+    in high-stakes settings. In real-world deployments, each model inference and provi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: sunfish_reading_ledgers_2026
+  title: 'Sunfish: Reading Ledgers with Sparse Nodes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1680
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Users who wish to interact with blockchains typically engage with only a small number of decentralized applications
+    (dApps) whose state they need to monitor. However, securely and trustlessly tracking
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: scale_round_break_2026
+  title: 'Scale, Round, Break: Simple Leakage Attacks on Secret Sharing Schemes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/833
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study the local leakage resilience of $t$-out-of-$n$ threshold secret sharing schemes. We present a remarkably
+    simple, perfectly correct attack that fully breaks any scheme with linear reconstructi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: lockmeld_a_privacypreserving_2026
+  title: 'LockMeld: A Privacy-Preserving Cross-Chain Protocol for Confidential, Account-Based Blockchains'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/831
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this paper, we present LockMeld, the first solution for enabling private cross-chain transfers when both underlying
+    chains rely on homomorphic commitments to safeguard transaction amounts. LockMeld
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: dy_unchained_now_2026
+  title: 'DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/830
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'Cryptographic protocols are the cornerstone of Internet security, and any flaw in their design would have drastic
+    effects. We can formally prove the absence of such flaws using a variety of automated '
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: beyond_binary_crosscorrelation_2026
+  title: 'Beyond Binary: crosscorrelation of Quartic and Cubic Character Sequences'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/829
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The arithmetic crosscorrelation of pseudorandom sequences is a fundamental measure of their suitability for applications\
+    \ in cryptography and communications. \r\n While prior works have studied this quan"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: zee200_zero_knowledge_2026
+  title: 'ZEE200: Zero Knowledge for Everything and Everyone @ 200 KHz'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/828
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge execution of high-level programs proceeds by repeatedly evaluating CPU steps. Each such step privately
+    selects and evaluates an instruction (possibly involving memory access) from a ric
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: a_postquantum_sanitizable_2026
+  title: A Post-Quantum Sanitizable Signature Scheme Based on Unbalanced Oil and Vinegar
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/827
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "Sanitizable signature schemes~(SSS) allow a designated sanitizer to modify admissible portions of a signed message\
+    \ while preserving the\r\nvalidity of the original signer's authorisation. All existing S"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: efficient_implementation_of_2026
+  title: Efficient Implementation of ARIA on ARMv8 via Cryptographic Extensions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/826
+  directions:
+  - sbox
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The ARIA block cipher is the Korean national standard (KS X 1213) and an IETF standard (RFC 5794). Despite its
+    widespread use, research on efficient implementation for modern ARMv8 processors has rema
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  - AES
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: scalable_secure_biometric_2026
+  title: Scalable Secure Biometric Authentication without Auxiliary Identifiers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/825
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The prevalence of biometric authentication has been on the rise due to its ease of use and elimination of weak
+    passwords. To date, most biometric authentication systems have been designed for on-devic
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: better_usability_leakageresistant_2026
+  title: 'Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/824
+  directions:
+  - milp_sat_cp
+  - aead
+  ciphers: []
+  significance: medium
+  summary: "Existing leakage-resistant AEADs are rarely compatible with {\\it single-length key} blockciphers (BCs), \r\n\
+    i.e., blockciphers with key-length equaling block-length. We present UEDTDM and UEDTMX, two si"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AEAD
+  - AES
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
+- id: tieredomap_skewnessaware_oblivious_2026
+  title: 'TieredOMap: Skewness-Aware Oblivious Map'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/823
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Oblivious map (OMAP) is a fundamental primitive for encrypted databases, yet existing designs largely adhere to
+    a uniform worst-case principle: every record incurs nearly the same time to retrieve, re'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-02'
+  source: eprint
