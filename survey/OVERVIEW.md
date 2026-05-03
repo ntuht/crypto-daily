@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 783 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 794 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (574)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (585)
 
 ## 算法设计
 
-### 轻量级密码综合 (89 篇)
+### 轻量级密码综合 (90 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -106,6 +106,7 @@
 - 🟡 **2026** — SOLMAE: Lightweight Post-Quantum Signature based on NTRU lattices with Hybrid Sampling
 - 🟡 **2026** — Tricycle: Private Transformer Inference with Tricyclic Encodings
 - 🟡 **2026** — Efficient Implementation of ARIA on ARMv8 via Cryptographic Extensions
+- 🟡 **2026** — All You Need Is Addition
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -386,11 +387,12 @@
 - 🔴 **2002** — The Wide Trail Design Strategy [AES, Rijndael]
 - 🔴 **2002** — The Design of Rijndael: AES — The Advanced Encryption Standard [AES, Rijndael]
 
-### 低时延密码 (16 篇)
+### 低时延密码 (17 篇)
 
 - 🟡 **2026** — Making Uncertified DAG BFT Provably Live with Linear Payload and Quadratic Metadata Communication
 - 🟡 **2026** — Synchronous BFT with Provability and Fast Path for the Age of Blockchains
 - 🟡 **2026** — High-Throughput Side-Channel-Protected Stream Cipher Hardware for 6G Systems
+- 🟡 **2026** — InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🟡 **2024** — MATTER: A Wide-Block Tweakable Block Cipher [MATTER]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -433,7 +435,7 @@
 
 ## 算法分析
 
-### 差分分析 (370 篇)
+### 差分分析 (376 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -743,6 +745,12 @@
 - 🟡 **2026** — ZEE200: Zero Knowledge for Everything and Everyone @ 200 KHz
 - 🟡 **2026** — Scalable Secure Biometric Authentication without Auxiliary Identifiers
 - 🟡 **2026** — TieredOMap: Skewness-Aware Oblivious Map
+- 🟡 **2026** — Variables for Free: Fault Injection Attack on MAYO via Valid Solutions
+- 🟡 **2026** — From Matrix to Polynomial NTRU FHE: Enabling Amortized Bootstrapping via Sparse Keys
+- 🟡 **2026** — HAKE: Efficient Hardware Accelerator for Key Generation of Post-Quantum Signature Scheme PERK
+- 🟡 **2026** — Efficient Non-Interactive Key Refresh with Multiple Independent Refreshers for Threshold Cryptography
+- 🟡 **2026** — Trident: Efficient FPGA Acceleration of XMSS Tree in Post-Quantum Signature Scheme SLH-DSA
+- 🟡 **2026** — Fault Injection Attacks Against zkSTARKs
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -806,7 +814,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (122 篇)
+### MILP/SAT/CP 建模技术 (124 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -896,6 +904,8 @@
 - 🟡 **2026** — Maliciously Secure Exact Fixed-Point Multiplication over Power-of-Two Rings for Replicated 3PC
 - 🟡 **2026** — A Post-Quantum Sanitizable Signature Scheme Based on Unbalanced Oil and Vinegar
 - 🟡 **2026** — Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers
+- 🟡 **2026** — Privacy-Preserving Aggregate-Signatures: Generic Constructions and Practical Instantiations
+- 🟡 **2026** — Detecting Post-Quantum and Hybrid TLS Deployments via Raw TLS Record Inspection
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -931,7 +941,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (84 篇)
+### 中间相遇 (85 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -1006,6 +1016,7 @@
 - 🟡 **2026** — Mosaic: Practical Malicious Security for Garbled Circuits on Bitcoin
 - 🟡 **2026** — Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers
 - 🟡 **2026** — LockMeld: A Privacy-Preserving Cross-Chain Protocol for Confidential, Account-Based Blockchains
+- 🟡 **2026** — Toward Practical Fair Data Exchange: Eliminating In-Circuit Public-Key Operations
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]

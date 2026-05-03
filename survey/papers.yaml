@@ -14062,3 +14062,197 @@ papers:
   - PRESENT
   fetched_date: '2026-05-02'
   source: eprint
+- id: variables_for_free_2026
+  title: 'Variables for Free: Fault Injection Attack on MAYO via Valid Solutions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1808
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Abstract. Multivariate quadratic problem over a finite field, a NP-hard problem, is also considered as one of the
+    hard problems for cryptanalytic-relevant quantum computers. It is the foundation of mu
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: from_matrix_to_2026
+  title: 'From Matrix to Polynomial NTRU FHE: Enabling Amortized Bootstrapping via Sparse Keys'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/068
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) enables computation on encrypted data and is a fundamental building block for
+    privacy-preserving applications. Recent work has shown that FHE schemes can be construc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: instantomr_oblivious_message_2026
+  title: 'InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2317
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous messaging systems, such as privacy-preserving blockchains and private messaging applications, need to
+    protect recipient privacy: ensuring no linkage between the recipient and the message. Th'
+  status: pending_review
+  matched_keywords:
+  - low latency
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: toward_practical_fair_2026
+  title: 'Toward Practical Fair Data Exchange: Eliminating In-Circuit Public-Key Operations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/843
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Code-based fair data exchange (FDE) substantially reduces client work by checking only a Fiat--Shamir sample of
+    a redundant Reed--Solomon codeword.  The most practical prior construction, VECK\(^{\sta
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: hake_efficient_hardware_2026
+  title: 'HAKE: Efficient Hardware Accelerator for Key Generation of Post-Quantum Signature Scheme PERK'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/841
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The rapid progress in quantum computing has sparked a new wave of cryptosystem innovation, namely, the development
+    of cryptographic schemes that are resistant to quantum attacks, known as Post-Quantum
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: all_you_need_2026
+  title: All You Need Is Addition
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/840
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: A practical acceleration framework for CKKS homomorphic encryption is proposed, in which multiplication-heavy sub-circuits
+    are evaluated by adding encrypted log-magnitudes rather than multiplying ciph
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: efficient_noninteractive_key_2026
+  title: Efficient Non-Interactive Key Refresh with Multiple Independent Refreshers for Threshold Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/839
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this paper a novel key refresh architecture using multiple independent third-party refreshers, to eliminate
+    the centralized trust required by single-dealer approaches, is presented. Each refresher '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: trident_efficient_fpga_2026
+  title: 'Trident: Efficient FPGA Acceleration of XMSS Tree in Post-Quantum Signature Scheme SLH-DSA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/837
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The emergence of quantum computing poses significant threats to conventional cryptographic systems, necessitating
+    the efficient hardware acceleration of Post-Quantum Cryptography (PQC), especially on '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: privacypreserving_aggregatesignatures_generic_2026
+  title: 'Privacy-Preserving Aggregate-Signatures: Generic Constructions and Practical Instantiations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/836
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Aggregate signatures allow a set of signers to compress individual signatures on distinct messages into a short
+    signature, offering significant savings in storage and verification time. However, exist
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: fault_injection_attacks_2026
+  title: Fault Injection Attacks Against zkSTARKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/835
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Fault injection attack targetting schemes with Zero-Knowledge (ZK ) properties have been relatively absent in
+    the wider literature. One of the few examples has recently shown a ZK signature scheme to '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-03'
+  source: eprint
+- id: detecting_postquantum_and_2026
+  title: Detecting Post-Quantum and Hybrid TLS Deployments via Raw TLS Record Inspection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/834
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "The transition to post-quantum cryptography (PQC)\r\nis essential to safeguard networked systems against future\r\
+    \nquantum-enabled adversaries. While recent standardisation efforts\r\nhave introduced PQC al"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-03'
+  source: eprint
