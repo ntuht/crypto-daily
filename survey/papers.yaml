@@ -14256,3 +14256,47 @@ papers:
   - LED
   fetched_date: '2026-05-03'
   source: eprint
+- id: bitgc_made_more_2026
+  title: BitGC Made (More) Efficient
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1810
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Garbled circuits with one-bit-per-gate communication were recently introduced by Liu et al. (BitGC, Eurocrypt 2025),
+    Meyer et al. (Crypto 2025), and Ishai et al. (Crypto 2025). However, these works fo
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-04'
+  source: eprint
+- id: beyondbirthdaybound_security_with_2026
+  title: 'Beyond-Birthday-Bound Security with HCTR2: Cascaded Construction and Tweak-based Key Derivation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/085
+  directions:
+  - permutation_layer
+  - tweakable
+  - lightweight
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The block cipher (BC) mode for realizing a variable-input-length strong tweakable pseudorandom permutation (VIL-STPRP),
+    also known as the accordion mode, is a rapidly growing research field driven by '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - block cipher
+  - permutation
+  - tweakable
+  - AES
+  - PRESENT
+  fetched_date: '2026-05-04'
+  source: eprint

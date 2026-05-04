@@ -1,136 +1,4 @@
 papers:
-- id: mathsftalong_bandwidthefficient_tworound_2026
-  title: '$\mathsf{TalonG}$: Bandwidth-Efficient Two-Round Threshold Signatures from Lattices'
-  url: https://eprint.iacr.org/2026/303
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: Threshold signatures split the secret key among $n$ parties, where any subset of at least $t$ parties can collaboratively
-    produce a valid signature. They have been widely deployed in applications such
-  heuristic_score: 11
-  added_date: '2026-05-03'
-  authors: []
-- id: block_circulant_codes_2026
-  title: Block Circulant Codes for Ethereum PeerDAS
-  url: https://eprint.iacr.org/2026/708
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: In this report, we describe how block circulant (BC) codes can serve as an alternative to one-dimensional (1D)
-    and two-dimensional (2D) Reed–Solomon (RS) codes in the Ethereum PeerDAS protocol. We beg
-  heuristic_score: 11
-  added_date: '2026-05-03'
-  authors: []
-- id: jagged_polynomial_commitments_2026
-  title: 'Jagged Polynomial Commitments (or: How to Stack Multilinears)'
-  url: https://eprint.iacr.org/2025/917
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: Modern SNARK constructions, almost ubiquitously, rely on a polynomial commitment scheme (PCS) --- a method by which
-    a prover can commit to a large polynomial $P$ and later provide evaluation proofs of
-  heuristic_score: 11
-  added_date: '2026-05-03'
-  authors: []
-- id: mathsfspectra_intervalagnostic_vector_2026
-  title: '$\mathsf{Spectra}$: Interval-Agnostic Vector Range Argument for Unstructured Range Assertions'
-  url: https://eprint.iacr.org/2026/339
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: 'A structured vector range argument proves that a committed vector $\mathbf{v}$ lies in a well-structured range
-    of the form $[0,2^d-1]$. This structure makes the protocol extremely efficient, although '
-  heuristic_score: 11
-  added_date: '2026-05-03'
-  authors: []
-- id: practical_subvector_commitments_2026
-  title: Practical Subvector Commitments with Optimal Opening Complexity
-  url: https://eprint.iacr.org/2026/118
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: We introduce a simple pairing-based vector commitment with subvector opening where, after a one-time preprocessing,
-    the prover can open a subvector of size $\ell$ in linear time. Our focus is on pract
-  heuristic_score: 11
-  added_date: '2026-05-03'
-  authors: []
-- id: ligesis_distributionfriendly_polynomial_2026
-  title: 'LigeSIS: Distribution-friendly Polynomial Commitment \\ Based on Error-correcting Code'
-  url: https://eprint.iacr.org/2026/751
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: Polynomial commitment schemes (PCS) are a fundamental building block of modern proof systems. As proof system applications
-    scale to increasingly large workloads, distributed PCS become essential for r
-  heuristic_score: 11
-  added_date: '2026-05-03'
-  authors: []
-- id: ssledag_a_highthroughput_2026
-  title: 'SSLE-DAG: A High-Throughput Proof-of-Stake Consensus Protocol Combining an Adaptive DAG with a Single Secret Leader
-    Election'
-  url: https://eprint.iacr.org/2026/647
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: SSLE-DAG Proof-of-Stake (PoS) blockchains with publicly visible leader schedules expose future proposers to targeted
-    Denial-of-Service (DoS) attacks. Single Secret Leader Election (SSLE) techniques ad
-  heuristic_score: 8
-  added_date: '2026-05-03'
-  authors: []
-- id: ahab_asynchronous_highthroughput_2026
-  title: 'AHAB: Asynchronous, High-throughput, Adaptively-secure, Batched Threshold Schnorr Signatures'
-  url: https://eprint.iacr.org/2026/620
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - PRESENT
-  directions:
-  - differential
-  summary: We present AHAB, a suite of protocols for threshold Schnorr signatures in the asynchronous communication setting
-    with guaranteed output delivery (robustness). We build on the AVSS and GoAVSS protocols
-  heuristic_score: 6
-  added_date: '2026-05-03'
-  authors: []
-- id: a_simple_batched_2026
-  title: A Simple Batched Threshold Encryption Scheme
-  url: https://eprint.iacr.org/2026/760
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  directions:
-  - milp_sat_cp
-  summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
-    not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
-  heuristic_score: 6
-  added_date: '2026-05-03'
-  authors: []
 - id: reducing_the_number_2026
   title: Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves
   url: https://eprint.iacr.org/2026/280
@@ -144,7 +12,7 @@ papers:
   summary: Solving the Discrete Logarithm problem on the group of points of an elliptic curve is one of the major cryptographic
     applications of Shor's algorithm. However, current estimates for the number of qubi
   heuristic_score: 5
-  added_date: '2026-05-03'
+  added_date: '2026-05-04'
   authors: []
 - id: fullyadaptive_tworound_threshold_2026
   title: Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH
@@ -159,5 +27,5 @@ papers:
   summary: Threshold Schnorr signatures enable $t$-out-of-$n$ parties to collaboratively produce signatures that are indistinguishable
     from standard Schnorr signatures, ensuring compatibility with existing verif
   heuristic_score: 5
-  added_date: '2026-05-03'
+  added_date: '2026-05-04'
   authors: []
