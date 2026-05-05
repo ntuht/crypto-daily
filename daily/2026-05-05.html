@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-05</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-05</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-05</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-05 03:36</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 20 篇 → 启发式 5 篇 → 精选 <strong>5 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments](https://eprint.iacr.org/2026/856)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/856.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在物联网、嵌入式设备等资源受限环境中，对轻量级、高效且安全的加密算法需求日益增长，以替代计算开销较大的AES-128。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了MERIDIAN，一个128位分组密码，旨在作为AES-128的轻量级替代方案。MERIDIAN的设计灵感来源于环面结构，其核心在于一个创新的置换层，该层利用环面几何特性实现高效的扩散。它保留了AES-128的接口，包括128位的分组大小，这使得它在现有系统中易于集成和部署，同时通过优化内部结构，显著降低了硬件资源消耗和功耗。</p>
+
+<p>🎯 <strong>意义</strong>：MERIDIAN为资源受限设备提供了一个有前景的、与AES-128兼容的轻量级加密选择，有助于推动安全技术在边缘计算和物联网领域的普及。</p>
+
+<hr>
+
+<h3>2. [Setup Protocols for Sender Anonymity](https://eprint.iacr.org/2026/158)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/158.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：匿名通信对于公共网络上的安全和私密交互至关重要，但现有可证明匿名方案通常依赖于简化的输入/输出（I/O）模型。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究超越了传统的简单I/O模型，提出了新的设置协议，旨在更复杂、更实际的场景中实现发送方匿名性。这些协议通过精心设计的交互步骤，确保即使在存在恶意参与者或更动态的网络环境下，发送方的身份也能得到有效保护，从而扩展了匿名通信的适用范围和鲁棒性。</p>
+
+<p>🎯 <strong>意义</strong>：这些协议的提出提升了匿名通信协议的实用性和安全性，使其能够适应更广泛的实际应用场景，增强用户隐私保护。</p>
+
+<hr>
+
+<h3>3. [Zinc+: SNARKs for Polynomial Rings](https://eprint.iacr.org/2026/855)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 3/10 | [📎 PDF](https://eprint.iacr.org/2026/855.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：当前大多数简洁非交互式知识论证（SNARKs）系统将计算表示为有限域上的代数约束，导致位操作、模运算和格运算等非域原生操作的效率低下。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了Zinc+，一个专为多项式环设计的SNARKs系统。通过在多项式环上直接表达和处理计算，Zinc+能够更自然、更高效地支持那些在有限域上不便处理的复杂操作，如位操作、模算术以及格密码相关的计算。这种方法显著降低了将这些复杂逻辑映射到SNARKs所需开销，提升了证明生成和验证的效率。</p>
+
+<p>🎯 <strong>意义</strong>：Zinc+的出现显著提升了SNARKs在处理复杂计算时的效率和适用性，为密码学原语、零知识证明等领域开辟了新的应用前景。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/280" target="_blank">Reducing the Number of Qubits in Quantum Discrete Logarithms on Elliptic Curves</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/280.pdf)</p>
+
+<blockquote>
+<p>本文研究如何优化肖尔算法在椭圆曲线离散对数问题中所需的量子比特数量，以降低量子密码分析的资源消耗。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1478" target="_blank">Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1478.pdf)</p>
+
+<blockquote>
+<p>本文基于DDH假设，构建了一种完全自适应的两轮门限Schnorr签名方案，允许多方协作生成与标准Schnorr签名无异的签名。</p>
+</blockquote>
+
+<p><em>精选自 20 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
