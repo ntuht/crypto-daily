@@ -14300,3 +14300,349 @@ papers:
   - PRESENT
   fetched_date: '2026-05-04'
   source: eprint
+- id: setup_protocols_for_2026
+  title: Setup Protocols for Sender Anonymity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/158
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous communication is essential for secure and private interactions over public networks. Existing solutions
+    that provide provable anonymity rely on the so-called simple I/O setting, where every '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: on_the_pitfalls_2026
+  title: On the Pitfalls of Modeling Individual Knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2268
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The concept of knowledge has been central in cryptography, especially within cryptographic proof systems. Traditionally,
+    research in this area considers an abstract \emph{prover} defending a claim tha
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: issuerhiding_for_bbs_2026
+  title: Issuer-Hiding for BBS Anonymous Credentials via Randomizable Keys
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/369
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials (AC) equip users with credentials on attested attributes, which enable them to prove verifiable
+    yet data-minimizing statements over their attributes. However, in standard ACs, ea
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: faster_asynchronous_blockchain_2026
+  title: Faster Asynchronous Blockchain Consensus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1108
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The fastest asynchronous (block-chained) consensus protocols, a.k.a. BFT SMR, follow a design that dates back\
+    \ at least to AMS (Podc'19).\r\nAMS compiles any responsive consensus, $\\Pi$, based on rotatin"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: a_graphtheoretic_framework_2026
+  title: A Graph-Theoretic Framework for Randomness Optimization in First-Order Masked Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2102
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present a generic, automatable framework to reduce the demand for fresh randomness in first-order masked circuits
+    while preserving security in the glitch-extended probing model. The method analyzes
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: your_loss_is_2026
+  title: 'Your Loss is My Gain: Low Stake Attacks on Liquid Staking Pools'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/860
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Permissionless Proof-of-Stake (PoS) economic security is predicated on the high cost of violating consensus safety\
+    \ or liveness.\r\nWe show that liquid staking introduces additional risks that are not ca"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: soliloquat_throwing_caution_2026
+  title: 'SoliloQuat: Throwing Caution to the Wind'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/859
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a plausibly post-quantum additively homomorphic PKE scheme, SoliloQuat, based on the short generator
+    principal ideal problem (SG-PIP) in orders of quaternion algebras. SoliloQuat is inspire
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: fri_soundness_above_2026
+  title: FRI Soundness Above the Johnson Bound via Threshold Halving
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/858
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We prove the first unconditional soundness theorem above the Johnson bound for FRI, STIR, and WHIR — the proximity-testing
+    protocols underlying every deployed STARK, zkVM, and FRI-based system on Ethe
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: lasagne_practical_verifiable_2026
+  title: 'Lasagne: Practical Verifiable Computation over Encrypted Data'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/857
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Verifiable Computation on Encrypted Data (VCoED) addresses the computational integrity gap in Fully Homomorphic
+    Encryption (FHE). While recent protocols have made significant strides in making VCoED f
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: meridian_a_toroidinspired_2026
+  title: 'MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/856
+  directions:
+  - milp_sat_cp
+  - linear_diffusion
+  - algebraic
+  - permutation_layer
+  - related_key
+  - sbox
+  - invariant
+  - meet_in_the_middle
+  - lightweight
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce MERIDIAN, a 128-bit block cipher designed for resource-constrained environments as a lightweight alternative
+    to AES-128. MERIDIAN retains the AES-128 interface, including a 128-bit block,
+  status: pending_review
+  matched_keywords:
+  - differential
+  - algebraic attack
+  - meet-in-the-middle
+  - invariant
+  - related-key
+  - MILP
+  - block cipher
+  - S-box
+  - permutation
+  - diffusion
+  - MDS
+  - lightweight
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: zinc_snarks_for_2026
+  title: 'Zinc+: SNARKs for Polynomial Rings'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/855
+  directions:
+  - linear_diffusion
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Nearly all succinct proof systems express computations as algebraic constraints over a finite field. Operations
+    not native to this field, such as bitwise manipulation, modular arithmetic, and lattice-
+  status: pending_review
+  matched_keywords:
+  - MDS
+  - lightweight
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: how_to_simulate_2026
+  title: How to Simulate Random Oracles with Auxiliary Input
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/854
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The *random oracle model* (ROM) allows us to optimistically reason about security properties of cryptographic hash
+    functions, and has been hugely influential in designing practical cryptosystems.  But
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: from_blind_to_2026
+  title: 'From Blind to Oblivious Identity-Based Encryption: A Generic Compiler and Instantiations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/851
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Identity-Based Encryption (IBE) schemes were introduced to simplify public-key infrastructure by using any arbitrary
+    strings as public keys. However, a longstanding criticism of IBE is the trade-off i
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: merces_confidential_token_2026
+  title: 'Merces: Confidential Token Transfers via MPC and CoSNARKs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/850
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Fungible tokens on public blockchains expose all balances and transfer amounts in the clear, which is incompatible
+    with the financial privacy required by many real-world applications. We present Merce
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: on_why_and_2026
+  title: On Why and How to Minimize the Arithmetic Complexity of Fast Matrix Multiplication Algorithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/849
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Naively multiplying two $2 \\times 2$ matri-\r\nces requires eight multiplications and four additions.\r\nStrassen\
+    \ showed how to perform the same computation\r\nusing seven multiplications and 18 additions. "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: ppml_is_more_2026
+  title: PPML Is More Vulnerable to Cryptanalytic Extraction Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/848
+  directions:
+  - ml_aided
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "With the expansion of Machine Learning as a Service (MLaaS), Secure Multi-Party Computation (MPC) is widely used\
+    \ to protect the privacy of both proprietary models and client data during inference.\r\nTo"
+  status: pending_review
+  matched_keywords:
+  - differential
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: lattice_group_signatures_2026
+  title: Lattice Group Signatures, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/847
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Group signatures are one of the central privacy-preserving authentication mechanisms, offering an interesting trade-off
+    between accountability and anonymity. Their versatility has led to many applicat
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
+- id: mplookup_a_quasilinear_2026
+  title: 'MPlookup: A Quasilinear Multi-Party Lookup Argument in Collaborative zkSNARKs via Four Sorts and a Multi-Point Evaluation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/844
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A lookup argument is a cryptographic primitive that allows a prover to convince verifiers that every element of
+    a private query vector belongs to a public table vector without disclosing the underlyin
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-05'
+  source: eprint
