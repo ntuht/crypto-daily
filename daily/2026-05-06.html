@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-06</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-06</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-06</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-06 03:52</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 16 篇 → 启发式 3 篇 → 精选 <strong>3 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Beholder Signatures](https://eprint.iacr.org/2025/1900)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 5/10 | [📎 PDF](https://eprint.iacr.org/2025/1900.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：传统盲签名允许签名者在不知晓消息内容的情况下完成签名，而本文旨在探索一种“反向”的签名原语。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种名为“beholder签名”的新原语，它在某种意义上是盲签名的“反向”。在beholder签名中，签名者对一个（可能是非常长的）消息的承诺进行签名，这意味着签名者能看到消息的紧凑表示，而非完全盲签。</p>
+
+<p>🎯 <strong>意义</strong>：这一创新为处理长消息或在特定信任模型下进行签名提供了新的范式，具有潜在的效率和应用价值。</p>
+
+<hr>
+
+<h3>2. [Third-Party Moderation of Abuse Reports for End-to-End Encrypted Messaging with Multiple Moderators](https://eprint.iacr.org/2026/010)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 3/10 | [📎 PDF](https://eprint.iacr.org/2026/010.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：端到端加密（E2EE）消息平台在处理滥用报告时，面临在保护用户隐私与进行内容审核之间取得平衡的挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文针对E2EE消息平台，提出了一种支持多方审核员的第三方滥用报告审核机制。该机制旨在通过允许第三方（或多个审核员）验证用户提交的滥用报告，同时维护E2EE的隐私特性。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为E2EE通信平台在保障用户隐私的前提下，有效实施内容审核和应对滥用行为提供了实用的解决方案。</p>
+
+<hr>
+
+<h3>3. [Fast Batch Matrix Multiplication in Ciphertexts](https://eprint.iacr.org/2025/1957)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 2/10 | [📎 PDF](https://eprint.iacr.org/2025/1957.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：加密矩阵乘法是隐私保护机器学习和加密数据搜索中的核心操作，但其性能瓶颈严重限制了实际应用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种在密文域中进行快速批量矩阵乘法的新方法。该方法旨在显著提升加密矩阵乘法的效率，特别是在处理批量数据时，从而克服现有方案的性能瓶颈，并可能基于现有工作进行改进。</p>
+
+<p>🎯 <strong>意义</strong>：这一进展对于提高隐私保护机器学习和加密数据处理的实用性和可扩展性具有重要意义。</p>
+
+<hr>
+
+<p><em>精选自 16 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
