@@ -2301,7 +2301,7 @@ papers:
   - Sabyasachi Dey
   - Gregor Leander
   - Nitin Kumar Sharma
-  venue: ePrint 2024/1363
+  venue: ePrint
   year: 2024
   url: https://eprint.iacr.org/2025/1830
   directions:
@@ -2312,6 +2312,7 @@ papers:
   significance: medium
   summary: 改进减轮 Salsa20 的密钥恢复攻击。
   status: pending_review
+  source: eprint
 - id: salsa_8round2025
   title: Significantly Improved Cryptanalysis of Salsa20 With Two-Round Criteria
   authors:
@@ -14645,4 +14646,286 @@ papers:
   - PRESENT
   - LED
   fetched_date: '2026-05-05'
+  source: eprint
+- id: symphony_scalable_snarks_2026
+  title: 'Symphony: Scalable SNARKs in the Random Oracle Model from Lattice-Based High-Arity Folding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1905
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Folding/Accumulation schemes are a powerful tool for building scalable proof systems. However, standard approaches
+    for leveraging folding schemes, such as IVCs or PCDs, require embedding hash function
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: thirdparty_moderation_of_2026
+  title: Third-Party Moderation of Abuse Reports for End-to-End Encrypted Messaging with Multiple Moderators
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/010
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Abuse reporting tools like message franking allow end-to-end encrypted (E2EE) messaging platforms to verify user-generated
+    abuse reports as part of their platform content moderation policies. While th
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: universally_composable_serversupported_2026
+  title: Universally Composable Server-Supported Signatures for Smartphones
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1941
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Smart-ID is a signing and authentication service available to residents of Belgium, Estonia, Iceland, Latvia and
+    Lithuania. Such smartphone-based signing service delivers the usability of software key
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: diving_deep_into_2026
+  title: 'Diving Deep Into UC: Uncovering and Resolving Issues in Universal Composability'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/934
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Introduced by Canetti in 2001, Universal Composability (UC) is a widely adopted security model that enables the
+    specification and proof of security for a broad range of protocols, offering strong secu
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: an_efficient_framework_2026
+  title: An Efficient Framework for Collusion Resistant Multiparty FHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/965
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Multiparty fully homomorphic encryption (MPFHE) is a generalization of (multi-key) fully homomorphic encryption
+    ((MK)FHE) that lives on the cusp between multiparty computation (MPC) and FHE, enabling '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: fast_batch_matrix_2026
+  title: Fast Batch Matrix Multiplication in Ciphertexts
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1957
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'Encrypted matrix multiplication (MM) is a fundamental primitive in privacy-preserving machine learning and encrypted
+    data search, but it remains a significant performance bottleneck. Recently, Bae et '
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: carpool_secure_and_2026
+  title: 'CARPOOL: Secure And Reliable Proof of Location'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1502
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Multiple authentication solutions are widely deployed, such as OTP/TOTP/HOTP codes, hardware tokens, PINs, or biometrics.
+    However, in practice, one sometimes needs to authenticate not only the user bu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: superposition_attacks_against_2026
+  title: Superposition Attacks Against LPN-Based Authentication Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1506
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum security most commonly encompasses only offline passive quantum attacks, where a quantum computer is used
+    by an adversary to solve some computationally hard problem, e.g. factoring or discrete
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: beholder_signatures_2026
+  title: Beholder Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1900
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We introduce a new primitive, called beholder signatures, which, in some sense, are the opposite of blind signatures.
+    In a beholder signature, one signs a commitment to a (potentially very long) messa
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: complex_elections_via_2026
+  title: Complex Elections via Threshold (Fully) Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1482
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We discuss how Fully Homomorphic Encryption (FHE), and in particular the TFHE scheme, can be used to define an
+    e-voting scheme for the Alternative Vote (AV) election system. This system has a more com
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: slampfss_twoparty_multipoint_2026
+  title: 'SLAMP-FSS: Two-Party Multi-Point Function Secret Sharing from Simple Linear Algebra'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1394
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Multi-point function secret sharing (FSS) is a building block for pseudo-random correlation generators used in
+    the novel silent correlation generation methods for various secure multi-party computatio
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: secretkey_pir_from_2026
+  title: Secret-Key PIR from One-Way Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/865
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In secret-key private information retrieval (SK-PIR), the client in an offline phase processes the database using
+    a short secret key. In the online phase the client could then use the secret key to ma
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: fieldagnostic_snarks_with_2026
+  title: Field-Agnostic SNARKs with Small Proofs via Encode-Repeat-Accumulate (ERA) Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/864
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Hash-based SNARKs are arguably the most prominent and widely deployed class of transparent SNARKs, owing to desirable
+    properties such as plausible post-quantum security and the avoidance of public-key
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: conquering_bad_norms_2026
+  title: 'Conquering Bad Norms in RstOE: Pure-Database Substitution and Early-Defense'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/863
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Recording Standard Oracle with Errors (RstOE) technique is an important tool for quantum security proofs in
+    symmetric-key cryptography. However, against adaptive quantum chosen-plaintext adversari
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: adaptivelysecure_flexible_and_2026
+  title: Adaptively-Secure Flexible and Identity-Based Broadcast Encryption from Decomposed LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/862
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Broadcast encryption (BE) allows a sender to succinctly encrypt a message to any dynamically chosen subset of recipients.
+    The gold-standard for BE is optimal succinctness (parameters independent of th
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-05-06'
+  source: eprint
+- id: actionorbit_fri_soundness_2026
+  title: 'Action–Orbit FRI Soundness Above the Johnson Radius: A Rigorous $O(1)/|F|$ Bound on Plain Reed–Solomon, with $2\times$
+    Smaller STARK Proofs   at Ethereum Scale'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/861
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We give the first rigorous $O(1)/|F|$ FRI commit-phase soundness bound for plain Reed–Solomon above the Johnson\
+    \ radius — the central open\r\n  question in the proximity-gap line, made urgent by the late"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-06'
   source: eprint
