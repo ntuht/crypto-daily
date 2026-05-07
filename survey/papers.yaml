@@ -14929,3 +14929,111 @@ papers:
   - LED
   fetched_date: '2026-05-06'
   source: eprint
+- id: nondelegatable_commitments_2026
+  title: Non-Delegatable Commitments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2039
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Cryptographic commitments allow a party to commit to a value such that it is infeasible to later open that commitment
+    to a different value. Standard commitment schemes allow the committer to outsource
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-05-07'
+  source: eprint
+- id: risqrypt_fast_secure_2026
+  title: 'RISQrypt: Fast, Secure and Agile Hardware-Software Co-Design for Post-Quantum Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/312
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: In this paper, we present RISQrypt, the first unified architecture in the literature that implements Kyber (ML-KEM)
+    and Dilithium (ML-DSA), standardized lattice-based Post-Quantum Cryptography (PQC) a
+  status: pending_review
+  matched_keywords:
+  - low latency
+  - PRESENT
+  fetched_date: '2026-05-07'
+  source: eprint
+- id: when_the_wrong_2026
+  title: 'When the Wrong Key Lives On: The Key-Recovery Procedure in Integral Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2011
+  directions:
+  - integral_division
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: An integral distinguisher for a block cipher is defined by a nontrivial subset of plaintexts for which the bitwise
+    sum of (parts of) a certain internal state is independent of the secret key. Such a d
+  status: pending_review
+  matched_keywords:
+  - integral attack
+  - block cipher
+  fetched_date: '2026-05-07'
+  source: eprint
+- id: game_theoretical_analysis_2026
+  title: Game Theoretical Analysis of DAG-Ledgers Backbone
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/407
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "We study the rational behaviors of agents in DAG-Based Distributed Ledgers. We an-\r\nalyze generic algorithms\
+    \ that encapsulate the main actions of agents in a DAG-based dis-\r\ntributed ledger: voting fo"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-07'
+  source: eprint
+- id: mpc_for_tech_2026
+  title: 'MPC for Tech Giants (GMPC): Enabling Gulliver and the Lilliputians to Cooperate Amicably'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/902
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the current digital world, large organizations (sometimes referred to as tech giants) provide service to extremely
+    large numbers of users. The service provider is often interested in computing vari
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-05-07'
+  source: eprint
+- id: spacedeniable_proofs_2026
+  title: Space-Deniable Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1723
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We introduce and construct a new proof system called Non-interactive Arguments of Knowledge or Space (NArKoS),
+    where a space bounded prover can convince a verifier they know a secret, while having acc
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-05-07'
+  source: eprint
