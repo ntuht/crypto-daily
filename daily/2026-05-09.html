@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-09</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-09</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-09</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-09 03:43</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 81 篇 → 启发式 69 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [MIFA: An MILP-based Framework for Improving Differential Fault Attacks](https://eprint.iacr.org/2025/2070)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2025/2070.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：DEFAULT是一种旨在算法层面抵抗差分故障攻击（DFA）的分组密码，并声称能提供64比特的DFA安全性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了MIFA，一个基于混合整数线性规划（MILP）的通用框架，用于改进差分故障攻击。MIFA通过精确建模故障传播和差分特性，能够系统性地寻找更有效的故障注入点和攻击策略，从而可能打破或削弱DEFAULT等密码的DFA安全性主张。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为评估和改进密码算法的抗故障攻击能力提供了一个强大的自动化工具，对密码设计者和分析者都具有重要参考价值。</p>
+
+<hr>
+
+<h3>2. [Integral Attack on Reduced-Round Kalyna](https://eprint.iacr.org/2026/756)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/756.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Kalyna是一种乌克兰分组密码，其安全性需要通过各种密码分析方法进行全面评估。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究专注于对Kalyna密码进行积分密码分析，旨在构建针对缩减轮数的区分器和密钥恢复攻击。研究目标是实现低数据、时间及内存复杂度的攻击，这通常涉及识别密码内部状态的零和特性，并利用这些特性来区分加密结果或恢复密钥。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了Kalyna在缩减轮数下的潜在弱点，为该密码的安全性评估提供了关键证据，并可能指导未来的密码设计改进。</p>
+
+<hr>
+
+<h3>3. [Differential and Linear Cryptanalysis of Modular Addition](https://eprint.iacr.org/2026/775)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/775.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：模加法是许多对称密码算法中的基本运算，其密码学特性对整体安全性至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文从密码分析角度对模加法进行了全面分析，重点关注差分密码分析和线性密码分析技术。研究深入探讨了模加法中差分和线性逼近的概率分布，揭示了其在不同输入条件下的统计特性，从而为评估包含模加法的密码算法提供了基础工具和见解。</p>
+
+<p>🎯 <strong>意义</strong>：这项基础性研究有助于理解模加法在密码算法中的安全贡献和潜在弱点，对设计和分析基于模加法的密码算法具有指导意义。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/875" target="_blank">Comparative Performance Analysis of MILP Solvers for Cryptanalysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/875.pdf)</p>
+
+<blockquote>
+<p>本文比较了五种MILP求解器在ITUbee相关密钥差分密码分析中的性能，评估了它们在密码分析任务中的效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/735" target="_blank">CLAASP-MP: An Automated MILP Framework for Monomial Prediction</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/735.pdf)</p>
+
+<blockquote>
+<p>CLAASP-MP是一个基于3SDP-woU三子集划分性质的自动化MILP框架，用于单项式预测，为密码分析提供新工具。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/707" target="_blank">Alternating Sponge: A Low-Memory Hash Function with Beyond-Birthday-Bound Security</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/707.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种改进的低内存哈希函数方案Alternating Sponge (ASP)，旨在实现超越生日界限的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/301" target="_blank">Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/301.pdf)</p>
+
+<blockquote>
+<p>本文研究了利用对称泄露的跨算法深度学习非剖面侧信道攻击，旨在提高攻击的通用性和效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2011" target="_blank">When the Wrong Key Lives On: The Key-Recovery Procedure in Integral Attacks</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2011.pdf)</p>
+
+<blockquote>
+<p>本文探讨了积分攻击中的密钥恢复过程，尤其关注当区分器识别出错误密钥时如何进行有效恢复。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1006" target="_blank">Permutation-Based Hash from Non-Idealized Assumptions: Adding Feed-Forward to Sponge</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1006.pdf)</p>
+
+<blockquote>
+<p>本文在非理想化假设下，通过向海绵结构中添加前馈机制，研究了基于置换的哈希函数设计。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/478" target="_blank">Attacking Single-Cycle Ciphers on Modern FPGAs featuring Explainable Deep Learning</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/478.pdf)</p>
+
+<blockquote>
+<p>本文利用可解释深度学习，重新审视了在现代FPGA上对单周期分组密码进行侧信道密钥恢复攻击的问题。</p>
+</blockquote>
+
+<p><em>精选自 81 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
