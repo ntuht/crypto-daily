@@ -15037,3 +15037,345 @@ papers:
   - LED
   fetched_date: '2026-05-07'
   source: eprint
+- id: agentcrypt_advancing_privacy_2026
+  title: 'AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2216
+  directions:
+  - milp_sat_cp
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: As AI agents increasingly operate in real-world, multi-agent environments, ensuring reliable and context-aware
+    privacy in agent communication is critical, especially to comply with evolving regulatory
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: lightning_fieldagnostic_superefficient_2026
+  title: Lightning, Field-Agnostic Super-Efficient Polynomial Commitment Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/258
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Polynomial commitment schemes (PCS) are a fundamental building block of modern zkSNARKs. \r\nIn this paper, we\
+    \ propose \\emph{Lightning}, a new coding-based PCS that achieves state-of-the-art prover effi"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: from_nizk_arguments_2026
+  title: From NIZK Arguments to ZAPs, Generically
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/886
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Dwork and Naor (FOCS 2000) showed a generic transformation to construct a ZAP (a two-round public-coin witness-indistinguishable
+    proof) from any non-interactive zero-knowledge (NIZK) proof with statis
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: formalizing_and_strengthening_2026
+  title: Formalizing and Strengthening the Security Proof of NTOR
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/884
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present a machine-checked security proof for the NTOR\r\nkey exchange protocol, which is used to establish\
+    \ connections in the Tor\r\nonion routing system. It was previously studied by Goldberg et al. ("
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: secure_twoparty_quantum_2026
+  title: Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/883
+  directions:
+  - meet_in_the_middle
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: In 1997, Lo proved that if one of the parties is malicious, it is not possible to achieve unconditional security
+    in quantum bit-commitment (Phy. Rev. Lett, 1997) and hence in two-party quantum computa
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: abuse_reporting_and_2026
+  title: Abuse Reporting and Enforcement for Third-Party Moderators in Private Messaging
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/882
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We introduce new techniques for verifiable reporting of abusive messages in private messaging platforms. Our techniques
+    are compatible with both metadata-hiding messaging systems, where the platform d
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: on_the_common_2026
+  title: 'On the Common Bias of Majorities: Poly-Time Attacks on THR-XOR PRGs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/880
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Pseudorandom Generators (PRGs) based on Threshold-XOR predicates with large locality and high stretches have recently
+    gained traction, since they lend themselves as shallow weak Pseudorandom Functions
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: accountable_fair_exchange_2026
+  title: Accountable Fair Exchange Protocols on Blockchain
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/879
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Fair exchange protocols on blockchain enable atomic exchange of digital goods and cryptocurrency between untrusted\
+    \ parties.\r\nTwo prominent protocols, Zero-Knowledge Contingent Payment (ZKCP) and FairS"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: verifiable_anomaly_and_2026
+  title: Verifiable Anomaly and Similarity Detection Using Matrix Profile in Private Time-series
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/878
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Analyzing time-series databases in a privacy-preserving manner has gained significant attention, especially when
+    the data contains sensitive personal information such as medical records or spatio-temp
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: postquantum_publickey_pseudorandom_2026
+  title: Post-Quantum Public-Key Pseudorandom Correlation Functions for OT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/877
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Public-key pseudorandom correlation functions (PK-PCF) are an exciting recent primitive introduced to enable "non-interactive
+    key exchange for secure computation". Despite significant advances in the '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: an_aidriven_postquantum_2026
+  title: An AI-Driven Post-Quantum Cryptographically Secure Workflow for Collaborative Credit Scoring
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/876
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Credit scoring plays a critical role in the financial industry, allowing institutions to evaluate the creditworthiness
+    of potential borrowers. Typically, a model is estimated from repositories of attr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: comparative_performance_analysis_2026
+  title: Comparative Performance Analysis of MILP Solvers for Cryptanalysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/875
+  directions:
+  - milp_sat_cp
+  - related_key
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This paper provides a performance comparison of five MILP\r\nsolvers applied to related-key differential cryptanalysis\
+    \ of ITUbee [10].\r\nWe evaluate three open-source solvers (GLPK, HiGHS, SCIP) and two\r"
+  status: pending_review
+  matched_keywords:
+  - differential
+  - related-key
+  - MILP
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: hybrid_poa_on_2026
+  title: 'Hybrid PoA on Aztec: Proof of Asset Ownership over Public and Private Balances via Hierarchical Proof-Carrying Data'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/874
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Proof of Assets (PoA) protocols enable custodians to prove ownership of digital assets without revealing their
+    account addresses or corresponding balances. While existing PoA protocols focused on eith
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: adaptor_signature_schemes_2026
+  title: Adaptor Signature Schemes with Deniable Presignatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/873
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: An adaptor signature scheme can be seen as committing to a signature using an NP statement, in such a way that
+    (1) the commitment, called a presignature, is verifiable, (2) the corresponding witness e
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: privacy_coins_under_2026
+  title: Privacy Coins Under Viewing Key Compromise
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/872
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymity guarantees of privacy-oriented cryptocurrencies are garnering negative attention from lawmakers who view
+    them as antinomic to accountability. Having recognized their potential for innovation
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: anomalous_cryptocurrency_transaction_2026
+  title: 'Anomalous Cryptocurrency Transaction Detection: A Systematic Review of Techniques, Datasets, and Future Directions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/871
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The rapid adoption of blockchain-based financial systems has been accompanied by a surge in illicit activities,
+    including money laundering, ransomware payments, phishing scams, and terrorist financing
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: sealagg_a_lightweight_2026
+  title: 'SealAgg: A Lightweight Auditing Framework for One-Shot Secure Aggregation against Malicious Servers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/869
+  directions:
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Trustworthy federated learning requires both update privacy and aggregate integrity. While secure aggregation protects
+    the confidentiality of client updates, it does not prevent a malicious server fro
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: differentially_private_functional_2026
+  title: Differentially Private Functional Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/868
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We address the question of realizing privacy preserving analysis of user data. The abstract scenario considered
+    is that an analyst aims to evaluate a function $f$ on some user data $X$. To achieve com
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-05-09'
+  source: eprint
+- id: observability_for_postquantum_2026
+  title: 'Observability for Post-Quantum TLS Readiness: A Multi-Surface Evidence Framework'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/866
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Post-quantum migration in Transport Layer Security (TLS) requires evidence-aware measurements that distinguish
+    session negotiation, endpoint capability, certificate-chain evidence, and the provenance '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-09'
+  source: eprint
