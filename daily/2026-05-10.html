@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-10</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-10</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-10</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-10 04:00</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 70 篇 → 启发式 61 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Key Schedule Design and Evaluation under Boundary Round-Key Leakage](https://eprint.iacr.org/2026/696)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/696.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在密码算法的实际部署中，侧信道攻击可能泄露轮密钥，特别是首尾等边界轮密钥，这给传统假设密钥调度安全的密码分析带来了新的挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文深入研究了在首轮、末轮或两端轮密钥泄露情境下的密钥调度设计，并提出了一种创新的非线性密钥调度方案。该方案通过精心构造，旨在即使在这些关键轮密钥被泄露时，也能有效保护主密钥的安全性，并通过理论分析验证了其对这类攻击的抵抗能力。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为设计更具鲁棒性的密钥调度机制提供了新颖的思路和具体方案，对于提升密码算法在真实世界侧信道威胁下的实际安全性具有重要的指导意义。</p>
+
+<hr>
+
+<h3>2. [How to construct even faster and indifferentiable hash functions from random permutations](https://eprint.iacr.org/2026/713)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/713.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在对称密码学领域，同时实现高吞吐量和强可证明安全性的密码哈希函数一直是一个核心挑战，传统构造方法往往难以兼顾。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种从随机置换构造哈希函数的新方法，旨在实现更高的速度和更强的不可区分性。该方法通过优化现有构造，显著提升了哈希函数的处理性能，同时在理想模型下提供了更严格的安全归约，使其在理论上更接近随机预言机模型。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为构建高性能且具有严格安全证明的哈希函数提供了创新途径，对未来密码协议和系统的设计具有重要的推动作用和实践价值。</p>
+
+<hr>
+
+<h3>3. [Tighter trail bounds for Xoodoo](https://eprint.iacr.org/2022/1088)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2022/1088.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：确定差分路径的差分概率和线性路径的平方相关贡献的界限，是评估置换（如分组密码或哈希函数内部置换）安全性的关键环节。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文专注于Xoodoo置换，提出了一种改进的分析技术，能够为其差分路径和线性路径确定更紧密的界限。通过更精确地量化这些路径的概率和相关性，研究人员能够更细致地评估Xoodoo在差分攻击和线性攻击下的抵抗能力。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作提升了对Xoodoo等密码原语安全性的分析精度，为密码设计者和分析者提供了更可靠的评估工具，有助于优化现有算法并指导未来设计。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/726" target="_blank">Bitsliced Segment-Based Search Technique for Low-Depth and Hardware-Efficient S-Box Circuits</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/726.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种名为 SLICE 的分段低深度迭代比特切片搜索技术，用于构造低深度且硬件高效的 S-盒电路。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/824" target="_blank">Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/824.pdf)</p>
+
+<blockquote>
+<p>现有抗泄露 AEAD 方案通常不兼容单长度密钥分组密码，本文旨在提高其可用性，使其能与此类分组密码配合。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/085" target="_blank">Beyond-Birthday-Bound Security with HCTR2: Cascaded Construction and Tweak-based Key Derivation</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/085.pdf)</p>
+
+<blockquote>
+<p>本文通过级联构造和基于调整值的密钥派生，利用 HCTR2 模式实现了超越生日界安全性的可变输入长度强可调伪随机置换。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/687" target="_blank">High-Throughput Side-Channel-Protected Stream Cipher Hardware for 6G Systems</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/687.pdf)</p>
+
+<blockquote>
+<p>针对 6G 系统对超高吞吐量和低延迟的需求，本文提出了一种高吞吐量且受侧信道保护的流密码硬件实现方案。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/771" target="_blank">Vector-Input Hashing Modes for Collision-Resistant Pseudorandom Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/771.pdf)</p>
+
+<blockquote>
+<p>本文提出了向量输入密钥哈希模式，利用密钥哈希函数构造抗碰撞伪随机函数（CR PRF）。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/757" target="_blank">Integral Distinguishers and a 4-Round Key-Recovery Attack on Kuznyechik Without Initial Key Whitening</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/757.pdf)</p>
+
+<blockquote>
+<p>分组密码积分攻击</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/826" target="_blank">Efficient Implementation of ARIA on ARMv8 via Cryptographic Extensions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/826.pdf)</p>
+
+<blockquote>
+<p>分组密码高效实现</p>
+</blockquote>
+
+<p><em>精选自 70 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
