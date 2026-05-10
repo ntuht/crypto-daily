@@ -15379,3 +15379,193 @@ papers:
   - LED
   fetched_date: '2026-05-09'
   source: eprint
+- id: on_efficient_computations_2026
+  title: On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1906
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Since its introduction, Solinas' window $\tau$-NAF algorithm has been a landmark scalar multiplication method for
+    Koblitz curves over binary fields. However, extending comparable $\tau$-adic accelerat
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: attacks_and_remedies_2026
+  title: 'Attacks and Remedies for Randomness in AI: Cryptanalysis of PHILOX and THREEFRY'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2161
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we address the critical yet understudied question of the security of the most widely deployed pseudorandom
+    number generators (PRNGs) in AI applications. We show that these generators are
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: dahlias_discrete_logarithmbased_2026
+  title: 'DahLIAS: Discrete Logarithm-Based Interactive Aggregate Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/692
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An interactive aggregate signature scheme enables $n$ signers, each with their own secret/public key pair $(\mathit{sk}_i,
+    \mathit{pk}_i)$ and message $m_i$, to collaboratively produce a single compac
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: on_the_complexity_2026
+  title: On the Complexity of Interactive Arguments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/272
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We study the minimal hardness assumptions required for constructing interactive arguments\r\nfor NP, focusing\
+    \ on succinct arguments—where the prover’s total communication is smaller\r\nthan the witness si"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: force_highly_efficient_2026
+  title: 'Force: Highly Efficient Four-Party Privacy-Preserving Machine Learning on GPU'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/493
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'Tremendous efforts have been made to improve the efficiency of secure Multi-Party Computation (MPC), which allows
+    n ≥ 2 parties to jointly evaluate a target function without leaking their own private '
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: the_joint_channel_2026
+  title: 'The Joint Channel Threshold: Selfish Mining Below 1% Hashrate'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/893
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The selfish-mining literature has progressively lowered the hashrate\r\nthreshold at which a rational Bitcoin\
+    \ miner strictly profits by\r\ndeviating from the honest protocol, from Eyal and Sirer's 25% dow"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: adaptive_distributed_key_2026
+  title: Adaptive Distributed Key Generation for Discrete-Log Cryptosystems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/892
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The security of decentralized asset custody and blockchain consensus increasingly relies on threshold signatures
+    to eliminate single points of failure. In these high-stakes environments, static securi
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: interleaving_stability_for_2026
+  title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/891
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
+    \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: cryptanalysis_of_definite_2026
+  title: Cryptanalysis of Definite and Indefinite Lattice Isomorphism Problems With Applications to HAWK and DEFI
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/890
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study the Lattice Isomorphism Problem (LIP) for both indefinite and definite quadratic forms, with applications
+    to the signature schemes DEFI and HAWK. By combining arithmetic and algorithmic techn
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: ringslip_ring_signatures_2026
+  title: 'RingSLIP: Ring Signatures from the Lattice Isomorphism Problem'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/889
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Ring signatures provide authentication over messages, whilst providing anonymity amongst a set of signer-defined
+    public keys. They see active use in cryptocurrencies, e-voting and concurrent signature
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-10'
+  source: eprint
+- id: blindreview_anonymous_and_2026
+  title: 'BlindReview: Anonymous and End-to-End Verifiable Peer Review'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/888
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We introduce BlindReview, an anonymous and end-to-end verifiable peer review system that cryptographically guarantees
+    both privacy and auditability throughout the reviewing process. We formally define
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-10'
+  source: eprint
