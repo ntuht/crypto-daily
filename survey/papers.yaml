@@ -15569,3 +15569,321 @@ papers:
   - PRESENT
   fetched_date: '2026-05-10'
   source: eprint
+- id: humbird_rotating_leader_2026
+  title: 'HumBird: Rotating Leader BFT made Simple and Fast'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/894
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Rotating leader Byzantine fault-tolerant (BFT) protocols, also known as protocols in the leader-speaks-once (LSO)
+    model, have become a topic of interest with the rise of blockchains. Many recent effor
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: group_key_progression_2026
+  title: 'Group Key Progression: Strong Security for Shared Persistent Data'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1028
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: End-to-end encryption allows data to be outsourced and stored on an untrusted server, such as in the cloud, without
+    compromising data privacy. In the setting when this data is shared between a group o
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: implementable_witness_encryption_2026
+  title: Implementable Witness Encryption from Arithmetic Affine Determinant Programs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/175
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Witness encryption (WE) for general NP remains challenging to realize with practical efficiency.\r\nA natural\
+    \ approach is to combine WE with SNARKs to obtain succinct witnesses; however, embedding gener"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: vcvio_verified_cryptography_2026
+  title: 'VCVio: Verified Cryptography in Lean via Oracle Effects and Handlers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/899
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Mechanized cryptographic proofs face a long-standing trade-off between assurance and expressiveness. Existing
+    foundational frameworks, which reduce every proof step to the kernel of a general-purpose '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: perfectly_secure_networkagnostic_2026
+  title: Perfectly Secure Network-Agnostic MPC Comes for Free
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/377
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure multiparty computation (MPC) allows a set of parties to jointly compute a function while keeping their inputs
+    private. Classical MPC protocols assume either a synchronous or an asynchronous net
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: algorithmic_toolkit_for_2026
+  title: Algorithmic Toolkit for Linearization of S-boxes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/913
+  directions:
+  - sbox
+  - round_function
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Linearization is a cryptanalysis technique in which a nonlinear function (an S-box) is represented by an affine
+    mapping on a certain subset of inputs. Its variants were applied to analyze Keccak, LowM
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - permutation
+  - SPN
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: uc4free_existing_threshold_2026
+  title: UC4Free! Existing Threshold Signatures are UC Secure
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/911
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures have received considerable attention in recent years due to ongoing standardization efforts
+    and deployment in real-world systems. In this work, we prove the universal composabilit
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: unifomr_oblivious_message_2026
+  title: 'UnifOMR: Oblivious Message Retrieval with Near-optimal Concrete Efficiency'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/910
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'End-to-end encryption guarantees message confidentiality but does not hide metadata such as communication patterns
+    among senders and recipients, or their identities. Oblivious Message Retrieval (OMR) '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: on_succinct_noninteractive_2026
+  title: On Succinct Non-Interactive Secure Computation with Malicious Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/909
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A non-interactive secure computation (NISC) protocol allows a client with input $x$ and a server with input $y$
+    to compute $f(x,y)$ using a single message from the client and a single response from th
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: titan_efficient_polynomial_2026
+  title: 'Titan: Efficient Polynomial Commitments from IOPs over Groups'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/908
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves
+    commitment time of $O(n)$, evaluation time of $O(\sqrt{n})$ while the proof size an
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: zeroknowledge_proofs_for_2026
+  title: Zero-Knowledge Proofs for Gradient Boosted Decision Trees
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/907
+  directions:
+  - ml_aided
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Gradient boosted decision trees (GBDTs) are among the most effective models for tabular data and are widely used
+    in domains such as finance, healthcare, and risk assessment. As these models are increa
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: sponsored_fair_exchange_2026
+  title: Sponsored Fair Exchange (Extended Abstract)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/904
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a costless platform for fair exchange based on smart contracts to favor economic inclusion. Our smart
+    contract is minimal, as most of communication is done offchain. The smart contract cost
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: magic_pot_cryptanalysis_2026
+  title: 'Magic Pot: Cryptanalysis of full AIM2 in the standard and related-/reused-key settings using new elimination framework'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/903
+  directions:
+  - lightweight
+  - related_key
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: In this work, we cryptanalyse the post-quantum signature scheme AIMer v2.1, which is one of the winners of the
+    Korean Post-Quantum Cryptography competition (KpqC), and whose earlier version was a cand
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - related-key
+  - block cipher
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: threshold_tfhe_without_2026
+  title: Threshold (T)FHE without smudging by means of correct threshold additive HE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/901
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Designing threshold lattice-based FHE schemes remains challenging due to the noise leakage that may occur during
+    distributed decryption. The mainstream approach to avoid this consists of relying on no
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: secure_protocol_composition_2026
+  title: 'Secure Protocol Composition under Dynamic Corruption: Scaling Up Symbolic Analysis for Real-World Security Properties'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/900
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Although automated symbolic protocol verification has proven valuable and effective, current approaches begin
+    to reach their limits: While small protocols can be analyzed automatically, the most compl'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: bluestreak_scaling_dag_2026
+  title: 'Bluestreak: Scaling DAG BFT by Sparsifying Metadata'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/898
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "DAG-based Byzantine fault-tolerant (BFT) consensus protocols achieve\r\nhigh throughput by allowing many validators\
+    \ to propose concurrently, but scaling them to large committees remains challenging. In "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-11'
+  source: eprint
+- id: sefa_a_secure_2026
+  title: 'SEFA: A Secure, Efficient, and Flexible Algorithm Design Strategy for Block Ciphers and Sponge Permutations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/897
+  directions:
+  - aead
+  - round_function
+  - linear_diffusion
+  - lightweight
+  - sbox
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Substitution-permutation networks (SPNs) are the most popular construction method for block ciphers and sponge
+    permutations. Basically, we can divide SPNs into two groups by considering their diffusio
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  - permutation
+  - diffusion
+  - SPN
+  - AEAD
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-11'
+  source: eprint
