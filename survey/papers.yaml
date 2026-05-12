@@ -15887,3 +15887,110 @@ papers:
   - PRESENT
   fetched_date: '2026-05-11'
   source: eprint
+- id: dynark_making_groth16_2026
+  title: 'Dynark: Making Groth16 Dynamic'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1897
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In recent years, numerous new and more efficient constructions of zero-knowledge succinct non-interactive argument
+    of knowledge (zkSNARK) have been proposed, motivated by their growing practical appli
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-12'
+  source: eprint
+- id: bitpriv_a_privacypreserving_2026
+  title: 'BitPriv: A Privacy-Preserving Protocol for DeFi Applications on Bitcoin'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1575
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Bitcoin secures over a trillion dollars in assets but remains largely absent from decentralized finance (DeFi)
+    due to its restrictive scripting language. The emergence of BitVM, which enables verifica
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-12'
+  source: eprint
+- id: on_the_quantum_2026
+  title: On the Quantum Equivalence between S|LWE⟩ and ISIS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1857
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Chen, Liu, and Zhandry [CLZ22] introduced the problems S|LWE⟩ and C|LWE⟩ as quantum analogues of the Learning
+    with Errors problem, designed to construct quantum algorithms for the Inhomogeneous Short '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-12'
+  source: eprint
+- id: the_xhash_family_2026
+  title: The XHash Family for ZK-Friendly Hash Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1045
+  directions:
+  - sbox
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: "Zero-knowledge proofs are widely used in real-world applications, such as authentication, access control, blockchains,\
+    \ and cryptocurrencies. The underlying hash\r\nfunction is a core element in these ze"
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - S-box
+  - LED
+  fetched_date: '2026-05-12'
+  source: eprint
+- id: crisp_circuitprivate_singleimage_2026
+  title: 'CRISP: Circuit-pRivate Single-Image Steganography with Permutations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/424
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'We introduce $CRISP (\underline{C}ircuit-p\underline{R}ivate ~Single-\underline{I}mage~ \underline{S}teganography
+    ~with ~\underline{P}ermutations),$ a provably secure homomorphic steganography scheme '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-05-12'
+  source: eprint
+- id: on_the_gammaspreadness_2026
+  title: On the $\gamma$-Spreadness of Average-Case to Worst-Case Transformations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1504
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Achieving (at least) a worst-case correctness error is essential for an underlying public-key encryption (PKE)
+    scheme to which the Fujisaki-Okamoto (FO) transformation is applied. There are three aver
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-12'
+  source: eprint

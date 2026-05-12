@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 883 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 889 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (674)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (680)
 
 ## 算法设计
 
@@ -147,7 +147,7 @@
 - 🟡 **2009** — KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block Ciphers [KATAN, KTANTAN]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 置换层 (43 篇)
+### 置换层 (44 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -188,6 +188,7 @@
 - 🟡 **2026** — Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
 - 🟡 **2026** — Algorithmic Toolkit for Linearization of S-boxes
 - 🟡 **2026** — SEFA: A Secure, Efficient, and Flexible Algorithm Design Strategy for Block Ciphers and Sponge Permutations
+- 🟡 **2026** — CRISP: Circuit-pRivate Single-Image Steganography with Permutations
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
@@ -275,7 +276,7 @@
 - 🔴 **2004** — Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC [OCB]
 - 🔴 **2004** — The Galois/Counter Mode of Operation (GCM) [AES-GCM]
 
-### S-box 设计与评估 (29 篇)
+### S-box 设计与评估 (30 篇)
 
 - 🟡 **2026** — How Small Can S-boxes Be?
 - 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
@@ -289,6 +290,7 @@
 - 🟡 **2026** — MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments
 - 🟡 **2026** — Algorithmic Toolkit for Linearization of S-boxes
 - 🟡 **2026** — SEFA: A Secure, Efficient, and Flexible Algorithm Design Strategy for Block Ciphers and Sponge Permutations
+- 🟡 **2026** — The XHash Family for ZK-Friendly Hash Functions
 - 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
 - 🟡 **2024** — A Family of Biprojective APN Functions
 - 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
@@ -461,7 +463,7 @@
 
 ## 算法分析
 
-### 差分分析 (416 篇)
+### 差分分析 (420 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -817,6 +819,10 @@
 - 🟡 **2026** — Sponsored Fair Exchange (Extended Abstract)
 - 🟡 **2026** — Threshold (T)FHE without smudging by means of correct threshold additive HE
 - 🟡 **2026** — Bluestreak: Scaling DAG BFT by Sparsifying Metadata
+- 🟡 **2026** — Dynark: Making Groth16 Dynamic
+- 🟡 **2026** — BitPriv: A Privacy-Preserving Protocol for DeFi Applications on Bitcoin
+- 🟡 **2026** — On the Quantum Equivalence between S|LWE⟩ and ISIS
+- 🟡 **2026** — On the $\gamma$-Spreadness of Average-Case to Worst-Case Transformations
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1250,7 +1256,7 @@
 - 🔴 **1997** — The Block Cipher Square [Square]
 - 🔴 **1995** — Truncated and Higher Order Differentials
 
-### 代数攻击 (26 篇)
+### 代数攻击 (27 篇)
 
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -1261,6 +1267,7 @@
 - 🟡 **2026** — Rethinking r-PKP: a New Formulation for the Relaxed Permuted Kernel Problem
 - 🟡 **2026** — MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments
 - 🟡 **2026** — Magic Pot: Cryptanalysis of full AIM2 in the standard and related-/reused-key settings using new elimination framework
+- 🟡 **2026** — The XHash Family for ZK-Friendly Hash Functions
 - 🟡 **2025** — Cryptanalysis of ChiLow with Cube-Like Attacks [ChiLow]
 - 🔴 **2025** — Improved Key Recovery Attacks on Ascon [Ascon]
 - 🟡 **2025** — Core Monomial Prediction for Weak-Key Superpoly Recovery in Stream Ciphers [Trivium]
