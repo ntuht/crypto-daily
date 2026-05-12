@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-12</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-12</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-12</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-12 03:54</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 51 篇 → 启发式 46 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [The XHash Family for ZK-Friendly Hash Functions](https://eprint.iacr.org/2023/1045)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2023/1045.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：零知识证明（ZKP）在认证、访问控制、区块链等实际应用中日益普及，而其核心组件哈希函数的效率直接影响ZKP系统的性能。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了XHash家族，这是一系列专为零知识证明环境设计的哈希函数。它们通过优化算术电路表示和减少约束数量等方式，显著提升了哈希运算在ZKP系统中的效率和性能，从而降低了证明生成和验证的开销。</p>
+
+<p>🎯 <strong>意义</strong>：XHash家族的提出对于构建更高效、更实用的零知识证明系统至关重要，能推动ZKP技术在隐私保护和区块链等领域的进一步落地和大规模应用。</p>
+
+<hr>
+
+<h3>2. [SealAgg: A Lightweight Auditing Framework for One-Shot Secure Aggregation against Malicious Servers](https://eprint.iacr.org/2026/869)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/869.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：可信联邦学习需要兼顾客户端更新的隐私性与聚合结果的完整性，但现有安全聚合方案通常无法防御恶意服务器对聚合结果的篡改。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了SealAgg，一个轻量级的审计框架，专为一次性安全聚合设计。它允许在保护客户端隐私的同时，有效检测并防止恶意服务器操纵聚合结果，确保聚合的完整性，从而增强了联邦学习的鲁棒性。</p>
+
+<p>🎯 <strong>意义</strong>：SealAgg为联邦学习提供了一种实用的解决方案，解决了恶意服务器攻击下的聚合完整性问题，对于构建更安全、更可信的分布式机器学习系统具有重要意义。</p>
+
+<hr>
+
+<h3>3. [Zeal: PIR for Non-Cooperative Databases](https://eprint.iacr.org/2026/684)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/684.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：私有信息检索（PIR）允许用户从公共数据库中查询数据，同时隐藏其查询意图，即使数据库本身是恶意的或不合作的。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了Zeal，一个针对非合作数据库环境设计的PIR方案。它可能通过创新的密码学构造或协议设计，确保在数据库不主动配合或甚至存在恶意行为时，用户仍能安全地进行隐私查询，克服了传统PIR方案对数据库合作性的假设。</p>
+
+<p>🎯 <strong>意义</strong>：Zeal解决了PIR在更具挑战性的非合作数据库场景下的应用难题，拓宽了PIR技术的适用范围，对于提升数据查询的隐私保护能力具有重要价值。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/755" target="_blank">ACTS: Attestations of Contents in TLS Sessions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/755.pdf)</p>
+
+<blockquote>
+<p>ACTS提出了一种在TLS会话中对内容进行证明的机制，旨在使Web3用户能在现有系统中利用其数据，促进Web3的大规模应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/752" target="_blank">GlitchSnipe: Toward Localized Voltage Fault Attacks</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/752.pdf)</p>
+
+<blockquote>
+<p>GlitchSnipe研究了一种实现局部化电压故障攻击的新方法，旨在提高电压毛刺攻击的精确性和有效性，尽管该技术通常被认为难以精确控制。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2023/1521" target="_blank">A reduced set of submatrices for a faster evaluation of the MDS property of a circulant matrix with entries that are powers of two</a></strong> | [📎 PDF](https://eprint.iacr.org/2023/1521.pdf)</p>
+
+<blockquote>
+<p>本文提出一个简化的子矩阵集，以加速评估元素为2的幂的循环矩阵的MDS（最大距离可分）性质，从而优化密码学中的矩阵设计。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/753" target="_blank">DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/753.pdf)</p>
+
+<blockquote>
+<p>DDR-SSE提出一种系统级安全可搜索对称加密方案，通过文档的重复检索来平衡效率与泄漏，增强了加密文档的关键词搜索能力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/703" target="_blank">Quick Draw Queries: Lightweight Searchable Public-key Ciphertexts with Hidden Structures via Non-Interactive Key Exchange</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/703.pdf)</p>
+
+<blockquote>
+<p>Quick Draw Queries通过非交互式密钥交换和隐藏结构，实现了轻量级可搜索公钥密文，显著优化了传统方案中线性搜索时间的瓶颈。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/878" target="_blank">Verifiable Anomaly and Similarity Detection Using Matrix Profile in Private Time-series</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/878.pdf)</p>
+
+<blockquote>
+<p>本文提出一种在隐私时间序列数据中，利用矩阵剖面技术进行可验证的异常和相似性检测方法，以保护敏感数据分析的隐私。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2081" target="_blank">Partial Fraction Techniques for Cryptography</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2081.pdf)</p>
+
+<blockquote>
+<p>本文探讨了部分分式分解技术在密码学中的应用，将其作为一种基础数学工具来解决密码学中的特定问题。</p>
+</blockquote>
+
+<p><em>精选自 51 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
