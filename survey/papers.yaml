@@ -15994,3 +15994,110 @@ papers:
   - LED
   fetched_date: '2026-05-12'
   source: eprint
+- id: zkboost_zeroknowledge_verifiable_2026
+  title: 'ZKBoost: Zero-Knowledge Verifiable Training for XGBoost'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/202
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Gradient boosted decision trees, particularly XGBoost, are among the most effective methods for tabular data. As
+    deployment in sensitive settings increases, cryptographic guarantees of model integrity
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-13'
+  source: eprint
+- id: multiparty_setup_ceremony_2026
+  title: Multi-party Setup Ceremony for Generating Multivariate zk-SNARK Parameters
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1671
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The development of succinct non-interactive arguments of knowledge (SNARKs), which maintain a constant proof size
+    regardless of computational complexity, has led to substantial improvements in both th
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-13'
+  source: eprint
+- id: threshold_linear_solving_2026
+  title: Threshold linear solving in small fields and application to UOV
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/189
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures allow multiple parties to sign a common message by collaborating. More specifically, in a
+    $(t,n)-$threshold signature scheme, at least $t$ out of $n$ parties must collaborate to s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-13'
+  source: eprint
+- id: onionpirv2_efficient_singleserver_2026
+  title: 'OnionPIRv2: Efficient Single-Server PIR'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1142
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This paper presents OnionPIRv2, an efficient implementation of OnionPIR incorporating standard orthogonal techniques\
+    \ and engineering improvements. \r\nOnionPIR is a single-server PIR scheme that improve"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-13'
+  source: eprint
+- id: executiontime_and_microarchitectural_2026
+  title: Execution-time and microarchitectural profiling of RustCrypto and PQClean ML-KEM/ML-DSA implementations under Linux
+    cgroup resource constraints
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/915
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Existing benchmarks of post-quantum cryptographic (PQC) algorithms focus on raw throughput or latency on unconstrained
+    hardware, leaving open the question of how implementation choices affect microarc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-13'
+  source: eprint
+- id: postquantum_authenticated_key_2026
+  title: Post-Quantum Authenticated Key Exchange via Signcryption with Ephemeral Key Masking
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/914
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present PQES-AKE, a novel two-party authenticated key exchange (AKE) protocol built upon the Post-Quantum Encryption
+    and Signcryption Scheme (PQES) introduced by Kara et al. The protocol achieves m
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-13'
+  source: eprint
