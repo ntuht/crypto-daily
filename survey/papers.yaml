@@ -16101,3 +16101,37 @@ papers:
   - PRESENT
   fetched_date: '2026-05-13'
   source: eprint
+- id: toward_optimalcomplexity_hashbased_2026
+  title: Toward Optimal-Complexity Hash-Based Asynchronous MVBA with Optimal Resilience
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1682
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-valued validated Byzantine agreement (MVBA), a fundamental primitive of distributed computing, allows $n$
+    processes to agree on a valid $\ell$-bit value, despite $t$ faulty processes behaving ma
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-14'
+  source: eprint
+- id: revisiting_beimelweinreb_weighted_2026
+  title: Revisiting Beimel-Weinreb Weighted Threshold Secret Sharing Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/168
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A secret sharing scheme is a cryptographic primitive that allows a dealer to share a secret among a set of parties,
+    so that only authorized subsets of them can recover it. The access structure of the '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-14'
+  source: eprint
