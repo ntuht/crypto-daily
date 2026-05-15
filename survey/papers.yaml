@@ -16135,3 +16135,438 @@ papers:
   - PRESENT
   fetched_date: '2026-05-14'
   source: eprint
+- id: gossamer_lightweight_and_2026
+  title: 'GoSSamer: Lightweight and Linear-Communication Asynchronous (Dynamic Proactive) Secret Sharing and the Applications'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1516
+  directions:
+  - meet_in_the_middle
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Asynchronous complete secret sharing (ACSS) and asynchronous dynamic proactive secret sharing (ADPSS) are fundamental
+    primitives for secret sharing and resharing in modern threshold systems, such as m
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: polylogarithmic_proofs_for_2026
+  title: Polylogarithmic Proofs for Multilinears over Binary Towers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/504
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The use of small fields has come to typify the design of modern, production-oriented SNARKs. In this work, we treat
+    multilinear polynomial commitment over tiny fields. A tiny-field polynomial—in the n
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: fully_homomorphic_encryption_2026
+  title: Fully Homomorphic Encryption on the Ring of Gaussian Periods
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/927
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In Geelen and Vercauteren~(Eurocrypt 2025), a Generalized BFV~(GBFV) fully homomorphic encryption scheme was proposed.
+    Here, a plaintext space of form $\mathbb{Z}[x]/(\Phi(x),t(x))$ was utilized to re
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: sok_private_llm_2026
+  title: 'SoK: Private LLM Inference using Approximate Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/935
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Although recent surveys on privacy-enhancing technologies concluded that FHE cannot feasibly evaluate non-linear
+    activation functions in modern ML architectures, 20 CKKS-based frameworks have since de
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: dlfa_deep_learning_2026
+  title: 'DLFA: Deep Learning based Fault Analysis against Block Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/021
+  directions:
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The proliferation of embedded cryptographic devices in the Internet of Things (IoT) ecosystem has elevated the
+    importance of physical security assessments. Although traditional Fault Analysis (FA) met
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - AES
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: revisiting_sumcheckbased_polynomial_2026
+  title: Revisiting Sum-check-based Polynomial Commitment Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2249
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The sum-check protocol serves as a fundamental building block in succinct arguments, yet its security guarantees
+    are typically formalized in a manner intimately tied to the encompassing protocol, impe
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: maya_a_short_2026
+  title: 'MAYA: A Short Shuffle Argument With Fast Verification'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/941
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Shuffle arguments account for the largest part of the audit data of end-to-end verifiable elections when simple
+    homomorphic tallying cannot be applied. The mixnets that have been deployed in governmen
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: more_efficient_snarks_2026
+  title: 'More Efficient SNARKs via Quasi-Abelian Codes: Faster, Smaller, and Field-Agnostic'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/939
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Linear error-correcting codes play a crucial role in building practical non-interactive arguments of knowledge
+    (SNARKs) with transparent setup, and plausible post-quantum security. Basically, the key '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: storing_less_inthehead_2026
+  title: 'Storing Less in-the-Head: An Area-Efficient Hardware Architecture for SDitH-v2'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/938
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In 2022, the National Institute of Standards and Technology (NIST) initiated a second call for post-quantum digital
+    signature proposals to broaden algorithmic diversity beyond the already standardized
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: efficient_and_privacypreserving_2026
+  title: Efficient and Privacy-preserving Outsourced Training of Decision Tree Models Based on (Leveled) Fully Homomorphic
+    Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/936
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Training machine learning models is computationally intensive, making cloud-based outsourcing an attractive solution
+    to alleviate local resource constraints. However, untrusted cloud environments pose
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: firstorder_masked_fineshufflingimplementation_2026
+  title: First-Order Masked Fine-ShufflingImplementation Against Side-Channel Attackswith Application to ML-KEM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/934
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: n 2020, Ravi et al. [23] published three shuffling variantswith each offering a different performance-security
+    trade-off for protect-ing the Numeric theoretic Transform (NTT). Among them, the fine-shu
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: bitvm3_efficient_bitcoin_2026
+  title: 'BitVM3: Efficient Bitcoin Bridges via Garbled Circuits'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/933
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Bitcoin bridges, protocols that lock BTC on Bitcoin and represent it on a secondary system, underpin much of Bitcoin''s
+    application layer, yet remain poorly secured. Deployed bridges rely on federated '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: zephyr_gpuefficient_homomorphic_2026
+  title: 'Zephyr: GPU-Efficient Homomorphic Encryption for Privacy-Preserving Transformer Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/932
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Privacy-preserving machine learning (PPML) enables inference over sensitive data without exposing raw inputs, with
+    CKKS being a widely adopted scheme for approximate arithmetic. However, existing CKKS
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: improved_quantum_attacks_2026
+  title: Improved Quantum Attacks on Iterated Even-Mansour Ciphers with Classical Queries
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/930
+  directions:
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The Even-Mansour cipher is a construction of a keyed pseudorandom permutation from a random unkeyed permutation.
+    Its generalization to multiple rounds, known as iterated Even-Mansour or key-alternatin
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: on_the_statistical_2026
+  title: On the Statistical vs. Computational Security of the DKLs23 Multiparty ECDSA Protocol
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/929
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The DKLs23 protocol (Doerner, Kondi, Lee and shelat, IEEE S&P '24) is a state-of-the-art multiparty ECDSA signing
+    protocol. Due to its exceptional combination of simplicity, efficiency, and statistica
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: wombat_postquantum_blind_2026
+  title: 'Wombat: Post-Quantum Blind Signature from Standard Group Action Assumptions and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/928
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A recent work by Hanzlik et al.~(Asiacrypt''25) introduced Tanuki, a family of blind-signature frameworks based
+    on non-commutative cryptographic group actions. Tanuki develops new techniques to obtain '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: private_function_evaluation_2026
+  title: Private Function Evaluation with Linear Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/926
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present new frameworks for secure function evaluation (SFE) and private function evaluation (PFE) that support
+    both Boolean and arithmetic circuits. While SFE requires multiple parties to jointly c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: logvole_succinct_and_2026
+  title: 'LogVOLE: Succinct and Efficient Chosen-Input VOLE for ZK and Beyond'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/925
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Random Vector Oblivious Linear Evaluation (VOLE) correlations are a widely used backend for zero-knowledge proofs
+    and secure computation, and can now be generated with strong concrete efficiency. Many
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: ric_randomize_invalid_2026
+  title: 'RIC: Randomize Invalid Coefficients to Mitigate Side-Channel Assisted Chosen-Ciphertext Attacks on ML-KEM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/924
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Module lattice-based key encapsulation mechanisms (ML-KEM) are susceptible to side-channel-assisted chosen-ciphertext
+    attacks (SCA-CCAs) that exploit leakage from the re-encryption process during deca
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: practical_and_verifiable_2026
+  title: Practical and Verifiable Encrypted Vector Search for Retrieval-Augmented Generation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/923
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Retrieval-augmented generation (RAG) systems critically depend on a\r\nvector-retrieval stage that selects relevant\
+    \ documents from a large\r\nembedding database. When this stage is outsourced to a RAG-as-"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: adaptively_secure_permissive_2026
+  title: Adaptively Secure Permissive Unbounded Inner Product Functional Encryption from Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/921
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "Inner product functional encryption (IPFE) in unbounded\r\nsetting for permissive relation offers a powerful cryptographic\
+    \ approach for enforcing fine-grained access control over sensitive information i"
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: cube_partially_blind_2026
+  title: 'CUBE: Partially Blind BBS Signatures for Unlinkable Decentralized Identity'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/920
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Decentralized Identity (DID) systems aim to provide users with self-sovereign control over their credentials. However,
+    verifying identities on public blockchains often risks leaking sensitive attribut
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: efficient_1round_mvzk_2026
+  title: Efficient 1-Round MVZK for Dishonest Majority with Superior Online Overhead
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/918
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs allow to prove a statement while not revealing anything about the witness. In particular,
+    non-interactive zero-knowledge (NIZK) has emerged as the preferred paradigm due to its p
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
+- id: obscura_privacypreserving_protocol_2026
+  title: 'Obscura: Privacy-Preserving Protocol for the Algorand Blockchain Using LSAG Ring Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/917
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: While public blockchains provide transparent and auditable transaction histories, they inherently compromise user
+    privacy. Existing privacy-enhancing protocols, such as those deployed on Ethereum, typ
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-15'
+  source: eprint
