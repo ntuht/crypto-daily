@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-15</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-15</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-15</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-15 04:07</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 40 篇 → 启发式 21 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [DLFA: Deep Learning based Fault Analysis against Block Ciphers](https://eprint.iacr.org/2023/021)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2023/021.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着物联网中嵌入式加密设备的普及，物理安全评估的重要性日益凸显，其中故障分析（FA）是关键手段。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出DLFA，一种基于深度学习的故障分析框架，旨在克服传统FA方法在复杂场景下的局限性。DLFA通过学习故障注入模式来识别密钥信息，并在多种分组密码上验证了其高效性和鲁棒性。</p>
+
+<p>🎯 <strong>意义</strong>：这为评估和增强物联网设备中密码实现的物理安全性提供了新的视角和工具，对未来抗故障攻击设计具有指导意义。</p>
+
+<hr>
+
+<h3>2. [Improved Quantum Attacks on Iterated Even-Mansour Ciphers with Classical Queries](https://eprint.iacr.org/2026/930)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/930.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Even-Mansour密码是一种从无密钥随机置换构造带密钥伪随机置换的经典方法，其迭代版本是许多现代密码设计的基础。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种改进的量子攻击方法，利用经典查询来攻击迭代Even-Mansour密码，显著降低了攻击所需的量子资源或查询复杂度，超越了现有攻击的界限。该方法在理论上展示了迭代Even-Mansour结构在量子计算背景下的潜在脆弱性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了Even-Mansour结构在量子计算背景下的潜在脆弱性，对未来抗量子密码设计具有重要的指导意义。</p>
+
+<hr>
+
+<h3>3. [Polylogarithmic Proofs for Multilinears over Binary Towers](https://eprint.iacr.org/2024/504)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 3/10 | [📎 PDF](https://eprint.iacr.org/2024/504.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：小型域在现代生产型SNARK（简洁非交互式知识论证）设计中扮演着核心角色，尤其是在需要高效证明系统时。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文专注于在极小域上进行多线性多项式承诺，提出了一种新的多对数证明方案，该方案优化了证明大小和验证效率。其设计特别适用于二进制塔等结构，显著提升了在这些域上的SNARK性能。</p>
+
+<p>🎯 <strong>意义</strong>：这为构建更高效、更实用的SNARK系统提供了理论基础和技术突破，尤其是在资源受限的环境中。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2249" target="_blank">Revisiting Sum-check-based Polynomial Commitment Schemes</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2249.pdf)</p>
+
+<blockquote>
+<p>本文重新审视了基于和校验协议的多项式承诺方案，并旨在形式化其安全保证，以解决现有安全模型中的不足。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2039" target="_blank">Non-Delegatable Commitments</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2039.pdf)</p>
+
+<blockquote>
+<p>本文引入了不可委托承诺的概念，这是一种新的承诺类型，旨在防止承诺的委托或转让，从而增强承诺的绑定性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2216" target="_blank">AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2216.pdf)</p>
+
+<blockquote>
+<p>AgentCrypt旨在通过提供可靠且上下文感知的隐私和安全计算，提升AI智能体协作中的数据保密性和计算安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/730" target="_blank">Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/730.pdf)</p>
+
+<blockquote>
+<p>本文探索了在同态加密下实现快速安全推理的神经网络架构，以减少或消除旋转操作的开销，从而提高效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/349" target="_blank">Multipath PA-PUFs generate all Boolean functions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/349.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种多路径优先级仲裁器物理不可克隆函数（PA-PUF）的广义模型，并证明其能生成所有布尔函数。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1957" target="_blank">Fast Batch Matrix Multiplication in Ciphertexts</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1957.pdf)</p>
+
+<blockquote>
+<p>本文研究了密文下快速批量矩阵乘法，旨在提升隐私保护机器学习和加密数据搜索的效率，解决其计算瓶颈。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1200" target="_blank">Tricycle: Private Transformer Inference with Tricyclic Encodings</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1200.pdf)</p>
+
+<blockquote>
+<p>Tricycle利用三循环编码实现Transformer模型的隐私保护推理，以应对大型语言模型在敏感数据场景下的部署需求。</p>
+</blockquote>
+
+<p><em>精选自 40 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
