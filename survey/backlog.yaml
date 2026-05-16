@@ -1,134 +1,4 @@
 papers:
-- id: titan_efficient_polynomial_2026
-  title: 'Titan: Efficient Polynomial Commitments from IOPs over Groups'
-  url: https://eprint.iacr.org/2026/908
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves
-    commitment time of $O(n)$, evaluation time of $O(\sqrt{n})$ while the proof size an
-  heuristic_score: 11
-  added_date: '2026-05-15'
-  authors: []
-- id: secure_twoparty_quantum_2026
-  title: Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
-  url: https://eprint.iacr.org/2026/883
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - permutation
-  directions:
-  - meet_in_the_middle
-  - permutation_layer
-  summary: In 1997, Lo proved that if one of the parties is malicious, it is not possible to achieve unconditional security
-    in quantum bit-commitment (Phy. Rev. Lett, 1997) and hence in two-party quantum computa
-  heuristic_score: 11
-  added_date: '2026-05-15'
-  authors: []
-- id: practical_subvector_commitments_2026
-  title: Practical Subvector Commitments with Optimal Opening Complexity
-  url: https://eprint.iacr.org/2026/118
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: We introduce a simple pairing-based vector commitment with subvector opening where, after a one-time preprocessing,
-    the prover can open a subvector of size $\ell$ in linear time. Our focus is on pract
-  heuristic_score: 11
-  added_date: '2026-05-15'
-  authors: []
-- id: improved_rate_for_2026
-  title: Improved Rate for Non-Malleable Codes and Time-Lock Puzzles
-  url: https://eprint.iacr.org/2026/743
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: Non-malleable codes allow a sender to transmit a message to a receiver, while providing a ``best-possible'' integrity
-    guarantee to ensure that no attacker---who cannot already decode the message---can
-  heuristic_score: 11
-  added_date: '2026-05-15'
-  authors: []
-- id: on_efficient_computations_2026
-  title: On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
-  url: https://eprint.iacr.org/2024/1906
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  directions:
-  - invariant
-  summary: Since its introduction, Solinas' window $\tau$-NAF algorithm has been a landmark scalar multiplication method for
-    Koblitz curves over binary fields. However, extending comparable $\tau$-adic accelerat
-  heuristic_score: 6
-  added_date: '2026-05-15'
-  authors: []
-- id: interleaving_stability_for_2026
-  title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
-  url: https://eprint.iacr.org/2026/891
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  directions:
-  - invariant
-  summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
-    \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
-  heuristic_score: 6
-  added_date: '2026-05-15'
-  authors: []
-- id: a_simple_batched_2026
-  title: A Simple Batched Threshold Encryption Scheme
-  url: https://eprint.iacr.org/2026/760
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  directions:
-  - milp_sat_cp
-  summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
-    not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
-  heuristic_score: 6
-  added_date: '2026-05-15'
-  authors: []
-- id: on_the_statistical_2026
-  title: On the Statistical vs. Computational Security of the DKLs23 Multiparty ECDSA Protocol
-  url: https://eprint.iacr.org/2026/929
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  summary: The DKLs23 protocol (Doerner, Kondi, Lee and shelat, IEEE S&P '24) is a state-of-the-art multiparty ECDSA signing
-    protocol. Due to its exceptional combination of simplicity, efficiency, and statistica
-  heuristic_score: 5
-  added_date: '2026-05-15'
-  authors: []
-- id: fullyadaptive_tworound_threshold_2026
-  title: Fully-Adaptive Two-Round Threshold Schnorr Signatures from DDH
-  url: https://eprint.iacr.org/2025/1478
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - LED
-  directions:
-  - lightweight
-  summary: Threshold Schnorr signatures enable $t$-out-of-$n$ parties to collaboratively produce signatures that are indistinguishable
-    from standard Schnorr signatures, ensuring compatibility with existing verif
-  heuristic_score: 5
-  added_date: '2026-05-15'
-  authors: []
 - id: zinc_snarks_for_2026
   title: 'Zinc+: SNARKs for Polynomial Rings'
   url: https://eprint.iacr.org/2026/855
@@ -143,7 +13,7 @@ papers:
   summary: Nearly all succinct proof systems express computations as algebraic constraints over a finite field. Operations
     not native to this field, such as bitwise manipulation, modular arithmetic, and lattice-
   heuristic_score: 5
-  added_date: '2026-05-15'
+  added_date: '2026-05-16'
   authors: []
 - id: thirdparty_moderation_of_2026
   title: Third-Party Moderation of Abuse Reports for End-to-End Encrypted Messaging with Multiple Moderators
@@ -157,5 +27,5 @@ papers:
   summary: Abuse reporting tools like message franking allow end-to-end encrypted (E2EE) messaging platforms to verify user-generated
     abuse reports as part of their platform content moderation policies. While th
   heuristic_score: 5
-  added_date: '2026-05-15'
+  added_date: '2026-05-16'
   authors: []

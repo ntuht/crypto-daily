@@ -16570,3 +16570,60 @@ papers:
   - LED
   fetched_date: '2026-05-15'
   source: eprint
+- id: nicepake_on_the_2026
+  title: 'NICE-PAKE: On the Security of KEM-Based PAKE Constructions without Ideal Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1957
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the No IC Encryption (NICE)-PAKE, a (semi)-generic symmetric Password Authenticated Key Exchange (PAKE)
+    framework providing a quantum-safe alternative for the Ideal Cipher (IC), utilizing s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-16'
+  source: eprint
+- id: ghost_of_sessions_2026
+  title: 'Ghost of Sessions Past: Distributed and Forward Secure Key Establishment for Implantable Medical Devices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2322
+  directions:
+  - linear_diffusion
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Implantable Medical Devices (IMDs) operate for decades in dynamic and adversarial environments, where device loss,
+    backend compromise, and eventual post-explantation access are realistic long-term thr
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - MDS
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-16'
+  source: eprint
+- id: rpom31_and_xhashm31_2026
+  title: 'RPO-M31 and XHash-M31: Efficient Hash Functions for Circle STARKs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1635
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present two new arithmetization oriented hash functions based on RPO [Ashur, kindi, Meier, Szepieniec, Threadbare;
+    ePrint 2022/1577] and XHash-12 [Ashur, Bhati, Kindi, Mahzoun, Perrin; ePrint 2023/
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-16'
+  source: eprint
