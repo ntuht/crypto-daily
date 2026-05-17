@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-17</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-17</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-17</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-17 04:07</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 26 篇 → 启发式 7 篇 → 精选 <strong>7 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Revisiting Linear Subspace Trails in Poseidon2 and Neptune](https://eprint.iacr.org/2026/967)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/967.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Poseidon2和Neptune等零知识证明友好型哈希函数，通过稀疏S盒激活来降低算术化成本，但这种结构也使其易受线性子空间路径相关的代数攻击。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文深入分析了Poseidon2和Neptune中线性子空间路径的特性，特别是当初始状态位于某个子空间时，后续状态如何保持在该子空间内。研究者可能提出了新的分析技术或改进了现有技术，以识别和构造这些路径，从而评估这些密码的安全性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作对于理解和评估Poseidon2和Neptune等新型密码的代数攻击安全性至关重要，为未来设计更安全的零知识证明友好型密码提供了指导。</p>
+
+<hr>
+
+<h3>2. [Delving Deep into Security Guarantees against Integral Distinguishers with Applications to PRESENT, TWINE and LBLOCK](https://eprint.iacr.org/2026/961)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/961.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：积分攻击是分组密码面临的重要威胁，但为特定分组密码提供对抗此类攻击的严格安全保障一直是一个难题。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文可能基于ASIACRYPT 2021提出的方法，进一步深化了对积分区分器安全保障的理论研究，并将其应用于PRESENT、TWINE和LBLOCK等具体分组密码。这可能涉及开发更精确的自动化工具或分析技术，以确定这些密码抵抗积分攻击的轮数上限，从而给出更强的安全证明。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为评估分组密码对抗积分攻击的安全性提供了更坚实的理论基础和实用工具，有助于提升现有密码的信任度并指导未来密码设计。</p>
+
+<hr>
+
+<h3>3. [Quantum Circuit Realization and Grover Cryptanalysis of the Hybrid ARX-SPN Cipher GFSPX](https://eprint.iacr.org/2026/949)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/949.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着量子计算的兴起，经典对称密钥密码的安全性面临根本性挑战，因此需要严格评估其抗量子攻击能力。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文专注于混合ARX-SPN结构密码GFSPX，首先将其操作映射到量子电路中，这是进行量子攻击的基础。随后，研究者利用Grover算法对GFSPX进行了密码分析，评估了其在量子模型下的密钥恢复复杂度，并可能提出了优化量子电路实现以降低攻击成本的方法。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为理解GFSPX在量子计算环境下的安全性提供了具体评估，并为其他对称密码的抗量子安全性分析提供了实践范例和方法论。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1605" target="_blank">Nebula: Efficient read-write memory and switchboard circuits for folding schemes</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1605.pdf)</p>
+
+<blockquote>
+<p>Nebula为折叠方案（folding schemes）设计了高效的读写内存和交换电路，以优化零知识虚拟机（zkVM）的性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/029" target="_blank">YouChoose: A Lightweight Anonymous Proof of Account Ownership</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/029.pdf)</p>
+
+<blockquote>
+<p>YouChoose提出了一种轻量级的匿名账户所有权证明方案，允许用户在不泄露身份的情况下验证其账户有效性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/855" target="_blank">Zinc+: SNARKs for Polynomial Rings</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/855.pdf)</p>
+
+<blockquote>
+<p>Zinc+是一个为多项式环设计的SNARK系统，旨在高效处理有限域非原生操作，如位操作。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/010" target="_blank">Third-Party Moderation of Abuse Reports for End-to-End Encrypted Messaging with Multiple Moderators</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/010.pdf)</p>
+
+<blockquote>
+<p>本文研究了在多审核员场景下，端到端加密消息中滥用报告的第三方审核机制，以平衡隐私与内容管理。</p>
+</blockquote>
+
+<p><em>精选自 26 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
