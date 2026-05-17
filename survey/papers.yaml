@@ -16627,3 +16627,447 @@ papers:
   - PRESENT
   fetched_date: '2026-05-16'
   source: eprint
+- id: nebula_efficient_readwrite_2026
+  title: 'Nebula: Efficient read-write memory and switchboard circuits for folding schemes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1605
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "A zero-knowledge virtual machine (zkVM) is a\r\nversatile, developer-friendly primitive that proves the correct\r\
+    \nexecution of programs on a fixed machine architecture. A\r\nmajor bottleneck for these prot"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: youchoose_a_lightweight_2026
+  title: 'YouChoose: A Lightweight Anonymous Proof of Account Ownership'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/029
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Anonymous proofs of account ownership (anonymous PAOs) enable a prover to convince a verifier that the prover owns
+    a valid account at a server without revealing their identity. Importantly, no server-
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: tight_latticebased_signatures_2026
+  title: Tight Lattice-Based Signatures without Trapdoors from Search LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/953
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The study of digital signatures with tight reductions has attracted considerable attention over the past two decades,
+    as such schemes inherit essentially the same quantitative hardness as the underlyi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: explicit_cost_analysis_2026
+  title: Explicit cost analysis of Toom-4 multiplication for incomplete NTT in lattice-based cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/971
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Polynomial multiplication is fundamental in lattice-based cryptography. \r\nWhile the Number Theoretic Transform\
+    \ (NTT) enables fast multiplication, it imposes constraints on the modulus of the coefficie"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: icydvrf_a_distributed_2026
+  title: 'Icy-DVRF: A Distributed Verifiable Random Function based on FROST signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/969
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Unbiased and unpredictable randomness is a cornerstone of Web3 security, underpinning everything from consensus
+    protocols to DeFi logic. Although Distributed Verifiable Random Functions (DVRFs) elimin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: frobeniusuov_a_very_2026
+  title: 'Frobenius-UOV: A Very Efficient Multivariate Public Key Signature Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/968
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: 'We present Frobenius-UOV, a multivariate public-key signature scheme in the Unbalanced Oil and Vinegar (UOV) family.
+    The scheme replaces generic quadratic polynomials with a structured subclass based '
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: revisiting_linear_subspace_2026
+  title: Revisiting Linear Subspace Trails in Poseidon2 and Neptune
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/967
+  directions:
+  - sbox
+  - linear_diffusion
+  - permutation_layer
+  - invariant
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Poseidon2 and Neptune use sparse S-box activation in internal partial rounds to reduce arithmetization cost. This
+    structure makes linear subspace trails relevant to algebraic attacks. If the initial s
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - invariant
+  - subspace trail
+  - S-box
+  - permutation
+  - MDS
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: a_new_multiscalar_2026
+  title: A New Multiscalar Multiplication Method Resistant to Timing Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/966
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multiscalar multiplication (MSM) is a core operation in modern cryptographic systems, commonly used in various
+    applications such as Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (ZK-S
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: device_binding_for_2026
+  title: Device Binding for Anonymous Credentials on Legacy Phones
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/965
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Digital identity systems are currently build around the globe, aiming to enable secure, usable, but also privacy-preserving
+    user authentication. Concretely, the EUDI Wallet developed in Europe require
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: beyond_quadratic_unlocking_2026
+  title: 'Beyond Quadratic: Unlocking Pseudorandomness with Quartic Character'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/964
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We study pseudorandomness arising from quartic Dirichlet characters and obtain results that connect analytic and
+    cryptographic perspectives. From an analytic perspective, and following the framework o
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: multileveled_and_isaiec_2026
+  title: Multi-leveled and ISA/IEC 62443-aware Certificate Transparency to Protect the PKI Service Supply Chain of Operational
+    Technology
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/963
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: To address the expanding attack surface caused by increasing digitization and interconnection, operators of Industrial
+    Automation and Control Systems (IACS) adopt security measures already established
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: delving_deep_into_2026
+  title: Delving Deep into Security Guarantees against Integral Distinguishers with Applications to PRESENT, TWINE and LBLOCK
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/961
+  directions:
+  - round_function
+  - lightweight
+  - integral_division
+  ciphers: []
+  significance: medium
+  summary: "Integral attacks pose a significant threat to block cipher security, yet providing guarantees against such attacks\
+    \ for a target block cipher is difficult. At\r\nASIACRYPT 2021, Hebborn, Lambin, Leander,"
+  status: pending_review
+  matched_keywords:
+  - integral attack
+  - block cipher
+  - Feistel
+  - SPN
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: on_the_communication_2026
+  title: On the Communication Complexity of Sleepy Consensus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/960
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Sleepy consensus allows parties to join and leave execution arbitrarily, which is a fundamental requirement for
+    large-scale distributed systems. Classic longest-chain protocols, such as Bitcoin and it
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: operationalising_postquantum_tls_2026
+  title: 'Operationalising Post‑Quantum TLS: Automated Configuration Profiling and Hybrid PQC Deployment in Financial Infrastructure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/959
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Organisations are upgrading their cryptographic infrastructure to become quantum‑safe before large‑scale quantum
+    computers materialise. Post‑quantum cryptography (PQC) standards now exist for key‑exch
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: blackbox_validation_of_2026
+  title: Black-box validation of Falcon key generation under numerical instability
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/954
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Falcon is a lattice-based digital signature scheme offering excellent performance and key sizes, and it has been
+    selected for standardization by the National Institute of Standards and Technology (NIS
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: earlystopping_consensus_with_2026
+  title: Early-stopping Consensus with Adaptive Bit Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/951
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Protocols for Byzantine agreement are known to be constrained by relatively strong lower bounds on their optimal
+    resilience, round complexity, and communication complexity. Crucially, though, these lo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: beyond_the_anonymous_2026
+  title: 'Beyond the Anonymous Inbox: Secure Whistleblowing for All'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/950
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Directive (EU) 2019/1937 mandates reporting channels that do substantially more than accept a one-shot anonymous
+    report submission. A compliant system must protect the confidentiality of the report an
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: quantum_circuit_realization_2026
+  title: Quantum Circuit Realization and Grover Cryptanalysis of the Hybrid ARX-SPN Cipher GFSPX
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/949
+  directions:
+  - software_friendly
+  - round_function
+  - lightweight
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: "The security of classical symmetric-key primitives is fundamentally challenged by\r\nthe emergence of quantum\
+    \ computing, necessitating a rigorous evaluation of their\r\npost-quantum resilience. This paper"
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - ARX
+  - Feistel
+  - SPN
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: anamorphic_construction_for_2026
+  title: Anamorphic Construction For The Winternitz OTS Scheme Family
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/948
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The Winternitz One-Time Signature~(WOTS) scheme is a fundamental primitive in post-quantum cryptography that relies
+    solely on the security of its hash function, has been standardized, and serves as a '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: efficient_simd_implementation_2026
+  title: Efficient SIMD Implementation of the BLS Signature Scheme Using Intel AVX-512
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/947
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The BLS digital signature scheme, in particular its instantiation with the BLS12-381 curve, has become a cornerstone
+    of modern blockchain protocols such as Ethereum Proof-of-Stake, due to its unique a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: constantround_secure_distributed_2026
+  title: Constant-Round Secure Distributed Decoding and HQC Threshold Decryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/946
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold public-key encryption schemes enable decryption only with the participation of enough partial secret
+    key holders. In this article, we propose the first dedicated protocol for distributed dec
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: threshold_prism_signature_2026
+  title: Threshold PRISM Signature Schemes via Graph-Based Threshold Access Structures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/945
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Threshold signatures for distributed systems require compact public keys and signatures to reduce communication\
+    \ overhead by avoiding packet fragmentation.\r\nHowever, with existing post-quantum threshol"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: on_mpcfriendly_softmax_2026
+  title: On MPC-friendly Softmax
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/944
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Softmax is widely used in deep learning to map some representation to a probability distribution.  As it is based
+    on the exponential function, which is relatively expensive in multi-party computation,
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
+- id: optimized_gg_signature_2026
+  title: Optimized G+G Signature
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/943
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At ASIACRYPT 2023, Devevey, Passelègue and Stehlé proposed the G+G signature, which is designed based on the Fiat-Shamir
+    transform without rejection sampling technique. However, the optimization of th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-17'
+  source: eprint
