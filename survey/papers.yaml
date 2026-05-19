@@ -17071,3 +17071,126 @@ papers:
   - PRESENT
   fetched_date: '2026-05-17'
   source: eprint
+- id: dpaas_improving_decentralization_2026
+  title: 'DPaaS: Improving Decentralization by Removing Relays in Ethereum PBS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2126
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Proposer-Builder Separation (PBS) in Ethereum improves decentralization and scalability by offloading block construction
+    to specialized builders. In practice, MEV-Boost implements PBS via a side-car p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-19'
+  source: eprint
+- id: tensorswitch_nearly_optimal_2026
+  title: 'TensorSwitch: Nearly Optimal Polynomial Commitments from Tensor Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2065
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: A polynomial commitment scheme (PCS) enables a prover to succinctly commit to a large polynomial and later generate
+    evaluation proofs that can be efficiently verified. In recent years, PCSs have emerg
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-19'
+  source: eprint
+- id: lotrs_practical_postquantum_2026
+  title: 'LoTRS: Practical Post-Quantum Structured Threshold Ring Signatures from Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/974
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Threshold ring signatures (TRS) enable a quorum of $T$ users to jointly sign a message while hiding which $T$
+    of the $N$ ring members participated, supporting privacy-preserving endorsement in ad-hoc '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-19'
+  source: eprint
+- id: group_factorisation_for_2026
+  title: Group Factorisation for Smaller Signatures from Cryptographic Group Actions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1510
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Cryptographic group actions have gained significant attention in recent years for their application on post-quantum
+    Sigma protocols and digital signatures. In NIST's recent additional call for post-qu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-05-19'
+  source: eprint
+- id: verifying_consensus_protocols_2026
+  title: 'Verifying Consensus Protocols from LLM-assisted TLA$^+$: A Case Study of Byzantine Reliable Broadcast'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/978
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: TLA$^+$ (Temporal Logic of Actions) is a formal specification language well-suited for distributed systems. However,
+    writing proper TLA$^+$ scripts requires high domain expertise. When it comes to mod
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-19'
+  source: eprint
+- id: thriftympc_reducing_the_2026
+  title: 'ThriftyMPC: Reducing the Cost of Large-Scale MPC in the Cloud'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/977
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cloud computing has become the standard for large-scale computation, offering elastic scalability and on-demand
+    resources that exceed typical on-premise capabilities. However, many large-scale computa
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-19'
+  source: eprint
+- id: functional_bootstrapping_for_2026
+  title: Functional Bootstrapping for a Single LWE Ciphertext with \(\tilde{O}(1)\) Polynomial Multiplications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/975
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Bootstrapping is the key technique that turns leveled homomorphic encryptionc into fully homomorphic encryption,
+    but it remains a major efficiency bottleneck. Recent work by Z. Liu and Y. Wang (ASIACR
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-19'
+  source: eprint
