@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-20</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-20</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-20</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-20 04:16</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 70 篇 → 启发式 59 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Revisiting Linear Subspace Trails in Poseidon2 and Neptune](https://eprint.iacr.org/2026/967)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/967.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Poseidon2和Neptune等零知识证明友好型哈希函数，为降低算术化成本而采用稀疏S盒激活，但这种设计结构使其在代数攻击中容易受到线性子空间路径的影响。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文深入分析了Poseidon2和Neptune的线性子空间路径特性，特别是当初始状态位于某个线性子空间时，如何通过部分轮次保持在同一子空间内。研究者识别并构造了新的线性子空间路径，并利用这些路径改进了对这些哈希函数的代数攻击效率，揭示了其在特定条件下的脆弱性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了稀疏S盒设计中潜在的安全漏洞，为未来零知识证明友好型密码算法的设计提供了重要的安全考量和改进方向。</p>
+
+<hr>
+
+<h3>2. [Algorithmic Toolkit for Linearization of S-boxes](https://eprint.iacr.org/2026/913)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/913.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：线性化是一种重要的密码分析技术，旨在将非线性S盒在特定输入子集上近似为仿射映射，并已成功应用于Keccak等多种密码算法的分析。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一个通用的算法工具包，用于系统地搜索S盒的线性化表示，包括其变体，如差分线性化和高阶线性化。该工具包通过优化搜索策略和利用S盒的代数结构，能够高效地发现S盒的线性近似，并评估其在密码分析中的有效性，从而自动化地识别潜在的弱点。</p>
+
+<p>🎯 <strong>意义</strong>：该工具包为密码分析人员提供了一种强大的自动化手段，以发现S盒的弱点，从而有助于评估和改进现有及未来密码算法的安全性。</p>
+
+<hr>
+
+<h3>3. [Delving Deep into Security Guarantees against Integral Distinguishers with Applications to PRESENT, TWINE and LBLOCK](https://eprint.iacr.org/2026/961)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/961.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：积分攻击是分组密码面临的严重威胁，但为特定分组密码提供针对此类攻击的严格安全保障一直是一个难以解决的挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文基于ASIACRYPT 2021提出的方法，进一步深入研究了如何为分组密码提供针对积分区分器的安全保障。研究者开发了更精细的分析技术，能够更准确地预测和证明在给定轮数下，特定分组密码（如PRESENT、TWINE和LBLOCK）不会出现积分区分器，从而增强了安全声明的严谨性，并提供了实际应用案例。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作提升了我们对分组密码积分攻击安全性的理解和证明能力，为密码设计者提供了更可靠的工具来评估和构建抗积分攻击的密码算法。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/980" target="_blank">Key-Independent Secret-Key Distinguisher for 7-Round AES based on the Joint Generalized Zero-Difference Property</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/980.pdf)</p>
+
+<blockquote>
+<p>本文基于联合广义零差分性质，提出了针对7轮AES的密钥无关秘密密钥区分器，揭示了其与理想随机置换的结构性偏差。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/726" target="_blank">Bitsliced Segment-Based Search Technique for Low-Depth and Hardware-Efficient S-Box Circuits</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/726.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种名为SLICE的位切片分段搜索技术，用于高效构造低深度且硬件友好的S盒电路。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/824" target="_blank">Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/824.pdf)</p>
+
+<blockquote>
+<p>本文研究了如何从单长度密钥分组密码构建更具可用性的抗侧信道泄露AEAD方案，以解决现有方案兼容性差的问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/085" target="_blank">Beyond-Birthday-Bound Security with HCTR2: Cascaded Construction and Tweak-based Key Derivation</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/085.pdf)</p>
+
+<blockquote>
+<p>本文通过级联构造和基于调整值的密钥派生，利用HCTR2模式实现了超越生日界安全的可变输入长度强可调伪随机置换。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1006" target="_blank">Permutation-Based Hash from Non-Idealized Assumptions: Adding Feed-Forward to Sponge</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1006.pdf)</p>
+
+<blockquote>
+<p>本文在非理想化假设下，通过向海绵结构中重新引入前馈机制，探索了基于置换的哈希函数设计。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/771" target="_blank">Vector-Input Hashing Modes for Collision-Resistant Pseudorandom Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/771.pdf)</p>
+
+<blockquote>
+<p>Hash函数模式与安全</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1635" target="_blank">RPO-M31 and XHash-M31: Efficient Hash Functions for Circle STARKs</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1635.pdf)</p>
+
+<blockquote>
+<p>本文基于RPO和XHash-12，提出了两种新的面向算术化的哈希函数RPO-M31和XHash-M31，旨在提高Circle STARKs的效率。</p>
+</blockquote>
+
+<p><em>精选自 70 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
