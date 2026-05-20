@@ -17194,3 +17194,240 @@ papers:
   - LED
   fetched_date: '2026-05-19'
   source: eprint
+- id: publicly_verifiable_generalized_2026
+  title: Publicly Verifiable Generalized Secret Sharing Schemes and Their Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/664
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secret sharing under expressive access structures and public verifiability have largely been developed in separate
+    lines of work. Generalized secret sharing (GSS) supports arbitrary monotone access st
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: perfect_2party_computation_2026
+  title: Perfect 2-Party Computation from Somewhat Additive Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/273
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We present protocols where one entity, the server, evaluates a circuit with encrypted inputs from the second party,
+    the client. We give secret key somewhat additive homomorphic schemes where the clien
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: almost_lineartime_permutation_2026
+  title: Almost Linear-Time Permutation Check
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1850
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Permutation and lookup arguments are at the core of most deployed SNARK protocols today. Most modern techniques
+    for performing them require a grand product check. This requires either committing to la
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: an_efficient_and_2026
+  title: An Efficient and Secure Boolean Function Evaluation Protocol
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1787
+  directions:
+  - meet_in_the_middle
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The secure evaluation of Boolean functions or  Secure Boolean Evaluation (SBE) is a fundamental component in this
+    area of research. SBE allows parties to jointly compute Boolean functions without expo
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: all_polynomial_generators_2026
+  title: All Polynomial Generators Preserve Distance with Mutual Correlated Agreement
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2051
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'A generator is a function that maps a random seed to a list of coefficients. We study generators that preserve
+    distance to a linear code: the linear combination of any list of vectors using coefficien'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: using_the_schur_2026
+  title: Using the Schur Product to Solve the Code Equivalence Problem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1017
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Given two linear codes, the Code Equivalence Problem asks to find (if it exists) an isometry mapping one code into
+    the other. A special case is the Permutation Equivalence Problem (PEP), where the iso
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: prism_simple_and_2026
+  title: 'PRISM: Simple And Compact Identification and Signatures From Large Prime Degree Isogenies'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/135
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The problem of computing an isogeny of large prime degree from a supersingular elliptic curve of unknown endomorphism\
+    \ ring is assumed to be hard both for classical as well as quantum computers.\r\nIn th"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: free_linear_online_2026
+  title: Free Linear Online Phase for Secure Multiparty Shuffle
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1936
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Shuffling is a fundamental operation in secure multiparty computation (MPC). However, the best-known maliciously
+    secure $n$-party $m$-element shuffle protocols still incur at least $n^2 m$ online comm
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: singletrace_key_recovery_2026
+  title: Single-Trace Key Recovery Attacks on HQC Using Valid and Invalid Ciphertexts
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1987
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "As the Hamming Quasi-Cyclic (HQC) cryptosystem was recently selected by NIST for standardization, a thorough evaluation\
+    \ of its implementation security is critical before its widespread deployment. \r\nT"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: robust_threshold_ecdsa_2026
+  title: Robust Threshold ECDSA with Online-Friendly Design in Three Rounds
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/910
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures, especially ECDSA, enhance key protection by addressing the single-point-of-failure issue.
+    Threshold signing can be divided into offline and online phases, based on whether the me
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: a_formal_analysis_2026
+  title: A formal analysis of FLEX and FLEX2
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/983
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper formalizes the cryptographic core of the FLEX protocol and its enhanced variation FLEX2 . The analysis
+    formalizes a minimal ledger abstraction, capturing Taproot, CSV timelocks, and reorg b
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: zeroshot_deepunfolding_decoder_2026
+  title: Zero-shot deep-unfolding decoder for QC-MDPC McEliece cryptosystems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/982
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The QC-MDPC McEliece cryptosystem is a promising candidate for post-quantum cryptography, and the decoding performance
+    of the underlying QC-MDPC code directly affects the security of the scheme. Deep '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-20'
+  source: eprint
+- id: keyindependent_secretkey_distinguisher_2026
+  title: Key-Independent Secret-Key Distinguisher for 7-Round AES based on the Joint Generalized Zero-Difference Property
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/980
+  directions:
+  - lightweight
+  - differential
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A key-independent secret-key distinguisher identifies structural deviations from an ideal random permutation without
+    discovering any information about the secret key. It is therefore of primary import
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - block cipher
+  - permutation
+  - AES
+  fetched_date: '2026-05-20'
+  source: eprint
