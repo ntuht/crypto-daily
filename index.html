@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-05-20 04:16</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-05-21 04:24</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">968</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">997</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,13 +35,13 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">968</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">997</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">113</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">52</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">116</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">54</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">36</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">31</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">32</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">29</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">26</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">23</span></div>
@@ -51,14 +51,14 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">466</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">156</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">110</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">479</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">162</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">115</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">46</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">35</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">30</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">29</span></div>
-  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">22</span></div>
+  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">24</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">17</span></div>
   <div class="dir-item" data-dir="related_key" onclick="filterDir('related_key')">相关密钥攻击 <span class="count">15</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 968 篇论文</div>
+        <div class="result-count" id="resultCount">显示 997 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -10185,6 +10185,383 @@ T</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">A key-independent secret-key distinguisher identifies structural deviations from an ideal random permutation without discovering any information about the secret key. It is therefore of primary import</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">置换层</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="distributed_simons_algorithm_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="distributed simon&#x27;s algorithm with less per-node qubit overhead and its application to cryptanalysis   distributed quantum computing (dqc) enables multi-device collaboration to reduce per-node circuit depth and solve larger-scale problems beyond the processing capability of a single quantum device. in">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1001" target="_blank">Distributed Simon&#x27;s Algorithm with Less Per-Node Qubit Overhead and Its Application to Cryptanalysis</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Distributed quantum computing (DQC) enables multi-device collaboration to reduce per-node circuit depth and solve larger-scale problems beyond the processing capability of a single quantum device. In</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="fics_and_facs_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="fics and facs: fast iopps and accumulation via code-switching   recent work on iop-based succinct arguments has focused on developing iops that improve prover efficiency by relying on linear-time encodable codes. we present two new schemes for improving the effici">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/737" target="_blank">FICS and FACS: Fast IOPPs and Accumulation via Code-Switching</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Recent work on IOP-based succinct arguments has focused on developing IOPs that improve prover efficiency by relying on linear-time encodable codes. We present two new schemes for improving the effici</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="hardness_and_algorithms_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="hardness and algorithms for batch lpn under dependent noise   we study the batch learning parity with noise (lpn) variant, where the oracle returns $k$ samples in a batch and draws the noise vector from a joint noise distribution $\mathcal{d}$ over $\mathbb{f}_2">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2164" target="_blank">Hardness and Algorithms for Batch LPN under Dependent Noise</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study the Batch Learning Parity with Noise (LPN) variant, where the oracle returns $k$ samples in a batch and draws the noise vector from a joint noise distribution $\mathcal{D}$ over $\mathbb{F}_2</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="linear_selfequivalence_of_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="linear self-equivalence of the known families of apn functions: a unified point of view   the only known solution to the big apn problem was found by exploring the ccz-equivalence class of a specific quadratic function, the kim mapping, which is linearly equivalent to various highly-struct">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1012" target="_blank">Linear self-equivalence of the known families of APN functions: a unified point of view</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The only known solution to the big APN problem was found by exploring the CCZ-equivalence class of a specific quadratic function, the Kim mapping, which is linearly equivalent to various highly-struct</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="can_we_tolerate_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="can we tolerate small side-channel leakages: the role of registers in glitch-stopping circuits   research on cryptographic algorithms implemented in hardware and protected against side-channel attacks has advanced rapidly in recent years. generalized masking schemes, such as threshold implementat">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1011" target="_blank">Can We Tolerate Small Side-Channel Leakages: The Role of Registers in Glitch-Stopping Circuits</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Research on cryptographic algorithms implemented in hardware and protected against side-channel attacks has advanced rapidly in recent years. Generalized masking schemes, such as Threshold Implementat</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="signal_and_ready_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="signal and ready to mingle: in-band gossip for key transparency split-view detection in e2ee messengers   end-to-end encrypted (e2ee) messengers such as signal, whatsapp and imessage increasingly deploy key transparency (kt) to make malicious key substitution detectable. yet kt only delivers its intended">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1010" target="_blank">Signal and Ready to MINGLE: In-Band Gossip for Key Transparency Split-View Detection in E2EE Messengers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">End-to-end encrypted (E2EE) messengers such as Signal, WhatsApp and iMessage increasingly deploy Key Transparency (KT) to make malicious key substitution detectable. Yet KT only delivers its intended</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="willowfold_secure_aggregation_2026" data-dirs="milp_sat_cp,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="willowfold: secure aggregation with a lightweight committee   secure aggregation enables a server to learn the sum of private inputs of clients, while revealing no additional information beyond the final sum. recent work, willow (crypto 2025) achieves one--shot">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/264" target="_blank">WillowFold: Secure Aggregation with a Lightweight Committee</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Secure aggregation enables a server to learn the sum of private inputs of clients, while revealing no additional information beyond the final sum. Recent work, Willow (CRYPTO 2025) achieves one--shot</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="bolt_faster_snarks_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="bolt: faster snarks from sketched codes   we introduce bolt, a new multilinear polynomial commitment scheme (mlpcs) designed for high-performance snarks. bolt is geared towards snarks for large computations, in which prover speed is paramount">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/310" target="_blank">Bolt: Faster SNARKs from Sketched Codes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We introduce Bolt, a new Multilinear Polynomial Commitment Scheme (MLPCS) designed for high-performance SNARKs. Bolt is geared towards SNARKs for large computations, in which prover speed is paramount</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="constantonline_pvss_from_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="constant-online pvss from cca2-secure threshold encryption: a generic framework   publicly verifiable secret sharing (pvss) is widely used in distributed systems. existing schemes usually incur at least $o(n)$ online cost: the dealer encrypts, proves, and publishes $n$ shareholder-">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1009" target="_blank">Constant-Online PVSS from CCA2-Secure Threshold Encryption: A Generic Framework</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Publicly Verifiable Secret Sharing (PVSS) is widely used in distributed systems. Existing schemes usually incur at least $O(n)$ online cost: the dealer encrypts, proves, and publishes $n$ shareholder-</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="unified_fpga_design_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="unified fpga design of kyber and dilithium with provable fault tolerance   efficient and secure hardware implementations of post-quantum cryptographic schemes are critical for real-world adoption. in this work, we propose a unified fpga-based architecture for kyber and dilit">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1008" target="_blank">Unified FPGA Design of Kyber and Dilithium with Provable Fault Tolerance</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Efficient and secure hardware implementations of post-quantum cryptographic schemes are critical for real-world adoption. In this work, we propose a unified FPGA-based architecture for Kyber and Dilit</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="quantum_circuit_implementation_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="quantum circuit implementation and grover’s search on the lightweight block cipher klein family   the advent of quantum computing is expected to transform the landscape of cryptographic security, making many classical algorithms vulnerable to quantum attacks such as grover’s exhaustive key search.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1007" target="_blank">Quantum Circuit Implementation and Grover’s Search on the Lightweight Block Cipher KLEIN Family</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The advent of quantum computing is expected to transform the landscape of cryptographic security, making many classical algorithms vulnerable to quantum attacks such as Grover’s exhaustive key search.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="current_trends_in_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="current trends in ai-aided cryptography   research at the intersection of artificial intelligence (ai) and cryptography is expanding, but existing surveys often focus on specific techniques or provide only high-level overviews without cross-d">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1006" target="_blank">Current trends in AI-Aided Cryptography</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Research at the intersection of artificial intelligence (AI) and cryptography is expanding, but existing surveys often focus on specific techniques or provide only high-level overviews without cross-d</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="more_from_less_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="more from less: composable general multi-party computation with global public verifiability from a single enclave only   trusted execution environments (tees), also known as secure enclaves, such as intel sgx, intel tdx or amd sev are seeing widespread use to perform computations on highly sensitive data. to analyze the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1005" target="_blank">More from Less: Composable General Multi-Party Computation with Global Public Verifiability from a Single Enclave Only</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Trusted Execution Environments (TEEs), also known as secure enclaves, such as Intel SGX, Intel TDX or AMD SEV are seeing widespread use to perform computations on highly sensitive data. To analyze the</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="pqkryvos_postquantum_secure_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="pqkryvos: post-quantum secure e-voting with flexible ballot formats and public tally-hiding   fair and free elections are the foundation of democracies and democratic processes. they require voting protocols that guarantee the integrity and verifiability of the result, as well as the private c">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1004" target="_blank">PQKryvos: Post-Quantum Secure E-Voting With Flexible Ballot Formats and Public Tally-Hiding</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fair and free elections are the foundation of democracies and democratic processes. They require voting protocols that guarantee the integrity and verifiability of the result, as well as the private c</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="a_blockchainbased_preverification_2026" data-dirs="milp_sat_cp,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="a blockchain-based pre-verification access control scheme with vector commitments and bulletproofs   blockchain-enabled data sharing provides public verifiability and auditability for access control in internet of things environments. however, before formal authorization is granted, efficiently verif">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1003" target="_blank">A Blockchain-Based Pre-Verification Access Control Scheme with Vector Commitments and Bulletproofs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Blockchain-enabled data sharing provides public verifiability and auditability for access control in Internet of Things environments. However, before formal authorization is granted, efficiently verif</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="informationtheoretic_optimistic_verifiable_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="information-theoretic optimistic verifiable secret sharing   verifiable secret sharing (vss) is a fundamental primitive for secure computation and its round complexity has been well studied. the works of gennaro et al. [stoc&#x27;01] and fitzi et al. [tcc&#x27;06] settle">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1000" target="_blank">Information-Theoretic Optimistic Verifiable Secret Sharing</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Verifiable secret sharing (VSS) is a fundamental primitive for secure computation and its round complexity has been well studied. The works of Gennaro et al. [STOC&#x27;01] and Fitzi et al. [TCC&#x27;06] settle</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="modern_portfolio_theory_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="modern portfolio theory in the crypto-wilderness   modern portfolio theory (mpt) prescribes how to maximise the return of an asset portfolio for a given level of risk. the optimal trade-off between return and variance defines the efficient frontier. w">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/999" target="_blank">Modern Portfolio Theory in the Crypto-Wilderness</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Modern portfolio theory (MPT) prescribes how to maximise the return of an asset portfolio for a given level of risk. The optimal trade-off between return and variance defines the efficient frontier. W</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="balanced_and_adaptively_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="balanced and adaptively secure asynchronous common coin and byzantine agreement with sub-quadratic communication   distributed common randomness generation (i.e., the common coin problem) is a cornerstone of randomized distributed computing. while a long line of research has sought scalable solutions, the asynchro">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/998" target="_blank">Balanced and Adaptively Secure Asynchronous Common Coin and Byzantine Agreement With Sub-Quadratic Communication</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Distributed common randomness generation (i.e., the common coin problem) is a cornerstone of randomized distributed computing. While a long line of research has sought scalable solutions, the asynchro</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="miraidon_minrank_identification_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="miraidon: minrank identification   we introduce $\textit{miraidon}$, a new family of minrank-based post-quantum signature schemes built from a novel zero-knowledge proof system. our primary construction, $\textit{miraidon-s}$, is a dig">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/997" target="_blank">Miraidon: MinRank Identification</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We introduce $\textit{Miraidon}$, a new family of MinRank-based post-quantum signature schemes built from a novel zero-knowledge proof system. Our primary construction, $\textit{Miraidon-S}$, is a dig</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="topologyhiding_computation_from_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="topology-hiding computation from key agreement in diameter-two graphs   topology-hiding computation (thc) enables a set of parties, communicating over an incomplete network, to execute a secure multiparty computation (mpc) protocol for securely computing a function, while">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/996" target="_blank">Topology-Hiding Computation From Key Agreement in Diameter-Two Graphs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Topology-hiding computation (THC) enables a set of parties, communicating over an incomplete network, to execute a secure multiparty computation (MPC) protocol for securely computing a function, while</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="on_local_invariants_2026" data-dirs="invariant,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="on local invariants for permutation equivalence   we give an efficiently computable invariant for the (signed) permutation code equivalence ((s)pce) problem we call the square class invariant, that was previously not recognised in coding theory. our">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/995" target="_blank">On Local Invariants for Permutation Equivalence</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We give an efficiently computable invariant for the (Signed) Permutation Code Equivalence ((S)PCE) problem we call the square class invariant, that was previously not recognised in coding theory. Our</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">不变量与子空间</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="superintelligence_survival_guide_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="super-intelligence survival guide: verification via proof-carrying output   the increasing deployment of large language models (llms) in high-stakes domains demands infrastructure to ensure trust in artificial intelligence (ai)-generated outputs and actions. users often strug">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/994" target="_blank">Super-intelligence Survival Guide: Verification via Proof-Carrying Output</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The increasing deployment of large language models (LLMs) in high-stakes domains demands infrastructure to ensure trust in artificial intelligence (AI)-generated outputs and actions. Users often strug</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="suppressing_hidden_extensionfield_2026" data-dirs="invariant"
+     data-year="2026" data-significance="medium"
+     data-search="suppressing hidden extension-field linearity in rank-metric cryptography via structural incompatibility   a prominent line of rank-metric code-based cryptography has long relied on highly structured algebraic code families, such as gabidulin codes, for their optimal rank-distance properties and efficient">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/992" target="_blank">Suppressing Hidden Extension-Field Linearity in Rank-Metric Cryptography via Structural Incompatibility</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A prominent line of rank-metric code-based cryptography has long relied on highly structured algebraic code families, such as Gabidulin codes, for their optimal rank-distance properties and efficient</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">不变量与子空间</span></div>
+</div>
+
+<div class="paper-card" data-id="ddyf_differential_dolevyao_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="ddyf: differential dolev-yao fuzzing of cryptographic protocols   symbolic formal verification of cryptographic protocols based on the dolev-yao (dy) attacker model---an active attacker with full network control and perfect cryptography---is well-established for fin">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/991" target="_blank">DDYF: Differential Dolev-Yao Fuzzing of Cryptographic Protocols</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Symbolic formal verification of cryptographic protocols based on the Dolev-Yao (DY) attacker model---an active attacker with full network control and perfect cryptography---is well-established for fin</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="singletrace_power_analysis_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="single-trace power analysis of less key generation   this paper presents a side-channel attack on the linear equivalence signature scheme (less) v2.0. less derives its security from the linear equivalence problem and was evaluated as a candidate during">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/990" target="_blank">Single-Trace Power Analysis of LESS Key Generation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper presents a side-channel attack on the Linear Equivalence Signature Scheme (LESS) v2.0. LESS derives its security from the Linear Equivalence Problem and was evaluated as a candidate during</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="maskaglia_a_new_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="maskaglia: a new, efficient approach to masked discrete gaussian sampling   discrete gaussian sampling is an important operation at the core of many lattice-based cryptosystems, which presents significant challenges from an implementation standpoint. in particular, it is diff">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/988" target="_blank">Maskaglia: A New, Efficient Approach to Masked Discrete Gaussian Sampling</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Discrete Gaussian sampling is an important operation at the core of many lattice-based cryptosystems, which presents significant challenges from an implementation standpoint. In particular, it is diff</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="impact_of_postquantum_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="impact of post-quantum signatures on innodb b+-trees and efficient batch signing   the transition to post-quantum cryptography (pqc) digital signatures poses an unexpected threat to the storage structure of relational databases. at the same security level, the aimer-192f signature r">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/987" target="_blank">Impact of Post-Quantum Signatures on InnoDB B+-Trees and Efficient Batch Signing</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The transition to post-quantum cryptography (PQC) digital signatures poses an unexpected threat to the storage structure of relational databases. At the same security level, the AIMer-192f signature r</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="veinocert_binding_an_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="veinocert: binding an object to an owner   we define a protocol by which we can recognize if a person is the owner of an object. the object can, for instance, be an official document such as a diploma. in our model, the object has an attached">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/986" target="_blank">VeinoCert: Binding an Object to an Owner</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We define a protocol by which we can recognize if a person is the owner of an object. The object can, for instance, be an official document such as a diploma. In our model, the object has an attached</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_new_insight_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a new insight into constructing cryptographic boolean functions via walsh spectral analysis   given that the walsh spectrum directly determines key cryptographic properties of boolean functions, the construction of such functions with desired spectral features has been a major research focus f">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/985" target="_blank">A New Insight into Constructing Cryptographic Boolean Functions via Walsh Spectral Analysis</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Given that the Walsh spectrum directly determines key cryptographic properties of Boolean functions, the construction of such functions with desired spectral features has been a major research focus f</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"

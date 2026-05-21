@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-05-21</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-05-21</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-05-21</h1>
+
+<blockquote>
+<p>自动生成于 2026-05-21 04:24</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 78 篇 → 启发式 58 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Quantum Circuit Implementation and Grover’s Search on the Lightweight Block Cipher KLEIN Family](https://eprint.iacr.org/2026/1007)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1007.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：量子计算的兴起对经典密码算法的安全性构成了根本性挑战，特别是Grover算法可能加速穷举密钥搜索。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究了轻量级分组密码KLEIN家族在量子环境下的安全性，通过构建其量子电路实现，并评估了Grover算法对其密钥搜索的加速效果。研究量化了KLEIN在量子攻击下的具体安全强度，并分析了所需量子资源。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为评估轻量级密码在后量子时代的安全性提供了具体案例和方法论，有助于设计抗量子攻击的未来密码系统。</p>
+
+<hr>
+
+<h3>2. [The XHash Family for ZK-Friendly Hash Functions](https://eprint.iacr.org/2023/1045)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2023/1045.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：零知识证明（ZKP）在认证、访问控制和区块链等现实应用中日益普及，而其底层哈希函数的效率和兼容性至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了XHash家族，这是一系列专为零知识证明优化的哈希函数。这些哈希函数旨在提供高效率和ZKP友好的特性，通过特定的设计选择来最小化证明生成和验证的开销，同时保持必要的密码学安全性。</p>
+
+<p>🎯 <strong>意义</strong>：XHash家族的提出有望显著提升零知识证明在实际应用中的性能和可用性，推动ZKP技术的进一步落地。</p>
+
+<hr>
+
+<h3>3. [Assessing Geometric Security of AES Neural Realizations: Linear-Time Key Recovery via Neural Leakage](https://eprint.iacr.org/2026/734)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/734.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着神经网络在密码学实现中的应用，评估其在侧信道攻击下的安全性变得尤为重要，特别是当密码算法被实现为神经网络时。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究了基于ReLU的神经网络实现的AES-128/192/256的安全性，通过“角和”构造方法。研究发现，即使这些实现对布尔输入是位精确的，也存在一种“神经泄露”，允许攻击者在线性时间内恢复密钥，揭示了这类实现潜在的几何安全漏洞。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了神经网络实现密码算法时可能存在的独特侧信道攻击风险，对未来安全地将密码学与机器学习结合提供了重要警示和研究方向。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/826" target="_blank">Efficient Implementation of ARIA on ARMv8 via Cryptographic Extensions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/826.pdf)</p>
+
+<blockquote>
+<p>本文研究了韩国国家标准ARIA分组密码在ARMv8架构上利用加密扩展指令进行高效实现的方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1001" target="_blank">Distributed Simon's Algorithm with Less Per-Node Qubit Overhead and Its Application to Cryptanalysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1001.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种节点量子比特开销更低的分布式Simon算法，并探讨了其在密码分析中的应用，以解决更大规模的问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/786" target="_blank">Integral Resistance and Degree Bounds for Complex Linear Layers: Application to PRINCE and Lower-Latency Alternatives</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/786.pdf)</p>
+
+<blockquote>
+<p>本文研究了复杂线性层的积分抗性及其度界，并将其应用于PRINCE及其低延迟替代方案，以增强对积分区分器的抵抗。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/949" target="_blank">Quantum Circuit Realization and Grover Cryptanalysis of the Hybrid ARX-SPN Cipher GFSPX</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/949.pdf)</p>
+
+<blockquote>
+<p>本文实现了混合ARX-SPN密码GFSPX的量子电路，并对其进行了Grover密码分析，以评估其在量子计算威胁下的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/930" target="_blank">Improved Quantum Attacks on Iterated Even-Mansour Ciphers with Classical Queries</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/930.pdf)</p>
+
+<blockquote>
+<p>本文提出了对迭代Even-Mansour密码的改进量子攻击方法，该方法结合了经典查询，以提高攻击效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/799" target="_blank">EQuADiSE: Efficient Quantum-safe Adaptive Distributed Symmetric-key Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/799.pdf)</p>
+
+<blockquote>
+<p>本文提出了EQuADiSE，一种高效的抗量子自适应分布式对称密钥加密方案，旨在实现阈值版本的对称认证加密。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/899" target="_blank">VCVio: Verified Cryptography in Lean via Oracle Effects and Handlers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/899.pdf)</p>
+
+<blockquote>
+<p>VCVio通过利用Oracle效应和处理器，在Lean中实现了经过验证的密码学，旨在平衡机械化密码证明的保证和表达能力。</p>
+</blockquote>
+
+<p><em>精选自 78 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
