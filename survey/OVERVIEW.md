@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 997 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1004 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (788)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (795)
 
 ## 算法设计
 
@@ -263,7 +263,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### 认证加密 (AEAD) (36 篇)
+### 认证加密 (AEAD) (37 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -279,6 +279,7 @@
 - 🟡 **2026** — EQuADiSE: Efficient Quantum-safe Adaptive Distributed Symmetric-key Encryption
 - 🟡 **2026** — Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers
 - 🟡 **2026** — SEFA: A Secure, Efficient, and Flexible Algorithm Design Strategy for Block Ciphers and Sponge Permutations
+- 🟡 **2026** — Comments on "Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor"
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -496,7 +497,7 @@
 
 ## 算法分析
 
-### 差分分析 (479 篇)
+### 差分分析 (483 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -915,6 +916,10 @@
 - 🟡 **2026** — Impact of Post-Quantum Signatures on InnoDB B+-Trees and Efficient Batch Signing
 - 🟡 **2026** — VeinoCert: Binding an Object to an Owner
 - 🟡 **2026** — A New Insight into Constructing Cryptographic Boolean Functions via Walsh Spectral Analysis
+- 🟡 **2026** — Two-Factor Authentication Can Harden Servers Against Offline Password Search
+- 🟡 **2026** — Towards formal verification and corrupted setup security for the SwissPost voting system
+- 🟡 **2026** — Symmetric Attribute-Based Encryption from Minimal Hardness Assumptions
+- 🟡 **2026** — Efficient Homomorphic String Search via TFHE
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1143,7 +1148,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (115 篇)
+### 中间相遇 (116 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -1249,6 +1254,7 @@
 - 🟡 **2026** — PQKryvos: Post-Quantum Secure E-Voting With Flexible Ballot Formats and Public Tally-Hiding
 - 🟡 **2026** — A Blockchain-Based Pre-Verification Access Control Scheme with Vector Commitments and Bulletproofs
 - 🟡 **2026** — Super-intelligence Survival Guide: Verification via Proof-Carrying Output
+- 🟡 **2026** — Sublinear Proofs over Polynomial Rings
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -1413,7 +1419,7 @@
 - 🔴 **2009** — Cube Attacks on Tweakable Black Box Polynomials [Trivium]
 - 🔴 **2000** — Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations [AES]
 
-### 不变量与子空间 (24 篇)
+### 不变量与子空间 (25 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
@@ -1436,6 +1442,7 @@
 - 🟡 **2026** — Revisiting Linear Subspace Trails in Poseidon2 and Neptune
 - 🟡 **2026** — On Local Invariants for Permutation Equivalence
 - 🟡 **2026** — Suppressing Hidden Extension-Field Linearity in Rank-Metric Cryptography via Structural Incompatibility
+- 🟡 **2026** — Sequence-Level Security for Active Weighted Signature Reconfiguration
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

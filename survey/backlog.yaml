@@ -1,38 +1,4 @@
 papers:
-- id: an_efficient_and_2026
-  title: An Efficient and Secure Boolean Function Evaluation Protocol
-  url: https://eprint.iacr.org/2024/1787
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - lightweight
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  - lightweight
-  summary: The secure evaluation of Boolean functions or  Secure Boolean Evaluation (SBE) is a fundamental component in this
-    area of research. SBE allows parties to jointly compute Boolean functions without expo
-  heuristic_score: 16
-  added_date: '2026-05-21'
-  authors: []
-- id: sealagg_a_lightweight_2026
-  title: 'SealAgg: A Lightweight Auditing Framework for One-Shot Secure Aggregation against Malicious Servers'
-  url: https://eprint.iacr.org/2026/869
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - lightweight
-  - LED
-  directions:
-  - lightweight
-  - meet_in_the_middle
-  summary: Trustworthy federated learning requires both update privacy and aggregate integrity. While secure aggregation protects
-    the confidentiality of client updates, it does not prevent a malicious server fro
-  heuristic_score: 16
-  added_date: '2026-05-21'
-  authors: []
 - id: signal_and_ready_2026
   title: 'Signal and Ready to MINGLE: In-Band Gossip for Key Transparency Split-View Detection in E2EE Messengers'
   url: https://eprint.iacr.org/2026/1010
@@ -46,7 +12,7 @@ papers:
   summary: 'End-to-end encrypted (E2EE) messengers such as Signal, WhatsApp and iMessage increasingly deploy Key Transparency
     (KT) to make malicious key substitution detectable. Yet KT only delivers its intended '
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: bolt_faster_snarks_2026
   title: 'Bolt: Faster SNARKs from Sketched Codes'
@@ -60,7 +26,7 @@ papers:
   summary: We introduce Bolt, a new Multilinear Polynomial Commitment Scheme (MLPCS) designed for high-performance SNARKs.
     Bolt is geared towards SNARKs for large computations, in which prover speed is paramount
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: superintelligence_survival_guide_2026
   title: 'Super-intelligence Survival Guide: Verification via Proof-Carrying Output'
@@ -75,7 +41,7 @@ papers:
   summary: The increasing deployment of large language models (LLMs) in high-stakes domains demands infrastructure to ensure
     trust in artificial intelligence (AI)-generated outputs and actions. Users often strug
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: ddyf_differential_dolevyao_2026
   title: 'DDYF: Differential Dolev-Yao Fuzzing of Cryptographic Protocols'
@@ -89,7 +55,7 @@ papers:
   summary: Symbolic formal verification of cryptographic protocols based on the Dolev-Yao (DY) attacker model---an active
     attacker with full network control and perfect cryptography---is well-established for fin
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: tensorswitch_nearly_optimal_2026
   title: 'TensorSwitch: Nearly Optimal Polynomial Commitments from Tensor Codes'
@@ -105,7 +71,7 @@ papers:
   summary: A polynomial commitment scheme (PCS) enables a prover to succinctly commit to a large polynomial and later generate
     evaluation proofs that can be efficiently verified. In recent years, PCSs have emerg
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: practical_subvector_commitments_2026
   title: Practical Subvector Commitments with Optimal Opening Complexity
@@ -119,7 +85,7 @@ papers:
   summary: We introduce a simple pairing-based vector commitment with subvector opening where, after a one-time preprocessing,
     the prover can open a subvector of size $\ell$ in linear time. Our focus is on pract
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: ligesis_distributionfriendly_polynomial_2026
   title: 'LigeSIS: Distribution-friendly Polynomial Commitment \\ Based on Error-correcting Code'
@@ -134,7 +100,7 @@ papers:
   summary: Polynomial commitment schemes (PCS) are a fundamental building block of modern proof systems. As proof system applications
     scale to increasingly large workloads, distributed PCS become essential for r
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: improved_rate_for_2026
   title: Improved Rate for Non-Malleable Codes and Time-Lock Puzzles
@@ -148,7 +114,7 @@ papers:
   summary: Non-malleable codes allow a sender to transmit a message to a receiver, while providing a ``best-possible'' integrity
     guarantee to ensure that no attacker---who cannot already decode the message---can
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: outsourced_private_set_2026
   title: Outsourced Private Set Intersection for Pairwise Analytics
@@ -163,7 +129,7 @@ papers:
   summary: This paper studies privacy-preserving data analytics in settings where multiple parties hold sensitive datasets
     and want to compute global statistics without revealing their data. We focus on computin
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: zkprover_noninteractive_zeroknowledge_2026
   title: 'ZK-ProVer: Non-Interactive Zero-Knowledge Certification for SAT-Based Program Verification'
@@ -180,7 +146,7 @@ papers:
   summary: Program verification ensures software correctness through formal methods but often incurs substantial computational
     overhead. In SAT-based verification, the verification task is reduced to satisfiabil
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: thunderbolt_a_formally_2026
   title: 'Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers'
@@ -198,7 +164,7 @@ papers:
   summary: We present Thunderbolt, an off-chain protocol that transfers Bitcoin UTXO ownership with seconds-scale latency,
     requires no channel graph, no routing, and no liquidity rebalancing, and lets the recipi
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: setup_protocols_for_2026
   title: Setup Protocols for Sender Anonymity
@@ -216,7 +182,7 @@ papers:
   summary: 'Anonymous communication is essential for secure and private interactions over public networks. Existing solutions
     that provide provable anonymity rely on the so-called simple I/O setting, where every '
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: beholder_signatures_2026
   title: Beholder Signatures
@@ -231,7 +197,7 @@ papers:
   summary: We introduce a new primitive, called beholder signatures, which, in some sense, are the opposite of blind signatures.
     In a beholder signature, one signs a commitment to a (potentially very long) messa
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: nondelegatable_commitments_2026
   title: Non-Delegatable Commitments
@@ -245,7 +211,7 @@ papers:
   summary: Cryptographic commitments allow a party to commit to a value such that it is infeasible to later open that commitment
     to a different value. Standard commitment schemes allow the committer to outsource
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: spacedeniable_proofs_2026
   title: Space-Deniable Proofs
@@ -260,7 +226,7 @@ papers:
   summary: We introduce and construct a new proof system called Non-interactive Arguments of Knowledge or Space (NArKoS),
     where a space bounded prover can convince a verifier they know a secret, while having acc
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: secure_twoparty_quantum_2026
   title: Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
@@ -276,7 +242,7 @@ papers:
   summary: In 1997, Lo proved that if one of the parties is malicious, it is not possible to achieve unconditional security
     in quantum bit-commitment (Phy. Rev. Lett, 1997) and hence in two-party quantum computa
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: verifiable_anomaly_and_2026
   title: Verifiable Anomaly and Similarity Detection Using Matrix Profile in Private Time-series
@@ -291,7 +257,7 @@ papers:
   summary: Analyzing time-series databases in a privacy-preserving manner has gained significant attention, especially when
     the data contains sensitive personal information such as medical records or spatio-temp
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: hybrid_poa_on_2026
   title: 'Hybrid PoA on Aztec: Proof of Asset Ownership over Public and Private Balances via Hierarchical Proof-Carrying Data'
@@ -306,7 +272,7 @@ papers:
   summary: Proof of Assets (PoA) protocols enable custodians to prove ownership of digital assets without revealing their
     account addresses or corresponding balances. While existing PoA protocols focused on eith
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: titan_efficient_polynomial_2026
   title: 'Titan: Efficient Polynomial Commitments from IOPs over Groups'
@@ -320,7 +286,7 @@ papers:
   summary: In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves
     commitment time of $O(n)$, evaluation time of $O(\sqrt{n})$ while the proof size an
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: polylogarithmic_proofs_for_2026
   title: Polylogarithmic Proofs for Multilinears over Binary Towers
@@ -335,7 +301,7 @@ papers:
   summary: The use of small fields has come to typify the design of modern, production-oriented SNARKs. In this work, we treat
     multilinear polynomial commitment over tiny fields. A tiny-field polynomial—in the n
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: revisiting_sumcheckbased_polynomial_2026
   title: Revisiting Sum-check-based Polynomial Commitment Schemes
@@ -350,7 +316,7 @@ papers:
   summary: The sum-check protocol serves as a fundamental building block in succinct arguments, yet its security guarantees
     are typically formalized in a manner intimately tied to the encompassing protocol, impe
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: nebula_efficient_readwrite_2026
   title: 'Nebula: Efficient read-write memory and switchboard circuits for folding schemes'
@@ -368,21 +334,36 @@ papers:
   summary: "A zero-knowledge virtual machine (zkVM) is a\r\nversatile, developer-friendly primitive that proves the correct\r\
     \nexecution of programs on a fixed machine architecture. A\r\nmajor bottleneck for these prot"
   heuristic_score: 11
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
-- id: ddrsse_duplicated_retrieval_2026
-  title: 'DDR-SSE: Duplicated Retrieval of Documents for System-wide Secure Searchable Symmetric Encryption'
-  url: https://eprint.iacr.org/2026/753
+- id: comments_on_serveraided_2026
+  title: Comments on "Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor"
+  url: https://eprint.iacr.org/2026/1015
   source: eprint
   venue: ePrint
   matched_keywords:
-  - PRESENT
+  - authenticated encryption
   directions:
-  - differential
-  summary: Searchable Symmetric Encryption (SSE) schemes enable efficient keyword searches over encrypted documents at the
-    cost of some leakage. An SSE scheme is said to be system-wide secure if it resists crypt
-  heuristic_score: 10
-  added_date: '2026-05-21'
+  - aead
+  summary: Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced  server-aided public key
+    authenticated encryption with keyword search (SA-PAEKS). In this short note, we give g
+  heuristic_score: 9
+  added_date: '2026-05-22'
+  authors: []
+- id: sequencelevel_security_for_2026
+  title: Sequence-Level Security for Active Weighted Signature Reconfiguration
+  url: https://eprint.iacr.org/2026/1013
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - invariant
+  - LED
+  directions:
+  - invariant
+  summary: Active weighted threshold signatures support dynamic changes to signer weights, thresholds, and committee membership.
+    We show that local validity of weighted update operations is not a compositional s
+  heuristic_score: 6
+  added_date: '2026-05-22'
   authors: []
 - id: on_local_invariants_2026
   title: On Local Invariants for Permutation Equivalence
@@ -398,7 +379,7 @@ papers:
   summary: 'We give an efficiently computable invariant for the (Signed) Permutation Code Equivalence ((S)PCE) problem we
     call the square class invariant, that was previously not recognised in coding theory. Our '
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: towards_zero_rotation_2026
   title: 'Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption'
@@ -412,7 +393,7 @@ papers:
   summary: Privacy-preserving deep learning addresses privacy concerns in Machine Learning as a Service (MLaaS) using Homomorphic
     Encryption (HE) for linear computations. Nevertheless, the high computational cos
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: a_simple_batched_2026
   title: A Simple Batched Threshold Encryption Scheme
@@ -426,37 +407,7 @@ papers:
   summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
     not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
   heuristic_score: 6
-  added_date: '2026-05-21'
-  authors: []
-- id: acts_attestations_of_2026
-  title: 'ACTS: Attestations of Contents in TLS Sessions'
-  url: https://eprint.iacr.org/2026/755
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - AES
-  - PRESENT
-  directions:
-  - differential
-  summary: 'An essential requirement for the large-scale adoption of Web3 is enabling users to benefit from their data even
-    within already deployed systems. This raises an important open question: how can existin'
-  heuristic_score: 6
-  added_date: '2026-05-21'
-  authors: []
-- id: glitchsnipe_toward_localized_2026
-  title: 'GlitchSnipe: Toward Localized Voltage Fault Attacks'
-  url: https://eprint.iacr.org/2026/752
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - AES
-  - LED
-  directions:
-  - differential
-  summary: Voltage glitching is one of the most prominent fault injection techniques due to its effectiveness and simplicity.
-    Although it is generally regarded as a spatially global fault method, in which the in
-  heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: multipath_papufs_generate_2026
   title: Multipath PA-PUFs generate all Boolean functions
@@ -470,7 +421,7 @@ papers:
   summary: In this paper, we propose a generalized model of Priority Arbiter-based Physical Unclonable Function (PA-PUF) with
     an arbitrary number of paths inside each switch. We first develop a mathematical mode
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: dy_unchained_now_2026
   title: 'DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios'
@@ -485,7 +436,7 @@ papers:
   summary: 'Cryptographic protocols are the cornerstone of Internet security, and any flaw in their design would have drastic
     effects. We can formally prove the absence of such flaws using a variety of automated '
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: fast_batch_matrix_2026
   title: Fast Batch Matrix Multiplication in Ciphertexts
@@ -499,7 +450,7 @@ papers:
   summary: 'Encrypted matrix multiplication (MM) is a fundamental primitive in privacy-preserving machine learning and encrypted
     data search, but it remains a significant performance bottleneck. Recently, Bae et '
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: agentcrypt_advancing_privacy_2026
   title: 'AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration'
@@ -515,7 +466,7 @@ papers:
   summary: As AI agents increasingly operate in real-world, multi-agent environments, ensuring reliable and context-aware
     privacy in agent communication is critical, especially to comply with evolving regulatory
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: on_efficient_computations_2026
   title: On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
@@ -529,7 +480,7 @@ papers:
   summary: Since its introduction, Solinas' window $\tau$-NAF algorithm has been a landmark scalar multiplication method for
     Koblitz curves over binary fields. However, extending comparable $\tau$-adic accelerat
   heuristic_score: 6
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: interleaving_stability_for_2026
   title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
@@ -543,58 +494,7 @@ papers:
   summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
     \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
   heuristic_score: 6
-  added_date: '2026-05-21'
-  authors: []
-- id: can_we_tolerate_2026
-  title: 'Can We Tolerate Small Side-Channel Leakages: The Role of Registers in Glitch-Stopping Circuits'
-  url: https://eprint.iacr.org/2026/1011
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - S-box
-  - AES
-  - LED
-  directions:
-  - sbox
-  summary: Research on cryptographic algorithms implemented in hardware and protected against side-channel attacks has advanced
-    rapidly in recent years. Generalized masking schemes, such as Threshold Implementat
-  heuristic_score: 5
-  added_date: '2026-05-21'
-  authors: []
-- id: willowfold_secure_aggregation_2026
-  title: 'WillowFold: Secure Aggregation with a Lightweight Committee'
-  url: https://eprint.iacr.org/2026/264
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - lightweight
-  - PRESENT
-  - LED
-  directions:
-  - milp_sat_cp
-  - lightweight
-  summary: 'Secure aggregation enables a server to learn the sum of private inputs of clients, while revealing no additional
-    information beyond the final sum. Recent work, Willow (CRYPTO 2025) achieves one--shot '
-  heuristic_score: 5
-  added_date: '2026-05-21'
-  authors: []
-- id: dynamic_group_timebased_2026
-  title: Dynamic Group Time-based One-time Passwords
-  url: https://eprint.iacr.org/2026/766
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  - milp_sat_cp
-  summary: Group time-based one-time passwords (GTOTP)  is a novel lightweight cryptographic primitive for achieving anonymous
-    client authentication, which enables the efficient generation of time-based one-time
-  heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: mathsfgrasp_secure_collaborative_2026
   title: '$\mathsf{GraSP}$: Secure Collaborative Graph Processing Made Scalable'
@@ -610,44 +510,7 @@ papers:
   summary: Secure graph processing enables computing on graphs while hiding the graph topology as well as the associated node/edge
     data. This facilitates collaborative analysis among multiple data owners, who ma
   heuristic_score: 5
-  added_date: '2026-05-21'
-  authors: []
-- id: formal_verification_integration_2026
-  title: Formal Verification, Integration and Physical Evaluation of Prime-Field Masking on Silicon
-  url: https://eprint.iacr.org/2026/809
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - block cipher
-  - Feistel
-  - tweakable
-  - lightweight
-  - PRESENT
-  - LED
-  directions:
-  - lightweight
-  - round_function
-  - tweakable
-  summary: The resistance of provably secure masked circuits to physical attacks depends in part on the underlying algebraic
-    group and recombination function. Masking over finite fields of odd prime order has be
-  heuristic_score: 5
-  added_date: '2026-05-21'
-  authors: []
-- id: a_reduced_set_2026
-  title: A reduced set of submatrices for a faster evaluation of the MDS property of a circulant matrix with entries that
-    are powers of two
-  url: https://eprint.iacr.org/2023/1521
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MDS
-  - PRESENT
-  directions:
-  - linear_diffusion
-  summary: In this paper a reduced set of submatrices for a faster evaluation of the MDS property of a circulant matrix, with
-    entries that are powers of two, is proposed. A proposition is made that under the con
-  heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: tricycle_private_transformer_2026
   title: 'Tricycle: Private Transformer Inference with Tricyclic Encodings'
@@ -663,7 +526,7 @@ papers:
   summary: The growing deployment of large language models (LLMs) in privacy-sensitive settings demands inference mechanisms
     that preserve data confidentiality. Homomorphic encryption (HE) offers a principled so
   heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: zinc_snarks_for_2026
   title: 'Zinc+: SNARKs for Polynomial Rings'
@@ -679,7 +542,7 @@ papers:
   summary: Nearly all succinct proof systems express computations as algebraic constraints over a finite field. Operations
     not native to this field, such as bitwise manipulation, modular arithmetic, and lattice-
   heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: thirdparty_moderation_of_2026
   title: Third-Party Moderation of Abuse Reports for End-to-End Encrypted Messaging with Multiple Moderators
@@ -693,7 +556,7 @@ papers:
   summary: Abuse reporting tools like message franking allow end-to-end encrypted (E2EE) messaging platforms to verify user-generated
     abuse reports as part of their platform content moderation policies. While th
   heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: abuse_reporting_and_2026
   title: Abuse Reporting and Enforcement for Third-Party Moderators in Private Messaging
@@ -708,7 +571,7 @@ papers:
   summary: We introduce new techniques for verifiable reporting of abusive messages in private messaging platforms. Our techniques
     are compatible with both metadata-hiding messaging systems, where the platform d
   heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: on_the_statistical_2026
   title: On the Statistical vs. Computational Security of the DKLs23 Multiparty ECDSA Protocol
@@ -723,7 +586,7 @@ papers:
   summary: The DKLs23 protocol (Doerner, Kondi, Lee and shelat, IEEE S&P '24) is a state-of-the-art multiparty ECDSA signing
     protocol. Due to its exceptional combination of simplicity, efficiency, and statistica
   heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []
 - id: youchoose_a_lightweight_2026
   title: 'YouChoose: A Lightweight Anonymous Proof of Account Ownership'
@@ -738,5 +601,5 @@ papers:
   summary: Anonymous proofs of account ownership (anonymous PAOs) enable a prover to convince a verifier that the prover owns
     a valid account at a server without revealing their identity. Importantly, no server-
   heuristic_score: 5
-  added_date: '2026-05-21'
+  added_date: '2026-05-22'
   authors: []

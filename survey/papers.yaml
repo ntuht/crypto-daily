@@ -17948,3 +17948,124 @@ papers:
   - PRESENT
   fetched_date: '2026-05-21'
   source: eprint
+- id: twofactor_authentication_can_2026
+  title: Two-Factor Authentication Can Harden Servers Against Offline Password Search
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/317
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We propose a novel notion of Two-Factor Authenticated Key Exchange (TFA-KE), defined in the universal composability
+    model (UC), which extends asymmetric PAKE (aPAKE) by a 2nd authentication factor in '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-22'
+  source: eprint
+- id: sequencelevel_security_for_2026
+  title: Sequence-Level Security for Active Weighted Signature Reconfiguration
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1013
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Active weighted threshold signatures support dynamic changes to signer weights, thresholds, and committee membership.
+    We show that local validity of weighted update operations is not a compositional s
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-05-22'
+  source: eprint
+- id: towards_formal_verification_2026
+  title: Towards formal verification and corrupted setup security for the SwissPost voting system
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1901
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Swiss Post voting system is one of the most advanced cryptographic voting protocols deployed for political
+    elections, offering end-to-end verifiability and vote privacy. It provides significant do
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-22'
+  source: eprint
+- id: symmetric_attributebased_encryption_2026
+  title: Symmetric Attribute-Based Encryption from Minimal Hardness Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1018
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a novel construction that applies the Ciphertext-Policy Attribute-Based Encryption paradigm in an original
+    symmetric framework, where also the encryptor needs to have enough attributes to b
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-22'
+  source: eprint
+- id: sublinear_proofs_over_2026
+  title: Sublinear Proofs over Polynomial Rings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/199
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Designing non-interactive proof systems, such as NIZK or SNARKs, for lattice-based protocols is a well-motivated
+    problem with numerous applications including aggregate signatures, verifiable random fu
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-22'
+  source: eprint
+- id: efficient_homomorphic_string_2026
+  title: Efficient Homomorphic String Search via TFHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1016
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a method for secure pattern matching over encrypted texts using TFHE. Our approach realizes a fully
+    secure binary search algorithm by leveraging two operational modes of integer-input TFHE.
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-22'
+  source: eprint
+- id: comments_on_serveraided_2026
+  title: Comments on "Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor"
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1015
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced  server-aided public key
+    authenticated encryption with keyword search (SA-PAEKS). In this short note, we give g
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-05-22'
+  source: eprint
