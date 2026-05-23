@@ -18069,3 +18069,129 @@ papers:
   - authenticated encryption
   fetched_date: '2026-05-22'
   source: eprint
+- id: threshold_batch_identitybased_2026
+  title: Threshold Batch Identity-based Encryption without Epochs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1254
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Suppose Alice holds a master secret key $\mathsf{sk}$ in an identity-based encryption scheme. For a given set of
+    identities $\mathcal{I}$, Alice wants to create a short pre-decryption key that lets an
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-23'
+  source: eprint
+- id: splitting_the_mayo_2026
+  title: 'Splitting the MAYO: A Component-Wise Fault Injection Attack on Randomized MAYO'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2163
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We present a practical component-wise fault injection attack against randomized MAYO implementations. The attack
+    targets the final addition of oil and vinegar components during signing. Depending on c
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-05-23'
+  source: eprint
+- id: informationtheoretic_multiserver_private_2026
+  title: Information-theoretic Multi-server Private Information Retrieval with Client Preprocessing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/780
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A private information retrieval (PIR) protocol allows a client to fetch any entry from single or multiple servers
+    who hold a public database (of size $n$) while ensuring no server learns any informati
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-23'
+  source: eprint
+- id: dake_bandwidthefficient_uake_2026
+  title: 'DAKE: Bandwidth-Efficient (U)AKE from Double-KEM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1755
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Bandwidth remains a major bottleneck in post-quantum cryptography, particularly for authenticated key exchange
+    (AKE) protocols. In this work, we present DAKE, a bandwidth-efficient AKE framework built
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-23'
+  source: eprint
+- id: codeword_masking_can_2026
+  title: Codeword Masking Can Be Harmful Under Replay Attacks on HQC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/071
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: HQC, selected by NIST for standardisation in 2025, was recently shown vulnerable to an attack that replays a decapsulation
+    to recover v - uy Maillet et al., (CRYPTO 2025), against which codeword maski
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-23'
+  source: eprint
+- id: on_the_formal_2026
+  title: On the Formal Verification of Authenticated Encryption of the MQTT Protocol
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1020
+  directions:
+  - aead
+  - meet_in_the_middle
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The Message Queuing Telemetry Transport (MQTT) protocol is highly preferable for Internet of Things (IoT) environments
+    due to its lightweight architecture, but routing sensitive medical data through a
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - authenticated encryption
+  - lightweight
+  - AES
+  fetched_date: '2026-05-23'
+  source: eprint
+- id: on_the_security_2026_3
+  title: On the Security of Public Key Authenticated Encryption with Keyword Search with Sender-independent Search Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1019
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Li et al. (IEEE Transactions on Dependable and Secure Computing 2026) proposed proxy-free public key authenticated
+    encryption with ciphertext update and keyword search (proxy-free PAUKS). In this shor
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-05-23'
+  source: eprint

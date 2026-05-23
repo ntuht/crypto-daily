@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1004 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1011 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (795)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (802)
 
 ## 算法设计
 
-### 轻量级密码综合 (116 篇)
+### 轻量级密码综合 (118 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -133,6 +133,8 @@
 - 🟡 **2026** — WillowFold: Secure Aggregation with a Lightweight Committee
 - 🟡 **2026** — Unified FPGA Design of Kyber and Dilithium with Provable Fault Tolerance
 - 🟡 **2026** — Quantum Circuit Implementation and Grover’s Search on the Lightweight Block Cipher KLEIN Family
+- 🟡 **2026** — Splitting the MAYO: A Component-Wise Fault Injection Attack on Randomized MAYO
+- 🟡 **2026** — On the Formal Verification of Authenticated Encryption of the MQTT Protocol
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -263,7 +265,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### 认证加密 (AEAD) (37 篇)
+### 认证加密 (AEAD) (39 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -280,6 +282,8 @@
 - 🟡 **2026** — Better Usability: Leakage-Resistant AEADs from Single-length Blockciphers
 - 🟡 **2026** — SEFA: A Secure, Efficient, and Flexible Algorithm Design Strategy for Block Ciphers and Sponge Permutations
 - 🟡 **2026** — Comments on "Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor"
+- 🟡 **2026** — On the Formal Verification of Authenticated Encryption of the MQTT Protocol
+- 🟡 **2026** — On the Security of Public Key Authenticated Encryption with Keyword Search with Sender-independent Search Complexity
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -497,7 +501,7 @@
 
 ## 算法分析
 
-### 差分分析 (483 篇)
+### 差分分析 (486 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -920,6 +924,9 @@
 - 🟡 **2026** — Towards formal verification and corrupted setup security for the SwissPost voting system
 - 🟡 **2026** — Symmetric Attribute-Based Encryption from Minimal Hardness Assumptions
 - 🟡 **2026** — Efficient Homomorphic String Search via TFHE
+- 🟡 **2026** — Threshold Batch Identity-based Encryption without Epochs
+- 🟡 **2026** — Information-theoretic Multi-server Private Information Retrieval with Client Preprocessing
+- 🟡 **2026** — DAKE: Bandwidth-Efficient (U)AKE from Double-KEM
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -983,7 +990,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (162 篇)
+### MILP/SAT/CP 建模技术 (163 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1113,6 +1120,7 @@
 - 🟡 **2026** — WillowFold: Secure Aggregation with a Lightweight Committee
 - 🟡 **2026** — A Blockchain-Based Pre-Verification Access Control Scheme with Vector Commitments and Bulletproofs
 - 🟡 **2026** — Modern Portfolio Theory in the Crypto-Wilderness
+- 🟡 **2026** — Codeword Masking Can Be Harmful Under Replay Attacks on HQC
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -1148,7 +1156,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (116 篇)
+### 中间相遇 (117 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -1255,6 +1263,7 @@
 - 🟡 **2026** — A Blockchain-Based Pre-Verification Access Control Scheme with Vector Commitments and Bulletproofs
 - 🟡 **2026** — Super-intelligence Survival Guide: Verification via Proof-Carrying Output
 - 🟡 **2026** — Sublinear Proofs over Polynomial Rings
+- 🟡 **2026** — On the Formal Verification of Authenticated Encryption of the MQTT Protocol
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
