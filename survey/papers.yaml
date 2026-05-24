@@ -18195,3 +18195,40 @@ papers:
   - authenticated encryption
   fetched_date: '2026-05-23'
   source: eprint
+- id: threshold_traitor_tracing_2026
+  title: 'Threshold Traitor Tracing Revisited: Insider Attacks and Multi-Traitor Tracing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/422
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold traitor tracing [Boneh et al., Crypto’24] enhances threshold decryption with anti-collusion guarantees
+    via a tracing mechanism. In this model, a set of colluders constructs a decryption box,
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-24'
+  source: eprint
+- id: pegasus_and_pegaring_2026
+  title: 'Pegasus and PegaRing: Efficient (Ring) Signatures from Sigma-Protocols for Power Residue PRFs with (Q)ROM Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1841
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this work, we present a novel commit-and-open $\Sigma$-protocol based on the power residue PRFs. Our construction
+    leverages the oblivious linear evaluation (OLE) correlations inherent in PRF evalua
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-24'
+  source: eprint
