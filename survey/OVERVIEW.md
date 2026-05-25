@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1013 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1025 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (804)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (816)
 
 ## 算法设计
 
-### 轻量级密码综合 (118 篇)
+### 轻量级密码综合 (119 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -135,6 +135,7 @@
 - 🟡 **2026** — Quantum Circuit Implementation and Grover’s Search on the Lightweight Block Cipher KLEIN Family
 - 🟡 **2026** — Splitting the MAYO: A Component-Wise Fault Injection Attack on Randomized MAYO
 - 🟡 **2026** — On the Formal Verification of Authenticated Encryption of the MQTT Protocol
+- 🟡 **2026** — Geometric Critical Point Screening: Clustering-Free Cryptanalytic Extraction of Neural Network Models
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -501,7 +502,7 @@
 
 ## 算法分析
 
-### 差分分析 (487 篇)
+### 差分分析 (495 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -928,6 +929,14 @@
 - 🟡 **2026** — Information-theoretic Multi-server Private Information Retrieval with Client Preprocessing
 - 🟡 **2026** — DAKE: Bandwidth-Efficient (U)AKE from Double-KEM
 - 🟡 **2026** — Threshold Traitor Tracing Revisited: Insider Attacks and Multi-Traitor Tracing
+- 🟡 **2026** — Computing Asymptotic Bounds for the Automated Coppersmith Method via Linear Programming
+- 🟡 **2026** — Honest Users Make Honest Mistakes: A Framework for Analysing eID Protocols
+- 🟡 **2026** — When Removing Reductions Goes Wrong: Auditing Reduction Placement in Production ML-DSA Implementations
+- 🟡 **2026** — Pushforward Problems and Applications to Isogeny-based Cryptography
+- 🟡 **2026** — Towards a Unified Memory-Less Framework for TCitH
+- 🟡 **2026** — Collusion-Resistant Asymmetric Anamorphic Encryption: Framework, Generic Construction, and Concrete Instantiations
+- 🟡 **2026** — Sparse Hermite Interpolation Method for Discrete-CKKS Functional Bootstrapping
+- 🟡 **2026** — Separating the Pebbling Model from the Random Oracle Model
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -991,7 +1000,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (163 篇)
+### MILP/SAT/CP 建模技术 (165 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1122,6 +1131,8 @@
 - 🟡 **2026** — A Blockchain-Based Pre-Verification Access Control Scheme with Vector Commitments and Bulletproofs
 - 🟡 **2026** — Modern Portfolio Theory in the Crypto-Wilderness
 - 🟡 **2026** — Codeword Masking Can Be Harmful Under Replay Attacks on HQC
+- 🟡 **2026** — Faster CoeffToSlot and SlotToCoeff for Sparsely Packed Ciphertexts with Application to CKKS Bootstrapping
+- 🟡 **2026** — Schnorr-like Proofs of Knowledge for Hidden Oil Subspaces in UOV
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -1278,7 +1289,7 @@
 - 🔴 **2008** — A New Meet-in-the-Middle Attack on AES [AES]
 - 🔴 **1977** — Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard [DES]
 
-### ML/LLM 辅助密码分析 (46 篇)
+### ML/LLM 辅助密码分析 (47 篇)
 
 - 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
 - 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
@@ -1315,6 +1326,7 @@
 - 🟡 **2026** — Zero-Knowledge Proofs for Gradient Boosted Decision Trees
 - 🟡 **2026** — Efficient and Privacy-preserving Outsourced Training of Decision Tree Models Based on (Leveled) Fully Homomorphic Encryption
 - 🟡 **2026** — Zephyr: GPU-Efficient Homomorphic Encryption for Privacy-Preserving Transformer Inference
+- 🟡 **2026** — A New Construction Method for More Efficient Quadratic One-Time Noisy Multi-Client Functional Encryption Schemes
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
 - 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
