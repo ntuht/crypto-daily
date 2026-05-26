@@ -1,18 +1,4 @@
 papers:
-- id: on_the_security_2026_3
-  title: On the Security of Public Key Authenticated Encryption with Keyword Search with Sender-independent Search Complexity
-  url: https://eprint.iacr.org/2026/1019
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - authenticated encryption
-  directions:
-  - aead
-  summary: Li et al. (IEEE Transactions on Dependable and Secure Computing 2026) proposed proxy-free public key authenticated
-    encryption with ciphertext update and keyword search (proxy-free PAUKS). In this shor
-  heuristic_score: 21
-  added_date: '2026-05-25'
-  authors: []
 - id: bolt_faster_snarks_2026
   title: 'Bolt: Faster SNARKs from Sketched Codes'
   url: https://eprint.iacr.org/2026/310
@@ -25,7 +11,7 @@ papers:
   summary: We introduce Bolt, a new Multilinear Polynomial Commitment Scheme (MLPCS) designed for high-performance SNARKs.
     Bolt is geared towards SNARKs for large computations, in which prover speed is paramount
   heuristic_score: 11
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: practical_subvector_commitments_2026
   title: Practical Subvector Commitments with Optimal Opening Complexity
@@ -39,7 +25,7 @@ papers:
   summary: We introduce a simple pairing-based vector commitment with subvector opening where, after a one-time preprocessing,
     the prover can open a subvector of size $\ell$ in linear time. Our focus is on pract
   heuristic_score: 11
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: secure_twoparty_quantum_2026
   title: Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
@@ -55,7 +41,7 @@ papers:
   summary: In 1997, Lo proved that if one of the parties is malicious, it is not possible to achieve unconditional security
     in quantum bit-commitment (Phy. Rev. Lett, 1997) and hence in two-party quantum computa
   heuristic_score: 11
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: titan_efficient_polynomial_2026
   title: 'Titan: Efficient Polynomial Commitments from IOPs over Groups'
@@ -69,22 +55,7 @@ papers:
   summary: In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves
     commitment time of $O(n)$, evaluation time of $O(\sqrt{n})$ while the proof size an
   heuristic_score: 11
-  added_date: '2026-05-25'
-  authors: []
-- id: polylogarithmic_proofs_for_2026
-  title: Polylogarithmic Proofs for Multilinears over Binary Towers
-  url: https://eprint.iacr.org/2024/504
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - LED
-  directions:
-  - meet_in_the_middle
-  summary: The use of small fields has come to typify the design of modern, production-oriented SNARKs. In this work, we treat
-    multilinear polynomial commitment over tiny fields. A tiny-field polynomial—in the n
-  heuristic_score: 11
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: revisiting_sumcheckbased_polynomial_2026
   title: Revisiting Sum-check-based Polynomial Commitment Schemes
@@ -99,7 +70,7 @@ papers:
   summary: The sum-check protocol serves as a fundamental building block in succinct arguments, yet its security guarantees
     are typically formalized in a manner intimately tied to the encompassing protocol, impe
   heuristic_score: 11
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: comments_on_serveraided_2026
   title: Comments on "Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor"
@@ -113,7 +84,7 @@ papers:
   summary: Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced  server-aided public key
     authenticated encryption with keyword search (SA-PAEKS). In this short note, we give g
   heuristic_score: 9
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: collusionresistant_asymmetric_anamorphic_2026
   title: 'Collusion-Resistant Asymmetric Anamorphic Encryption: Framework, Generic Construction, and Concrete Instantiations'
@@ -127,7 +98,7 @@ papers:
   summary: Anamorphic encryption introduced by Persiano et al. (Eurocrypt'22) enables covert communication through innocent-looking
     ciphertexts, even under strong censorship where a dictator has the power to com
   heuristic_score: 6
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: sequencelevel_security_for_2026
   title: Sequence-Level Security for Active Weighted Signature Reconfiguration
@@ -142,7 +113,7 @@ papers:
   summary: Active weighted threshold signatures support dynamic changes to signer weights, thresholds, and committee membership.
     We show that local validity of weighted update operations is not a compositional s
   heuristic_score: 6
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: a_simple_batched_2026
   title: A Simple Batched Threshold Encryption Scheme
@@ -156,7 +127,7 @@ papers:
   summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
     not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
   heuristic_score: 6
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: on_efficient_computations_2026
   title: On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
@@ -170,7 +141,7 @@ papers:
   summary: Since its introduction, Solinas' window $\tau$-NAF algorithm has been a landmark scalar multiplication method for
     Koblitz curves over binary fields. However, extending comparable $\tau$-adic accelerat
   heuristic_score: 6
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: interleaving_stability_for_2026
   title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
@@ -184,38 +155,7 @@ papers:
   summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
     \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
   heuristic_score: 6
-  added_date: '2026-05-25'
-  authors: []
-- id: zinc_snarks_for_2026
-  title: 'Zinc+: SNARKs for Polynomial Rings'
-  url: https://eprint.iacr.org/2026/855
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MDS
-  - lightweight
-  directions:
-  - linear_diffusion
-  - lightweight
-  summary: Nearly all succinct proof systems express computations as algebraic constraints over a finite field. Operations
-    not native to this field, such as bitwise manipulation, modular arithmetic, and lattice-
-  heuristic_score: 5
-  added_date: '2026-05-25'
-  authors: []
-- id: abuse_reporting_and_2026
-  title: Abuse Reporting and Enforcement for Third-Party Moderators in Private Messaging
-  url: https://eprint.iacr.org/2026/882
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  summary: We introduce new techniques for verifiable reporting of abusive messages in private messaging platforms. Our techniques
-    are compatible with both metadata-hiding messaging systems, where the platform d
-  heuristic_score: 5
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
 - id: on_the_statistical_2026
   title: On the Statistical vs. Computational Security of the DKLs23 Multiparty ECDSA Protocol
@@ -230,20 +170,5 @@ papers:
   summary: The DKLs23 protocol (Doerner, Kondi, Lee and shelat, IEEE S&P '24) is a state-of-the-art multiparty ECDSA signing
     protocol. Due to its exceptional combination of simplicity, efficiency, and statistica
   heuristic_score: 5
-  added_date: '2026-05-25'
-  authors: []
-- id: youchoose_a_lightweight_2026
-  title: 'YouChoose: A Lightweight Anonymous Proof of Account Ownership'
-  url: https://eprint.iacr.org/2024/029
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  summary: Anonymous proofs of account ownership (anonymous PAOs) enable a prover to convince a verifier that the prover owns
-    a valid account at a server without revealing their identity. Importantly, no server-
-  heuristic_score: 5
-  added_date: '2026-05-25'
+  added_date: '2026-05-26'
   authors: []
