@@ -1,32 +1,4 @@
 papers:
-- id: bolt_faster_snarks_2026
-  title: 'Bolt: Faster SNARKs from Sketched Codes'
-  url: https://eprint.iacr.org/2026/310
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: We introduce Bolt, a new Multilinear Polynomial Commitment Scheme (MLPCS) designed for high-performance SNARKs.
-    Bolt is geared towards SNARKs for large computations, in which prover speed is paramount
-  heuristic_score: 11
-  added_date: '2026-05-26'
-  authors: []
-- id: practical_subvector_commitments_2026
-  title: Practical Subvector Commitments with Optimal Opening Complexity
-  url: https://eprint.iacr.org/2026/118
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: We introduce a simple pairing-based vector commitment with subvector opening where, after a one-time preprocessing,
-    the prover can open a subvector of size $\ell$ in linear time. Our focus is on pract
-  heuristic_score: 11
-  added_date: '2026-05-26'
-  authors: []
 - id: secure_twoparty_quantum_2026
   title: Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
   url: https://eprint.iacr.org/2026/883
@@ -41,7 +13,7 @@ papers:
   summary: In 1997, Lo proved that if one of the parties is malicious, it is not possible to achieve unconditional security
     in quantum bit-commitment (Phy. Rev. Lett, 1997) and hence in two-party quantum computa
   heuristic_score: 11
-  added_date: '2026-05-26'
+  added_date: '2026-05-27'
   authors: []
 - id: titan_efficient_polynomial_2026
   title: 'Titan: Efficient Polynomial Commitments from IOPs over Groups'
@@ -55,7 +27,7 @@ papers:
   summary: In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves
     commitment time of $O(n)$, evaluation time of $O(\sqrt{n})$ while the proof size an
   heuristic_score: 11
-  added_date: '2026-05-26'
+  added_date: '2026-05-27'
   authors: []
 - id: revisiting_sumcheckbased_polynomial_2026
   title: Revisiting Sum-check-based Polynomial Commitment Schemes
@@ -70,64 +42,21 @@ papers:
   summary: The sum-check protocol serves as a fundamental building block in succinct arguments, yet its security guarantees
     are typically formalized in a manner intimately tied to the encompassing protocol, impe
   heuristic_score: 11
-  added_date: '2026-05-26'
+  added_date: '2026-05-27'
   authors: []
-- id: comments_on_serveraided_2026
-  title: Comments on "Server-Aided Public Key Authenticated Searchable Encryption With Constant Ciphertext and Constant Trapdoor"
-  url: https://eprint.iacr.org/2026/1015
+- id: safe_and_secure_2026
+  title: 'Safe and Secure Autonomy by Machine Learning Techniques: A Systematic Literature Review'
+  url: https://eprint.iacr.org/2026/1043
   source: eprint
   venue: ePrint
   matched_keywords:
-  - authenticated encryption
+  - machine learning
   directions:
-  - aead
-  summary: Cheng and Meng (IEEE Transactions on Information Forensics and Security 2024) introduced  server-aided public key
-    authenticated encryption with keyword search (SA-PAEKS). In this short note, we give g
-  heuristic_score: 9
-  added_date: '2026-05-26'
-  authors: []
-- id: collusionresistant_asymmetric_anamorphic_2026
-  title: 'Collusion-Resistant Asymmetric Anamorphic Encryption: Framework, Generic Construction, and Concrete Instantiations'
-  url: https://eprint.iacr.org/2026/1028
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - LED
-  directions:
-  - differential
-  summary: Anamorphic encryption introduced by Persiano et al. (Eurocrypt'22) enables covert communication through innocent-looking
-    ciphertexts, even under strong censorship where a dictator has the power to com
+  - ml_aided
+  summary: This systematic literature review investigates recent advancements in machine learning techniques aimed at ensuring
+    safety and security in autonomous systems. By analyzing 129 scholarly articles publi
   heuristic_score: 6
-  added_date: '2026-05-26'
-  authors: []
-- id: sequencelevel_security_for_2026
-  title: Sequence-Level Security for Active Weighted Signature Reconfiguration
-  url: https://eprint.iacr.org/2026/1013
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  - LED
-  directions:
-  - invariant
-  summary: Active weighted threshold signatures support dynamic changes to signer weights, thresholds, and committee membership.
-    We show that local validity of weighted update operations is not a compositional s
-  heuristic_score: 6
-  added_date: '2026-05-26'
-  authors: []
-- id: a_simple_batched_2026
-  title: A Simple Batched Threshold Encryption Scheme
-  url: https://eprint.iacr.org/2026/760
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  directions:
-  - milp_sat_cp
-  summary: In this note, we construct a simple batched threshold encryption scheme that satisfies censorship resistance, does
-    not suffer from epoch restrictions, and has quasi-linear decryption complexity $O(B\l
-  heuristic_score: 6
-  added_date: '2026-05-26'
+  added_date: '2026-05-27'
   authors: []
 - id: on_efficient_computations_2026
   title: On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
@@ -141,7 +70,7 @@ papers:
   summary: Since its introduction, Solinas' window $\tau$-NAF algorithm has been a landmark scalar multiplication method for
     Koblitz curves over binary fields. However, extending comparable $\tau$-adic accelerat
   heuristic_score: 6
-  added_date: '2026-05-26'
+  added_date: '2026-05-27'
   authors: []
 - id: interleaving_stability_for_2026
   title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
@@ -155,20 +84,5 @@ papers:
   summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
     \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
   heuristic_score: 6
-  added_date: '2026-05-26'
-  authors: []
-- id: on_the_statistical_2026
-  title: On the Statistical vs. Computational Security of the DKLs23 Multiparty ECDSA Protocol
-  url: https://eprint.iacr.org/2026/929
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  summary: The DKLs23 protocol (Doerner, Kondi, Lee and shelat, IEEE S&P '24) is a state-of-the-art multiparty ECDSA signing
-    protocol. Due to its exceptional combination of simplicity, efficiency, and statistica
-  heuristic_score: 5
-  added_date: '2026-05-26'
+  added_date: '2026-05-27'
   authors: []

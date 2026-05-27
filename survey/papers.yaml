@@ -18596,3 +18596,233 @@ papers:
   - PRESENT
   fetched_date: '2026-05-26'
   source: eprint
+- id: nonadaptive_cryptanalytic_timespace_2026
+  title: Non-Adaptive Cryptanalytic Time-Space Lower Bounds via a Shearer-like Inequality for Permutations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/783
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The power of adaptivity in algorithms has been intensively studied in diverse areas of theoretical computer science.
+    In this paper, we obtain a number of sharp lower bound results which show that adap
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: hypershield_protecting_the_2026
+  title: 'HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without
+    Masking'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/081
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Post-quantum secure digital signatures based on the MPC-in-the-Head (MPCitH) paradigm, a zero-knowledge (ZK) proof-based
+    construction, are becoming increasingly popular due to their small public key s
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: indcca_lattice_threshold_2026
+  title: IND-CCA Lattice Threshold KEM under 30 KiB
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/021
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At Asiacrypt'25, Lapiha and Prest proposed a lattice-based IND-CCA threshold key-encapsulation mechanism (TKEM)
+    obtained from a threshold identity-based encryption (TIBE) and a signature scheme. Their
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: laurent_polynomialbased_linear_2026
+  title: Laurent Polynomial-Based Linear Transformations for Improved Functional Bootstrapping
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/957
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Following Gentry's seminal work (STOC 2009), Fully Homomorphic Encryption (FHE) has made significant advancements
+    and can even evaluate functions in the bootstrapping process, called functional bootst
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: new_quantum_circuits_2026
+  title: 'New Quantum Circuits for ECDLP: Breaking Prime Elliptic Curve Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/106
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper improves quantum circuits for realizing Shor's algorithm on elliptic curves. We present optimized quantum
+    point addition circuits that focus on reducing circuit depth at the cost of using m
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: silent_threshold_encryption_2026
+  title: Silent Threshold Encryption with One-Shot Adaptive Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1384
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Threshold encryption enables a sender to encrypt a message towards $n$ recipients, such that any $t+1$ parties\
+    \ can decrypt the message, whereas any subset of size $t$ cannot.\r\nSilent threshold encrypt"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: roundoptimal_subversionresilient_uc_2026
+  title: Round-Optimal Subversion-Resilient UC PAKE from Malleable Trapdoor Smooth Projective Hash Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1047
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Password-Authenticated Key Exchange (PAKE) allows two parties to establish a common high-entropy secret from a
+    possibly low-entropy pre-shared secret such as a password. In this paper, we revisit the '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: aware_a_noninteractive_2026
+  title: 'AWARE: A Non-Interactive Anonymous Whistleblowing System against Recipient Corruption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1046
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymous whistleblowing systems allow insiders to report organizational misconduct while preserving confidentiality
+    and anonymity. Existing systems often use Tor-based submission and encryption under
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: ciphertextupdatable_attributebased_and_2026
+  title: Ciphertext-Updatable Attribute-Based and Predicate Encryption from Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1045
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a novel variant of attribute-based encryption (ABE) and predicate encryption (PE) which supports ciphertext
+    updates, called ciphertext-updatable ABE (CU-ABE) and PE (CU-PE). Such a feature '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: safe_and_secure_2026
+  title: 'Safe and Secure Autonomy by Machine Learning Techniques: A Systematic Literature Review'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1043
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: This systematic literature review investigates recent advancements in machine learning techniques aimed at ensuring
+    safety and security in autonomous systems. By analyzing 129 scholarly articles publi
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: doubly_aggregatable_signatures_2026
+  title: Doubly Aggregatable Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1042
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-signatures allow many signers to jointly generate a single (short) signature on a message. In this context,
+    we introduce doubly aggregatable signatures, a new primitive that consists of two sets
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: conan_a_structureaware_2026
+  title: 'CoNAN: A Structure-Aware Framework for Lattice Cryptanalysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1041
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: "The security of structured lattice-based schemes is typically evaluated through the estimated cost of the best\
+    \ known lattice attacks, which in turn guides practical parameter selection.\r\n\r\nHowever, ex"
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - PRESENT
+  fetched_date: '2026-05-27'
+  source: eprint
+- id: classical_and_quantum_2026
+  title: Classical and Quantum Full Plaintext Recovery for Low-Round Feistel-Type Designs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1040
+  directions:
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: "The Feistel (Luby-Rackoff) structure underlies numerous block-cipher and\r\nmode-of-operation designs, whose security\
+    \ is traditionally assessed via\r\nindistinguishability. For low-round Feistel construct"
+  status: pending_review
+  matched_keywords:
+  - Feistel
+  - SIMON
+  fetched_date: '2026-05-27'
+  source: eprint
