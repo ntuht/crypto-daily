@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-05-26 04:15</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-05-27 04:38</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1033</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1046</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,14 +35,14 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1033</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1046</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">121</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">55</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">56</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">39</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">33</span></div>
-  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">29</span></div>
+  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">30</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">26</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">23</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">20</span></div>
@@ -51,13 +51,13 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">497</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">506</span></div>
   <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">168</span></div>
   <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">119</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">47</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">48</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">35</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">30</span></div>
-  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">29</span></div>
+  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">30</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">26</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">17</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1033 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1046 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -11030,6 +11030,185 @@ T</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">In response to the National Institute of Standards and Technology (NIST)&#x27;s 2024 call for wider variants of the Advanced Encryption Standard (AES), this paper presents the first FPGA-based hardware eva</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="nonadaptive_cryptanalytic_timespace_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="non-adaptive cryptanalytic time-space lower bounds via a shearer-like inequality for permutations   the power of adaptivity in algorithms has been intensively studied in diverse areas of theoretical computer science. in this paper, we obtain a number of sharp lower bound results which show that adap">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/783" target="_blank">Non-Adaptive Cryptanalytic Time-Space Lower Bounds via a Shearer-like Inequality for Permutations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The power of adaptivity in algorithms has been intensively studied in diverse areas of theoretical computer science. In this paper, we obtain a number of sharp lower bound results which show that adap</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="hypershield_protecting_the_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="hypershield: protecting the hypercube mpc-in-the-head framework against differential probing adversaries without masking   post-quantum secure digital signatures based on the mpc-in-the-head (mpcith) paradigm, a zero-knowledge (zk) proof-based construction, are becoming increasingly popular due to their small public key s">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/081" target="_blank">HYPERSHIELD: Protecting the Hypercube MPC-in-the-Head Framework Against Differential Probing Adversaries without Masking</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Post-quantum secure digital signatures based on the MPC-in-the-Head (MPCitH) paradigm, a zero-knowledge (ZK) proof-based construction, are becoming increasingly popular due to their small public key s</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="indcca_lattice_threshold_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="ind-cca lattice threshold kem under 30 kib   at asiacrypt&#x27;25, lapiha and prest proposed a lattice-based ind-cca threshold key-encapsulation mechanism (tkem) obtained from a threshold identity-based encryption (tibe) and a signature scheme. their">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/021" target="_blank">IND-CCA Lattice Threshold KEM under 30 KiB</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">At Asiacrypt&#x27;25, Lapiha and Prest proposed a lattice-based IND-CCA threshold key-encapsulation mechanism (TKEM) obtained from a threshold identity-based encryption (TIBE) and a signature scheme. Their</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="laurent_polynomialbased_linear_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="laurent polynomial-based linear transformations for improved functional bootstrapping   following gentry&#x27;s seminal work (stoc 2009), fully homomorphic encryption (fhe) has made significant advancements and can even evaluate functions in the bootstrapping process, called functional bootst">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/957" target="_blank">Laurent Polynomial-Based Linear Transformations for Improved Functional Bootstrapping</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Following Gentry&#x27;s seminal work (STOC 2009), Fully Homomorphic Encryption (FHE) has made significant advancements and can even evaluate functions in the bootstrapping process, called functional bootst</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="new_quantum_circuits_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="new quantum circuits for ecdlp: breaking prime elliptic curve cryptography   this paper improves quantum circuits for realizing shor&#x27;s algorithm on elliptic curves. we present optimized quantum point addition circuits that focus on reducing circuit depth at the cost of using m">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/106" target="_blank">New Quantum Circuits for ECDLP: Breaking Prime Elliptic Curve Cryptography</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper improves quantum circuits for realizing Shor&#x27;s algorithm on elliptic curves. We present optimized quantum point addition circuits that focus on reducing circuit depth at the cost of using m</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="silent_threshold_encryption_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="silent threshold encryption with one-shot adaptive security   threshold encryption enables a sender to encrypt a message towards $n$ recipients, such that any $t+1$ parties can decrypt the message, whereas any subset of size $t$ cannot.
+silent threshold encrypt">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1384" target="_blank">Silent Threshold Encryption with One-Shot Adaptive Security</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Threshold encryption enables a sender to encrypt a message towards $n$ recipients, such that any $t+1$ parties can decrypt the message, whereas any subset of size $t$ cannot.
+Silent threshold encrypt</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="roundoptimal_subversionresilient_uc_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="round-optimal subversion-resilient uc pake from malleable trapdoor smooth projective hash functions   password-authenticated key exchange (pake) allows two parties to establish a common high-entropy secret from a possibly low-entropy pre-shared secret such as a password. in this paper, we revisit the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1047" target="_blank">Round-Optimal Subversion-Resilient UC PAKE from Malleable Trapdoor Smooth Projective Hash Functions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Password-Authenticated Key Exchange (PAKE) allows two parties to establish a common high-entropy secret from a possibly low-entropy pre-shared secret such as a password. In this paper, we revisit the</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="aware_a_noninteractive_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="aware: a non-interactive anonymous whistleblowing system against recipient corruption   anonymous whistleblowing systems allow insiders to report organizational misconduct while preserving confidentiality and anonymity. existing systems often use tor-based submission and encryption under">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1046" target="_blank">AWARE: A Non-Interactive Anonymous Whistleblowing System against Recipient Corruption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Anonymous whistleblowing systems allow insiders to report organizational misconduct while preserving confidentiality and anonymity. Existing systems often use Tor-based submission and encryption under</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="ciphertextupdatable_attributebased_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="ciphertext-updatable attribute-based and predicate encryption from lattices   we present a novel variant of attribute-based encryption (abe) and predicate encryption (pe) which supports ciphertext updates, called ciphertext-updatable abe (cu-abe) and pe (cu-pe). such a feature">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1045" target="_blank">Ciphertext-Updatable Attribute-Based and Predicate Encryption from Lattices</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a novel variant of attribute-based encryption (ABE) and predicate encryption (PE) which supports ciphertext updates, called ciphertext-updatable ABE (CU-ABE) and PE (CU-PE). Such a feature</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="safe_and_secure_2026" data-dirs="ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="safe and secure autonomy by machine learning techniques: a systematic literature review   this systematic literature review investigates recent advancements in machine learning techniques aimed at ensuring safety and security in autonomous systems. by analyzing 129 scholarly articles publi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1043" target="_blank">Safe and Secure Autonomy by Machine Learning Techniques: A Systematic Literature Review</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This systematic literature review investigates recent advancements in machine learning techniques aimed at ensuring safety and security in autonomous systems. By analyzing 129 scholarly articles publi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="doubly_aggregatable_signatures_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="doubly aggregatable signatures   multi-signatures allow many signers to jointly generate a single (short) signature on a message. in this context, we introduce doubly aggregatable signatures, a new primitive that consists of two sets">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1042" target="_blank">Doubly Aggregatable Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multi-signatures allow many signers to jointly generate a single (short) signature on a message. In this context, we introduce doubly aggregatable signatures, a new primitive that consists of two sets</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="conan_a_structureaware_2026" data-dirs="algebraic"
+     data-year="2026" data-significance="medium"
+     data-search="conan: a structure-aware framework for lattice cryptanalysis   the security of structured lattice-based schemes is typically evaluated through the estimated cost of the best known lattice attacks, which in turn guides practical parameter selection.
+
+however, ex">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1041" target="_blank">CoNAN: A Structure-Aware Framework for Lattice Cryptanalysis</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The security of structured lattice-based schemes is typically evaluated through the estimated cost of the best known lattice attacks, which in turn guides practical parameter selection.
+
+However, ex</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">代数攻击</span></div>
+</div>
+
+<div class="paper-card" data-id="classical_and_quantum_2026" data-dirs="round_function"
+     data-year="2026" data-significance="medium"
+     data-search="classical and quantum full plaintext recovery for low-round feistel-type designs   the feistel (luby-rackoff) structure underlies numerous block-cipher and
+mode-of-operation designs, whose security is traditionally assessed via
+indistinguishability. for low-round feistel construct">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1040" target="_blank">Classical and Quantum Full Plaintext Recovery for Low-Round Feistel-Type Designs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Feistel (Luby-Rackoff) structure underlies numerous block-cipher and
+mode-of-operation designs, whose security is traditionally assessed via
+indistinguishability. For low-round Feistel construct</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轮函数结构</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
