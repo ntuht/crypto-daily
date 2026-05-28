@@ -1,77 +1,4 @@
 papers:
-- id: secure_twoparty_quantum_2026
-  title: Secure Two-Party Quantum Computation with Complete Fairness without Trusted Third Party
-  url: https://eprint.iacr.org/2026/883
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - permutation
-  directions:
-  - meet_in_the_middle
-  - permutation_layer
-  summary: In 1997, Lo proved that if one of the parties is malicious, it is not possible to achieve unconditional security
-    in quantum bit-commitment (Phy. Rev. Lett, 1997) and hence in two-party quantum computa
-  heuristic_score: 11
-  added_date: '2026-05-27'
-  authors: []
-- id: titan_efficient_polynomial_2026
-  title: 'Titan: Efficient Polynomial Commitments from IOPs over Groups'
-  url: https://eprint.iacr.org/2026/908
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: In this paper, we propose Titan, an efficient polynomial commitment scheme (PCS) with transparent setup. It achieves
-    commitment time of $O(n)$, evaluation time of $O(\sqrt{n})$ while the proof size an
-  heuristic_score: 11
-  added_date: '2026-05-27'
-  authors: []
-- id: revisiting_sumcheckbased_polynomial_2026
-  title: Revisiting Sum-check-based Polynomial Commitment Schemes
-  url: https://eprint.iacr.org/2025/2249
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - LED
-  directions:
-  - meet_in_the_middle
-  summary: The sum-check protocol serves as a fundamental building block in succinct arguments, yet its security guarantees
-    are typically formalized in a manner intimately tied to the encompassing protocol, impe
-  heuristic_score: 11
-  added_date: '2026-05-27'
-  authors: []
-- id: safe_and_secure_2026
-  title: 'Safe and Secure Autonomy by Machine Learning Techniques: A Systematic Literature Review'
-  url: https://eprint.iacr.org/2026/1043
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  directions:
-  - ml_aided
-  summary: This systematic literature review investigates recent advancements in machine learning techniques aimed at ensuring
-    safety and security in autonomous systems. By analyzing 129 scholarly articles publi
-  heuristic_score: 6
-  added_date: '2026-05-27'
-  authors: []
-- id: on_efficient_computations_2026
-  title: On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
-  url: https://eprint.iacr.org/2024/1906
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  directions:
-  - invariant
-  summary: Since its introduction, Solinas' window $\tau$-NAF algorithm has been a landmark scalar multiplication method for
-    Koblitz curves over binary fields. However, extending comparable $\tau$-adic accelerat
-  heuristic_score: 6
-  added_date: '2026-05-27'
-  authors: []
 - id: interleaving_stability_for_2026
   title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
   url: https://eprint.iacr.org/2026/891
@@ -84,5 +11,5 @@ papers:
   summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
     \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
   heuristic_score: 6
-  added_date: '2026-05-27'
+  added_date: '2026-05-28'
   authors: []

@@ -18826,3 +18826,151 @@ papers:
   - SIMON
   fetched_date: '2026-05-27'
   source: eprint
+- id: guessanddetermine_rebound_revisited_2026
+  title: 'Guess-and-Determine Rebound Revisited: Full Quantum Collision Attack on AES-256 in DM Hash Mode'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1050
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At CRYPTO 2025, Qin et al. introduced the guess-and-determine (GD) rebound attack, which integrates the   guess-and-determine
+    approach by Bouillaguet, Derbez, and Fouque and the rebound attack by Mend
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: neo_and_superneo_2026
+  title: 'Neo and SuperNeo: Post-quantum folding with pay-per-bit costs over small fields'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/242
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We construct the first folding scheme that simultaneously achieves six desirable properties: plausible post-quantum
+    security, pay-per-bit commitment costs, field-native arithmetic (the sum-check and n'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: on_the_simulationextractability_2026
+  title: On the Simulation-Extractability of Proof-Carrying Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2037
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Proof-carrying data (PCD) is a powerful paradigm for verifying distributed computations. Each node in the computation
+    produces a proof that can be checked efficiently, regardless of how complex the ov
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - LED
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: fully_succinct_arguments_2026
+  title: Fully Succinct Arguments over the Integers from First Principles
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1548
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We construct succinct arguments of knowledge for computations over the ring of integers $\mathbb{Z}$ ($\mathbb{Z}$NARKs).
+    Our motivation stems both from the theoretical challenge of developing general
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: lightweight_sorting_in_2026
+  title: Lightweight Sorting in Approximate Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1150
+  directions:
+  - lightweight
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: "Sorting encrypted values is an open research problem that plays a crucial role in the broader objective of providing\
+    \ efficient and practical privacy-preserving online services. \r\nThe current state of "
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - lightweight
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: introducing_the_alf_2026
+  title: 'Introducing the ALF family: AES-NI-based length- and format-preserving encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2148
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'This paper introduces the ALF cipher family, designed for format-preserving encryption. The key strategy is to
+    leverage AES-NI instructions to achieve a high software performance while also providing '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - AES
+  - LED
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: full_key_recovery_2026
+  title: 'Full Key Recovery of Masked PRESENT on an Out-of-Order RISC-V Processor: A First Reported Case Study'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1052
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Masking-based countermeasures such as Threshold Implementations and Probe-Isolating Non-Interference (PINI) are
+    commonly assumed to protect cryptographic software against side-channel leakage by maint
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-05-28'
+  source: eprint
+- id: decomposition_of_the_2026
+  title: Decomposition of the Ate Pairing and its Relation to Generalized Pairing Inversion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1049
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "In this note, we study decomposition of the Ate pairing on certain elliptic curves defined over finite fields.\r\
+    \nAs an application, we reduce a generalized pairing inversion to root findings of an elem"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-05-28'
+  source: eprint
