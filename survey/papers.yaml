@@ -1110,7 +1110,7 @@ papers:
   authors:
   - Michael Luby
   - Charles Rackoff
-  venue: SIAM J. Computing 1988
+  venue: ePrint
   year: 1988
   url: https://eprint.iacr.org/2025/2291
   directions:
@@ -1119,6 +1119,7 @@ papers:
   significance: high
   summary: Luby-Rackoff 定理证明3轮 Feistel 结构是安全 PRP，密码学基本定理。
   status: reviewed
+  source: eprint
 - id: khoo2017ks_analysis
   title: On the Security of Key Schedule in Block Ciphers
   authors:
@@ -18973,4 +18974,77 @@ papers:
   matched_keywords:
   - SAT
   fetched_date: '2026-05-28'
+  source: eprint
+- id: provable_dual_attacks_2026
+  title: Provable Dual Attacks on Learning with Errors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1508
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Learning with Errors (LWE) is an important problem for post-quantum cryptography (PQC) that underlines the security
+    of several NIST PQC selected algorithms. Several recent papers have claimed improvem
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-29'
+  source: eprint
+- id: batch_subgroup_membership_2026
+  title: Batch subgroup membership testing on pairing-friendly curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1311
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "A major challenge in elliptic curve cryptosystems consists\r\nin efficiently mitigating the small-subgroup attack.\
+    \ This paper explores\r\nbatch subgroup membership testing (SMT) on pairing-friendly curves"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-29'
+  source: eprint
+- id: rok_paper_sissors_2026
+  title: RoK, Paper, SISsors – Toolkit for Lattice-based Succinct Arguments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1972
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Lattice-based succinct arguments allow to prove bounded-norm satisfiability of relations, such as $f(\vec{s}) =
+    \vec{t} \bmod q$ and $\|\vec{s}\|\leq \beta$, over specific cyclotomic rings $\mathcal{O
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-29'
+  source: eprint
+- id: random_variable_commitments_2026
+  title: Random Variable Commitments for Any Sampleable Distribution, and a Certified Laplace Mechanism
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1622
+  directions:
+  - meet_in_the_middle
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At CRYPTO'24, Bell et al. propose a definition of random variable commitment schemes (RVCS) and show that it leads
+    to a notion of certified differential privacy (DP). We prove that there exists RVCS's
+  status: pending_review
+  matched_keywords:
+  - differential
+  - MITM
+  - LED
+  fetched_date: '2026-05-29'
   source: eprint

@@ -1,15 +1,1 @@
-papers:
-- id: interleaving_stability_for_2026
-  title: Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
-  url: https://eprint.iacr.org/2026/891
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  directions:
-  - invariant
-  summary: "We prove that row-wise interleaving does not impose a linear loss on two\r\ncoding-theoretic soundness properties\
-    \ used in recent IOP/SNARK analyses:\r\ngenerator mutual correlated agreement and curve deco"
-  heuristic_score: 6
-  added_date: '2026-05-28'
-  authors: []
+papers: []
