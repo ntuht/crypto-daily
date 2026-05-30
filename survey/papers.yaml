@@ -19048,3 +19048,41 @@ papers:
   - LED
   fetched_date: '2026-05-29'
   source: eprint
+- id: eidolon_a_postquantum_2026
+  title: 'Eidolon: A Post-Quantum Signature Scheme Based on k-Colorability in the Age of Graph Neural Networks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/173
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We propose Eidolon, a post-quantum signature scheme grounded in the NP-complete $k$-colorability problem. Our construction
+    generalizes the Goldreich–Micali–Wigderson zero-knowledge protocol to arbitra
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-05-30'
+  source: eprint
+- id: payment_splitting_in_2026
+  title: Payment Splitting in Lightning Network as a Mitigation Against Balance Discovery Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1360
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Bitcoin has a low throughput of around 7 transactions per second. The Lightning Network (LN) is a solution meant
+    to improve that throughput while also improving privacy. LN is a Payment Channel Networ
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-05-30'
+  source: eprint
