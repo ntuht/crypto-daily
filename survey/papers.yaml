@@ -19086,3 +19086,44 @@ papers:
   - LED
   fetched_date: '2026-05-30'
   source: eprint
+- id: is_psi_really_2026
+  title: Is PSI Really Faster Than PSU? Achieving Efficient PSU with Invertible Bloom Filters
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/376
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Private Set Union (PSU) enables two parties to compute the union of their private sets without revealing anything
+    beyond the union itself. Existing PSU protocols remain much slower than private set in
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-05-31'
+  source: eprint
+- id: fixslicing_aeslike_ciphers_2026
+  title: 'Fixslicing AES-like Ciphers: New bitsliced AES speed records on ARM-Cortex M and RISC-V'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2020/1123
+  directions:
+  - tweakable
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The fixslicing implementation strategy was originally introduced as a new representation for the hardware-oriented
+    GIFT block cipher to achieve very efficient software constant-time implementations. I
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - tweakable
+  - AES
+  - GIFT
+  - PRESENT
+  - SKINNY
+  fetched_date: '2026-05-31'
+  source: eprint
