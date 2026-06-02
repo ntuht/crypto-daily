@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1099 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1107 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (890)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (898)
 
 ## 算法设计
 
@@ -521,7 +521,7 @@
 
 ## 算法分析
 
-### 差分分析 (530 篇)
+### 差分分析 (537 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -991,6 +991,13 @@
 - 🟡 **2026** — Threshold Traitor Tracing with Partial-Insider Resilience
 - 🟡 **2026** — Efficient MPC-Based Modulus Conversion for Threshold FHE Decryption
 - 🟡 **2026** — Multivariate Polynomial Inference in a Cryptographic Setting
+- 🟡 **2026** — Algebraic Attack on Convolutional Neural Networks with Max Pooling
+- 🟡 **2026** — On randomness complexity of 1-private protocols
+- 🟡 **2026** — Security of the Fischlin Transform in Quantum Random Oracle Model
+- 🟡 **2026** — The Rényi Smoothing Parameter and Its Applications in Lattice-Based Cryptography
+- 🟡 **2026** — SoK: Deep Learning-based Physical Side-channel Analysis
+- 🟡 **2026** — Frontdoors, Not Backdoors: Accountable Anonymity for National Digital Identity
+- 🟡 **2026** — Bypassing the Random-Probing Model in Masking Security Proofs
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1240,7 +1247,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (129 篇)
+### 中间相遇 (130 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -1360,6 +1367,7 @@
 - 🟡 **2026** — Asymptotically Optimal Distance-Tail Bounds for Large-Field RAA Codes
 - 🟡 **2026** — An Improved Hybrid Dual Attack on LWE with Sparse Secrets and its Application to FHE
 - 🟡 **2026** — Extending FRIDA Beyond Unique Decoding for Free
+- 🟡 **2026** — Jindo: Practical Lattice-Based Polynomial Commitments for Client-Side Proving
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -1463,7 +1471,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### 代数攻击 (31 篇)
+### 代数攻击 (32 篇)
 
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -1479,6 +1487,7 @@
 - 🟡 **2026** — Revisiting Linear Subspace Trails in Poseidon2 and Neptune
 - 🟡 **2026** — CoNAN: A Structure-Aware Framework for Lattice Cryptanalysis
 - 🟡 **2026** — The ABC of Symmetric Primitives over Integer Rings: Milk Before Meat
+- 🟡 **2026** — Algebraic Attack on Convolutional Neural Networks with Max Pooling
 - 🟡 **2025** — Cryptanalysis of ChiLow with Cube-Like Attacks [ChiLow]
 - 🔴 **2025** — Improved Key Recovery Attacks on Ascon [Ascon]
 - 🟡 **2025** — Core Monomial Prediction for Weak-Key Superpoly Recovery in Stream Ciphers [Trivium]

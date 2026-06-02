@@ -19807,3 +19807,145 @@ papers:
   - LED
   fetched_date: '2026-06-01'
   source: eprint
+- id: jindo_practical_latticebased_2026
+  title: 'Jindo: Practical Lattice-Based Polynomial Commitments for Client-Side Proving'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/044
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present $\textsf{Jindo}$, a new lattice-based polynomial commitment scheme (PCS) optimized for client-side proving,
+    which requires fast prover performance while supporting evaluation hiding and fle
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: algebraic_attack_on_2026
+  title: Algebraic Attack on Convolutional Neural Networks with Max Pooling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/241
+  directions:
+  - differential
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Recovering the weights and biases of deep neural networks (DNNs) via black-box input-output queries --- known as
+    parameter extraction attacks --- has been extensively studied for ReLU-based fully conn
+  status: pending_review
+  matched_keywords:
+  - differential
+  - algebraic attack
+  - PRESENT
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: on_randomness_complexity_2026
+  title: On randomness complexity of 1-private protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1121
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the field of information-theoretic cryptography, randomness complexity is a key metric for protocols for private
+    computation, that is, the number of random bits needed to realize the protocol. Alth
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: security_of_the_2026
+  title: Security of the Fischlin Transform in Quantum Random Oracle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/311
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Fischlin transform yields non-interactive zero-knowledge proofs with straight-line extractability in the classical
+    random oracle model. This is done by forcing a prover to generate multiple accept
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: the_rnyi_smoothing_2026
+  title: The Rényi Smoothing Parameter and Its Applications in Lattice-Based Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/986
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The smoothing parameter is a cornerstone concept in lattice-based cryptography. Traditionally defined using the
+    \( L^{\infty} \) distance, this standard formulation can be overly stringent compared to
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: sok_deep_learningbased_2026
+  title: 'SoK: Deep Learning-based Physical Side-channel Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1309
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Deep learning-based side-channel analysis (DLSCA) represents a powerful paradigm for running side-channel attacks.
+    DLSCA, in a state-of-the-art setting, can break multiple targets with a single attack
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: frontdoors_not_backdoors_2026
+  title: 'Frontdoors, Not Backdoors: Accountable Anonymity for National Digital Identity'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/389
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials (ACs) let users prove identity claims with strong privacy guarantees, and national systems
+    built on them — EUDI and the Swiss e-ID — go live in 2026. Due to these guarantees, how
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-02'
+  source: eprint
+- id: bypassing_the_randomprobing_2026
+  title: Bypassing the Random-Probing Model in Masking Security Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/288
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Masking, i.e., computing over secret-shared data, is one of the main counter-measures against side-channel analysis,
+    provably secure in the standard noisy-leakage model. However, all the state-of-the-
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-02'
+  source: eprint
