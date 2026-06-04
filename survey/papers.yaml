@@ -2098,7 +2098,7 @@ papers:
 - id: sponge_ff2025
   title: 'Sponge with Feed-Forward: Improved Preimage Security'
   authors: []
-  venue: ePrint 2025
+  venue: ePrint
   year: 2025
   url: https://eprint.iacr.org/2025/963
   directions:
@@ -2108,6 +2108,7 @@ papers:
   significance: medium
   summary: 带 feed-forward 的海绵结构，改进原像和第二原像安全性上界。
   status: pending_review
+  source: eprint
 - id: langford1994dl
   title: Differential-Linear Cryptanalysis
   authors:
@@ -20414,4 +20415,94 @@ papers:
   matched_keywords:
   - PRESENT
   fetched_date: '2026-06-03'
+  source: eprint
+- id: genericcompatible_distinguishers_for_2026
+  title: Generic-compatible distinguishers for linear regression based attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1875
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Non profiled attacks aim to recover secret information from a device without prior knowledge of its leakage model.
+    However, most practical non profiled attacks, such as Differential Power Analysis, Co
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-06-04'
+  source: eprint
+- id: a_little_less_2026
+  title: A Little LESS Secure - Side-Channel Attacks Exploiting Randomness Leakage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/913
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Schnorr and (EC)DSA signatures famously become completely insecure once a few bits of the random nonce are revealed
+    to an attacker. In this work, we explore whether the Fiat-Shamir based post-quantum '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-04'
+  source: eprint
+- id: on_the_ucinsecurity_2026
+  title: On the UC-(In)Security of PAKE Protocols Without the Random Oracle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/998
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A Password-Authenticated Key Exchange (PAKE) protocol allows two parties to jointly establish a cryptographic key,
+    where the only information shared in advance is a low-entropy password. The first eff
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-04'
+  source: eprint
+- id: a_cryptographic_framework_2026
+  title: A Cryptographic Framework for Proof of Personhood
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/333
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We initiate study on how to build a rigorous, cryptographic foundation for *proofs of personhood* - convincing,
+    privacy-preserving evidence that a digital participant is a real, unique, and reputable '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-04'
+  source: eprint
+- id: circuitsuccinct_algebraic_batch_2026
+  title: Circuit-Succinct Algebraic Batch Arguments from Projective Functional Commitments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1943
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Batch arguments for NP (BARGs) are non-interactive proof systems that allow a prover to convince a verifier that
+    $k$ NP statements $x_1, \ldots, x_k$ are valid relative to some circuit $C$, i.e. there
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  fetched_date: '2026-06-04'
   source: eprint

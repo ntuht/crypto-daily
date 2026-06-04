@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1132 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1137 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (923)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (928)
 
 ## 算法设计
 
@@ -529,7 +529,7 @@
 
 ## 算法分析
 
-### 差分分析 (552 篇)
+### 差分分析 (555 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1021,6 +1021,9 @@
 - 🟡 **2026** — A Comparative Evaluation of End-to-End-Encrypted Key Retrieval in Backup Protocols
 - 🟡 **2026** — KAT-Seeded Fuzzing of Stateful Hash-Based Signature Verification in liboqs
 - 🟡 **2026** — AN EFFICIENT VALIDATED ASYNCHRONOUS BYZANTINE AGREEMENT PROTOCOL USING COMMITTEE
+- 🟡 **2026** — Generic-compatible distinguishers for linear regression based attacks
+- 🟡 **2026** — On the UC-(In)Security of PAKE Protocols Without the Random Oracle Model
+- 🟡 **2026** — A Cryptographic Framework for Proof of Personhood
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1084,7 +1087,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (188 篇)
+### MILP/SAT/CP 建模技术 (189 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1240,6 +1243,7 @@
 - 🟡 **2026** — Packed Pre-Constructed PVSS for Randomness Generation and E-Voting
 - 🟡 **2026** — Counterexamples to the Low-Norm Nullstellensatz Hypothesis
 - 🟡 **2026** — Exploiting Strong Key Bridges: Full-Fledged Automatic Rectangle Attacks on Deoxys-BC and SKINNY
+- 🟡 **2026** — Circuit-Succinct Algebraic Batch Arguments from Projective Functional Commitments
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -1275,7 +1279,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (135 篇)
+### 中间相遇 (137 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -1401,6 +1405,8 @@
 - 🟡 **2026** — Threshold Signatures in the Head
 - 🟡 **2026** — Pushing Collision Attacks on SHA-2 to 39 Steps
 - 🟡 **2026** — Packed Pre-Constructed PVSS for Randomness Generation and E-Voting
+- 🟡 **2026** — A Little LESS Secure - Side-Channel Attacks Exploiting Randomness Leakage
+- 🟡 **2026** — Circuit-Succinct Algebraic Batch Arguments from Projective Functional Commitments
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
