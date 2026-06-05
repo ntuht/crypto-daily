@@ -3292,7 +3292,7 @@ papers:
   authors:
   - Kai Hu
   - et al.
-  venue: EUROCRYPT 2026
+  venue: ePrint
   year: 2026
   url: https://eprint.iacr.org/2026/358
   directions:
@@ -3302,6 +3302,7 @@ papers:
   significance: high
   summary: 几何方法逐轮逼近（高阶）差分-线性相关。
   status: pending_review
+  source: eprint
 - id: whirlpool_preimage2024
   title: Diving Deep into the Preimage Security of AES-like Hashing
   authors:
@@ -20505,4 +20506,211 @@ papers:
   - MITM
   - SAT
   fetched_date: '2026-06-04'
+  source: eprint
+- id: leopard_towards_practical_2026
+  title: 'LeOPaRd: Towards Practical Post-Quantum Oblivious PRFs via 2HashDH Paradigm'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1615
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we introduce a more efficient post-quantum oblivious PRF (OPRF) design, called LeOPaRd. Our proposal
+    is round-optimal and supports verifiability and partial obliviousness, all of which a
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: a_robust_variant_2026
+  title: A Robust Variant of ChaCha20-Poly1305
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/222
+  directions:
+  - permutation_layer
+  - aead
+  ciphers: []
+  significance: medium
+  summary: The ChaCha20-Poly1305 AEAD scheme is widely used as an alternative for AES-GCM on platforms without AES hardware
+    instructions. Although recent analysis by Degabriele et al. shows that ChaCha20-Poly130
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - AEAD
+  - authenticated encryption
+  - AES
+  - PRESENT
+  - ChaCha
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: the_nonlinear_filter_2026
+  title: The Nonlinear Filter Model of Stream Cipher Redivivus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/160
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The nonlinear filter model is an old and well understood approach to the design of secure stream ciphers. Extensive
+    research over several decades has shown how to attack stream ciphers based on this m
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: private_information_retrieval_2026
+  title: 'Private Information Retrieval: A Tutorial and Survey'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1135
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private information retrieval (PIR) is a fundamental primitive for protecting user privacy. It enables a user to
+    retrieve entries from a public database without revealing which entries are being retri
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: spider_two_server_2026
+  title: 'SPIDER: Two Server Functionality for the Cost of Zero'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1134
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We introduce baseSPIDER and SPIDER, private information retrieval (PIR) schemes that embody two technical advancements.\r\
+    \n\r\nThe baseSPIDER protocol operates with a single server and a stateful client t"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: sok_piopbased_snarks_2026
+  title: 'SoK: PIOP-based SNARKs for General Computation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1133
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Many modern SNARK constructions follow a paradigm that combines a Polynomial Interactive Oracle Proof (PIOP) with
+    an appropriate Polynomial Commitment Scheme (PCS). In this paradigm, the PIOP reduces '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: oblivious_garbling_and_2026
+  title: Oblivious Garbling and its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1132
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'A garbling scheme encodes a function and an input into two independent artifacts from which the output can be
+    recovered, but nothing else is revealed. This clean separation between function and input '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: reassessing_the_security_2026
+  title: Reassessing the Security of LPN-C and its HHE-Oriented Variants
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1130
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: The idea of Hybrid Homomorphic Encryption (HHE) is to reduce the computational cost of Fully Homomorphic Encryption
+    (FHE) by encrypting bulk data symmetrically while only encrypting the short symmetri
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: psquarehash_a_family_2026
+  title: 'pSquare-hash: A Family of Tweakable Hash Functions for Physically Secure PQ Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1129
+  directions:
+  - permutation_layer
+  - tweakable
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: In 2020 and 2024 respectively, NIST released a Special Publication (SP 800-208) and a Federal Information Processing
+    Standard (FIPS 205) specifying hash-based signature schemes with natural quantum re
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - tweakable
+  - lightweight
+  - SKINNY
+  - Ascon
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: optimized_point_addition_2026
+  title: Optimized Point Addition Circuits for Elliptic Curve Discrete Logarithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1128
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: Shor's algorithm represents the main threat of quantum computers to cryptography. In order to precisely understand
+    its feasibility, many authors have worked towards reducing its costs, either at the l
+  status: pending_review
+  matched_keywords:
+  - ARX
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-05'
+  source: eprint
+- id: verifiable_bootstrapping_from_2026
+  title: Verifiable Bootstrapping from Lattice-based Folding
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1127
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We explicitly construct and benchmark the first lattice-based IVC scheme from folding. The scheme supports customizable
+    constraint systems over rings which we exploit to obtain proofs of correct execu
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-05'
   source: eprint
