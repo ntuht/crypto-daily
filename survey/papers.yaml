@@ -20714,3 +20714,114 @@ papers:
   - LED
   fetched_date: '2026-06-05'
   source: eprint
+- id: on_the_conversion_2026
+  title: On the conversion of module representations for higher dimensional supersingular isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/276
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We expand the well developed toolbox between quaternionic ideals and supersingular elliptic curves into its higher
+    dimensional version, namely (Hermitian) modules and maximal supersingular principally
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-06'
+  source: eprint
+- id: hydrangea_optimistic_tworound_2026
+  title: 'Hydrangea: Optimistic Two-Round Partial Synchrony with Improved Fault Resilience'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1112
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: 'Consensus protocols in the partially synchronous setting face a fundamental trade-off: achieving optimal Byzantine
+    fault tolerance requires a good-case latency of at least three rounds, while committi'
+  status: pending_review
+  matched_keywords:
+  - low latency
+  fetched_date: '2026-06-06'
+  source: eprint
+- id: multikey_fully_homomorphic_2026
+  title: Multi-key Fully Homomorphic Encryption with Non-Interactive Setup in the Plain Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/322
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-key fully homomorphic encryption (MKFHE) enables computation over encrypted data under multiple different
+    keys. Constructing MKFHE without any trusted or interactive setup remains an open proble
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-06'
+  source: eprint
+- id: universally_composable_onchain_2026
+  title: Universally Composable On-Chain Quadratic Voting for Liquid Democracy
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/803
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Decentralized governance plays a critical role in blockchain communities, allowing stakeholders to shape the evolution
+    of platforms such as Cardano, Gitcoin, Aragon, and MakerDAO through distributed v
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-06'
+  source: eprint
+- id: the_impossibility_of_2026
+  title: The Impossibility of Post-Quantum Public Indifferentiability for Merkle-Damgard
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/128
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Merkle-Damgård construction (in its strengthened form as used in SHA-256 and SHA-512, the untruncated members
+    of SHA-2) is not classically indifferentiable from a Variable-Input-Length (VIL) rando
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-06'
+  source: eprint
+- id: local_constraints_behind_2026
+  title: Local Constraints Behind Fourier Analysis of Neural Distinguishers for SPECK32/64
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1136
+  directions:
+  - boomerang
+  - software_friendly
+  - ml_aided
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Neural distinguishers for ARX ciphers can exploit information beyond classical difference distributions and several
+    interpretability frameworks have been proposed.  In this paper, we study two framewo
+  status: pending_review
+  matched_keywords:
+  - differential
+  - boomerang
+  - neural distinguisher
+  - ARX
+  - PRESENT
+  - SPECK
+  fetched_date: '2026-06-06'
+  source: eprint
