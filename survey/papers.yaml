@@ -20825,3 +20825,21 @@ papers:
   - SPECK
   fetched_date: '2026-06-06'
   source: eprint
+- id: nontrivial_zeroknowledge_implies_2026
+  title: Non-Trivial Zero-Knowledge Implies One-Way Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/331
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A recent breakthrough [Hirahara and Nanashima, STOC’2024] established that if $\mathsf{NP} \not \subseteq \mathsf{ioP/poly}$,
+    the existence of zero-knowledge (ZK) with negligible errors for $\mathsf{N
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-06-07'
+  source: eprint
