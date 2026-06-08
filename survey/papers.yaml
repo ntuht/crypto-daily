@@ -20843,3 +20843,21 @@ papers:
   - LED
   fetched_date: '2026-06-07'
   source: eprint
+- id: hardness_of_hinted_2026
+  title: Hardness of hinted ISIS from the space-time hardness of lattice problems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/187
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We initiate the study of basing the hardness of hinted ISIS problems (i.e. with trapdoor information, or ‘hints’)
+    on the previously conjectured space-time hardness of lattice problems without hints. W
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-08'
+  source: eprint
