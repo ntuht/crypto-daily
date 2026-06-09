@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-06-08 04:50</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-06-09 04:13</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1156</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1192</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,15 +35,15 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1156</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1192</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">132</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">135</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">62</span></div>
-  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">41</span></div>
+  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">44</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">34</span></div>
+  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">32</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">31</span></div>
-  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">31</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">23</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">22</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">19</span></div>
@@ -51,13 +51,13 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">562</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">195</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">138</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">583</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">200</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">144</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">53</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">35</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">33</span></div>
-  <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">30</span></div>
+  <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">31</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">28</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">19</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1156 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1192 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -12667,6 +12667,488 @@ The baseSPIDER protocol operates with a single server and a stateful client t</d
   <div class="paper-authors"></div>
   <div class="paper-summary">We initiate the study of basing the hardness of hinted ISIS problems (i.e. with trapdoor information, or ‘hints’) on the previously conjectured space-time hardness of lattice problems without hints. W</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="feasibility_of_broadcast_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="feasibility of broadcast with dynamic committees   a significant number of works have considered the problem of multi-party computation over dynamic committees in synchronous networks, including yoso mpc [crypto&#x27;21], fluid mpc [crypto&#x27;21],  scales mpc">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2078" target="_blank">Feasibility of Broadcast with Dynamic Committees</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A significant number of works have considered the problem of multi-party computation over dynamic committees in synchronous networks, including YOSO MPC [Crypto&#x27;21], Fluid MPC [Crypto&#x27;21],  SCALES MPC</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="heli_heavylight_private_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="heli: heavy-light private aggregation   this paper presents heli, a system that lets a pair of servers collect aggregate statistics about private client-held data without learning anything more about any individual client&#x27;s data. like prior">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/059" target="_blank">Heli: Heavy-Light Private Aggregation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper presents Heli, a system that lets a pair of servers collect aggregate statistics about private client-held data without learning anything more about any individual client&#x27;s data. Like prior</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="new_straightline_extractable_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="new straight-line extractable nizkps for cryptographic group actions   group-action-based sigma protocols have proven to be truly flexible for the design of advanced cryptosystems. when they are compiled via the fiat-shamir transform, the resulting nizkps can be efficien">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1819" target="_blank">New Straight-Line Extractable NIZKPs for Cryptographic Group Actions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Group-action-based Sigma protocols have proven to be truly flexible for the design of advanced cryptosystems. When they are compiled via the Fiat-Shamir transform, the resulting NIZKPs can be efficien</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="up_to_50_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="up to 50% off: efficient implementation of polynomial masking   while passive probing attacks and active fault attacks have been studied for multiple decades, research has only started to consider combined attacks that use both probes and faults relatively recentl">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2088" target="_blank">UP TO 50% OFF: Efficient Implementation of Polynomial Masking</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">While passive probing attacks and active fault attacks have been studied for multiple decades, research has only started to consider combined attacks that use both probes and faults relatively recentl</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="petcha_postquantum_efficient_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="petcha: post-quantum efficient transciphering with chacha   fully homomorphic encryption (fhe) is a powerful primitive which allows a computationally weak client to outsource computation to a powerful server while maintaining privacy. however, fhe typically su">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/112" target="_blank">PETCHA: Post-quantum Efficient Transciphering with ChaCha</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fully Homomorphic Encryption (FHE) is a powerful primitive which allows a computationally weak client to outsource computation to a powerful server while maintaining privacy. However, FHE typically su</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="mathsfprotoss_protocol_for_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="$\mathsf{protoss}$ protocol for tight optimal symmetric security   we present $\mathsf{protoss}$, a new balanced pake protocol with optimal communication efficiency. messages are only 160 bits long and the computational complexity is lower than all previous approache">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1581" target="_blank">$\mathsf{Protoss}$ Protocol for Tight Optimal Symmetric Security</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present $\mathsf{Protoss}$, a new balanced PAKE protocol with optimal communication efficiency. Messages are only 160 bits long and the computational complexity is lower than all previous approache</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="pushing_the_boundaries_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="pushing the boundaries of group-based aggregation with zero-evading generators of low additive complexity   a zero-evading generator with error parameter $\lambda$ is a distribution $z$ on $\mathbb{f}^n$ such that for any non-zero vector $x\in \mathbb{f}^n$
+the probability that $&lt;a,x&gt;=0$ is at most $2^{-\l">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1148" target="_blank">Pushing the boundaries of group-based aggregation with zero-evading generators of low additive complexity</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A zero-evading generator with error parameter $\lambda$ is a distribution $Z$ on $\mathbb{F}^n$ such that for any non-zero vector $x\in \mathbb{F}^n$
+the probability that $&lt;a,x&gt;=0$ is at most $2^{-\l</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="smoothie_multiscalar_multiplication_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="smoothie: (multi-)scalar multiplication optimisations on tfhe   the (multi-)scalar multiplication is a crucial operation in numerous fhe-related applications, and its performance has a significant impact on their overall efficiency. this paper presents smoothie: (">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1267" target="_blank">SMOOTHIE: (Multi-)Scalar Multiplication Optimisations On TFHE</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The (Multi-)Scalar multiplication is a crucial operation in numerous FHE-related applications, and its performance has a significant impact on their overall efficiency. This paper presents SMOOTHIE: (</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="fhe_for_simd_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="fhe for simd arithmetic logic units with amortized $o(1)$ bootstrapping per ciphertext   the evaluation of both arithmetic and logic operations on machine words (e.g., 64-bit registers) in homomorphic settings is an attractive problem due to its close alignment with real-world programming">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/233" target="_blank">FHE for SIMD Arithmetic Logic Units with Amortized $O(1)$ Bootstrapping per Ciphertext</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The evaluation of both arithmetic and logic operations on machine words (e.g., 64-bit registers) in homomorphic settings is an attractive problem due to its close alignment with real-world programming</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="meetinthemiddle_attacks_on_2026" data-dirs="tweakable,lightweight,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="meet-in-the-middle attacks on full chilow   this work presents the first full-round attacks on chilow-32 and chilow-40, two tweakable low-latency block ciphers presented at eurocrypt 2025.
+
+ we first describe a straightforward meet-in-the-mid">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1601" target="_blank">Meet-in-the-Middle Attacks on Full ChiLow</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This work presents the first full-round attacks on ChiLow-32 and ChiLow-40, two tweakable low-latency block ciphers presented at Eurocrypt 2025.
+
+ We first describe a straightforward Meet-in-the-Mid</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">可调密码</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="swarm_in_em_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="swarm in em hay: particle swarm-guided probe placement for em sca   despite decades of research in electromagnetic (em) side-channel analysis (sca), practical attacks still require manual effort and domain expertise to identify informative probe locations on target de">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2244" target="_blank">Swarm in EM Hay: Particle Swarm-guided Probe Placement for EM SCA</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Despite decades of research in electromagnetic (EM) side-channel analysis (SCA), practical attacks still require manual effort and domain expertise to identify informative probe locations on target de</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="khatam_proximity_gaps_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="khatam: proximity gaps for multilinear evaluation for all linear codes   two techniques have recently emerged in the construction of succinct non-interactive arguments of knowledge (snarks) that yield extremely fast provers; the use of multilinear (instead of univariate) p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1843" target="_blank">Khatam: Proximity Gaps For Multilinear Evaluation For All Linear Codes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Two techniques have recently emerged in the construction of Succinct Non-Interactive Arguments of Knowledge (SNARKs) that yield extremely fast provers; The use of multilinear (instead of univariate) p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="key_updatable_hash_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="key updatable hash based vrf   unbiased, unpredictable, and publicly verifiable randomness is essential for a wide range of blockchain-based web3 applications. verifiable random functions (vrfs) naturally satisfy these requirements">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/052" target="_blank">Key Updatable Hash Based VRF</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Unbiased, unpredictable, and publicly verifiable randomness is essential for a wide range of blockchain-based Web3 applications. Verifiable Random Functions (VRFs) naturally satisfy these requirements</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="snargs_for_np_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="snargs for np from unprovability of mathematical theorems   modern cryptography relies on the intractability of computational problems. we present an approach to building cryptography from a new source of hardness: \emph{proving mathematical theorems}.
+
+our">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1180" target="_blank">SNARGs for NP from Unprovability of Mathematical Theorems</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Modern cryptography relies on the intractability of computational problems. We present an approach to building cryptography from a new source of hardness: \emph{proving mathematical theorems}.
+
+Our</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="permissionless_consensus_from_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="permissionless consensus from a common random string   permissionless consensus enables parties to perform byzantine agreement without any a priori knowledge about who is participating, except for an upper bound on the number of participants running the p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1179" target="_blank">Permissionless Consensus from a Common Random String</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Permissionless consensus enables parties to perform Byzantine agreement without any a priori knowledge about who is participating, except for an upper bound on the number of participants running the p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="sensing_censorship_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="sensing censorship and censuring censors with censorship-evident publishing systems   censorship has always existed, serving both to prevent harms and to inflict them by chilling speech, suppressing organizing, and withholding inconvenient facts and ideas; most technical work aims to p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1178" target="_blank">Sensing Censorship and Censuring Censors with Censorship-Evident Publishing Systems</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Censorship has always existed, serving both to prevent harms and to inflict them by chilling speech, suppressing organizing, and withholding inconvenient facts and ideas; most technical work aims to p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="advanced_vector_extensions_2026" data-dirs="lightweight,aead"
+     data-year="2026" data-significance="medium"
+     data-search="advanced vector extensions 512 acceleration of lsh and lea-gcm   this paper presents high-performance advanced vector extensions 512 (avx-512) implementations of two korean standard cryptographic algorithms: the lightweight secure hash (lsh) hash function and light">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1177" target="_blank">Advanced Vector Extensions 512 Acceleration of LSH and LEA-GCM</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper presents high-performance Advanced Vector Extensions 512 (AVX-512) implementations of two Korean standard cryptographic algorithms: the Lightweight Secure Hash (LSH) hash function and Light</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="anonymous_evoting_on_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="anonymous e-voting on hyperledger fabric: practical mitigation of the verification paradox and coercion resistance   electronic voting systems inherently encompass a structural tension among ballot secrecy, verifiability, and coercion resistance. voters must be able to verify whether their votes have been included;">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1176" target="_blank">Anonymous E-Voting on Hyperledger Fabric: Practical Mitigation of the Verification Paradox and Coercion Resistance</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Electronic voting systems inherently encompass a structural tension among ballot secrecy, verifiability, and coercion resistance. Voters must be able to verify whether their votes have been included;</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_layered_risk_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a layered risk scoring model for tls connections against quantum threats   the advancement of quantum computing threatens public-key cryptographic algorithms used in tls connections, such as rsa and ecdhe. the harvest now, decrypt later (hndl) attack exposes long-term confid">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1174" target="_blank">A Layered Risk Scoring Model for TLS Connections Against Quantum Threats</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The advancement of quantum computing threatens public-key cryptographic algorithms used in TLS connections, such as RSA and ECDHE. The Harvest Now, Decrypt Later (HNDL) attack exposes long-term confid</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="postquantum_migration_strategy_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="post-quantum migration strategy for rsa encryption   organizations relying on rsa-oaep encryption in protocols such as jwe, saml, and oidc face a critical challenge: transitioning to post-quantum cryptography without disrupting operational continuity. t">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1172" target="_blank">Post-Quantum Migration Strategy for RSA Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Organizations relying on RSA-OAEP encryption in protocols such as JWE, SAML, and OIDC face a critical challenge: transitioning to post-quantum cryptography without disrupting operational continuity. T</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="provablysecure_nizks_from_2026" data-dirs="milp_sat_cp,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="provably-secure nizks from multi-round oracle proofs   we study the security of the fiat-shamir transformation when applied to multi-round oracle proofs in the standard model, showing that interactive oracle proofs (iops) can be transformed via fiat-shami">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1167" target="_blank">Provably-Secure NIZKs From Multi-Round Oracle Proofs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study the security of the Fiat-Shamir transformation when applied to multi-round oracle proofs in the standard model, showing that Interactive Oracle Proofs (IOPs) can be transformed via Fiat-Shami</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_statecompromise_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="on the state-compromise security of end-to-end real-time group communication   real-time group communication protocols, such as zoom and microsoft teams, aim to provide end-to-end security for audio and video conferences even in the presence of a malicious server. despite their">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1165" target="_blank">On the State-Compromise Security of End-to-End Real-Time Group Communication</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Real-time group communication protocols, such as Zoom and Microsoft Teams, aim to provide end-to-end security for audio and video conferences even in the presence of a malicious server. Despite their</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="algebraic_cryptanalytic_extraction_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="algebraic cryptanalytic extraction on hard-label neural networks   although the state-of-the-art neural network model extraction attack in the hard-label setting by carlini {\em et al.} at eurocrypt 2025 has polynomial-time complexity in theory, its dual-point cluste">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1164" target="_blank">Algebraic Cryptanalytic Extraction on Hard-Label Neural Networks</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Although the state-of-the-art neural network model extraction attack in the hard-label setting by Carlini {\em et al.} at EUROCRYPT 2025 has polynomial-time complexity in theory, its dual-point cluste</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="swift_shallow_and_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="swift: shallow and simd-aware ckks functional bootstrapping for low-latency   functional bootstrapping combines ciphertext refreshing with the evaluation of
+a target function, and has become a central tool for evaluating non-linear
+functions in homomorphic encryption. in the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1163" target="_blank">SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping for Low-Latency</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Functional bootstrapping combines ciphertext refreshing with the evaluation of
+a target function, and has become a central tool for evaluating non-linear
+functions in homomorphic encryption. In the</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="finergrained_fixedkey_differential_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="finer-grained fixed-key differential probability distributions via quasidifferential decoupling   the recent study of fixed-key differential probabilities mainly follows two complementary approaches. the first derives key-dependent constraints from the internal structure of the primitive. this app">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1162" target="_blank">Finer-Grained Fixed-Key Differential Probability Distributions via Quasidifferential Decoupling</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The recent study of fixed-key differential probabilities mainly follows two complementary approaches. The first derives key-dependent constraints from the internal structure of the primitive. This app</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="lemur_scalable_postquantum_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="lemur: scalable post-quantum synchronized multi-signatures   synchronized multi-signatures allow for non-interactive aggregation of signatures generated within the same time step. this primitive is particularly well-suited for high-throughput blockchain protoco">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1161" target="_blank">Lemur: Scalable Post-Quantum Synchronized Multi-Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Synchronized multi-signatures allow for non-interactive aggregation of signatures generated within the same time step. This primitive is particularly well-suited for high-throughput blockchain protoco</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="generic_committing_attacks_2026" data-dirs="aead"
+     data-year="2026" data-significance="medium"
+     data-search="generic committing attacks: zero-padded ascon is less secure than expected   we study generic committing attacks—where ciphertexts decrypt under more than one context, i.e., key, nonce, associated data—for sponge-based authenticated encryption. as our main contribution, we giv">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1160" target="_blank">Generic Committing Attacks: Zero-Padded Ascon is Less Secure than Expected</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study generic committing attacks—where ciphertexts decrypt under more than one context, i.e., key, nonce, associated data—for sponge-based authenticated encryption. As our main contribution, we giv</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="quadratic_asynchronous_dkg_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="quadratic asynchronous dkg from plain setup   asynchronous distributed key generation (adkg) is a fundamental primitive for building threshold cryptosystems and fault-tolerant distributed protocols in adversarial network settings. a central objec">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1159" target="_blank">Quadratic Asynchronous DKG from Plain Setup</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Asynchronous distributed key generation (ADKG) is a fundamental primitive for building threshold cryptosystems and fault-tolerant distributed protocols in adversarial network settings. A central objec</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_geometric_approach_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a geometric approach to quantum distinguishers   this paper introduces a geometric framework for q2 quantum distinguishers by combining the geometric approach to classical symmetric-key cryptanalysis with the generalized correlation extraction algor">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1158" target="_blank">A Geometric Approach to Quantum Distinguishers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper introduces a geometric framework for Q2 quantum distinguishers by combining the geometric approach to classical symmetric-key cryptanalysis with the generalized correlation extraction algor</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_simple_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a simple and unified approach for proving knowledge of isogenies between abelian varieties   in this paper we introduce a simple and unified approach, based on generic proof systems,  to prove knowledge of any isogeny between two principally polarized abelian varieties in any dimension, assum">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1157" target="_blank">A Simple and Unified Approach for Proving Knowledge of Isogenies between Abelian Varieties</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this paper we introduce a simple and unified approach, based on generic proof systems,  to prove knowledge of any isogeny between two principally polarized abelian varieties in any dimension, assum</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="sublinear_secure_broadcast_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="sub-linear secure broadcast and applications   we present improved distributed broadcast and mst algorithms that are unconditionally secure against an eavesdropper controlling a fixed set of at most $f$ edges in an $n$-node $m$-edge $d$-diameter g">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1156" target="_blank">Sub-Linear Secure Broadcast and Applications</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present improved distributed broadcast and MST algorithms that are unconditionally secure against an eavesdropper controlling a fixed set of at most $f$ edges in an $n$-node $m$-edge $D$-diameter g</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="privacypreserving_proximity_testing_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="privacy-preserving proximity testing from geometric fuzzy matching   proximity testing is crucial to location-privacy applications, from discovering nearby friends to enabling uav collision avoidance. in such settings, users must determine proximity without revealing t">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1155" target="_blank">Privacy-preserving Proximity Testing from Geometric Fuzzy Matching</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Proximity testing is crucial to location-privacy applications, from discovering nearby friends to enabling UAV collision avoidance. In such settings, users must determine proximity without revealing t</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="leakagetolerant_circuits_against_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="leakage-tolerant circuits against ac0 leakage   a leakage-tolerant circuit (ltc) can be viewed as a black-box implementation of a given functionality f with respect to a leakage class l in the sense that any leakage function l ∈ l applied to the ci">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1154" target="_blank">Leakage-Tolerant Circuits Against AC0 Leakage</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A leakage-tolerant circuit (LTC) can be viewed as a black-box implementation of a given functionality f with respect to a leakage class L in the sense that any leakage function L ∈ L applied to the ci</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="searchefficient_publickey_authenticated_2026" data-dirs="aead"
+     data-year="2026" data-significance="medium"
+     data-search="search-efficient public-key authenticated encryption with keyword search made easy   public-key authenticated encryption with keyword search (paeks), introduced by huang and li (information sciences 2017), was proposed to provide trapdoor privacy, whereby keyword information is protec">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1153" target="_blank">Search-Efficient Public-Key Authenticated Encryption with Keyword Search Made Easy</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Public-key authenticated encryption with keyword search (PAEKS), introduced by Huang and Li (Information Sciences 2017), was proposed to provide trapdoor privacy, whereby keyword information is protec</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="constantround_interactive_consistency_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="constant-round interactive consistency in dishonest majority, or with quadratic communication in honest majority   we present the first constant-expected-latency protocols for interactive consistency (ic), also known as parallel byzantine broadcast, that achieve either: (1) security in dishonest majority, namely $">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1146" target="_blank">Constant-Round Interactive Consistency in Dishonest Majority, or with Quadratic Communication in Honest Majority</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present the first constant-expected-latency protocols for Interactive Consistency (IC), also known as Parallel Byzantine Broadcast, that achieve either: (1) security in dishonest majority, namely $</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="conventional_bitbased_division_2026" data-dirs="integral_division"
+     data-year="2026" data-significance="medium"
+     data-search="conventional bit-based division property trail search is np-complete   this short note shows that the conventional (2-subset) bit-based division property trail search problem is np-complete.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1145" target="_blank">Conventional bit-based division property trail search is NP-complete</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This short note shows that the conventional (2-subset) bit-based division property trail search problem is NP-complete.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">积分与 Division Property</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
