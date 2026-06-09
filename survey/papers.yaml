@@ -20861,3 +20861,649 @@ papers:
   - PRESENT
   fetched_date: '2026-06-08'
   source: eprint
+- id: feasibility_of_broadcast_2026
+  title: Feasibility of Broadcast with Dynamic Committees
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2078
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: A significant number of works have considered the problem of multi-party computation over dynamic committees in
+    synchronous networks, including YOSO MPC [Crypto'21], Fluid MPC [Crypto'21],  SCALES MPC
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: heli_heavylight_private_2026
+  title: 'Heli: Heavy-Light Private Aggregation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/059
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents Heli, a system that lets a pair of servers collect aggregate statistics about private client-held
+    data without learning anything more about any individual client's data. Like prior
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: new_straightline_extractable_2026
+  title: New Straight-Line Extractable NIZKPs for Cryptographic Group Actions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1819
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Group-action-based Sigma protocols have proven to be truly flexible for the design of advanced cryptosystems. When
+    they are compiled via the Fiat-Shamir transform, the resulting NIZKPs can be efficien
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: up_to_50_2026
+  title: 'UP TO 50% OFF: Efficient Implementation of Polynomial Masking'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2088
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: While passive probing attacks and active fault attacks have been studied for multiple decades, research has only
+    started to consider combined attacks that use both probes and faults relatively recentl
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: petcha_postquantum_efficient_2026
+  title: 'PETCHA: Post-quantum Efficient Transciphering with ChaCha'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/112
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) is a powerful primitive which allows a computationally weak client to outsource
+    computation to a powerful server while maintaining privacy. However, FHE typically su
+  status: pending_review
+  matched_keywords:
+  - AES
+  - ChaCha
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: mathsfprotoss_protocol_for_2026
+  title: $\mathsf{Protoss}$ Protocol for Tight Optimal Symmetric Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1581
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present $\mathsf{Protoss}$, a new balanced PAKE protocol with optimal communication efficiency. Messages are
+    only 160 bits long and the computational complexity is lower than all previous approache
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: pushing_the_boundaries_2026
+  title: Pushing the boundaries of group-based aggregation with zero-evading generators of low additive complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1148
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "A zero-evading generator with error parameter $\\lambda$ is a distribution $Z$ on $\\mathbb{F}^n$ such that for\
+    \ any non-zero vector $x\\in \\mathbb{F}^n$\r\nthe probability that $<a,x>=0$ is at most $2^{-\\l"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: smoothie_multiscalar_multiplication_2026
+  title: 'SMOOTHIE: (Multi-)Scalar Multiplication Optimisations On TFHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1267
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The (Multi-)Scalar multiplication is a crucial operation in numerous FHE-related applications, and its performance
+    has a significant impact on their overall efficiency. This paper presents SMOOTHIE: ('
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: fhe_for_simd_2026
+  title: FHE for SIMD Arithmetic Logic Units with Amortized $O(1)$ Bootstrapping per Ciphertext
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/233
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The evaluation of both arithmetic and logic operations on machine words (e.g., 64-bit registers) in homomorphic
+    settings is an attractive problem due to its close alignment with real-world programming
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: meetinthemiddle_attacks_on_2026
+  title: Meet-in-the-Middle Attacks on Full ChiLow
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1601
+  directions:
+  - tweakable
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "This work presents the first full-round attacks on ChiLow-32 and ChiLow-40, two tweakable low-latency block ciphers\
+    \ presented at Eurocrypt 2025.\r\n\r\n We first describe a straightforward Meet-in-the-Mid"
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - block cipher
+  - tweakable
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: swarm_in_em_2026
+  title: 'Swarm in EM Hay: Particle Swarm-guided Probe Placement for EM SCA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2244
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Despite decades of research in electromagnetic (EM) side-channel analysis (SCA), practical attacks still require
+    manual effort and domain expertise to identify informative probe locations on target de
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - CRAFT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: khatam_proximity_gaps_2026
+  title: 'Khatam: Proximity Gaps For Multilinear Evaluation For All Linear Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1843
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Two techniques have recently emerged in the construction of Succinct Non-Interactive Arguments of Knowledge (SNARKs)
+    that yield extremely fast provers; The use of multilinear (instead of univariate) p
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: key_updatable_hash_2026
+  title: Key Updatable Hash Based VRF
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/052
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Unbiased, unpredictable, and publicly verifiable randomness is essential for a wide range of blockchain-based Web3
+    applications. Verifiable Random Functions (VRFs) naturally satisfy these requirements
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: snargs_for_np_2026
+  title: SNARGs for NP from Unprovability of Mathematical Theorems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1180
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Modern cryptography relies on the intractability of computational problems. We present an approach to building\
+    \ cryptography from a new source of hardness: \\emph{proving mathematical theorems}.\r\n\r\nOur "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: permissionless_consensus_from_2026
+  title: Permissionless Consensus from a Common Random String
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1179
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Permissionless consensus enables parties to perform Byzantine agreement without any a priori knowledge about who
+    is participating, except for an upper bound on the number of participants running the p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: sensing_censorship_and_2026
+  title: Sensing Censorship and Censuring Censors with Censorship-Evident Publishing Systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1178
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Censorship has always existed, serving both to prevent harms and to inflict them by chilling speech, suppressing
+    organizing, and withholding inconvenient facts and ideas; most technical work aims to p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: advanced_vector_extensions_2026
+  title: Advanced Vector Extensions 512 Acceleration of LSH and LEA-GCM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1177
+  directions:
+  - lightweight
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'This paper presents high-performance Advanced Vector Extensions 512 (AVX-512) implementations of two Korean standard
+    cryptographic algorithms: the Lightweight Secure Hash (LSH) hash function and Light'
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: anonymous_evoting_on_2026
+  title: 'Anonymous E-Voting on Hyperledger Fabric: Practical Mitigation of the Verification Paradox and Coercion Resistance'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1176
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Electronic voting systems inherently encompass a structural tension among ballot secrecy, verifiability, and coercion
+    resistance. Voters must be able to verify whether their votes have been included; '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: a_layered_risk_2026
+  title: A Layered Risk Scoring Model for TLS Connections Against Quantum Threats
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1174
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The advancement of quantum computing threatens public-key cryptographic algorithms used in TLS connections, such
+    as RSA and ECDHE. The Harvest Now, Decrypt Later (HNDL) attack exposes long-term confid
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: postquantum_migration_strategy_2026
+  title: Post-Quantum Migration Strategy for RSA Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1172
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Organizations relying on RSA-OAEP encryption in protocols such as JWE, SAML, and OIDC face a critical challenge:
+    transitioning to post-quantum cryptography without disrupting operational continuity. T'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: provablysecure_nizks_from_2026
+  title: Provably-Secure NIZKs From Multi-Round Oracle Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1167
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We study the security of the Fiat-Shamir transformation when applied to multi-round oracle proofs in the standard
+    model, showing that Interactive Oracle Proofs (IOPs) can be transformed via Fiat-Shami
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: on_the_statecompromise_2026
+  title: On the State-Compromise Security of End-to-End Real-Time Group Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1165
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Real-time group communication protocols, such as Zoom and Microsoft Teams, aim to provide end-to-end security
+    for audio and video conferences even in the presence of a malicious server. Despite their '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: algebraic_cryptanalytic_extraction_2026
+  title: Algebraic Cryptanalytic Extraction on Hard-Label Neural Networks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1164
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Although the state-of-the-art neural network model extraction attack in the hard-label setting by Carlini {\em
+    et al.} at EUROCRYPT 2025 has polynomial-time complexity in theory, its dual-point cluste
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: swift_shallow_and_2026
+  title: 'SWIFT: Shallow and SIMD-Aware CKKS Functional Bootstrapping for Low-Latency'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1163
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "Functional bootstrapping combines ciphertext refreshing with the evaluation of\r\na target function, and has become\
+    \ a central tool for evaluating non-linear\r\nfunctions in homomorphic encryption. In the "
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: finergrained_fixedkey_differential_2026
+  title: Finer-Grained Fixed-Key Differential Probability Distributions via Quasidifferential Decoupling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1162
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The recent study of fixed-key differential probabilities mainly follows two complementary approaches. The first
+    derives key-dependent constraints from the internal structure of the primitive. This app
+  status: pending_review
+  matched_keywords:
+  - differential
+  - GIFT
+  - SKINNY
+  - RECTANGLE
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: lemur_scalable_postquantum_2026
+  title: 'Lemur: Scalable Post-Quantum Synchronized Multi-Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1161
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Synchronized multi-signatures allow for non-interactive aggregation of signatures generated within the same time
+    step. This primitive is particularly well-suited for high-throughput blockchain protoco
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: generic_committing_attacks_2026
+  title: 'Generic Committing Attacks: Zero-Padded Ascon is Less Secure than Expected'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1160
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: We study generic committing attacks—where ciphertexts decrypt under more than one context, i.e., key, nonce, associated
+    data—for sponge-based authenticated encryption. As our main contribution, we giv
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - Ascon
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: quadratic_asynchronous_dkg_2026
+  title: Quadratic Asynchronous DKG from Plain Setup
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1159
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Asynchronous distributed key generation (ADKG) is a fundamental primitive for building threshold cryptosystems
+    and fault-tolerant distributed protocols in adversarial network settings. A central objec
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: a_geometric_approach_2026
+  title: A Geometric Approach to Quantum Distinguishers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1158
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper introduces a geometric framework for Q2 quantum distinguishers by combining the geometric approach to
+    classical symmetric-key cryptanalysis with the generalized correlation extraction algor
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SIMON
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: a_simple_and_2026
+  title: A Simple and Unified Approach for Proving Knowledge of Isogenies between Abelian Varieties
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1157
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper we introduce a simple and unified approach, based on generic proof systems,  to prove knowledge of
+    any isogeny between two principally polarized abelian varieties in any dimension, assum
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: sublinear_secure_broadcast_2026
+  title: Sub-Linear Secure Broadcast and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1156
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present improved distributed broadcast and MST algorithms that are unconditionally secure against an eavesdropper
+    controlling a fixed set of at most $f$ edges in an $n$-node $m$-edge $D$-diameter g
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: privacypreserving_proximity_testing_2026
+  title: Privacy-preserving Proximity Testing from Geometric Fuzzy Matching
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1155
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Proximity testing is crucial to location-privacy applications, from discovering nearby friends to enabling UAV
+    collision avoidance. In such settings, users must determine proximity without revealing t
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: leakagetolerant_circuits_against_2026
+  title: Leakage-Tolerant Circuits Against AC0 Leakage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1154
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A leakage-tolerant circuit (LTC) can be viewed as a black-box implementation of a given functionality f with respect
+    to a leakage class L in the sense that any leakage function L ∈ L applied to the ci
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: searchefficient_publickey_authenticated_2026
+  title: Search-Efficient Public-Key Authenticated Encryption with Keyword Search Made Easy
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1153
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Public-key authenticated encryption with keyword search (PAEKS), introduced by Huang and Li (Information Sciences
+    2017), was proposed to provide trapdoor privacy, whereby keyword information is protec
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - LED
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: constantround_interactive_consistency_2026
+  title: Constant-Round Interactive Consistency in Dishonest Majority, or with Quadratic Communication in Honest Majority
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1146
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present the first constant-expected-latency protocols for Interactive Consistency (IC), also known as Parallel
+    Byzantine Broadcast, that achieve either: (1) security in dishonest majority, namely $'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-09'
+  source: eprint
+- id: conventional_bitbased_division_2026
+  title: Conventional bit-based division property trail search is NP-complete
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1145
+  directions:
+  - integral_division
+  ciphers: []
+  significance: medium
+  summary: This short note shows that the conventional (2-subset) bit-based division property trail search problem is NP-complete.
+  status: pending_review
+  matched_keywords:
+  - division property
+  fetched_date: '2026-06-09'
+  source: eprint

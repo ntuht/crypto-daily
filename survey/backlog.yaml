@@ -1,1 +1,61 @@
-papers: []
+papers:
+- id: searchefficient_publickey_authenticated_2026
+  title: Search-Efficient Public-Key Authenticated Encryption with Keyword Search Made Easy
+  url: https://eprint.iacr.org/2026/1153
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - authenticated encryption
+  - LED
+  directions:
+  - aead
+  summary: Public-key authenticated encryption with keyword search (PAEKS), introduced by Huang and Li (Information Sciences
+    2017), was proposed to provide trapdoor privacy, whereby keyword information is protec
+  heuristic_score: 21
+  added_date: '2026-06-09'
+  authors: []
+- id: provablysecure_nizks_from_2026
+  title: Provably-Secure NIZKs From Multi-Round Oracle Proofs
+  url: https://eprint.iacr.org/2026/1167
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  summary: We study the security of the Fiat-Shamir transformation when applied to multi-round oracle proofs in the standard
+    model, showing that Interactive Oracle Proofs (IOPs) can be transformed via Fiat-Shami
+  heuristic_score: 11
+  added_date: '2026-06-09'
+  authors: []
+- id: mathsfprotoss_protocol_for_2026
+  title: $\mathsf{Protoss}$ Protocol for Tight Optimal Symmetric Security
+  url: https://eprint.iacr.org/2024/1581
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - PRESENT
+  directions:
+  - differential
+  summary: We present $\mathsf{Protoss}$, a new balanced PAKE protocol with optimal communication efficiency. Messages are
+    only 160 bits long and the computational complexity is lower than all previous approache
+  heuristic_score: 6
+  added_date: '2026-06-09'
+  authors: []
+- id: a_layered_risk_2026
+  title: A Layered Risk Scoring Model for TLS Connections Against Quantum Threats
+  url: https://eprint.iacr.org/2026/1174
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - AES
+  directions:
+  - differential
+  summary: The advancement of quantum computing threatens public-key cryptographic algorithms used in TLS connections, such
+    as RSA and ECDHE. The Harvest Now, Decrypt Later (HNDL) attack exposes long-term confid
+  heuristic_score: 6
+  added_date: '2026-06-09'
+  authors: []
