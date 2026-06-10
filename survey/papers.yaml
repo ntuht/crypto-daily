@@ -21507,3 +21507,90 @@ papers:
   - division property
   fetched_date: '2026-06-09'
   source: eprint
+- id: credential_revocation_assisted_2026
+  title: Credential Revocation Assisted by a Covertly Corrupted Server
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1854
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: European Digital Identity (EUDI) Wallet aims to provide end users with a way to get attested credentials from issuers,
+    and present them to different relying parties. An important property mentioned in
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-10'
+  source: eprint
+- id: mathsfpencil_a_domainextended_2026
+  title: '$\mathsf{♯Pencil}$: A Domain-Extended Committing BBB PRF for Strengthening GCM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/383
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: We consider the problem of constructing efficient committing pseudorandom functions with Beyond-Birthday-Bound
+    (BBB) security from blockciphers. More specifically, we are interested in expanding pseud
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - AES
+  - LED
+  fetched_date: '2026-06-10'
+  source: eprint
+- id: accelerating_multiparty_noise_2026
+  title: Accelerating Multiparty Noise Generation Using Lookups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/805
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a novel method for using lookup tables (LUTs) in multiparty noise sampling which allows using smaller
+    and/or fewer LUTs compared to previous work (Franzese et al., CCS'25, and Kii et al., P
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-10'
+  source: eprint
+- id: statistically_secure_asynchronous_2026
+  title: Statistically Secure Asynchronous MPC with Linear Communication and $\mathcal{O}(n^5)$ Additive Overhead
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/320
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure multiparty computation (MPC) allows distrusted parties to jointly evaluate a common function while keeping
+    their inputs private. In this work, we focus on improving the communication complexity
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-10'
+  source: eprint
+- id: barely_doublyefficient_simplepir_2026
+  title: Barely Doubly-Efficient SimplePIR
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1305
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A Private Information Retrieval (PIR) scheme allows a client to retrieve data from a database hosted on a remote
+    server without revealing which location is being accessed. In Doubly-Efficient PIR (DEP
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-10'
+  source: eprint

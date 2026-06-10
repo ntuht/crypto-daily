@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1192 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1197 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (983)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (988)
 
 ## 算法设计
 
@@ -247,7 +247,7 @@
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 认证加密 (AEAD) (44 篇)
+### 认证加密 (AEAD) (45 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -271,6 +271,7 @@
 - 🟡 **2026** — Advanced Vector Extensions 512 Acceleration of LSH and LEA-GCM
 - 🟡 **2026** — Generic Committing Attacks: Zero-Padded Ascon is Less Secure than Expected
 - 🟡 **2026** — Search-Efficient Public-Key Authenticated Encryption with Keyword Search Made Easy
+- 🟡 **2026** — $\mathsf{♯Pencil}$: A Domain-Extended Committing BBB PRF for Strengthening GCM
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -544,7 +545,7 @@
 
 ## 算法分析
 
-### 差分分析 (583 篇)
+### 差分分析 (587 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1067,6 +1068,10 @@
 - 🟡 **2026** — Privacy-preserving Proximity Testing from Geometric Fuzzy Matching
 - 🟡 **2026** — Leakage-Tolerant Circuits Against AC0 Leakage
 - 🟡 **2026** — Constant-Round Interactive Consistency in Dishonest Majority, or with Quadratic Communication in Honest Majority
+- 🟡 **2026** — Credential Revocation Assisted by a Covertly Corrupted Server
+- 🟡 **2026** — Accelerating Multiparty Noise Generation Using Lookups
+- 🟡 **2026** — Statistically Secure Asynchronous MPC with Linear Communication and $\mathcal{O}(n^5)$ Additive Overhead
+- 🟡 **2026** — Barely Doubly-Efficient SimplePIR
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
