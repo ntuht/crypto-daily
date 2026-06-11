@@ -21594,3 +21594,523 @@ papers:
   - PRESENT
   fetched_date: '2026-06-10'
   source: eprint
+- id: aice_an_arithmeticoriented_2026
+  title: 'AICE: An Arithmetic-Oriented Stream Cipher for Heterogeneous Computing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1181
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Heterogeneous computing platforms increasingly rely on high-throughput data paths spanning CPUs and accelerators,
+    yet most high-speed software ciphers are optimized primarily for CPU-centric execution
+  status: pending_review
+  matched_keywords:
+  - differential
+  - AES
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: rank_ceiling_for_2026
+  title: Rank Ceiling for Twiddle-Perturbation Faults on the Forward NTT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1188
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: NIST standardised a lattice-based key-encapsulation mechanism (ML-KEM) and a lattice-based digital signature scheme
+    (ML-DSA) in 2024 as post-quantum replacements for classical key establishment and di
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: stakenote_a_proofofstake_2026
+  title: 'StakeNote: A Proof-of-Stake Protocol for CryptoNote Payments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1205
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This work proposes StakeNote, a distributed ledger protocol that combines Proof-of-Stake (PoS) with privacy and
+    anonymity preserving payments. The protocol combines Ouroboros Praos, a provably secure '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: faster_leaderbased_consensus_2026
+  title: Faster Leader-Based Consensus via Certificates of Exclusivity and Overlapping Iterations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1214
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Blockchain consensus protocols, also known as BFT state-machine replication, enable a system of $n$ players to
+    decide an ever-growing chain of blocks. We consider partial synchrony: after an unknown t'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: ucx_is_all_2026
+  title: 'UCX is All You Need: A Universal Transform for Committing Authenticated Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1222
+  directions:
+  - aead
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: Emerging attacks and applications have motivated the development of transforms that turn a given AE scheme into
+    a committing AE (cAE) one. We give a new transform called UCX with the following attribu
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - tweakable
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: leakageresilient_circuits_against_2026
+  title: Leakage-Resilient Circuits against $\mathsf{NC^1}$, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1463
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this study, we revisit leakage-resilient circuits (LRCs) against $\mathsf{NC}^1$-leakage and propose new constructions
+    that minimize the reliance on leak-free hardware. Specifically, we first prese
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: signaturefree_atomic_broadcast_2026
+  title: Signature-Free Atomic Broadcast with Optimal $O(n^2)$ Messages and $O(1)$ Expected Time
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1549
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Byzantine atomic broadcast (ABC) is at the heart of  permissioned blockchains and various multi-party computation
+    protocols. We resolve a long-standing open problem in ABC, presenting the first inform
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: a_tool_for_2026
+  title: 'A Tool for Fast and Secure LWE Parameter Selection: the FHE case'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1895
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'The field of Fully Homomorphic Encryption (FHE) has seen many theoretical and computational advances in recent
+    years, bringing the technology closer to practicality than ever before. For this reason, '
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: neon_ntt_autoformalised_2026
+  title: Neon NTT - (Auto)formalised
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1223
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This document provides a machine-checked Isabelle/HOL formalisation of the modular-arithmetic core of the Neon
+    NTT paper of Becker, Hwang, Kannwischer, Yang, and Yang. We develop parametric theories o
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: algorithms_for_solving_2026
+  title: Algorithms for solving the isogeny problem with oriented elliptic curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1219
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We introduce WayFinder, a framework for generalizing the Delfs-Galbraith and SuperSolver algorithms for the supersingular
+    isogeny problem. Our framework extends the search for elliptic curves with an '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: highaccuracy_poisoningresilient_frequency_2026
+  title: High-Accuracy, Poisoning-Resilient Frequency Estimation in the Shuffle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1218
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study frequency estimation in the shuffle model of differential privacy under poisoning attacks, where corrupted
+    users may deviate from the local randomizer to inject crafted in-domain messages. Ex
+  status: pending_review
+  matched_keywords:
+  - differential
+  - CRAFT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: secure_computation_against_2026
+  title: Secure Computation against $\mathsf{NC^1}$ Leakage without Secure Hardware
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1217
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we construct (stateful) leakage-resilient circuits (LRCs) secure against bounded-output-length leakage
+    functions computable by \(\mathsf{NC}^1\) circuits under the mild worst-case assump
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: seclora_secure_aggregation_2026
+  title: 'SecLoRA: Secure Aggregation of Low-Rank Matrix Products via Functional Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1212
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Federated fine-tuning of Large Language Models via Low Rank Adaptation (LoRA) faces a critical privacy-efficiency
+    trade-off: low-rank factors can leak sensitive data, yet standard secure aggregation i'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: latencyaware_highthroughput_homomorphic_2026
+  title: Latency-Aware, High-Throughput Homomorphic AES Evaluation with CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1209
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Homomorphic Advanced Encryption Standard (AES) evaluation refers to evaluating the AES circuit with a fully homomorphic
+    encryption (FHE)-encrypted secret key. Applications include in particular Transc
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  - CRAFT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: preimage_sampleable_function_2026
+  title: Preimage sampleable function families without discrete Gaussians
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1208
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We construct preimage sampleable function families on $q$-ary lattices [Gentry–Peikert–Vaikuntanathan, STOC'08]
+    for which preimage sampling reduces to sampling uniform points of unitriangular lattices
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: sticking_their_heads_2026
+  title: '"Sticking their heads out above the parapets": Lived Experiences of Legal Risks in Research (Extended)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1207
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Overbroad computer crime, intellectual property, and other laws are well known to create legal risks that can discourage
+    essential research. Notable examples include the US Computer Fraud and Abuse Ac
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: scalable_quantumaccessible_and_2026
+  title: Scalable, quantum-accessible, and adaptive pseudorandom quantum state and pseudorandom function-like quantum state
+    generators
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1206
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We show new constructions for pseudorandom quantum states (PRS) and pseudorandom function-like quantum state (PRFS)
+    generators satisfying scalability, which means the security parameter can be much la
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: robust_singletrace_fullkey_2026
+  title: Robust Single-Trace Full-Key Extraction from Million-Point Traces With Cross-Implementation Transfer
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1204
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: End-to-end deep-learning side-channel attacks on public-key implementations have recently become possible even
+    for million-sample traces. However, existing methods require large computational resource
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: signatures_with_postcompromise_2026
+  title: Signatures with Post-Compromise Accountability
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1203
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cryptographic signatures play an integral part in ensuring authenticity and integrity in digital systems. Their
+    security crucially relies on the secrecy of the signing key, since knowledge of this key
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: morphic_accumulators_and_2026
+  title: 'Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1202
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Cryptographic accumulators based on groups of unknown order (GUO) provide constant-size set membership proofs.
+    For security purposes, existing works require first encoding set elements via division-in
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: character_block_encodings_2026
+  title: 'Character Block Encodings for Discrete CKKS: Single-Level LUTs and Low-Depth Arithmetic'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1200
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Functional bootstrapping has made discrete computation practical in the Cheon-Kim-Kim-Song (CKKS) scheme, but it
+    fuses four distinct tasks - lookup table (LUT) evaluation, modular reduction, noise cle
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: a_postquantum_commitment_2026
+  title: A Post-Quantum Commitment Scheme from Richelot Isogeny Walks on Superspecial Genus-2 Jacobians
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1199
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "We present a post-quantum commitment scheme based on kernel-tagged punctured Richelot isogeny walks on superspecial\
+    \ genus-2 Jacobians. The puncturing\r\nrule skips every step landing in the product locu"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: grand_danois_succinct_2026
+  title: 'Grand Danois: Succinct Multilinear Polynomial Commitments over Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1196
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present Grand Danois, a new post-quantum multilinear polynomial commitment scheme from lattices for polynomials
+    over $\mathbb{F}_q$ that achieves polylogarithmic $O(\lambda \ell)$ verification comp
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: decryptchain_a_permissionless_2026
+  title: 'DecryptChain: A Permissionless Proof-of-Work Encrypted Mempool'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1195
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Blockchain mempool transparency fuels Maximal Extractable Value (MEV), where attackers can front-run, back-run,
+    and reorder transactions as soon as they appear. Encrypted mempools aim to delay the rel
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: unconditionally_secure_mpc_2026
+  title: Unconditionally Secure MPC for Boolean Circuits with Constant Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1194
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The communication complexity of unconditionally Secure Multi-Party Computation (MPC) protocols has been studied
+    by a series of works in the honest-majority setting. For evaluating an arbitrary Boolean
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: cryptanalytic_properties_of_2026
+  title: Cryptanalytic Properties of Mealy Machines
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1193
+  directions:
+  - permutation_layer
+  - boomerang
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This paper proposes a systematic approach to compute cryptanalytic properties of arbitrary Mealy machines or S-functions.\
+    \ \r\nBased on the geometric approach to cryptanalysis, we provide a uniform formu"
+  status: pending_review
+  matched_keywords:
+  - differential
+  - boomerang
+  - permutation
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: do_you_need_2026
+  title: Do You Need a Receipt? Anonymous Credential Revocation at Continental Scale via Private Record Certification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1189
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A key challenge in digital credential systems is revocation, that is, the ability to revoke credentials post-issuance
+    and verify their status upon presentation. While anonymous credentials enhance pri
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: butterfly_effect_multikey_2026
+  title: 'Butterfly Effect: Multi-Key FHE from Ring-LWR'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1186
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Learning with Errors (LWE) problem is a fundamental hardness assumption underlying most fully homomorphic
+    encryption (FHE) schemes. Given the close relationship between the Learning with Rounding '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
+- id: publickey_pseudorandom_codes_2026
+  title: Public-Key Pseudorandom Codes from Distorted McEliece Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1184
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Pseudorandom codes (PRCs), introduced at Crypto 2024 by Christ and Gunn, are encryption schemes with pseudorandom
+    ciphertexts and error-correction guarantees. PRCs are useful as a tool to obtain water
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-06-11'
+  source: eprint
