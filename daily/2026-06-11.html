@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-06-11</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-06-11</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-06-11</h1>
+
+<blockquote>
+<p>自动生成于 2026-06-11 04:46</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 29 篇 → 启发式 6 篇 → 精选 <strong>6 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [AICE: An Arithmetic-Oriented Stream Cipher for Heterogeneous Computing](https://eprint.iacr.org/2026/1181)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1181.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着异构计算平台对CPU和加速器之间高吞吐量数据路径的依赖日益增加，现有高速软件密码大多仍主要针对CPU执行进行优化。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种名为AICE的算术导向流密码，旨在专门优化异构计算环境下的性能。AICE通过利用算术运算的特性，更好地适应加速器（如GPU、FPGA）的并行处理能力，从而在CPU和加速器协同工作时实现更高的吞吐量和效率。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为未来在多核、多架构计算环境中设计高效密码算法提供了新的思路和解决方案。</p>
+
+<hr>
+
+<h3>2. [Cryptanalytic Properties of Mealy Machines](https://eprint.iacr.org/2026/1193)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1193.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Mealy机（或S函数）在密码学中常用于构建S盒等非线性组件，其密码分析特性对于评估密码算法的安全性至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种系统性方法，基于密码分析的几何方法，能够统一地计算任意Mealy机或S函数的密码分析特性。这可能涉及构建一个数学框架，用于量化和分析Mealy机的差分特性、线性特性等，从而揭示其在密码攻击下的潜在脆弱性。</p>
+
+<p>🎯 <strong>意义</strong>：该方法为理解和评估基于Mealy机的密码组件的安全性提供了强大的理论工具。</p>
+
+<hr>
+
+<h3>3. [UCX is All You Need: A Universal Transform for Committing Authenticated Encryption](https://eprint.iacr.org/2026/1222)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1222.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：新兴的攻击和应用促使研究人员开发能够将现有认证加密（AE）方案转换为承诺认证加密（cAE）方案的通用转换方法。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种名为UCX的新型转换方法，旨在将任何给定的AE方案转换为具有承诺属性的cAE方案。这种转换可能通过引入额外的机制（如哈希函数或承诺方案）来确保加密者在生成密文后无法否认其所加密的明文，从而增强了AE方案的不可抵赖性。</p>
+
+<p>🎯 <strong>意义</strong>：UCX为构建更安全、更具信任度的认证加密系统提供了普适且高效的解决方案。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1209" target="_blank">Latency-Aware, High-Throughput Homomorphic AES Evaluation with CKKS</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1209.pdf)</p>
+
+<blockquote>
+<p>本文利用CKKS同态加密方案，实现了对AES电路的低延迟、高吞吐量同态评估，以处理加密数据。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1202" target="_blank">Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1202.pdf)</p>
+
+<blockquote>
+<p>本文提出了基于未知阶群的Morphic累加器，并展示了其在实现最优范围证明、多项式承诺和环签名等应用中的潜力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1218" target="_blank">High-Accuracy, Poisoning-Resilient Frequency Estimation in the Shuffle Model</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1218.pdf)</p>
+
+<blockquote>
+<p>本文研究了在差分隐私的混洗模型下，面对投毒攻击时，如何实现高精度且具有抗投毒能力的频率估计。</p>
+</blockquote>
+
+<p><em>精选自 29 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
