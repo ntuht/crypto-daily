@@ -22114,3 +22114,273 @@ papers:
   - LED
   fetched_date: '2026-06-11'
   source: eprint
+- id: formula_freshness_for_2026
+  title: Formula Freshness for Staged Hybrid Authenticated Key Exchange
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1230
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Hybrid post-quantum migration is entering deployed handshake designs, but hybrid KEM security protects only one
+    shared-secret input. It does not by itself say whether handshake, application, exporter,
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: on_the_cryptographic_2026
+  title: On the Cryptographic Resilience of MDS Matrices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2240
+  directions:
+  - linear_diffusion
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The zero-difference attack on AES, introduced by  Bardeh and Rijmen in [ToSC 2022(2):43--62], exploits some structural
+    properties -referred to as related differentials- in the AES MDS matrix. Daemen a
+  status: pending_review
+  matched_keywords:
+  - differential
+  - MDS
+  - AES
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: key_committing_security_2026
+  title: Key Committing Security of HCTR2, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/254
+  directions:
+  - lightweight
+  - aead
+  ciphers: []
+  significance: medium
+  summary: This paper presents improved attacks and proofs for the key committing security of EtE-HCTR2, a robust authenticated
+    encryption scheme constructed from HCTR2 and the Encode-then-Encipher (EtE) framewo
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - authenticated encryption
+  - PRESENT
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: pow_micronomics_a_2026
+  title: 'PoW Micronomics: A Fine-Grained Model for the Economic Analysis of Proof-of-Work Blockchains'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1241
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Following the cryptographic security analyses of proof-of-work (PoW) blockchain protocols, a line of research
+    has focused on their economic robustness. The two core questions asked are: How resilient '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: adaptive_attacks_on_2026
+  title: Adaptive attacks on FESTA variants with masked-degree isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1240
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: FESTA is an isogeny-based trapdoor function proposed as a high-performance alternative in isogeny-based cryptography.
+    Its core design principles have inspired a number of related constructions, collec
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: balanced_additive_randomized_2026
+  title: Balanced Additive Randomized Encodings for Shuffle Differential Privacy
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1239
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Shuffle differential privacy (shuffle DP) offers an attractive distributed alternative to standard differential
+    privacy. It uses a secure shuffler to permute users' randomized encodings, providing ind
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: on_the_additive_2026
+  title: On the Additive Sensitivity of LZ77 Under Consecutive Edits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1238
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We revisit the problem of mitigating information leakage in the widely used but insecure compress-then-encrypt
+    paradigm. While encryption hides message contents, the ciphertext length is directly rela
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: sing_improving_the_2026
+  title: 'SING: Improving the Efficiency of MPC Protocol Assignment using Graph Neural Networks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1237
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure Multi-Party Computation (MPC) enables private computation, but has significantly higher overhead than plaintext
+    execution. Hybrid MPC compilers improve concrete efficiency by mapping distinct c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: authenticated_data_structures_2026
+  title: Authenticated Data Structures for Dynamic Workloads
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1235
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We introduce the Huffman-Merkle Tree (HMT), an authenticated data structure (ADS) optimized for dynamic workloads
+    where some items may be more frequently accessed than others, and access frequencies c
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: implementation_of_learning_2026
+  title: Implementation of Learning with Errors in Non-Commuting Multiplicative Groups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1233
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we demonstrate a way to generalize learning with errors (LWE) to the family of so-called modular-maximal
+    cyclic groups which are non-commuting. Since the group $\mathbb{M}_{2^t}$ has tw
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: a_heuristic_subexponential_2026
+  title: A Heuristic Subexponential Attack on the McEliece Cryptosystem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1232
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: We provide a new way of performing an algebraic attack on the McEliece cryptosystem based on binary Goppa codes.
+    It also applies in general to the case where the field over which the Goppa code is def
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: invisible_traces_subversion_2026
+  title: 'Invisible Traces: Subversion Attacks on Batch-Issued Credentials'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1229
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'All EU member states are required to roll out a digital identity system - the European Digital Identity (EUDI)
+    wallet - by the end of 2026. Strong privacy is at the core of the underlying regulation, '
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: advancing_pseudorandom_codes_2026
+  title: 'Advancing Pseudorandom Codes: Beyond Parity Checks and Standard-Model CCA1 Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1228
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Pseudorandom codes (PRCs) are error-correcting codes whose codewords are computationally indistinguishable from\
+    \ uniform random strings, \r\na primitive motivated by the need to robustly watermark genera"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: chosen_ciphertext_secure_2026_1
+  title: Chosen Ciphertext Secure Pseudorandom Codes in the Standard Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1227
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Pseudorandom codes (PRCs), recently proposed by Christ and Gunn (CRYPTO'24), are encryption schemes that have pseudorandom
+    ciphertexts and a decryption algorithm which is resilient against a bounded n
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-12'
+  source: eprint
+- id: changing_of_the_2026
+  title: Changing of the Guards with Two Shares - Security Flaws, Corrrections, and Application to Low-Latency AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1226
+  directions:
+  - sbox
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: Masking stands as one of the most effective countermeasures against side-channel attacks. While a number of recent
+    works have investigated first-order masking schemes that eliminate the need for fresh
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - low latency
+  - AES
+  - PRESENT
+  fetched_date: '2026-06-12'
+  source: eprint

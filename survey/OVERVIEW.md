@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1226 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1241 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1017)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1032)
 
 ## 算法设计
 
-### 轻量级密码综合 (135 篇)
+### 轻量级密码综合 (137 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -152,6 +152,8 @@
 - 🟡 **2026** — FHE for SIMD Arithmetic Logic Units with Amortized $O(1)$ Bootstrapping per Ciphertext
 - 🟡 **2026** — Meet-in-the-Middle Attacks on Full ChiLow
 - 🟡 **2026** — Advanced Vector Extensions 512 Acceleration of LSH and LEA-GCM
+- 🟡 **2026** — Key Committing Security of HCTR2, Revisited
+- 🟡 **2026** — Invisible Traces: Subversion Attacks on Batch-Issued Credentials
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -248,7 +250,7 @@
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 认证加密 (AEAD) (46 篇)
+### 认证加密 (AEAD) (47 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -274,6 +276,7 @@
 - 🟡 **2026** — Search-Efficient Public-Key Authenticated Encryption with Keyword Search Made Easy
 - 🟡 **2026** — $\mathsf{♯Pencil}$: A Domain-Extended Committing BBB PRF for Strengthening GCM
 - 🟡 **2026** — UCX is All You Need: A Universal Transform for Committing Authenticated Encryption
+- 🟡 **2026** — Key Committing Security of HCTR2, Revisited
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -340,7 +343,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### S-box 设计与评估 (34 篇)
+### S-box 设计与评估 (35 篇)
 
 - 🟡 **2026** — How Small Can S-boxes Be?
 - 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
@@ -359,6 +362,7 @@
 - 🟡 **2026** — Can We Tolerate Small Side-Channel Leakages: The Role of Registers in Glitch-Stopping Circuits
 - 🟡 **2026** — On Maximum Size Simultaneous Linear Approximations in Ascon and Keccak and Related Translation and Differential Properties
 - 🟡 **2026** — The ABC of Symmetric Primitives over Integer Rings: Milk Before Meat
+- 🟡 **2026** — Changing of the Guards with Two Shares - Security Flaws, Corrrections, and Application to Low-Latency AES
 - 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
 - 🟡 **2024** — A Family of Biprojective APN Functions
 - 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
@@ -447,7 +451,7 @@
 - 🔴 **1988** — How to Construct Pseudorandom Permutations from Pseudorandom Functions
 - 🔴 **1973** — Cryptography and Computer Privacy [Lucifer]
 
-### 线性扩散层 (23 篇)
+### 线性扩散层 (24 篇)
 
 - 🟡 **2026** — New General MDS Matrix Construction Method Towards Low Area
 - 🟡 **2026** — MDS Diffusion Layers for Arithmetization-Oriented Symmetric Ciphers: The Rotational-Add Construction
@@ -463,6 +467,7 @@
 - 🟡 **2026** — SEFA: A Secure, Efficient, and Flexible Algorithm Design Strategy for Block Ciphers and Sponge Permutations
 - 🟡 **2026** — Ghost of Sessions Past: Distributed and Forward Secure Key Establishment for Implantable Medical Devices
 - 🟡 **2026** — Revisiting Linear Subspace Trails in Poseidon2 and Neptune
+- 🟡 **2026** — On the Cryptographic Resilience of MDS Matrices
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🔴 **2025** — Multiple Rows Mixers and Hsilu: A Family of Linear Layers and a Permutation with Fewer XORs [Hsilu]
 - 🟡 **2024** — Ultra-Light MDS Matrices: Implementation Trees and Enumeration
@@ -498,7 +503,7 @@
 - 🔴 **2008** — ChaCha, a variant of Salsa20 [ChaCha, Salsa20]
 - 🔴 **2005** — Salsa20 specification [Salsa20]
 
-### 低时延密码 (19 篇)
+### 低时延密码 (20 篇)
 
 - 🟡 **2026** — Making Uncertified DAG BFT Provably Live with Linear Payload and Quadratic Metadata Communication
 - 🟡 **2026** — Synchronous BFT with Provability and Fast Path for the Age of Blockchains
@@ -506,6 +511,7 @@
 - 🟡 **2026** — InstantOMR: Oblivious Message Retrieval with Low Latency and Optimal Parallelizability
 - 🟡 **2026** — RISQrypt: Fast, Secure and Agile Hardware-Software Co-Design for Post-Quantum Cryptography
 - 🟡 **2026** — Hydrangea: Optimistic Two-Round Partial Synchrony with Improved Fault Resilience
+- 🟡 **2026** — Changing of the Guards with Two Shares - Security Flaws, Corrrections, and Application to Low-Latency AES
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🟡 **2024** — MATTER: A Wide-Block Tweakable Block Cipher [MATTER]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -548,7 +554,7 @@
 
 ## 算法分析
 
-### 差分分析 (604 篇)
+### 差分分析 (613 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1092,6 +1098,15 @@
 - 🟡 **2026** — Cryptanalytic Properties of Mealy Machines
 - 🟡 **2026** — Do You Need a Receipt? Anonymous Credential Revocation at Continental Scale via Private Record Certification
 - 🟡 **2026** — Butterfly Effect: Multi-Key FHE from Ring-LWR
+- 🟡 **2026** — Formula Freshness for Staged Hybrid Authenticated Key Exchange
+- 🟡 **2026** — On the Cryptographic Resilience of MDS Matrices
+- 🟡 **2026** — PoW Micronomics: A Fine-Grained Model for the Economic Analysis of Proof-of-Work Blockchains
+- 🟡 **2026** — Adaptive attacks on FESTA variants with masked-degree isogenies
+- 🟡 **2026** — Balanced Additive Randomized Encodings for Shuffle Differential Privacy
+- 🟡 **2026** — On the Additive Sensitivity of LZ77 Under Consecutive Edits
+- 🟡 **2026** — SING: Improving the Efficiency of MPC Protocol Assignment using Graph Neural Networks
+- 🟡 **2026** — Implementation of Learning with Errors in Non-Commuting Multiplicative Groups
+- 🟡 **2026** — Chosen Ciphertext Secure Pseudorandom Codes in the Standard Model
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1364,7 +1379,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (148 篇)
+### 中间相遇 (150 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -1503,6 +1518,8 @@
 - 🟡 **2026** — A Post-Quantum Commitment Scheme from Richelot Isogeny Walks on Superspecial Genus-2 Jacobians
 - 🟡 **2026** — Grand Danois: Succinct Multilinear Polynomial Commitments over Lattices
 - 🟡 **2026** — DecryptChain: A Permissionless Proof-of-Work Encrypted Mempool
+- 🟡 **2026** — Authenticated Data Structures for Dynamic Workloads
+- 🟡 **2026** — Advancing Pseudorandom Codes: Beyond Parity Checks and Standard-Model CCA1 Security
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -1610,7 +1627,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### 代数攻击 (33 篇)
+### 代数攻击 (34 篇)
 
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -1628,6 +1645,7 @@
 - 🟡 **2026** — The ABC of Symmetric Primitives over Integer Rings: Milk Before Meat
 - 🟡 **2026** — Algebraic Attack on Convolutional Neural Networks with Max Pooling
 - 🟡 **2026** — Reassessing the Security of LPN-C and its HHE-Oriented Variants
+- 🟡 **2026** — A Heuristic Subexponential Attack on the McEliece Cryptosystem
 - 🟡 **2025** — Cryptanalysis of ChiLow with Cube-Like Attacks [ChiLow]
 - 🔴 **2025** — Improved Key Recovery Attacks on Ascon [Ascon]
 - 🟡 **2025** — Core Monomial Prediction for Weak-Key Superpoly Recovery in Stream Ciphers [Trivium]
