@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-06-12 04:49</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-06-13 04:37</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1241</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1250</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,11 +35,11 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1241</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1250</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">137</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">139</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">63</span></div>
-  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">47</span></div>
+  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">48</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">35</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">33</span></div>
@@ -51,14 +51,14 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">613</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">206</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">150</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">617</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">208</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">151</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">54</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">35</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">34</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">31</span></div>
-  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">28</span></div>
+  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">29</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">20</span></div>
   <div class="dir-item" data-dir="automated_search" onclick="filterDir('automated_search')">自动化搜索框架 <span class="count">17</span></div>
   <div class="dir-item" data-dir="related_key" onclick="filterDir('related_key')">相关密钥攻击 <span class="count">15</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1241 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1250 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -13792,6 +13792,127 @@ a primitive motivated by the need to robustly watermark genera</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">Masking stands as one of the most effective countermeasures against side-channel attacks. While a number of recent works have investigated first-order masking schemes that eliminate the need for fresh</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span><span class="tag tag-direction">低时延密码</span></div>
+</div>
+
+<div class="paper-card" data-id="gapp_generic_aggregation_2026" data-dirs="milp_sat_cp,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="gapp: generic aggregation of polynomial protocols   we construct a new bivariate polynomial commitment scheme, bpclb, with succinct verification, o(m+n) sized public parameters, and o(m + n) cryptographic operations to generate evaluation proofs for bi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1685" target="_blank">GAPP: Generic Aggregation of Polynomial Protocols</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We construct a new bivariate polynomial commitment scheme, bPCLB, with succinct verification, O(m+n) sized public parameters, and O(m + n) cryptographic operations to generate evaluation proofs for bi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="grafting_decoupled_scale_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="grafting: decoupled scale factors and modulus in rns-ckks   the ckks fully homomorphic encryption (fhe) scheme enables approximate arithmetic on encrypted complex numbers for a desired precision. most implementations use rns with carefully chosen parameters to">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1014" target="_blank">Grafting: Decoupled Scale Factors and Modulus in RNS-CKKS</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The CKKS Fully Homomorphic Encryption (FHE) scheme enables approximate arithmetic on encrypted complex numbers for a desired precision. Most implementations use RNS with carefully chosen parameters to</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="whats_the_matter_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="what’s the matter? an in-depth security analysis of the matter protocol   the matter protocol has emerged as the leading standard for secure iot interoperability, backed by major vendors such as apple, google, amazon, samsung, and others. with millions of matter devices alr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1268" target="_blank">What’s the Matter? An In-Depth Security Analysis of the Matter Protocol</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Matter protocol has emerged as the leading standard for secure IoT interoperability, backed by major vendors such as Apple, Google, Amazon, Samsung, and others. With millions of Matter devices alr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="multiholder_anonymous_credentials_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="multi-holder anonymous credentials from bbs signatures   the eidas 2.0 regulation aims to develop interoperable digital identities for european citizens, and it has recently become law.  one of its requirements is that credentials be unlinkable.  anonymous">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1874" target="_blank">Multi-Holder Anonymous Credentials from BBS Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The eIDAS 2.0 regulation aims to develop interoperable digital identities for European citizens, and it has recently become law.  One of its requirements is that credentials be unlinkable.  Anonymous</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="is_sha1_conceptually_2026" data-dirs="milp_sat_cp,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="is sha-1 conceptually sound?   we argue that if the message expansion code of sha-1 is replaced
+by a linear code with a better minimum distance, then the resulting
+hash function is collision resistant. to support this argument,">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2005/350" target="_blank">Is SHA-1 conceptually sound?</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We argue that if the message expansion code of SHA-1 is replaced
+by a linear code with a better minimum distance, then the resulting
+hash function is collision resistant. To support this argument,</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="a_formal_security_2026" data-dirs="aead"
+     data-year="2026" data-significance="medium"
+     data-search="a formal security proof of masking: reduction from strong noisy leakage to probing model without random probing and application to lr primitive   this paper provides upper bounds on the success rate (sr) of side-channel attacks (scas) on masked implementations. we present a formal security proof of additive masking over any finite abelian group">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2199" target="_blank">A Formal Security Proof of Masking: Reduction from Strong Noisy Leakage to Probing Model without Random Probing and Application to LR Primitive</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper provides upper bounds on the success rate (SR) of side-channel attacks (SCAs) on masked implementations. We present a formal security proof of additive masking over any finite abelian group</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="a_not_so_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a not so discrete sampler: power analysis attacks on hawk signature scheme   hawk is a lattice-based signature scheme candidate to the fourth call of the nist&#x27;s post-quantum standardization campaign. considered as a cousin of falcon (one of the future nist post-quantum standar">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/1248" target="_blank">A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">HAWK is a lattice-based signature scheme candidate to the fourth call of the NIST&#x27;s Post-Quantum standardization campaign. Considered as a cousin of Falcon (one of the future NIST post-quantum standar</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="crypto_wars_in_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="crypto wars in secure messaging: covert channels in signal despite leaked keys   end-to-end encryption (e2ee) is the foundation of modern secure messaging, with the signal protocol as the de facto standard in applications such as signal, whatsapp, facebook messenger and google mes">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2172" target="_blank">Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">End-to-end encryption (E2EE) is the foundation of modern secure messaging, with the Signal protocol as the de facto standard in applications such as Signal, WhatsApp, Facebook Messenger and Google Mes</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="improved_subfield_curve_2026" data-dirs="invariant"
+     data-year="2026" data-significance="medium"
+     data-search="improved subfield curve search for specific field characteristics   isogeny-based cryptography relies its security on the hardness of the supersingular isogeny problem: finding an isogeny between two supersingular curves defined over a quadratic field extension of $\m">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/226" target="_blank">Improved Subfield Curve Search For Specific Field Characteristics</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Isogeny-based cryptography relies its security on the hardness of the supersingular isogeny problem: finding an isogeny between two supersingular curves defined over a quadratic field extension of $\m</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">不变量与子空间</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"

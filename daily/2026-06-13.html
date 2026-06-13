@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-06-13</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-06-13</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-06-13</h1>
+
+<blockquote>
+<p>自动生成于 2026-06-13 04:37</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 9 篇 → 启发式 3 篇 → 精选 <strong>3 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Is SHA-1 conceptually sound?](https://eprint.iacr.org/2005/350)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2005/350.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：SHA-1哈希函数因其已知的碰撞攻击而不再被视为安全，但对其核心设计理念的深入理解仍具有理论价值。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出，如果将SHA-1的消息扩展（message expansion）部分替换为一个具有更好最小距离的线性码，那么修改后的哈希函数将具备抗碰撞性。这表明SHA-1的整体结构可能并非根本性缺陷，而是特定组件（消息扩展）的弱点导致了其不安全性。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为理解SHA-1的内在安全边界提供了新的视角，并可能启发未来哈希函数的设计优化，尤其是在消息扩展机制方面。</p>
+
+<hr>
+
+<h3>2. [What’s the Matter? An In-Depth Security Analysis of the Matter Protocol](https://eprint.iacr.org/2025/1268)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 8/10 | [📎 PDF](https://eprint.iacr.org/2025/1268.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Matter协议作为由苹果、谷歌、亚马逊等主要厂商支持的物联网（IoT）互操作性安全标准，正迅速普及，其安全性对数百万已部署设备至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文对Matter协议进行了深入细致的安全分析，旨在全面评估其在保护物联网设备和数据方面的能力。通过系统性审查，研究人员识别协议中潜在的安全漏洞、弱点或设计缺陷，以确保其在实际应用中的鲁棒性。</p>
+
+<p>🎯 <strong>意义</strong>：这项分析有助于提升Matter协议的整体安全性，确保物联网生态系统的稳健发展，并为未来安全协议的设计和部署提供宝贵经验。</p>
+
+<hr>
+
+<h3>3. [GAPP: Generic Aggregation of Polynomial Protocols](https://eprint.iacr.org/2024/1685)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2024/1685.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在零知识证明（ZKP）和区块链领域，高效且可扩展的多项式承诺方案是构建隐私保护和高性能系统的关键组件。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文构建了一种新的双变量多项式承诺方案bPCLB，该方案具有简洁的验证过程、O(m+n)大小的公共参数，以及生成双变量多项式求值证明所需的O(m+n)密码学操作。GAPP框架进一步实现了多项式协议的通用聚合，显著提升了效率和实用性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为构建更高效、更具扩展性的零知识证明系统提供了基础，对区块链、隐私计算和可验证计算领域具有重要应用价值。</p>
+
+<hr>
+
+<p><em>精选自 9 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
