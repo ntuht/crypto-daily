@@ -22384,3 +22384,169 @@ papers:
   - PRESENT
   fetched_date: '2026-06-12'
   source: eprint
+- id: gapp_generic_aggregation_2026
+  title: 'GAPP: Generic Aggregation of Polynomial Protocols'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1685
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We construct a new bivariate polynomial commitment scheme, bPCLB, with succinct verification, O(m+n) sized public
+    parameters, and O(m + n) cryptographic operations to generate evaluation proofs for bi
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: grafting_decoupled_scale_2026
+  title: 'Grafting: Decoupled Scale Factors and Modulus in RNS-CKKS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1014
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The CKKS Fully Homomorphic Encryption (FHE) scheme enables approximate arithmetic on encrypted complex numbers
+    for a desired precision. Most implementations use RNS with carefully chosen parameters to
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: whats_the_matter_2026
+  title: What’s the Matter? An In-Depth Security Analysis of the Matter Protocol
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1268
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The Matter protocol has emerged as the leading standard for secure IoT interoperability, backed by major vendors
+    such as Apple, Google, Amazon, Samsung, and others. With millions of Matter devices alr
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: multiholder_anonymous_credentials_2026
+  title: Multi-Holder Anonymous Credentials from BBS Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1874
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The eIDAS 2.0 regulation aims to develop interoperable digital identities for European citizens, and it has recently
+    become law.  One of its requirements is that credentials be unlinkable.  Anonymous '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: is_sha1_conceptually_2026
+  title: Is SHA-1 conceptually sound?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2005/350
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "We argue that if the message expansion code of SHA-1 is replaced\r\nby a linear code with a better minimum distance,\
+    \ then the resulting\r\nhash function is collision resistant. To support this argument,\r\n"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - block cipher
+  - PRESENT
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: a_formal_security_2026
+  title: 'A Formal Security Proof of Masking: Reduction from Strong Noisy Leakage to Probing Model without Random Probing
+    and Application to LR Primitive'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2199
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: This paper provides upper bounds on the success rate (SR) of side-channel attacks (SCAs) on masked implementations.
+    We present a formal security proof of additive masking over any finite abelian group
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - PRESENT
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: a_not_so_2026
+  title: 'A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1248
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: HAWK is a lattice-based signature scheme candidate to the fourth call of the NIST's Post-Quantum standardization
+    campaign. Considered as a cousin of Falcon (one of the future NIST post-quantum standar
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: crypto_wars_in_2026
+  title: 'Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2172
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: End-to-end encryption (E2EE) is the foundation of modern secure messaging, with the Signal protocol as the de facto
+    standard in applications such as Signal, WhatsApp, Facebook Messenger and Google Mes
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-13'
+  source: eprint
+- id: improved_subfield_curve_2026
+  title: Improved Subfield Curve Search For Specific Field Characteristics
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/226
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'Isogeny-based cryptography relies its security on the hardness of the supersingular isogeny problem: finding an
+    isogeny between two supersingular curves defined over a quadratic field extension of $\m'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-13'
+  source: eprint
