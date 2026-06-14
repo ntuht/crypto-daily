@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1250 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1256 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1041)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1047)
 
 ## 算法设计
 
@@ -557,7 +557,7 @@
 
 ## 算法分析
 
-### 差分分析 (617 篇)
+### 差分分析 (621 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1114,6 +1114,10 @@
 - 🟡 **2026** — Multi-Holder Anonymous Credentials from BBS Signatures
 - 🟡 **2026** — A Not So Discrete Sampler: Power Analysis Attacks on HAWK signature scheme
 - 🟡 **2026** — Crypto Wars in Secure Messaging: Covert Channels in Signal Despite Leaked Keys
+- 🟡 **2026** — Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit
+- 🟡 **2026** — Accountable Asynchronous Multi-Party Computation
+- 🟡 **2026** — Resource Estimation of a Distributed Quantum Algorithm for Elliptic Curve Discrete Logarithms
+- 🟡 **2026** — LendLocked: Privacy & Transparency for Digital Library Lending
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1177,7 +1181,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (208 篇)
+### MILP/SAT/CP 建模技术 (209 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1353,6 +1357,7 @@
 - 🟡 **2026** — Public-Key Pseudorandom Codes from Distorted McEliece Assumptions
 - 🟡 **2026** — GAPP: Generic Aggregation of Polynomial Protocols
 - 🟡 **2026** — Is SHA-1 conceptually sound?
+- 🟡 **2026** — Practical Attacks on a Decentralized Secure Messenger Session
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -1708,7 +1713,7 @@
 - 🔴 **1997** — The Block Cipher Square [Square]
 - 🔴 **1995** — Truncated and Higher Order Differentials
 
-### 不变量与子空间 (29 篇)
+### 不变量与子空间 (30 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
@@ -1736,6 +1741,7 @@
 - 🟡 **2026** — Is PSI Really Faster Than PSU? Achieving Efficient PSU with Invertible Bloom Filters
 - 🟡 **2026** — A Machine-Checked EUF-CMA Proof for the Hybrid Fiat-Shamir Signature Scheme
 - 🟡 **2026** — Improved Subfield Curve Search For Specific Field Characteristics
+- 🟡 **2026** — A family of invertible shift-invariant maps with strong arithmetic properties
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

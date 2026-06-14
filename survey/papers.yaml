@@ -22550,3 +22550,106 @@ papers:
   - LED
   fetched_date: '2026-06-13'
   source: eprint
+- id: a_family_of_2026
+  title: A family of invertible shift-invariant maps with strong arithmetic properties
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1249
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Shift-invariant maps have been employed to design nonlinear layers in many symmetric cryptographic schemes, such
+    as the $\chi$-map used in Keccak. In this paper, we study the shift-invariant maps on $
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-06-14'
+  source: eprint
+- id: atlantis_latticebased_anonymous_2026
+  title: 'Atlantis: Lattice-based Anonymous Tokens with Private Metadata Bit'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1248
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous tokens with private metadata bit (ATPM) allow an issuer  to embed a hidden trust flag, as a single bit,
+    within issued tokens. The bit remains hidden from the clients, but verifiers can read '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-14'
+  source: eprint
+- id: practical_attacks_on_2026_1
+  title: Practical Attacks on a Decentralized Secure Messenger Session
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1247
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Session is a widely deployed decentralized messenger application that emphasizes user anonymity and privacy through
+    end-to-end encryption. Session currently employs its own uniquely designed messaging
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-14'
+  source: eprint
+- id: accountable_asynchronous_multiparty_2026
+  title: Accountable Asynchronous Multi-Party Computation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1245
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In non-synchronous networks, classic partition arguments imply that any $t\text{-resilient}$ protocol among $n$
+    parties cannot ensure safety for many meaningful functionalities once the number of corr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-14'
+  source: eprint
+- id: resource_estimation_of_2026
+  title: Resource Estimation of a Distributed Quantum Algorithm for Elliptic Curve Discrete Logarithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1244
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Evaluating the quantum security of elliptic-curve cryptosystems requires precise resource estimations for solving
+    the Elliptic Curve Discrete Logarithm Problem (ECDLP) on fault-tolerant quantum hardwa
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-14'
+  source: eprint
+- id: lendlocked_privacy_transparency_2026
+  title: 'LendLocked: Privacy & Transparency for Digital Library Lending'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1243
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Digital library lending is a critical resource for access to information.\r\nCurrently prevalent models of digital\
+    \ lending, however, involve\r\nopaque licensing schemes that entail serious drawbacks to re"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-14'
+  source: eprint
