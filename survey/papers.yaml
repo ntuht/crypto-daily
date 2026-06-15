@@ -22653,3 +22653,115 @@ papers:
   - PRESENT
   fetched_date: '2026-06-14'
   source: eprint
+- id: cryptanalysis_of_ldpcbased_2026
+  title: Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2283
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: "Pseudorandom error-correcting codes (PRCs), a novel cryptographic primitive recently proposed at CRYPTO 2024,\
+    \ are primarily applied in undetectable watermarking schemes for large generative models.\r\nH"
+  status: pending_review
+  matched_keywords:
+  - diffusion
+  - PRESENT
+  fetched_date: '2026-06-15'
+  source: eprint
+- id: revisiting_linkable_ring_2026
+  title: Revisiting Linkable Ring Signatures with Logarithmic Verification Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1375
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ring Signatures allow a user to sign on behalf of an ad-hoc set of public keys, while hiding their identity inside
+    that set. Linkable Ring Signatures (LRS) add the functionality of detecting signature
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-15'
+  source: eprint
+- id: committing_authenticated_encryption_2026
+  title: 'Committing Authenticated Encryption: Generic Transforms with Hash Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/320
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Recent applications and attacks have highlighted the need for authenticated encryption (AE) schemes to achieve
+    the so-called committing security beyond privacy and authenticity. As a result, several g
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - AES
+  - LED
+  fetched_date: '2026-06-15'
+  source: eprint
+- id: hedgeswap_universal_hedged_2026
+  title: 'HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1252
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Universal atomic swaps [Oakland'22] replace hashed timelock contracts with adaptor signatures and verifiable timed
+    dlogs, enabling secure cross-chain cryptocurrency exchanges that only require basic s
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-15'
+  source: eprint
+- id: related_differentials_of_2026
+  title: 'Related Differentials of $4\times4$ MDS Matrices: A Complete Characterization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1251
+  directions:
+  - differential
+  - milp_sat_cp
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: A pair of differences $(x,y)$ is a \emph{related differential} for a linear layer $M$ if, for every coordinate
+    at both the input and the output, at least one of the two values vanishes or the two valu
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - MDS
+  - AES
+  fetched_date: '2026-06-15'
+  source: eprint
+- id: tensorzkp_repurposing_gpu_2026
+  title: 'TensorZKP: Repurposing GPU Tensor Cores for High-Performance Zero-Knowledge Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1250
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: GPU Tensor Cores, specialized hardware units designed to accelerate matrix multiplication, have served as the primary
+    engine behind the AI revolution. Given the exponential performance gains they have
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-15'
+  source: eprint
