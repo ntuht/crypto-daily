@@ -22765,3 +22765,78 @@ papers:
   - LED
   fetched_date: '2026-06-15'
   source: eprint
+- id: when_can_we_2026
+  title: When Can We Incrementally Prove Computations of Arbitrary Depth?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1413
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Incrementally Verifiable Computation (IVC) allows one to prove the correctness of a computation of potentially
+    unbounded length (or, depth) in an incremental way, while a computationally weak client c
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  fetched_date: '2026-06-16'
+  source: eprint
+- id: sumcheckbased_zksnarks_are_2026
+  title: Sumcheck-based zkSNARKs are Non-Malleable
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/335
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Simulation extractability ensures that any adversary who produces a valid proof must possess a corresponding witness,
+    even after seeing simulated proofs for potentially false statements. This property
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-06-16'
+  source: eprint
+- id: forgedattributes_an_existential_2026
+  title: 'ForgedAttributes: An Existential Forgery Vulnerability of CMS Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1801
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Abstract. This work describes an existential signature forgery vulnerability of the current CMS signature standard.
+    The vulnerability results from an ambiguity of how to process the signed message in '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  - CRAFT
+  fetched_date: '2026-06-16'
+  source: eprint
+- id: leveled_homomorphic_encryption_2026
+  title: Leveled Homomorphic Encryption over Composite Groups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/882
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Homomorphic encryption is a powerful tool that enables computation on encrypted data without requiring decryption.
+    While many Fully Homomorphic Encryption schemes, supporting arbitrary computations on
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-16'
+  source: eprint
