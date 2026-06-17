@@ -22840,3 +22840,115 @@ papers:
   - LED
   fetched_date: '2026-06-16'
   source: eprint
+- id: gumswap_griefingfree_universal_2026
+  title: 'GumSwap: Griefing-Free Universal Multi-Party Atomic Swaps'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1253
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Universal multi-party swaps were proposed for secure cross-chain cryptocurrency exchanges across multiple blockchains
+    that require only signature verification from the underlying blockchains. However,
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-17'
+  source: eprint
+- id: cryptanalysis_of_the_2026_1
+  title: Cryptanalysis of the Authenticated Stream Cipher HiAE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1180
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: We describe key-recovery attacks on the authenticated stream cipher HiAE, which was recently proposed by Huawei
+    for future high-throughput communication networks such as 6G, setting a new throughput p
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - authenticated encryption
+  - AES
+  fetched_date: '2026-06-17'
+  source: eprint
+- id: multikey_security_in_2026
+  title: 'Multi-Key Security in the Quantum World: Revisiting Tweakable Even-Mansour and FX'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/382
+  directions:
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: In this paper, we prove the security of symmetric-key constructions in an adversary model called the Q1MK model,
+    which combines the Q1 model, where the adversary makes classical online queries and qua
+  status: pending_review
+  matched_keywords:
+  - tweakable
+  - LED
+  fetched_date: '2026-06-17'
+  source: eprint
+- id: problems_in_algebra_2026
+  title: Problems in algebra inspired by tropical cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1256
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In 2011, Grigoriev and Shpilrain proposed using tropical algebraic structures in cryptography. In recent years,
+    numerous protocols based on tropical and related structures have been introduced, as wel
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-17'
+  source: eprint
+- id: bootstrapping_is_all_2026
+  title: 'Bootstrapping is All You Need: Secure Transformer Inference via Improved CKKS Functional Bootstrapping'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1255
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Fully homomorphic encryption (FHE) enables non-interactive secure transformer inference (NISTI). \r\nDue to the\
+    \ high cost of bootstrapping, conventional approaches typically choose parameters that suppo"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-17'
+  source: eprint
+- id: top_gun_degree_2026
+  title: 'Top Gun: Degree Annihilation Attacks on Poseidon'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1254
+  directions:
+  - permutation_layer
+  - sbox
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Poseidon is one of the most widely deployed arithmetization-oriented cryptographic permutations and plays a central
+    role in modern zero-knowledge proof systems. Although several algebraic attacks on r
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - S-box
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-17'
+  source: eprint

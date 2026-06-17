@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1266 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1272 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1057)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1063)
 
 ## 算法设计
 
@@ -186,7 +186,7 @@
 - 🟡 **2009** — KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block Ciphers [KATAN, KTANTAN]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 置换层 (63 篇)
+### 置换层 (64 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -247,12 +247,13 @@
 - 🟡 **2026** — A Robust Variant of ChaCha20-Poly1305
 - 🟡 **2026** — pSquare-hash: A Family of Tweakable Hash Functions for Physically Secure PQ Signatures
 - 🟡 **2026** — Cryptanalytic Properties of Mealy Machines
+- 🟡 **2026** — Top Gun: Degree Annihilation Attacks on Poseidon
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 认证加密 (AEAD) (49 篇)
+### 认证加密 (AEAD) (50 篇)
 
 - 🟡 **2026** — The OCH Authenticated Encryption Scheme
 - 🟡 **2026** — On the Plaintext Awareness of AEAD Schemes
@@ -281,6 +282,7 @@
 - 🟡 **2026** — Key Committing Security of HCTR2, Revisited
 - 🟡 **2026** — A Formal Security Proof of Masking: Reduction from Strong Noisy Leakage to Probing Model without Random Probing and Application to LR Primitive
 - 🟡 **2026** — Committing Authenticated Encryption: Generic Transforms with Hash Functions
+- 🟡 **2026** — Cryptanalysis of the Authenticated Stream Cipher HiAE
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🔴 **2024** — Improved Conditional Cube Attacks on Ascon AEADs in Nonce-Respecting Settings [Ascon]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -347,7 +349,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### S-box 设计与评估 (35 篇)
+### S-box 设计与评估 (36 篇)
 
 - 🟡 **2026** — How Small Can S-boxes Be?
 - 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
@@ -367,6 +369,7 @@
 - 🟡 **2026** — On Maximum Size Simultaneous Linear Approximations in Ascon and Keccak and Related Translation and Differential Properties
 - 🟡 **2026** — The ABC of Symmetric Primitives over Integer Rings: Milk Before Meat
 - 🟡 **2026** — Changing of the Guards with Two Shares - Security Flaws, Corrrections, and Application to Low-Latency AES
+- 🟡 **2026** — Top Gun: Degree Annihilation Attacks on Poseidon
 - 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
 - 🟡 **2024** — A Family of Biprojective APN Functions
 - 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
@@ -385,7 +388,7 @@
 - 🔴 **1998** — Serpent: A Proposal for the Advanced Encryption Standard [SERPENT]
 - 🔴 **1994** — Differentially Uniform Mappings for Cryptography
 
-### 可调密码 (33 篇)
+### 可调密码 (34 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function
@@ -404,6 +407,7 @@
 - 🟡 **2026** — pSquare-hash: A Family of Tweakable Hash Functions for Physically Secure PQ Signatures
 - 🟡 **2026** — Meet-in-the-Middle Attacks on Full ChiLow
 - 🟡 **2026** — UCX is All You Need: A Universal Transform for Committing Authenticated Encryption
+- 🟡 **2026** — Multi-Key Security in the Quantum World: Revisiting Tweakable Even-Mansour and FX
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🟡 **2024** — MATTER: A Wide-Block Tweakable Block Cipher [MATTER]
 - 🟡 **2024** — Twinkle: Low-latency Schemes for Authenticated Encryption and Pointer Authentication [Twinkle]
@@ -560,7 +564,7 @@
 
 ## 算法分析
 
-### 差分分析 (625 篇)
+### 差分分析 (627 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1125,6 +1129,8 @@
 - 🟡 **2026** — Related Differentials of $4\times4$ MDS Matrices: A Complete Characterization
 - 🟡 **2026** — ForgedAttributes: An Existential Forgery Vulnerability of CMS Signatures
 - 🟡 **2026** — Leveled Homomorphic Encryption over Composite Groups
+- 🟡 **2026** — GumSwap: Griefing-Free Universal Multi-Party Atomic Swaps
+- 🟡 **2026** — Bootstrapping is All You Need: Secure Transformer Inference via Improved CKKS Functional Bootstrapping
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1188,7 +1194,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (213 篇)
+### MILP/SAT/CP 建模技术 (214 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1369,6 +1375,7 @@
 - 🟡 **2026** — Related Differentials of $4\times4$ MDS Matrices: A Complete Characterization
 - 🟡 **2026** — When Can We Incrementally Prove Computations of Arbitrary Depth?
 - 🟡 **2026** — Sumcheck-based zkSNARKs are Non-Malleable
+- 🟡 **2026** — Problems in algebra inspired by tropical cryptography
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -1656,7 +1663,7 @@
 - 🔴 **1994** — Linear Approximation of Block Ciphers
 - 🔴 **1993** — Linear Cryptanalysis Method for DES Cipher [DES]
 
-### 代数攻击 (34 篇)
+### 代数攻击 (35 篇)
 
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -1675,6 +1682,7 @@
 - 🟡 **2026** — Algebraic Attack on Convolutional Neural Networks with Max Pooling
 - 🟡 **2026** — Reassessing the Security of LPN-C and its HHE-Oriented Variants
 - 🟡 **2026** — A Heuristic Subexponential Attack on the McEliece Cryptosystem
+- 🟡 **2026** — Top Gun: Degree Annihilation Attacks on Poseidon
 - 🟡 **2025** — Cryptanalysis of ChiLow with Cube-Like Attacks [ChiLow]
 - 🔴 **2025** — Improved Key Recovery Attacks on Ascon [Ascon]
 - 🟡 **2025** — Core Monomial Prediction for Weak-Key Superpoly Recovery in Stream Ciphers [Trivium]
