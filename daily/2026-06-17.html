@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-06-17</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-06-17</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-06-17</h1>
+
+<blockquote>
+<p>自动生成于 2026-06-17 04:57</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 6 篇 → 启发式 3 篇 → 精选 <strong>3 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Cryptanalysis of the Authenticated Stream Cipher HiAE](https://eprint.iacr.org/2025/1180)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2025/1180.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：HiAE是华为为未来6G等高吞吐量通信网络提出的认证流密码，旨在提供极高的吞吐量性能。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文对其进行了深入的密码分析，成功描述了针对HiAE的密钥恢复攻击。研究人员通过仔细分析HiAE的内部结构和状态更新机制，发现并利用了其在特定条件下的弱点，从而能够从观察到的输出中恢复出秘密密钥。这些攻击不仅是理论上的，也展示了在实际场景中可能存在的安全风险。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作对HiAE的安全性评估提供了关键的洞察，揭示了其在设计上可能存在的不足，并为未来高吞吐量认证流密码的设计与标准化提供了重要的安全考量和改进方向。</p>
+
+<hr>
+
+<h3>2. [Top Gun: Degree Annihilation Attacks on Poseidon](https://eprint.iacr.org/2026/1254)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1254.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Poseidon是目前广泛部署的面向算术化的密码学置换，在现代零知识证明系统中扮演着核心角色。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种名为“度数消除攻击”的新型代数攻击方法，成功地针对Poseidon置换进行了攻击。该方法通过系统性地降低中间状态的多项式度数，从而简化了求解底层秘密状态的复杂性，即使在已有的代数攻击基础上，也展现出更高的效率和更强的攻击能力。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究揭示了Poseidon在某些轮数下的潜在脆弱性，对零知识证明系统所依赖的哈希函数安全性提出了新的挑战，并促使密码学界重新审视和加强此类原语的设计。</p>
+
+<hr>
+
+<h3>3. [Multi-Key Security in the Quantum World: Revisiting Tweakable Even-Mansour and FX](https://eprint.iacr.org/2026/382)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/382.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着量子计算的兴起，评估对称密钥结构在量子环境下的多密钥安全性变得至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了Q1MK模型，该模型结合了Q1模型（对手进行经典在线查询和量子离线查询）与多密钥场景，在此模型下重新审视并证明了可调Even-Mansour和FX等经典对称密钥结构的安全性。研究人员通过严谨的数学证明，量化了这些结构在量子多密钥攻击下的安全界限。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为在量子时代设计和分析具有多密钥安全性的对称密码系统提供了坚实的理论基础和新的评估框架，对后量子密码学的实践具有指导意义。</p>
+
+<hr>
+
+<p><em>精选自 6 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
