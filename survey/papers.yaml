@@ -22952,3 +22952,106 @@ papers:
   - LED
   fetched_date: '2026-06-17'
   source: eprint
+- id: lineartime_accumulation_schemes_2026
+  title: Linear-Time Accumulation Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/753
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Proof-carrying data (PCD) is a powerful cryptographic primitive for computational integrity in a distributed setting.
+    State-of-the-art constructions of PCD are based on accumulation schemes (and, clos
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-18'
+  source: eprint
+- id: a_unified_treatment_2026
+  title: A Unified Treatment of Anamorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/309
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: (Receiver) anamorphic encryption, introduced by Persiano et al. [Eurocrypt'22], allows for hiding a covert message
+    $\hat{m}$ (dubbed the anamorphic message) within a public-key ciphertext encrypting a
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-18'
+  source: eprint
+- id: blind_signatures_from_2026
+  title: Blind Signatures from Arguments of Inequality
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1886
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Abstract. Blind signatures are an important tool for privacy-preserving applications with a long history dating
+    back to Chaum’s seminal work in Crypto’82. In this work, we present the first pairing-fr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-18'
+  source: eprint
+- id: shorter_hashbased_signatures_2026
+  title: Shorter Hash-Based Signatures Using Forced Pruning
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2069
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The stateless hash-based digital signature algorithm (SLH-DSA) is a post-quantum signature scheme based on the
+    SPHINCS$^+$ framework that was recently standardized by NIST. Although it offers many ben
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-18'
+  source: eprint
+- id: shuffling_is_universal_2026
+  title: 'Shuffling is Universal: Statistical Additive Randomized Encodings for All Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1442
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The shuffle model is a widely used abstraction for non-interactive anonymous communication. It allows $n$ parties
+    holding private inputs $x_1,\dots,x_n$ to simultaneously send messages to an evaluator
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-06-18'
+  source: eprint
+- id: distributed_key_generation_2026
+  title: Distributed Key Generation for Efficient Threshold-CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2057
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold fully homomorphic encryption provides efficient multi-party computation with low round-complexity. Among
+    fully homomorphic encryption schemes, CKKS (Cheon-Kim-Kim-Song) enables high-throughp
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-18'
+  source: eprint
