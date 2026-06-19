@@ -23055,3 +23055,55 @@ papers:
   - PRESENT
   fetched_date: '2026-06-18'
   source: eprint
+- id: fourround_statistical_nonmalleable_2026
+  title: Four-round Statistical Non-malleable Zero-knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1787
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a 4-round statistical non-malleable zero-knowledge (statistical NMZK) argument for NP in the plain model
+    under standard hardness assumptions. Our construction can be based on any collision-
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-19'
+  source: eprint
+- id: large_smooth_twins_2026
+  title: Large smooth twins from short lattice vectors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1462
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Finding the largest pair of consecutive $B$-smooth integers for a fixed value of $B$, also called a $B$-smooth
+    twin, is computationally challenging. It has only been provably done for $B \leq 100$ and
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-19'
+  source: eprint
+- id: ake_protocol_combining_2026
+  title: AKE Protocol Combining PQC and QKD
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/036
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: With the advent of quantum computing, which threatens the very foundations of classical cryptography, several authenticated
+    key exchange (AKE) protocols have been proposed, combining classical and pos
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-19'
+  source: eprint
