@@ -23107,3 +23107,370 @@ papers:
   - LED
   fetched_date: '2026-06-19'
   source: eprint
+- id: nearly_quadratic_asynchronous_2026
+  title: Nearly Quadratic Asynchronous Distributed Key Generation from Recursive Consensus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/006
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Distributed key generation (DKG) is a Byzantine fault tolerant protocol among a set of $n$ parties that enables
+    generation of a public-secret key pair for threshold cryptosystems without a trusted thi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: barriers_for_transparent_2026
+  title: Barriers for Transparent Algebraic Generation of Hard Supersingular Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1278
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'We study transparent public generation of hard supersingular curves: a public, seeded, rerunnable algorithm outputs
+    a supersingular curve while exposing the seed, verification transcript, and all alge'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: on_the_round_2026
+  title: On the Round Complexity of Dishonest-Majority MPC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1277
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "What is the round complexity of MPC over point-to-point channels that is secure with unanimous/identifiable abort\
+    \ in the dishonest-majority setting? \r\n\r\nEven after four decades of research, the answer"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: forgetmenot_trees_massscale_2026
+  title: 'Forget-me-not Trees: Mass-scale Auditable Key Transparency from Hash Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1276
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Modern, deployed key transparency systems rely on auditors to ensure that updates to the set of keys are well-structured,
+    allowing clients to efficiently monitor their own keys.   In practice, the ser
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: the_indifferentiability_of_2026
+  title: The Indifferentiability of the Duplex and its Practical Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1275
+  directions:
+  - lightweight
+  - permutation_layer
+  - related_key
+  - milp_sat_cp
+  - aead
+  ciphers: []
+  significance: medium
+  summary: The Duplex construction, introduced by Bertoni et al. (SAC 2011), is the Swiss Army knife of permutation-based
+    cryptography. It can be used to realise a variety of cryptographic objects—ranging from h
+  status: pending_review
+  matched_keywords:
+  - related-key
+  - SAT
+  - permutation
+  - AEAD
+  - authenticated encryption
+  - lightweight
+  - Ascon
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: design_and_performance_2026
+  title: 'Design and Performance Evaluation of Post-Quantum Authentication for Embedded Systems: A Case Study on PIV'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1274
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As the transition to post-quantum cryptography accelerates, security protocols must evolve to resist quantum threats
+    while remaining practical, particularly on constrained devices where memory, bandwi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: achieving_tight_spacetime_2026
+  title: Achieving Tight Space-Time Tradeoff and Practical Performance in Preprocessing PIR with Multi-level Recursion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1273
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Client-specific preprocessing PIR supports sublinear online private queries after a linear-time offline phase
+    that prepares client-specific hints. The relevant lower bound is tight: any scheme with $S'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: parameteraware_and_instructiondriven_2026
+  title: Parameter-Aware and Instruction-Driven  Dilithium Optimization on AVX2 and NEON
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1272
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We improve the performance of the lattice-based cryptosystem Dilithium on AVX2 and NEON by deeply exploiting its
+    algorithmic properties, such as small coefficient bounds and high sparsity, with the di
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: boosting_efficiency_and_2026
+  title: Boosting Efficiency and Security in Arithmetization-Oriented Hashing for Zero-Knowledge Proof Systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1271
+  directions:
+  - permutation_layer
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Cryptographic compression functions are a core component of vector commitment schemes, including Merkle tree commitments,
+    which are widely used in modern ZK-SNARK and STARK frameworks. Arithmetization
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: actively_secure_mpc_2026
+  title: Actively Secure MPC with $O(|C|)$ Computation and Communication via CRT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1270
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Secure multiparty computation (MPC) allows $n$ parties to compute a function of their private inputs, so that\
+    \ nothing beyond the output of the function is revealed.\r\n  In the sub-optimal honest majori"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: gatling_rapidfire_consensus_2026
+  title: 'Gatling: Rapid-Fire Consensus from Parallel Composition'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1269
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: Consensus protocols form the core of blockchains and other replicated state machines, ensuring that all correct
+    nodes process the same totally ordered log of input transactions. In fault-free executio
+  status: pending_review
+  matched_keywords:
+  - low latency
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: decentralized_multiauthority_attributebased_2026
+  title: Decentralized Multi-Authority (Attribute-Based) Traitor Tracing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1268
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We initiate the study of multi-authority traitor tracing (MA-TT), a decentralized variant of traitor tracing in
+    which tracing capabilities are distributed across multiple independent authorities rathe
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: practical_endtoend_fault_2026
+  title: Practical End-to-end Fault Attacks on PERK
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1266
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents the first practical end-to-end fault injection attacks on the post-quantum signature scheme
+    PERK, based on the MPC-in-the-Head paradigm and relies on GGM tree expansions for effici
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: a_billion_hard_2026
+  title: 'A Billion Hard CRYSTALS: Exploring Practical Aspects of Arithmetic Masking for PQC in Hardware'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1265
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Due to the complexity of modern cryptographic algorithms, especially in the area of Post-Quantum Cryptography (PQC),
+    conceptualizing optimal hardware designs in relation to some target performance met
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: lcpdte_lowcomplexity_private_2026
+  title: 'LCPDTE: Low-Complexity Private Decision Tree Evaluation over Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1263
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As machine-learning-as-a-service (MLaaS) becomes ubiquitous, protecting model queries via private inference is
+    increasingly critical. Existing homomorphic encryption (HE)-based protocols for Private D
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: pqsms_a_postquantum_2026
+  title: 'PQ-SMS: A Post-Quantum Sanitizable Multi-Signature Scheme for Satellite PKI'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1262
+  directions:
+  - lightweight
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Satellite communication systems, as critical long-lifecycle infrastructure, face a dual security challenge in
+    the coming decades: the threat of quantum computers and the operational rigidity of tradit'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: rondompc_asynchronous_mpc_2026
+  title: 'RondoMPC: Asynchronous MPC with G.O.D. made More Practical'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1261
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Asynchronous multi-party computation (AMPC) en-\r\nables a set of mutually distrustful parties to securely compute\r\
+    \nany joint function on their private inputs under arbitrary\r\nnetwork delays. The guaran"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: truthtable_a_verifiable_2026
+  title: 'TruthTable: A Verifiable Query Engine'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1260
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present TruthTable, a verifiable database engine that allows a prover to produce a succinct proof that convinces
+    a verifier of the correct execution of the verifier's SQL query over the prover's co
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: collaborative_rln_signaling_2026
+  title: Collaborative RLN Signaling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1259
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Rate Limiting Nullifier (RLN) is a privacy-preserving and decentralized spam-prevention mechanism for anonymous
+    broadcast networks: each member can emit at most $r$ signals per epoch, and any violatio'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-06-20'
+  source: eprint
+- id: beyond_anonymity_sets_2026
+  title: 'Beyond Anonymity Sets: A Security Model for Distributed Shuffling in Adversarial Environments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1258
+  directions:
+  - permutation_layer
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Distributed shuffling is a core primitive underlying mix-nets, electronic voting, and, more recently, single secret
+    leader election (SSLE) protocols for proof-of-stake blockchains. In these settings, '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  fetched_date: '2026-06-20'
+  source: eprint
