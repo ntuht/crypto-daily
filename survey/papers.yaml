@@ -1096,7 +1096,7 @@ papers:
   - Yuliang Zheng
   - Tsutomu Matsumoto
   - Hideki Imai
-  venue: CRYPTO 1989
+  venue: ePrint
   year: 1989
   url: https://eprint.iacr.org/2026/020
   directions:
@@ -1105,6 +1105,7 @@ papers:
   significance: high
   summary: 广义 Feistel 网络（GFN）的理论基础。
   status: reviewed
+  source: eprint
 - id: luby1988prp
   title: How to Construct Pseudorandom Permutations from Pseudorandom Functions
   authors:
@@ -23473,4 +23474,128 @@ papers:
   - MITM
   - permutation
   fetched_date: '2026-06-20'
+  source: eprint
+- id: oblivious_priority_queue_2026
+  title: Oblivious Priority Queue and Single-Source Shortest Path in the External Memory Setting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1285
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The study of oblivious algorithms is concerned with designing privacy-preserving algorithms whose memory access
+    patterns reveal nothing about the secret inputs. Such algorithms have been deployed at s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-21'
+  source: eprint
+- id: zeroknowledge_proofs_of_2026
+  title: Zero-Knowledge Proofs of Generalized Regular Expression Matching for Anonymized Email Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1284
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Digital communication increasingly underpins identity, financial transactions, and regulatory compliance. In many
+    settings, possession of a DKIM-signed email serves as evidence of account control, tra
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-21'
+  source: eprint
+- id: privacypreserving_outsourced_witness_2026
+  title: Privacy-Preserving Outsourced Witness Updates for Append-Only RSA Accumulators
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1283
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Append-only accumulators are a natural way to realize compact public-state registries, but under high-frequency
+    updates, witness maintenance becomes a severe challenge because each insertion typically
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-21'
+  source: eprint
+- id: physicsaware_temporal_feature_2026
+  title: Physics-Aware Temporal Feature Engineering for Eavesdropping Detection in BBM92 Quantum Key Distribution
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1282
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Static Quantum Bit Error Rate (QBER) thresholding is the standard defense mechanism in deployed Quantum Key Distribution
+    (QKD) systems. In noisy free-space optical (FSO) channels, however, natural atm
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - PHOTON
+  fetched_date: '2026-06-21'
+  source: eprint
+- id: resultants_meet_resultant_2026
+  title: 'Resultants Meet Resultant: Improving CICO-1 and CICO-2 Attacks on ZK-Friendly Permutations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1281
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'The increasing usage of Zero-knowledge proof protocols has raised the need for cryptographic primitives that are
+    efficient in that setting, called Arithmetization-oriented primitives. The security of '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-21'
+  source: eprint
+- id: public_parameters_as_2026
+  title: 'Public Parameters as a First-Class Cost: A Three-Dimensional View of Updatable Vector Commitments, and a Group/Lattice
+    Separation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1280
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Updatable vector commitments are judged by how a k-position update affects the broadcast update information S and
+    the per-proof update time T. We promote the public-parameter size P to a first-class m
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-06-21'
+  source: eprint
+- id: bootnet_homomorphic_cnn_2026
+  title: 'BootNet: Homomorphic CNN Inference with Convolution and ReLU Fused in Bootstrapping'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1279
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) enables privacy-preserving neural network inference but suffers from high overhead
+    from homomorphic convolutions, polynomial activation approximations, and CKKS boot
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-21'
   source: eprint
