@@ -23599,3 +23599,22 @@ papers:
   - PRESENT
   fetched_date: '2026-06-21'
   source: eprint
+- id: zkrnn_zeroknowledge_proofs_2026
+  title: 'zkRNN: Zero-Knowledge Proofs for Recurrent Neural Network Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/073
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs (ZKPs) enable verification of computations without revealing private information and have
+    recently been applied to neural-network inference. Existing approaches, however, primari
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-22'
+  source: eprint
