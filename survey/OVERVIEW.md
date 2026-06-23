@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1309 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1313 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1100)
+- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1104)
 
 ## 算法设计
 
-### 轻量级密码综合 (141 篇)
+### 轻量级密码综合 (142 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -158,6 +158,7 @@
 - 🟡 **2026** — Is SHA-1 conceptually sound?
 - 🟡 **2026** — The Indifferentiability of the Duplex and its Practical Applications
 - 🟡 **2026** — PQ-SMS: A Post-Quantum Sanitizable Multi-Signature Scheme for Satellite PKI
+- 🟡 **2026** — Multiple-of Property for Related-Differential Distinguishers on 5-Round AES
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -188,7 +189,7 @@
 - 🟡 **2009** — KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block Ciphers [KATAN, KTANTAN]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 置换层 (68 篇)
+### 置换层 (69 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -254,6 +255,7 @@
 - 🟡 **2026** — Boosting Efficiency and Security in Arithmetization-Oriented Hashing for Zero-Knowledge Proof Systems
 - 🟡 **2026** — Beyond Anonymity Sets: A Security Model for Distributed Shuffling in Adversarial Environments
 - 🟡 **2026** — Resultants Meet Resultant: Improving CICO-1 and CICO-2 Attacks on ZK-Friendly Permutations
+- 🟡 **2026** — Multiple-of Property for Related-Differential Distinguishers on 5-Round AES
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
@@ -572,7 +574,7 @@
 
 ## 算法分析
 
-### 差分分析 (651 篇)
+### 差分分析 (655 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1163,6 +1165,10 @@
 - 🟡 **2026** — Zero-Knowledge Proofs of Generalized Regular Expression Matching for Anonymized Email Verification
 - 🟡 **2026** — Privacy-Preserving Outsourced Witness Updates for Append-Only RSA Accumulators
 - 🟡 **2026** — BootNet: Homomorphic CNN Inference with Convolution and ReLU Fused in Bootstrapping
+- 🟡 **2026** — ORQ: Complex Analytics on Private Data with Strong Security Guarantees
+- 🟡 **2026** — A Toolkit for Succinct Lattice-Based Zero Knowledge Proofs
+- 🟡 **2026** — SuccinCT: Succinct Confidential Transaction for Miner Privacy
+- 🟡 **2026** — Multiple-of Property for Related-Differential Distinguishers on 5-Round AES
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1226,7 +1232,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (218 篇)
+### MILP/SAT/CP 建模技术 (219 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1412,6 +1418,7 @@
 - 🟡 **2026** — Achieving Tight Space-Time Tradeoff and Practical Performance in Preprocessing PIR with Multi-level Recursion
 - 🟡 **2026** — Decentralized Multi-Authority (Attribute-Based) Traitor Tracing
 - 🟡 **2026** — PQ-SMS: A Post-Quantum Sanitizable Multi-Signature Scheme for Satellite PKI
+- 🟡 **2026** — Multiple-of Property for Related-Differential Distinguishers on 5-Round AES
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers

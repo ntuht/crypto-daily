@@ -23618,3 +23618,78 @@ papers:
   - LED
   fetched_date: '2026-06-22'
   source: eprint
+- id: orq_complex_analytics_2026
+  title: 'ORQ: Complex Analytics on Private Data with Strong Security Guarantees'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1657
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present ORQ, a system that enables collaborative analysis of large private datasets using cryptographically
+    secure multiparty computation (MPC). ORQ protects data against semi-honest or malicious p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-23'
+  source: eprint
+- id: a_toolkit_for_2026
+  title: A Toolkit for Succinct Lattice-Based Zero Knowledge Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1289
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The development of proof systems whose security relies on the hardness of lattice problems has been a fruitful
+    research area in recent years. By leveraging the techniques introduced in LaBRADOR (Beull
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-23'
+  source: eprint
+- id: succinct_succinct_confidential_2026
+  title: 'SuccinCT: Succinct Confidential Transaction for Miner Privacy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1288
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Confidential transaction (CT) protocols are widely used to protect the privacy of blockchain-based cryptocurrency
+    transactions. However, existing CT schemes primarily focus on ordinary users' anonymit
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-23'
+  source: eprint
+- id: multipleof_property_for_2026
+  title: Multiple-of Property for Related-Differential Distinguishers on 5-Round AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1286
+  directions:
+  - lightweight
+  - milp_sat_cp
+  - permutation_layer
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A key-independent secret-key distinguisher identifies inherent structural deviations of a block cipher from an
+    ideal random permutation without recovering any information about the secret key. For the
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - block cipher
+  - permutation
+  - AES
+  fetched_date: '2026-06-23'
+  source: eprint
