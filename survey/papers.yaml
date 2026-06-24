@@ -23693,3 +23693,55 @@ papers:
   - AES
   fetched_date: '2026-06-23'
   source: eprint
+- id: miope_a_modular_2026
+  title: 'MIOPE: A Modular framework for Input and Output Privacy in Ensemble inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2287
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: We introduce a simple yet novel framework for privacy-preserving machine learning inference that allows a client
+    to query multiple models without a trusted third party aggregator by leveraging homomor
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-06-24'
+  source: eprint
+- id: collusionminimized_tls_attestation_2026
+  title: Collusion-Minimized TLS Attestation Protocol for Decentralized Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/277
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Transport Layer Security (TLS) attestation protocols are a key building block for decentralized applications that
+    require authenticated off-chain data. However, existing Designed Commitment TLS (DCTLS
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-06-24'
+  source: eprint
+- id: papercraft_latticebased_verifiable_2026
+  title: 'Papercraft: Lattice-based Verifiable Delay Function Implemented'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/879
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A verifiable delay function (VDF) requires a specified number of sequential steps to compute, yet the validity
+    of its output can be verified efficiently, much faster than recomputing the function from
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - CRAFT
+  fetched_date: '2026-06-24'
+  source: eprint
