@@ -23745,3 +23745,382 @@ papers:
   - CRAFT
   fetched_date: '2026-06-24'
   source: eprint
+- id: trust_the_voice_2026
+  title: 'Trust the Voice, Hide the Source: Anonymous Provenance for Verifiably Edited Audio'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1308
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Audio recordings are often used as evidence, but modern forgery tools make their origin harder to verify. Existing
+    authentication methods require releasing the original signed recording, which exposes
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: verifiable_aggregate_receipts_2026
+  title: Verifiable Aggregate Receipts with Applications to User Engagement Auditing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2330
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Accurate measurements of user engagement underpin important decisions in various settings, such as determining
+    advertising fees based on viewership of online content, allocating public funding based o
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: alphafl_secure_aggregation_2026
+  title: 'AlphaFL: Secure Aggregation with Malicious$^2$ Security for Federated Learning against Dishonest Majority'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1289
+  directions:
+  - ml_aided
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Federated learning (FL) proposes to train a global machine learning model across distributed datasets. However,
+    the aggregation protocol as the core component in FL is vulnerable to well-studied attac
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - machine learning
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: what_a_wonderful_2026
+  title: 'What a Wonderful World: zkSNARKs in the Algebraic Group Model are Universally Composable'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/399
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Zero-Knowledge Succinct Non-interactive Arguments of Knowledge (zkSNARKs) are important cryptographic primitives
+    critical in many
+
+    real-world applications. zkSNARKs are not used in isolation but are de'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: the_hhe_land_2026
+  title: 'The HHE Land: Exploring the Landscape of Hybrid Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/071
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Hybrid Homomorphic Encryption (HHE) is considered a promising solution for key challenges that emerge when adopting
+    Homomorphic Encryption (HE). In cases such as communication and computation overhead
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: simple_asymmetric_anamorphic_2026
+  title: Simple Asymmetric Anamorphic Encryption and Signature using Multi-Message Extensions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/370
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Anamorphic encryption enables covert communication over public cryptographic channels while preserving the apparent
+    correctness and security of the underlying cryptographic scheme, even against advers
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - AES
+  - PRESENT
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: survey_six_years_2026
+  title: 'Survey: Six Years of Neural Differential Cryptanalysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1300
+  directions:
+  - ml_aided
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At CRYPTO 2019, A. Gohr introduced Neural Differential Cryptanalysis and used deep learning to improve the state
+    of the art in cryptanalysis of 11-round SPECK32.  As of February 2025, Gohr’s article h
+  status: pending_review
+  matched_keywords:
+  - differential
+  - neural distinguisher
+  - SPECK
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: forensic_cryptanalysis_of_2026
+  title: Forensic Cryptanalysis of the Backdoored UA-8295 Message Terminal
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1309
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Nation State Agencies go to great lengths to obtain signal intelligence, including backdooring cryptographic standards
+    and equipment. Although the existence of these backdoor efforts is common knowled
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: tetris_automated_design_2026
+  title: 'TETRIS: Automated Design Space Exploration of Randomness–Latency Trade-offs in Masked Hardware'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1306
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Given a fixed security order, the randomness and latency of masked hardware present a trade-off. This trade-off
+    has not been structurally examined well enough to enable an efficient search for a user-
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: security_analysis_of_2026
+  title: Security Analysis of One Lightweight Certificateless Mutual Authentication Scheme Based on Signatures for IIoT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1304
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We show that the certificateless signature scheme [IEEE ITJ, 26852-26865, 2024] is insecure against public key
+    replacement attack. An adversary can forge signatures for any message by replacing the si
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: subspace_differential_uniformity_2026
+  title: Subspace Differential Uniformity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1303
+  directions:
+  - sbox
+  - lightweight
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The main contribution of this paper is to introduce Subspace Differential Uniformity (SDU) for S-boxes and block
+    ciphers. The SDU is essentially a measure of how well any function spreads input differ
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: trip_thresholding_in_2026
+  title: 'TRIP: Thresholding in Regression with Input Privacy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1302
+  directions:
+  - ml_aided
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure computation allows multiple parties to jointly evaluate a function without leaking their individual inputs.
+    An intrinsic issue with these techniques  is that they do not offer any protection ag
+  status: pending_review
+  matched_keywords:
+  - differential
+  - machine learning
+  - CRAFT
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: thresholdizing_standardized_falcon_2026
+  title: Thresholdizing Standardized FALCON Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1300
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Threshold signatures allow a quorum of parties to jointly produce a
+
+    signature while preventing any smaller subset from doing so.
+
+    Following NIST''s post-quantum standardization, designing threshold
+
+    sche'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: decomposition_of_compressions_2026
+  title: Decomposition of compressions on elliptic curves and point recovery
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1299
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Let $E$ be an elliptic curve over a perfect field $K$. A function $f\in K(E)$ is a compression of degree 2 on $E$
+    if $f(-P) = f(P)$ for all $P\in E$, and the field extension $K(f)\subset K(E)$ is of d
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: breaking_the_omegackappa_2026
+  title: Breaking the $\Omega(|C|\kappa)$ Barrier on Garbled Circuit Size in the Random Oracle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1297
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this paper, we study garbled circuits in the random oracle model against a computationally unbounded adversary
+    with $T$ queries to a (programmable) random oracle. From Yao''s garbled circuits (SFCS '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: achieving_guaranteed_output_2026
+  title: Achieving Guaranteed Output Delivery MPC with Constant Rounds and Linear Communication in Minicrypt
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1296
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we study the communication complexity of constant-round MPC with guaranteed output delivery (GOD)
+    in Minicrypt. We construct the first MPC protocol in this setting with linear communicat
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: differential_fault_attack_2026
+  title: 'Differential Fault Attack on Atom: Bypassing the Double Key Filter using Filtered Faults'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1294
+  directions:
+  - milp_sat_cp
+  - lightweight
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this paper, we present a Differential Fault Attack (DFA) on the lightweight stream cipher Atom,  proposed by
+    Banik et al. in IACR Transactions on Symmetric Cryptography (TOSC)-2021. It employs two '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: postquantum_secure_noncommitting_2026
+  title: Post-quantum Secure Non-Committing Registered Functional Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1293
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Non-committing encryption (NCE) is a key primitive for proving security against adaptive corruptions, enabling
+    simulators to generate ciphertexts before the encrypted message is known. Existing non-co
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: craft_constantround_nonpolynomial_2026
+  title: 'CRAfT: Constant-Round Non-Polynomial Approximation and P2P Network for Secure Transformer Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1292
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Transformer models have recently emerged as a game-changing technology for applications in content generation.
+    However, severe privacy concerns and the scalability bottlenecks of existing secure proto
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - CRAFT
+  fetched_date: '2026-06-25'
+  source: eprint
+- id: a_compact_signature_2026
+  title: A Compact Signature Scheme Based on QC-MDGM Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1290
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Constructing a post-quantum signature scheme that is simultaneously compact and efficient remains a central challenge
+    in code-based cryptography. Existing schemes based on turning a zero-knowledge ide
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-25'
+  source: eprint
