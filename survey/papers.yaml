@@ -24124,3 +24124,22 @@ papers:
   - LED
   fetched_date: '2026-06-25'
   source: eprint
+- id: postquantum_security_of_2026_3
+  title: Post-Quantum Security of Tweakable Key-Alternating Feistel Ciphers in the Multi-Key Setting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1312
+  directions:
+  - tweakable
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: In this paper, we prove the post-quantum security of the Tweakable Key-Alternating Feistel cipher (TKAF) with a
+    public random function in the Q1 model, under the assumption that the adversary is given
+  status: pending_review
+  matched_keywords:
+  - Feistel
+  - tweakable
+  fetched_date: '2026-06-26'
+  source: eprint
