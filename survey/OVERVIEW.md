@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1337 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1343 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1128)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1134)
 
 ## 算法设计
 
@@ -581,7 +581,7 @@
 
 ## 算法分析
 
-### 差分分析 (670 篇)
+### 差分分析 (675 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1191,6 +1191,11 @@
 - 🟡 **2026** — Post-quantum Secure Non-Committing Registered Functional Encryption
 - 🟡 **2026** — CRAfT: Constant-Round Non-Polynomial Approximation and P2P Network for Secure Transformer Inference
 - 🟡 **2026** — A Compact Signature Scheme Based on QC-MDGM Codes
+- 🟡 **2026** — The Revisited Hidden Weight Bit Function
+- 🟡 **2026** — ProtogaLattice: Constant-Round Lattice-based Folding for General Polynomial Relations
+- 🟡 **2026** — Computing multi-scalar multiplication on memory-constrained devices
+- 🟡 **2026** — VERDICT: A Cryptographically Verifiable Framework for Secure Data Lineage in Decentralized DAGs
+- 🟡 **2026** — HHE Kombat: Benchmarking Hybrid Homomorphic Encryption Schemes
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1783,6 +1788,41 @@
 - 🔴 **2009** — Cube Attacks on Tweakable Black Box Polynomials [Trivium]
 - 🔴 **2000** — Efficient Algorithms for Solving Overdefined Systems of Multivariate Polynomial Equations [AES]
 
+### 不变量与子空间 (32 篇)
+
+- 🟡 **2026** — Investigating the Wedge Map on SNOVA
+- 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
+- 🟡 **2026** — Linear Code Equivalence via Plücker Coordinates
+- 🟡 **2026** — Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails
+- 🟡 **2026** — The module action for isogeny based cryptography
+- 🟡 **2026** — Hashing-friendly elliptic curves
+- 🟡 **2026** — PD-Net: Learning Device-Invariant Representations for Heterogeneous Cross-Device Side-Channel Attacks
+- 🟡 **2026** — Oblivious SpaceSaving: Heavy-Hitter Detection over Fully Homomorphic Encryption
+- 🟡 **2026** — Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger
+- 🟡 **2026** — Weak-key cryptanalysis of Blink
+- 🟡 **2026** — Applications of Bruhat-Chevalley-Renner Decomposition to Metric-Aware Code-Based Cryptography
+- 🟡 **2026** — How to construct even faster and indifferentiable hash functions from random permutations
+- 🟡 **2026** — Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage
+- 🟡 **2026** — Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers
+- 🟡 **2026** — DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios
+- 🟡 **2026** — MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments
+- 🟡 **2026** — On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
+- 🟡 **2026** — Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
+- 🟡 **2026** — Revisiting Linear Subspace Trails in Poseidon2 and Neptune
+- 🟡 **2026** — On Local Invariants for Permutation Equivalence
+- 🟡 **2026** — Suppressing Hidden Extension-Field Linearity in Rank-Metric Cryptography via Structural Incompatibility
+- 🟡 **2026** — Sequence-Level Security for Active Weighted Signature Reconfiguration
+- 🟡 **2026** — On Maximum Size Simultaneous Linear Approximations in Ascon and Keccak and Related Translation and Differential Properties
+- 🟡 **2026** — Is PSI Really Faster Than PSU? Achieving Efficient PSU with Invertible Bloom Filters
+- 🟡 **2026** — A Machine-Checked EUF-CMA Proof for the Hybrid Fiat-Shamir Signature Scheme
+- 🟡 **2026** — Improved Subfield Curve Search For Specific Field Characteristics
+- 🟡 **2026** — A family of invertible shift-invariant maps with strong arithmetic properties
+- 🟡 **2026** — Barriers for Transparent Algebraic Generation of Hard Supersingular Curves
+- 🟡 **2026** — So Long, and Thanks for All the Seeds: Attacking GGM-trees in Post-quantum signatures
+- 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
+- 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
+- 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]
+
 ### 积分与 Division Property (31 篇)
 
 - 🟡 **2026** — Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function
@@ -1816,40 +1856,6 @@
 - 🔴 **2002** — Integral Cryptanalysis
 - 🔴 **1997** — The Block Cipher Square [Square]
 - 🔴 **1995** — Truncated and Higher Order Differentials
-
-### 不变量与子空间 (31 篇)
-
-- 🟡 **2026** — Investigating the Wedge Map on SNOVA
-- 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
-- 🟡 **2026** — Linear Code Equivalence via Plücker Coordinates
-- 🟡 **2026** — Poseidon and Neptune: Gröbner Basis Cryptanalysis Exploiting Subspace Trails
-- 🟡 **2026** — The module action for isogeny based cryptography
-- 🟡 **2026** — Hashing-friendly elliptic curves
-- 🟡 **2026** — PD-Net: Learning Device-Invariant Representations for Heterogeneous Cross-Device Side-Channel Attacks
-- 🟡 **2026** — Oblivious SpaceSaving: Heavy-Hitter Detection over Fully Homomorphic Encryption
-- 🟡 **2026** — Confidential Transfers for Multi-Purpose Tokens on the XRP Ledger
-- 🟡 **2026** — Weak-key cryptanalysis of Blink
-- 🟡 **2026** — Applications of Bruhat-Chevalley-Renner Decomposition to Metric-Aware Code-Based Cryptography
-- 🟡 **2026** — How to construct even faster and indifferentiable hash functions from random permutations
-- 🟡 **2026** — Cross-Algorithm Deep Learning-based Non-Profiled Side-Channel Attacks Exploiting Symmetric Leakage
-- 🟡 **2026** — Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers
-- 🟡 **2026** — DY* Unchained: Now with Composable Security Proofs and Precise Compromise Scenarios
-- 🟡 **2026** — MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments
-- 🟡 **2026** — On Efficient Computations of $y^2=x^3+b/\mathbb{F}_p$ for Primes $p\equiv 1 \mod 3$
-- 🟡 **2026** — Interleaving Stability for Mutual Correlated Agreement and Curve Decodability
-- 🟡 **2026** — Revisiting Linear Subspace Trails in Poseidon2 and Neptune
-- 🟡 **2026** — On Local Invariants for Permutation Equivalence
-- 🟡 **2026** — Suppressing Hidden Extension-Field Linearity in Rank-Metric Cryptography via Structural Incompatibility
-- 🟡 **2026** — Sequence-Level Security for Active Weighted Signature Reconfiguration
-- 🟡 **2026** — On Maximum Size Simultaneous Linear Approximations in Ascon and Keccak and Related Translation and Differential Properties
-- 🟡 **2026** — Is PSI Really Faster Than PSU? Achieving Efficient PSU with Invertible Bloom Filters
-- 🟡 **2026** — A Machine-Checked EUF-CMA Proof for the Hybrid Fiat-Shamir Signature Scheme
-- 🟡 **2026** — Improved Subfield Curve Search For Specific Field Characteristics
-- 🟡 **2026** — A family of invertible shift-invariant maps with strong arithmetic properties
-- 🟡 **2026** — Barriers for Transparent Algebraic Generation of Hard Supersingular Curves
-- 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
-- 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
-- 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]
 
 ### 回旋镖与 Rectangle (20 篇)
 

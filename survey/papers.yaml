@@ -24143,3 +24143,110 @@ papers:
   - tweakable
   fetched_date: '2026-06-26'
   source: eprint
+- id: the_revisited_hidden_2026
+  title: The Revisited Hidden Weight Bit Function
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2022
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Hidden Weight Bit Function (HWBF) has drawn considerable attention for its simplicity and cryptographic potential.
+    Despite its ease of implementation and favorable algebraic properties, its low no
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-27'
+  source: eprint
+- id: protogalattice_constantround_latticebased_2026
+  title: 'ProtogaLattice: Constant-Round Lattice-based Folding for General Polynomial Relations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1317
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Folding schemes are gaining traction recently as they unlock practical instantiations of incrementally verifiable
+    computation (IVC) and proof-carrying data (PCD). In particular, there has been a growi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-27'
+  source: eprint
+- id: computing_multiscalar_multiplication_2026
+  title: Computing multi-scalar multiplication on memory-constrained devices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1316
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-Scalar Multiplication is a critical operation in most pairing-based zero knowledge proofs. In a lot of studies,
+    memory limitations have often been reported to be the primary bottleneck preventin
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-27'
+  source: eprint
+- id: verdict_a_cryptographically_2026
+  title: 'VERDICT: A Cryptographically Verifiable Framework for Secure Data Lineage in Decentralized DAGs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1315
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Ensuring the integrity and traceability of data transformations in
+
+    distributed systems presents significant challenges, particularly in
+
+    environments where data privacy and decentralization are paramou'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-27'
+  source: eprint
+- id: hhe_kombat_benchmarking_2026
+  title: 'HHE Kombat: Benchmarking Hybrid Homomorphic Encryption Schemes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1314
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Hybrid Homomorphic Encryption (HHE) is emerging as a practical alternative to fully homomorphic encryption by
+    offloading computational overhead to the cloud. Despite the growing number of HHE schemes '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-27'
+  source: eprint
+- id: so_long_and_2026
+  title: 'So Long, and Thanks for All the Seeds: Attacking GGM-trees in Post-quantum signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1313
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: "Post-quantum signatures built from Fiat--Shamir transforms of zero-knowledge \nidentification protocols---including\
+    \ LESS, CROSS, and MEDS---use GGM-tree seed \ncompression to shrink signatures, revealin"
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-06-27'
+  source: eprint
