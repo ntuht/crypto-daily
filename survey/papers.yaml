@@ -24250,3 +24250,37 @@ papers:
   - LED
   fetched_date: '2026-06-27'
   source: eprint
+- id: learning_with_alternating_2026
+  title: Learning with Alternating Moduli, Arora-Ge over Composite Moduli, and Weak PRFs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/968
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In TCC 2018, Boneh, Ishai, Passelègue, Sahai, and Wu propose candidates of weak and strong PRFs by evaluating linear
+    functions over coprime moduli alternatively. Such PRFs can be evaluated by low-dept
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-28'
+  source: eprint
+- id: subspace_guessing_and_2026
+  title: Subspace Guessing and Rank-Metric Solvers with Hints
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/132
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We show how to improve rank-metric solvers when certain side information (hints) about the secret is available.
+    Concretely, we adapt the kernel search algorithm for MinRank and the GRS algorithm for t
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-28'
+  source: eprint
