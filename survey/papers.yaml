@@ -24284,3 +24284,20 @@ papers:
   - LED
   fetched_date: '2026-06-28'
   source: eprint
+- id: collatz_hash_hash_2026
+  title: 'Collatz Hash: Hash Algorithm Using 3x+1 Conjecture'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1606
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we introduce a new hash algorithm in that we used the Collatz problem, focusing on its conditional
+    branching structure, an element often overlooked despite the fame of the 3x + 1 conjec
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-29'
+  source: eprint
