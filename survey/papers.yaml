@@ -24301,3 +24301,275 @@ papers:
   - PRESENT
   fetched_date: '2026-06-29'
   source: eprint
+- id: cryptographic_personas_responsible_2026
+  title: 'Cryptographic Personas: Responsible Pseudonyms Without De-Anonymization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1969
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present cryptographic personas, an approach for facilitating access to pseudonymous speech within a community
+    without enabling abuse.  In systems equipped with cryptographic personas, users are abl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: the_most_efficient_2026
+  title: 'The Most Efficient Protocol for PAKE: What Exact Stuff Do You Need to Hash at the End?'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1331
+  directions:
+  - round_function
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A Password-Authenticated Key Exchange (PAKE) protocol allows two parties to jointly establish a cryptographic session
+    key, in the "password-only" setting where the only information shared in advance i
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - Feistel
+  - PRESENT
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: distinguishing_goppa_codes_2026
+  title: Distinguishing Goppa codes using higher-order vanishing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1661
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new algorithm to distinguish alternant and Goppa codes from general linear codes. Our approach is
+    based on higher-order vanishing of polynomials and can be applied to a wide set of code p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: falafel_modular_zeroknowledge_2026
+  title: 'Falafel: Modular Zero-Knowledge Proofs of Training in the Federated Setting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1335
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce Falafel, a modular scheme for Fast, Authenticated, Locally Attested FEderated Learning, with which
+    parties can create a zero-knowledge proof of training (zkPoT) for Federated Learning (FL
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: faest_for_memoryconstrained_2026
+  title: FAEST for Memory-Constrained Devices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1261
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce a new compact and constant-time implementation of the FAEST v1.1 signature scheme that allows it to
+    run in resource-constrained Arm Cortex-M4 microcontrollers under 190M cycles for signin
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: principles_for_prhl_2026
+  title: 'Principles for pRHL Proofs of Cryptographic Protocols: How to Convince EasyCrypt that your Protocol is Secure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1334
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'The EasyCrypt proof assistant has been used to
+
+    successfully formalize security proofs for a wide variety of crypto-
+
+    graphic primitives. However, attempts at formalizing objects with
+
+    interactivity, suc'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: realworld_qualification_proof_2026
+  title: 'Real-world Qualification Proof: A Protocol for Supporting Real-world Assets in DeFi'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1330
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Integrating Real-World Assets (RWA) into Decentralized Finance (DeFi) enables borrowers to leverage off-chain assets
+    for on-chain transactions.  However, this integration faces a critical security cha
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: flock_fast_proving_2026
+  title: 'Flock: Fast Proving for Batch Boolean Computations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1329
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: For many applications of SNARKs, a key bottleneck is proving large batches of standard cryptographic hash evaluations,
+    such as SHA-256, Keccak, or BLAKE3. We introduce Flock, a hash-based SNARK for ex
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: fault_assisted_maninthemiddle_2026
+  title: Fault assisted Man-In-The-Middle Attack on MAYO
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1327
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Multivariate quadratic (MQ) signature schemes such as MAYO are among the leading candidates for post-quantum digital
+    signatures, with security relying on the hardness of solving systems of multivariat
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: the_generalised_tate_2026
+  title: The Generalised Tate Pairing over any field
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1325
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We generalise a pairing on elliptic curves over finite fields, called the generalised Tate pairing, which is defined
+    in terms of an arbitrary endomorphism of the curve, with certain trace requirements
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: efficient_parallelization_of_2026
+  title: Efficient Parallelization of Large-Scale Modular Multiplication via Low-Latency LogJumps
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1324
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Elliptic-Curve Cryptography (ECC) found in Zero-Knowledge Proofs (ZKPs) protects assets worth more than a billion
+    dollars on privacy-preserving blockchain networks. There, the transaction rate is most
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: minimeds_short_gmw_2026
+  title: miniMEDS - Short GMW Signatures from Isometry Hints
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1323
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Hints are a concept from side-channel analysis referring to small \namounts of information that enable an adversary,\
+    \ via a potentially very efficient procedure, to extract the secret. We take this cryp"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: reliable_homomorphic_matching_2026
+  title: Reliable Homomorphic Matching for Fuzzy Labeled PSI at Scale
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1322
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fuzzy Labeled Private Set Intersection (FLPSI) lets a receiver learn the labels of enrolled records that are similar
+    to its query, and nothing else. FLPSI can be built in several ways. Constructions b
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: differentially_private_intermediate_2026
+  title: Differentially Private Intermediate Result Resizing for Scalable Secure Multi-Party  Analytics
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1320
+  directions:
+  - lightweight
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure Multi-Party Computation (MPC) enables collaborative analytics without exposing raw data. Yet, complex data
+    retrieval operations in relational databases (i.e., relational queries) remain limited
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - lightweight
+  fetched_date: '2026-06-30'
+  source: eprint
+- id: a_realworld_lawenforcement_2026
+  title: 'A Real-World Law-Enforcement Hack: The Case of Encrochat'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1319
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In 2020, a coordinated law-enforcement effort infiltrated Encrochat, an end-to-end encrypted service provider,
+    exfiltrating historical and real-time data and metadata over months. Encrochat was used e
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-06-30'
+  source: eprint
