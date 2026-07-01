@@ -24573,3 +24573,54 @@ papers:
   - LED
   fetched_date: '2026-06-30'
   source: eprint
+- id: orthus_practical_sublinear_2026
+  title: 'Orthus: Practical Sublinear Batch-Verification of Lattice Relations from Standard Assumptions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/398
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The past several years have seen a rapid rise in practical lattice-based proof systems with linear-sized zero-knowledge
+    proofs forming the foundation of many of the most efficient quantum-safe privacy
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-01'
+  source: eprint
+- id: cryptanalysis_of_hawk_2026
+  title: 'Cryptanalysis of HAWK: a Guessing Game'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1318
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: HAWK is a signature scheme that was introduced in 2022, and uses the lattice isomorphism problem (LIP) as a basis
+    for post-quantum cryptography. In this work, we describe a classical algorithm that re
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-01'
+  source: eprint
+- id: trilithium_efficient_and_2026
+  title: 'Trilithium: Efficient and Universally Composable Distributed ML-DSA Signing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/675
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this paper, we present Trilithium: a protocol for distributed key generation and signing compliant with FIPS
+    204 (ML-DSA). Our protocol allows two parties, ``server'''' and ``phone'''' with assistance '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-01'
+  source: eprint
