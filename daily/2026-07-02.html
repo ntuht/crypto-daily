@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-02</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-02</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-02</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-02 04:10</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 5 篇 → 启发式 2 篇 → 精选 <strong>2 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Prover - Toward More Efficient Formal Verification of Masking in Probing Model](https://eprint.iacr.org/2024/1202)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2024/1202.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：侧信道攻击对密码实现构成严重威胁，而掩码技术是重要的防护手段，其安全性评估依赖于形式化验证。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文旨在通过优化形式化验证工具（如Prover），提高在探测模型下对掩码实现进行安全性验证的效率。它可能引入新的验证算法、模型抽象或并行化技术，以应对复杂掩码方案带来的验证挑战，从而显著加速证明过程，并确保验证的完备性。</p>
+
+<p>🎯 <strong>意义</strong>：这将有助于加速安全芯片和密码模块的开发周期，提升侧信道防护设计的可靠性和验证效率，为实际应用提供更强的安全保障。</p>
+
+<hr>
+
+<h3>2. [Device-Bound Anonymous Credentials With(out) Trusted Hardware](https://eprint.iacr.org/2025/1995)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 8/10 | [📎 PDF](https://eprint.iacr.org/2025/1995.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：匿名凭证在实现隐私保护和不可链接的用户认证方面至关重要，但其可转移性可能导致凭证滥用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文旨在研究如何将匿名凭证与特定设备绑定，以确保凭证的不可转移性，防止恶意用户共享。它可能提出在有或无可信硬件（如SGX）支持下的新型设备绑定匿名凭证方案，例如利用设备唯一标识符或创新的密码学原语，并分析其安全属性、隐私保护能力及性能开销。</p>
+
+<p>🎯 <strong>意义</strong>：这将显著提升匿名凭证的实用性和安全性，有效防止凭证滥用，并在不同信任假设下提供灵活的解决方案，拓宽其应用场景。</p>
+
+<hr>
+
+<p><em>精选自 5 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
