@@ -24624,3 +24624,95 @@ papers:
   - PRESENT
   fetched_date: '2026-07-01'
   source: eprint
+- id: summer_recursive_zeroknowledge_2026
+  title: 'SUMMER: Recursive Zero-Knowledge Proofs for Scalable RNN Training'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1688
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs of training (zkPoT) enable a prover to certify that a model was trained on a committed dataset
+    under a prescribed algorithm without revealing the model or data. Proving recurrent
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-02'
+  source: eprint
+- id: devicebound_anonymous_credentials_2026
+  title: Device-Bound Anonymous Credentials With(out) Trusted Hardware
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1995
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous credentials enable unlinkable and privacy-preserving user authentication. To ensure non-transferability
+    of credentials among corrupt users, they can additionally be device-bound. Therein, a '
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-07-02'
+  source: eprint
+- id: prover_toward_more_2026
+  title: Prover - Toward More Efficient Formal Verification of Masking in Probing Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1202
+  directions:
+  - milp_sat_cp
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 'In recent years, formal verification has emerged as a crucial method for assessing security against Side-Channel
+    attacks of masked implementations, owing to its remarkable versatility and high degree '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - S-box
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-02'
+  source: eprint
+- id: bandwidth_efficient_partial_2026
+  title: Bandwidth Efficient Partial Authorized PSI
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2132
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent attacks on private set intersection (PSI) and PSI-like protocols have demonstrated that input privacy can
+    be compromised when parties maliciously choose their inputs, even in protocols proven s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-02'
+  source: eprint
+- id: chipletbased_techniques_for_2026
+  title: Chiplet-Based Techniques for Scalable and Memory-Aware Multi-Scalar Multiplication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/252
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents a high-performance architecture for accelerating Multi-Scalar Multiplication (MSM) on ASIC
+    platforms, targeting cryptographic applications with high throughput and scalability dema
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-02'
+  source: eprint
