@@ -24716,3 +24716,272 @@ papers:
   - PRESENT
   fetched_date: '2026-07-02'
   source: eprint
+- id: twoserver_private_information_2026
+  title: Two-Server Private Information Retrieval in Sublinear Time and Quasilinear Space
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2008
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We build two-server private information retrieval (PIR) that achieves information-theoretic security and strong
+    double-efficiency guarantees. On a database of $n > 10^6$ bits, the servers store a prep
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: cloning_games_black_2026
+  title: Cloning Games, Black Holes and Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1826
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we introduce a new toolkit for analyzing \emph{cloning games}, a notion that captures stronger and
+    more quantitative versions of the celebrated quantum no-cloning theorem. This framework
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: the_jacobi_factoring_2026
+  title: 'The Jacobi Factoring Circuit: Quantum Factoring with Near-Linear Gates and Sublinear Space and Depth'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2034
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a compact quantum circuit for factoring a large class of integers, including some whose classical hardness
+    is expected to be equivalent to RSA (but not including RSA integers themselves). M
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: deterministic_state_machines_2026
+  title: 'Deterministic State Machines as Guarded Linear Constraint Systems: Precommitment Forking, Guard Algebra, Explicit
+    Resource Consumption, Tripwire, Morphism Detection, and Consensus Free Fork Exclusion'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/592
+  directions:
+  - meet_in_the_middle
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'This paper formalizes the Deterministic State Machine, or DSM, as a guarded, linear, forward only, constraint
+    based computation model. DSM does not require a blockchain, validator set, sequencer, gas '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: refined_evaluation_methods_2026
+  title: Refined Evaluation Methods of Decryption Failure Rate in Lattice-Based Public-Key Encryption with Message Encoding
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1350
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Lattice-based cryptography is one of the most promising candidates for post-quantum cryptography. Decryption Failure
+    Rate (DFR) is a critical metric for the correctness and security of lattice-based p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: on_canonical_liftings_2026
+  title: On Canonical Liftings, Group Actions, and (Linkable) Ring Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1348
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We introduce the notion of canonical lifting for group actions. This generalises existing techniques for reducing
+    the size of group-action-based signatures, such as the canonical forms used in the LES
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: revisiting_the_quantum_2026
+  title: 'Revisiting the Quantum Indifferentiability of Merkle-Damgård: Proof Limitations and Optimal Consistency'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1347
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "The quantum indifferentiability of the Merkle-Damgård (MD) domain extender is a foundational problem in post-quantum\
+    \ cryptography. \nRecently, Gorjan et al. identified critical flaws in existing consis"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: almost_scriptless_adaptor_2026
+  title: Almost Scriptless Adaptor Signatures from any Signature Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1346
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An adaptor signature (AS) scheme extends a digital signature by tying together message authentication with the
+    exchange of a secret. Such atomic exchange of a secret for a signature has key applicatio
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: public_coefficient_matters_2026
+  title: 'Public Coefficient Matters: A Practical Differential Fault Attack on ML-DSA and HAETAE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1344
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: With the standardization of post-quantum digital signature schemes and their increasing deployment in security
+    critical applications such as firmware authentication and software distribution, implemen
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: bison_billionscale_oblivious_2026
+  title: 'BiSON: Billion-Scale Oblivious Nearest-Neighbor Search in Milliseconds'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1343
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Semantic search over vector databases is a fundamental problem in both theory and practice, with large-scale systems
+    relying on approximate nearest-neighbor (ANN) algorithms to retrieve semantically s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: accountable_anonymous_crosschain_2026
+  title: Accountable Anonymous Cross-Chain Atomic Swaps via Threshold-Openable Linkable Ring Adaptor Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1342
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cross-chain atomic swaps enable decentralized asset exchange across independent ledgers, but their public transcripts
+    may expose transaction flows, signer identities, and business relationships. Exist
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: a_modular_risk_2026
+  title: A Modular Risk Assessment Module for Adaptive Cryptographic Selection in Q-OPSEC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1341
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents RiskService, a modular risk assessment module integrated into the Q-OPSEC adaptive AI middleware
+    for quantum cryptography. A synthetic dataset covering 58 features across nine grou
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: generalized_batched_decomposition_2026
+  title: Generalized Batched Decomposition Key-Switching for CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1340
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A basic property of lattice-based homomorphic encryption schemes is that ciphertexts carry an inherent noise that
+    accumulates as computation advances. The key-switching procedure of these schemes allo
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: key_recovery_for_2026
+  title: Key recovery for the McEliece cryptosystem using higher-order vanishing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1339
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new key recovery attack against the McEliece cryptosystem with binary Goppa codes that applies to
+    a wide range of parameter sets. Earlier work already observed that homogeneous polynomial
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-03'
+  source: eprint
+- id: bitslicing_the_aegis_2026
+  title: Bitslicing the AEGIS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1338
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'The AEGIS family of authenticated encryption algorithms is built on a large state whose update function is a cascade
+    of dependent AES rounds. For bitslicing, this looks like the worst possible case.
+
+
+    '
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - AES
+  - PRESENT
+  - ChaCha
+  fetched_date: '2026-07-03'
+  source: eprint
