@@ -24985,3 +24985,127 @@ papers:
   - ChaCha
   fetched_date: '2026-07-03'
   source: eprint
+- id: sok_verifiable_integrity_2026
+  title: 'SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learning'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2296
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Federated Learning (FL) is an advancement in Machine Learning motivated by the need to preserve the privacy of
+    the data used to train models. While it effectively addresses this issue, the multi-parti
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-04'
+  source: eprint
+- id: hensellifting_blackbox_algorithms_2026
+  title: Hensel-lifting black-box algorithms and fast trace computation for elliptic-curve endomorphisms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/137
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We demonstrate a general and efficient technique to Hensel-lift a solution to a system of ($p$‑adically analytic)
+    equations which may be given implicitly in the form of an efficient evaluation algorit
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-04'
+  source: eprint
+- id: spain_succinct_proofs_2026
+  title: 'Spain: Succinct proofs for numerical computations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1356
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In a succinct proof protocol, a verifier gets assurance that an untrusted prover executed an agreed computation,
+    without requiring the verifier to re-execute the computation itself. In little more tha
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-07-04'
+  source: eprint
+- id: compressing_correlations_via_2026
+  title: 'Compressing Correlations via Secret Replication: PCFs from Symmetric Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1355
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We revisit the question of securely compressing multiparty correlations using only symmetric cryptography. A *linear
+    correlation* ${\cal C}$, defined by a linear subspace $C\subseteq \mathbb F^n$, sam
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-04'
+  source: eprint
+- id: 3paas_privacypreserving_postcompromise_2026
+  title: '3PaaS: Privacy-Preserving Post-Compromise Security as a Service'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1353
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Post-Compromise Security (PCS) expresses that even after a party has been compromised, it may be able to recover
+    (or "heal") security afterwards. PCS has been extensively studied, and many end-to-end '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-04'
+  source: eprint
+- id: dead_mans_switch_2026
+  title: Dead Man’s Switch Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1352
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We initiate the formal study of "dead man switch cryptography" — the problem of cryptographically enforcing the
+    fate of a long-lived secret upon the death of its sole keeper — either by releasing it e
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-04'
+  source: eprint
+- id: hardware_private_cubic_2026
+  title: Hardware Private Cubic Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1351
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Cryptographic hardware implementations often leak secret information through side channels. This can allow attackers
+    to learn secret data, such as a cryptographic key, without any vulnerability in the
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  - PRESENT
+  fetched_date: '2026-07-04'
+  source: eprint

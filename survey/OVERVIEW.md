@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1384 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1391 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1175)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1182)
 
 ## 算法设计
 
@@ -366,7 +366,7 @@
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 - 🟡 **2007** — The 128-Bit Blockcipher CLEFIA [CLEFIA]
 
-### S-box 设计与评估 (38 篇)
+### S-box 设计与评估 (39 篇)
 
 - 🟡 **2026** — How Small Can S-boxes Be?
 - 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
@@ -389,6 +389,7 @@
 - 🟡 **2026** — Top Gun: Degree Annihilation Attacks on Poseidon
 - 🟡 **2026** — Subspace Differential Uniformity
 - 🟡 **2026** — Prover - Toward More Efficient Formal Verification of Masking in Probing Model
+- 🟡 **2026** — Hardware Private Cubic Circuits
 - 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
 - 🟡 **2024** — A Family of Biprojective APN Functions
 - 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
@@ -587,7 +588,7 @@
 
 ## 算法分析
 
-### 差分分析 (705 篇)
+### 差分分析 (709 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1232,6 +1233,10 @@
 - 🟡 **2026** — A Modular Risk Assessment Module for Adaptive Cryptographic Selection in Q-OPSEC
 - 🟡 **2026** — Generalized Batched Decomposition Key-Switching for CKKS
 - 🟡 **2026** — Key recovery for the McEliece cryptosystem using higher-order vanishing
+- 🟡 **2026** — Hensel-lifting black-box algorithms and fast trace computation for elliptic-curve endomorphisms
+- 🟡 **2026** — Compressing Correlations via Secret Replication: PCFs from Symmetric Cryptography
+- 🟡 **2026** — 3PaaS: Privacy-Preserving Post-Compromise Security as a Service
+- 🟡 **2026** — Dead Man’s Switch Cryptography
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1295,7 +1300,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (230 篇)
+### MILP/SAT/CP 建模技术 (231 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1493,6 +1498,7 @@
 - 🟡 **2026** — Differentially Private Intermediate Result Resizing for Scalable Secure Multi-Party  Analytics
 - 🟡 **2026** — Prover - Toward More Efficient Formal Verification of Masking in Probing Model
 - 🟡 **2026** — On Canonical Liftings, Group Actions, and (Linkable) Ring Signatures
+- 🟡 **2026** — Spain: Succinct proofs for numerical computations
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -1693,7 +1699,7 @@
 - 🔴 **2008** — A New Meet-in-the-Middle Attack on AES [AES]
 - 🔴 **1977** — Special Feature Exhaustive Cryptanalysis of the NBS Data Encryption Standard [DES]
 
-### ML/LLM 辅助密码分析 (60 篇)
+### ML/LLM 辅助密码分析 (61 篇)
 
 - 🟡 **2026** — Adaptive Adversaries in Byzantine-Robust Federated Learning: A survey.
 - 🟡 **2026** — Sparse optimisation and quantum-inspired encoding for ransomware detection
@@ -1744,6 +1750,7 @@
 - 🟡 **2026** — AlphaFL: Secure Aggregation with Malicious$^2$ Security for Federated Learning against Dishonest Majority
 - 🟡 **2026** — Survey: Six Years of Neural Differential Cryptanalysis
 - 🟡 **2026** — TRIP: Thresholding in Regression with Input Privacy
+- 🟡 **2026** — SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learning
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — Rethinking Learning-based Symmetric Cryptanalysis: a Theoretical Perspective [SPECK]
 - 🔴 **2024** — 6 Years of Neural Differential Cryptanalysis [SPECK, SIMON]
