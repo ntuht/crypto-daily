@@ -25109,3 +25109,37 @@ papers:
   - PRESENT
   fetched_date: '2026-07-04'
   source: eprint
+- id: noisette_certifying_differential_2026
+  title: 'Noisette: Certifying Differential Privacy Mechanisms Efficiently'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/074
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Differential privacy (DP) has emerged as a rigorous framework for privacy-preserving data analysis, with widespread
+    deployment in industry and government. Yet existing implementations typically assume
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-07-06'
+  source: eprint
+- id: on_quantum_simulationsoundness_2026
+  title: On Quantum Simulation-Soundness
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1702
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Non-interactive zero-knowledge (NIZK) proof systems are a cornerstone of modern cryptography, but their security
+    has received little attention in the quantum settings. Motivated by improving our under
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-06'
+  source: eprint
