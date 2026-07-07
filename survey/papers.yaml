@@ -25143,3 +25143,385 @@ papers:
   - LED
   fetched_date: '2026-07-06'
   source: eprint
+- id: keyrecovery_sidechannel_attack_2026
+  title: Key-Recovery Side-Channel Attack on the Berlekamp-Massey Decoding Algorithm in the Classic McEliece KEM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2043
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this article, we present a side-channel attack on unprotected implementations
+
+    of the Berlekamp-Massey (BM) algorithm in both the reference implementation
+
+    and an embedded implementation of the Class'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: too_much_crypto_2026
+  title: Too Much Crypto
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2019/1492
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We argue that ChaCha, BLAKE2, SHA-3, and even AES have overly generous security margins: they do more rounds than
+    are needed for their intended security levels, and therefore
+
+    spend unnecessary computa'
+  status: pending_review
+  matched_keywords:
+  - AES
+  - ChaCha
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: improved_ntt_and_2026
+  title: Improved NTT and CRT-based RNR Blinding for Side-Channel and Fault Resistant Kyber
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/181
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we build upon the blinding methods introduced in recent years to enhance the protection of lattice-based
+    cryptographic schemes against side-channel and fault injection attacks. Specific
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: hawk_guessing_game_2026
+  title: HAWK ``Guessing Game'' is not Polynomial-Time
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1377
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We show that the runtime complexity of the attack described in \emph{``Cryptanalysis of HAWK: a Guessing Game''''}
+    is much higher than originally claimed by its authors, and the attack is unlikely to po'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: secure_and_efficient_2026
+  title: Secure and Efficient Federated Learning with Adaptive Differential Privacy and Verifiable Homomorphic Aggregation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1376
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Federated Learning (FL) enables collaborative model training without centralizing raw data, but remains vulnerable
+    to gradient inference attacks, malicious aggregation servers, and communication ineff
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: mpc_with_weighted_2026
+  title: MPC with Weighted and Fluid Participation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1375
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Most existing multiparty computation (MPC) protocols assume static and equal participation. All computing parties
+    can dedicate resources and stay online for the entire computation, and they have equal
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: analysing_the_postquantum_2026
+  title: Analysing the Post-Quantum Security of S/MIME
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1374
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Secure/Multipurpose Internet Mail Extensions (S/MIME) is a standards-based mechanism for certificate-backed email
+    signing and encryption. Its post-quantum migration is now technically actionable: ML-K'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: formalizing_privacy_of_2026
+  title: 'Formalizing Privacy of Anonymous Credentials: A Provably Secure Framework with Predicate Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1373
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials enable privacy-preserving authentication but existing systems either lack support for predicate
+    proofs or are tied to specific signature schemes without a formal framework. We pr
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: retrievecompute_pir_and_2026
+  title: Retrieve-Compute PIR and Its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1372
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Two-server Private Information Retrieval achieves arbitrarily small
+
+    polynomial communication, but relies on a strong non-collusion assumption that
+
+    is difficult to justify in practice.
+
+
+    We introduce a '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: the_smallfield_turn_2026
+  title: 'The Small-Field Turn in Succinct Proofs: A Systematization of Finite-Field Choice in Modern SNARKs and STARKs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1371
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 'Over the past half-decade, transparent succinct arguments have migrated off the 256-bit scalar fields of pairing-friendly
+    elliptic curves and onto small fields: the 64-bit Goldilocks prime, the 31-bit'
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - LED
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: smklhs_succinct_multi_2026
+  title: 'smklhs: Succinct Multi key Linearly Homomorphic Signatures for Certified Statistics'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1370
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We study the problem of certifying statistical claims over datasets contributed by multiple independent sources.  In
+    this setting, an untrusted server aggregates signed data records and publishes clai
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: algebraic_modelings_of_2026
+  title: Algebraic Modelings of the Supersingular Isogeny Problem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1369
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new algebraic modeling of the Supersingular Isogeny Problem as a system of multivariate polynomial
+    equations, in the case where the elliptic curves are connected by an isogeny whose degre
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: sddt_an_operation_2026
+  title: 'SDDT: An Operation Skip Attack Framework for Bitslice Ciphers—Validated on PIPO'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1368
+  directions:
+  - sbox
+  - linear_diffusion
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Bitslice implementations are widely adopted in lightweight
+
+    cryptography (LWC) due to their efficiency and inherent resilience to
+
+    side-channel attacks. However, this paper reveals that their decomposit'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  - diffusion
+  - lightweight
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: sok_hashbased_polynomial_2026
+  title: 'SoK: Hash-Based Polynomial Commitments and Low-Degree Tests: From FRI to Basefold, STIR, and WHIR'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1367
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Hash-based low-degree tests and polynomial commitment schemes have become the cryptographic engine of a large fraction
+    of deployed succinct-argument systems. Unlike pairing-based commitments such as K
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: reducing_multiplicative_complexity_2026
+  title: Reducing Multiplicative Complexity via Conjugate Cipher
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1365
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Multiplicative complexity have shown to be an important metric for efficient implementations in various contexts
+    such as side-channel secure implementation and transciphering.
+
+
+    We introduce a generic '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - SKINNY
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: time_vs_success_2026
+  title: Time vs Success Probability Tradeoff for SVP and BDD with Implications to LWE and SIS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1364
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Worst-case to average-case reductions from lattice problems such as GapSVP and Bounded Distance Decoding (BDD)
+    to the Learning with Errors (LWE) problem form the backbone of the security guarantees fo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: slicing_bits_and_2026
+  title: 'Slicing Bits and Cutting Costs in CDT Sampling: High-Order Masking of FrodoKEM''s Gaussian Sampler, Revisited'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1363
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: FrodoKEM, a key encapsulation mechanism based on the standard (unstructured) LWE assumption, is recommended as
+    a conservative choice for post-quantum key exchange by agencies like BSI and ANSSI. As su
+  status: pending_review
+  matched_keywords:
+  - CRAFT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: from_cramer_rule_2026
+  title: From Cramer Rule to Lagrange Interpolation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1362
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multivariate interpolation arises in a wide range, including computer graphics,  multi-secret sharing  and secure
+    multiparty computation. But its general representation is rarely discussed.  In this n
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: a_short_implementation_2026
+  title: A Short Implementation Study of Privacy-Preserving Cross-Chain Verification Using Zero-Knowledge Proofs in Polkadot/Substrate
+    Environments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1360
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Exchanging data, assets and messages across various blockchain networks remains a challenge due to siloed blockchain
+    ecosystems. Many interoperability solutions have addressed this challenge through b
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-07'
+  source: eprint
+- id: a_refined_cryptanalytic_2026
+  title: A refined cryptanalytic attack against a generalized cubic Pell RSA scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1357
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In 2022, Cotan and Te{\c{s}}eleanu proposed an alternative RSA construction in which the modulus takes the form
+    $N = pq$ and the exponents $(e,d)$ are linked through
+
+    $
+
+    ed -1\equiv 0 \pmod{\psi_n(N)},\'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-07'
+  source: eprint
