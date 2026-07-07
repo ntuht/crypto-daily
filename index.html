@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-07-06 04:16</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-07-07 04:06</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1393</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1413</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,25 +35,25 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1393</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1413</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">148</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">151</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">70</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">52</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">41</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">39</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">35</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">33</span></div>
-  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">26</span></div>
+  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">27</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">22</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">21</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">711</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">231</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">162</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">724</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">235</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">164</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">61</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">35</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">35</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1393 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1413 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -15817,6 +15817,292 @@ Recently, Gorjan et al. identified critical flaws in existing consis</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">Non-interactive zero-knowledge (NIZK) proof systems are a cornerstone of modern cryptography, but their security has received little attention in the quantum settings. Motivated by improving our under</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="keyrecovery_sidechannel_attack_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="key-recovery side-channel attack on the berlekamp-massey decoding algorithm in the classic mceliece kem   in this article, we present a side-channel attack on unprotected implementations
+of the berlekamp-massey (bm) algorithm in both the reference implementation
+and an embedded implementation of the class">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2043" target="_blank">Key-Recovery Side-Channel Attack on the Berlekamp-Massey Decoding Algorithm in the Classic McEliece KEM</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this article, we present a side-channel attack on unprotected implementations
+of the Berlekamp-Massey (BM) algorithm in both the reference implementation
+and an embedded implementation of the Class</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="too_much_crypto_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="too much crypto   we argue that chacha, blake2, sha-3, and even aes have overly generous security margins: they do more rounds than are needed for their intended security levels, and therefore
+spend unnecessary computa">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2019/1492" target="_blank">Too Much Crypto</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We argue that ChaCha, BLAKE2, SHA-3, and even AES have overly generous security margins: they do more rounds than are needed for their intended security levels, and therefore
+spend unnecessary computa</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="improved_ntt_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="improved ntt and crt-based rnr blinding for side-channel and fault resistant kyber   in this paper, we build upon the blinding methods introduced in recent years to enhance the protection of lattice-based cryptographic schemes against side-channel and fault injection attacks. specific">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/181" target="_blank">Improved NTT and CRT-based RNR Blinding for Side-Channel and Fault Resistant Kyber</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this paper, we build upon the blinding methods introduced in recent years to enhance the protection of lattice-based cryptographic schemes against side-channel and fault injection attacks. Specific</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="hawk_guessing_game_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="hawk ``guessing game&#x27;&#x27; is not polynomial-time   we show that the runtime complexity of the attack described in \emph{``cryptanalysis of hawk: a guessing game&#x27;&#x27;} is much higher than originally claimed by its authors, and the attack is unlikely to po">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1377" target="_blank">HAWK ``Guessing Game&#x27;&#x27; is not Polynomial-Time</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We show that the runtime complexity of the attack described in \emph{``Cryptanalysis of HAWK: a Guessing Game&#x27;&#x27;} is much higher than originally claimed by its authors, and the attack is unlikely to po</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="secure_and_efficient_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="secure and efficient federated learning with adaptive differential privacy and verifiable homomorphic aggregation   federated learning (fl) enables collaborative model training without centralizing raw data, but remains vulnerable to gradient inference attacks, malicious aggregation servers, and communication ineff">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1376" target="_blank">Secure and Efficient Federated Learning with Adaptive Differential Privacy and Verifiable Homomorphic Aggregation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Federated Learning (FL) enables collaborative model training without centralizing raw data, but remains vulnerable to gradient inference attacks, malicious aggregation servers, and communication ineff</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="mpc_with_weighted_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="mpc with weighted and fluid participation   most existing multiparty computation (mpc) protocols assume static and equal participation. all computing parties can dedicate resources and stay online for the entire computation, and they have equal">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1375" target="_blank">MPC with Weighted and Fluid Participation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Most existing multiparty computation (MPC) protocols assume static and equal participation. All computing parties can dedicate resources and stay online for the entire computation, and they have equal</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="analysing_the_postquantum_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="analysing the post-quantum security of s/mime   secure/multipurpose internet mail extensions (s/mime) is a standards-based mechanism for certificate-backed email signing and encryption. its post-quantum migration is now technically actionable: ml-k">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1374" target="_blank">Analysing the Post-Quantum Security of S/MIME</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Secure/Multipurpose Internet Mail Extensions (S/MIME) is a standards-based mechanism for certificate-backed email signing and encryption. Its post-quantum migration is now technically actionable: ML-K</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="formalizing_privacy_of_2026" data-dirs="meet_in_the_middle,milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="formalizing privacy of anonymous credentials: a provably secure framework with predicate proofs   anonymous credentials enable privacy-preserving authentication but existing systems either lack support for predicate proofs or are tied to specific signature schemes without a formal framework. we pr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1373" target="_blank">Formalizing Privacy of Anonymous Credentials: A Provably Secure Framework with Predicate Proofs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Anonymous credentials enable privacy-preserving authentication but existing systems either lack support for predicate proofs or are tied to specific signature schemes without a formal framework. We pr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="retrievecompute_pir_and_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="retrieve-compute pir and its applications   two-server private information retrieval achieves arbitrarily small
+polynomial communication, but relies on a strong non-collusion assumption that
+is difficult to justify in practice.
+
+we introduce a">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1372" target="_blank">Retrieve-Compute PIR and Its Applications</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Two-server Private Information Retrieval achieves arbitrarily small
+polynomial communication, but relies on a strong non-collusion assumption that
+is difficult to justify in practice.
+
+We introduce a</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="the_smallfield_turn_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="the small-field turn in succinct proofs: a systematization of finite-field choice in modern snarks and starks   over the past half-decade, transparent succinct arguments have migrated off the 256-bit scalar fields of pairing-friendly elliptic curves and onto small fields: the 64-bit goldilocks prime, the 31-bit">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1371" target="_blank">The Small-Field Turn in Succinct Proofs: A Systematization of Finite-Field Choice in Modern SNARKs and STARKs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Over the past half-decade, transparent succinct arguments have migrated off the 256-bit scalar fields of pairing-friendly elliptic curves and onto small fields: the 64-bit Goldilocks prime, the 31-bit</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="smklhs_succinct_multi_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="smklhs: succinct multi key linearly homomorphic signatures for certified statistics   we study the problem of certifying statistical claims over datasets contributed by multiple independent sources.  in this setting, an untrusted server aggregates signed data records and publishes clai">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1370" target="_blank">smklhs: Succinct Multi key Linearly Homomorphic Signatures for Certified Statistics</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study the problem of certifying statistical claims over datasets contributed by multiple independent sources.  In this setting, an untrusted server aggregates signed data records and publishes clai</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="algebraic_modelings_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="algebraic modelings of the supersingular isogeny problem   we present a new algebraic modeling of the supersingular isogeny problem as a system of multivariate polynomial equations, in the case where the elliptic curves are connected by an isogeny whose degre">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1369" target="_blank">Algebraic Modelings of the Supersingular Isogeny Problem</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a new algebraic modeling of the Supersingular Isogeny Problem as a system of multivariate polynomial equations, in the case where the elliptic curves are connected by an isogeny whose degre</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="sddt_an_operation_2026" data-dirs="sbox,linear_diffusion,differential,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="sddt: an operation skip attack framework for bitslice ciphers—validated on pipo   bitslice implementations are widely adopted in lightweight
+cryptography (lwc) due to their efficiency and inherent resilience to
+side-channel attacks. however, this paper reveals that their decomposit">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1368" target="_blank">SDDT: An Operation Skip Attack Framework for Bitslice Ciphers—Validated on PIPO</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Bitslice implementations are widely adopted in lightweight
+cryptography (LWC) due to their efficiency and inherent resilience to
+side-channel attacks. However, this paper reveals that their decomposit</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span><span class="tag tag-direction">线性扩散层</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="sok_hashbased_polynomial_2026" data-dirs="meet_in_the_middle,milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="sok: hash-based polynomial commitments and low-degree tests: from fri to basefold, stir, and whir   hash-based low-degree tests and polynomial commitment schemes have become the cryptographic engine of a large fraction of deployed succinct-argument systems. unlike pairing-based commitments such as k">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1367" target="_blank">SoK: Hash-Based Polynomial Commitments and Low-Degree Tests: From FRI to Basefold, STIR, and WHIR</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Hash-based low-degree tests and polynomial commitment schemes have become the cryptographic engine of a large fraction of deployed succinct-argument systems. Unlike pairing-based commitments such as K</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="reducing_multiplicative_complexity_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="reducing multiplicative complexity via conjugate cipher   multiplicative complexity have shown to be an important metric for efficient implementations in various contexts such as side-channel secure implementation and transciphering.
+
+we introduce a generic">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1365" target="_blank">Reducing Multiplicative Complexity via Conjugate Cipher</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multiplicative complexity have shown to be an important metric for efficient implementations in various contexts such as side-channel secure implementation and transciphering.
+
+We introduce a generic</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="time_vs_success_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="time vs success probability tradeoff for svp and bdd with implications to lwe and sis   worst-case to average-case reductions from lattice problems such as gapsvp and bounded distance decoding (bdd) to the learning with errors (lwe) problem form the backbone of the security guarantees fo">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1364" target="_blank">Time vs Success Probability Tradeoff for SVP and BDD with Implications to LWE and SIS</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Worst-case to average-case reductions from lattice problems such as GapSVP and Bounded Distance Decoding (BDD) to the Learning with Errors (LWE) problem form the backbone of the security guarantees fo</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="slicing_bits_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="slicing bits and cutting costs in cdt sampling: high-order masking of frodokem&#x27;s gaussian sampler, revisited   frodokem, a key encapsulation mechanism based on the standard (unstructured) lwe assumption, is recommended as a conservative choice for post-quantum key exchange by agencies like bsi and anssi. as su">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1363" target="_blank">Slicing Bits and Cutting Costs in CDT Sampling: High-Order Masking of FrodoKEM&#x27;s Gaussian Sampler, Revisited</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">FrodoKEM, a key encapsulation mechanism based on the standard (unstructured) LWE assumption, is recommended as a conservative choice for post-quantum key exchange by agencies like BSI and ANSSI. As su</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="from_cramer_rule_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="from cramer rule to lagrange interpolation   multivariate interpolation arises in a wide range, including computer graphics,  multi-secret sharing  and secure multiparty computation. but its general representation is rarely discussed.  in this n">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1362" target="_blank">From Cramer Rule to Lagrange Interpolation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Multivariate interpolation arises in a wide range, including computer graphics,  multi-secret sharing  and secure multiparty computation. But its general representation is rarely discussed.  In this n</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_short_implementation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a short implementation study of privacy-preserving cross-chain verification using zero-knowledge proofs in polkadot/substrate environments   exchanging data, assets and messages across various blockchain networks remains a challenge due to siloed blockchain ecosystems. many interoperability solutions have addressed this challenge through b">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1360" target="_blank">A Short Implementation Study of Privacy-Preserving Cross-Chain Verification Using Zero-Knowledge Proofs in Polkadot/Substrate Environments</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Exchanging data, assets and messages across various blockchain networks remains a challenge due to siloed blockchain ecosystems. Many interoperability solutions have addressed this challenge through b</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_refined_cryptanalytic_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a refined cryptanalytic attack against a generalized cubic pell rsa scheme   in 2022, cotan and te{\c{s}}eleanu proposed an alternative rsa construction in which the modulus takes the form $n = pq$ and the exponents $(e,d)$ are linked through
+$
+ed -1\equiv 0 \pmod{\psi_n(n)},\">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1357" target="_blank">A refined cryptanalytic attack against a generalized cubic Pell RSA scheme</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In 2022, Cotan and Te{\c{s}}eleanu proposed an alternative RSA construction in which the modulus takes the form $N = pq$ and the exponents $(e,d)$ are linked through
+$
+ed -1\equiv 0 \pmod{\psi_n(N)},\</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
