@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-07-07 04:06</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-07-08 03:32</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1413</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1422</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,26 +35,26 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1413</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1422</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">151</span></div>
   <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">70</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">52</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">41</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">42</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">35</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">33</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">27</span></div>
-  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">22</span></div>
+  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">23</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">21</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">724</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">235</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">164</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">61</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">729</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">236</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">166</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">62</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">35</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">35</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">34</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1413 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1422 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -16103,6 +16103,123 @@ ed -1\equiv 0 \pmod{\psi_n(n)},\">
   <div class="paper-summary">In 2022, Cotan and Te{\c{s}}eleanu proposed an alternative RSA construction in which the modulus takes the form $N = pq$ and the exponents $(e,d)$ are linked through
 $
 ed -1\equiv 0 \pmod{\psi_n(N)},\</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="keyrecovery_attacks_on_2026" data-dirs="software_friendly,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="key-recovery attacks on talus: a cryptanalytic note   we present key-recovery attacks on the constructions of talus (kao and chang), a threshold ml-dsa (fips 204) construction available on arxiv and scheduled for presentation at the nist threshold call p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1386" target="_blank">Key-Recovery Attacks on TALUS: A Cryptanalytic Note</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present key-recovery attacks on the constructions of TALUS (Kao and Chang), a threshold ML-DSA (FIPS 204) construction available on arXiv and scheduled for presentation at the NIST Threshold Call P</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">软件友好密码</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="walsh_lut_evaluation_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="walsh lut evaluation on lazy bits for ckks aes transciphering   in this work we propose a novel boolean lookup-table evaluation methodology over binary ckks when circuit xors are kept lazy, i.e., evaluated as additions whose least significant bits remain correct.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1385" target="_blank">Walsh LUT Evaluation on Lazy Bits for CKKS AES Transciphering</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work we propose a novel Boolean lookup-table evaluation methodology over binary CKKS when circuit XORs are kept lazy, i.e., evaluated as additions whose least significant bits remain correct.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="knowledge_soundness_of_2026" data-dirs="milp_sat_cp,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="knowledge soundness of polynomial commitments in the algebraic group model does not guarantee extractability   the algebraic group model (agm) has become a standard framework for analyzing the knowledge soundness of group-based polynomial commitment schemes. in this work, we formally establish inherent limitat">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/284" target="_blank">Knowledge Soundness of Polynomial Commitments in the Algebraic Group Model Does Not Guarantee Extractability</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Algebraic Group Model (AGM) has become a standard framework for analyzing the knowledge soundness of group-based polynomial commitment schemes. In this work, we formally establish inherent limitat</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="lower_bounds_for_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="lower bounds for pir with preprocessing from blackbox cryptography   we study the limits of single-server private information retrieval (pir) with preprocessing. prior work has shown that single-server pir with sublinear communication requires a linear number of (publi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1384" target="_blank">Lower Bounds for PIR with Preprocessing from Blackbox Cryptography</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study the limits of single-server private information retrieval (PIR) with preprocessing. Prior work has shown that single-server PIR with sublinear communication requires a linear number of (publi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="an_improved_quantum_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="an improved quantum algorithm for 3-tuple lattice sieving   the assumed hardness of the shortest vector problem in high-dimensional lattices is one of the cornerstones of post-quantum cryptography. the fastest known heuristic attacks on svp are via so-called s">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/2189" target="_blank">An Improved Quantum Algorithm for 3-Tuple Lattice Sieving</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The assumed hardness of the Shortest Vector Problem in high-dimensional lattices is one of the cornerstones of post-quantum cryptography. The fastest known heuristic attacks on SVP are via so-called s</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="concrete_bitoperation_cost_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="concrete bit-operation cost of xl: for solving multivariate quadratic systems using wiedemann and berlekamp-massey   we present a concrete bit-operation cost model for solving multivariate quadratic systems with xl using wiedemann linear algebra, and berlekamp-massey sequence recovery. following the cryptattackteste">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1382" target="_blank">Concrete Bit-Operation Cost of XL: For Solving Multivariate Quadratic Systems Using Wiedemann and Berlekamp-Massey</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a concrete bit-operation cost model for solving multivariate quadratic systems with XL using Wiedemann linear algebra, and Berlekamp-Massey sequence recovery. Following the CryptAttackTeste</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="prift_private_finetuning_2026" data-dirs="ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="prift: private fine-tuning using off-the-shelf mpc and he libraries   privacy-preserving machine learning (ppml) is a methodology designed to maintain data privacy throughout the machine learning pipeline. although cryptographically protecting input privacy at the train">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1381" target="_blank">PriFT: Private Fine-Tuning using off-the-shelf MPC and HE libraries</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Privacy-Preserving Machine Learning (PPML) is a methodology designed to maintain data privacy throughout the machine learning pipeline. Although cryptographically protecting input privacy at the train</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="tim_a_sensitiveparameterprivacy_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="tim: a sensitive-parameter-privacy blind watermarking based on zero-knowledge proof   blind watermarking enables image ownership verification without requiring the original image. however, existing schemes usually require the owner to reveal the watermark seed and watermark positions d">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1380" target="_blank">TIM: A Sensitive-Parameter-Privacy Blind Watermarking Based on Zero-Knowledge Proof</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Blind watermarking enables image ownership verification without requiring the original image. However, existing schemes usually require the owner to reveal the watermark seed and watermark positions d</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="hierarchical_structure_in_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="hierarchical structure in attribute-based inner-product functional encryption   attribute-based inner-product functional encryption (ab-ipfe), introduced by abdalla et al. (asiacrypt&#x27;20), is a cryptosystem that combines the access-control capability of attribute-based encryption">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1379" target="_blank">Hierarchical Structure in Attribute-Based Inner-Product Functional Encryption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Attribute-based inner-product functional encryption (AB-IPFE), introduced by Abdalla et al. (Asiacrypt&#x27;20), is a cryptosystem that combines the access-control capability of attribute-based encryption</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
