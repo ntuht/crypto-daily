@@ -25525,3 +25525,167 @@ papers:
   - PRESENT
   fetched_date: '2026-07-07'
   source: eprint
+- id: keyrecovery_attacks_on_2026
+  title: 'Key-Recovery Attacks on TALUS: A Cryptanalytic Note'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1386
+  directions:
+  - software_friendly
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present key-recovery attacks on the constructions of TALUS (Kao and Chang), a threshold ML-DSA (FIPS 204) construction
+    available on arXiv and scheduled for presentation at the NIST Threshold Call P
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - ARX
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: walsh_lut_evaluation_2026
+  title: Walsh LUT Evaluation on Lazy Bits for CKKS AES Transciphering
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1385
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 'In this work we propose a novel Boolean lookup-table evaluation methodology over binary CKKS when circuit XORs
+    are kept lazy, i.e., evaluated as additions whose least significant bits remain correct. '
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: knowledge_soundness_of_2026
+  title: Knowledge Soundness of Polynomial Commitments in the Algebraic Group Model Does Not Guarantee Extractability
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/284
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The Algebraic Group Model (AGM) has become a standard framework for analyzing the knowledge soundness of group-based
+    polynomial commitment schemes. In this work, we formally establish inherent limitat
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: lower_bounds_for_2026
+  title: Lower Bounds for PIR with Preprocessing from Blackbox Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1384
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study the limits of single-server private information retrieval (PIR) with preprocessing. Prior work has shown
+    that single-server PIR with sublinear communication requires a linear number of (publi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: an_improved_quantum_2026
+  title: An Improved Quantum Algorithm for 3-Tuple Lattice Sieving
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2189
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The assumed hardness of the Shortest Vector Problem in high-dimensional lattices is one of the cornerstones of
+    post-quantum cryptography. The fastest known heuristic attacks on SVP are via so-called s
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: concrete_bitoperation_cost_2026
+  title: 'Concrete Bit-Operation Cost of XL: For Solving Multivariate Quadratic Systems Using Wiedemann and Berlekamp-Massey'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1382
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a concrete bit-operation cost model for solving multivariate quadratic systems with XL using Wiedemann
+    linear algebra, and Berlekamp-Massey sequence recovery. Following the CryptAttackTeste
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: prift_private_finetuning_2026
+  title: 'PriFT: Private Fine-Tuning using off-the-shelf MPC and HE libraries'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1381
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Privacy-Preserving Machine Learning (PPML) is a methodology designed to maintain data privacy throughout the machine
+    learning pipeline. Although cryptographically protecting input privacy at the train
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: tim_a_sensitiveparameterprivacy_2026
+  title: 'TIM: A Sensitive-Parameter-Privacy Blind Watermarking Based on Zero-Knowledge Proof'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1380
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blind watermarking enables image ownership verification without requiring the original image. However, existing
+    schemes usually require the owner to reveal the watermark seed and watermark positions d
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-08'
+  source: eprint
+- id: hierarchical_structure_in_2026
+  title: Hierarchical Structure in Attribute-Based Inner-Product Functional Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1379
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Attribute-based inner-product functional encryption (AB-IPFE), introduced by Abdalla et al. (Asiacrypt''20), is
+    a cryptosystem that combines the access-control capability of attribute-based encryption '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-08'
+  source: eprint
