@@ -25689,3 +25689,55 @@ papers:
   - LED
   fetched_date: '2026-07-08'
   source: eprint
+- id: the_quantum_decoherence_2026
+  title: 'The Quantum Decoherence Model: Everlasting Composable Secure Computation and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/220
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Quantum cryptography allows to achieve security goals which are unobtainable using classical cryptography alone:
+    it offers the promise of everlasting privacy. Thatis, an adversary trying to attack a p'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-07-09'
+  source: eprint
+- id: lowlatency_linear_transformations_2026
+  title: Low-Latency Linear Transformations with Small Key Transmission for Private Neural Network on Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/883
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: As Machine Learning as a Service expands, protecting client data has become a critical challenge. Homomorphic Encryption
+    (HE) enables computation on encrypted data, but practical HE-based AI still suf
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-07-09'
+  source: eprint
+- id: architectural_leakage_analysis_2026
+  title: Architectural Leakage Analysis of Masked Cryptographic Software on RISC-V Cores
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1944
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Software masking—particularly through threshold implementations—has long been regarded as a foundational defense
+    mechanism against side-channel attacks. These schemes enforce the principles of non-com
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-09'
+  source: eprint
