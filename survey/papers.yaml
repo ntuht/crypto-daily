@@ -25741,3 +25741,20 @@ papers:
   - LED
   fetched_date: '2026-07-09'
   source: eprint
+- id: kanonymous_group_signatures_2026
+  title: k-Anonymous Group Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2007
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We review $k$-anonymity in authentication schemes, group signatures, and ring signatures. Existing constructions
+    either require a signer to maintain state across interactions, or admit tracing algorit
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-10'
+  source: eprint
