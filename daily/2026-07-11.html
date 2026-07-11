@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-11</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-11</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-11</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-11 03:26</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 42 篇 → 启发式 36 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [smklhs: Succinct Multi key Linearly Homomorphic Signatures for Certified Statistics](https://eprint.iacr.org/2026/1370)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/1370.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：针对多方贡献数据集的统计声明认证问题，现有方案难以在不可信服务器聚合签名数据时保证效率和隐私。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了smklhs，一种简洁的多密钥线性同态签名方案，它允许不可信服务器对来自不同源的签名数据进行聚合，并生成一个简洁的聚合签名，用于认证统计声明。该方案在保证数据隐私的同时，确保了聚合结果的完整性，并支持线性操作的同态性。</p>
+
+<p>🎯 <strong>意义</strong>：该方案为多源数据统计的隐私保护认证提供了高效且可扩展的密码学工具，在分布式统计分析等领域具有重要应用潜力。</p>
+
+<hr>
+
+<h3>2. [Device-Bound Anonymous Credentials With(out) Trusted Hardware](https://eprint.iacr.org/2025/1995)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2025/1995.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：匿名凭证虽能实现不可链接的隐私保护用户认证，但其可转移性可能导致恶意用户共享凭证，从而损害系统安全性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究了设备绑定匿名凭证，旨在防止凭证在用户之间转移，并提出了在有或无可信硬件（如TEE）环境下实现此类凭证的通用框架和具体构造。这些构造确保了即使在部分用户被攻破的情况下，凭证也无法被滥用或转移，从而增强了系统的非转移性保证。</p>
+
+<p>🎯 <strong>意义</strong>：该工作为构建更安全、防滥用的匿名认证系统提供了关键技术，尤其适用于需要强非转移性保证的隐私保护应用。</p>
+
+<hr>
+
+<h3>3. [CRAfT: Constant-Round Non-Polynomial Approximation and P2P Network for Secure Transformer Inference](https://eprint.iacr.org/2026/1292)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 4/10 | [📎 PDF](https://eprint.iacr.org/2026/1292.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Transformer模型在内容生成等领域取得突破，但其推理过程面临严重的隐私泄露风险和现有安全协议的扩展性瓶颈。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了CRAfT，一个常数轮的非多项式近似方法，用于在隐私保护环境下高效执行Transformer推理。CRAfT结合了P2P网络架构，通过优化非线性激活函数的安全计算，显著降低了通信开销和计算复杂度，从而解决了现有安全协议的扩展性问题。</p>
+
+<p>🎯 <strong>意义</strong>：该方案为Transformer模型在隐私敏感场景下的安全部署提供了高效且可扩展的解决方案，推动了隐私保护机器学习的实际应用。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1202" target="_blank">Morphic Accumulators and Applications: Optimal Range Proofs, Polynomial Commitments, and Ring Signatures</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1202.pdf)</p>
+
+<blockquote>
+<p>本文提出了基于未知阶群的同态累加器，并展示了其在构建最优范围证明、多项式承诺和环签名等密码学原语中的广泛应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1239" target="_blank">Balanced Additive Randomized Encodings for Shuffle Differential Privacy</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1239.pdf)</p>
+
+<blockquote>
+<p>本文为混洗差分隐私提出了平衡加性随机编码，旨在通过安全混洗器在分布式环境中实现更优的隐私保护和效用平衡。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1685" target="_blank">GAPP: Generic Aggregation of Polynomial Protocols</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1685.pdf)</p>
+
+<blockquote>
+<p>本文构建了一种新的双变量多项式承诺方案bPCLB，具有简洁验证、线性公共参数和密码学操作复杂度，并提出了多项式协议的通用聚合框架GAPP。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/071" target="_blank">The HHE Land: Exploring the Landscape of Hybrid Homomorphic Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/071.pdf)</p>
+
+<blockquote>
+<p>本文深入探讨了混合同态加密（HHE）的领域，分析了其在解决全同态加密实际应用挑战中的潜力与关键技术。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1302" target="_blank">TRIP: Thresholding in Regression with Input Privacy</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1302.pdf)</p>
+
+<blockquote>
+<p>本文提出了TRIP方案，旨在通过安全多方计算在保护输入隐私的前提下，高效地实现回归分析中的阈值化操作。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2023/1801" target="_blank">ForgedAttributes: An Existential Forgery Vulnerability of CMS Signatures</a></strong> | [📎 PDF](https://eprint.iacr.org/2023/1801.pdf)</p>
+
+<blockquote>
+<p>本文揭示了当前CMS签名标准中存在的一个属性伪造漏洞，该漏洞可能导致存在性签名伪造攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/2296" target="_blank">SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learning</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/2296.pdf)</p>
+
+<blockquote>
+<p>本文对隐私保护联邦学习中可验证完整性声明的现有技术进行了系统性知识梳理，分析了其挑战与未来方向。</p>
+</blockquote>
+
+<p><em>精选自 42 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
