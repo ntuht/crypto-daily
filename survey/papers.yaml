@@ -25758,3 +25758,161 @@ papers:
   - PRESENT
   fetched_date: '2026-07-10'
   source: eprint
+- id: starfighterson_the_general_2026
+  title: Starfighters—On the General Applicability of X-Wing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1397
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we present a comprehensive analysis of QSF, the KEM combiner used by X-Wing (Communications in Cryptology
+    1(1), 2024). While the X-Wing paper focuses on the application of QSF to ML-KEM-
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: efficient_polynomial_multiplication_2026
+  title: Efficient Polynomial Multiplication for HQC on ARM Cortex-M4
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1939
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we propose the Hybrid FAFFT-CRT method for accelerating HQC polynomial multiplication on the ARM
+    Cortex-M4. The method uses the Chinese Remainder Theorem to map the polynomial ring to a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: computing_isomorphisms_between_2026
+  title: Computing Isomorphisms between Products of Supersingular Elliptic Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/136
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Deligne-Ogus-Shioda theorem guarantees the existence of isomorphisms between products of supersingular elliptic
+    curves over finite fields. In this paper, we present methods for explicitly computin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: basefold_efficient_fieldagnostic_2026
+  title: 'BaseFold: Efficient Field-Agnostic Polynomial Commitment Schemes from Foldable Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1705
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: This works introduces Basefold, a new $\textit{field-agnostic}$ Polynomial Commitment Scheme (PCS) for multilinear
+    polynomials that has $O(\log^{2}(n))$ verifier costs and $O(n \log n)$ prover time. A
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: slicing_boolean_functions_2026
+  title: Slicing Boolean Functions with Inner Products
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1392
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Boolean functions with additional structure play an important role in symmetric cryptography, both for achieving
+    strong cryptographic properties and for enabling efficient implementations. Recent work
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: a_separation_principle_2026
+  title: 'A Separation Principle for Lookup-Based zkML: Activation-Function Structure Cannot Reduce Per-Lookup Proving Cost'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1390
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: In zero-knowledge machine learning (zkML), the dominant cost is generating the proof, not running the model, and
+    it concentrates in the nonlinearities a transformer must evaluate inside the proof syst
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - LED
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: scdt_scalable_constant_2026
+  title: 'SC-DT: Scalable Constant Round Secure Comparison and its Application to Privacy Decision Tree Evaluation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1389
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Decision trees are widely used in machine learning due to their simplicity, efficiency, and interpretability. Numerous
+    private decision tree evaluation (PDTE) protocols based on secure multi-party com
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: chimera_a_hybrid_2026
+  title: 'Chimera: A Hybrid GPU Backend for Sumcheck Acceleration in Zero Knowledge Provers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1388
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proof systems are increasingly relying on the Sumcheck protocol to avoid the FFT-heavy structure
+    of earlier SNARK designs. Sumcheck is well suited for GPU acceleration; it consists of s
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-11'
+  source: eprint
+- id: zkaudit_proving_power_2026
+  title: 'ZK-Audit: Proving Power Side-Channel Resilience in Synthesized Hardware'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1387
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Modern hardware security heavily relies on the assumption that pre-synthesis algorithmic protections will survive
+    the physical fabrication pipeline. However, untrusted third-party Electronic Design Au
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-11'
+  source: eprint
