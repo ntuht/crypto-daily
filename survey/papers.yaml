@@ -25916,3 +25916,158 @@ papers:
   - LED
   fetched_date: '2026-07-11'
   source: eprint
+- id: breaking_verifiable_delay_2026
+  title: Breaking Verifiable Delay Functions in the Random Oracle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/766
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: This work resolves the open problem of whether verifiable delay functions (VDFs) can be constructed in the random
+    oracle model.A VDF is a cryptographic primitive that requires a long time to compute (
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: on_extending_integral_2026
+  title: On Extending Integral Distinguishers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1402
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Integral cryptanalysis analyzes block ciphers using input structures for which the sum of a chosen function of
+    the output bits becomes key-independent. However, most methods still test one output expr
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - GIFT
+  - PRESENT
+  - SIMON
+  - SPECK
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: a_new_framework_2026
+  title: A New Framework for Efficient Multivariate Functional Bootstrapping
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1401
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) enables computation on encrypted data without decryption. In TFHE, programmable
+    bootstrapping (PBS) evaluates nonlinear functions through lookup tables (LUTs), but a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: chip_efficient_homomorphic_2026
+  title: 'CHIP: Efficient Homomorphic Encryption-Based CNN Batch Inference Using Channel-Interleaved Packing with Small Rotation
+    Key Set'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1399
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: As privacy concerns rise, numerous laws require machine learning-based applications to comply with stringent privacy
+    regulations. While Homomorphic Encryption (HE) allows computation directly on encry
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: how_to_encrypt_2026
+  title: How to Encrypt with Random Reversible Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1398
+  directions:
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: This work revisits a natural paradigm for constructing public-key encryption, whereby the public key is an obfuscated
+    block cipher in encryption mode.  We show that if the block cipher is a permutable
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: blind_traceonly_segmentation_2026
+  title: Blind Trace-Only Segmentation of Cipher Implementations Without Algorithm Metadata
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1395
+  directions:
+  - sbox
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Blind side-channel analysis (BSCA) can infer keys without known inputs or outputs, but practical use still needs
+    an upstream step that locates repeated computation and candidate points of interest in '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: adaptor_signatures_meet_2026
+  title: 'Adaptor Signatures Meet BLS: Enabling Efficient Blockchain Applications with Unique Adaptor Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1394
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blockchain-based cryptocurrencies give rise to a plenitude of advanced applications (such as cross-currency transfers
+    or privacy-preserving payments) through blockchain protocols - cryptographic proto
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-13'
+  source: eprint
+- id: on_the_differential_2026
+  title: On the Differential Uniformity of Polynomials over Galois Rings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1393
+  directions:
+  - sbox
+  - differential
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Design of hash functions and pseudo-random permutations over Galois extensions of $\mathbb Z_q$ for prime powers
+    $q$ has recently gained some interest in relation to recent directions in advanced cryp
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  - permutation
+  - LED
+  fetched_date: '2026-07-13'
+  source: eprint
