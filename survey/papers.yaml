@@ -26071,3 +26071,55 @@ papers:
   - LED
   fetched_date: '2026-07-13'
   source: eprint
+- id: pke_and_abe_2026
+  title: PKE and ABE with Collusion-Resistant Secure Key Leasing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/262
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure key leasing (SKL) is an advanced encryption functionality that allows a secret key holder to generate a
+    quantum decryption key and securely lease it to a user. Once the user returns the quantum
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-14'
+  source: eprint
+- id: a_latticebased_designated_2026
+  title: A Lattice-based Designated Verifier zkSNARK  from Standard Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2099
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Designated Verifier zero-knowledge Succinct Non-Interactive Arguments of Knowledge (DV-zkSNARKs) are cryptographic
+    argument systems in which the ability to verify proofs is restricted to a designated '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-14'
+  source: eprint
+- id: anonymous_communication_on_2026
+  title: Anonymous Communication on Expander Networks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1404
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Who is talking to whom? Consider a group of users who wish to communicate anonymously via a network of intermediate
+    relays. We study anonymous communication under two standard strong adversarial model
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-07-14'
+  source: eprint
