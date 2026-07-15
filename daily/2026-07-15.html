@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-15</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-15</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-15</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-15 03:15</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 43 篇 → 启发式 41 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Blind Trace-Only Segmentation of Cipher Implementations Without Algorithm Metadata](https://eprint.iacr.org/2026/1395)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1395.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：盲侧信道分析（BSCA）虽能无需已知输入输出推断密钥，但其在实际应用中仍需预先定位密码实现中的重复计算和感兴趣点。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种新颖的盲迹分割方法，旨在无需任何算法元数据的情况下，自动识别密码实现中的重复操作段，从而为后续的BSCA提供关键的分析起点。该方法通过分析侧信道迹线本身的特征，例如能量消耗模式或时间序列相似性，来推断计算边界和操作类型，有效克服了传统方法对先验知识的依赖。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作显著降低了盲侧信道分析的门槛，使其在实际场景中更具可用性，尤其适用于逆向工程和未知算法的攻击。</p>
+
+<hr>
+
+<h3>2. [Prover - Toward More Efficient Formal Verification of Masking in Probing Model](https://eprint.iacr.org/2024/1202)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2024/1202.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：形式化验证已成为评估掩码实现抵抗侧信道攻击安全性的关键方法，但其在探针模型下的效率和可扩展性仍有提升空间。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文介绍了Prover工具，旨在通过优化验证算法和数据结构，显著提高在探针模型中对掩码方案进行形式化验证的效率。Prover采用了一种新的方法来处理复杂的掩码电路，减少了验证时间和资源消耗，同时保持了验证的严谨性和覆盖度，使其能够处理更大规模的设计。</p>
+
+<p>🎯 <strong>意义</strong>：Prover的出现将加速安全硬件设计的验证周期，使得更复杂的掩码方案能够被高效地形式化验证，从而提升硬件抵抗侧信道攻击的能力。</p>
+
+<hr>
+
+<h3>3. [Simple Asymmetric Anamorphic Encryption and Signature using Multi-Message Extensions](https://eprint.iacr.org/2025/370)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2025/370.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：变形加密允许在公共加密信道上进行隐蔽通信，同时保持底层密码方案的表观正确性和安全性，即使面对强大的攻击者。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种简单且非对称的变形加密和签名方案，其核心思想是利用多消息扩展技术。通过巧妙地构造，该方案能够在不改变现有加密和签名协议结构的前提下，嵌入秘密信息，使得外部观察者无法察觉隐蔽通信的存在，同时确保了消息的完整性和发送方的身份，实现了隐蔽性和实用性的平衡。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为隐蔽通信提供了一种实用且高效的非对称密码学方法，拓宽了变形加密的应用场景，尤其适用于需要高度隐蔽性的通信需求。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1404" target="_blank">Anonymous Communication on Expander Networks</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1404.pdf)</p>
+
+<blockquote>
+<p>本文研究了在扩展图网络中，用户如何通过中间中继实现匿名通信，以隐藏“谁与谁通信”的信息。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1685" target="_blank">GAPP: Generic Aggregation of Polynomial Protocols</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1685.pdf)</p>
+
+<blockquote>
+<p>本文提出了一个名为bPCLB的双变量多项式承诺方案，具有简洁验证、线性大小的公共参数和密码学操作，用于多项式协议的通用聚合。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1306" target="_blank">TETRIS: Automated Design Space Exploration of Randomness–Latency Trade-offs in Masked Hardware</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1306.pdf)</p>
+
+<blockquote>
+<p>TETRIS工具旨在自动化探索掩码硬件在给定安全阶下，随机性与延迟之间的权衡设计空间，以优化其性能和安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1331" target="_blank">The Most Efficient Protocol for PAKE: What Exact Stuff Do You Need to Hash at the End?</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1331.pdf)</p>
+
+<blockquote>
+<p>本文探讨了密码认证密钥交换（PAKE）协议中，为实现最高效率，在协议结束时需要精确哈希哪些内容。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1351" target="_blank">Hardware Private Cubic Circuits</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1351.pdf)</p>
+
+<blockquote>
+<p>本文研究了如何设计硬件私有三次电路，以抵御密码硬件实现中常见的侧信道信息泄露攻击，从而增强安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1398" target="_blank">How to Encrypt with Random Reversible Circuits</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1398.pdf)</p>
+
+<blockquote>
+<p>本文重新审视了使用随机可逆电路构建公钥加密的范式，其中公钥是一个混淆的加密模式下的分组密码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1329" target="_blank">Flock: Fast Proving for Batch Boolean Computations</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1329.pdf)</p>
+
+<blockquote>
+<p>Flock是一个用于批量布尔计算的快速证明系统，旨在解决SNARKs中证明大量标准密码哈希评估的瓶颈问题。</p>
+</blockquote>
+
+<p><em>精选自 43 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
