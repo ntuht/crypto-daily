@@ -26123,3 +26123,39 @@ papers:
   - LED
   fetched_date: '2026-07-14'
   source: eprint
+- id: a_minrankbased_encryption_2026
+  title: A Minrank-based Encryption Scheme à la Alekhnovich-Regev
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1879
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Introduced in 2003 and 2005, Alekhnovich and Regev'' schemes were the first public-key encryptions whose security
+    is only based on the average hardness of decoding random linear codes and LWE, without '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-15'
+  source: eprint
+- id: privacypreserving_federated_inference_2026
+  title: Privacy-Preserving Federated Inference for Genomic Analysis with Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1515
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: In recent years, federated learning has gained significant momentum as a collaborative machine learning approach,
+    particularly in the field of medicine. While the decentralized nature of federated lea
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-07-15'
+  source: eprint
