@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-16</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-16</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-16</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-16 03:22</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 40 篇 → 启发式 35 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Quantum Implementation and Analysis of Rijndael](https://eprint.iacr.org/2026/1412)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1412.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着量子计算能力的不断增强，评估现有经典对称密码算法在量子攻击下的安全性变得日益紧迫，Rijndael（即高级加密标准AES的基础）作为全球广泛采用的对称加密算法，其量子安全性分析尤为关键。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文在NIST MAXDEPTH量子成本模型下，对Rijndael的多种变体（涵盖不同块大小和密钥大小，如$N_b = N_k \in \{4,5,6,7,8\}$）进行了详细的量子资源估算。研究不仅扩展了现有关于AES量子加密的分析，还提供了更全面、更细致的量子门深度和量子比特需求评估，为理解其在量子环境下的抗攻击能力提供了量化数据。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为深入理解Rijndael在未来量子计算机面前的脆弱性提供了重要的技术依据，有助于指导后量子密码算法的设计与标准化工作，并为量子密码分析领域提供了实用的评估框架和案例。</p>
+
+<hr>
+
+<h3>2. [Optimizing ARIA-GCM on GPUs](https://eprint.iacr.org/2026/1413)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1413.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：ARIA-GCM是一种重要的认证加密（AEAD）方案，其高效实现对于高性能计算和数据安全至关重要，尤其是在需要处理大量数据的云计算、物联网等场景下。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种针对GPU高度优化的ARIA-GCM实现方案，通过精巧设计，ARIA-CTR模式利用了32位S盒打包技术以提升并行度，同时对GHASH认证过程进行了深度并行化。这些优化措施共同构建了一个高效的AEAD流水线，显著提升了ARIA-GCM在GPU平台上的吞吐量和性能。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为ARIA-GCM在高性能计算环境中的广泛应用提供了关键技术支持，有助于推动其在实际系统中的部署，并为其他对称密码算法的GPU加速优化提供了宝贵的经验和方法论。</p>
+
+<hr>
+
+<h3>3. [Accelerating FAEST Signing on GPU via Fused AES Constraint Generation and Batched Leaf Hashing](https://eprint.iacr.org/2026/1409)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1409.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：FAEST作为NIST后量子数字签名标准化进程的第三轮候选方案，其签名过程的计算效率是其在实际应用中能否被广泛采纳的关键挑战，尤其是在需要高吞吐量的场景。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文通过在GPU上实现融合的AES约束生成和批量叶哈希操作，显著加速了FAEST的签名过程。研究识别并优化了签名路径中计算成本最高的两个环节，通过将这些操作并行化并紧密集成，有效减少了计算开销和数据传输延迟，从而大幅提升了整体签名性能。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究极大地提升了FAEST签名的实用性，使其更适合在资源受限或需要高吞吐量的后量子安全应用中部署，为后量子密码的实际落地提供了重要的性能支持和技术突破。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1268" target="_blank">What’s the Matter? An In-Depth Security Analysis of the Matter Protocol</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1268.pdf)</p>
+
+<blockquote>
+<p>本文对新兴的物联网安全互操作标准Matter协议进行了深入的安全分析，评估其在多厂商支持下的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1371" target="_blank">The Small-Field Turn in Succinct Proofs: A Systematization of Finite-Field Choice in Modern SNARKs and STARKs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1371.pdf)</p>
+
+<blockquote>
+<p>本文系统性地分析了现代SNARKs和STARKs等简洁证明系统中有限域选择的趋势，特别是从大域转向小域的演变。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1292" target="_blank">CRAfT: Constant-Round Non-Polynomial Approximation and P2P Network for Secure Transformer Inference</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1292.pdf)</p>
+
+<blockquote>
+<p>CRAfT提出了一种基于常数轮非多项式近似和P2P网络的方案，旨在解决Transformer模型推理中的隐私保护问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/071" target="_blank">The HHE Land: Exploring the Landscape of Hybrid Homomorphic Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/071.pdf)</p>
+
+<blockquote>
+<p>本文深入探讨了混合同态加密（HHE）的技术领域，将其视为解决同态加密实际应用挑战的关键方案。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1289" target="_blank">AlphaFL: Secure Aggregation with Malicious$^2$ Security for Federated Learning against Dishonest Majority</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1289.pdf)</p>
+
+<blockquote>
+<p>AlphaFL提出了一种针对联邦学习的恶意安全聚合协议，即使在存在不诚实多数的情况下也能保护数据隐私。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1302" target="_blank">TRIP: Thresholding in Regression with Input Privacy</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1302.pdf)</p>
+
+<blockquote>
+<p>TRIP提出了一种在回归分析中实现输入隐私保护的门限方案，解决了安全计算中数据泄露的固有问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1273" target="_blank">Achieving Tight Space-Time Tradeoff and Practical Performance in Preprocessing PIR with Multi-level Recursion</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1273.pdf)</p>
+
+<blockquote>
+<p>本文通过多级递归实现了预处理PIR中紧凑的时空权衡和实用性能，支持客户端特定的次线性在线隐私查询。</p>
+</blockquote>
+
+<p><em>精选自 40 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
