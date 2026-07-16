@@ -26159,3 +26159,174 @@ papers:
   - PRESENT
   fetched_date: '2026-07-15'
   source: eprint
+- id: weighted_cryptography_with_2026
+  title: Weighted Cryptography with Weight-Independent Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/273
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Cryptographic primitives involving multiple participants, such as secure multiparty computation (MPC), threshold
+    signatures, and threshold encryption, are typically designed under the assumption that '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: optimized_implementation_of_2026
+  title: Optimized Implementation of Warp-Cooperative GPU HCTR2-ARIA Wide-Block Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1415
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: HCTR2 is a wide-block encryption mode that encrypts one fixed-size message as a single unit, so that flipping a
+    single plaintext bit re-randomizes the whole ciphertext. Its main use is disk encryption
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: evaluating_hybrid_kemdsa_2026
+  title: Evaluating Hybrid KEM/DSA for KpqC and NIST PQC on ARM Cortex-M4
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1414
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Primitive-only PQC benchmarks are insufficient for attributing composed hybrid costs on Cortex-M4 because shared
+    hash backends, randomized-signature behavior, and fixed classical/wrapper work affect m
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: optimizing_ariagcm_on_2026
+  title: Optimizing ARIA-GCM on GPUs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1413
+  directions:
+  - aead
+  - linear_diffusion
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 'This paper proposes an optimized GPU implementation of the ARIA-GCM authenticated-encryption pipeline (CTR keystream,
+    GHASH authentication, and their AEAD composition): ARIA-CTR uses a packed 32-bit S'
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - diffusion
+  - AEAD
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: quantum_implementation_and_2026
+  title: Quantum Implementation and Analysis of Rijndael
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1412
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a quantum resource estimation of the Rijndael variants
+
+    \[
+
+    N_b = N_k \in \{4,5,6,7,8\}, \qquad N_r = N_b + 6,
+
+    \]
+
+    under the NIST MAXDEPTH quantum cost model. Extending the AES quantum
+
+    encrypt'
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: a_memoryefficient_and_2026
+  title: A Memory-Efficient and Assembly-Optimized Implementation of NTRU+
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1410
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This paper presents a memory-efficient and high-speed implementation of NTRU+, one of the key encapsulation mechanisms
+    (KEMs) selected by Korea’s post-quantum cryptography project (KpqC), on the ARM C
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: accelerating_faest_signing_2026
+  title: Accelerating FAEST Signing on GPU via Fused AES Constraint Generation and Batched Leaf Hashing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1409
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'FAEST is a symmetric-key post-quantum digital signature scheme and a third-round candidate in the NIST Additional
+    Digital Signatures standardization process. Its signing path concentrates cost in two '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AES
+  - LED
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: hacc_a_scalable_2026
+  title: 'HACC: A Scalable Hierarchical Accumulator with Sublinear Cost for Large Dynamic Sets'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1407
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Dynamic universal accumulators provide succinct set commitments for evolving datasets, but balancing efficiency
+    and scalability remains challenging. In particular, Bilinear Pairing (BP) accumulators o
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-07-16'
+  source: eprint
+- id: an_nnontime_algorithm_2026
+  title: An $n^{n+o(n)}$-Time Algorithm for the Lattice Isomorphism Problem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1406
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Lattice Isomorphism Problem asks whether two given lattices $\mathcal L_1$ and $\mathcal L_2$ are related by
+    an orthogonal linear transformation. Haviv and Regev gave a seminal $n^{O(n)}$-time alg
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-16'
+  source: eprint
