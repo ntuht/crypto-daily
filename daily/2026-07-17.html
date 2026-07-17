@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-17</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-17</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-17</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-17 03:25</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 52 篇 → 启发式 34 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [RainHash2.0: Hardware- and Arithmetization-friendly Hash Function](https://eprint.iacr.org/2026/1441)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1441.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：零知识证明（ZK Proof）系统在隐私计算和区块链领域迅速发展，而哈希函数作为其核心构建模块，其计算成本往往是证明者端性能瓶颈的主要来源。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了RainHash2.0，一种专为硬件实现和算术化优化设计的哈希函数。它通过采用创新的代数结构和电路友好型操作，旨在显著降低在零知识证明电路中的约束数量和计算开销，从而提高证明生成效率并减少硬件资源消耗。</p>
+
+<p>🎯 <strong>意义</strong>：该研究为构建更高效、更具扩展性的零知识证明系统提供了关键的基础组件，有助于推动其在隐私保护、数据完整性验证等前沿领域的广泛应用和落地。</p>
+
+<hr>
+
+<h3>2. [Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AE Applications](https://eprint.iacr.org/2026/1424)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1424.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：AESpolyW是一种在IEEE S&amp;P 2026上提出的宽块加密模式，旨在通过利用AES和多项式哈希之间的指令级并行性来实现高吞吐量。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文揭示了AESpolyW加密模式中的严重漏洞，通过分析其“重复掩码”和“可预测拼接”机制，构造出有效的攻击方法。攻击者可以利用这些特性来恢复密钥或伪造密文，从而完全破坏其认证加密（AE）的安全性。</p>
+
+<p>🎯 <strong>意义</strong>：该研究强调了在设计高性能密码模式时，对并行化结构进行严格安全分析的重要性，为未来宽块加密模式的设计提供了宝贵的经验教训。</p>
+
+<hr>
+
+<h3>3. [Structured Search for a Separable Subclass of Generalized Integral Properties](https://eprint.iacr.org/2026/1429)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1429.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：广义积分性质是强大的密码分析工具，但由于其函数空间巨大，导致寻找这些性质的效率低下。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种结构化且可处理的方法，用于搜索广义积分性质的一个可分离子类。通过引入特定的结构约束和数学框架，该方法能够显著缩小搜索空间，从而更有效地发现新的积分区分器，克服了传统搜索方法的计算瓶颈。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作极大地提升了积分密码分析的效率和可行性，为分析现代分组密码算法提供了新的强大工具，有助于评估其安全性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1433" target="_blank">Shuffled-ArgMax: Securing ArgMax Decisions Against Side-Channel-Guided Fault Injection in Edge-AI IoT Devices</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1433.pdf)</p>
+
+<blockquote>
+<p>该论文提出Shuffled-ArgMax机制，旨在保护边缘AI IoT设备中的ArgMax决策免受侧信道引导的故障注入攻击，增强设备安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1442" target="_blank">Shuffling is Universal: Statistical Additive Randomized Encodings for All Functions</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1442.pdf)</p>
+
+<blockquote>
+<p>本文提出一种通用的统计加性随机编码方案，适用于所有函数，并在shuffle模型下实现非交互式匿名通信，确保多方隐私输入处理。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1299" target="_blank">Decomposition of compressions on elliptic curves and point recovery</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1299.pdf)</p>
+
+<blockquote>
+<p>该论文研究椭圆曲线上的压缩函数分解及其点恢复问题，特别是度为2的压缩，对理解椭圆曲线密码学中的映射和逆映射有意义。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/074" target="_blank">Noisette: Certifying Differential Privacy Mechanisms Efficiently</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/074.pdf)</p>
+
+<blockquote>
+<p>Noisette是一种高效的工具，用于形式化验证和认证差分隐私机制的正确性，确保其隐私保护承诺，提升DP部署的可靠性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1376" target="_blank">Secure and Efficient Federated Learning with Adaptive Differential Privacy and Verifiable Homomorphic Aggregation</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1376.pdf)</p>
+
+<blockquote>
+<p>该论文提出一种安全高效的联邦学习框架，结合自适应差分隐私和可验证同态聚合，以抵御梯度推断攻击和恶意聚合，保护数据隐私。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1432" target="_blank">Reed–Solomon Mutual Correlated Agreement Beyond the Johnson Radius</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1432.pdf)</p>
+
+<blockquote>
+<p>本文研究Reed-Solomon码的互相关联协议（MCA），探索在Johnson半径之外，接收字与码字在多坐标上达成一致的界限。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/883" target="_blank">Low-Latency Linear Transformations with Small Key Transmission for Private Neural Network on Homomorphic Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/883.pdf)</p>
+
+<blockquote>
+<p>该论文提出一种低延迟、小密钥传输的线性变换方案，用于同态加密下的私有神经网络计算，以保护客户端数据并提高服务效率。</p>
+</blockquote>
+
+<p><em>精选自 52 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
