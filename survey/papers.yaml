@@ -26330,3 +26330,496 @@ papers:
   - LED
   fetched_date: '2026-07-16'
   source: eprint
+- id: vela_and_carina_2026
+  title: 'Vela and Carina: Fast Pairing-Based Multilinear Polynomial Commitments from Reciprocal Polynomials'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1438
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Pairing-based multilinear polynomial commitments offer succinct verification for sum-check-based proof systems,
+    but existing schemes trade prover group work against proof size and verifier cost.  Buil
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: efficient_privacypreserving_blueprints_2026
+  title: Efficient Privacy-Preserving Blueprints for Threshold Comparison
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2253
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Privacy-Preserving Blueprints (PPBs), introduced by Kohlweiss et al. in in EUROCRYPT 2023, offer a method for balancing
+    user privacy and bad-actor detection in private cryptocurrencies. A PPB scheme a
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: compressed_postquantum_silent_2026
+  title: Compressed Post-Quantum Silent OT from Isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1444
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Oblivious transfer (OT) is a foundational tool in secure computation. Random OT-correlated pairs of the form $(r_0,r_1)$
+    and $(b,r_b)$, where $r_0,r_1,b \stackrel{{}_\$}{\leftarrow} \{0,1\}$, signific
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: sentraprivacypreserving_training_in_2026
+  title: SENTRA:Privacy-Preserving Training in Outsourced Cloud Environments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1443
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Training machine learning models in untrusted clouds requires strong guarantees of confidentiality, integrity,
+    and correctness, while remaining scalable and resilient to node churn. These challenges a
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: cosecrag_efficient_private_2026
+  title: 'CoSecRAG: Efficient Private Retrieval with Database and Query Privacy for RAG'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1442
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Retrieval-augmented generation (RAG) grounds large language models on external knowledge, but its retrieval stage
+    creates privacy risks: user queries may reveal sensitive intents, while retrieval atab'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: rainhash20_hardware_and_2026
+  title: 'RainHash2.0: Hardware- and Arithmetization-friendly Hash Function'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1441
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge (ZK) proof systems have developed rapidly in recent years, with hash functions as one of their central
+    building blocks. Since these often dominate the prover cost, circuit-friendly hash
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: rarus_a_succinct_2026
+  title: 'Rarus: A Succinct and Efficient Range Proof for Polynomial-based Vector Commitment'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1440
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Range proofs enable a prover to convince a verifier that a committed value lies within a specific interval without
+    revealing additional information. They are fundamental to privacy-preserving systems '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: sok_on_the_2026
+  title: 'SoK: On the Design of Secure Ranking-based E-voting Systems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1437
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Vote privacy and verifiability are two fundamental properties which must be maintained for elections. Studies in
+    e-voting technology have demonstrated how elections may be secured through cryptographi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: verifiable_and_collusionresistant_2026
+  title: Verifiable and Collusion-Resistant Multi-Party Quantum Private Set Operations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1436
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private set intersection (PSI) and, more broadly, private set operations (PSO) are fundamental primitives for secure
+    multiparty computation (SMC), enabling participants to jointly compute set relation
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: filtrumvote_scalable_verifiable_2026
+  title: 'FiltrumVote: Scalable, Verifiable, and Coercion-Resistant Internet Voting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1435
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Internet voting can increase voter turnout and reduce operational costs; however, it also facilitates voter coercion.
+    One compelling approach to address this issue is deniable vote updating, which all
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: beekem_decentralized_secure_2026
+  title: 'BeeKEM: Decentralized, Secure and Efficient Group Key Agreement'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1434
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Group key agreement protocols are essential for modern secure messaging. Most existing group key agreement protocols
+    assume a centralized model with a semi-trusted service that mediates the communicat
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: shuffledargmax_securing_argmax_2026
+  title: 'Shuffled-ArgMax: Securing ArgMax Decisions Against Side-Channel-Guided Fault Injection in Edge-AI IoT Devices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1433
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Edge-AI Internet-of-Things (IoT) devices increasingly perform local neural-network inference in physically accessible
+    environments. While prior physical attacks on neural networks mainly focus on mode
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: reedsolomon_mutual_correlated_2026
+  title: Reed–Solomon Mutual Correlated Agreement Beyond the Johnson Radius
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1432
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'Mutual correlated agreement (MCA) bounds how many points on an affine line of received words can agree with codewords
+    on many coordinates when the line does not admit a common codeword explanation on '
+  status: pending_review
+  matched_keywords:
+  - MDS
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: trapgcdv_trapdoor_garbled_2026
+  title: 'TRAPGC-DV: Trapdoor Garbled Circuit Designated Verification of Groth16 on Bitcoin'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1430
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Verifying Groth16 proofs on Bitcoin enables a broad class of trust-minimised applications, bridges, light clients,
+    validity rollups, but Bitcoin script lacks the pairing operations required to evaluat
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: structured_search_for_2026
+  title: Structured Search for a Separable Subclass of Generalized Integral Properties
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1429
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Generalized integral properties extend classical integral distinguishers, but their search is hindered by the
+    size of the generalized function space. In this work, we study a structured and tractable '
+  status: pending_review
+  matched_keywords:
+  - MILP
+  - SKINNY
+  - SIMON
+  - SPECK
+  - RECTANGLE
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: highly_efficient_consistent_2026
+  title: Highly Efficient Consistent Broadcast Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1428
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Public Key Encryption for Broadcast ($\mathsf{PKEBC}$) is a multi-recipient encryption primitive that guarantees
+    decryption consistency across all designated recipients. Concretely, if a ciphertext $c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: coupling_leakage_in_2026
+  title: Coupling Leakage in Theory and Practice - Unveiling (Post-PnR) Security Flaws in Masked FPGA-Mapped Designs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1426
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'With the widespread adoption of Field Programmable Gate Arrays (FPGAs) in security-critical industries such as
+    defense and telecommunications, ensuring the confidentiality of sensitive data processed '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: simultaneousmessage_and_succinct_2026
+  title: 'Simultaneous-Message and Succinct Secure Computation: Reusable and Multiparty Protocols'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1425
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recently, Boyle, Jain, Servan-Schreiber, and Srinivasan (EUROCRYPT 2025) introduced the notion of simultaneous-message
+    and succinct (SMS) secure computation. In an SMS protocol, after an initial sampl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: repeated_masks_predictable_2026
+  title: 'Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AE Applications'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1424
+  directions:
+  - aead
+  - permutation_layer
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: AESpolyW, proposed at IEEE S&P 2026, is a wide-block encryption mode designed to exploit instruction-level parallelism
+    between AES and polynomial hashing. Although AESpolyW achieves high throughput an
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - authenticated encryption
+  - tweakable
+  - AES
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: cmalu_compact_faulttolerant_2026
+  title: 'CMALU: Compact Fault-Tolerant Modular Arithmetic Logic Unit for Post-Quantum Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1423
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: The rise of quantum computing threatens widely deployed public-key cryptosystems, driving the adoption of post-quantum
+    cryptography (PQC) algorithms that rely heavily on modular arithmetic. Existing h
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: less_on_the_2026
+  title: 'LESS on the Cortex-M4: Characterizing the Speed–Memory Design Space of Code-Equivalence Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1422
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: LESS is a code-based signature scheme built on the linear equivalence problem and, in its v2.0 round-2 form, a
+    candidate in the NIST call for additional post-quantum signatures. No microcontroller imp
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: a_cryptographic_perspective_2026
+  title: A Cryptographic Perspective on California's Delete Request and Opt-out Platform
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1421
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The California Consumer Privacy Act (CCPA) grants consumers the right to request deletion of personal data held
+    by registered data brokers. California’s 2023 Delete Act provides a new mechanism throug
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: an_optimized_native_2026
+  title: An Optimized Native Rust Implementation of the KpqC Algorithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1420
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents a native Rust implementation of the Korean post-quantum cryptography algorithms (i.e., NTRU+,
+    SMAUG-T, HAETAE, AIMer). We optimize the implementation in Rust for speed and memory u
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: mlqedlite_a_lightweight_2026
+  title: 'ML-QED-Lite: A Lightweight Machine Learning-Based Tool for Supporting Post-Quantum Cryptography Migration in Executable
+    Binaries'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1419
+  directions:
+  - lightweight
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: To initiate migration to post-quantum cryptography (PQC), it is necessary to identify whether deployed software
+    uses quantum-vulnerable (QV) public-key cryptographic schemes such as RSA, ECDSA, and Di
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - lightweight
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: ctkat_a_multilayer_2026
+  title: 'CT-KAT: A Multilayer Analysis Platform for Automated Screening of Constant-Time Risks in PQC C Implementations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1418
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Following the standardization of major post-quantum cryptography (PQC) algorithms, C implementations of ML-KEM,
+    ML-DSA, and SLH-DSA have been rapidly deployed. However, known-answer tests (KATs) verif
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: accelerating_the_aimer_2026
+  title: 'Accelerating the AIMer Post-Quantum Signature with AVX-512: A Field–Keccak Speedup Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1417
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: AIMer is a post-quantum digital signature scheme with a conservative design. Its security relies only on the symmetric-key
+    one-way function AIM2 and an MPC-in-the-Head (MPCitH) zero-knowledge proof. A
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
+- id: beyond_size_do_2026
+  title: 'Beyond Size: Do Hybrid PQC Certificates Actually Enforce the Classical–PQC Binding? A Cost-and-Security Study'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1416
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As TLS 1.3 migrates to post-quantum cryptography (PQC), hybrid X.509 transition strategies—alternative-signature
+    (Catalyst), Composite, Chameleon, and signature combiners—are compared on cost but rare
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-17'
+  source: eprint
