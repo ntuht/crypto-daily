@@ -26823,3 +26823,20 @@ papers:
   - LED
   fetched_date: '2026-07-17'
   source: eprint
+- id: bitsliced_jasmin_implementation_2026
+  title: Bitsliced Jasmin Implementation of the Mayo Signature Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1893
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a bitsliced Jasmin implementation of Mayo2, a multivariate quadratic (MQ)-based signature scheme. Mayo
+    overcomes the disadvantage of the Unbalanced Oil and vinegar (UOV) scheme by modifying
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-18'
+  source: eprint
