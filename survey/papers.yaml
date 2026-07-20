@@ -26840,3 +26840,21 @@ papers:
   - PRESENT
   fetched_date: '2026-07-18'
   source: eprint
+- id: trustless_delegation_of_2026
+  title: Trustless Delegation of Vector Commitment Construction in Resource-Constrained Settings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1528
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Many data types, such as video and audio, consist of sequential elements where both integrity and order are essential
+    for authenticity. In practice, verifiers often access only partial sequences due t
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-07-20'
+  source: eprint
