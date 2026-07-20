@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-20</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-20</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-20</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-20 03:55</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 61 篇 → 启发式 61 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Subspace Differential Uniformity](https://eprint.iacr.org/2026/1303)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1303.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：差分均匀性是衡量S盒和分组密码抗差分攻击能力的关键指标。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了子空间差分均匀性（SDU）这一新概念，用于评估S盒和分组密码中输入差分在特定子空间内的扩散能力，它本质上衡量了函数如何将输入差分传播到输出差分。</p>
+
+<p>🎯 <strong>意义</strong>：SDU为密码原语的安全性分析提供了一个更精细的工具，有助于设计更强的抗差分攻击的密码算法。</p>
+
+<hr>
+
+<h3>2. [Multiple-of Property for Related-Differential Distinguishers on 5-Round AES](https://eprint.iacr.org/2026/1286)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1286.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：密钥无关的秘密密钥区分器旨在揭示分组密码与理想随机置换之间的结构性偏差。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文针对5轮AES提出了基于相关差分的倍数性质区分器，该区分器利用了AES内部结构在特定差分传播下的统计特性，无需恢复密钥即可区分AES与随机置物。</p>
+
+<p>🎯 <strong>意义</strong>：这一发现为AES的安全性分析提供了新的视角，并可能启发更深轮次的区分器设计。</p>
+
+<hr>
+
+<h3>3. [Differential Fault Attack on Atom: Bypassing the Double Key Filter using Filtered Faults](https://eprint.iacr.org/2026/1294)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1294.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：轻量级流密码Atom采用了双密钥过滤器来增强其安全性，抵抗故障攻击。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种针对Atom流密码的差分故障攻击（DFA），通过巧妙地利用“过滤故障”绕过了其双密钥过滤器设计，成功地对该密码进行了攻击。</p>
+
+<p>🎯 <strong>意义</strong>：该研究揭示了Atom流密码在故障攻击下的脆弱性，对未来轻量级密码的抗故障设计具有指导意义。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1393" target="_blank">On the Differential Uniformity of Polynomials over Galois Rings</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1393.pdf)</p>
+
+<blockquote>
+<p>本文研究了伽罗瓦环上多项式的差分均匀性，为基于伽罗瓦环的哈希函数和伪随机置换设计提供了理论基础。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1368" target="_blank">SDDT: An Operation Skip Attack Framework for Bitslice Ciphers—Validated on PIPO</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1368.pdf)</p>
+
+<blockquote>
+<p>本文提出了针对位切片密码的操作跳过攻击框架SDDT，并在PIPO密码上验证了其有效性，揭示了位切片实现可能存在的安全漏洞。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1402" target="_blank">On Extending Integral Distinguishers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1402.pdf)</p>
+
+<blockquote>
+<p>本文探讨了扩展积分区分器的方法，旨在通过更复杂的输出函数和输入结构来增强积分密码分析的能力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1429" target="_blank">Structured Search for a Separable Subclass of Generalized Integral Properties</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1429.pdf)</p>
+
+<blockquote>
+<p>积分分析，MILP建模</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1275" target="_blank">The Indifferentiability of the Duplex and its Practical Applications</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1275.pdf)</p>
+
+<blockquote>
+<p>本文分析了Duplex结构的不可区分性，并探讨了其在基于置换的密码学中的实际应用，证明了其作为多功能密码原语的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1386" target="_blank">Key-Recovery Attacks on TALUS: A Cryptanalytic Note</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1386.pdf)</p>
+
+<blockquote>
+<p>本文对阈值ML-DSA构造TALUS提出了密钥恢复攻击，揭示了其在特定攻击模型下的安全缺陷。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1338" target="_blank">Bitslicing the AEGIS</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1338.pdf)</p>
+
+<blockquote>
+<p>本文探讨了AEGIS认证加密算法的位切片实现，旨在优化其性能并利用位切片特性进行高效计算。</p>
+</blockquote>
+
+<p><em>精选自 61 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
