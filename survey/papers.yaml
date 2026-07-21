@@ -26858,3 +26858,272 @@ papers:
   - LED
   fetched_date: '2026-07-20'
   source: eprint
+- id: flexway_osort_enclavefriendly_2026
+  title: 'Flexway O-Sort: Enclave-Friendly and Optimal Oblivious Sorting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1258
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Oblivious algorithms are being deployed at large scale in real world to enable privacy-preserving applications
+    such as Signal's private contact discovery. Oblivious sorting is a fundamental building b
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: celer_a_lookup_2026
+  title: 'Celer: A Lookup Argument for Large-Scale Queries'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1453
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Lookup arguments are designed to prove that all elements in a query vector appear in a lookup table. \nThese arguments\
+    \ are critical for efficiently proving ZK-unfriendly statements, such as range check"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: forgetit_optimal_goodcase_2026
+  title: 'Forget-IT: Optimal Good-Case Latency For Information-Theoretic BFT'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/355
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The good-case latency of a consensus protocol measures the latency from block proposal by a consensus leader to
+    decision, in the case in which the leader is correct. It is arguably the efficiency metr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: hybrid_hash_function_2026
+  title: Hybrid hash function based on the DLP and SIS problems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1459
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This short note discusses in detail a folklore but little-known hybrid hash function grounded on both the discrete
+    logarithm and short integer solution problems. In particular, specific satisfactory p
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: a_highspeed_hardware_2026
+  title: A High-Speed Hardware Accelerator for QR-UOV Signature Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1458
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This paper proposes a high-speed hardware accelerator for QR-UOV, a multivariate scheme, that executes all three
+    operations: key generation, signature generation, and signature verification.
+
+    QR-UOV ut'
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: identitybased_encryption_from_2026
+  title: Identity-Based Encryption from Isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1457
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We provide the first construction of identity-based encryption from isogeny-based assumptions. Security of our
+    construction relies on a novel assumption called the "CDH with Mismatched Torsion” (CD-Hw
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: quantumscouter_reinforcement_learningbased_2026
+  title: 'QuantumScouter: Reinforcement Learning-Based Optimization of Variational Quantum Circuits for Differential Cryptanalysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1456
+  directions:
+  - differential
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Classical deep learning for differential cryptanalysis requires millions of ciphertext pairs, rendering attacks
+    infeasible or easily detectable. This work overcomes this data limitation by introducing
+  status: pending_review
+  matched_keywords:
+  - differential
+  - machine learning
+  - SIMON
+  - SPECK
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: trout_robust_asynchronous_2026
+  title: 'Trout++: Robust Asynchronous Two-Round ECDSA for Arbitrary Thresholds'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1455
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present Trout++, a complete threshold signing suite for ECDSA signatures. Trout++ descends from the recent Trout
+    protocol (Dahari-Garbian, Nof, and Parker, ACM CCS 2025) and inherits its transparen
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: batched_attributebased_encryption_2026
+  title: Batched Attribute-Based Encryption from Bilinear Pairings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1454
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Batched identity-based encryption (batched IBE), introduced by Agarwal, Fernando, and Pinkas (CRYPTO 2025), enables
+    a key authority to issue a single succinct key that decrypts an entire batch of ciph
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: labeled_multikey_batched_2026
+  title: Labeled Multi-Key Batched IBE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1452
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We study Batched IBE through the lens of Multi-Message Signatures -- a natural extension of standard digital signatures
+    in which a single signing operation signs an entire vector of messages at once. '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: lightweight_hardware_accelerator_2026
+  title: Lightweight Hardware Accelerator for the UOV Signature Scheme with Oil Space Blinding
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1451
+  directions:
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'In reaction to the emerging quantum threat, the National Institute of Standards and Technology (NIST) seeks post-quantum
+    secure digital signature schemes. NIST''s ongoing competition recently advanced '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - lightweight
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: optimizing_polynomial_multiplication_2026
+  title: Optimizing Polynomial Multiplication and Fixed-Weight Sampling for HQC on ARM Cortex-M4
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1450
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we present an optimized implementation of Hamming Quasi-Cyclic (HQC) on the ARM Cortex-M4. We optimize
+    (i) the polynomial multiplication and (ii) the support expansion in fixed-weight s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: ansaibkem_practical_quantumsafe_2026
+  title: '`ANSA-IBKEM`: Practical Quantum-Safe Identity-Based Key Encapsulation via Annular NTRU Trapdoors and Standardized
+    PQC Arithmetic Reuse'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1449
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Identity-based key encapsulation remains attractive for managed systems, but practical post-quantum instantiations
+    must balance compact ciphertexts, low decryption-failure rate (DFR), high-throughput '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: improving_skipping_fault_2026
+  title: Improving Skipping Fault Correction Attacks on Randomized Dilithium via MILP
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1448
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Dilithium, as a quantum-secure digital signature standard in FIPS 204, has received widespread attention for its
+    physical implementation security. NIST selected Dilithium''s randomized signing mode as '
+  status: pending_review
+  matched_keywords:
+  - MILP
+  fetched_date: '2026-07-21'
+  source: eprint
+- id: quantum_circuit_optimization_2026
+  title: Quantum Circuit Optimization with LLMs under a Structured Guideline
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1446
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The cost of quantum cryptanalysis is dominated by the quantum circuit of the target cipher. Estimating the quantum
+    attack cost of a cipher thus requires building that circuit and measuring its qubit c
+  status: pending_review
+  matched_keywords:
+  - LED
+  - CRAFT
+  fetched_date: '2026-07-21'
+  source: eprint
