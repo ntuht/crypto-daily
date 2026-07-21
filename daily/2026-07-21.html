@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-21</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-21</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-21</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-21 03:28</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 66 篇 → 启发式 56 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [QuantumScouter: Reinforcement Learning-Based Optimization of Variational Quantum Circuits for Differential Cryptanalysis](https://eprint.iacr.org/2026/1456)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1456.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：经典深度学习在差分密码分析中需要数百万密文对，这使得攻击难以实施或极易被发现。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究通过引入强化学习来优化变分量子电路，成功克服了传统方法的数据限制。QuantumScouter能够智能地探索和调整量子电路参数，在显著减少所需密文数据的情况下，提高差分密码分析的效率和可行性，从而更有效地识别密码算法的弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为量子计算在密码分析领域的应用开辟了新途径，有望在数据受限环境下实现更高效的攻击，对未来密码设计和安全评估具有重要启发。</p>
+
+<hr>
+
+<h3>2. [Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AE Applications](https://eprint.iacr.org/2026/1424)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1424.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：AESpolyW是一种在IEEE S&amp;P 2026上提出的宽块加密模式，旨在利用AES和多项式哈希之间的指令级并行性以实现高吞吐量。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本论文揭示了AESpolyW在重复掩码和可预测拼接机制中存在的严重漏洞，并基于这些弱点成功对其及其认证加密应用进行了攻击。研究表明，即使是为高性能设计的加密模式，其内部结构也可能引入意想不到的安全风险，导致攻击者能够恢复密钥或伪造密文。</p>
+
+<p>🎯 <strong>意义</strong>：该研究强调了在设计高性能加密模式时，对内部结构（如掩码和拼接机制）进行严格安全分析的重要性，为未来宽块加密模式的设计提供了宝贵的经验教训和警示。</p>
+
+<hr>
+
+<h3>3. [RainHash2.0: Hardware- and Arithmetization-friendly Hash Function](https://eprint.iacr.org/2026/1441)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1441.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：零知识证明系统近年来发展迅速，其中哈希函数是其核心组成部分，且通常是证明者计算成本的主要来源。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了RainHash2.0，这是一种专为优化零知识证明系统而设计的哈希函数，它在硬件实现和算术化方面表现出卓越的友好性。通过精心设计的结构，RainHash2.0能够显著降低在特定算术电路（如有限域上的多项式）中的乘法深度和资源消耗，从而有效减少证明者生成证明所需的时间和计算资源。</p>
+
+<p>🎯 <strong>意义</strong>：RainHash2.0的提出对于提升零知识证明系统的实用性和效率至关重要，有望加速其在区块链、隐私计算等领域的广泛应用，降低证明生成的时间和资源消耗。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2019/1492" target="_blank">Too Much Crypto</a></strong> | [📎 PDF](https://eprint.iacr.org/2019/1492.pdf)</p>
+
+<blockquote>
+<p>本文认为ChaCha、BLAKE2、SHA-3和AES等密码算法的安全裕度过高，其轮数超过了实际所需，暗示存在优化空间。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1412" target="_blank">Quantum Implementation and Analysis of Rijndael</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1412.pdf)</p>
+
+<blockquote>
+<p>本文在NIST MAXDEPTH量子模型下，对Rijndael变体（AES家族）的量子资源消耗进行了详细估算和分析。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1312" target="_blank">Post-Quantum Security of Tweakable Key-Alternating Feistel Ciphers in the Multi-Key Setting</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1312.pdf)</p>
+
+<blockquote>
+<p>本文在Q1模型中，证明了带公开随机函数的TKAF（可调密钥交替Feistel密码）在多密钥设置下的后量子安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1413" target="_blank">Optimizing ARIA-GCM on GPUs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1413.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种优化的ARIA-GCM认证加密流水线（包括CTR密钥流和GHASH认证）的GPU实现方案。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1446" target="_blank">Quantum Circuit Optimization with LLMs under a Structured Guideline</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1446.pdf)</p>
+
+<blockquote>
+<p>本文探讨了在结构化指导下，利用大型语言模型（LLMs）优化量子电路，以降低量子密码分析成本的方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1306" target="_blank">TETRIS: Automated Design Space Exploration of Randomness–Latency Trade-offs in Masked Hardware</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1306.pdf)</p>
+
+<blockquote>
+<p>TETRIS系统实现了对掩码硬件中随机性与延迟权衡的自动化设计空间探索，以优化侧信道防护性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1202" target="_blank">Prover - Toward More Efficient Formal Verification of Masking in Probing Model</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1202.pdf)</p>
+
+<blockquote>
+<p>Prover旨在提高探测模型中掩码实现形式化验证的效率，以更有效地评估侧信道攻击安全性。</p>
+</blockquote>
+
+<p><em>精选自 66 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
