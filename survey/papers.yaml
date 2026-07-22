@@ -1653,7 +1653,7 @@ papers:
   - Xinxin Gong
   - Yongqiang Li
   - Siwei Sun
-  venue: ePrint 2024/1008
+  venue: ePrint
   year: 2024
   url: https://eprint.iacr.org/2024/1008
   directions:
@@ -1668,6 +1668,7 @@ papers:
   significance: medium
   summary: 重新审视不可能回旋镖区分器框架，改进多个密码的轮数覆盖。
   status: pending_review
+  source: eprint
 - id: boom_3diff2023
   title: Revisiting the Boomerang Attack from a Perspective of 3-differential
   authors:
@@ -27126,4 +27127,166 @@ papers:
   - LED
   - CRAFT
   fetched_date: '2026-07-21'
+  source: eprint
+- id: a_unified_approach_2026
+  title: A Unified Approach to Quantum Key Leasing with a Classical Lessor
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1871
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Secure key leasing allows a cryptographic key to be leased as a quantum state in such a way that the key can later
+    be revoked in a verifiable manner. In this work, we propose a modular framework for c
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: a_general_randomness_2026
+  title: A General Randomness Recycling Framework for First-Order Masking with Application to AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/026
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Masking is a principal countermeasure against side-channel attacks, yet its practical deployment is often constrained
+    by the high cost of randomness. Existing approaches for reducing randomness overhe
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: quantumsafe_cryptography_a_2026
+  title: 'Quantum-Safe Cryptography: A Migration Framework for Legacy Systems Toward NIST PQC Standards with the Crypto-Agility
+    Readiness Score'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1467
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Post-quantum cryptography (PQC) standardisation reached a pivotal milestone in August 2024 with the release of
+    NIST FIPS 203 (ML-KEM) and FIPS 204 (ML-DSA), yet the vast majority of deployed public-ke
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: scalable_highthroughput_fpga_2026
+  title: Scalable High-Throughput FPGA Architecture for SMAC Message Authentication Code
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1466
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: SMAC is a recently proposed by Wang et al.~stand-alone Message Authentication Code (MAC) constructed from repeated
+    applications of the AES round function and featuring an aggregation mode, SMAC-1$\tim
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: optimal_distributed_monotonepolicy_2026
+  title: Optimal Distributed Monotone-Policy Encryption for DNFs and More from Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1464
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Distributed cryptography is a new cryptographic paradigm that enables fine-grained decryption capabilities in a
+    trustless setting. In a distributed monotone-policy encryption scheme, users generate th
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: shortening_bounds_for_2026
+  title: Shortening Bounds for Reed-Solomon MCA
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1463
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'We derive an explicit exponent \(\Psi_\rho\) that bounds the Reed--Solomon MCA bad-slope numerator at every fixed
+    relative radius between Johnson and capacity.  The resulting positive-relative-radius '
+  status: pending_review
+  matched_keywords:
+  - MDS
+  - PRESENT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: power_reveals_timing_2026
+  title: Power Reveals Timing Conceals - Side-Channel Attacks and Hiding Countermeasures for HQC's Fixed-Weight Vector Sampling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1462
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Fixed‑weight sampling is a core primitive in many post‑quantum schemes, including the HQC key encapsulation mechanism.\
+    \ \nAn early implementation of fixed-weight vector sampling in HQC was shown by Guo "
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: the_mn1_boundary_2026
+  title: 'The m=n+1 Boundary of EME: A Splicing Distinguisher for the Unrefreshed EME-Core Extension and Its Linear-Map Generalization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1461
+  directions:
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'EME is a parallelizable encrypt-mix-encrypt wide-block construction proved secure for m-block messages only in
+    the range m <= n, where n is the block length of the underlying block cipher. Halevi and '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - AES
+  - PRESENT
+  fetched_date: '2026-07-22'
+  source: eprint
+- id: a_practical_keyrecovery_2026
+  title: A Practical Key-Recovery Attack on GRAFHEN
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1460
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'GRAFHEN is a group-based fully homomorphic encryption scheme in which public rewriting rules hide a permutation
+    representation used for decryption. We give a framework for equivalent-key recovery for '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-07-22'
   source: eprint
