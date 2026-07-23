@@ -27290,3 +27290,173 @@ papers:
   - PRESENT
   fetched_date: '2026-07-22'
   source: eprint
+- id: ohmg_one_hot_2026
+  title: 'OHMG: One hot modular garbling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2338
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a novel mechanism for garbling wires and gates of a logical circuit in a privacy-free environment, focusing
+    on the authenticity of the protocol. It is based on one-hot encodings, tensor pro
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: partial_derandomization_for_2026
+  title: Partial Derandomization for Leakage-Resilient Shamir's Secret Sharing over Composite Order Fields
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1475
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We make progress on the question of constructing explicit evaluation places for leakage-resilient Shamir''s secret
+    sharing, over composite order fields. Previously, Maji et al. (EUROCRYPT 2024) showed '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: muqtpegasis_interactive_aggregate_2026
+  title: 'Mu-qt-PEGASIS: Interactive Aggregate Signatures from Effective Isogenies in the Programmable Random-Oracle Model'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1474
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present Mu-qt-PEGASIS, a mathematically precise con-
+
+    ditional compiler for interactive aggregate signatures built from the
+
+    qt-PEGASIS effective class-group action. Our central observation is that
+
+    t'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: an_exact_fourwise_2026
+  title: An Exact Four-Wise Framework for Boomerang Cryptanalysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1473
+  directions:
+  - milp_sat_cp
+  - boomerang
+  ciphers: []
+  significance: medium
+  summary: Boomerang cryptanalysis is inherently a four-point phenomenon, yet its recent geometric formulation relies on a
+    3-wise representation imposed by a quartet-sum-zero assumption. This simplification make
+  status: pending_review
+  matched_keywords:
+  - boomerang
+  - SAT
+  - GIFT
+  - PRESENT
+  - SKINNY
+  - Ascon
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: vordr_verifiable_scalable_2026
+  title: 'Vordr: Verifiable, Scalable and Anonymous Remote Attestation for Confidential Virtual Machines'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1472
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Confidential virtual machines (CVMs) provide hardware-rooted attestation and isolation, protecting data in use
+    from untrusted cloud infrastructure. However, current CVM attestation frameworks are limi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: efficient_singleround_obfuscation_2026
+  title: Efficient Single-Round Obfuscation of Search and Result Patterns in Searchable Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1471
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Searchable Symmetric Encryption (SSE) enables data owners to securely store encrypted data on untrusted cloud servers
+    while retaining the ability to perform secure searches and retrieve relevant docum
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: a_complexitytheoretic_approach_2026
+  title: A Complexity-Theoretic Approach to Proofs of Space
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1470
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A Proof of Space, PoS, as introduced by Dziembowski et al. [CRYPTO'15], is a two-phase protocol that enables a
+    Prover to convince an efficient Verifier that it has allocated a large amount of persiste
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: multilinear_polynomials_via_2026
+  title: MULTILINEAR POLYNOMIALS VIA TREE-BASED CIRCUIT AND THE SUMCHECK PROTOCOL
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1469
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Sumcheck protocol is a cornerstone of modern proof systems, yet its prover
+
+    remains a performance bottleneck. Even in the multilinear case, the repeated construction
+
+    of round polynomials leads to s'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-23'
+  source: eprint
+- id: sidechannel_attacks_revisited_2026
+  title: 'Side-Channel Attacks Revisited - an Optimization Problem Perspective: Bootstrapping and Space Reduction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1468
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Side-channel analysis (SCA) attacks rely on leakage from a target device. It is common to assume that linear operations
+    implemented by XOR gates produce symmetric leakage and carry negligible side-cha
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - Ascon
+  fetched_date: '2026-07-23'
+  source: eprint

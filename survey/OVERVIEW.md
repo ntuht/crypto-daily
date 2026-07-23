@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1510 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1519 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1301)
+- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1310)
 
 ## 算法设计
 
@@ -622,7 +622,7 @@
 
 ## 算法分析
 
-### 差分分析 (774 篇)
+### 差分分析 (781 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1336,6 +1336,13 @@
 - 🟡 **2026** — A General Randomness Recycling Framework for First-Order Masking with Application to AES
 - 🟡 **2026** — Scalable High-Throughput FPGA Architecture for SMAC Message Authentication Code
 - 🟡 **2026** — Power Reveals Timing Conceals - Side-Channel Attacks and Hiding Countermeasures for HQC's Fixed-Weight Vector Sampling
+- 🟡 **2026** — OHMG: One hot modular garbling
+- 🟡 **2026** — Partial Derandomization for Leakage-Resilient Shamir's Secret Sharing over Composite Order Fields
+- 🟡 **2026** — Mu-qt-PEGASIS: Interactive Aggregate Signatures from Effective Isogenies in the Programmable Random-Oracle Model
+- 🟡 **2026** — Vordr: Verifiable, Scalable and Anonymous Remote Attestation for Confidential Virtual Machines
+- 🟡 **2026** — Efficient Single-Round Obfuscation of Search and Result Patterns in Searchable Encryption
+- 🟡 **2026** — A Complexity-Theoretic Approach to Proofs of Space
+- 🟡 **2026** — MULTILINEAR POLYNOMIALS VIA TREE-BASED CIRCUIT AND THE SUMCHECK PROTOCOL
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -1399,7 +1406,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (247 篇)
+### MILP/SAT/CP 建模技术 (249 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -1614,6 +1621,8 @@
 - 🟡 **2026** — A Unified Approach to Quantum Key Leasing with a Classical Lessor
 - 🟡 **2026** — Quantum-Safe Cryptography: A Migration Framework for Legacy Systems Toward NIST PQC Standards with the Crypto-Agility Readiness Score
 - 🟡 **2026** — Optimal Distributed Monotone-Policy Encryption for DNFs and More from Lattices
+- 🟡 **2026** — An Exact Four-Wise Framework for Boomerang Cryptanalysis
+- 🟡 **2026** — Side-Channel Attacks Revisited - an Optimization Problem Perspective: Bootstrapping and Space Reduction
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -2050,13 +2059,14 @@
 - 🔴 **1997** — The Block Cipher Square [Square]
 - 🔴 **1995** — Truncated and Higher Order Differentials
 
-### 回旋镖与 Rectangle (20 篇)
+### 回旋镖与 Rectangle (21 篇)
 
 - 🟡 **2026** — Mix-Basis Geometric Approach to Boomerang Distinguishers
 - 🟡 **2026** — Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP
 - 🟡 **2026** — Exploiting Strong Key Bridges: Full-Fledged Automatic Rectangle Attacks on Deoxys-BC and SKINNY
 - 🟡 **2026** — Local Constraints Behind Fourier Analysis of Neural Distinguishers for SPECK32/64
 - 🟡 **2026** — Cryptanalytic Properties of Mealy Machines
+- 🟡 **2026** — An Exact Four-Wise Framework for Boomerang Cryptanalysis
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2024** — Improved Boomerang Attacks on 6-Round AES [AES]
 - 🟡 **2024** — Impossible Boomerang Distinguishers Revisited [AES, SPECK, GIFT, CHAM, SKINNY]
