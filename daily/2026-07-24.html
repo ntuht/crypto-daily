@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-24</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-24</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-24</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-24 03:28</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 52 篇 → 启发式 42 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Deeper Look at Related-Key Differentials of Gift-64 from Trails to Differentials](https://doi.org/10.46586/TOSC.AV7TA6K5CHW2)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Ling Sun</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.AV7TA6K5CHW2)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：轻量级分组密码Gift-64在资源受限环境中广泛应用，其安全性分析，特别是针对相关密钥差分攻击的抵抗能力至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文对Gift-64的相关密钥差分特性进行了深入分析，系统地研究了差分路径如何组合形成整体差分，并可能揭示了新的或更优的相关密钥差分特性。研究方法可能涉及自动化搜索或手动构造，以识别具有高概率的差分路径。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作有助于更全面地理解Gift-64的密码学安全性，并为未来轻量级密码的设计与分析提供指导。</p>
+
+<hr>
+
+<h3>2. [88-XOR Implementation of the AES MixColumns Matrix](https://eprint.iacr.org/2026/1481)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1481.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：AES MixColumns变换是分组密码AES中的核心组件，其高效硬件实现对于提升加密性能至关重要，尤其是在资源受限的嵌入式系统中。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种创新的电路设计，仅使用88个异或门即可实现AES MixColumns的32x32二进制矩阵-向量乘法。该设计显著优化了异或门数量这一关键硬件指标，超越了此前已知的最小化实现。</p>
+
+<p>🎯 <strong>意义</strong>：这一成果为AES硬件加速器提供了更紧凑、更高效的实现方案，有助于降低功耗和面积，提升AES在各类硬件平台上的性能。</p>
+
+<hr>
+
+<h3>3. [Key Recovery Attacks on ZIP Ciphers: Application to ZIP-AES and ZIP-GIFT](https://doi.org/10.46586/TOSC.A0LMPAK8NNY)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Marcel Nageler, Debasmita Chakraborty, Simon Scherer, Maria Eichlseder</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.A0LMPAK8NNY)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：ZIP文件格式广泛用于数据压缩和归档，其内置的加密机制（如ZIP-AES和ZIP-GIFT）的安全性直接影响用户数据的隐私。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究并提出了针对ZIP密码的密钥恢复攻击方法，特别关注了ZIP格式中基于AES和GIFT算法的加密实现。研究可能利用了这些算法在ZIP上下文中的特定使用方式或弱点，以实现对加密密钥的有效恢复。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作揭示了ZIP加密机制中潜在的安全漏洞，对使用ZIP加密的用户和开发者具有重要的警示意义，并促进了对文件格式加密安全性的进一步研究。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.A66CHE8NM2-X" target="_blank">Quantum-Resistant Authenticated Encryption Variants of GCM</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.A66CHE8NM2-X)</p>
+<p><em>Marc Fischlin, Tobias Schmalz</em></p>
+
+<blockquote>
+<p>本文研究了抗量子计算的GCM认证加密变体，旨在提供后量子时代的认证加密解决方案。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1485" target="_blank">From PQC to HHE: Reusing a Co-Design Platform for Side-Channel-Protected PASTA</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1485.pdf)</p>
+
+<blockquote>
+<p>本文探讨了如何复用PQC协同设计平台，实现侧信道安全的PASTA混合同态加密（HHE）。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/071" target="_blank">The HHE Land: Exploring the Landscape of Hybrid Homomorphic Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/071.pdf)</p>
+
+<blockquote>
+<p>本文全面探讨了混合同态加密（HHE）领域，分析其在解决同态加密（HE）应用挑战中的潜力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1292" target="_blank">CRAfT: Constant-Round Non-Polynomial Approximation and P2P Network for Secure Transformer Inference</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1292.pdf)</p>
+
+<blockquote>
+<p>本文提出了CRAfT，一种基于常数轮非多项式近似和P2P网络的安全Transformer推理方案，以解决隐私问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1487" target="_blank">LightShark: Actively Secure Machine-Learning Inference Based on Lightweight Authenticated Distributed Comparison Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1487.pdf)</p>
+
+<blockquote>
+<p>LightShark提出了一种基于轻量级认证分布式比较函数的主动安全机器学习推理方案，提升了安全性和效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1302" target="_blank">TRIP: Thresholding in Regression with Input Privacy</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1302.pdf)</p>
+
+<blockquote>
+<p>本文提出了TRIP，一种在回归分析中实现输入隐私保护的门限化技术，以解决安全计算中的数据泄露问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1451" target="_blank">Lightweight Hardware Accelerator for the UOV Signature Scheme with Oil Space Blinding</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1451.pdf)</p>
+
+<blockquote>
+<p>本文设计了一种轻量级硬件加速器，用于实现具有油空间盲化（Oil Space Blinding）的UOV后量子签名方案。</p>
+</blockquote>
+
+<p><em>精选自 52 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
