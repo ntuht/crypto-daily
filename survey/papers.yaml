@@ -18930,7 +18930,7 @@ papers:
 - id: introducing_the_alf_2026
   title: 'Introducing the ALF family: AES-NI-based length- and format-preserving encryption'
   authors: []
-  venue: ePrint
+  venue: TOSC 2026
   year: 2026
   url: https://eprint.iacr.org/2025/2148
   directions:
@@ -18945,7 +18945,7 @@ papers:
   - AES
   - LED
   fetched_date: '2026-05-28'
-  source: eprint
+  source: tosc
 - id: full_key_recovery_2026
   title: 'Full Key Recovery of Masked PRESENT on an Out-of-Order RISC-V Processor: A First Reported Case Study'
   authors: []
@@ -22881,7 +22881,7 @@ papers:
 - id: multikey_security_in_2026
   title: 'Multi-Key Security in the Quantum World: Revisiting Tweakable Even-Mansour and FX'
   authors: []
-  venue: ePrint
+  venue: TOSC 2026
   year: 2026
   url: https://eprint.iacr.org/2026/382
   directions:
@@ -22895,7 +22895,7 @@ papers:
   - tweakable
   - LED
   fetched_date: '2026-06-17'
-  source: eprint
+  source: tosc
 - id: problems_in_algebra_2026
   title: Problems in algebra inspired by tropical cryptography
   authors: []
@@ -27460,3 +27460,335 @@ papers:
   - Ascon
   fetched_date: '2026-07-23'
   source: eprint
+- id: seamless_switching_between_2026
+  title: Seamless Switching Between PBS and WoPBS for Scalable TFHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/777
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) enables arbitrary computation directly on encrypted data. The TFHE scheme supports
+    encryption of bits or small integers, evaluating any univariate function via progr
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: pancake_a_snark_2026
+  title: 'PANCAKE: A SNARK with Plonkish Constraints, Almost-Free Additions, No Permutation Check, and a Linear-Time Prover'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/212
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We present \(\mathsf{Pancake}\), a linear-time SNARK with a circuit-specific setup that eliminates the explicit
+    representation and separate verification of addition gates in Plonkish constraint system
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: proof_of_demand_2026
+  title: 'Proof of Demand Is Not Proof of Work: On the Limits of Demand-Weighted Consensus under Free Pseudonyms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1492
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Proof-of-useful-work (PoUW) certifies computational hardness, not utility: a certified computation need not be
+    anyone''s demanded job. We separate three properties of a work receipt — work soundness ($'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: exploiting_loadstore_leakage_2026
+  title: Exploiting Load/Store Leakage of Sparse Vectors for Key Recovery in HQC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1491
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Hamming Quasi-Cyclic (HQC) is a code-based key encapsulation mechanism\n    selected by NIST for standardization,\n\
+    \    making its resistance to implementation attacks critically important.\n    We presen"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: on_the_formal_2026_1
+  title: 'On the Formal Verification of Polynomial Commitments: two KZG constructions and the Algebraic Group Model'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1490
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We formalize the notion of polynomial commitment schemes (PCSs) in the proof assistant Isabelle/HOL and formally
+    verify the security proofs of two variants of the widely popular Kate, Zaverucha, and G
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: switchfold_codeagnostic_succinct_2026
+  title: 'SwitchFold: Code-Agnostic Succinct Polynomial Commitments via Recursive Code Switching'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1489
+  directions:
+  - ml_aided
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'We study large-scale, field-agnostic, hash-based polynomial
+
+    commitment schemes (PCSs) with the goal of minimizing prover time while preserving polylogarithmic proof size and verifier
+    time. This settin'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - machine learning
+  - LED
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: privacypreserving_counterfactual_explanations_2026
+  title: Privacy-Preserving Counterfactual Explanations for Federated AI
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1488
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As the usage of Artificial Intelligence (AI) for sensitive purposes increases, there is a growing need for privacy-aware
+    explainable AI (XAI) tools. In this paper, we present a privacy-preserving coun
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: lightshark_actively_secure_2026
+  title: 'LightShark: Actively Secure Machine-Learning Inference Based on Lightweight Authenticated Distributed Comparison
+    Function'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1487
+  directions:
+  - ml_aided
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Recently, Shark (S\&P'25) considered the problem of actively two-party secure machine learning inference using
+    an authenticated distributed comparison function (DCF). This is the state-of-the-art work
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: from_pqc_to_2026
+  title: 'From PQC to HHE: Reusing a Co-Design Platform for Side-Channel-Protected PASTA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1485
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Hybrid homomorphic encryption (HHE) lets a constrained client send compact symmetric ciphertexts while a server
+    transciphers them into homomorphic ciphertexts, making HE-friendly ciphers such as PASTA
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: the_securedrop_protocol_2026
+  title: 'The SecureDrop Protocol: End-to-End Encrypted Whistleblowing for All'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1484
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Confidential sources are vital for investigative journalism and thus for holding those in power to account. However,
+    sources often face great risks to their privacy and safety. SecureDrop is a system '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: practical_adaptor_signatures_2026
+  title: 'Practical Adaptor Signatures: Security and Applications'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1482
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Adaptor signatures allow a signer to publish a pre‑signature that can be transformed into a valid signature by
+    anyone once a secret witness is learned. Poelstra first suggested this primitive to bypas
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: 88xor_implementation_of_2026
+  title: 88-XOR Implementation of the AES MixColumns Matrix
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1481
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We give in this short note a circuit implementing the matrix-vector product with the 32x32 binary matrix of the
+    AES MixColumns using 88 XOR gates. Previously known circuits minimizing this metric have
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: doublyefficient_secretkey_pir_2026
+  title: Doubly-Efficient Secret-Key PIR with Low Storage Overhead
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1480
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In secret-key private information retrieval, a client with a short secret key retrieves a database item while hiding
+    the requested index, and possibly also the database, from the server. The server an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: persephone_zeroknowledge_multiplicative_2026
+  title: 'PERSEPHONE: Zero-Knowledge Multiplicative Non-Negative Proof for Sequential Private Range Verification'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1477
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Numerous real-world systems in the FinTech space rely on zero-knowledge proof (ZKP) to verify information without
+    revealing it. For example, range verification is an essential component of transaction
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: constructing_new_permutation_2026
+  title: Constructing new permutation polynomials by the AGW Criterion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1476
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In this paper, we propose several classes of permutation polynomials having the form $\sum\limits_i(x^{2^m}+x+\delta)^{s_i}+ax$
+    for $i=1$ or $i=2$, where the exponent $s_i$ satisfies $s_i\equiv 2^j\pm
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  - PRESENT
+  fetched_date: '2026-07-24'
+  source: eprint
+- id: quantumresistant_authenticated_encryption_2026
+  title: Quantum-Resistant Authenticated Encryption Variants of GCM
+  authors:
+  - Marc Fischlin
+  - Tobias Schmalz
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.A66CHE8NM2-X
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-07-24'
+  source: tosc
+- id: key_recovery_attacks_2026
+  title: 'Key Recovery Attacks on ZIP Ciphers: Application to ZIP-AES and ZIP-GIFT'
+  authors:
+  - Marcel Nageler
+  - Debasmita Chakraborty
+  - Simon Scherer
+  - Maria Eichlseder
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.A0LMPAK8NNY
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - AES
+  - GIFT
+  fetched_date: '2026-07-24'
+  source: tosc
+- id: a_deeper_look_2026
+  title: A Deeper Look at Related-Key Differentials of Gift-64 from Trails to Differentials
+  authors:
+  - Ling Sun
+  venue: TOSC 2026
+  year: 2026
+  url: https://doi.org/10.46586/TOSC.AV7TA6K5CHW2
+  directions:
+  - related_key
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ''
+  status: pending_review
+  matched_keywords:
+  - differential
+  - related-key
+  - GIFT
+  fetched_date: '2026-07-24'
+  source: tosc
