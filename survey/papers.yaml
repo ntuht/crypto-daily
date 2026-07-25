@@ -27792,3 +27792,280 @@ papers:
   - GIFT
   fetched_date: '2026-07-24'
   source: tosc
+- id: efficient_unclonable_encryption_2026
+  title: Efficient Unclonable Encryption from Pauli Eigenstates
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1509
+  directions:
+  - milp_sat_cp
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: We give, to our knowledge, the first plain-model, one-time information-theoretically secure, efficient unclonable
+    encryption scheme for one classical bit. Previous work by Bhattacharyya and Culf (Natu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - ARX
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: lwe_with_side_2026
+  title: 'LWE with Side Information: Attacks and Concrete Security Estimation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2020/292
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We propose a framework for cryptanalysis of lattice-based schemes, when side information---in the form of ``hints''''---
+    about the secret and/or error is available.
+
+    Our framework generalizes the so-call'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: quantum_lazy_sampling_2026
+  title: Quantum Lazy Sampling and Path Recording for Any Group
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1510
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: A central challenge in quantum algorithm analysis and cryptography is reasoning about algorithms with oracle access
+    to a random group element (e.g. a random function, a random permutation, a random un
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: zkposp_postquantum_zeroknowledge_2026
+  title: 'ZKPoSP: Post-Quantum Zero-Knowledge Proofs for Hierarchical Deterministic Wallets'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1508
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent advances in quantum hardware, including Google's Willow processor, have substantially narrowed the timeline
+    to cryptographically relevant quantum computers. In the blockchain setting, where add
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: sm4th_and_ublockith_2026
+  title: 'SM4th and uBlockith: VOLE-based Post-Quantum Signature Schemes from Chinese Block Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1506
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'FAEST is a family of post-quantum signature schemes based on VOLE-in-the-Head, and is one of the nine candidates
+    advanced to the third round of the NIST Additional Digital Signature process.
+
+    FAEST rel'
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - AES
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: conditionalaffine_redundant_clauses_2026
+  title: Conditional-Affine Redundant Clauses for SHA-256 Differential SAT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1505
+  directions:
+  - differential
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Standard Tseitin encodings of the SHA-256 nonlinear functions Ch and Maj can hide conditioned differential projections
+    from Boolean Constraint Propagation (BCP). We materialize them as short, semantic
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: encifher_a_trustedexecution_2026
+  title: 'Encifher: A Trusted-Execution Coprocessor for Confidential Computation on Solana'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1504
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Public blockchains expose all state and computation by default, which is incompatible with financial applications
+    that require confidentiality. Solana achieves high throughput and sub-second confirmat
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: the_consensus_number_2026
+  title: The Consensus Number of Untraceable Cryptocurrencies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1503
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Sender untraceability hides the account spent by a cryptocurrency transfer among a set of candidates, its masking
+    set. What a transfer does to that set separates two designs: classical schemes retain '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: efficient_privacypreserving_lstm_2026
+  title: Efficient Privacy-Preserving LSTM Inference on Encrypted Sequential Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1502
+  directions:
+  - lightweight
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Recent advances in fully homomorphic encryption (FHE) have enabled privacy-preserving machine learning directly
+    over encrypted data. As a representative recurrent architecture, the long short-term mem
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: phishing_in_the_2026
+  title: 'Phishing in the Noise: Analysis of CT-based Phishing Detection Performance on Free Hosting Platforms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1501
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Free Hosting Platforms (FHPs) let users publish websites with minimal cost and configuration, but the same provider-managed
+    infrastructure can also be used to host phishing websites. We study how this
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: how_to_define_2026
+  title: How to Define Expected Quantum Polynomial-Time Zero Knowledge Simulation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1500
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero knowledge is formalized via a simulator — i.e., an efficient computation which simulates the view of a (malicious)
+    verifier. The foundational results in constant-round zero knowledge [GMW86,FS90,
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: bf_a_bloomfiltered_2026
+  title: 'BF²: A Bloom-Filtered Brute-Force Framework for Multi-Target Password Recovery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1499
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Password-based authentication remains widespread, and large-scale sets of leaked hashes enable practical offline
+    brute-force attacks. Multi-target attacks, which check candidates against large sets of
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: updatable_private_set_2026
+  title: 'Updatable Private Set Union: Generic Construction with Efficient Instantiation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1497
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Private set union~(PSU) allows two parties to compute the union of their private sets without revealing their
+    intersection.
+
+    In many real-world applications, parties'' datasets undergo frequent updates '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: floorit_informationtheoretic_bft_2026
+  title: 'Floor-IT: Information-Theoretic BFT in Partial Synchrony with Two Round Good Case Latency and Optimal Resilience'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1496
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the information-theoretic model, parties communicate over sender-authenticated point-to-point channels, but
+    use no digital signatures or other transferable cryptographic certificates; the adversary
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
+- id: bob_dylean_a_2026
+  title: 'Bob DyLean: A Framework for the Symbolic Analysis of Cryptographic Protocols in Lean'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1493
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Over the last decades, symbolic (Dolev-Yao) methods for the analysis of security protocols have proven to be effective
+    to analyze and establish strong guarantees for widely deployed protocols and syst
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-07-25'
+  source: eprint
