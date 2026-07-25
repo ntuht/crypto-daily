@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-25</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-25</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-25</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-25 03:26</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 47 篇 → 启发式 36 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Conditional-Affine Redundant Clauses for SHA-256 Differential SAT](https://eprint.iacr.org/2026/1505)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1505.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：针对SHA-256非线性函数Ch和Maj的标准Tseitin编码在布尔约束传播(BCP)中可能隐藏条件差分投影的问题，现有方法难以高效捕捉这些关键信息。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出将这些隐藏的条件差分投影具象化为短小、语义化的条件仿射冗余子句。这些子句能够显式地表达差分传播的特定条件，从而增强SAT求解器在分析SHA-256差分特性时的效率和深度，使其能更有效地发现和利用差分路径。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作有助于改进SHA-256等密码哈希函数的差分分析效率，为寻找差分路径或评估其安全性提供更强大的工具和理论基础。</p>
+
+<hr>
+
+<h3>2. [SM4th and uBlockith: VOLE-based Post-Quantum Signature Schemes from Chinese Block Ciphers](https://eprint.iacr.org/2026/1506)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1506.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：FAEST是NIST后量子密码标准化进程第三轮候选方案之一，它基于VOLE-in-the-Head范式构建后量子签名方案，但其基础原语通常依赖于特定的代数结构。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了SM4th和uBlockith，这是两种新的基于VOLE-in-the-Head的后量子签名方案，其核心构造利用了中国标准分组密码SM4。通过将SM4的内部结构适配到VOLE-in-the-Head框架中，实现了高效且安全的签名方案，并展示了如何将现有成熟的分组密码安全地集成到后量子签名设计中。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究不仅扩展了VOLE-in-the-Head签名方案的设计空间，还为基于中国密码算法的后量子密码学发展提供了新的方向和具体实现，具有重要的实践和理论价值。</p>
+
+<hr>
+
+<h3>3. [Shortening Bounds for Reed-Solomon MCA](https://eprint.iacr.org/2026/1463)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/1463.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在Reed-Solomon码的相互关联协议（MCA）中，理解和改进其性能界限，特别是在Johnson半径和容量之间，是一个重要的研究方向，对编码理论和密码学应用至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文推导出了一个显式指数\(\Psi_\rho\)，该指数在Johnson半径和容量之间的每个固定相对半径处，限制了Reed-Solomon MCA的“坏斜率”分子。这一结果提供了更紧密的界限，并揭示了正相对半径下的具体行为，从而精确量化了MCA的性能潜力。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作深化了对Reed-Solomon码在相互关联协议中性能的理论理解，对设计和分析纠错码在密码学和通信中的应用具有指导意义，有助于优化相关系统的鲁棒性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1371" target="_blank">The Small-Field Turn in Succinct Proofs: A Systematization of Finite-Field Choice in Modern SNARKs and STARKs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1371.pdf)</p>
+
+<blockquote>
+<p>本文系统化地分析了现代SNARKs和STARKs等简洁证明系统从配对友好椭圆曲线的256位标量域转向更小有限域的趋势，并探讨了其设计选择和影响。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1432" target="_blank">Reed–Solomon Mutual Correlated Agreement Beyond the Johnson Radius</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1432.pdf)</p>
+
+<blockquote>
+<p>本文研究了Reed-Solomon码的相互关联协议（MCA）在超越Johnson半径的条件下，接收字仿射线与码字在多个坐标上达成一致的点数界限。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1493" target="_blank">Bob DyLean: A Framework for the Symbolic Analysis of Cryptographic Protocols in Lean</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1493.pdf)</p>
+
+<blockquote>
+<p>Bob DyLean是一个基于Lean证明助手的框架，旨在利用符号（Dolev-Yao）方法对密码协议进行形式化分析，以有效验证其安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1334" target="_blank">Principles for pRHL Proofs of Cryptographic Protocols: How to Convince EasyCrypt that your Protocol is Secure</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1334.pdf)</p>
+
+<blockquote>
+<p>本文提出了使用pRHL逻辑在EasyCrypt证明助手中形式化验证密码协议安全性的原则，旨在指导用户更有效地构建可信的安全性证明。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1282" target="_blank">Physics-Aware Temporal Feature Engineering for Eavesdropping Detection in BBM92 Quantum Key Distribution</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1282.pdf)</p>
+
+<blockquote>
+<p>针对BBM92量子密钥分发系统，本文提出了一种物理感知的时序特征工程方法，以改进传统静态QBER阈值在噪声环境下对窃听行为的检测能力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1489" target="_blank">SwitchFold: Code-Agnostic Succinct Polynomial Commitments via Recursive Code Switching</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1489.pdf)</p>
+
+<blockquote>
+<p>SwitchFold是一种与代码无关的简洁多项式承诺方案，它通过递归码切换技术，旨在在大规模、域无关的哈希基多项式承诺中最小化证明者时间。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1367" target="_blank">SoK: Hash-Based Polynomial Commitments and Low-Degree Tests: From FRI to Basefold, STIR, and WHIR</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1367.pdf)</p>
+
+<blockquote>
+<p>本文对基于哈希的多项式承诺方案和低度测试进行了系统化知识（SoK）研究，涵盖了从FRI到Basefold、STIR和WHIR等关键技术，揭示了它们作为简洁论证系统核心引擎的演进。</p>
+</blockquote>
+
+<p><em>精选自 47 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
