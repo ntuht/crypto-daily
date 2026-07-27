@@ -28069,3 +28069,22 @@ papers:
   - PRESENT
   fetched_date: '2026-07-25'
   source: eprint
+- id: improved_concurrentsecure_blind_2026
+  title: Improved Concurrent-Secure Blind Schnorr Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1992
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Since the work of Chaum in ’82, the problem of designing secure blind signature protocols for existing signature
+    schemes has been of great interest. In particular, when considering Schnorr signatures,
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-27'
+  source: eprint
