@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-27</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-27</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-27</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-27 03:49</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 69 篇 → 启发式 68 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Deeper Look at Related-Key Differentials of Gift-64 from Trails to Differentials](https://doi.org/10.46586/TOSC.AV7TA6K5CHW2)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Ling Sun</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.AV7TA6K5CHW2)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Gift-64作为一种轻量级分组密码，其安全性评估，特别是针对相关密钥差分攻击的抵抗能力，是密码学研究的重要方向。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文对Gift-64的相关密钥差分特性进行了深入分析，创新性地从差分路径（trails）的视角出发，系统地构建并推导了更长的相关密钥差分特征。研究可能通过精细建模S盒和线性层的差分传播，并考虑密钥差分对这些传播的影响，从而识别出之前未被发现的有效差分路径，并将其扩展为完整的相关密钥差分。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作显著提升了对Gift-64在相关密钥模型下安全性的理解，并为未来轻量级密码的设计与分析提供了宝贵的理论和实践指导。</p>
+
+<hr>
+
+<h3>2. [QuantumScouter: Reinforcement Learning-Based Optimization of Variational Quantum Circuits for Differential Cryptanalysis](https://eprint.iacr.org/2026/1456)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1456.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：经典的深度学习在差分密码分析中需要海量密文对，导致攻击不切实际或易被发现，这限制了其应用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了QuantumScouter，一个基于强化学习的变分量子电路优化框架，旨在克服经典深度学习在差分密码分析中对数据量的巨大需求。通过利用量子计算的特性，该方法可能在更少的数据样本下，高效地发现或优化差分特征，从而提升攻击效率和隐蔽性，为量子机器学习在密码分析中的应用开辟了新路径。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究有望在数据受限的场景下实现更有效的密码攻击，并对后量子密码的安全性评估具有潜在影响。</p>
+
+<hr>
+
+<h3>3. [An Exact Four-Wise Framework for Boomerang Cryptanalysis](https://eprint.iacr.org/2026/1473)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1473.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：飞去来器（Boomerang）密码分析本质上涉及四个明密文点，但现有的一些几何化表述为了简化，采用了基于“四元组和为零”假设的三点表示，这可能引入不准确性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一个精确的四点框架来描述飞去来器密码分析，纠正了现有几何表述中因简化假设而引入的潜在不准确性。通过更忠实地反映飞去来器攻击的四点特性，该框架能够提供更精确的概率计算和更深入的攻击路径理解，从而可能发现之前被忽略的攻击机会或提高现有攻击的成功率。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作深化了对飞去来器密码分析理论的理解，为更准确地评估分组密码的安全性提供了新的分析工具和视角。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1393" target="_blank">On the Differential Uniformity of Polynomials over Galois Rings</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1393.pdf)</p>
+
+<blockquote>
+<p>本文研究了伽罗瓦环上多项式的差分均匀性，这对于设计基于伽罗瓦扩域的哈希函数和伪随机置换至关重要。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1368" target="_blank">SDDT: An Operation Skip Attack Framework for Bitslice Ciphers—Validated on PIPO</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1368.pdf)</p>
+
+<blockquote>
+<p>本文提出了SDDT，一个针对位切片密码的操作跳过攻击框架，并在PIPO密码上进行了验证，旨在利用位切片实现的特性进行高效攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.A0LMPAK8NNY" target="_blank">Key Recovery Attacks on ZIP Ciphers: Application to ZIP-AES and ZIP-GIFT</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.A0LMPAK8NNY)</p>
+<p><em>Marcel Nageler, Debasmita Chakraborty, Simon Scherer, Maria Eichlseder</em></p>
+
+<blockquote>
+<p>本文对ZIP密码（包括ZIP-AES和ZIP-GIFT）进行了密钥恢复攻击，评估了其在特定攻击模型下的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1424" target="_blank">Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AE Applications</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1424.pdf)</p>
+
+<blockquote>
+<p>AEAD方案分析</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1505" target="_blank">Conditional-Affine Redundant Clauses for SHA-256 Differential SAT</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1505.pdf)</p>
+
+<blockquote>
+<p>本文为SHA-256差分SAT攻击引入了条件仿射冗余子句，以揭示标准Tseitin编码中隐藏的差分投影，从而提高分析效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1402" target="_blank">On Extending Integral Distinguishers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1402.pdf)</p>
+
+<blockquote>
+<p>本文探讨了如何扩展积分区分器，以更有效地利用输入结构特性来分析分组密码的密钥无关性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1461" target="_blank">The m=n+1 Boundary of EME: A Splicing Distinguisher for the Unrefreshed EME-Core Extension and Its Linear-Map Generalization</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1461.pdf)</p>
+
+<blockquote>
+<p>本文针对EME宽块加密模式在m=n+1边界处，发现了一种拼接区分器，揭示了未刷新EME核心扩展及其线性映射泛化中的安全漏洞。</p>
+</blockquote>
+
+<p><em>精选自 69 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
