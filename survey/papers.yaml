@@ -28088,3 +28088,258 @@ papers:
   - LED
   fetched_date: '2026-07-27'
   source: eprint
+- id: practical_zerotrust_threshold_2026
+  title: Practical Zero-Trust Threshold Signatures in Large-Scale Asynchronous Networks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/297
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures are a fundamental primitive in applied cryptography, primarily used to mitigate the custodial
+    risk involved in managing keys. However, existing constructions rely on synchronous c
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: validity_in_responsive_2026
+  title: Validity in Responsive Byzantine Agreement
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1183
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Byzantine Agreement (BA) protocols must ensure not only agreement and termination, but also validity: the value
+    agreed upon should meaningfully reflect the honest parties'' inputs. The choice of validi'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: lether_practical_postquantum_2026
+  title: 'Lether: Practical Post-Quantum Account-Based Private Blockchain Payments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/076
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce Lether, the first practical account-based private block-chain payment protocol based on post-quantum
+    lattice assumptions, following the paradigm of Anonymous Zether (FC '19, IEEE S&P '21)
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: rok_and_roll_2026
+  title: RoK and Roll – Verifier-Efficient Random Projection for $\tilde{O}(\lambda)$-size Lattice Arguments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1220
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Succinct non-interactive arguments of knowledge (SNARKs) based on lattice assumptions offer a promising post-quantum
+    alternative to pairing-based systems, but have until now suffered from inherently q
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: catching_many_traitors_2026
+  title: 'Catching Many Traitors in Threshold Traitor Tracing: Lower Bounds and Constructions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1523
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A $t$-out-of-$n$ threshold decryption scheme distributes decryption key shares among $n$ parties so that any $t$
+    of them can jointly decrypt a ciphertext, while fewer than $t$ learn nothing about the '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: efficient_ternary_computation_2026
+  title: Efficient Ternary Computation of Optimal Ate Pairing on BLS27 Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1522
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The computation of optimal Ate pairings on elliptic curves with embedding degree $k=27$ (BLS27) is highly relevant
+    for achieving the 256-bit security level, especially in the context of recent advance
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: beyond_blockchain_ballots_2026
+  title: 'Beyond Blockchain Ballots: UC-Secure Layer-2 Voting and Governance'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1521
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Maintaining a decentralized system requires a collective governance mechanism that allows participants to agree
+    on changes to the system. In particular, the governance mechanism should offer a voting '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: quintus_tworound_goodcase_2026
+  title: 'Quintus: Two-round Good-case Information Theoretic BFT for $n=5f+1$'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1520
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present, Quintus, information-theoretic BFT protocols for tolerating $f < n/5$ Byzantine faults among $n$ parties.\
+    \ We present two protocols:\n \n      (1) The first protocol, Quintus-Fixed, is in a f"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: classic_full_plaintext_2026
+  title: Classic Full Plaintext Recovery Attacks on Low Round Generalized Feistel Networks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1519
+  directions:
+  - linear_diffusion
+  - sbox
+  - round_function
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The Generalized Feistel Network (GFN) underpins widely standardized block ciphers, yet its resistance to full plaintext
+    recovery remains largely unexplored. This paper extends the full-plaintext attac
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  - diffusion
+  - Feistel
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: practical_equivalentkey_recovery_2026
+  title: Practical Equivalent-Key Recovery in GRAFHEN
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1518
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'GRAFHEN is a group-based homomorphic-encryption proposal whose public key is a
+
+    rewriting system and whose secret key is a permutation representation.  We
+
+    present Maverick, an equivalent-key recovery a'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: convertinputfree_vector_homomorphic_2026
+  title: ConvertInput-Free Vector Homomorphic Secret Sharing and Its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1517
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: This work presents ConvertInput-Free Vector Homomorphic Secret Sharing (Vector-HSS), a novel HSS primitive based
+    on the Decisional Composite Residuosity (DCR) assumption. Our construction enables effi
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: exponentially_fewerserver_pir_2026
+  title: Exponentially Fewer-Server PIR from Sparser $S$-Decoding Polynomials
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1515
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We show that under a plausible number-theoretic conjecture, for any constant $s$ there exists an $s$-server private
+    information retrieval (PIR) protocol that on an $n$-bit database requires communicat
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: distributed_vector_commitments_2026
+  title: Distributed Vector Commitments and Their Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1514
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Vector commitment (VC) schemes enable a prover to commit to a vector and later open any position with a short proof.
+    However, existing VC schemes are designed for centralized settings, and cannot work
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-07-28'
+  source: eprint
+- id: stebr_a_timederasure_2026
+  title: 'STEBR: A Timed-Erasure, Threshold-Gated Backup Ratchet'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1513
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'The Signal Protocol’s Double Ratchet and X3DH/PQXDH handshakes give in-transit messages forward secrecy and post-compromise
+    security: compromising a session key does not expose past traffic, and the p'
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  fetched_date: '2026-07-28'
+  source: eprint
