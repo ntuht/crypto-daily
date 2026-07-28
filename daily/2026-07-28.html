@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-28</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-28</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-28</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-28 03:20</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 72 篇 → 启发式 62 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Scalable High-Throughput FPGA Architecture for SMAC Message Authentication Code](https://eprint.iacr.org/2026/1466)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1466.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：SMAC是一种近期提出的、基于AES轮函数的独立消息认证码（MAC），其特点是具有聚合模式。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文设计并实现了一种针对SMAC的FPGA架构，该架构通过并行化和流水线技术，实现了高吞吐量和良好的可扩展性，并特别优化了其聚合模式的性能，以适应不同的应用场景。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为SMAC在高性能硬件环境中的实际部署提供了高效的解决方案，并展示了其在资源受限设备上的潜力。</p>
+
+<hr>
+
+<h3>2. [Classic Full Plaintext Recovery Attacks on Low Round Generalized Feistel Networks](https://eprint.iacr.org/2026/1519)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1519.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：广义Feistel网络（GFN）是许多标准化分组密码的基础，但其抵抗全明文恢复攻击的能力尚未得到充分探索。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文扩展了针对GFN的全明文恢复攻击方法，通过深入分析低轮GFN的结构特性，提出了新的攻击策略，并成功在特定轮数下恢复了完整的明文。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究揭示了低轮GFN在全明文恢复攻击下的脆弱性，对GFN的设计和安全评估具有重要的指导意义。</p>
+
+<hr>
+
+<h3>3. [Quantum-Resistant Authenticated Encryption Variants of GCM](https://doi.org/10.46586/TOSC.A66CHE8NM2-X)</h3>
+
+<p class="paper-entry"><strong>作者</strong>：Marc Fischlin, Tobias Schmalz</p>
+
+<blockquote>
+<p>TOSC 2026 | 相关性 10/10 | [📎 PDF](https://doi.org/10.46586/TOSC.A66CHE8NM2-X)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着量子计算的兴起，现有许多广泛使用的密码算法（如GCM）面临量子攻击的威胁，因此开发抗量子密码方案变得至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了GCM的多种抗量子认证加密变体，这些变体通过替换GCM中的底层对称密码组件或哈希函数为抗量子原语，旨在提供后量子安全性，同时保持认证加密的效率和特性。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为GCM向后量子时代的过渡提供了实用的解决方案，有助于保障未来通信和数据存储的安全性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1338" target="_blank">Bitslicing the AEGIS</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1338.pdf)</p>
+
+<blockquote>
+<p>本文探讨了AEGIS认证加密算法家族的位切片实现，旨在优化其基于AES轮函数的复杂状态更新过程，以提高性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1413" target="_blank">Optimizing ARIA-GCM on GPUs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1413.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种在GPU上优化ARIA-GCM认证加密流水线（包括CTR密钥流和GHASH认证）的实现方案，以提升其处理性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1429" target="_blank">Structured Search for a Separable Subclass of Generalized Integral Properties</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1429.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种结构化搜索方法，用于发现广义积分性质的可分离子类，以克服传统搜索方法因函数空间过大而面临的挑战。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1386" target="_blank">Key-Recovery Attacks on TALUS: A Cryptanalytic Note</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1386.pdf)</p>
+
+<blockquote>
+<p>密钥恢复攻击与对称原语</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1441" target="_blank">RainHash2.0: Hardware- and Arithmetization-friendly Hash Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1441.pdf)</p>
+
+<blockquote>
+<p>本文提出了RainHash2.0，这是一种硬件友好且算术化友好的哈希函数，专为零知识证明系统中的高效应用而设计。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2019/1492" target="_blank">Too Much Crypto</a></strong> | [📎 PDF](https://eprint.iacr.org/2019/1492.pdf)</p>
+
+<blockquote>
+<p>本文认为ChaCha、BLAKE2、SHA-3和AES等密码算法的安全裕度过高，其轮数超过了实际所需，暗示存在优化空间。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1412" target="_blank">Quantum Implementation and Analysis of Rijndael</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1412.pdf)</p>
+
+<blockquote>
+<p>对称密码量子实现分析</p>
+</blockquote>
+
+<p><em>精选自 72 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
