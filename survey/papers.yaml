@@ -28343,3 +28343,21 @@ papers:
   - AEAD
   fetched_date: '2026-07-28'
   source: eprint
+- id: refined_humbert_invariants_2026
+  title: Refined Humbert Invariants in Supersingular Isogeny Degree Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1605
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We focus on refined Humbert invariants of principally polarized superspecial abelian surfaces, introduced by Kani
+    in 1994. The main contributions are to enumerate principal polarizations on a superspe
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-07-29'
+  source: eprint
