@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-07-29</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-07-29</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-07-29</h1>
+
+<blockquote>
+<p>自动生成于 2026-07-29 03:22</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 53 篇 → 启发式 52 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [88-XOR Implementation of the AES MixColumns Matrix](https://eprint.iacr.org/2026/1481)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1481.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：AES MixColumns操作的硬件实现效率，特别是异或门数量，是衡量其性能的关键指标。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种创新的电路设计，仅使用88个异或门即可实现AES MixColumns操作中的32x32二进制矩阵-向量乘法。这一设计显著优化了现有最小化异或门数量的电路。</p>
+
+<p>🎯 <strong>意义</strong>：该成果为AES硬件实现提供了更高效、更紧凑的方案，有助于降低功耗和面积。</p>
+
+<hr>
+
+<h3>2. [STEBR: A Timed-Erasure, Threshold-Gated Backup Ratchet](https://eprint.iacr.org/2026/1513)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1513.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Signal协议的双棘轮机制提供了前向保密和妥协后安全性，但其备份机制在密钥泄露时可能面临风险。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文引入了STEBR协议，结合时限擦除和门限控制机制，增强备份密钥安全性。即使部分备份密钥泄露，也能通过门限限制访问，并在预设时间后自动擦除，提升妥协后安全性。</p>
+
+<p>🎯 <strong>意义</strong>：STEBR为安全通信协议的备份机制提供了更强的弹性，有效缓解了密钥泄露带来的长期风险。</p>
+
+<hr>
+
+<h3>3. [Reducing Multiplicative Complexity via Conjugate Cipher](https://eprint.iacr.org/2026/1365)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1365.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：乘法复杂度是衡量密码算法实现效率和侧信道安全性（如防范DPA）的重要指标。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种通用的方法，利用“共轭密码”的概念来系统性地降低密码算法的乘法复杂度。通过对密码算法进行变换，使其在特定代数结构下具有更低的乘法运算需求。</p>
+
+<p>🎯 <strong>意义</strong>：这一方法为设计和优化高效且侧信道安全的密码实现提供了新的理论工具和实践途径。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/026" target="_blank">A General Randomness Recycling Framework for First-Order Masking with Application to AES</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/026.pdf)</p>
+
+<blockquote>
+<p>论文提出了通用的随机性复用框架，以降低一阶掩码技术在AES等应用中对随机数的高需求。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1395" target="_blank">Blind Trace-Only Segmentation of Cipher Implementations Without Algorithm Metadata</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1395.pdf)</p>
+
+<blockquote>
+<p>本文研究了在无算法元数据下，仅通过盲侧信道轨迹对密码实现进行分割的方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1468" target="_blank">Side-Channel Attacks Revisited - an Optimization Problem Perspective: Bootstrapping and Space Reduction</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1468.pdf)</p>
+
+<blockquote>
+<p>论文从优化问题角度重新审视侧信道攻击，并提出了自举和空间缩减技术。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1506" target="_blank">SM4th and uBlockith: VOLE-based Post-Quantum Signature Schemes from Chinese Block Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1506.pdf)</p>
+
+<blockquote>
+<p>论文基于VOLE-in-the-Head和中国分组密码，提出了后量子签名方案SM4th和uBlockith。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1409" target="_blank">Accelerating FAEST Signing on GPU via Fused AES Constraint Generation and Batched Leaf Hashing</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1409.pdf)</p>
+
+<blockquote>
+<p>本文通过融合AES约束生成和批处理叶哈希，加速了FAEST后量子签名在GPU上的实现。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1446" target="_blank">Quantum Circuit Optimization with LLMs under a Structured Guideline</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1446.pdf)</p>
+
+<blockquote>
+<p>论文探索了在结构化指导下，利用大型语言模型（LLMs）优化量子电路的方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1202" target="_blank">Prover - Toward More Efficient Formal Verification of Masking in Probing Model</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1202.pdf)</p>
+
+<blockquote>
+<p>论文提出了Prover工具，旨在提高探测模型下掩码实现侧信道安全形式化验证的效率。</p>
+</blockquote>
+
+<p><em>精选自 53 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
