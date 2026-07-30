@@ -28361,3 +28361,37 @@ papers:
   - PRESENT
   fetched_date: '2026-07-29'
   source: eprint
+- id: scribe_lowmemory_snarks_2026
+  title: 'Scribe: Low-memory SNARKs via Read-Write Streaming'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1970
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Succinct non-interactive arguments of knowledge (SNARKs) enable a prover to produce a short and efficiently verifiable
+    proof of the validity of an arbitrary NP statement. Recent constructions of effic
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-30'
+  source: eprint
+- id: privacypreserving_identifier_checking_2026
+  title: Privacy-Preserving Identifier Checking in 5G
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2200
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Device identifiers like the International Mobile Equipment Identity (IMEI) are crucial for ensuring device integrity
+    and meeting regulations in 4G and 5G networks. However, sharing these identifiers w
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-30'
+  source: eprint
