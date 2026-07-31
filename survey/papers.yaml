@@ -28395,3 +28395,329 @@ papers:
   - LED
   fetched_date: '2026-07-30'
   source: eprint
+- id: lazyarc_dynamic_outoforder_2026
+  title: 'LazyArc: Dynamic Out-of-Order Engine for High-Throughput FHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/363
+  directions:
+  - lightweight
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) is a modern cryptographic technique that allows performing computations directly
+    on encrypted data. This makes FHE an indispensable method for privacy-preserving app
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - LED
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: janusfhe_reducing_microarchitectural_2026
+  title: 'Janus-FHE: Reducing Microarchitectural Leakage in GPU-Based Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/362
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Homomorphic Encryption (HE) enables secure cloud computing through computations on encrypted data, but the physical
+    execution of HE workloads on shared GPUs can still expose relevant metadata through '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: isochronous_fixedweight_sampling_2026
+  title: Isochronous Fixed-Weight Sampling in Hardware
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/218
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'We present hardware implementations of the recently proposed isochronous fixed-weight sampling algorithm by Décio
+    Luiz Gazzoni Filho, Tomás S. R. Silva, Julio López
+
+    (CiC vol. 1, 2024) and apply them t'
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: classaverage_differential_uniformity_2026
+  title: Class-Average Differential Uniformity and Fixed-Instance Constraints in Modular and Rounded Feistel Components
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/763
+  directions:
+  - round_function
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper analyzes differential probabilities in one Feistel round with binary-encoded modular-linear maps or
+    rounded linear maps as internal components. For any fixed round key and any nonzero input
+  status: pending_review
+  matched_keywords:
+  - differential
+  - Feistel
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: zeroknowledge_proofcarrying_data_2026
+  title: Zero-Knowledge Proof-Carrying Data from Accumulation Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/289
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Proof-carrying data (PCD) is a powerful cryptographic primitive for ensuring computational integrity in distributed
+    settings. State-of-the-art PCD constructions based on accumulation schemes achieve p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: falcon_verify_on_2026
+  title: 'Falcon Verify on AVX-512: Speed Records'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1539
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a fast implementation of Falcon (FN-DSA) signature verification with AVX-512. On a modern AMD Zen5 core,
+    it completes a Falcon-512 verification in 3.6 microseconds, 2.6 times faster than an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: an_attack_on_2026
+  title: An Attack on High Rate McEliece Cryptosystems Using Generalized Reed Solomon Codes with Weight 2 Mask
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1538
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Due to the insecurity of McEliece cryptosystems instantiated with Generalized Reed-Solomon codes, there have been
+    several proposals of McEliece type systems that replace the permutation matrix by a ma
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: umpso_a_unified_2026
+  title: 'UM-PSO: A Unified Multi-Party Framework for Private Set Operations with Malicious-Majority Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1537
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Set Operations (PSO) enable mutually untrusted parties to securely compute arbitrary functions (e.g., union,
+    intersection, and cardinality) over their private input sets, which have wide appli
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: privacypreserving_identity_management_2026
+  title: 'Privacy-Preserving Identity Management and Software Bill of Materials Vulnerability Detection: Practical Use Cases
+    from the PRIVIDEMA Project'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1536
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'PRIVIDEMA project (Privacy-Preserving Identity Management for Digital Wallets and Secure Data Sharing and Processing
+    for Cyber Threat Intelligence Data) advances the state of the art in cryptographic '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: vinet_connecting_the_2026
+  title: 'ViNET: Connecting the Unconnected using Video over LTE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1535
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Internet shutdowns are used authoritarian regimes to suppress communication that end up crippling essential Internet-driven
+    services, besides the obvious silencing of dissent. Traditional tools like V
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: masking_sequences_and_2026
+  title: 'Masking, Sequences, and FALCON: A Theoretical Study on Masking Strategies Using Sequences for Non-Linear Operands
+    in the FALCON Post-Quantum Signature'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1534
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Post-Quantum Cryptography is now in its deployment phase. Amongst the threats encountered in real-world applications
+    is Side Channel Analysis, a cryptanalysis branch relying on the study of physical l
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: correcting_the_modulus_2026
+  title: Correcting the modulus switch error in TFHE bootstrapping for real-valued computation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1533
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Torus Fully Homomorphic Encryption (TFHE) enables the homomorphic
+
+    evaluation of arbitrary functions via Programmable Bootstrapping
+
+    (PBS). However, the modulus switching step inherent to bootstrapping
+
+    '
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: rich_input_representations_2026
+  title: 'Rich Input Representations in Neural Differential Cryptanalysis: A Taxonomy and Survey'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1530
+  directions:
+  - ml_aided
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Neural differential distinguishers have become an active research direction in​ symmetric-key cryptanalysis since
+    the introduction of deep-learning-based attacks on​ round-reduced SPECK. Early neural '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - neural distinguisher
+  - PRESENT
+  - SPECK
+  - LED
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: revisiting_automated_quantum_2026
+  title: Revisiting Automated Quantum Periodic Distinguisher Construction
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1528
+  directions:
+  - linear_diffusion
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Simon's algorithm can detect hidden XOR periods in functions derived from symmetric ciphers. Finding such functions
+    becomes difficult when nonlinear layers and diffusion spread the relevant expression
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - diffusion
+  - SKINNY
+  - SIMON
+  - CRAFT
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: shuffling_is_not_2026
+  title: 'Shuffling is Not Enough: Breaking Permutation-Based Model Confidentiality in Hybrid FHE Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1527
+  directions:
+  - invariant
+  - permutation_layer
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Hybrid fully homomorphic encryption (FHE) inference improves the practicality of private inference by letting the
+    server evaluate linear layers homomorphically while the client decrypts and applies no
+  status: pending_review
+  matched_keywords:
+  - differential
+  - invariant
+  - permutation
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: on_the_suitability_2026
+  title: 'On the Suitability of Syndrome Decoding for Proof-of-Work under Quantum Adversaries: Design and Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1526
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Proof-of-work (PoW) remains a fundamental mechanism for
+
+    achieving decentralized consensus, most commonly instantiated using
+
+    cryptographic hash functions. In such constructions, mining takes the
+
+    form o'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-07-31'
+  source: eprint
+- id: naibi_binding_reconciliation_2026
+  title: 'NAIBI: Binding Reconciliation KEMs and Ephemeral Key Agreement over Non-Split Commutative Algebras'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1525
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose NAIBI-Full, a lattice-based key encapsulation mechanism (KEM) together with its forward-secure ephemeral
+    key-agreement protocols, built on the regular representation 𝜌 of the non-split comm
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-07-31'
+  source: eprint
