@@ -28721,3 +28721,20 @@ papers:
   - PRESENT
   fetched_date: '2026-07-31'
   source: eprint
+- id: cryptanalysis_of_the_2026_2
+  title: Cryptanalysis of the Subfield Bilinear Collision Problem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/916
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The security of a recent MPC-in-the-Head signature scheme introduced at Crypto 2024 by Huth and Joux required the
+    introduction of a new ad hoc hardness assumption called the Subfield Bilinear Collisio
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-01'
+  source: eprint
