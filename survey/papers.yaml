@@ -28738,3 +28738,22 @@ papers:
   - LED
   fetched_date: '2026-08-01'
   source: eprint
+- id: trapdoorfree_multivariate_onetime_2026
+  title: Trapdoor-Free Multivariate One-Time Signatures in the Standard Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/952
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Constructing a multivariate signature scheme that is both trapdoor-free and provably secure in the standard model
+    has been a long-standing challenge. In this paper, we present MQ-based W-OTS$^+$, the '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-03'
+  source: eprint
