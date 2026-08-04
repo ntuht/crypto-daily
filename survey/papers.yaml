@@ -28757,3 +28757,872 @@ papers:
   - LED
   fetched_date: '2026-08-03'
   source: eprint
+- id: 2pc_memorymanipulating_programs_2026
+  title: 2PC Memory-Manipulating Programs with Constant Overhead
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/086
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: General-purpose secure multiparty computation (MPC) remains bottlenecked in large part by a lack of efficient techniques
+    for handling memory access. We demonstrate a remarkably simple and efficient 2P
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: order_auctions_with_2026
+  title: Order Auctions with Private Position Preferences
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1580
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We study auctions where two positions are sold to unit-demand bidders with private heterogeneous order preferences:
+    some are specialists who value only the first position, while others are generalists'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: highperformance_fpga_accelerator_2026
+  title: High-Performance FPGA Accelerator for the Post-quantum Signature Scheme CROSS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1161
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In October 2024, the National Institute of Standards and Technology
+
+    announced the second round candidates of its standardization effort for additional post-quantum signatures. One of these
+    candidates '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: anchordkg_distributed_key_2026
+  title: 'Anchor-DKG: Distributed Key Generation with Repeating Parties'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1570
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A party may participate in multiple threshold cryptosystems. For example, it may serve on multiple overlapping
+    threshold committees in a proof-of-stake blockchain or a distributed oracle network, or a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: cake_requires_programming_2026
+  title: CAKE requires programming - On the provable post-quantum security of (O)CAKE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/458
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'We revisit the post-quantum security of Password-Authenticated Key Ex-
+
+    change (PAKE) from Key Encapsulation Mechanisms (KEM), focusing on (O)CAKE.
+
+    Despite extensive study, these protocols still lack a'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: solving_the_shortest_2026
+  title: Solving the Shortest Vector Problem in $2^{0.7314n+o(n)}$ Time via Discrete Gaussian Sampling on Superlattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1587
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We give a classical randomized algorithm for the exact Euclidean Shortest Vector Problem (SVP) on arbitrary full-rank
+    lattices.  It runs in $2^{0.7314n+o(n)}$ time and$2^{n/2+o(n)}$ space.  More preci
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: perturbation_of_hankel_2026
+  title: 'Perturbation of Hankel moment singular values and supersingular endomorphism rings via CVP: a $p$-adic super-resolution
+    law and a fully computed pipeline'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1586
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'We give two rigorous results in post-quantum algebra with a $p$-adic strengthening and a complete reproducible
+    pipeline. Part I proves an explicit sufficient noise bound under which the Hankel matrix '
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: proving_threshold_regev_2026
+  title: 'Proving Threshold Regev PKE from Adaptive Hint-MLWE: Efficient, Non-interactive, and CCA Secure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1585
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Threshold public-key encryption (tPKE) has recently attracted renewed
+
+    interest, largely due to NIST''s call for Multi-Party Threshold Cryptography. While classical tPKE has approached a high
+    state of m'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: beyond_affine_invariants_2026
+  title: 'Beyond Affine Invariants: A Hamming-Weight Correlation Metric for Template-CPA Leakage in Key-Dependent S-boxes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1584
+  directions:
+  - sbox
+  - invariant
+  - permutation_layer
+  - differential
+  - boomerang
+  ciphers: []
+  significance: medium
+  summary: Classical selection criteria for cryptographic S-boxes—nonlinearity $\mathrm{NL}$, differential uniformity $\delta$,
+    boomerang uniformity $\beta_{\mathrm{B}}$, algebraic degree $\deg$—are invariants o
+  status: pending_review
+  matched_keywords:
+  - differential
+  - boomerang
+  - invariant
+  - S-box
+  - permutation
+  - AES
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: a_unified_treatment_2026_1
+  title: 'A Unified Treatment of Reachability and Indistinguishability Properties: First-Order Logic with Overwhelming Truth'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/143
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In the formal verification of complexity-theoretic properties of cryptography, researchers have traditionally attempted
+    to capture ``overwhelming truth'' (satisfaction with all but negligible probabil
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: privacypreserving_inclusion_lists_2026
+  title: Privacy-Preserving Inclusion Lists
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1582
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Blockchains aim to provide open access and censorship resistance, but centralization of block production in blockchains
+    like Ethereum undermines these goals. Inclusion List (IL) protocols mitigate thi
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: postquantum_internet_key_2026
+  title: Post-Quantum Internet Key Exchange via Authenticated Forward-Secure KEM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1581
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'In this work, we present a new framework for signature-free, post-quantum secure authenticated key exchange (AKE)
+    that simultaneously satisfies:
+
+    (1) exchanging at most two standard ciphertexts of a ke'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: slipway_accessing_finite_2026
+  title: 'Slipway: Accessing Finite Subspace Trails in Poseidon'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1579
+  directions:
+  - milp_sat_cp
+  - sbox
+  - invariant
+  - permutation_layer
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'Poseidon is an algebraic permutation designed for efficient use in proof
+
+    systems.  Its nonlinear layer consists of power-map S-boxes.  In a full
+
+    round, the S-box is applied to every state coordinate; '
+  status: pending_review
+  matched_keywords:
+  - subspace trail
+  - SAT
+  - S-box
+  - permutation
+  - MDS
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: openllm_modular_and_2026
+  title: 'OpenLLM: Modular and Scalable zkSNARKs for Verifiable LLM  Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1578
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Large language model (LLM) is increasingly deployed as a remote service, where users rely on third-party servers
+    to perform computation. However, such settings introduce critical integrity concerns, a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: sonic_concurrent_oblivious_2026
+  title: 'SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1577
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: Relying solely on encryption for privacy-preserving computations is prone to leakage-abuse/access-pattern attacks.
+    TEEs, while cost-effective, are also vulnerable to side-channel attacks. Oblivious pr
+  status: pending_review
+  matched_keywords:
+  - low latency
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: a_systematic_literature_2026
+  title: A Systematic Literature Review on Optimising CRYSTALS-Dilithium (ML-DSA) Performance for IoT Devices via Lightweight
+    Hashing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1576
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Background: The migration to post-quantum cryptography confronts resource-constrained Internet of Things (IoT)
+    devices with a material performance cost. CRYSTALS-Dilithium, standardised as the Module-'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - Ascon
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: solving_the_supersingular_2026
+  title: Solving the supersingular isogeny problem in time $p^{2/5+o(1)}$ using bivariate multipoint evaluation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1575
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This note presents a new unconditional attack on the supersingular isogeny problem, with time and memory complexity
+    $p^{2/5+o(1)}$. It builds on the approach by Eisenträger-Hallgren-Leonardi-Morrison-
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: privacypreserving_multisignatures_achieving_2026
+  title: 'Privacy-Preserving Multi-Signatures: Achieving Transcript-Aware Privacy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1574
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-signatures with key aggregation provide compact signatures verifiable under a single aggregated public key,
+    but protect signer privacy only when public keys are used in a one-time manner. To add
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: the_nonintersecting_codewords_2026
+  title: The Non-Intersecting Codewords Problem and its Application to MPC-in-the-Head Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1573
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Since McEliece introduced the first code-based encryption scheme in 1978, most code-based cryptographic constructions
+    have relied on hard problems related to decoding random linear codes (or variants '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: sharmony_composing_sha2_2026
+  title: 'SHARMONY: Composing SHA-2 and SHA-3 Hardware for Crypto-Agile PQC'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1572
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Inspired by the concept of harmony, this work composes SHA-2 and SHA-3 into a unified hardware architecture, bringing
+    them together as a single, efficient cryptographic ensemble. This need is driven i
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: lamp_linear_verification_2026
+  title: 'LAMP: Linear Verification of Matrix Multiplication via Proximity Testing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1571
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization
+    of a \(k \times k\) product requires \(\mathcal{O}(k^3)\) constraints. Fre
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: antichain_winternitz_guaranteed_2026
+  title: 'Antichain Winternitz: Guaranteed Garbled-Circuit Label Revelation on Bitcoin with Permissionless Recovery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1568
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Trust-minimized bridges on Bitcoin move SNARK verification off chain by evaluating the verifier as a garbled circuit.
+    The bridge''s on-chain spending condition obliges the Garbler to reveal the labels '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: zero_knowledge_barcode_2026
+  title: Zero Knowledge Barcode Decoding with Application to Private Online Attribute Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1567
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Online attribute checking (e.g. proving age, residency) is increasingly common, yet standard implementations reveal
+    far more personal information than necessary (e.g. all ID contents). Privacy-preserv
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: on_the_security_2026_4
+  title: On the Security of Rotational (Non-)linearity in Sbox
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1566
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recently, zero-knowledge proof protocols have gained much popularity due to the adoption in blockchain applications,
+    e.g., zero-knowledge virtual machines. However, using the current standardized hash
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: how_to_back_2026
+  title: How to Back Up High-Value Secret Keys
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1565
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Consider a cryptocurrency exchange that secures the bulk of its reserves under a small set of keys, each of which
+    is only used to transfer cryptocurrency once a year; or the backup codes for an accoun
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: splitting_bilinear_groups_2026
+  title: 'Splitting Bilinear Groups: New Translations from Composite- to Prime-Order with Applications to Batch Arguments
+    for NP'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1564
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Bilinear groups, also known as pairing groups, are a versatile tool that enables many efficient cryptographic constructions.
+    Among bilinear groups, those with a composite order (N = p · q for two larg
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: a_generalized_framework_2026
+  title: A Generalized Framework for Conditional Linear Cryptanalysis and Its Application to AES-Like Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1563
+  directions:
+  - milp_sat_cp
+  - linear
+  ciphers: []
+  significance: medium
+  summary: Conditional linear cryptanalysis represents an extension of linear cryptanalysis and has been applied to DES and
+    AES. Notably, it enables the construction of a linear distinguisher for 4-round AES, wh
+  status: pending_review
+  matched_keywords:
+  - linear cryptanalysis
+  - MILP
+  - AES
+  - PRESENT
+  - SKINNY
+  - Midori
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: power_analysis_and_2026
+  title: Power Analysis and Countermeasures on the MiMC Block Cipher
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1562
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Modern zero-knowledge (ZK), fully homomorphic encryption (FHE) and Multi-party Computation (MPC) protocols have
+    motivated research interest in Arithmetization-Oriented (AO) cryptographic primitives. T
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: deepbrake_efficient_rowwise_2026
+  title: 'DeepBrake: Efficient Row-Wise Reed-Solomon Commitments for Arbitrary Points'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1561
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Brakedown (CRYPTO 2023) is a transparent polynomial commitment scheme with fast proving.
+
+    Its reliance on codes with small minimum distance forces the protocol to sample more columns to achieve soundne'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: revisiting_shamir_secret_2026
+  title: Revisiting Shamir Secret Sharing for Threshold Fully Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1559
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent advances in lattice-based threshold cryptography, including threshold fully homomorphic encryption (ThFHE)
+    and threshold public key encryption (ThPKE), commonly employ Shamir secret sharing ove
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: verifiable_outsourced_bte_2026
+  title: 'Verifiable Outsourced BTE with Silent Setup: Achieving Constant-Rate Batched Delegation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1558
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Batched threshold encryption (BTE) is a novel public-key paradigm in which, once a batch of $B$ ciphertexts is
+    designated, a decrypter evaluates them using decryption key shares generated by decryptio
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: certified_in_theory_2026
+  title: 'Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1557
+  directions:
+  - ml_aided
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Privacy-preserving machine learning auditing protocols allow auditors to assess models for properties such as
+    accuracy or fairness, without revealing their internals or training data. This makes them '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: breaking_the_beyondbirthdaybound_2026
+  title: Breaking the Beyond-Birthday-Bound Security of ${\sharp}\textrm{Pencil}$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1556
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ${\sharp}\textrm{Pencil}$ is a domain-extended pseudorandom function by Bhaumik et al, accepted at CRYPTO 2026,
+    with a claim that it achieves close to $n$-bit security beyond the birthday bound. It is
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: on_the_hardness_2026
+  title: On the Hardness of some Vandermonde Knapsack problems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1554
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The Vandermonde Knapsack problem comprises a family of algebraic variants of the Knapsack problem. This includes
+    the Partial Vandermonde $(\mathsf{PV})$ Knapsack problem (DCC’15, ACNS’14, ACISP’18, DC
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: amortized_multiverifier_proofs_2026
+  title: Amortized Multi-Verifier Proofs from Reductions of Knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1553
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We study amortization of prover work in the multi-verifier setting, motivated
+
+    by proof-as-a-service deployments in which a shared prover serves $K$
+
+    independent clients holding distinct statements. Eac'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: borg_extendable_distributed_2026
+  title: 'BORG: Extendable Distributed Vector Commitments from Reconfigurable Erasure Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1552
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Updatable vector commitments let users store and authenticate values contained within an evolving data vector.
+    Existing work on updatable vector commitments studies how clients can store only the valu
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: finegrained_and_runtimeconfigurable_2026
+  title: Fine-Grained and Runtime-Configurable Precision for Exact FHE Inference
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1551
+  directions:
+  - ml_aided
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Privacy-preserving machine learning under fully homomorphic encryption (FHE) faces a structural limitation: numerical
+    precision is bound to cryptographic parameters and key material, forcing precision'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: algorithms_for_sparse_2026
+  title: Algorithms for Sparse LWE and LPN with Small Secrets
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1550
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present new sample-runtime tradeoffs for the decisional sparse Learning With Errors (LWE) and sparse Learning
+    Parity with Noise (LPN) problems over $\mathbb{Z}_q$, specifically in regimes where the
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: the_crossratio_property_2026
+  title: The Cross-ratio Property and Its Use for Cryptanalysis of Round-reduced AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1549
+  directions:
+  - sbox
+  - algebraic
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this work, we propose three techniques for advancing cryptanalysis of round-reduced AES, two of which exploit
+    the multiplicative inverse, and a third, structural, property that generalizes the S-bo
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - meet-in-the-middle
+  - S-box
+  - AES
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: silent_distributed_cryptography_2026
+  title: Silent Distributed Cryptography for DNFs and Threshold Policies from Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1547
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We study two central problems in threshold cryptography from lattices: (1)~threshold encryption with silent setup
+    for general thresholds $t \geq 2$, where no post-quantum constructions were previously'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: zeroknowledge_proofs_of_2026_1
+  title: Zero-Knowledge Proofs of Isogeny Diamonds
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1545
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Commutative diagrams of isogenies between supersingular elliptic curves, which are called isogeny diamonds, have
+    become fundamental to isogeny-based cryptography for both constructive and cryptanalyti
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: sok_confidential_transformer_2026
+  title: 'SoK: Confidential Transformer Inference and Retrieval-Augmented Generation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1544
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Running Transformer inference and retrieval-augmented generation (RAG) over confidential data forces a choice:
+    either expose prompts and documents to a cloud operator, or keep the data on-premises, wh'
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: efficient_private_filtering_2026
+  title: Efficient Private Filtering and Aggregation for Weighted Set Intersection via Oblivious Encrypted Weight Transfer
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1543
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Set Intersection (PSI) enables parties to compute the intersection of their input item sets while preserving
+    privacy. In many real-world applications, however, each item is accompanied by a se
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: passive_fullkey_recovery_2026
+  title: Passive Full-Key Recovery for the MQOM v2 Lineage from Saltless Root Expansion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1542
+  directions:
+  - related_key
+  ciphers: []
+  significance: medium
+  summary: MQOM v2 derives every correlated-GGM root from a fresh \(\lambda\)-bit master seed using a fixed PRG call with
+    zero salt. A public opening reveals either the corresponding root or its XOR with a fixed
+  status: pending_review
+  matched_keywords:
+  - related key
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: batched_oblivious_transfer_2026
+  title: Batched Oblivious Transfer with Square-Root Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1541
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Oblivious Transfer (OT) is a fundamental cryptographic primitive and a core building block for many multiparty
+    cryptographic protocols. While existing OT extension techniques achieve excellent asympto
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-04'
+  source: eprint
+- id: latticebased_shuffle_arguments_2026
+  title: Lattice-Based Shuffle Arguments using Subset Checking
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1540
+  directions:
+  - meet_in_the_middle
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Shuffle arguments are a fundamental building block in mix-nets and related privacy-preserving systems, where they
+    are used to prove that a set of ciphertexts or commitments is a permutation and rerand
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-04'
+  source: eprint
