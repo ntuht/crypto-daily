@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-04</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-04</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-04</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-04 03:23</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 110 篇 → 启发式 77 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Generalized Framework for Conditional Linear Cryptanalysis and Its Application to AES-Like Ciphers](https://eprint.iacr.org/2026/1563)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1563.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：条件线性密码分析作为线性密码分析的扩展，已成功应用于DES和AES等密码算法的安全性评估。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本论文提出了一个针对条件线性密码分析的广义框架，并将其应用于AES类密码。该框架能够系统地构建线性区分器，例如为4轮AES提供了一个有效的线性区分器，从而揭示了算法的潜在弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为评估AES类密码的安全性提供了新的分析工具和更深入的理解，有助于未来密码算法的设计与改进。</p>
+
+<hr>
+
+<h3>2. [The Cross-ratio Property and Its Use for Cryptanalysis of Round-reduced AES](https://eprint.iacr.org/2026/1549)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1549.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：针对轮数缩减的AES进行密码分析是评估其整体安全性和理解其内部结构弱点的关键研究方向。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了三种新颖的技术来推进轮数缩减AES的密码分析，其中两种利用了乘法逆元特性，第三种则是一种结构性性质，即推广了S盒的交叉比（Cross-ratio）特性。这些技术旨在发现AES在减少轮数时的特定结构性弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这些新颖的密码分析方法加深了对AES内部结构弱点的理解，为未来密码算法的设计和安全性评估提供了宝贵的见解。</p>
+
+<hr>
+
+<h3>3. [Repeated Masks, Predictable Splices: Breaking AESpolyW and Its AE Applications](https://eprint.iacr.org/2026/1424)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1424.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：AESpolyW是一种新提出的宽块加密模式，旨在通过结合AES和多项式哈希来利用指令级并行性，以实现高吞吐量。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文揭示了AESpolyW的安全性缺陷，通过利用重复的掩码（repeated masks）和可预测的拼接（predictable splices）来构造攻击。尽管AESpolyW在吞吐量方面表现出色，但这些攻击表明其设计存在根本性的安全漏洞。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究强调了即使是为高性能设计的加密模式也可能存在严重的安全隐患，突出了在密码模式设计过程中进行严格安全分析的极端重要性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1461" target="_blank">The m=n+1 Boundary of EME: A Splicing Distinguisher for the Unrefreshed EME-Core Extension and Its Linear-Map Generalization</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1461.pdf)</p>
+
+<blockquote>
+<p>本文针对EME宽块加密模式在m=n+1边界处的安全性进行了分析，提出了一个拼接区分器，揭示了未刷新EME-Core扩展的潜在弱点。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1466" target="_blank">Scalable High-Throughput FPGA Architecture for SMAC Message Authentication Code</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1466.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种可扩展的高吞吐量FPGA架构，用于实现基于AES轮函数重复应用的SMAC消息认证码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1584" target="_blank">Beyond Affine Invariants: A Hamming-Weight Correlation Metric for Template-CPA Leakage in Key-Dependent S-boxes</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1584.pdf)</p>
+
+<blockquote>
+<p>本文超越了仿射不变量，提出了一种基于汉明权重相关性的度量方法，用于分析密钥相关S盒中模板-CPA侧信道泄漏。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1579" target="_blank">Slipway: Accessing Finite Subspace Trails in Poseidon</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1579.pdf)</p>
+
+<blockquote>
+<p>本文介绍了Slipway方法，用于在Poseidon置换中访问有限子空间轨迹，该置换的非线性层由幂映射S盒组成，常用于证明系统。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1393" target="_blank">On the Differential Uniformity of Polynomials over Galois Rings</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1393.pdf)</p>
+
+<blockquote>
+<p>本文研究了伽罗瓦环上多项式的差分均匀性，这对于设计基于伽罗瓦环扩展的哈希函数和伪随机置换具有重要意义。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1441" target="_blank">RainHash2.0: Hardware- and Arithmetization-friendly Hash Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1441.pdf)</p>
+
+<blockquote>
+<p>RainHash2.0是一种硬件友好且算术化友好的哈希函数，旨在满足零知识证明系统对高效哈希的需求。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1528" target="_blank">Revisiting Automated Quantum Periodic Distinguisher Construction</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1528.pdf)</p>
+
+<blockquote>
+<p>本文重新审视了自动化量子周期区分器构造方法，旨在克服在非线性层存在时，利用Simon算法检测密码函数中隐藏XOR周期的挑战。</p>
+</blockquote>
+
+<p><em>精选自 110 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
