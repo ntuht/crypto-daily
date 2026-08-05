@@ -29626,3 +29626,56 @@ papers:
   - LED
   fetched_date: '2026-08-04'
   source: eprint
+- id: beyond_incentive_compatibility_2026
+  title: 'Beyond Incentive Compatibility: Rational Harm-Proof Transaction Fee Mechanisms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2247
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: On a blockchain, users compete for scarce block space in an auction run by the miner to get their transactions
+    confirmed in the block. This auction is called transaction fee mechanism (TFM). Recent wo
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-05'
+  source: eprint
+- id: auntie_unobservable_contracts_2026
+  title: 'Auntie: Unobservable Contracts from Zerocash and Trusted Execution Environments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1965
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Privacy-oriented cryptocurrencies like Zerocash only support direct payments and not the execution of more complex
+    contracts. Bitcoin and Ethereum, on the other hand, cannot guarantee privacy, and usi
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-08-05'
+  source: eprint
+- id: embedded_elliptic_curves_2026
+  title: Embedded Elliptic Curves and Embedded Families for SNARK-Friendly Elliptic Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1737
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In 2021, Masson, Sanso, and Zhang introduced the Bandersnatch curve associated to the BLS12-381 pairing-friendly
+    curve, an elliptic curve designed for zero-knowledge proofs requiring circuits with a c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-05'
+  source: eprint
