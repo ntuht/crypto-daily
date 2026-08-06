@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-06</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-06</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-06</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-06 03:21</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 59 篇 → 启发式 58 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Reducing Multiplicative Complexity via Conjugate Cipher](https://eprint.iacr.org/2026/1365)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1365.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：乘法复杂度是衡量密码学实现效率的关键指标，尤其在侧信道安全实现和转密码等场景中具有重要意义。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本研究引入了一种通用的方法，通过利用“共轭密码”（Conjugate Cipher）来降低密码算法的乘法复杂度。该方法旨在将现有密码算法转换为等价的、但在特定计算模型下乘法操作更少的表示形式，从而优化其性能。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为提升密码算法在资源受限环境（如侧信道防护、同态加密）中的实现效率和安全性提供了新的技术途径。</p>
+
+<hr>
+
+<h3>2. [Hybrid hash function based on the DLP and SIS problems](https://eprint.iacr.org/2026/1459)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1459.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在密码学领域，存在一些结合不同数学难题的混合哈希函数，但其中一些“民间”方案缺乏详细的理论分析和具体参数的探讨。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：这篇短文深入探讨了一个结合离散对数问题（DLP）和短整数解问题（SIS）的混合哈希函数。它详细分析了该方案的构造原理、安全属性，并指出了在特定参数选择下如何满足预期的安全要求。</p>
+
+<p>🎯 <strong>意义</strong>：该研究有助于填补对这类混合哈希函数理解的空白，为未来设计和评估基于多重困难问题的密码原语提供了宝贵的见解。</p>
+
+<hr>
+
+<h3>3. [SM4th and uBlockith: VOLE-based Post-Quantum Signature Schemes from Chinese Block Ciphers](https://eprint.iacr.org/2026/1506)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1506.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：FAEST作为NIST后量子数字签名第三轮候选方案，基于VOLE-in-the-Head范式，其底层通常依赖于AES等标准分组密码。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本论文提出了SM4th和uBlockith，这是两个创新的后量子签名方案，它们同样基于VOLE-in-the-Head范式，但将底层的分组密码替换为中国的SM4和uBlock算法。这扩展了VOLE-in-the-Head框架的适用性，并可能涉及对这些国产密码算法在签名方案中性能和安全性的评估。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为中国分组密码在后量子签名领域提供了新的应用实例，有助于推动国产密码技术在国际后量子密码标准中的发展和兼容性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1572" target="_blank">SHARMONY: Composing SHA-2 and SHA-3 Hardware for Crypto-Agile PQC</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1572.pdf)</p>
+
+<blockquote>
+<p>SHARMONY提出了一种统一的硬件架构，将SHA-2和SHA-3哈希函数高效集成，旨在为密码敏捷的后量子密码（PQC）应用提供灵活支持。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1409" target="_blank">Accelerating FAEST Signing on GPU via Fused AES Constraint Generation and Batched Leaf Hashing</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1409.pdf)</p>
+
+<blockquote>
+<p>本文通过融合AES约束生成和批量叶哈希技术，利用GPU加速了FAEST对称密钥后量子数字签名方案的签名过程。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1446" target="_blank">Quantum Circuit Optimization with LLMs under a Structured Guideline</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1446.pdf)</p>
+
+<blockquote>
+<p>该研究提出在结构化指导下，利用大型语言模型（LLMs）优化量子电路，以更准确地评估密码算法的量子攻击成本。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1351" target="_blank">Hardware Private Cubic Circuits</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1351.pdf)</p>
+
+<blockquote>
+<p>本文关注如何设计硬件私有三次电路，以抵御侧信道攻击，保护密码硬件实现中的秘密信息。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1513" target="_blank">STEBR: A Timed-Erasure, Threshold-Gated Backup Ratchet</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1513.pdf)</p>
+
+<blockquote>
+<p>STEBR提出了一种定时擦除、阈值门控的备份棘轮机制，旨在为Signal协议提供更强的后妥协安全和前向保密性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1471" target="_blank">Efficient Single-Round Obfuscation of Search and Result Patterns in Searchable Encryption</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1471.pdf)</p>
+
+<blockquote>
+<p>该研究提出了一种高效的单轮混淆技术，用于在可搜索对称加密（SSE）中保护搜索模式和结果模式的隐私。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1485" target="_blank">From PQC to HHE: Reusing a Co-Design Platform for Side-Channel-Protected PASTA</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1485.pdf)</p>
+
+<blockquote>
+<p>本文探讨了如何重用一个协同设计平台，将侧信道保护的PASTA方案从后量子密码（PQC）扩展到混合同态加密（HHE）应用。</p>
+</blockquote>
+
+<p><em>精选自 59 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
