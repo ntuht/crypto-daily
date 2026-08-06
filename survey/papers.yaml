@@ -29679,3 +29679,20 @@ papers:
   - LED
   fetched_date: '2026-08-05'
   source: eprint
+- id: sok_research_motivations_2026
+  title: 'SoK: Research Motivations of Public-Key Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/715
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The design, proposal, and analysis of cryptographic primitives (schemes and protocols) is one of the primary research
+    fields in cryptology. To advance this research field, in this paper,  we systemati
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-06'
+  source: eprint
