@@ -29696,3 +29696,547 @@ papers:
   - PRESENT
   fetched_date: '2026-08-06'
   source: eprint
+- id: relect_single_secret_2026
+  title: 'Relect: Single Secret Leader Election via FHE with Reduced Computation and Communication and Transparent Setup'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1619
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In a single secret leader election (SSLE) protocol, all parties collectively and obliviously elect one leader.
+    Parties other than the selected leader should not be able to learn the identity of the le
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: zscape_zeroknowledge_selfcustodial_2026
+  title: 'Z-SCAPE: Zero-Knowledge Self-Custodial Credential Operation for Privacy-Preserving Asset Protection under Entropy-Source
+    Failure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1621
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Motivated by the 2026 COLDCARD incident, this paper studies cryptographic asset recovery after self-custodial seed-generation
+    failures. Self-custodial hardware wallets depend on secure entropy sources
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: code_generation_of_2026
+  title: Code Generation of Faster Formally Verified NTT with Plantard Reduction
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1624
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a formally verified implementation of the ML-KEM Number-Theoretic Transform (NTT) based on Plantard
+    arithmetic, produced via a code generator that targets ML-KEM, ML-DSA, and FN-DSA from a '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: secure_and_privacypreserving_2026
+  title: Secure and Privacy-preserving CBDC Offline Payments using a Secure Element
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1746
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Offline payments present an opportunity for central bank digital currency to address the lack of digital financial
+    inclusion plaguing existing digital payment solutions. However, the design of secure '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: subcubic_homomorphic_matrix_2026
+  title: Sub-Cubic Homomorphic Matrix Multiplication via Self-Dual Normal Bases
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1592
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This paper analyzes the bilinear embedding of matrix algebras into commutative cyclotomic rings. We apply the Cohn-Umans
+    method. This establishes that single-multiplication bilinear monomial embedding
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: triple_cryptanalysis_of_2026
+  title: Triple Cryptanalysis of Isogeny-Based VRFs from Asiacrypt 2025
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1623
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'Levin and Pedersen proposed at Asiacrypt2025 a new verifiable random function
+
+    (VRF) based on a CGL-analogue hash function constructed from radical
+
+    isogenies. Their construction applies the same secret'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: formal_security_analysis_2026
+  title: Formal Security Analysis of the Olvid Messenger
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1622
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We perform the first formal security analysis of the cryptographic core of Olvid, an end-to-end encrypted messaging
+    app notably used by French government officials, including ministers. Despite its de
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: verifiable_selfmix_2026
+  title: Verifiable SelfMix
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1617
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous communication systems aim to hide which user sent which message.
+
+    Existing designs span efficient mixnets that rely on at least one honest mix
+
+    server and decentralized protocols such as Dinin'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: flip_a_failure_2026
+  title: 'Flip a Failure into a Success: Improved Bit Flipping Decoding for QC-MDPC Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1616
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Quasi-Cyclic Moderate-Density Parity-Check (QC-MDPC) codes are a family of error correcting codes admitting parity-check
+    matrices composed of sparse circulant blocks. QC-MDPC codes have been used for '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: kord_breaking_the_2026
+  title: 'KORD: Breaking the Key-Generation Bottleneck in Dealerless Function Secret Sharing via Protocol–Hardware Co-Design'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1615
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Function secret sharing (FSS) has become a core primitive in privacy‑preserving computation. However, each FSS
+    invocation requires a fresh pair of function keys, typically produced by a trusted dealer
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: lfsrs_and_boolean_2026
+  title: 'LFSRs and Boolean Masking: An In-depth Security Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1614
+  directions:
+  - linear
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Masking is a widely adopted countermeasure to protect cryptographic implementations from side-channel attacks.
+    Subsequent research has focused on designing masking schemes and formally proving their s
+  status: pending_review
+  matched_keywords:
+  - linear cryptanalysis
+  - S-box
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: duetoram_twoserver_distributed_2026
+  title: 'DuetORAM: Two-Server Distributed ORAM with Constant Rounds and O(log N) Communication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1613
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Distributed Oblivious RAM (DORAM) is a promising building block for privacy-preserving cloud databases and outsourced
+    storage systems. However, existing two-server designs often rely on slow linear sc
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: private_identitybased_bulletin_2026
+  title: Private Identity-based Bulletin Boards for Anonymous Messaging and Other Online Services
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1611
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Secure and anonymous messaging has many compelling use-cases and is becoming increasingly \npopular. In this paper,\
+    \ we consider it in the context of \ndelay-and-disruption-prone networks, which are char"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: algorithmic_optimization_of_2026
+  title: Algorithmic Optimization of the Gaussian Sampler in the FN-DSA Post-Quantum Signature Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1610
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The post-quantum signature scheme Falcon (FN-DSA), currently being standardized by NIST as FIPS 206 (Initial Public
+    Draft submitted August 2025, final standard expected 2026-2027), relies on a discret
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: efficient_largeinteger_arithmetic_2026
+  title: Efficient Large-Integer Arithmetic for FHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1608
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) has emerged as one of the key technologies for privacy-preserving computation,
+    enabling arbitrary computation directly on encrypted data. Vectorized FHE schemes, suc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: verbeth_secure_messaging_2026
+  title: 'Verbeth: Secure Messaging with Metadata Minimization over Public Blockchain Logs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1606
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This work presents a private instant messaging protocol that leverages the public log layer of blockchains as the
+    message transport layer, while the cryptographic state is kept only by client applicat
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: uc_categorically_rigorous_2026
+  title: 'UC, Categorically: Rigorous Diagrammatic Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1605
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Category theory is a mathematical theory of composition, widely used in logic, computing, and physics. Here we
+    apply it to give a theory of secure composition. In particular, we provide a categorical '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: algebraic_analysis_of_2026
+  title: Algebraic Analysis of Homomorphic Trace Evaluation and Its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1604
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Field trace evaluation has emerged as a powerful tool in fully homomorphic encryption, with broad applications
+    ranging from bootstrapping algorithms to privacy-preserving protocols. Recent advances ha
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: design_and_analysis_2026
+  title: Design and Analysis of Quantum Designated Verifier Signature Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1603
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Designated Verifier Signatures (DVS) are an important variant of digital signatures that ensure only a specified
+    verifier can validate a signature, while preserving non-transferability. With the adven
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: new_designs_of_2026
+  title: New Designs of Multivariate-Polynomial Universal Hash Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1602
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Universal hash functions (UHFs) are basic building blocks in cryptography, making the topic of designing secure,
+    fast UHFs of longstanding interest. This paper presents an exploration of the design sp
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: power_sidechannel_leakage_2026
+  title: Power side-channel leakage distinguishers on LESSv2.0 - Exploiting sparse columns in Gaussian Elimination
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1601
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the first passive side-channel distinguisher on LESSv2.0, a second-round candidate in NIST’s call for
+    additional post-quantum digital signature schemes. We target the Gaussian elimination a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: paras_actively_secure_2026
+  title: 'Paras: Actively Secure Two-Server Private Histograms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1600
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private histogram computation is a fundamental building block for many data analytics tasks, enabling frequency
+    analysis without revealing individual inputs. Existing protocols achieving robustness ag
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: one_discrete_gaussian_2026
+  title: One Discrete Gaussian Sample in $2^{n/2+o(n)}$ Time
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1599
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Aggarwal, Dadush, Regev, and Stephens-Davidowitz (ADRS; STOC 2015) sample $2^{n/2}$ discrete Gaussians at an arbitrary
+    parameter in $2^{n+o(n)}$ time, and above smoothing in $2^{n/2+o(n)}$ time. They '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: zkcinema_proving_video_2026
+  title: 'zk-Cinema: Proving Video Provenance in Zero Knowledge'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1598
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Video provenance is an important problem on the modern internet.
+
+    In response, the Coalition for Content Provenance and Authenticity
+
+    (C2PA) has developed a standard for verifying video and image
+
+    proven'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: solving_the_shortest_2026_1
+  title: Solving the Shortest Vector Problem in $2^{0.6039n}$ Time via Mid-point Hessian
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1597
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present randomized algorithms for the shortest vector problem (SVP). For the $n$-dimensional lattice $\mathcal
+    L$, our algorithms solve SVP in time $2^{0.6039n+o(n)}$ classically and $2^{0.5411n+o(
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: baker_a_privacypreserving_2026
+  title: 'Baker: A Privacy-Preserving, NIZK-free and Efficient Payment Channel Hub Supporting Bidirectional Channels'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1596
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Payment Channel Hub (PCH) improves blockchain scalability by enabling off-chain transactions via an untrusted intermediary
+    known as the tumbler. However, existing PCHs either fail to guarantee the unl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: budget_allocation_in_2026
+  title: Budget Allocation in Neural Differential Distinguishers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1595
+  directions:
+  - differential
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Neural differential distinguishers are usually compared at a fixed number of labeled samples. However, different
+    input representations may require different numbers of ciphertexts per sample, making f
+  status: pending_review
+  matched_keywords:
+  - differential
+  - neural distinguisher
+  - GIFT
+  - PRESENT
+  - SPECK
+  - RECTANGLE
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: breaking_adpbased_witness_2026
+  title: Breaking ADP-Based Witness Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1594
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Witness encryption (WE) allows one party to encrypt a message under an arbitrary satisfiable circuit, so that anyone
+    holding a satisfying input can decrypt. Efficient WE enables numerous modern applic
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: a_polynomialtime_quantum_2026
+  title: A Polynomial-Time Quantum Algorithm for the Dihedral Coset Problem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1591
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a polynomial-time quantum algorithm for the Dihedral Coset Problem (DCP).  The algorithm is based on
+    Regev''s polynomial-time reduction of the Dihedral Subgroup Problem (DSP) to the modular '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
+- id: the_role_of_2026
+  title: The Role of Regular Integers Modulo n in RSA Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1589
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We investigate a multi-prime multi-power generalization of the RSA cryptosystem for arbitrary moduli $n>1$, which
+    under reasonable cryptographic assumptions works correctly for almost all messages $m<
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-07'
+  source: eprint
