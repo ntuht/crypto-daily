@@ -30240,3 +30240,23 @@ papers:
   - PRESENT
   fetched_date: '2026-08-07'
   source: eprint
+- id: aesbased_grinding_for_2026
+  title: AES-Based Grinding for MPC-in-the-Head Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1625
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Grinding is a technique which introduces a proof of work into the Fiat-Shamir transform: by constraining the challenge
+    to satisfy a $w$-bit condition, forging a proof requires about $2^w/\varepsilon$ '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - block cipher
+  - AES
+  fetched_date: '2026-08-08'
+  source: eprint
