@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-09</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-09</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-09</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-09 02:15</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 31 篇 → 启发式 30 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [DeepBrake: Efficient Row-Wise Reed-Solomon Commitments for Arbitrary Points](https://eprint.iacr.org/2026/1561)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/1561.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Brakedown (CRYPTO 2023) 是一种透明且证明速度快的多项式承诺方案，但其依赖小最小距离编码，导致需要采样更多列才能保证安全性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：DeepBrake旨在解决Brakedown的效率问题，通过引入高效的行级Reed-Solomon承诺，优化了在任意点上的承诺生成和验证过程。它可能通过改进编码方式或采样策略，在保持透明性和证明速度的同时，减少了所需列数，从而提升了整体效率。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为构建更高效、更实用的透明多项式承诺方案提供了新的思路和技术，对零知识证明系统等应用具有重要意义。</p>
+
+<hr>
+
+<h3>2. [BORG: Extendable Distributed Vector Commitments from Reconfigurable Erasure Codes](https://eprint.iacr.org/2026/1552)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/1552.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：可更新向量承诺允许用户存储和认证不断演变的数据向量中的值，但现有方案在客户端存储和认证方面可能存在扩展性和效率局限。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：BORG提出了一种基于可重构擦除码的可扩展分布式向量承诺方案。该方案旨在解决现有可更新向量承诺在分布式环境下的挑战，通过利用擦除码的特性，实现了高效的数据更新、验证和分布式存储，并支持灵活的配置和扩展。</p>
+
+<p>🎯 <strong>意义</strong>：BORG为构建大规模、动态且高效的分布式数据认证系统提供了新的范式，对区块链、去中心化存储和隐私保护应用具有潜在价值。</p>
+
+<hr>
+
+<h3>3. [SoK: Hash-Based Polynomial Commitments and Low-Degree Tests: From FRI to Basefold, STIR, and WHIR](https://eprint.iacr.org/2026/1367)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/1367.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：基于哈希的低度测试和多项式承诺方案已成为许多简洁论证系统（如零知识证明）的核心密码学组件，与基于配对的方案有所不同。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：这篇SoK（Systematization of Knowledge）论文系统地回顾和分析了从FRI到Basefold、STIR和WHIR等一系列基于哈希的多项式承诺方案和低度测试技术。它旨在梳理这些方案的设计原理、性能特点、安全假设以及它们在实际应用中的优缺点，提供了一个全面的技术概览和比较分析。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为研究人员和开发者提供了关于基于哈希的多项式承诺和低度测试的宝贵资源，有助于理解该领域的最新进展，并指导未来简洁论证系统的设计和优化。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/284" target="_blank">Knowledge Soundness of Polynomial Commitments in the Algebraic Group Model Does Not Guarantee Extractability</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/284.pdf)</p>
+
+<blockquote>
+<p>本文指出，在代数群模型（AGM）下，多项式承诺的知识可靠性并不必然意味着其可提取性，揭示了AGM分析框架的一个重要局限性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1528" target="_blank">Trustless Delegation of Vector Commitment Construction in Resource-Constrained Settings</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1528.pdf)</p>
+
+<blockquote>
+<p>本文研究了在资源受限设备中，如何实现向量承诺构建的无信任委托，以确保数据完整性和顺序性，同时减轻客户端计算负担。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1489" target="_blank">SwitchFold: Code-Agnostic Succinct Polynomial Commitments via Recursive Code Switching</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1489.pdf)</p>
+
+<blockquote>
+<p>SwitchFold提出了一种与编码无关的简洁多项式承诺方案，通过递归编码切换技术，旨在最小化证明者时间并保持多对数级的证明大小。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1514" target="_blank">Distributed Vector Commitments and Their Applications</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1514.pdf)</p>
+
+<blockquote>
+<p>本文探讨了分布式向量承诺方案，旨在解决现有向量承诺在分布式环境中的局限性，并讨论了其在各种应用中的潜力。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1557" target="_blank">Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1557.pdf)</p>
+
+<blockquote>
+<p>本文揭示了隐私保护机器学习审计协议中，理论认证与实际攻击之间存在的假设鸿沟，强调了在密码模型认证中需关注的实践问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1484" target="_blank">The SecureDrop Protocol: End-to-End Encrypted Whistleblowing for All</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1484.pdf)</p>
+
+<blockquote>
+<p>SecureDrop协议提供了一个端到端加密的举报系统，旨在为调查性新闻提供机密信源，确保举报人的安全和匿名性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1493" target="_blank">Bob DyLean: A Framework for the Symbolic Analysis of Cryptographic Protocols in Lean</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1493.pdf)</p>
+
+<blockquote>
+<p>Bob DyLean是一个在Lean定理证明器中进行密码协议符号（Dolev-Yao）分析的框架，旨在有效分析和建立协议的强大安全性。</p>
+</blockquote>
+
+<p><em>精选自 31 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
