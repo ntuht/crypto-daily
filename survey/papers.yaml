@@ -30260,3 +30260,20 @@ papers:
   - AES
   fetched_date: '2026-08-08'
   source: eprint
+- id: bitvm_quasituring_complete_2026
+  title: 'BitVM: Quasi-Turing Complete Computation on Bitcoin'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1995
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A long-standing question in the blockchain community is which class of computations are efficiently expressible
+    in cryptocurrencies with limited scripting languages, such as Bitcoin Script. Such langu
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-09'
+  source: eprint
