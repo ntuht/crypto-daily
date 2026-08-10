@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 1671 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 1678 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,7 +40,7 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1462)
+- **2026**: █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (1469)
 
 ## 算法设计
 
@@ -219,7 +219,7 @@
 - 🟡 **2009** — KATAN and KTANTAN — A Family of Small and Efficient Hardware-Oriented Block Ciphers [KATAN, KTANTAN]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### 置换层 (90 篇)
+### 置换层 (91 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Cryptanalysis of Poseidon-Based Fiat-Shamir Protocols
@@ -307,6 +307,7 @@
 - 🟡 **2026** — SHARMONY: Composing SHA-2 and SHA-3 Hardware for Crypto-Agile PQC
 - 🟡 **2026** — Lattice-Based Shuffle Arguments using Subset Checking
 - 🟡 **2026** — Verifiable SelfMix
+- 🟡 **2026** — Structural Tightness of Quadratic Multi-Query Bounds for Universal Hashing: Applications to Accordion Modes
 - 🟡 **2017** — Bit Permutation Based Ciphers and their Design Rationale [GIFT, PRESENT]
 - 🔴 **2017** — GIFT: A Small Present [GIFT]
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
@@ -663,7 +664,7 @@
 
 ## 算法分析
 
-### 差分分析 (867 篇)
+### 差分分析 (873 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -1470,6 +1471,12 @@
 - 🟡 **2026** — A Polynomial-Time Quantum Algorithm for the Dihedral Coset Problem
 - 🟡 **2026** — The Role of Regular Integers Modulo n in RSA Cryptography
 - 🟡 **2026** — BitVM: Quasi-Turing Complete Computation on Bitcoin
+- 🟡 **2026** — Preprocessed Private Function Evaluation: Achieving Sublinear Online Complexity for Lookup Tables
+- 🟡 **2026** — Quasipolynomial Cryptanalysis of the  McEliece Cryptosystem (or: PIR Meets McEliece)
+- 🟡 **2026** — When Does Being Selfish Pay Off? Temporal Composability and Profitability in Selfish Mining
+- 🟡 **2026** — Lattice-based Signature Schemes for Bitcoin
+- 🟡 **2026** — Adaptively Secure Threshold Decryption from LWE with Polynomial Modulus
+- 🟡 **2026** — Adaptive-Input-Secure Updatable Private Set Union
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -2083,7 +2090,7 @@
 - 🔴 **2021** — A Deeper Look at Machine Learning-Based Cryptanalysis [SPECK]
 - 🔴 **2019** — Improving Attacks on Round-Reduced Speck32/64 Using Deep Learning [SPECK]
 
-### 不变量与子空间 (43 篇)
+### 不变量与子空间 (44 篇)
 
 - 🟡 **2026** — Investigating the Wedge Map on SNOVA
 - 🟡 **2026** — Debt-Aware Bonding Curves: Non-Decreasing Floor Prices and Non-Liquidatable Borrowing
@@ -2125,6 +2132,7 @@
 - 🟡 **2026** — Beyond Affine Invariants: A Hamming-Weight Correlation Metric for Template-CPA Leakage in Key-Dependent S-boxes
 - 🟡 **2026** — Slipway: Accessing Finite Subspace Trails in Poseidon
 - 🟡 **2026** — Triple Cryptanalysis of Isogeny-Based VRFs from Asiacrypt 2025
+- 🟡 **2026** — Structural Tightness of Quadratic Multi-Query Bounds for Universal Hashing: Applications to Accordion Modes
 - 🟡 **2017** — Subspace Trail Cryptanalysis and its Applications to AES [AES]
 - 🔴 **2016** — Nonlinear Invariant Attack: Practical Attack on Full SCREAM, iSCREAM, and Midori64 [SCREAM, iSCREAM, Midori]
 - 🔴 **2015** — Invariant Subspace Attack Against Full Midori64 [Midori]

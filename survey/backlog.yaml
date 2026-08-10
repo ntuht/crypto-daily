@@ -11,21 +11,7 @@ papers:
   summary: As Machine Learning as a Service expands, protecting client data has become a critical challenge. Homomorphic Encryption
     (HE) enables computation on encrypted data, but practical HE-based AI still suf
   heuristic_score: 18
-  added_date: '2026-08-09'
-  authors: []
-- id: sok_confidential_transformer_2026
-  title: 'SoK: Confidential Transformer Inference and Retrieval-Augmented Generation'
-  url: https://eprint.iacr.org/2026/1544
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - differential
-  directions:
-  - differential
-  summary: 'Running Transformer inference and retrieval-augmented generation (RAG) over confidential data forces a choice:
-    either expose prompts and documents to a cloud operator, or keep the data on-premises, wh'
-  heuristic_score: 11
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: noisette_certifying_differential_2026
   title: 'Noisette: Certifying Differential Privacy Mechanisms Efficiently'
@@ -39,7 +25,7 @@ papers:
   summary: Differential privacy (DP) has emerged as a rigorous framework for privacy-preserving data analysis, with widespread
     deployment in industry and government. Yet existing implementations typically assume
   heuristic_score: 11
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: secure_and_efficient_2026
   title: Secure and Efficient Federated Learning with Adaptive Differential Privacy and Verifiable Homomorphic Aggregation
@@ -53,7 +39,7 @@ papers:
   summary: Federated Learning (FL) enables collaborative model training without centralizing raw data, but remains vulnerable
     to gradient inference attacks, malicious aggregation servers, and communication ineff
   heuristic_score: 11
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: the_quantum_decoherence_2026
   title: 'The Quantum Decoherence Model: Everlasting Composable Secure Computation and More'
@@ -67,82 +53,7 @@ papers:
   summary: 'Quantum cryptography allows to achieve security goals which are unobtainable using classical cryptography alone:
     it offers the promise of everlasting privacy. Thatis, an adversary trying to attack a p'
   heuristic_score: 11
-  added_date: '2026-08-09'
-  authors: []
-- id: basefold_efficient_fieldagnostic_2026
-  title: 'BaseFold: Efficient Field-Agnostic Polynomial Commitment Schemes from Foldable Codes'
-  url: https://eprint.iacr.org/2023/1705
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: This works introduces Basefold, a new $\textit{field-agnostic}$ Polynomial Commitment Scheme (PCS) for multilinear
-    polynomials that has $O(\log^{2}(n))$ verifier costs and $O(n \log n)$ prover time. A
-  heuristic_score: 11
-  added_date: '2026-08-09'
-  authors: []
-- id: anonymous_communication_on_2026
-  title: Anonymous Communication on Expander Networks
-  url: https://eprint.iacr.org/2026/1404
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - differential
-  - LED
-  directions:
-  - differential
-  summary: Who is talking to whom? Consider a group of users who wish to communicate anonymously via a network of intermediate
-    relays. We study anonymous communication under two standard strong adversarial model
-  heuristic_score: 11
-  added_date: '2026-08-09'
-  authors: []
-- id: hacc_a_scalable_2026
-  title: 'HACC: A Scalable Hierarchical Accumulator with Sublinear Cost for Large Dynamic Sets'
-  url: https://eprint.iacr.org/2026/1407
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: Dynamic universal accumulators provide succinct set commitments for evolving datasets, but balancing efficiency
-    and scalability remains challenging. In particular, Bilinear Pairing (BP) accumulators o
-  heuristic_score: 11
-  added_date: '2026-08-09'
-  authors: []
-- id: celer_a_lookup_2026
-  title: 'Celer: A Lookup Argument for Large-Scale Queries'
-  url: https://eprint.iacr.org/2026/1453
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  directions:
-  - meet_in_the_middle
-  summary: "Lookup arguments are designed to prove that all elements in a query vector appear in a lookup table. \nThese arguments\
-    \ are critical for efficiently proving ZK-unfriendly statements, such as range check"
-  heuristic_score: 11
-  added_date: '2026-08-09'
-  authors: []
-- id: shuffling_is_not_2026
-  title: 'Shuffling is Not Enough: Breaking Permutation-Based Model Confidentiality in Hybrid FHE Inference'
-  url: https://eprint.iacr.org/2026/1527
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - differential
-  - invariant
-  - permutation
-  directions:
-  - invariant
-  - permutation_layer
-  - differential
-  summary: Hybrid fully homomorphic encryption (FHE) inference improves the practicality of private inference by letting the
-    server evaluate linear layers homomorphically while the client decrypts and applies no
-  heuristic_score: 8
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: lightweight_hardware_accelerator_2026
   title: Lightweight Hardware Accelerator for the UOV Signature Scheme with Oil Space Blinding
@@ -158,36 +69,7 @@ papers:
   summary: 'In reaction to the emerging quantum threat, the National Institute of Standards and Technology (NIST) seeks post-quantum
     secure digital signature schemes. NIST''s ongoing competition recently advanced '
   heuristic_score: 7
-  added_date: '2026-08-09'
-  authors: []
-- id: a_separation_principle_2026
-  title: 'A Separation Principle for Lookup-Based zkML: Activation-Function Structure Cannot Reduce Per-Lookup Proving Cost'
-  url: https://eprint.iacr.org/2026/1390
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  - LED
-  directions:
-  - ml_aided
-  summary: In zero-knowledge machine learning (zkML), the dominant cost is generating the proof, not running the model, and
-    it concentrates in the nonlinearities a transformer must evaluate inside the proof syst
-  heuristic_score: 6
-  added_date: '2026-08-09'
-  authors: []
-- id: scdt_scalable_constant_2026
-  title: 'SC-DT: Scalable Constant Round Secure Comparison and its Application to Privacy Decision Tree Evaluation'
-  url: https://eprint.iacr.org/2026/1389
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  directions:
-  - ml_aided
-  summary: Decision trees are widely used in machine learning due to their simplicity, efficiency, and interpretability. Numerous
-    private decision tree evaluation (PDTE) protocols based on secure multi-party com
-  heuristic_score: 6
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: chip_efficient_homomorphic_2026
   title: 'CHIP: Efficient Homomorphic Encryption-Based CNN Batch Inference Using Channel-Interleaved Packing with Small Rotation
@@ -202,7 +84,7 @@ papers:
   summary: As privacy concerns rise, numerous laws require machine learning-based applications to comply with stringent privacy
     regulations. While Homomorphic Encryption (HE) allows computation directly on encry
   heuristic_score: 6
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: sentraprivacypreserving_training_in_2026
   title: SENTRA:Privacy-Preserving Training in Outsourced Cloud Environments
@@ -216,7 +98,7 @@ papers:
   summary: Training machine learning models in untrusted clouds requires strong guarantees of confidentiality, integrity,
     and correctness, while remaining scalable and resilient to node churn. These challenges a
   heuristic_score: 6
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: optimal_distributed_monotonepolicy_2026
   title: Optimal Distributed Monotone-Policy Encryption for DNFs and More from Lattices
@@ -230,7 +112,7 @@ papers:
   summary: Distributed cryptography is a new cryptographic paradigm that enables fine-grained decryption capabilities in a
     trustless setting. In a distributed monotone-policy encryption scheme, users generate th
   heuristic_score: 6
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: an_attack_on_2026
   title: An Attack on High Rate McEliece Cryptosystems Using Generalized Reed Solomon Codes with Weight 2 Mask
@@ -244,7 +126,7 @@ papers:
   summary: Due to the insecurity of McEliece cryptosystems instantiated with Generalized Reed-Solomon codes, there have been
     several proposals of McEliece type systems that replace the permutation matrix by a ma
   heuristic_score: 6
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: auntie_unobservable_contracts_2026
   title: 'Auntie: Unobservable Contracts from Zerocash and Trusted Execution Environments'
@@ -258,22 +140,7 @@ papers:
   summary: Privacy-oriented cryptocurrencies like Zerocash only support direct payments and not the execution of more complex
     contracts. Bitcoin and Ethereum, on the other hand, cannot guarantee privacy, and usi
   heuristic_score: 5
-  added_date: '2026-08-09'
-  authors: []
-- id: smklhs_succinct_multi_2026
-  title: 'smklhs: Succinct Multi key Linearly Homomorphic Signatures for Certified Statistics'
-  url: https://eprint.iacr.org/2026/1370
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  summary: We study the problem of certifying statistical claims over datasets contributed by multiple independent sources.  In
-    this setting, an untrusted server aggregates signed data records and publishes clai
-  heuristic_score: 5
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []
 - id: a_cryptographic_perspective_2026
   title: A Cryptographic Perspective on California's Delete Request and Opt-out Platform
@@ -288,5 +155,5 @@ papers:
   summary: The California Consumer Privacy Act (CCPA) grants consumers the right to request deletion of personal data held
     by registered data brokers. California’s 2023 Delete Act provides a new mechanism throug
   heuristic_score: 5
-  added_date: '2026-08-09'
+  added_date: '2026-08-10'
   authors: []

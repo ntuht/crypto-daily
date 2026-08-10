@@ -30277,3 +30277,126 @@ papers:
   - PRESENT
   fetched_date: '2026-08-09'
   source: eprint
+- id: structural_tightness_of_2026
+  title: 'Structural Tightness of Quadratic Multi-Query Bounds for Universal Hashing: Applications to Accordion Modes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/314
+  directions:
+  - permutation_layer
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'Universal hashing gives a pairwise guarantee: for two distinct messages, the probability of any fixed keyed-hash
+    output difference is at most $\varepsilon$.  Summing over the $\binom q2$ query pairs g'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  - AES
+  fetched_date: '2026-08-10'
+  source: eprint
+- id: preprocessed_private_function_2026
+  title: 'Preprocessed Private Function Evaluation: Achieving Sublinear Online Complexity for Lookup Tables'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1631
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Function Evaluation (PFE) facilitates the secure computation of private functions on private inputs in
+    an oblivious manner, ensuring that both the function and the inputs remain confidential t
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-10'
+  source: eprint
+- id: quasipolynomial_cryptanalysis_of_2026
+  title: 'Quasipolynomial Cryptanalysis of the  McEliece Cryptosystem (or: PIR Meets McEliece)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1630
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The McEliece code-based cryptosystem, utilizing binary Goppa codes, is the earliest public-key encryption scheme
+    that is still considered post-quantum secure. We present a simple, classical quasipolyn
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-10'
+  source: eprint
+- id: when_does_being_2026
+  title: When Does Being Selfish Pay Off? Temporal Composability and Profitability in Selfish Mining
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1629
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Selfish mining undermines incentive compatibility of proof-of-work blockchains, letting a miner earn disproportionate
+    rewards at a hashrate lower than the majority threshold. A decade of work has aske
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-10'
+  source: eprint
+- id: latticebased_signature_schemes_2026
+  title: Lattice-based Signature Schemes for Bitcoin
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1628
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Lattice-based cryptography offers a promising direction for transitioning Bitcoin toward post-quantum security,
+    serving as a secure replacement for currently deployed discrete logarithm signatures. Th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-10'
+  source: eprint
+- id: adaptively_secure_threshold_2026
+  title: Adaptively Secure Threshold Decryption from LWE with Polynomial Modulus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1627
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold Decyption (TD) enables a set of decryptors, each holding a secret key share, to collaboratively decrypt
+    ciphertexts. Lots of TD schemes consider only CPA security under static corruptions, b
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-10'
+  source: eprint
+- id: adaptiveinputsecure_updatable_private_2026
+  title: Adaptive-Input-Secure Updatable Private Set Union
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1626
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In multi-epoch deployments, private set union~(PSU) operates in an adaptive-input loop: after observing the union
+    at epoch $t$, the receiver may choose its next input for epoch $t+1$. Liu et al.~(EURO'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-10'
+  source: eprint
