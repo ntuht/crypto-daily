@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-11</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-11</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-11</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-11 02:12</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 12 篇 → 启发式 11 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Cryptographic Perspective on California&#x27;s Delete Request and Opt-out Platform](https://eprint.iacr.org/2026/1421)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1421.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：消费者隐私法案（如CCPA）赋予用户删除个人数据的权利，但现有机制在实践中面临效率和隐私挑战，加州删除法案（Delete Act）旨在提供新的解决方案。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：这篇论文从密码学角度深入分析了加州删除法案提出的新数据删除机制，评估其在隐私保护和安全性方面的潜在风险与不足。研究可能提出基于密码学原语的改进方案，例如利用零知识证明或安全多方计算，以确保删除请求的真实性、不可否认性，并提高数据删除过程的透明度和效率。</p>
+
+<p>🎯 <strong>意义</strong>：该研究为如何利用密码学技术增强消费者数据删除请求的隐私保护和操作效率提供了新思路，对未来隐私法规的实施和技术支持具有重要的指导意义。</p>
+
+<hr>
+
+<h3>2. [Low-Latency Linear Transformations with Small Key Transmission for Private Neural Network on Homomorphic Encryption](https://eprint.iacr.org/2024/883)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 2/10 | [📎 PDF](https://eprint.iacr.org/2024/883.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着机器学习即服务（MLaaS）的普及，保护客户端数据隐私成为关键挑战，而同态加密（HE）虽能实现密文计算，但在实际AI应用中，尤其是在神经网络的线性变换方面，仍面临严重的性能瓶颈和密钥传输负担。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文旨在优化同态加密下神经网络中的线性变换，通过设计创新的低延迟方案，并显著减少密钥传输量，从而提高HE-based AI的实用性。这可能涉及新的数据编码策略、高效的密文矩阵乘法算法或优化的密钥管理机制，以适应神经网络的特定计算模式，降低计算和通信开销。</p>
+
+<p>🎯 <strong>意义</strong>：该工作对于推动同态加密在隐私保护机器学习领域的实际应用具有重要意义，尤其是在降低计算开销和通信成本方面，为构建高效安全的MLaaS系统奠定了基础。</p>
+
+<hr>
+
+<h3>3. [Noisette: Certifying Differential Privacy Mechanisms Efficiently](https://eprint.iacr.org/2026/074)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 2/10 | [📎 PDF](https://eprint.iacr.org/2026/074.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：差分隐私（DP）已成为一种广泛应用的严格隐私保护框架，但现有实现通常依赖于对底层机制正确性的假设，缺乏对其隐私保证的有效验证方法，导致实际部署中存在信任风险。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了“Noisette”框架，旨在高效地认证差分隐私机制的正确性，即验证其是否真正满足所声明的隐私级别。这可能通过形式化验证方法、自动证明工具或高效的运行时检查技术来实现，以确保DP机制的实际部署符合理论保证，并量化其隐私泄露风险。</p>
+
+<p>🎯 <strong>意义</strong>：该研究解决了差分隐私机制在实际部署中信任和验证的关键问题，对于提高DP系统的可靠性和安全性至关重要，有助于增强用户和监管机构对隐私保护技术的信心。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1376" target="_blank">Secure and Efficient Federated Learning with Adaptive Differential Privacy and Verifiable Homomorphic Aggregation</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1376.pdf)</p>
+
+<blockquote>
+<p>本文提出结合自适应差分隐私和可验证同态聚合，以实现联邦学习的安全高效训练，抵御梯度推断攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/220" target="_blank">The Quantum Decoherence Model: Everlasting Composable Secure Computation and More</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/220.pdf)</p>
+
+<blockquote>
+<p>涉及量子密码学</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1451" target="_blank">Lightweight Hardware Accelerator for the UOV Signature Scheme with Oil Space Blinding</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1451.pdf)</p>
+
+<blockquote>
+<p>为应对后量子威胁，本文设计了一种轻量级硬件加速器，用于实现采用油空间盲化技术的UOV后量子数字签名方案。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1399" target="_blank">CHIP: Efficient Homomorphic Encryption-Based CNN Batch Inference Using Channel-Interleaved Packing with Small Rotation Key Set</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1399.pdf)</p>
+
+<blockquote>
+<p>CHIP通过通道交错打包和小型旋转密钥集，显著提升了同态加密下CNN批量推理的效率，以满足隐私法规要求。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1443" target="_blank">SENTRA:Privacy-Preserving Training in Outsourced Cloud Environments</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1443.pdf)</p>
+
+<blockquote>
+<p>SENTRA提供在不可信云环境中进行机器学习模型训练的隐私保护方案，确保机密性、完整性和正确性，同时保持可扩展性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1464" target="_blank">Optimal Distributed Monotone-Policy Encryption for DNFs and More from Lattices</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1464.pdf)</p>
+
+<blockquote>
+<p>本文基于格理论构建了针对DNF及更复杂策略的最优分布式单调策略加密方案，实现细粒度去中心化解密。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1538" target="_blank">An Attack on High Rate McEliece Cryptosystems Using Generalized Reed Solomon Codes with Weight 2 Mask</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1538.pdf)</p>
+
+<blockquote>
+<p>本文提出一种针对使用带权2掩码的广义Reed-Solomon码的高速率McEliece密码系统的攻击方法。</p>
+</blockquote>
+
+<p><em>精选自 12 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
