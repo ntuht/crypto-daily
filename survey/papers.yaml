@@ -30400,3 +30400,20 @@ papers:
   - PRESENT
   fetched_date: '2026-08-10'
   source: eprint
+- id: inspire_communicationefficient_pir_2026
+  title: 'InsPIRe: Communication-Efficient PIR with Server-side Preprocessing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1352
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present InsPIRe that is the first private information retrieval (PIR) construction simultaneously obtaining
+    both high-throughput and low query communication while using silent preprocessing (meanin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-11'
+  source: eprint
