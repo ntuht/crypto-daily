@@ -30417,3 +30417,20 @@ papers:
   - PRESENT
   fetched_date: '2026-08-11'
   source: eprint
+- id: counters_and_nonces_2026
+  title: Counters and Nonces for Mitigating Ciphertext Side Channels
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1632
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent works have highlighted the risk of deterministic memory encryption, as used for example in AMD SEV. In the
+    so-called ciphertext side-channel attack, an adversary leaks sensitive information, su
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-12'
+  source: eprint
