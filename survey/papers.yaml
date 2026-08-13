@@ -30434,3 +30434,214 @@ papers:
   - LED
   fetched_date: '2026-08-12'
   source: eprint
+- id: the_grand_challenge_2026
+  title: 'The Grand Challenge of PQC Migration: Analysis of Modern Blockchain and Intertwined Human Egoisms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1626
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Since the invention of Bitcoin in 2008, blockchain technology has evolved from a simple decentralized ledger into
+    a complex, multi-functional financial system spanning multiple layers. Despite this ev
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: zero_knowledge_about_2026
+  title: 'Zero Knowledge (About) Encryption: A Comparative Security Analysis of Four Cloud-based Password Managers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/058
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Zero Knowledge Encryption is a term widely used by vendors of cloud-based password managers. Although it has no
+    strict technical meaning, the term conveys the idea that the server, who stores encrypte
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: lighthouse_singleserver_secure_2026
+  title: 'Lighthouse: Single-Server Secure Aggregation with O(1) Server-Committee Communication at Scale'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/346
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure aggregation is a core primitive for privacy-preserving federated learning, enabling a server to compute
+    aggregates of client updates without learning individual inputs. Recent protocols have ex
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: design_and_analysis_2026_1
+  title: Design and Analysis of Four-State Quantum Public-Key Encryption Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1641
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum public-key encryption (QPKE) is an important direction for secure communication in the presence of quantum
+    adversaries. In this paper, we analyze the four-state QPKE scheme of Liu et al. and s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: qlapoti_and_more_2026
+  title: 'Qlapoti+ and More: Optimizing Isogeny-based Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1640
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents several optimizations to Qlapoti (Asiacrypt'25), an ideal-finding procedure at the heart of
+    modern isogeny-based signature schemes. We apply these optimizations to the Qlapoti-base
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: luna_more_succinct_2026
+  title: 'LUNA+: More Succinct Post-Quantum ZK-SNARKs from Computational Privacy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1639
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We present LUNA+, a refinement of the LUNA designated-verifier lattice-based ZK-SNARG that achieves significantly
+    improved concrete succinctness. While the original LUNA scheme achieves quasi-optimal '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: multidiagonal_truncated_differentials_2026
+  title: Multi-Diagonal Truncated Differentials and Ciphertext-Only Attacks on Reduced-Round AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1637
+  directions:
+  - sbox
+  - linear_diffusion
+  - differential
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: We present the first ciphertext-only distinguishing attack on 5-round AES and a key-recovery attack on 6-round
+    AES for all key sizes under ASCII-encoded English-language plaintext distributions, as we
+  status: pending_review
+  matched_keywords:
+  - differential
+  - S-box
+  - MDS
+  - SPN
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: how_to_use_2026
+  title: 'How to use Polynomially-Hard iO: Turing Machine Obfuscation and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1636
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We revisit the notion of PViO [Jain-Jin, FOCS’22] – an indistinguishability obfuscation (iO) scheme for Turing
+    machines with unbounded input length that guarantees security for pairs of machines whose
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: limber_low_overhead_2026
+  title: 'Limber: Low Overhead SNARKs for Integers from Any PCS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1635
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Non-native arithmetic is a key bottleneck in SNARK design. It introduces large overheads, and application designers
+    often have to avoid it through the use of non-standard arithmetization friendly hash
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: mayo_lite_a_2026
+  title: 'MAYO Lite: a Low-RAM Implementation of the MAYO Signature Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1634
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'MAYO is a signature scheme based on the Unbalanced Oil and Vinegar
+
+    (UOV) construction and a third round candidate in the NIST standardization process
+
+    for additional post-quantum signature schemes. We '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-13'
+  source: eprint
+- id: rotationalquasidifferential_framework_a_2026
+  title: Rotational-Quasidifferential Framework - A Geometric Approach to Rotational-XOR Cryptanalysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1633
+  directions:
+  - differential
+  - boomerang
+  ciphers: []
+  significance: medium
+  summary: Rotational-XOR (RX) cryptanalysis extends rotational cryptanalysis by combining rotational relations with XOR translations,
+    enabling the analysis of symmetric-key primitives even in the presence of sy
+  status: pending_review
+  matched_keywords:
+  - differential
+  - rectangle attack
+  - PRESENT
+  - SIMON
+  - RECTANGLE
+  fetched_date: '2026-08-13'
+  source: eprint
