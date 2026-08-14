@@ -30645,3 +30645,57 @@ papers:
   - RECTANGLE
   fetched_date: '2026-08-13'
   source: eprint
+- id: recursive_common_information_2026
+  title: Recursive Common Information for Group-Characterizable Random Variables
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1644
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Common information (CI) is useful in entropy-based lower bounds for secret sharing. We study CI for group-characterizable
+    (GC) random variables. Building on the sufficient condition of Kaboli--Khazaei
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-14'
+  source: eprint
+- id: sok_encrypted_mempools_2026
+  title: 'SoK: Encrypted Mempools Through the MEV Lens'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1643
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: MEV and censorship, fuelled by public mempool visibility, remain existential threats to Ethereum and have recently
+    started to spread to its layer-two ecosystem. Encrypted mempools promise to conceal t
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-14'
+  source: eprint
+- id: a_torusstructured_generalisation_2026
+  title: 'A Torus-Structured Generalisation of NTRU: the NTC Assumption, its Cryptanalysis, and a Compact KEM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1642
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We introduce Noisy Torus Conjugation (NTC), a lattice assumption in which a short secret is confined to a non-split
+    maximal torus of $GL_k(R_q)$ and acts by conjugation on a uniform matrix, the result
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - SAT
+  fetched_date: '2026-08-14'
+  source: eprint
