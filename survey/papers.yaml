@@ -30699,3 +30699,74 @@ papers:
   - SAT
   fetched_date: '2026-08-14'
   source: eprint
+- id: fullyfluctuating_participation_in_2026
+  title: Fully-Fluctuating Participation in Sleepy Consensus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1455
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Proof-of-work allows Bitcoin to boast security amidst arbitrary fluctuations in participation of miners throughout
+    time, so long as, at any point in time, a majority of hash power is honest. In recent
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-15'
+  source: eprint
+- id: note_on_numbertheoretic_2026
+  title: Note on Number-Theoretic Transforms for Implementers -- Butterflies, Twisting, Incompleteness, and Good's Trick
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1546
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We develop (mostly) the radix-2 number-theoretic transform (NTT) and\n  its butterflies, the twisting trick and\
+    \ why it never changes the\n  transform, the freedom to use Cooley--Tukey butterflies in bot"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-15'
+  source: eprint
+- id: weakkey_classes_and_2026
+  title: Weak-Key Classes and Key Recovery in Key-Then-Hash Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/313
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Handschuh and Preneel define a weak-key class by “unexpected” security behavior and efficient detection of class
+    membership. Four families in their CRYPTO 2008 analysis, NH, NMH, WH, and Square Hash, '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-08-15'
+  source: eprint
+- id: finding_dense_submodules_2026
+  title: Finding Dense Submodules with Algebraic Lattice Reduction
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/844
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: "We prove an algebraic analogue of Pataki-Tural lemma (Pataki-Tural, arXiv:0804.4014, 2008) -- the main tool in\
+    \ analysing the so-called overstretched regime of NTRU.\n    Our result generalizes this lem"
+  status: pending_review
+  matched_keywords:
+  - ARX
+  - LED
+  fetched_date: '2026-08-15'
+  source: eprint
