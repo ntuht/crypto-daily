@@ -1,1 +1,30 @@
-papers: []
+papers:
+- id: quantum_advantage_for_2026
+  title: Quantum Advantage for Two-Party Differential Privacy
+  url: https://eprint.iacr.org/2026/1669
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - differential
+  directions:
+  - differential
+  summary: We introduce information-theoretically private quantum protocols for two-party Hamming distance when both parties
+    must output the same estimate. Classically, for input length $n$, information-theoreti
+  heuristic_score: 11
+  added_date: '2026-08-16'
+  authors: []
+- id: deniability_for_signed_2026
+  title: 'Deniability for Signed Credentials: Revisiting the Authenticated Channel vs. Signed Data Debate in the EUDI Wallet'
+  url: https://eprint.iacr.org/2026/1648
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  directions:
+  - lightweight
+  summary: The European Digital Identity Wallet (EUDI Wallet) is currently adopting ECDSA-based signed credentials as part
+    of its core architecture, which raised concerns that such designs inherently lack plausi
+  heuristic_score: 5
+  added_date: '2026-08-16'
+  authors: []
