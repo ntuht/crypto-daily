@@ -20,7 +20,7 @@ papers:
   - Xuejia Lai
   - James L. Massey
   - Sean Murphy
-  venue: EUROCRYPT 1991
+  venue: ePrint
   year: 1991
   url: https://eprint.iacr.org/2025/2205
   directions:
@@ -29,6 +29,7 @@ papers:
   significance: high
   summary: 建立差分分析的 Markov 密码理论框架，证明了差分概率计算的理论基础。
   status: reviewed
+  source: eprint
 - id: knudsen1995truncated
   title: Truncated and Higher Order Differentials
   authors:
@@ -31506,4 +31507,166 @@ papers:
   matched_keywords:
   - LED
   fetched_date: '2026-08-16'
+  source: eprint
+- id: secretsubspace_recovery_in_2026
+  title: Secret-Subspace Recovery in MAYO via Linearization of Errors from a Single Fault
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/097
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present fault injection attacks against MAYO in which a single faulty execution reveals structural information
+    about the secret. We consider two closely related single-block fault models. In the fi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: latticebased_updatable_publickey_2026
+  title: Lattice-Based Updatable Public-Key Encryption for Group Messaging
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/365
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Updatable Public-Key Encryption (UPKE) augments the security of PKE with Forward Secrecy properties. While requiring
+    more coordination between parties, UPKE enables much more efficient constructions t
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: dtru_a_versatile_2026
+  title: 'DTRU: A Versatile, Compact, Simple, and Robust NTRU KEM with Double $E_8$ Encoding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1701
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Responding to China's 2025 call for commercial cryptographic standards mandating 128-bit, 256-bit, and 512-bit
+    security (optional 384-bit), we propose DTRU, a versatile, compact, simple, and robust NT
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: dumbomix_robust_asynchronous_2026
+  title: 'DumboMix: Robust Asynchronous Anonymous Broadcast Made Practical'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1699
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a practical framework $\mathsf{DumboMix}$ for asynchronous anonymous broadcasts with guaranteed output
+    delivery (G.O.D., a.k.a. robustness), enabling a set of $n$ servers to privately solic
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: mamabearzkp_a_holistic_2026
+  title: 'MamaBearZKP: A Holistic Co-design of Prime Fields and Proving Stacks for High-Throughput ZKP on Modern CPUs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1698
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Sum-check and Fast Fourier Transforms (FFTs) dominate the computational cost of modern zero-knowledge proving systems,
+    such as HyperPlonk (Eurocrypt 2023) and FRI-based schemes like DeepFold (USENIX S
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: actively_secure_twoparty_2026
+  title: Actively Secure Two-Party Function Secret Sharing with Dynamic Cross-Phase Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1697
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Function secret sharing (FSS) gives two parties succinct keys whose local evaluations add up to a hidden function
+    value.  Removing the dealer is the natural next step for preprocessing-based secure co
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: toward_secure_compilation_2026
+  title: 'Toward Secure Compilation: Leakage Detection for Masked Implementations in Jasmin'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1696
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Masking is a well-established software countermeasure against side-channel attacks, yet even algorithmically correct
+    masked implementations can leak on real hardware once the compiler has performed in
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: on_the_impossibility_2026
+  title: On the Impossibility of Robust Combiners for Cryptographic Groups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1695
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A $(k,n)$-robust combiner for a primitive $\mathcal{P}$ combines $n$ candidate instantiations of $\mathcal{P}$
+    into a single scheme that remains secure as long as at least $k$ of them remain secure. R
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-17'
+  source: eprint
+- id: relations_between_the_2026
+  title: Relations Between the Uniform MQ Assumption and Other Multivariate Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1694
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The uniform multivariate quadratic (UMQ) assumption states that it is hard to find a zero of a uniformly generated
+    MQ function. It is the average-case hardness assumption about the MQ problem. In this
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-17'
   source: eprint
