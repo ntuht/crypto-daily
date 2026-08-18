@@ -31670,3 +31670,103 @@ papers:
   - SAT
   fetched_date: '2026-08-17'
   source: eprint
+- id: echo_efficient_covertlysecure_2026
+  title: 'ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/216
+  directions:
+  - low_latency
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'Secure three-party computation with an honest majority is among the most efficient secure computation settings
+    and is widely used in practice. However, achieving malicious security incurs significant '
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - low latency
+  - PRESENT
+  fetched_date: '2026-08-18'
+  source: eprint
+- id: updatable_signature_with_2026
+  title: Updatable Signature with Public Tokens
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/715
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Updatable Signature (US) allows valid signatures to be updated by an update token without accessing the newly
+    generated signing key. Cini et al. (PKC’21) formally defined this signature and gave s
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-18'
+  source: eprint
+- id: comment_on_quantum_2026
+  title: Comment on ‘Quantum public key encryption scheme with four states key’
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1706
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Liu et al. (2022 Phys. Scr. 97 045102) propose a quantum public key encryption scheme in which a qubit message
+    is encrypted by a controlled-NOT gate driven by a four-state public key, followed by meas
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-18'
+  source: eprint
+- id: postquantum_tls_migration_2026
+  title: 'Post-Quantum TLS Migration: A Systematization of Hybrid Handshakes, PSKs, KeyUpdate, and Certificate Strategies'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1703
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Post-quantum migration of Transport Layer Security (TLS) is often described as replacing a classical key-exchange
+    algorithm with a post-quantum alternative. This framing is incomplete: TLS distributes'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-18'
+  source: eprint
+- id: parallel_repetition_for_2026
+  title: Parallel Repetition for Entangled Games with Gap Exponent Three
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1702
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We prove that every finite two-player game $G$ with entangled value
+
+    $\omega^*(G)=1-\epsilon$ satisfies
+
+    \[
+
+    \omega^*(G^{\otimes n})
+
+    \le\exp(-\Omega(\frac{\epsilon^3}{\epsilon+ \ell }n))
+
+    \]
+
+    for every $n\'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-18'
+  source: eprint
