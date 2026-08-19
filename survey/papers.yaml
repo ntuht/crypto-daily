@@ -31770,3 +31770,191 @@ papers:
   - LED
   fetched_date: '2026-08-18'
   source: eprint
+- id: neutronnova_groupbased_folding_2026
+  title: 'NeutronNova: Group-based folding done right'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1606
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A folding scheme reduces the task of checking multiple NP instances into checking a single instance, providing
+    an efficient route to incrementally verifiable computation (IVC). We identify five desira
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: on_postquantum_multikey_2026
+  title: On Post-Quantum Multi-Key Security of GCM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1718
+  directions:
+  - lightweight
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'This paper studies the post-quantum multi-key security of Galois/Counter Mode (GCM) in the Quantum Ideal Cipher
+    Model (QICM).
+
+    GCM is one of the most widely deployed AEAD schemes.
+
+    In practice, widely d'
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - AEAD
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: verifiable_compression_of_2026
+  title: Verifiable Compression of Images
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1717
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: AI image generation has made image misinformation a serious concern. To address this issue, the Coalition for Content
+    Provenance and Authenticity (C2PA) standard adopts digital signatures to attest th
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: how_compact_can_2026
+  title: How Compact Can NTRU Encryption Be? Heuristic Frontiers and Practical Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1715
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: NTRU is one of the longest-tested lattice-based public-key encryption families and is often viewed as a compact
+    alternative to (R/M)-LWE. Yet, after three decades of research, its potential for compac
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: rigorous_statements_and_2026
+  title: Rigorous Statements and Proofs of the Lemmas in Simon's Algorithm for the Dihedral Coset Problem and Their Underlying
+    Hypothesis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1714
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In a recent preprint, Simon proposed a polynomial-time quantum algorithm for the Dihedral Coset Problem and rested
+    the analysis on four lemmas. Three of them carry only proof sketches, and this paper '
+  status: pending_review
+  matched_keywords:
+  - SIMON
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: statistical_inference_from_2026
+  title: Statistical Inference from Noisy Randomness Leakage for ML-DSA Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1712
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'ML-DSA is a NIST post-quantum signature standard whose security argument rests on rejection sampling making released
+    signatures independent of the secret key. Liu et al. and Damm et al. showed that a '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: a_descent_to_2026
+  title: 'A Descent to Hades: Attacks on PKP and PEP over Extension Fields'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1711
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'The Permutation Code Equivalence Problem (PEP) and Permuted Kernel Problem (PKP) are two notorious computational
+    problems over linear codes used for building post-quantum digital signature schemes.
+
+    Al'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: auditable_continuous_group_2026
+  title: Auditable Continuous Group Key Agreement
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1710
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Continuous group key agreement (CGKA), the cryptographic core of Messaging Layer Security (MLS, RFC 9420), provides
+    key management for large end-to-end encrypted group chats. It refreshes the group''s '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: ring_signatures_with_2026
+  title: Ring Signatures with Personalized Anonymity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1709
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Ring signatures have long struggled to balance absolute anonymity with traceability. \nWhile various extensions,\
+    \ such as traceable and accountable ring signatures, have been proposed, they typically ap"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
+- id: quantum_resource_optimization_2026
+  title: Quantum Resource Optimization for CSIDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1707
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'The quantum resource analysis of CSIDH has remained an active research topic. At Eurocrypt 2020, Peikert raised
+    three open problems concerning the optimization of the corresponding quantum resources. '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-08-19'
+  source: eprint
