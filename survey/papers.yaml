@@ -31958,3 +31958,54 @@ papers:
   - LED
   fetched_date: '2026-08-19'
   source: eprint
+- id: blockaccumulate_codes_accelerated_2026
+  title: 'Block-Accumulate Codes: Accelerated Linear Codes for PCGs and ZK'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1828
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Linear error-correcting codes with fast encoding and high minimum distance are a central primitive across modern
+    cryptography. They appear prominently in at least two domains: (1) pseudorandom correla'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-20'
+  source: eprint
+- id: nested_musig2_2026
+  title: Nested MuSig2
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/223
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Bitcoin Improvement Proposal 327 specifies a variant of the MuSig2 multi-signature protocol that is becoming widely
+    adopted in Bitcoin applications. This protocol enables multiple participants to coll
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-20'
+  source: eprint
+- id: trapdoor_oneway_functions_2026
+  title: Trapdoor one-way functions from tensors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/624
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Update: We retract the claim that main construction in the paper is cryptographically secure. In particular, the
+    trapdoor functions generated in Algorithm 1 from three dimensional tensors are efficien'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-20'
+  source: eprint
