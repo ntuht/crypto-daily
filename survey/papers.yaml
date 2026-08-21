@@ -32009,3 +32009,56 @@ papers:
   - LED
   fetched_date: '2026-08-20'
   source: eprint
+- id: noninteractive_anonymous_tokens_2026
+  title: Non-interactive Anonymous Tokens with Private Metadata Bit
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/430
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous tokens with private metadata bit (ATPM) have received increased interest as a method for anonymous user
+    authentication while also allowing the issuer to embed trust signals inside the token '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-21'
+  source: eprint
+- id: codebased_distributed_polynomial_2026
+  title: Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2327
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present the first fully distributed, code-based polynomial commitment scheme (PCS) that achieves linear prover
+    time and polylogarithmic communication for multilinear polynomials. Our construction b
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-08-21'
+  source: eprint
+- id: starkbased_signatures_from_2026
+  title: STARK-based Signatures from the RPO Permutation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1553
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: This work describes a digital signature scheme constructed from a zero-knowledge proof of knowledge of a pre-image
+    of the Rescue Prime Optimized (RPO) permutation. The proof of knowledge is constructe
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-08-21'
+  source: eprint
