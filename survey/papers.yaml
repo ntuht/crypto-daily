@@ -32062,3 +32062,252 @@ papers:
   - LED
   fetched_date: '2026-08-21'
   source: eprint
+- id: revisiting_simulation_extractability_2026
+  title: Revisiting Simulation Extractability in the Updatable Setting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2117
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We revisit the notion of Simulation Extractability (SE) for SNARKs in the updatable setting. We demonstrate that
+    existing formal definitions of SE in this setting are insufficient to guarantee the req
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: towards_aidriven_optimization_2026
+  title: Towards AI-driven Optimization of Robust Probing Model-compliant Masked Hardware Gadgets Using Evolutionary Algorithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1190
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Masked hardware design is a central countermeasure against
+
+    side-channel analysis (SCA), but its practical deployment remains costly
+
+    due to the overhead and design complexity of secure implementations.'
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: quantum_oracle_distribution_2026
+  title: Quantum Oracle Distribution Switching and Applications to Falcon and Ring Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/293
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Motivated by digital signature algorithms ranging from Falcon to fully-anonymous ring signatures used in Signal-style
+    key exchange, such as Gandalf, we revisit a fundamental problem in post-quantum se
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: pairingbased_barg_for_2026
+  title: Pairing-Based BARG for NP with Constant-Size Proofs and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/247
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: This paper presents a pairing-based non-interactive batch argument (BARG) for NP in the common reference string
+    (CRS) model with constant-size proofs and constant-cost verification. Our construction i
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: new_techniques_for_2026_2
+  title: New Techniques for Fast and Shallow FHE Bootstrapping and Beyond
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1730
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "The main barrier to practical fully homomorphic encryption remains the latency and cost of bootstrapping, the\
+    \ ciphertext refresh step that enables unbounded computation. \nWe design new methods that re"
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: a_unified_framework_2026
+  title: A Unified Framework for Contract-Validated Benchmarking of Zero-Knowledge Proving Systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1729
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs are an operational infrastructure for rollups, private payments, verifiable execution, and
+    zkVM applications. We treat them as succinct proofs of validity whose privacy propertie
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: a_controlled_case_2026
+  title: A Controlled Case Study of Design Trade-offs in DeFi Lending Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1728
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Decentralized lending protocols encode credit markets as smart contracts whose design choices affect gas cost,
+    capital efficiency, liquidation behavior, and risk allocation. We compare Aave V3, SparkL
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: enhancing_capital_efficiency_2026
+  title: Enhancing Capital Efficiency in DeFi Lending and Liquidity Provision
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1727
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Decentralized Finance (DeFi) continues to experience rapid growth, yet a significant portion of capital remains
+    inefficiently utilized in overprovisioned lending reserves or inactive liquidity positio
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: proofofuniqueness_sybilresistant_privacypreserving_2026
+  title: 'Proof-of-Uniqueness: Sybil-Resistant Privacy-Preserving Decentralized Identity through Threshold-OPRF and zk-SNARK
+    Registry'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1725
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Several decentralized applications and blockchains, such as blockchain-based voting systems or Proof-of-Social-Capital,
+    require a strict one-account-per-person policy, yet public identity records ofte
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: datadependent_memoryhard_functions_2026
+  title: 'Data-Dependent Memory-Hard Functions: Sustained Space and Cumulative Complexity Trade-offs in the Parallel Random
+    Oracle Model'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1724
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Memory-Hard Functions (MHFs) are a cryptographic primitive designed to protect passwords and other low-entropy
+    secrets against brute-force attacks. The strongest and most natural formalization of memo
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: desyris_a_decentralized_2026
+  title: 'De-SyRIS: A Decentralized Sybil-Resistant Identity System without a Trusted Credential Issuer'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1723
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: While decentralized identity management systems strive for autonomy, most still rely on centralized mechanisms
+    (e.g., phone numbers or government-issued IDs) to achieve Sybil resistance and prevent fa
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: elementaryvector_modeling_for_2026
+  title: Elementary-Vector Modeling for Shorter VOLE-Based Signatures from SD and PKP
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1722
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Zero-knowledge proofs based on VOLE have recently become a promising approach for designing post-quantum signature
+    schemes. Such schemes are constructed by having a signer prove knowledge of a secret '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: efficient_private_set_2026
+  title: Efficient Private Set Union from Multi-Query Oblivious Membership Transfer
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1721
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Private Set Union (PSU) allows two parties to compute the union of their private sets while revealing nothing
+    beyond the union. Existing PSU protocols mainly follow two paradigms: reverse private memb'
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-08-22'
+  source: eprint
+- id: improved_polynomialmemory_algorithms_2026
+  title: 'Improved Polynomial-Memory Algorithms via Nested Collision Search: Applications to Small Max-Norm LWE and Subset-Sum'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1720
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Learning With Errors (LWE) problem with small max-norm secrets and errors forms the foundation of several
+    practical lattice-based cryptographic schemes, including NTRU-based constructions and the '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-22'
+  source: eprint
