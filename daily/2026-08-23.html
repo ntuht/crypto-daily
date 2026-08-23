@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-23</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-23</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-23</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-23 01:49</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 36 篇 → 启发式 7 篇 → 精选 <strong>7 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Revisiting the Transferability of Chosen- to Known-plaintext Attacks and Applications to Round-reduced AES](https://eprint.iacr.org/2026/1759)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1759.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：差分攻击是许多分组密码的最佳已知攻击方法，通常要求攻击者能够选择明文或密文。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文深入探讨了差分攻击中选择明文（CP）和已知明文（KP）攻击之间的可迁移性，并提出了将CP攻击转化为KP攻击的新方法。研究者通过理论分析和具体实例，展示了在轮数约减AES上如何利用这种可迁移性来构建更有效的攻击。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为评估分组密码在更弱攻击模型下的安全性提供了新视角，并可能启发新的攻击策略。</p>
+
+<hr>
+
+<h3>2. [Circle-Linear Cryptanalysis: Bibrace Characters and Weak-Key Linear Distinguishers for CRAFT](https://eprint.iacr.org/2026/1767)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1767.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：线性密码分析通过衡量密码与定义差分的群特征之间的相关性来评估其安全性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了“环线性密码分析”这一新范式，通过在S盒输出上引入第二个初等阿贝尔群结构，扩展了传统线性密码分析的框架。研究者利用Bibrace特征来分析密码的相关性，并成功为CRAFT分组密码设计了新的弱密钥线性区分器，揭示了其在特定密钥下的脆弱性。</p>
+
+<p>🎯 <strong>意义</strong>：这一创新方法拓宽了线性密码分析的理论基础，为发现分组密码的弱密钥特性提供了新的工具。</p>
+
+<hr>
+
+<h3>3. [Improved Collision Attack on RIPEMD-160](https://eprint.iacr.org/2026/1744)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1744.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：RIPEMD-160是一种基于Merkle-Damgård结构的ISO/IEC哈希函数标准，其安全性一直受到关注。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文针对RIPEMD-160哈希函数提出了改进的碰撞攻击，通过优化模块化差分攻击的策略，显著降低了寻找碰撞的计算复杂度。研究者可能利用了双分支压缩函数的特性，设计了更精细的差分路径，从而在更少的轮数或更低的复杂度下找到碰撞。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作进一步揭示了RIPEMD-160的潜在安全弱点，对哈希函数的设计和评估具有重要的警示意义。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1760" target="_blank">Midpoint Reset: A Full-Round Poseidon Collision from an Adaptively Chosen MDS Matrix</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1760.pdf)</p>
+
+<blockquote>
+<p>本文通过自适应选择MDS矩阵，首次为KoalaBear Poseidon实例的全部28轮找到了一个显式的压缩碰撞。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1765" target="_blank">Exact linear correlations and the cost of Walsh-transform key recovery, with application to SPEEDY</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1765.pdf)</p>
+
+<blockquote>
+<p>本文精确计算了S盒层之间无密钥加法的轮函数线性相关性，并分析了Walsh变换密钥恢复攻击的成本，应用于SPEEDY密码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1763" target="_blank">Multidimensional Hill Cipher Substitution– Permutation Network</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1763.pdf)</p>
+
+<blockquote>
+<p>MD-Hill-SPN是首个结合多层扩散混合层、内存困难KDF和多度量实证分析的基于Hill密码的SPN结构。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1762" target="_blank">Pilaf: Fully Tight Two-Round Threshold Signatures with Adaptive Corruptions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1762.pdf)</p>
+
+<blockquote>
+<p>Pilaf是一种在自适应腐败模型下，具有完全紧密安全证明的两轮门限签名方案。</p>
+</blockquote>
+
+<p><em>精选自 36 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
