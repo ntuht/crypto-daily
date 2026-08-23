@@ -32311,3 +32311,689 @@ papers:
   - PRESENT
   fetched_date: '2026-08-22'
   source: eprint
+- id: traceability_for_free_2026
+  title: 'Traceability for Free: Traceable Ring Signatures Revisited'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1807
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Linkable Ring Signatures (LRS) allow anonymous signing on behalf of an ad hoc ring, while making any two signatures
+    by the same signer publicly linkable. Traceable Ring Signatures (TRS), introduced by
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: sok_why_optimal_2026
+  title: 'SoK: Why Optimal Cryptographic Combiners Do Not Get Deployed: Security, Complexity, and Adoption of Hybrid KEMs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1754
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: XtM (XOR-then-MAC) is provably optimal against quantum adversaries. As of March 2025, no production cryptographic
+    library implements it. HKDF, with weaker security guarantees, is deployed in 91% of th
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: enforcing_winneronly_disclosure_2026
+  title: 'Enforcing Winner-Only Disclosure: Verifiable Tally Hiding for Weighted DAO Governance'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1773
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Token-weighted voting is widely used in DAO governance, but public voting weights together with weighted tallies
+    can reveal identifiable voters' choices. Publishing only the final outcome reduces this
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: multipgbf_efficient_oblivious_2026
+  title: 'Multi-PGBF: Efficient Oblivious Key-Value Store and Application to Private Set Intersection'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1772
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An oblivious key-value store is a data structure that can encode and decode $n$ key-value pairs in a table of size
+    $m$ obliviously. After encoding, one cannot distinguish the encoded key-value pairs f
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: new_lower_bounds_2026
+  title: New Lower Bounds for Rows of $d$-Disjunct Matrices via Recursive Potentials
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1771
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In nonadaptive combinatorial group testing, given $n$ items with at most $d$ positives, the goal is to identify
+    them using as few pooled tests as possible. A $t\times n$ binary matrix represents the d
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: how_many_traces_2026
+  title: How Many Traces Suffice? PAC Guarantees for Profiled and Non-profiled Side-Channel Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1770
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Side-channel analysis (SCA) is commonly evaluated by reporting the number of traces required to reduce the rank
+    of the correct key. Still, such evaluations remain empirical and do not explain how many
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: constantround_mpc_protocols_2026
+  title: Constant-round MPC protocols with Fall-back Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1768
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The notion of Best-of-Both-Worlds introduced in the work of Ishai et al. (CRYPTO 2006) investigated whether an
+    MPC protocol can simultaneously provide two incomparable security guarantees depending on
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: circlelinear_cryptanalysis_bibrace_2026
+  title: 'Circle-Linear Cryptanalysis: Bibrace Characters and Weak-Key Linear Distinguishers for CRAFT'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1767
+  directions:
+  - linear_diffusion
+  - sbox
+  - linear
+  ciphers: []
+  significance: medium
+  summary: Linear cryptanalysis measures the correlation of a cipher with the characters of the group used to define differences.
+    If that group is replaced by a second elementary abelian group structure on the s
+  status: pending_review
+  matched_keywords:
+  - linear cryptanalysis
+  - S-box
+  - diffusion
+  - Midori
+  - CRAFT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: exact_linear_correlations_2026
+  title: Exact linear correlations and the cost of Walsh-transform key recovery, with application to SPEEDY
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1765
+  directions:
+  - differential
+  - sbox
+  - linear
+  ciphers: []
+  significance: medium
+  summary: 'When two S-box layers of a round are separated by no key addition, the round
+
+    correlation is a signed sum over all compatible intermediate masks, not a product
+
+    of layer correlations, so the product rul'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - S-box
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: two_novel_multidimensional_2026
+  title: Two Novel Multidimensional Affine Variations of the Hill Cipher
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1764
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Two novel symmetric multidimensional affine nested variations of the Hill Cipher are presented. The Hill Cipher
+    is a block
+
+    polygraphic substitution encryption scheme based on a linear transformation o'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: multidimensional_hill_cipher_2026
+  title: Multidimensional Hill Cipher Substitution– Permutation Network
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1763
+  directions:
+  - differential
+  - round_function
+  - milp_sat_cp
+  - linear_diffusion
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'MD-Hill-SPN is the first Hill-based construction to combine a multi-tier diffusion mix
+
+    layer, a memory-hard KDF, and a simultaneous multi-metric empirical evaluation. Two
+
+    independent runs of the full '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - permutation
+  - diffusion
+  - MDS
+  - branch number
+  - SPN
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: pilaf_fully_tight_2026
+  title: 'Pilaf: Fully Tight Two-Round Threshold Signatures with Adaptive Corruptions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1762
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Threshold signatures are deployed in settings where an adversary may run many\n  concurrent signing sessions and\
+    \ corrupt signers adaptively. Two-round schemes\n  make this especially delicate. Their fir"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: lightweight_latticebased_singleparty_2026
+  title: Lightweight Lattice-based Single-Party Public-Key Authenticated Key Exchange
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1761
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Authenticated Key Exchange (AKE) is a cornerstone of secure communication, especially in resource-constrained IoT
+    environments where lightweight and post-quantum security are paramount. While lattice-
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: midpoint_reset_a_2026
+  title: 'Midpoint Reset: A Full-Round Poseidon Collision from an Adaptively Chosen MDS Matrix'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1760
+  directions:
+  - linear_diffusion
+  - sbox
+  - milp_sat_cp
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We give an explicit compression collision for all 28 rounds of the KoalaBear Poseidon instance with parameters
+    $(t,\alpha,R_F,R_P)=(16,3,8,20)$, in the setting where the round constants are fixed befo
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - S-box
+  - permutation
+  - MDS
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: revisiting_the_transferability_2026
+  title: Revisiting the Transferability of Chosen- to Known-plaintext Attacks and Applications to Round-reduced AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1759
+  directions:
+  - differential
+  - meet_in_the_middle
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Differential-based attacks represent the best known results for many block ciphers. Such attacks usually demand
+    that the adversary an choose plaintexts (CP) or ciphertexts (CC) in subspaces to satisfy
+  status: pending_review
+  matched_keywords:
+  - differential
+  - meet-in-the-middle
+  - SAT
+  - block cipher
+  - AES
+  - PRESENT
+  - RECTANGLE
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: textsfsluice_provephase_boundedmemory_2026
+  title: '$\textsf{Sluice}$: Prove-Phase Bounded-Memory Groth16 via Read-Write Streaming'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1758
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present $\textsf{Sluice}$, a read-write streaming Groth16 prover that reduces $\textit{prove-phase}$ random-access
+    working memory from $\mathcal{O}(N)$ to $\mathcal{O}(\log N)$ once the CRS, QAP, a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: enabling_threshold_custody_2026
+  title: Enabling Threshold Custody for the Lightning Network with Nested Threshold Multi-Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1757
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Bitcoin Lightning Network secures hundreds of millions of dollars, yet channel endpoints rely on vulnerable
+    single online keys.
+
+    Although threshold signatures are routinely used to protect on-chain'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: fully_homomorphic_encryption_2026_1
+  title: Fully Homomorphic Encryption with Chosen-Ciphertext Security from LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1756
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We construct (1-hop) fully homomorphic encryption (FHE) schemes with chosen-ciphertext (CCA) security from the
+    learning with errors (LWE) assumption in the standard model. Security of our construction
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: quailll_quaternion_ideal_2026
+  title: 'QuaILLL: Quaternion Ideal LLL and BKZ'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1755
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The current state of the art for cryptanalysis generic rank-2 module LIP schemes invokes an SVP oracle on the canonical
+    real embedding, discarding the quaternionic structure made available by the redu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: linear_distance_for_2026
+  title: Linear Distance for Fixed-Row-Weight Expand--Accumulate Codes over Arbitrary Fields
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1753
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Expand–accumulate (EA) codes are sparse linear codes underlying constructions of correlated pseudorandomness and
+    field-agnostic succinct arguments. In “Field-Agnostic SNARKs from Expand–Accumulate Cod
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: lbas_a_latticebased_2026
+  title: 'L-BAS: A Lattice-Based Blind Adaptor Signature Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1752
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Lattice-based blind signatures have attracted significant attention in recent years due to the rapid growth of
+    digital currencies, the increasing demand for privacy-preserving digital interactions, an
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: efficient_dynamic_group_2026
+  title: Efficient Dynamic Group Signatures with Forward Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1751
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In dynamic group signature schemes (GSS), forward security ensures that newly joined members cannot generate valid
+    signatures for past time periods. Additionally, non-frameability prevents even privil
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: threshold_latticebased_zeroknowledge_2026
+  title: Threshold Lattice-Based Zero-Knowledge Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1750
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Lattice-based zero-knowledge proofs are now efficient enough for practical use, but in all known constructions
+    a single prover holds the entire witness and is therefore a single point of failure. Thre
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: cakehi_compact_authenticated_2026
+  title: CAKE-HI - Compact Authenticated Key Exchange Hiding Identities
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1749
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Modern public-key cryptography is threatened by advances in quantum computing. As a result, there has been a shift
+    towards cryptographic algorithms that can resist attacks by a quantum computer. Howev
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: safehub_endtoend_encrypted_2026
+  title: 'SafeHub: End-to-end encrypted Git hosting system'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1748
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Private repositories remain readable to Git hosts despite transport and at-rest
+
+    encryption. We present SafeHub, an end-to-end encrypted Git hosting system. It
+
+    encrypts repository contents and semantic'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: extending_distinguishing_to_2026
+  title: Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1747
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ghoshal, Ishai, Jain, and Sun recently introduced a novel quasipolynomial-time distinguisher for GRS subcodes (including
+    Goppa codes), leaving key recovery as an open problem. This note presents an ap
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: chasing_quoccas_in_2026
+  title: 'Chasing QuOCCAs in a Quantum World: Type-2 Oracles for CCA-Secure PKE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1746
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the context of PKE schemes, Gagliardoni et al. proposed at PQCrypto 2021 a qIND-qCPA security notion (a superposition-based
+    analogue of the classical IND-CPA security notion), by using the theory o
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: improved_collision_attack_2026
+  title: Improved Collision Attack on RIPEMD-160
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1744
+  directions:
+  - differential
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: RIPEMD-160 is an ISO/IEC hash function standard based on the Merkle-Damgård structure with a double-branch compression
+    function. There have been many attempts at modular differential attacks on reduce
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: notes_on_shortlimb_2026
+  title: 'Notes on Short-Limb Modular Multiplication Techniques: Barrett, Montgomery, Plantard, and the Explicit CRT'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1743
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This note collects, in compressed form, some techniques for modular multiplication with
+
+    word-size (“short-limb”), or at most a-handful-of-words sized moduli as they are used in
+
+    implementations of latt'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: unclonable_encryption_from_2026
+  title: 'Unclonable encryption from BB84 states: a simultaneous Goldreich-Levin reduction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1742
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Goldreich-Levin reductions are ubiquitous in cryptography: they convert an algorithm capable of guessing $\langle
+    r, m \rangle$ (mod $2$) for a hidden string $m$ and a random challenge $r$, to one tha'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: one_proof_to_2026
+  title: 'One Proof to Rule Them All: Practical, Sublinear Verification for Actively Secure MPC on $\mathbb{Z}_{2^k}$ with
+    Dishonest Majority and a Dealer (Full Version)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1741
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Towards bridging the gap between passively and actively secure multiparty computation (MPC), the use of sublinear
+    distributed zero-knowledge (DZK) proofs gained popularity. Such proofs enable extendin
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: prop_rfq_proprietary_2026
+  title: 'Prop RFQ: Proprietary Request for Quote as Pressure-Aware Exit Pricing for Redeemable Real-World Asset Tokens'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1739
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Redeemable real-world asset tokens can trade onchain faster than their backing assets can be sold or settled. An
+    immediate-exit facility cannot treat reported net asset value (NAV) as fully liquid. Wi
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: from_mechanical_lockpicking_2026
+  title: 'From Mechanical Lock-Picking to Autonomous Driving Deception: A Comprehensive Review of Vehicle Attacks, Cyberattacks,
+    and Defenses'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1737
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Modern vehicles have evolved into highly interconnected
+
+    Software-Defined Cyber-Physical Systems (CPS), integrating
+
+    embedded electronics, wireless communications, artificial
+
+    intelligence, and Advanced '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: copyprotection_with_correlated_2026
+  title: 'Copy-Protection with Correlated Challenges: Point Functions and More via Decisional Coset Monogamy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1736
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Copy-protection is one of the main applications of quantum information in cryptography. In copy-protection, we
+    encode a functionality in a reusable quantum state so that it cannot be split into two st
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: adapting_aesoriented_optimizations_2026
+  title: 'Adapting AES-Oriented Optimizations to Rijndael-256: Cortex-M4, ARMv8-A, and CUDA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1735
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Rijndael-256 (R256), the 256-bit block variant of the Rijndael family, is practically relevant in ongoing NIST
+    draft discussions on wider-block standardization and in several NIST post-quantum signatu
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-08-23'
+  source: eprint
+- id: key_recovery_from_2026
+  title: Key Recovery from Residue-Confined Errors in the Pradhan CRT-RLWE Construction
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1734
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We show that the CRT-FHE scheme of Pradhan et al. is insecure for laws within its assumed error distribution range.
+    The secret key follows from the public key by a single ring inversion whenever the p
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-23'
+  source: eprint
