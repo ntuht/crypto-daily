@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-24</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-24</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-24</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-24 01:47</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 1607 篇 → 启发式 472 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [The OCH Authenticated Encryption Scheme](https://eprint.iacr.org/2026/439)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 ?/10 | [📎 PDF](https://eprint.iacr.org/2026/439.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的认证加密方案在多用户场景下的安全性和上下文承诺方面可能存在不足，难以满足现代复杂应用对高级安全属性的需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了OCH，这是首个旨在提供128位多用户认证加密（AE）安全性、128位上下文承诺安全性，并支持256位随机数的AEAD方案。OCH的设计着重于在复杂安全模型下提供高强度的安全保证，尤其是在多用户和上下文敏感的应用场景中，通过精心的结构设计来抵御各类高级攻击。</p>
+
+<p>🎯 <strong>意义</strong>：OCH的提出为未来认证加密方案的设计提供了新的范例，特别是在需要高级安全属性的复杂应用环境中，具有重要的理论和实践指导意义。</p>
+
+<hr>
+
+<h3>2. [Analyze the Security of the AEAD Scheme HiAE by Algebraic Techniques](https://eprint.iacr.org/2025/1203)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 ?/10 | [📎 PDF](https://eprint.iacr.org/2025/1203.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：HiAE是一个高性能的AEAD方案，但其在特定攻击模型下的安全性尚未得到充分评估，尤其是一些现有AEAD方案（如Rocca）已被证明存在代数攻击漏洞。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文利用代数技术对AEAD方案HiAE的安全性进行了深入分析。研究人员通过构建代数方程组来模拟攻击，并评估HiAE在面对此类攻击时的抵抗能力。这项工作揭示了HiAE在特定代数攻击场景下的潜在弱点或其鲁棒性，为理解其内在安全机制提供了新的视角。</p>
+
+<p>🎯 <strong>意义</strong>：这项分析为HiAE的进一步优化提供了关键洞察，并为AEAD方案的代数安全性评估提供了有价值的参考方法和工具。</p>
+
+<hr>
+
+<h3>3. [Meet-in-the-Middle Attacks on Full ChiLow](https://eprint.iacr.org/2025/1601)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 ?/10 | [📎 PDF](https://eprint.iacr.org/2025/1601.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：ChiLow-32和ChiLow-40是Eurocrypt 2025上提出的两种可调低延迟分组密码，其设计目标是高效和安全，但其全轮安全性尚未被充分验证。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文首次对全轮ChiLow-32和ChiLow-40这两种分组密码成功实施了中间相遇（Meet-in-the-Middle, MitM）攻击。研究人员首先描述了一种直接的MitM攻击方法，并在此基础上进行了优化，从而能够攻击到密码的全部轮数，揭示了这些密码在设计上可能存在的潜在弱点。</p>
+
+<p>🎯 <strong>意义</strong>：这些攻击结果对ChiLow系列密码的安全性评估具有重要意义，并为未来低延迟分组密码的设计提供了宝贵的经验教训和安全警示。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/856" target="_blank">MERIDIAN: A Toroid-Inspired Permutation Block Cipher for Constrained Environments</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/856.pdf)</p>
+
+<blockquote>
+<p>本文提出了MERIDIAN，一种受环面结构启发、专为资源受限环境设计的128位轻量级分组密码，旨在替代AES-128。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1104" target="_blank">The ABC of Symmetric Primitives over Integer Rings: Milk Before Meat</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1104.pdf)</p>
+
+<blockquote>
+<p>本文探讨了在整数环上设计安全对称密码原语的基础知识，旨在为密码学界提供一个从简单到复杂的理解路径。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/501" target="_blank">More Brisés in Ballet: Extending Differential and Linear Cryptanalysis</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/501.pdf)</p>
+
+<blockquote>
+<p>本研究通过扩展差分和线性密码分析方法，对Ballet分组密码家族取得了新的密码分析结果。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/748" target="_blank">Related-Key Multi-Pair Neural Distinguishers: Analysis and Applications to Lightweight Block Ciphers</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/748.pdf)</p>
+
+<blockquote>
+<p>本文分析了相关密钥多对神经区分器，并将其应用于轻量级分组密码，以聚合微弱的区分特性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1672" target="_blank">AFS: A Family of ARX-Based Large-State S-boxes with Exceptional Properties</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1672.pdf)</p>
+
+<blockquote>
+<p>本文介绍了AFS，一个基于ARX的大状态S盒家族，具有卓越的密码学特性，适用于现代轻量级密码设计。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1806" target="_blank">Improved Integral Attack on ChiLow-32 Exploiting the Inverse of the ChiChi Function</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1806.pdf)</p>
+
+<blockquote>
+<p>本文通过利用ChiChi函数的逆运算，改进了对ChiLow-32的积分攻击，提升了攻击效率和轮数。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://doi.org/10.46586/TOSC.V2025.I1.444-470" target="_blank">Improved Search of Boomerang Distinguishers for Generalized Feistel and Application to WARP</a></strong> | [📎 PDF](https://doi.org/10.46586/TOSC.V2025.I1.444-470)</p>
+<p><em>Xinhao Zeng, Lin Tan, Hong Xu</em></p>
+
+<blockquote>
+<p>本研究改进了广义Feistel结构的回旋镖区分器搜索方法，并将其成功应用于WARP密码分析。</p>
+</blockquote>
+
+<p><em>精选自 1607 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
