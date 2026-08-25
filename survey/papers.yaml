@@ -32997,3 +32997,165 @@ papers:
   - SAT
   fetched_date: '2026-08-23'
   source: eprint
+- id: almost_ntru_revisiting_2026
+  title: 'Almost NTRU: Revisiting Noncommutativity Against Lattice Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1988
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: "NTRU is one of the most extensively studied lattice-based cryptographic schemes and is widely regarded as a strong\
+    \ candidate for post-quantum security. \nThe most effective attacks on NTRU are lattice-"
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - LED
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: compiling_sparse_keys_2026
+  title: 'Compiling Sparse Keys for Bootstrapping FHEs: Algorithms, Hardware Acceleration, and Beyond'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1783
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Blind rotation is the dominant computational bottleneck in bootstrapping for bitwise FHE schemes such as TFHE.
+    Existing constructions typically evaluate $O(n)$ sequential external products for an LWE '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: hover_higherorder_vanishing_2026
+  title: 'HOVER: Higher-Order Vanishing Endomorphism Recovery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1778
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was
+    recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: bit_operation_cost_2026
+  title: Bit Operation Cost of ``Holdout'' Key-Recovery Attacks Against Classic McEliece
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1786
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a self-contained conditional arithmetic model and algorithmic specification for a prospective key-recovery
+    attack on binary Goppa codes, combining the binary hold-out operator with heteroge
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: a_practical_optimization_2026
+  title: A Practical Optimization for Wiedemann XL
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1787
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Wiedemann XL is a variant of the XL algorithm that has been widely used in algebraic attacks. Usually, the cost
+    of applying Widemann XL is estimated as 3N^2 ω, where N is the width of the Macaulay mat
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: foundations_of_singledecryptor_2026
+  title: Foundations of Single-Decryptor Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1219
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Single decryptor encryption (SDE) is public key encryption (PKE) where the decryption key is an unclonable quantum
+    state. Coladangelo, Liu, Liu, and Zhandry (CRYPTO 2021) realized the first SDE assumi
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: the_power_of_2026
+  title: 'The Power of Rerandomization in Obfustopia: Collision-Resistant Hash, Somewhere-Extractable BARGs, and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1785
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Indistinguishability obfuscation (iO) combined with one-way functions (OWFs) serves as a powerful foundation for
+    constructing a vast array of cryptographic primitives.
+
+    However, this combination faces '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: ea_codes_approaching_2026
+  title: EA Codes Approaching Singleton Bound (with Application to Field-Agnostic SNARKs)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1782
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: SNARKs based on error-correcting codes require codes that simultaneously support fast encoding and large relative
+    distance. Reed--Solomon codes achieve the optimal rate--distance tradeoff given by the
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-08-25'
+  source: eprint
+- id: efficient_additive_randomized_2026
+  title: 'Efficient Additive Randomized Encodings for String Oblivious Transfer: A Core Primitive for General Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1781
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Additive Randomized Encodings (AREs) provide a lightweight route to non-interactive secure computation: each party
+    locally produces a randomized encoding of its input, and an evaluator learns only the'
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-08-25'
+  source: eprint
