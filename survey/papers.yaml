@@ -33159,3 +33159,101 @@ papers:
   - PRESENT
   fetched_date: '2026-08-25'
   source: eprint
+- id: salsaa_sumcheckaided_latticebased_2026
+  title: SALSAA – Sumcheck-Aided Lattice-based Succinct Arguments and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2124
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present SALSAA, a more efficient and more versatile extension of the state-of-the-art lattice-based fully-succinct
+    argument frameworks, ``RoK, paper, SISsors (RPS)'' and ``RoK and Roll (RnR)'' [Klo
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-26'
+  source: eprint
+- id: cavefish_communicationoptimal_light_2026
+  title: 'Cavefish: Communication-Optimal Light Client Protocol for UTxO Ledgers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/217
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Blockchain light clients (LCs) are agents with limited computational or storage resources that cannot maintain
+    a fully validated copy of the ledger. They rely on service providers (SPs), typically ful
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-26'
+  source: eprint
+- id: additions_multiplications_and_2026
+  title: 'Additions, Multiplications, and the Interaction In-Between: Optimizing MPC Protocols via Leveled Linear Secret Sharing
+    (Full Version)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/368
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure multiparty computation (MPC) enables distrusting parties in a distributed system to compute on their private
+    inputs without compromising their privacy. For many secret-sharing-based approaches,
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-26'
+  source: eprint
+- id: lattice_epid_with_2026
+  title: Lattice EPID with Efficient Revocation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1225
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Enhanced Privacy Identification (EPID) is one of the anonymous authentication mechanisms that found their way into
+    the industry, being deployed in billions of chips and standardized at ISO. The linchp
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-26'
+  source: eprint
+- id: teeassisted_authenticated_mpc_2026
+  title: TEE-Assisted Authenticated MPC for Resource Constrained Edge_Intelligence
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1733
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: '—Supporting privacy-preserving analytics across large
+
+    Internet of Things (IoT) populations remains difficult. Resource
+
+    constrained devices may be unable to execute expensive multi
+
+    party computation (M'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-08-26'
+  source: eprint
