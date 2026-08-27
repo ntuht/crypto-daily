@@ -33257,3 +33257,189 @@ papers:
   - PRESENT
   fetched_date: '2026-08-26'
   source: eprint
+- id: hash_your_keys_2026
+  title: 'Hash your Keys before Signing: BUFF Security of the Additional NIST PQC Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/591
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we analyze the so-called Beyond UnForgeability Features (BUFF) security of the submissions to the
+    current standardization process of additional signatures by NIST. The BUFF notions forma
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: generalized_greedy_algorithms_2026
+  title: Generalized Greedy Algorithms for Synthesizing Low-depth CNOT Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1798
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A CNOT circuit is a quantum circuit where the only type of gate appeared in the circuit is the CNOT gate. Given
+    an n × n binary matrix which specifies the relationship between input and output, existi
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: udmac_efficiently_updatable_2026
+  title: 'UdMAC: Efficiently Updatable Message Authentication Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1796
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Message authentication codes (MAC) are ubiquitous and are considered to be the most important tool employed to
+    ensure authenticity of messages in the symmetric key setting. In this work, we aim to emp
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: ideal_secret_sharing_2026
+  title: Ideal Secret Sharing Schemes over Small Domains
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1794
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In any secret sharing scheme, the size of each share must be at least as large as the size of the secret. Schemes
+    that attain this lower bound are called $k$-ideal, where $k$ is the size of the domain
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: exact_cvp_is_2026
+  title: Exact CVP Is NP-Complete for Principal Cyclotomic Ideals
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1793
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We prove that exact Euclidean decision-CVP is $\mathsf{NP}$-complete on the coefficient lattices of nonzero principal
+    ideals in the power-of-two cyclotomic rings $R_d=\mathbb{Z}[y]/(y^d+1)$. A determi
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: beyond_linear_subspace_2026
+  title: 'Beyond Linear Subspace Trails: Nonlinear Subspaces for Gr\"obner Basis Attacks on Poseidon/Poseidon2 and Neptune'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1792
+  directions:
+  - sbox
+  - algebraic
+  - invariant
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Poseidon/Poseidon2 and Neptune are prominent primitives for zero-knowledge proof systems.
+
+    Their arithmetic circuit cost is reduced mainly through partial S-box layers and low-degree finite field opera'
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - subspace trail
+  - S-box
+  - permutation
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: dime_queryefficient_framework_2026
+  title: 'DIME: Query-Efficient Framework for Membership Inference on Diffusion Models'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1791
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'Membership inference attacks expose whether individual records were used to train a model, yet existing attacks
+    on diffusion models are largely heuristic and can require substantial query budgets. We '
+  status: pending_review
+  matched_keywords:
+  - diffusion
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: lithium_making_iterative_2026
+  title: 'Lithium: Making Iterative Rejection Sampling Practical for Compact Lattice Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1790
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Post-quantum deployments need signatures that are both fast and small. ML-DSA gives a practical Fiat-Shamir lattice-signature
+    baseline, but its signatures remain large enough to make bandwidth, certif
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: hrfpre_fast_proxy_2026
+  title: 'HRFPRE: Fast Proxy Re-encryption for Multi-RSU Outsourcing and Hardware-assisted Revocation in the IoV.'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1789
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: In the Internet of Vehicles (IoV), content-centric data sharing is essential for driving safety and user experience.
+    However, the highly dynamic and distributed IoV network raises challenges such as u
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint
+- id: cryptanalysis_of_the_2026_3
+  title: Cryptanalysis of the DIZY Stream Cipher with Provable Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1788
+  directions:
+  - lightweight
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'With the increasing deployment of resource-constrained devices in daily life, ultra-lightweight ciphers become
+    a necessity to tackle the security and privacy concerns in resource-constrained devices. '
+  status: pending_review
+  matched_keywords:
+  - lightweight cipher
+  - permutation
+  - lightweight
+  - LED
+  fetched_date: '2026-08-27'
+  source: eprint

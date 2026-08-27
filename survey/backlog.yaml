@@ -13,72 +13,7 @@ papers:
 
     However, this combination faces '
   heuristic_score: 17
-  added_date: '2026-08-26'
-  authors: []
-- id: lfsrs_and_boolean_2026
-  title: 'LFSRs and Boolean Masking: An In-depth Security Analysis'
-  url: https://eprint.iacr.org/2026/1614
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - linear cryptanalysis
-  - S-box
-  - LED
-  directions:
-  - linear
-  - sbox
-  summary: Masking is a widely adopted countermeasure to protect cryptographic implementations from side-channel attacks.
-    Subsequent research has focused on designing masking schemes and formally proving their s
-  heuristic_score: 16
-  added_date: '2026-08-26'
-  authors: []
-- id: theoretical_open_problems_2026
-  title: 'Theoretical Open Problems in Symmetric Cryptography: Verifiable LLM-Guided Analysis'
-  url: https://eprint.iacr.org/2026/1687
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - PRESENT
-  directions:
-  - milp_sat_cp
-  summary: We present the Pilot--Sailor Framework, an LLM-guided system for studying theoretical open problems in symmetric
-    cryptography. Pilot proposes intermediate statements and proof plans. Sailor attempts f
-  heuristic_score: 16
-  added_date: '2026-08-26'
-  authors: []
-- id: a_practical_optimization_2026
-  title: A Practical Optimization for Wiedemann XL
-  url: https://eprint.iacr.org/2026/1787
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - algebraic attack
-  directions:
-  - algebraic
-  summary: Wiedemann XL is a variant of the XL algorithm that has been widely used in algebraic attacks. Usually, the cost
-    of applying Widemann XL is estimated as 3N^2 ω, where N is the width of the Macaulay mat
-  heuristic_score: 15
-  added_date: '2026-08-26'
-  authors: []
-- id: revisiting_automated_quantum_2026
-  title: Revisiting Automated Quantum Periodic Distinguisher Construction
-  url: https://eprint.iacr.org/2026/1528
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - S-box
-  - diffusion
-  - SKINNY
-  - SIMON
-  - CRAFT
-  directions:
-  - linear_diffusion
-  - sbox
-  summary: Simon's algorithm can detect hidden XOR periods in functions derived from symmetric ciphers. Finding such functions
-    becomes difficult when nonlinear layers and diffusion spread the relevant expression
-  heuristic_score: 15
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: the_eprint20261591_quantum_2026
   title: The ePrint:2026/1591 Quantum Algorithm Does Not Solve DCP
@@ -92,7 +27,7 @@ papers:
   summary: In this note, we formally show that the recent algorithm by Simon (ePrint:2026/1591, August 11 2026) does not extract
     the least-significant bit of the dihedral coset problem (DCP) secret with non-negl
   heuristic_score: 12
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: rigorous_statements_and_2026
   title: Rigorous Statements and Proofs of the Lemmas in Simon's Algorithm for the Dihedral Coset Problem and Their Underlying
@@ -107,7 +42,7 @@ papers:
   summary: 'In a recent preprint, Simon proposed a polynomial-time quantum algorithm for the Dihedral Coset Problem and rested
     the analysis on four lemmas. Three of them carry only proof sketches, and this paper '
   heuristic_score: 12
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: ea_codes_approaching_2026
   title: EA Codes Approaching Singleton Bound (with Application to Field-Agnostic SNARKs)
@@ -122,7 +57,7 @@ papers:
   summary: SNARKs based on error-correcting codes require codes that simultaneously support fast encoding and large relative
     distance. Reed--Solomon codes achieve the optimal rate--distance tradeoff given by the
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: practical_zerotrust_threshold_2026
   title: Practical Zero-Trust Threshold Signatures in Large-Scale Asynchronous Networks
@@ -138,7 +73,7 @@ papers:
   summary: Threshold signatures are a fundamental primitive in applied cryptography, primarily used to mitigate the custodial
     risk involved in managing keys. However, existing constructions rely on synchronous c
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: distributed_vector_commitments_2026
   title: Distributed Vector Commitments and Their Applications
@@ -153,7 +88,7 @@ papers:
   summary: Vector commitment (VC) schemes enable a prover to commit to a vector and later open any position with a short proof.
     However, existing VC schemes are designed for centralized settings, and cannot work
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: isochronous_fixedweight_sampling_2026
   title: Isochronous Fixed-Weight Sampling in Hardware
@@ -170,7 +105,7 @@ papers:
 
     (CiC vol. 1, 2024) and apply them t'
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: privacypreserving_identity_management_2026
   title: 'Privacy-Preserving Identity Management and Software Bill of Materials Vulnerability Detection: Practical Use Cases
@@ -186,7 +121,7 @@ papers:
   summary: 'PRIVIDEMA project (Privacy-Preserving Identity Management for Digital Wallets and Secure Data Sharing and Processing
     for Cyber Threat Intelligence Data) advances the state of the art in cryptographic '
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: lamp_linear_verification_2026
   title: 'LAMP: Linear Verification of Matrix Multiplication via Proximity Testing'
@@ -202,7 +137,7 @@ papers:
   summary: Verifiable computation systems often need to prove large matrix multiplication statements, but a direct SNARK arithmetization
     of a \(k \times k\) product requires \(\mathcal{O}(k^3)\) constraints. Fre
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: zero_knowledge_barcode_2026
   title: Zero Knowledge Barcode Decoding with Application to Private Online Attribute Verification
@@ -218,7 +153,7 @@ papers:
   summary: Online attribute checking (e.g. proving age, residency) is increasingly common, yet standard implementations reveal
     far more personal information than necessary (e.g. all ID contents). Privacy-preserv
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: deepbrake_efficient_rowwise_2026
   title: 'DeepBrake: Efficient Row-Wise Reed-Solomon Commitments for Arbitrary Points'
@@ -234,7 +169,7 @@ papers:
 
     Its reliance on codes with small minimum distance forces the protocol to sample more columns to achieve soundne'
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: on_the_hardness_2026
   title: On the Hardness of some Vandermonde Knapsack problems
@@ -249,7 +184,7 @@ papers:
   summary: The Vandermonde Knapsack problem comprises a family of algebraic variants of the Knapsack problem. This includes
     the Partial Vandermonde $(\mathsf{PV})$ Knapsack problem (DCC’15, ACNS’14, ACISP’18, DC
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: borg_extendable_distributed_2026
   title: 'BORG: Extendable Distributed Vector Commitments from Reconfigurable Erasure Codes'
@@ -264,7 +199,7 @@ papers:
   summary: Updatable vector commitments let users store and authenticate values contained within an evolving data vector.
     Existing work on updatable vector commitments studies how clients can store only the valu
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: sok_confidential_transformer_2026
   title: 'SoK: Confidential Transformer Inference and Retrieval-Augmented Generation'
@@ -278,7 +213,7 @@ papers:
   summary: 'Running Transformer inference and retrieval-augmented generation (RAG) over confidential data forces a choice:
     either expose prompts and documents to a cloud operator, or keep the data on-premises, wh'
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: limber_low_overhead_2026
   title: 'Limber: Low Overhead SNARKs for Integers from Any PCS'
@@ -293,7 +228,7 @@ papers:
   summary: Non-native arithmetic is a key bottleneck in SNARK design. It introduces large overheads, and application designers
     often have to avoid it through the use of non-standard arithmetization friendly hash
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: criticalround_special_soundness_2026
   title: Critical-Round Special Soundness for Multi-Round Proofs
@@ -311,7 +246,7 @@ papers:
   summary: In this work, we revisit multi-round public-coin proof systems by enabling the use of their simulators and extractors
     within other cryptographic protocols. Although research on multi-round public-coin
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: quantum_advantage_for_2026
   title: Quantum Advantage for Two-Party Differential Privacy
@@ -325,7 +260,7 @@ papers:
   summary: We introduce information-theoretically private quantum protocols for two-party Hamming distance when both parties
     must output the same estimate. Classically, for input length $n$, information-theoreti
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: binaryspartan_spartan_over_2026
   title: 'BinarySpartan: Spartan over binary fields'
@@ -341,7 +276,7 @@ papers:
     linear polynomial commitment scheme. We instantiate Spartan over a binary field, using Ligerito as the commitment scheme
     along with'
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: echo_efficient_covertlysecure_2026
   title: 'ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning'
@@ -358,7 +293,7 @@ papers:
   summary: 'Secure three-party computation with an honest majority is among the most efficient secure computation settings
     and is widely used in practice. However, achieving malicious security incurs significant '
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: neutronnova_groupbased_folding_2026
   title: 'NeutronNova: Group-based folding done right'
@@ -375,7 +310,7 @@ papers:
   summary: A folding scheme reduces the task of checking multiple NP instances into checking a single instance, providing
     an efficient route to incrementally verifiable computation (IVC). We identify five desira
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: pairingbased_barg_for_2026
   title: Pairing-Based BARG for NP with Constant-Size Proofs and Applications
@@ -390,7 +325,7 @@ papers:
   summary: This paper presents a pairing-based non-interactive batch argument (BARG) for NP in the common reference string
     (CRS) model with constant-size proofs and constant-cost verification. Our construction i
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: efficient_private_set_2026
   title: Efficient Private Set Union from Multi-Query Oblivious Membership Transfer
@@ -404,7 +339,7 @@ papers:
   summary: 'Private Set Union (PSU) allows two parties to compute the union of their private sets while revealing nothing
     beyond the union. Existing PSU protocols mainly follow two paradigms: reverse private memb'
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: pilaf_fully_tight_2026
   title: 'Pilaf: Fully Tight Two-Round Threshold Signatures with Adaptive Corruptions'
@@ -419,7 +354,7 @@ papers:
   summary: "Threshold signatures are deployed in settings where an adversary may run many\n  concurrent signing sessions and\
     \ corrupt signers adaptively. Two-round schemes\n  make this especially delicate. Their fir"
   heuristic_score: 11
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: finding_dense_submodules_2026
   title: Finding Dense Submodules with Algebraic Lattice Reduction
@@ -434,7 +369,7 @@ papers:
   summary: "We prove an algebraic analogue of Pataki-Tural lemma (Pataki-Tural, arXiv:0804.4014, 2008) -- the main tool in\
     \ analysing the so-called overstretched regime of NTRU.\n    Our result generalizes this lem"
   heuristic_score: 9
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: shuffling_is_not_2026
   title: 'Shuffling is Not Enough: Breaking Permutation-Based Model Confidentiality in Hybrid FHE Inference'
@@ -452,22 +387,37 @@ papers:
   summary: Hybrid fully homomorphic encryption (FHE) inference improves the practicality of private inference by letting the
     server evaluate linear layers homomorphically while the client decrypts and applies no
   heuristic_score: 8
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
-- id: weakkey_classes_and_2026
-  title: Weak-Key Classes and Key Recovery in Key-Then-Hash Functions
-  url: https://eprint.iacr.org/2026/313
+- id: generalized_greedy_algorithms_2026
+  title: Generalized Greedy Algorithms for Synthesizing Low-depth CNOT Circuits
+  url: https://eprint.iacr.org/2026/1798
   source: eprint
   venue: ePrint
   matched_keywords:
-  - differential
-  - LED
+  - AES
+  - PRESENT
   directions:
   - differential
-  summary: 'Handschuh and Preneel define a weak-key class by “unexpected” security behavior and efficient detection of class
-    membership. Four families in their CRYPTO 2008 analysis, NH, NMH, WH, and Square Hash, '
-  heuristic_score: 8
-  added_date: '2026-08-26'
+  summary: A CNOT circuit is a quantum circuit where the only type of gate appeared in the circuit is the CNOT gate. Given
+    an n × n binary matrix which specifies the relationship between input and output, existi
+  heuristic_score: 6
+  added_date: '2026-08-27'
+  authors: []
+- id: exact_cvp_is_2026
+  title: Exact CVP Is NP-Complete for Principal Cyclotomic Ideals
+  url: https://eprint.iacr.org/2026/1793
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - invariant
+  - LED
+  directions:
+  - invariant
+  summary: We prove that exact Euclidean decision-CVP is $\mathsf{NP}$-complete on the coefficient lattices of nonzero principal
+    ideals in the power-of-two cyclotomic rings $R_d=\mathbb{Z}[y]/(y^d+1)$. A determi
+  heuristic_score: 6
+  added_date: '2026-08-27'
   authors: []
 - id: hover_higherorder_vanishing_2026
   title: 'HOVER: Higher-Order Vanishing Endomorphism Recovery'
@@ -482,7 +432,7 @@ papers:
   summary: Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was
     recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (
   heuristic_score: 6
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: an_attack_on_2026
   title: An Attack on High Rate McEliece Cryptosystems Using Generalized Reed Solomon Codes with Weight 2 Mask
@@ -496,7 +446,7 @@ papers:
   summary: Due to the insecurity of McEliece cryptosystems instantiated with Generalized Reed-Solomon codes, there have been
     several proposals of McEliece type systems that replace the permutation matrix by a ma
   heuristic_score: 6
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: vinet_connecting_the_2026
   title: 'ViNET: Connecting the Unconnected using Video over LTE'
@@ -510,22 +460,7 @@ papers:
   summary: Internet shutdowns are used authoritarian regimes to suppress communication that end up crippling essential Internet-driven
     services, besides the obvious silencing of dissent. Traditional tools like V
   heuristic_score: 6
-  added_date: '2026-08-26'
-  authors: []
-- id: sharmony_composing_sha2_2026
-  title: 'SHARMONY: Composing SHA-2 and SHA-3 Hardware for Crypto-Agile PQC'
-  url: https://eprint.iacr.org/2026/1572
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - permutation
-  - PRESENT
-  directions:
-  - permutation_layer
-  summary: Inspired by the concept of harmony, this work composes SHA-2 and SHA-3 into a unified hardware architecture, bringing
-    them together as a single, efficient cryptographic ensemble. This need is driven i
-  heuristic_score: 6
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: certified_in_theory_2026
   title: 'Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification'
@@ -542,21 +477,7 @@ papers:
   summary: 'Privacy-preserving machine learning auditing protocols allow auditors to assess models for properties such as
     accuracy or fairness, without revealing their internals or training data. This makes them '
   heuristic_score: 6
-  added_date: '2026-08-26'
-  authors: []
-- id: passive_fullkey_recovery_2026
-  title: Passive Full-Key Recovery for the MQOM v2 Lineage from Saltless Root Expansion
-  url: https://eprint.iacr.org/2026/1542
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - related key
-  directions:
-  - related_key
-  summary: MQOM v2 derives every correlated-GGM root from a fresh \(\lambda\)-bit master seed using a fixed PRG call with
-    zero salt. A public opening reveals either the corresponding root or its XOR with a fixed
-  heuristic_score: 6
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: structural_tightness_of_2026
   title: 'Structural Tightness of Quadratic Multi-Query Bounds for Universal Hashing: Applications to Accordion Modes'
@@ -573,7 +494,7 @@ papers:
   summary: 'Universal hashing gives a pairwise guarantee: for two distinct messages, the probability of any fixed keyed-hash
     output difference is at most $\varepsilon$.  Summing over the $\binom q2$ query pairs g'
   heuristic_score: 6
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: towards_aidriven_optimization_2026
   title: Towards AI-driven Optimization of Robust Probing Model-compliant Masked Hardware Gadgets Using Evolutionary Algorithms
@@ -591,7 +512,21 @@ papers:
 
     due to the overhead and design complexity of secure implementations.'
   heuristic_score: 6
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
+  authors: []
+- id: dime_queryefficient_framework_2026
+  title: 'DIME: Query-Efficient Framework for Membership Inference on Diffusion Models'
+  url: https://eprint.iacr.org/2026/1791
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - diffusion
+  directions:
+  - linear_diffusion
+  summary: 'Membership inference attacks expose whether individual records were used to train a model, yet existing attacks
+    on diffusion models are largely heuristic and can require substantial query budgets. We '
+  heuristic_score: 5
+  added_date: '2026-08-27'
   authors: []
 - id: efficient_additive_randomized_2026
   title: 'Efficient Additive Randomized Encodings for String Oblivious Transfer: A Core Primitive for General Functions'
@@ -606,21 +541,7 @@ papers:
   summary: 'Additive Randomized Encodings (AREs) provide a lightweight route to non-interactive secure computation: each party
     locally produces a randomized encoding of its input, and an evaluator learns only the'
   heuristic_score: 5
-  added_date: '2026-08-26'
-  authors: []
-- id: stebr_a_timederasure_2026
-  title: 'STEBR: A Timed-Erasure, Threshold-Gated Backup Ratchet'
-  url: https://eprint.iacr.org/2026/1513
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - AEAD
-  directions:
-  - aead
-  summary: 'The Signal Protocol’s Double Ratchet and X3DH/PQXDH handshakes give in-transit messages forward secrecy and post-compromise
-    security: compromising a session key does not expose past traffic, and the p'
-  heuristic_score: 5
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: auntie_unobservable_contracts_2026
   title: 'Auntie: Unobservable Contracts from Zerocash and Trusted Execution Environments'
@@ -634,7 +555,7 @@ papers:
   summary: Privacy-oriented cryptocurrencies like Zerocash only support direct payments and not the execution of more complex
     contracts. Bitcoin and Ethereum, on the other hand, cannot guarantee privacy, and usi
   heuristic_score: 5
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: aegon_selfauditable_key_2026
   title: 'Aegon: Self-Auditable Key Transparency'
@@ -649,7 +570,7 @@ papers:
   summary: 'Key transparency enables a centralized encrypted messaging provider to publicly commit to the public keys it distributes,
     allowing clients to detect potentially malicious keys.  Recent deployments by '
   heuristic_score: 5
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
 - id: deniability_for_signed_2026
   title: 'Deniability for Signed Credentials: Revisiting the Authenticated Channel vs. Signed Data Debate in the EUDI Wallet'
@@ -664,5 +585,5 @@ papers:
   summary: The European Digital Identity Wallet (EUDI Wallet) is currently adopting ECDSA-based signed credentials as part
     of its core architecture, which raised concerns that such designs inherently lack plausi
   heuristic_score: 5
-  added_date: '2026-08-26'
+  added_date: '2026-08-27'
   authors: []
