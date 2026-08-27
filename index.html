@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-08-26 01:47</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-08-27 08:52</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1831</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1841</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,15 +35,15 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1831</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1841</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">182</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">100</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">58</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">184</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">102</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">59</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">58</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
+  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">39</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">39</span></div>
-  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">38</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">36</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">26</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">23</span></div>
@@ -51,13 +51,13 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">966</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">971</span></div>
   <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">309</span></div>
   <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">205</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">80</span></div>
-  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">47</span></div>
+  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">49</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">40</span></div>
-  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">38</span></div>
+  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">39</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">31</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">23</span></div>
   <div class="dir-item" data-dir="related_key" onclick="filterDir('related_key')">相关密钥攻击 <span class="count">18</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1831 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1841 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -21724,6 +21724,138 @@ Internet of Things (IoT) populations remains difficult. Resource
 constrained devices may be unable to execute expensive multi
 party computation (M</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">不变量与子空间</span></div>
+</div>
+
+<div class="paper-card" data-id="hash_your_keys_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="hash your keys before signing: buff security of the additional nist pqc signatures   in this work, we analyze the so-called beyond unforgeability features (buff) security of the submissions to the current standardization process of additional signatures by nist. the buff notions forma">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2024/591" target="_blank">Hash your Keys before Signing: BUFF Security of the Additional NIST PQC Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work, we analyze the so-called Beyond UnForgeability Features (BUFF) security of the submissions to the current standardization process of additional signatures by NIST. The BUFF notions forma</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="generalized_greedy_algorithms_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="generalized greedy algorithms for synthesizing low-depth cnot circuits   a cnot circuit is a quantum circuit where the only type of gate appeared in the circuit is the cnot gate. given an n × n binary matrix which specifies the relationship between input and output, existi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1798" target="_blank">Generalized Greedy Algorithms for Synthesizing Low-depth CNOT Circuits</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A CNOT circuit is a quantum circuit where the only type of gate appeared in the circuit is the CNOT gate. Given an n × n binary matrix which specifies the relationship between input and output, existi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="udmac_efficiently_updatable_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="udmac: efficiently updatable message authentication codes   message authentication codes (mac) are ubiquitous and are considered to be the most important tool employed to ensure authenticity of messages in the symmetric key setting. in this work, we aim to emp">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1796" target="_blank">UdMAC: Efficiently Updatable Message Authentication Codes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Message authentication codes (MAC) are ubiquitous and are considered to be the most important tool employed to ensure authenticity of messages in the symmetric key setting. In this work, we aim to emp</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="ideal_secret_sharing_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="ideal secret sharing schemes over small domains   in any secret sharing scheme, the size of each share must be at least as large as the size of the secret. schemes that attain this lower bound are called $k$-ideal, where $k$ is the size of the domain">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1794" target="_blank">Ideal Secret Sharing Schemes over Small Domains</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In any secret sharing scheme, the size of each share must be at least as large as the size of the secret. Schemes that attain this lower bound are called $k$-ideal, where $k$ is the size of the domain</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="exact_cvp_is_2026" data-dirs="invariant"
+     data-year="2026" data-significance="medium"
+     data-search="exact cvp is np-complete for principal cyclotomic ideals   we prove that exact euclidean decision-cvp is $\mathsf{np}$-complete on the coefficient lattices of nonzero principal ideals in the power-of-two cyclotomic rings $r_d=\mathbb{z}[y]/(y^d+1)$. a determi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1793" target="_blank">Exact CVP Is NP-Complete for Principal Cyclotomic Ideals</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We prove that exact Euclidean decision-CVP is $\mathsf{NP}$-complete on the coefficient lattices of nonzero principal ideals in the power-of-two cyclotomic rings $R_d=\mathbb{Z}[y]/(y^d+1)$. A determi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">不变量与子空间</span></div>
+</div>
+
+<div class="paper-card" data-id="beyond_linear_subspace_2026" data-dirs="sbox,algebraic,invariant,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="beyond linear subspace trails: nonlinear subspaces for gr\&quot;obner basis attacks on poseidon/poseidon2 and neptune   poseidon/poseidon2 and neptune are prominent primitives for zero-knowledge proof systems.
+their arithmetic circuit cost is reduced mainly through partial s-box layers and low-degree finite field opera">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1792" target="_blank">Beyond Linear Subspace Trails: Nonlinear Subspaces for Gr\&quot;obner Basis Attacks on Poseidon/Poseidon2 and Neptune</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Poseidon/Poseidon2 and Neptune are prominent primitives for zero-knowledge proof systems.
+Their arithmetic circuit cost is reduced mainly through partial S-box layers and low-degree finite field opera</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span><span class="tag tag-direction">代数攻击</span><span class="tag tag-direction">不变量与子空间</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="dime_queryefficient_framework_2026" data-dirs="linear_diffusion"
+     data-year="2026" data-significance="medium"
+     data-search="dime: query-efficient framework for membership inference on diffusion models   membership inference attacks expose whether individual records were used to train a model, yet existing attacks on diffusion models are largely heuristic and can require substantial query budgets. we">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1791" target="_blank">DIME: Query-Efficient Framework for Membership Inference on Diffusion Models</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Membership inference attacks expose whether individual records were used to train a model, yet existing attacks on diffusion models are largely heuristic and can require substantial query budgets. We</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">线性扩散层</span></div>
+</div>
+
+<div class="paper-card" data-id="lithium_making_iterative_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="lithium: making iterative rejection sampling practical for compact lattice signatures   post-quantum deployments need signatures that are both fast and small. ml-dsa gives a practical fiat-shamir lattice-signature baseline, but its signatures remain large enough to make bandwidth, certif">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1790" target="_blank">Lithium: Making Iterative Rejection Sampling Practical for Compact Lattice Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Post-quantum deployments need signatures that are both fast and small. ML-DSA gives a practical Fiat-Shamir lattice-signature baseline, but its signatures remain large enough to make bandwidth, certif</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="hrfpre_fast_proxy_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="hrfpre: fast proxy re-encryption for multi-rsu outsourcing and hardware-assisted revocation in the iov.   in the internet of vehicles (iov), content-centric data sharing is essential for driving safety and user experience. however, the highly dynamic and distributed iov network raises challenges such as u">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1789" target="_blank">HRFPRE: Fast Proxy Re-encryption for Multi-RSU Outsourcing and Hardware-assisted Revocation in the IoV.</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In the Internet of Vehicles (IoV), content-centric data sharing is essential for driving safety and user experience. However, the highly dynamic and distributed IoV network raises challenges such as u</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="cryptanalysis_of_the_2026_3" data-dirs="lightweight,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="cryptanalysis of the dizy stream cipher with provable security   with the increasing deployment of resource-constrained devices in daily life, ultra-lightweight ciphers become a necessity to tackle the security and privacy concerns in resource-constrained devices.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1788" target="_blank">Cryptanalysis of the DIZY Stream Cipher with Provable Security</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">With the increasing deployment of resource-constrained devices in daily life, ultra-lightweight ciphers become a necessity to tackle the security and privacy concerns in resource-constrained devices.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">置换层</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"

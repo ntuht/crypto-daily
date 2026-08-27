@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-27</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-27</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-27</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-27 08:52</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 53 篇 → 启发式 48 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Cryptanalysis of the DIZY Stream Cipher with Provable Security](https://eprint.iacr.org/2026/1788)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1788.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着资源受限设备日益普及，超轻量级密码成为解决其安全和隐私问题的关键需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文对DIZY流密码进行了密码分析，揭示了其在特定条件下的安全漏洞，并可能挑战了其声称的可证明安全性。研究通过具体攻击方法量化了DIZY流密码的安全性，指出了其在实际应用中可能存在的风险。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为超轻量级密码的设计和评估提供了重要参考，有助于提升资源受限设备的安全保障。</p>
+
+<hr>
+
+<h3>2. [LFSRs and Boolean Masking: An In-depth Security Analysis](https://eprint.iacr.org/2026/1614)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1614.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：掩码技术是保护密码实现免受侧信道攻击的常用对策，其设计和安全性证明是当前研究焦点。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文深入分析了基于线性反馈移位寄存器（LFSR）的布尔掩码方案的安全性。研究可能揭示了现有方案的潜在弱点，或提出了新的分析方法来评估其抗侧信道攻击的能力，从而提供更全面的安全视角。</p>
+
+<p>🎯 <strong>意义</strong>：这有助于改进基于LFSR的掩码方案设计，提升密码实现对侧信道攻击的抵抗力。</p>
+
+<hr>
+
+<h3>3. [Theoretical Open Problems in Symmetric Cryptography: Verifiable LLM-Guided Analysis](https://eprint.iacr.org/2026/1687)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1687.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：对称密码学领域存在许多复杂的理论开放问题，其解决需要深入的专业知识和严谨的推理。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一个名为“Pilot-Sailor”的LLM（大型语言模型）引导框架，用于研究对称密码学中的理论开放问题。Pilot模块负责提出中间陈述和证明计划，而Sailor模块则尝试形式化证明这些陈述，从而辅助研究人员探索和解决难题。</p>
+
+<p>🎯 <strong>意义</strong>：该框架为利用AI技术解决密码学理论难题开辟了新途径，有望加速密码学研究的进展。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1528" target="_blank">Revisiting Automated Quantum Periodic Distinguisher Construction</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1528.pdf)</p>
+
+<blockquote>
+<p>本文重新探讨了利用Simon算法自动化构建量子周期区分器的方法，尤其关注在非线性函数中发现隐藏XOR周期所面临的挑战。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1513" target="_blank">STEBR: A Timed-Erasure, Threshold-Gated Backup Ratchet</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1513.pdf)</p>
+
+<blockquote>
+<p>本文提出了STEBR协议，这是一种结合了定时擦除和阈值门控机制的备份棘轮，旨在增强Signal协议等消息传输的安全性，提供前向保密和妥协后安全。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1787" target="_blank">A Practical Optimization for Wiedemann XL</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1787.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种针对Wiedemann XL算法的实用优化方法，旨在降低其在代数攻击中的计算成本，提高攻击效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1792" target="_blank">Beyond Linear Subspace Trails: Nonlinear Subspaces for Gr\"obner Basis Attacks on Poseidon/Poseidon2 and Neptune</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1792.pdf)</p>
+
+<blockquote>
+<p>本文超越了线性子空间轨迹，引入非线性子空间概念，用于对Poseidon/Poseidon2和Neptune等零知识证明原语进行Gröbner基攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/313" target="_blank">Weak-Key Classes and Key Recovery in Key-Then-Hash Functions</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/313.pdf)</p>
+
+<blockquote>
+<p>本文研究了“密钥-然后-哈希”函数中的弱密钥类和密钥恢复问题，旨在识别和分析具有“意外”安全行为的密钥类别。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1572" target="_blank">SHARMONY: Composing SHA-2 and SHA-3 Hardware for Crypto-Agile PQC</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1572.pdf)</p>
+
+<blockquote>
+<p>SHARMONY提出了一种统一的硬件架构，将SHA-2和SHA-3组合在一起，旨在实现密码敏捷的后量子密码学（PQC）硬件加速。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1542" target="_blank">Passive Full-Key Recovery for the MQOM v2 Lineage from Saltless Root Expansion</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1542.pdf)</p>
+
+<blockquote>
+<p>本文揭示了MQOM v2系列中，通过无盐根扩展可实现被动全密钥恢复攻击，利用公共开启信息恢复主种子。</p>
+</blockquote>
+
+<p><em>精选自 53 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
