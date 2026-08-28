@@ -33443,3 +33443,426 @@ papers:
   - LED
   fetched_date: '2026-08-27'
   source: eprint
+- id: olingo_threshold_lattice_2026
+  title: 'Olingo: Threshold Lattice Signatures with DKG and Identifiable Abort'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1789
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'We present Olingo, a framework for threshold lattice signatures that is the first to offer all desired properties
+    for real-world implementations of quantum-secure threshold signatures: small keys and '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: pikkufold_efficient_folding_2026
+  title: 'PikkuFold: Efficient Folding in a Few Kilobytes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1809
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Folding is a powerful technique for constructing efficient succinct proof systems, especially for computations\
+    \ that are expressed in a streaming fashion.\n  We present PikkuFold, a new lattice-based fo"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: efficient_soft_analytical_2026
+  title: Efficient Soft Analytical Side-Channel Attacks on Large-Scale Cryptographic Computations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1811
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Soft Analytical Side-Channel Attacks (SASCA) combine leakage-derived priors from multiple intermediate variables
+    with their functional dependencies through belief propagation (BP).However, when applyi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: hypersolver_asymptotically_and_2026
+  title: 'HyperSolver: Asymptotically and Concretely Accelerating the Delfs–Galbraith Attack using Isogeny Ladders'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1823
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a new variant of the memoryless Delfs-Galbraith algorithm for finding an isogeny path from any given
+    supersingular elliptic curve to a curve with known endomorphism ring. Through existing p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: achieving_vcca_security_2026
+  title: Achieving vCCA security from the linear-only homomorphism assumption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/894
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: In the wake of Manulis and Nguyen's Eurocrypt'24 paper, new CCA security notions, vCCA and vCCAD, and associated
+    construction blueprints have been proposed to leverage either CPA or CPAD secure FHE be
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: nonmalleable_reductions_of_2026
+  title: Non-Malleable Reductions of Knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1822
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Non-malleability for non-interactive zero-knowledge proofs requires that, given a proof for a statement, it is
+    infeasible to derive a valid proof for a related statement without knowing a correspondin
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: practical_silent_threshold_2026
+  title: Practical Silent Threshold Signatures and Silent Threshold Encryption for Dynamic Committees
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1820
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Silent threshold signatures (STS) and encryption (STE) enable threshold cryptography without interactive distributed
+    key generation, allowing a group of $N$ parties to non-interactively generate a joi
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: alfoms_and_the_2026
+  title: 'ALFOMs and the Moirai: Quantifying the Performance/Security Tradeoff for ZK-friendly Hash Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1920
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Zero-Knowledge (ZK) protocols rely internally on hash functions for their security arguments. However, the hash
+    functions that are the most efficient in this context differ substantially from e.g. SHA
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: blood_meridian_a_2026
+  title: 'Blood MERIDIAN: a blockcipher that is not a blockcipher'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1818
+  directions:
+  - differential
+  - lightweight
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: MERIDIAN is a 128-bit blockcipher proposed as a lightweight AES alternative. We show that its “Directional Substitution”
+    layer is not injective by giving an explicit collision. This yields a full 12-r
+  status: pending_review
+  matched_keywords:
+  - differential
+  - permutation
+  - lightweight
+  - AES
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: secure_auctions_in_2026
+  title: Secure Auctions in the Presence of Rational Adversaries
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/1541
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Sealed bid auctions are used to allocate a resource among a set of interested parties. Traditionally, auctions
+    need the presence of a trusted auctioneer to whom the bidders provide their private bid v
+  status: pending_review
+  matched_keywords:
+  - LED
+  - CRAFT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: atlas_automated_approximation_2026
+  title: 'ATLAS: Automated Approximation of Transformers for Efficient Homomorphic Inference in One Hour'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1817
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) lets a server run inference on encrypted data with strong privacy guarantees,
+    but running a Transformer under FHE is expensive. Its non-linear operations, such as so
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: novel_smt_encoding_2026
+  title: Novel SMT Encoding for Quantum Circuit Optimization
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1815
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: In recent years, quantum circuit optimization has become an important research topic. Motivated by the fact that
+    quantum gates act on fixed physical wires and modify only their target wires, we propos
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - Ascon
+  - Midori
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: letopir_fast_keyword_2026
+  title: 'LetoPIR: Fast Keyword Private Information Retrieval with Logarithmic Communication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1814
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Keyword private information retrieval (PIR) allows a client to retrieve a record associated with a keyword from
+    a database without revealing any information about the keyword.
+
+    In the standard single-s'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: atom_singleserver_private_2026
+  title: 'Atom: Single-Server Private Information Retrieval with Low Communication and Fast Computation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1813
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private information retrieval (PIR) enables a client to retrieve a record without revealing the index.Among existing
+    PIR protocols with database-independent preprocessing, for each query, the protocol
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: an_algebraicgeometry_lower_2026
+  title: An Algebraic-Geometry Lower Bound against the ePrint:2026/1747 McEliece Key-Recovery Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1810
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A few weeks ago, Ghoshal, Ishai, Jain, and Sun (ePrint:2026/1630) introduced a "hold-out distinguisher" for the
+    Goppa–McEliece public key. This past week, Vedenev (eprint:2026/1747) proposed to turn i
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: crosssignature_signingkey_recovery_2026
+  title: Cross-Signature Signing-Key Recovery and Domain-Separation Repair for SDitH v2
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1808
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We give the first cross-signature signing-key recovery attack on SDitH v2 from public chosen-message transcripts.
+    Each hidden VOLE leaf exposes a commitment and a public endpoint $A=\mathsf{wit}\oplus
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AES
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: a_6_4_2026
+  title: A (6, 4) Vectorial Boolean Function With Nonlinearity 26 and the Maximum Nonlinearity for Six-Bit Permutations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1807
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: When the output dimension of a vectorial Boolean function exceeds half its input dimension, not all nonzero components
+    can be bent. The best attainable componentwise nonlinearity in this range, howeve
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: practical_differential_fault_2026
+  title: Practical Differential Fault Attacks on the GPRS Standard Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1806
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: GEA-1 and GEA-2 are two standard stream ciphers used in GPRS (General Packet Radio Service) to protect against
+    eavesdropping GPRS between the base station and the phone. Now, a range of current phones
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: dealing_haystack_towards_2026
+  title: 'Dealing Haystack: Towards Trustless Haystack in the Optimistic Setting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1804
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Hash-based constructions occupy a distinctive position among post-quantum signatures: their security reduces to
+    well-tested properties of hash functions rather than to newer assumptions such as lattic'
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: adaptive_multialgorithm_key_2026
+  title: 'Adaptive Multi-Algorithm Key Exchange for Quantum-Resilient Secure Communication: Dynamic Switching among QKD, Post-Quantum,
+    and Classical Key Establishment with Entropy Fusion'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1803
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: With the arrival of scalable quantum computers, classical key exchange protocols like RSA, elliptic-curve and finite-field
+    Diffie-Hellman are vulnerable to harvest-now-decrypt-later attacks. Quantum k
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: verif_an_efficient_2026
+  title: 'VERIF: An Efficient Zero-Knowledge Proof System for Verifying IVF-Flat Retrieval in RAG Services'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1802
+  directions:
+  - meet_in_the_middle
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Retrieval-augmented generation (RAG) services outsource vector search over proprietary corpora, yet clients cannot
+    verify that returned context conforms to the promised index, parameters, and snapshot
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: separating_quantum_indistinguishability_2026
+  title: Separating Quantum Indistinguishability Obfuscation from Falsifiable Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1800
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum indistinguishability obfuscation (qIO) aims to make a quantum circuit unintelligible while preserving its
+    functionality. It serves as a foundational primitive for advanced applications, such a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
+- id: two_constructions_of_2026
+  title: Two Constructions of Rotation-Symmetric Bent Functions Outside the Completed Maiorana--McFarland Class with Any Possible
+    Algebraic Degree
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1799
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Rotation-symmetric Boolean functions form an important class of cryptographically significant Boolean functions.
+    In 2017, Su and Tang proposed in [IEEE TIT 63(7): 4658–4667, 2017] an infinite class of'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-28'
+  source: eprint
