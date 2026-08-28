@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-08-27 08:52</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-08-28 11:04</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1841</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1864</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,11 +35,11 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1841</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1864</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">184</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">102</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">59</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">187</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">105</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">60</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">58</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">39</span></div>
@@ -51,13 +51,13 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">971</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">309</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">205</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">984</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">310</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">210</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">80</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">49</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">40</span></div>
-  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">39</span></div>
+  <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">40</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">31</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">23</span></div>
   <div class="dir-item" data-dir="related_key" onclick="filterDir('related_key')">相关密钥攻击 <span class="count">18</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1841 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1864 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -21856,6 +21856,309 @@ Their arithmetic circuit cost is reduced mainly through partial S-box layers and
   <div class="paper-authors"></div>
   <div class="paper-summary">With the increasing deployment of resource-constrained devices in daily life, ultra-lightweight ciphers become a necessity to tackle the security and privacy concerns in resource-constrained devices.</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="olingo_threshold_lattice_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="olingo: threshold lattice signatures with dkg and identifiable abort   we present olingo, a framework for threshold lattice signatures that is the first to offer all desired properties for real-world implementations of quantum-secure threshold signatures: small keys and">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1789" target="_blank">Olingo: Threshold Lattice Signatures with DKG and Identifiable Abort</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present Olingo, a framework for threshold lattice signatures that is the first to offer all desired properties for real-world implementations of quantum-secure threshold signatures: small keys and</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="pikkufold_efficient_folding_2026" data-dirs="milp_sat_cp,meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="pikkufold: efficient folding in a few kilobytes   folding is a powerful technique for constructing efficient succinct proof systems, especially for computations that are expressed in a streaming fashion.
+  we present pikkufold, a new lattice-based fo">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1809" target="_blank">PikkuFold: Efficient Folding in a Few Kilobytes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Folding is a powerful technique for constructing efficient succinct proof systems, especially for computations that are expressed in a streaming fashion.
+  We present PikkuFold, a new lattice-based fo</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_soft_analytical_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="efficient soft analytical side-channel attacks on large-scale cryptographic computations   soft analytical side-channel attacks (sasca) combine leakage-derived priors from multiple intermediate variables with their functional dependencies through belief propagation (bp).however, when applyi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1811" target="_blank">Efficient Soft Analytical Side-Channel Attacks on Large-Scale Cryptographic Computations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Soft Analytical Side-Channel Attacks (SASCA) combine leakage-derived priors from multiple intermediate variables with their functional dependencies through belief propagation (BP).However, when applyi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="hypersolver_asymptotically_and_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="hypersolver: asymptotically and concretely accelerating the delfs–galbraith attack using isogeny ladders   we present a new variant of the memoryless delfs-galbraith algorithm for finding an isogeny path from any given supersingular elliptic curve to a curve with known endomorphism ring. through existing p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1823" target="_blank">HyperSolver: Asymptotically and Concretely Accelerating the Delfs–Galbraith Attack using Isogeny Ladders</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a new variant of the memoryless Delfs-Galbraith algorithm for finding an isogeny path from any given supersingular elliptic curve to a curve with known endomorphism ring. Through existing p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="achieving_vcca_security_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="achieving vcca security from the linear-only homomorphism assumption   in the wake of manulis and nguyen&#x27;s eurocrypt&#x27;24 paper, new cca security notions, vcca and vccad, and associated construction blueprints have been proposed to leverage either cpa or cpad secure fhe be">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/894" target="_blank">Achieving vCCA security from the linear-only homomorphism assumption</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In the wake of Manulis and Nguyen&#x27;s Eurocrypt&#x27;24 paper, new CCA security notions, vCCA and vCCAD, and associated construction blueprints have been proposed to leverage either CPA or CPAD secure FHE be</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="nonmalleable_reductions_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="non-malleable reductions of knowledge   non-malleability for non-interactive zero-knowledge proofs requires that, given a proof for a statement, it is infeasible to derive a valid proof for a related statement without knowing a correspondin">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1822" target="_blank">Non-Malleable Reductions of Knowledge</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Non-malleability for non-interactive zero-knowledge proofs requires that, given a proof for a statement, it is infeasible to derive a valid proof for a related statement without knowing a correspondin</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="practical_silent_threshold_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="practical silent threshold signatures and silent threshold encryption for dynamic committees   silent threshold signatures (sts) and encryption (ste) enable threshold cryptography without interactive distributed key generation, allowing a group of $n$ parties to non-interactively generate a joi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1820" target="_blank">Practical Silent Threshold Signatures and Silent Threshold Encryption for Dynamic Committees</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Silent threshold signatures (STS) and encryption (STE) enable threshold cryptography without interactive distributed key generation, allowing a group of $N$ parties to non-interactively generate a joi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="alfoms_and_the_2026" data-dirs="algebraic"
+     data-year="2026" data-significance="medium"
+     data-search="alfoms and the moirai: quantifying the performance/security tradeoff for zk-friendly hash functions   zero-knowledge (zk) protocols rely internally on hash functions for their security arguments. however, the hash functions that are the most efficient in this context differ substantially from e.g. sha">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1920" target="_blank">ALFOMs and the Moirai: Quantifying the Performance/Security Tradeoff for ZK-friendly Hash Functions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Zero-Knowledge (ZK) protocols rely internally on hash functions for their security arguments. However, the hash functions that are the most efficient in this context differ substantially from e.g. SHA</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">代数攻击</span></div>
+</div>
+
+<div class="paper-card" data-id="blood_meridian_a_2026" data-dirs="differential,lightweight,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="blood meridian: a blockcipher that is not a blockcipher   meridian is a 128-bit blockcipher proposed as a lightweight aes alternative. we show that its “directional substitution” layer is not injective by giving an explicit collision. this yields a full 12-r">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1818" target="_blank">Blood MERIDIAN: a blockcipher that is not a blockcipher</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">MERIDIAN is a 128-bit blockcipher proposed as a lightweight AES alternative. We show that its “Directional Substitution” layer is not injective by giving an explicit collision. This yields a full 12-r</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">轻量级密码综合</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="secure_auctions_in_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="secure auctions in the presence of rational adversaries   sealed bid auctions are used to allocate a resource among a set of interested parties. traditionally, auctions need the presence of a trusted auctioneer to whom the bidders provide their private bid v">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2022/1541" target="_blank">Secure Auctions in the Presence of Rational Adversaries</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Sealed bid auctions are used to allocate a resource among a set of interested parties. Traditionally, auctions need the presence of a trusted auctioneer to whom the bidders provide their private bid v</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="atlas_automated_approximation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="atlas: automated approximation of transformers for efficient homomorphic inference in one hour   fully homomorphic encryption (fhe) lets a server run inference on encrypted data with strong privacy guarantees, but running a transformer under fhe is expensive. its non-linear operations, such as so">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1817" target="_blank">ATLAS: Automated Approximation of Transformers for Efficient Homomorphic Inference in One Hour</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fully homomorphic encryption (FHE) lets a server run inference on encrypted data with strong privacy guarantees, but running a Transformer under FHE is expensive. Its non-linear operations, such as so</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="novel_smt_encoding_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="novel smt encoding for quantum circuit optimization   in recent years, quantum circuit optimization has become an important research topic. motivated by the fact that quantum gates act on fixed physical wires and modify only their target wires, we propos">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1815" target="_blank">Novel SMT Encoding for Quantum Circuit Optimization</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In recent years, quantum circuit optimization has become an important research topic. Motivated by the fact that quantum gates act on fixed physical wires and modify only their target wires, we propos</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="letopir_fast_keyword_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="letopir: fast keyword private information retrieval with logarithmic communication   keyword private information retrieval (pir) allows a client to retrieve a record associated with a keyword from a database without revealing any information about the keyword.
+in the standard single-s">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1814" target="_blank">LetoPIR: Fast Keyword Private Information Retrieval with Logarithmic Communication</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Keyword private information retrieval (PIR) allows a client to retrieve a record associated with a keyword from a database without revealing any information about the keyword.
+In the standard single-s</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="atom_singleserver_private_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="atom: single-server private information retrieval with low communication and fast computation   private information retrieval (pir) enables a client to retrieve a record without revealing the index.among existing pir protocols with database-independent preprocessing, for each query, the protocol">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1813" target="_blank">Atom: Single-Server Private Information Retrieval with Low Communication and Fast Computation</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Private information retrieval (PIR) enables a client to retrieve a record without revealing the index.Among existing PIR protocols with database-independent preprocessing, for each query, the protocol</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="an_algebraicgeometry_lower_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="an algebraic-geometry lower bound against the eprint:2026/1747 mceliece key-recovery attack   a few weeks ago, ghoshal, ishai, jain, and sun (eprint:2026/1630) introduced a &quot;hold-out distinguisher&quot; for the goppa–mceliece public key. this past week, vedenev (eprint:2026/1747) proposed to turn i">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1810" target="_blank">An Algebraic-Geometry Lower Bound against the ePrint:2026/1747 McEliece Key-Recovery Attack</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">A few weeks ago, Ghoshal, Ishai, Jain, and Sun (ePrint:2026/1630) introduced a &quot;hold-out distinguisher&quot; for the Goppa–McEliece public key. This past week, Vedenev (eprint:2026/1747) proposed to turn i</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="crosssignature_signingkey_recovery_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="cross-signature signing-key recovery and domain-separation repair for sdith v2   we give the first cross-signature signing-key recovery attack on sdith v2 from public chosen-message transcripts. each hidden vole leaf exposes a commitment and a public endpoint $a=\mathsf{wit}\oplus">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1808" target="_blank">Cross-Signature Signing-Key Recovery and Domain-Separation Repair for SDitH v2</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We give the first cross-signature signing-key recovery attack on SDitH v2 from public chosen-message transcripts. Each hidden VOLE leaf exposes a commitment and a public endpoint $A=\mathsf{wit}\oplus</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="a_6_4_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="a (6, 4) vectorial boolean function with nonlinearity 26 and the maximum nonlinearity for six-bit permutations   when the output dimension of a vectorial boolean function exceeds half its input dimension, not all nonzero components can be bent. the best attainable componentwise nonlinearity in this range, howeve">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1807" target="_blank">A (6, 4) Vectorial Boolean Function With Nonlinearity 26 and the Maximum Nonlinearity for Six-Bit Permutations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">When the output dimension of a vectorial Boolean function exceeds half its input dimension, not all nonzero components can be bent. The best attainable componentwise nonlinearity in this range, howeve</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="practical_differential_fault_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="practical differential fault attacks on the gprs standard ciphers   gea-1 and gea-2 are two standard stream ciphers used in gprs (general packet radio service) to protect against eavesdropping gprs between the base station and the phone. now, a range of current phones">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1806" target="_blank">Practical Differential Fault Attacks on the GPRS Standard Ciphers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">GEA-1 and GEA-2 are two standard stream ciphers used in GPRS (General Packet Radio Service) to protect against eavesdropping GPRS between the base station and the phone. Now, a range of current phones</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="dealing_haystack_towards_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="dealing haystack: towards trustless haystack in the optimistic setting   hash-based constructions occupy a distinctive position among post-quantum signatures: their security reduces to well-tested properties of hash functions rather than to newer assumptions such as lattic">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1804" target="_blank">Dealing Haystack: Towards Trustless Haystack in the Optimistic Setting</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Hash-based constructions occupy a distinctive position among post-quantum signatures: their security reduces to well-tested properties of hash functions rather than to newer assumptions such as lattic</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="adaptive_multialgorithm_key_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="adaptive multi-algorithm key exchange for quantum-resilient secure communication: dynamic switching among qkd, post-quantum, and classical key establishment with entropy fusion   with the arrival of scalable quantum computers, classical key exchange protocols like rsa, elliptic-curve and finite-field diffie-hellman are vulnerable to harvest-now-decrypt-later attacks. quantum k">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1803" target="_blank">Adaptive Multi-Algorithm Key Exchange for Quantum-Resilient Secure Communication: Dynamic Switching among QKD, Post-Quantum, and Classical Key Establishment with Entropy Fusion</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">With the arrival of scalable quantum computers, classical key exchange protocols like RSA, elliptic-curve and finite-field Diffie-Hellman are vulnerable to harvest-now-decrypt-later attacks. Quantum k</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="verif_an_efficient_2026" data-dirs="meet_in_the_middle,permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="verif: an efficient zero-knowledge proof system for verifying ivf-flat retrieval in rag services   retrieval-augmented generation (rag) services outsource vector search over proprietary corpora, yet clients cannot verify that returned context conforms to the promised index, parameters, and snapshot">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1802" target="_blank">VERIF: An Efficient Zero-Knowledge Proof System for Verifying IVF-Flat Retrieval in RAG Services</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Retrieval-augmented generation (RAG) services outsource vector search over proprietary corpora, yet clients cannot verify that returned context conforms to the promised index, parameters, and snapshot</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="separating_quantum_indistinguishability_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="separating quantum indistinguishability obfuscation from falsifiable assumptions   quantum indistinguishability obfuscation (qio) aims to make a quantum circuit unintelligible while preserving its functionality. it serves as a foundational primitive for advanced applications, such a">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1800" target="_blank">Separating Quantum Indistinguishability Obfuscation from Falsifiable Assumptions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Quantum indistinguishability obfuscation (qIO) aims to make a quantum circuit unintelligible while preserving its functionality. It serves as a foundational primitive for advanced applications, such a</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="two_constructions_of_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="two constructions of rotation-symmetric bent functions outside the completed maiorana--mcfarland class with any possible algebraic degree   rotation-symmetric boolean functions form an important class of cryptographically significant boolean functions. in 2017, su and tang proposed in [ieee tit 63(7): 4658–4667, 2017] an infinite class of">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1799" target="_blank">Two Constructions of Rotation-Symmetric Bent Functions Outside the Completed Maiorana--McFarland Class with Any Possible Algebraic Degree</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Rotation-symmetric Boolean functions form an important class of cryptographically significant Boolean functions. In 2017, Su and Tang proposed in [IEEE TIT 63(7): 4658–4667, 2017] an infinite class of</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"

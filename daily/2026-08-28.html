@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-28</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-28</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-28</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-28 11:04</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 61 篇 → 启发式 47 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Blood MERIDIAN: a blockcipher that is not a blockcipher](https://eprint.iacr.org/2026/1818)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1818.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：MERIDIAN是一种被提议作为轻量级AES替代方案的128位块密码，旨在提供高效的加密性能。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文通过构造一个显式碰撞，揭示了MERIDIAN密码中“定向替换”（Directional Substitution）层并非单射函数，这意味着该层存在输入不同但输出相同的情况。这一发现直接导致了对该密码完整12轮的攻击，证明其核心设计存在缺陷。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究揭示了MERIDIAN块密码设计中的根本性缺陷，对其作为安全轻量级密码的适用性提出了严重质疑。</p>
+
+<hr>
+
+<h3>2. [Practical Differential Fault Attacks on the GPRS Standard Ciphers](https://eprint.iacr.org/2026/1806)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1806.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：GEA-1和GEA-2是GPRS（通用分组无线服务）通信中用于保护基站与手机之间数据传输的两种标准流密码，旨在防止窃听。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文研究了针对GEA-1和GEA-2流密码的差分故障攻击，这是一种通过在密码运算过程中引入受控故障来泄露密钥信息的侧信道攻击技术。研究表明，即使在当前手机设备上，这种攻击也是可行的，能够实际地提取出加密密钥，从而危及通信安全。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作突出了GPRS标准密码在实际部署中存在的安全漏洞，对移动通信安全具有重要警示意义。</p>
+
+<hr>
+
+<h3>3. [ALFOMs and the Moirai: Quantifying the Performance/Security Tradeoff for ZK-friendly Hash Functions](https://eprint.iacr.org/2025/1920)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2025/1920.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：零知识（ZK）协议的安全性严重依赖于其内部使用的哈希函数，但这些哈希函数在效率上与传统哈希函数（如SHA系列）存在显著差异。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了ALFOMs和Moirai等新概念，旨在量化专门为零知识证明优化的哈希函数在性能和安全性之间的权衡关系。研究分析了这些哈希函数在ZK协议上下文中的独特需求和特性，并提出了评估其平衡点的框架，以指导实际应用中的选择。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为设计和选择适用于零知识协议的哈希函数提供了理论工具和量化方法，有助于在实际应用中实现最佳的性能与安全平衡。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1799" target="_blank">Two Constructions of Rotation-Symmetric Bent Functions Outside the Completed Maiorana--McFarland Class with Any Possible Algebraic Degree</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1799.pdf)</p>
+
+<blockquote>
+<p>本文提出了两种构造旋转对称Bent函数的新方法，这些函数不属于已完成的Maiorana--McFarland类，并能实现任意可能的代数次数，对密码学布尔函数研究具有重要意义。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/314" target="_blank">Structural Tightness of Quadratic Multi-Query Bounds for Universal Hashing: Applications to Accordion Modes</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/314.pdf)</p>
+
+<blockquote>
+<p>本文研究了通用哈希中二次多查询界限的结构紧密性，并将其应用于手风琴模式（Accordion Modes），为理解和优化哈希函数的安全性能提供了理论基础。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/1190" target="_blank">Towards AI-driven Optimization of Robust Probing Model-compliant Masked Hardware Gadgets Using Evolutionary Algorithms</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/1190.pdf)</p>
+
+<blockquote>
+<p>本文探索使用进化算法实现AI驱动的优化，以设计符合鲁棒探测模型（Robust Probing Model）的掩码硬件小工具，旨在降低侧信道攻击防护的成本和复杂性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1815" target="_blank">Novel SMT Encoding for Quantum Circuit Optimization</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1815.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种新颖的SMT（Satisfiability Modulo Theories）编码方法，用于量子电路优化，旨在提高量子计算的效率和性能。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1785" target="_blank">The Power of Rerandomization in Obfustopia: Collision-Resistant Hash, Somewhere-Extractable BARGs, and More</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1785.pdf)</p>
+
+<blockquote>
+<p>涉及哈希函数，但非核心</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/218" target="_blank">Isochronous Fixed-Weight Sampling in Hardware</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/218.pdf)</p>
+
+<blockquote>
+<p>本文介绍了最近提出的等时定重采样算法的硬件实现，旨在提供高效且抗侧信道攻击的随机数生成方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1721" target="_blank">Efficient Private Set Union from Multi-Query Oblivious Membership Transfer</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1721.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种基于多查询不经意成员传输（Multi-Query Oblivious Membership Transfer）的高效私有集合并集（PSU）协议，在保护隐私的同时提高了计算效率。</p>
+</blockquote>
+
+<p><em>精选自 61 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
