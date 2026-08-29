@@ -33866,3 +33866,42 @@ papers:
   - LED
   fetched_date: '2026-08-28'
   source: eprint
+- id: breakmeifyoucan_exploiting_keyspace_2026
+  title: 'BREAKMEIFYOUCAN!: Exploiting Keyspace Reduction and Relay Attacks in 3DES and AES-protected NFC Technologies'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/100
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents an in-depth analysis of vulnerabilities in MIFARE Ultralight C (MF0ICU2), MIFARE Ultralight
+    AES (MF0AES), NTAG 223 DNA (NT2H2331G0 and NT2H2331S0), NTAG 224 DNA (NT2H2421G0 and NT2
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-08-29'
+  source: eprint
+- id: flipandprove_r1cs_2026
+  title: FLIP-and-prove R1CS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1364
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'We present the first folding framework that achieves sublinear verification and communication when a single prover
+    must convince a verifier of $k$ independent R1CS instances.
+
+
+    - $\mathbf{FLIP}$ (Fold-'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-08-29'
+  source: eprint
