@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-08-30</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-08-30</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-08-30</h1>
+
+<blockquote>
+<p>自动生成于 2026-08-30 05:02</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 30 篇 → 启发式 29 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Critical-Round Special Soundness for Multi-Round Proofs](https://eprint.iacr.org/2026/1679)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 6/10 | [📎 PDF](https://eprint.iacr.org/2026/1679.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有对多轮公开币证明系统的研究，未能充分利用其模拟器和提取器在其他密码协议中的潜力，限制了其在复杂协议中的模块化应用。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文引入了“关键轮次特殊可靠性”这一新概念，它是一种更细粒度的可靠性定义，允许在特定关键轮次后进行提取。通过这种方式，证明系统能够更灵活地嵌入到更复杂的协议中，例如在零知识证明中作为子组件使用，同时保持了安全性和效率。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为构建更高效、更模块化的复杂密码协议提供了新的工具和理论基础，拓展了多轮证明系统的应用范围。</p>
+
+<hr>
+
+<h3>2. [Olingo: Threshold Lattice Signatures with DKG and Identifiable Abort](https://eprint.iacr.org/2025/1789)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 5/10 | [📎 PDF](https://eprint.iacr.org/2025/1789.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的量子安全门限签名方案在实际部署中往往缺乏小密钥、高效分布式密钥生成（DKG）和可识别中止等关键特性，难以满足真实世界的应用需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：Olingo框架首次实现了所有这些理想特性，它通过创新的格基构造，提供了紧凑的密钥大小、高效的DKG协议以及在签名过程中出现故障时能够识别恶意参与者的机制。这使得Olingo成为首个满足所有实际部署需求的量子安全门限签名方案。</p>
+
+<p>🎯 <strong>意义</strong>：Olingo为构建实用、安全且抗量子的门限签名系统提供了全面的解决方案，极大地推动了后量子密码在分布式应用中的落地。</p>
+
+<hr>
+
+<h3>3. [Practical Silent Threshold Signatures and Silent Threshold Encryption for Dynamic Committees](https://eprint.iacr.org/2026/1820)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 5/10 | [📎 PDF](https://eprint.iacr.org/2026/1820.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：传统的门限密码学需要交互式分布式密钥生成（DKG），这在成员动态变化的委员会中效率低下且复杂，难以适应现代分布式系统的需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了实用的无交互门限签名（STS）和无交互门限加密（STE）方案，允许N方非交互式地生成共享密钥。这些方案支持委员会成员的动态增删，同时保持了效率和安全性，解决了传统DKG的局限性。</p>
+
+<p>🎯 <strong>意义</strong>：这些方案极大地简化了动态分布式系统中门限密码学的部署和管理，特别适用于区块链和去中心化自治组织（DAO）等应用。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1782" target="_blank">EA Codes Approaching Singleton Bound (with Application to Field-Agnostic SNARKs)</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1782.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种接近Singleton界限的EA码，该码同时支持快速编码和大相对距离，并将其应用于与域无关的SNARKs构造。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/297" target="_blank">Practical Zero-Trust Threshold Signatures in Large-Scale Asynchronous Networks</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/297.pdf)</p>
+
+<blockquote>
+<p>本文在大型异步网络中实现了实用的零信任门限签名，旨在降低密钥管理中的托管风险，提升分布式系统的安全性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1514" target="_blank">Distributed Vector Commitments and Their Applications</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1514.pdf)</p>
+
+<blockquote>
+<p>本文提出了分布式向量承诺方案，解决了现有VC方案的局限性，并探讨了其在分布式证明系统中的应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1571" target="_blank">LAMP: Linear Verification of Matrix Multiplication via Proximity Testing</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1571.pdf)</p>
+
+<blockquote>
+<p>LAMP通过邻近性测试实现了矩阵乘法的线性验证，为可验证计算系统中证明大规模矩阵运算提供了高效方法。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1567" target="_blank">Zero Knowledge Barcode Decoding with Application to Private Online Attribute Verification</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1567.pdf)</p>
+
+<blockquote>
+<p>本文提出了零知识条形码解码技术，允许用户在不泄露额外个人信息的情况下进行私密的在线属性验证。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1561" target="_blank">DeepBrake: Efficient Row-Wise Reed-Solomon Commitments for Arbitrary Points</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1561.pdf)</p>
+
+<blockquote>
+<p>DeepBrake改进了Brakedown方案，通过高效的行式Reed-Solomon承诺，实现了任意点的快速证明，解决了小最小距离码的限制。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1554" target="_blank">On the Hardness of some Vandermonde Knapsack problems</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1554.pdf)</p>
+
+<blockquote>
+<p>本文研究了Vandermonde背包问题及其代数变体的困难性，包括部分Vandermonde问题，对相关密码学方案的安全性分析具有重要意义。</p>
+</blockquote>
+
+<p><em>精选自 30 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
