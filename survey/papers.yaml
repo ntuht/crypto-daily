@@ -33905,3 +33905,21 @@ papers:
   - PRESENT
   fetched_date: '2026-08-29'
   source: eprint
+- id: the_concrete_security_2026
+  title: 'The Concrete Security of Two-Party Computation: Simple Definitions, and Tight Proofs for PSI and OPRFs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1476
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This paper initiates a concrete-security treatment of two-party secure computation. The first step is to propose,
+    as target, a simple, indistinguishability-based definition that we call InI. This coul
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-08-30'
+  source: eprint
