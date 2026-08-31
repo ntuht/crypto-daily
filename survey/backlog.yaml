@@ -11,7 +11,7 @@ papers:
   summary: In this note, we formally show that the recent algorithm by Simon (ePrint:2026/1591, August 11 2026) does not extract
     the least-significant bit of the dihedral coset problem (DCP) secret with non-negl
   heuristic_score: 12
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: rigorous_statements_and_2026
   title: Rigorous Statements and Proofs of the Lemmas in Simon's Algorithm for the Dihedral Coset Problem and Their Underlying
@@ -26,22 +26,7 @@ papers:
   summary: 'In a recent preprint, Simon proposed a polynomial-time quantum algorithm for the Dihedral Coset Problem and rested
     the analysis on four lemmas. Three of them carry only proof sketches, and this paper '
   heuristic_score: 12
-  added_date: '2026-08-30'
-  authors: []
-- id: borg_extendable_distributed_2026
-  title: 'BORG: Extendable Distributed Vector Commitments from Reconfigurable Erasure Codes'
-  url: https://eprint.iacr.org/2026/1552
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - LED
-  directions:
-  - meet_in_the_middle
-  summary: Updatable vector commitments let users store and authenticate values contained within an evolving data vector.
-    Existing work on updatable vector commitments studies how clients can store only the valu
-  heuristic_score: 11
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: limber_low_overhead_2026
   title: 'Limber: Low Overhead SNARKs for Integers from Any PCS'
@@ -56,7 +41,7 @@ papers:
   summary: Non-native arithmetic is a key bottleneck in SNARK design. It introduces large overheads, and application designers
     often have to avoid it through the use of non-standard arithmetization friendly hash
   heuristic_score: 11
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: binaryspartan_spartan_over_2026
   title: 'BinarySpartan: Spartan over binary fields'
@@ -72,24 +57,7 @@ papers:
     linear polynomial commitment scheme. We instantiate Spartan over a binary field, using Ligerito as the commitment scheme
     along with'
   heuristic_score: 11
-  added_date: '2026-08-30'
-  authors: []
-- id: echo_efficient_covertlysecure_2026
-  title: 'ECHO: Efficient Covertly-Secure Three-party Computation with Applications to Private Machine Learning'
-  url: https://eprint.iacr.org/2026/216
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  - low latency
-  - PRESENT
-  directions:
-  - low_latency
-  - ml_aided
-  summary: 'Secure three-party computation with an honest majority is among the most efficient secure computation settings
-    and is widely used in practice. However, achieving malicious security incurs significant '
-  heuristic_score: 11
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: neutronnova_groupbased_folding_2026
   title: 'NeutronNova: Group-based folding done right'
@@ -106,7 +74,7 @@ papers:
   summary: A folding scheme reduces the task of checking multiple NP instances into checking a single instance, providing
     an efficient route to incrementally verifiable computation (IVC). We identify five desira
   heuristic_score: 11
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: pairingbased_barg_for_2026
   title: Pairing-Based BARG for NP with Constant-Size Proofs and Applications
@@ -121,7 +89,7 @@ papers:
   summary: This paper presents a pairing-based non-interactive batch argument (BARG) for NP in the common reference string
     (CRS) model with constant-size proofs and constant-cost verification. Our construction i
   heuristic_score: 11
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: pilaf_fully_tight_2026
   title: 'Pilaf: Fully Tight Two-Round Threshold Signatures with Adaptive Corruptions'
@@ -136,7 +104,7 @@ papers:
   summary: "Threshold signatures are deployed in settings where an adversary may run many\n  concurrent signing sessions and\
     \ corrupt signers adaptively. Two-round schemes\n  make this especially delicate. Their fir"
   heuristic_score: 11
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: finding_dense_submodules_2026
   title: Finding Dense Submodules with Algebraic Lattice Reduction
@@ -151,22 +119,21 @@ papers:
   summary: "We prove an algebraic analogue of Pataki-Tural lemma (Pataki-Tural, arXiv:0804.4014, 2008) -- the main tool in\
     \ analysing the so-called overstretched regime of NTRU.\n    Our result generalizes this lem"
   heuristic_score: 9
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
-- id: secure_auctions_in_2026
-  title: Secure Auctions in the Presence of Rational Adversaries
-  url: https://eprint.iacr.org/2022/1541
+- id: the_extended_wedge_2026
+  title: The Extended Wedge Attack
+  url: https://eprint.iacr.org/2026/1830
   source: eprint
   venue: ePrint
   matched_keywords:
-  - LED
-  - CRAFT
+  - permutation
   directions:
-  - differential
-  summary: Sealed bid auctions are used to allocate a resource among a set of interested parties. Traditionally, auctions
-    need the presence of a trusted auctioneer to whom the bidders provide their private bid v
+  - permutation_layer
+  summary: The wedge attack of Ran (EUROCRYPT 2026) recovers the secret oil space of a UOV public key over fields of characteristic
+    two by exploiting the fact that the polar forms of the public map are alternati
   heuristic_score: 6
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: exact_cvp_is_2026
   title: Exact CVP Is NP-Complete for Principal Cyclotomic Ideals
@@ -181,7 +148,7 @@ papers:
   summary: We prove that exact Euclidean decision-CVP is $\mathsf{NP}$-complete on the coefficient lattices of nonzero principal
     ideals in the power-of-two cyclotomic rings $R_d=\mathbb{Z}[y]/(y^d+1)$. A determi
   heuristic_score: 6
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: hover_higherorder_vanishing_2026
   title: 'HOVER: Higher-Order Vanishing Endomorphism Recovery'
@@ -196,7 +163,7 @@ papers:
   summary: Higher-Order Vanishing (HOV), introduced by Hemmert and Wiemers at CRYPTO 2026, distinguishes Goppa codes and was
     recently extended to McEliece key recovery. We introduce a new variant of HOV, HOVER (
   heuristic_score: 6
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: an_attack_on_2026
   title: An Attack on High Rate McEliece Cryptosystems Using Generalized Reed Solomon Codes with Weight 2 Mask
@@ -210,38 +177,7 @@ papers:
   summary: Due to the insecurity of McEliece cryptosystems instantiated with Generalized Reed-Solomon codes, there have been
     several proposals of McEliece type systems that replace the permutation matrix by a ma
   heuristic_score: 6
-  added_date: '2026-08-30'
-  authors: []
-- id: vinet_connecting_the_2026
-  title: 'ViNET: Connecting the Unconnected using Video over LTE'
-  url: https://eprint.iacr.org/2026/1535
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  directions:
-  - ml_aided
-  summary: Internet shutdowns are used authoritarian regimes to suppress communication that end up crippling essential Internet-driven
-    services, besides the obvious silencing of dissent. Traditional tools like V
-  heuristic_score: 6
-  added_date: '2026-08-30'
-  authors: []
-- id: certified_in_theory_2026
-  title: 'Certified in Theory, Broken in Practice: Assumption Gaps in Cryptographic Model Certification'
-  url: https://eprint.iacr.org/2026/1557
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - machine learning
-  - LED
-  directions:
-  - ml_aided
-  - milp_sat_cp
-  summary: 'Privacy-preserving machine learning auditing protocols allow auditors to assess models for properties such as
-    accuracy or fairness, without revealing their internals or training data. This makes them '
-  heuristic_score: 6
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: dime_queryefficient_framework_2026
   title: 'DIME: Query-Efficient Framework for Membership Inference on Diffusion Models'
@@ -255,7 +191,7 @@ papers:
   summary: 'Membership inference attacks expose whether individual records were used to train a model, yet existing attacks
     on diffusion models are largely heuristic and can require substantial query budgets. We '
   heuristic_score: 5
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []
 - id: auntie_unobservable_contracts_2026
   title: 'Auntie: Unobservable Contracts from Zerocash and Trusted Execution Environments'
@@ -269,20 +205,5 @@ papers:
   summary: Privacy-oriented cryptocurrencies like Zerocash only support direct payments and not the execution of more complex
     contracts. Bitcoin and Ethereum, on the other hand, cannot guarantee privacy, and usi
   heuristic_score: 5
-  added_date: '2026-08-30'
-  authors: []
-- id: deniability_for_signed_2026
-  title: 'Deniability for Signed Credentials: Revisiting the Authenticated Channel vs. Signed Data Debate in the EUDI Wallet'
-  url: https://eprint.iacr.org/2026/1648
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  directions:
-  - lightweight
-  summary: The European Digital Identity Wallet (EUDI Wallet) is currently adopting ECDSA-based signed credentials as part
-    of its core architecture, which raised concerns that such designs inherently lack plausi
-  heuristic_score: 5
-  added_date: '2026-08-30'
+  added_date: '2026-08-31'
   authors: []

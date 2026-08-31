@@ -33923,3 +33923,217 @@ papers:
   - LED
   fetched_date: '2026-08-30'
   source: eprint
+- id: polynomial_evaluation_on_2026
+  title: Polynomial Evaluation on Many Inputs with Bounded Hamming Weight over GF(2)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/040
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a new polynomial evaluation algorithm to evaluate a degree-$d$ Boolean polynomial $f(x_n,\ldots,x_1)$
+    on all elements in some structured sets $S\subseteq \mathbb F_2^n$. This problem has be
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: lowlatency_lowrandomness_firstorder_2026
+  title: Low-Latency Low-Randomness First-Order OPINI Gadgets and Their Formal Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/050
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Masking is an essential countermeasure against side-channel attacks, yet implementing secure and low-latency hardware
+    masking remains challenging. In particular, although OPINI provides strong composa
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  - PRESENT
+  - Ascon
+  - PRINCE
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: on_the_fault_2026
+  title: On the Fault Injection Security of White-box Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1833
+  directions:
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: 'White-box security settings assume an extremely powerful adversary having full visibility and control of the software
+    implementation and internal computations.
+
+    Leakage-based attacks extract secret inf'
+  status: pending_review
+  matched_keywords:
+  - Feistel
+  - SPN
+  - LED
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: universally_composable_hybrid_2026
+  title: Universally Composable Hybrid PAKE Secure Against Harvest-Now-Decrypt-Later Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1832
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We present a hybrid password-authenticated key exchange (PAKE) protocol that is secure against harvest-now-decrypt-later
+    (HNDL) attacks by quantum adversaries, and is universally composable under the '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: silentshare_decoupling_hidden_2026
+  title: 'Silent-Share: Decoupling Hidden Threshold Matching from Pairing Operations via Group-Valued Oblivious Key-Value
+    Stores'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1831
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Matchmaking encryption (ME) enables bilateral access control with private policies, but existing pairing-based
+    constructions tie receiver-side authorization cost to the policy size. This is especially
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: the_extended_wedge_2026
+  title: The Extended Wedge Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1830
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The wedge attack of Ran (EUROCRYPT 2026) recovers the secret oil space of a UOV public key over fields of characteristic
+    two by exploiting the fact that the polar forms of the public map are alternati
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: weavetls_highthroughput_crossconnection_2026
+  title: 'WeaveTLS: High-Throughput Cross-Connection ML-DSA Authentication in Mutual TLS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1828
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Mutual TLS (mTLS) authenticates both peers and therefore incurs post-quantum
+
+    signature costs on every connection. Concurrent handshakes expose independent
+
+    ML-DSA operations, but executing them jointly'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: avxpos_reducing_consensus_2026
+  title: 'AVXPoS: Reducing Consensus Verification Cost in the Ethereum Proof-of-Stake Client'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1827
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Ethereum Proof-of-Stake (PoS) clients must verify large volumes of
+
+    Boneh--Lynn--Shacham (BLS) signatures for attestations, sync-committee messages,
+
+    and other consensus-critical objects within fixed sl'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: threshold_encryption_with_2026
+  title: Threshold Encryption with Internally Motivated Corruptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1826
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "In recent years, threshold encryption has gained a lot of interest, particularly due to its potential use in encrypted\
+    \ mempools in blockchains. \nStandard security models allow the adversary to corrupt"
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: enhanced_differentiallinear_cryptanalysis_2026
+  title: Enhanced Differential-linear Cryptanalysis of Forr\'{o} with MILP
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1825
+  directions:
+  - milp_sat_cp
+  - differential
+  - linear
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: ARX-based design is a major building block of modern cryptographic ciphers due to its efficiency in software. Forr\'{o}
+    is an ARX-based stream cipher proposed by Coutinho et al. at ASIACRYPT 2022, whi
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - MILP
+  - ARX
+  - PRESENT
+  - ChaCha
+  - LED
+  fetched_date: '2026-08-31'
+  source: eprint
+- id: comparing_privacypreserving_revocation_2026
+  title: Comparing Privacy-Preserving Revocation for the EUDI Wallet
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1824
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The European Digital Identity Wallet has integrated anonymous credentials into its technical specifications, and
+    singles out four constructions for privacy-preserving revocation, drawn from two  famil
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-08-31'
+  source: eprint
