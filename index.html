@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-08-30 05:03</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-08-31 05:10</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1867</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1878</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,28 +35,28 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1867</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1878</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">187</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">105</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">60</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">106</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">61</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">58</span></div>
+  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">40</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">39</span></div>
-  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">39</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">36</span></div>
-  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">26</span></div>
+  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">27</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">23</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">985</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">311</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">991</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">314</span></div>
   <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">211</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">80</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">49</span></div>
-  <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">40</span></div>
+  <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">41</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">40</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">31</span></div>
   <div class="dir-item" data-dir="boomerang" onclick="filterDir('boomerang')">回旋镖与 Rectangle <span class="count">23</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1867 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1878 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -22202,6 +22202,161 @@ In the standard single-s</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">This paper initiates a concrete-security treatment of two-party secure computation. The first step is to propose, as target, a simple, indistinguishability-based definition that we call InI. This coul</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="polynomial_evaluation_on_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="polynomial evaluation on many inputs with bounded hamming weight over gf(2)   we propose a new polynomial evaluation algorithm to evaluate a degree-$d$ boolean polynomial $f(x_n,\ldots,x_1)$ on all elements in some structured sets $s\subseteq \mathbb f_2^n$. this problem has be">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/040" target="_blank">Polynomial Evaluation on Many Inputs with Bounded Hamming Weight over GF(2)</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We propose a new polynomial evaluation algorithm to evaluate a degree-$d$ Boolean polynomial $f(x_n,\ldots,x_1)$ on all elements in some structured sets $S\subseteq \mathbb F_2^n$. This problem has be</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="lowlatency_lowrandomness_firstorder_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="low-latency low-randomness first-order opini gadgets and their formal verification   masking is an essential countermeasure against side-channel attacks, yet implementing secure and low-latency hardware masking remains challenging. in particular, although opini provides strong composa">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/050" target="_blank">Low-Latency Low-Randomness First-Order OPINI Gadgets and Their Formal Verification</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Masking is an essential countermeasure against side-channel attacks, yet implementing secure and low-latency hardware masking remains challenging. In particular, although OPINI provides strong composa</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_fault_2026" data-dirs="round_function"
+     data-year="2026" data-significance="medium"
+     data-search="on the fault injection security of white-box ciphers   white-box security settings assume an extremely powerful adversary having full visibility and control of the software implementation and internal computations.
+leakage-based attacks extract secret inf">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1833" target="_blank">On the Fault Injection Security of White-box Ciphers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">White-box security settings assume an extremely powerful adversary having full visibility and control of the software implementation and internal computations.
+Leakage-based attacks extract secret inf</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轮函数结构</span></div>
+</div>
+
+<div class="paper-card" data-id="universally_composable_hybrid_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="universally composable hybrid pake secure against harvest-now-decrypt-later attacks   we present a hybrid password-authenticated key exchange (pake) protocol that is secure against harvest-now-decrypt-later (hndl) attacks by quantum adversaries, and is universally composable under the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1832" target="_blank">Universally Composable Hybrid PAKE Secure Against Harvest-Now-Decrypt-Later Attacks</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a hybrid password-authenticated key exchange (PAKE) protocol that is secure against harvest-now-decrypt-later (HNDL) attacks by quantum adversaries, and is universally composable under the</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="silentshare_decoupling_hidden_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="silent-share: decoupling hidden threshold matching from pairing operations via group-valued oblivious key-value stores   matchmaking encryption (me) enables bilateral access control with private policies, but existing pairing-based constructions tie receiver-side authorization cost to the policy size. this is especially">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1831" target="_blank">Silent-Share: Decoupling Hidden Threshold Matching from Pairing Operations via Group-Valued Oblivious Key-Value Stores</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Matchmaking encryption (ME) enables bilateral access control with private policies, but existing pairing-based constructions tie receiver-side authorization cost to the policy size. This is especially</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="the_extended_wedge_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="the extended wedge attack   the wedge attack of ran (eurocrypt 2026) recovers the secret oil space of a uov public key over fields of characteristic two by exploiting the fact that the polar forms of the public map are alternati">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1830" target="_blank">The Extended Wedge Attack</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The wedge attack of Ran (EUROCRYPT 2026) recovers the secret oil space of a UOV public key over fields of characteristic two by exploiting the fact that the polar forms of the public map are alternati</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="weavetls_highthroughput_crossconnection_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="weavetls: high-throughput cross-connection ml-dsa authentication in mutual tls   mutual tls (mtls) authenticates both peers and therefore incurs post-quantum
+signature costs on every connection. concurrent handshakes expose independent
+ml-dsa operations, but executing them jointly">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1828" target="_blank">WeaveTLS: High-Throughput Cross-Connection ML-DSA Authentication in Mutual TLS</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Mutual TLS (mTLS) authenticates both peers and therefore incurs post-quantum
+signature costs on every connection. Concurrent handshakes expose independent
+ML-DSA operations, but executing them jointly</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="avxpos_reducing_consensus_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="avxpos: reducing consensus verification cost in the ethereum proof-of-stake client   ethereum proof-of-stake (pos) clients must verify large volumes of
+boneh--lynn--shacham (bls) signatures for attestations, sync-committee messages,
+and other consensus-critical objects within fixed sl">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1827" target="_blank">AVXPoS: Reducing Consensus Verification Cost in the Ethereum Proof-of-Stake Client</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Ethereum Proof-of-Stake (PoS) clients must verify large volumes of
+Boneh--Lynn--Shacham (BLS) signatures for attestations, sync-committee messages,
+and other consensus-critical objects within fixed sl</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="threshold_encryption_with_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="threshold encryption with internally motivated corruptions   in recent years, threshold encryption has gained a lot of interest, particularly due to its potential use in encrypted mempools in blockchains. 
+standard security models allow the adversary to corrupt">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1826" target="_blank">Threshold Encryption with Internally Motivated Corruptions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In recent years, threshold encryption has gained a lot of interest, particularly due to its potential use in encrypted mempools in blockchains. 
+Standard security models allow the adversary to corrupt</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="enhanced_differentiallinear_cryptanalysis_2026" data-dirs="milp_sat_cp,differential,linear,software_friendly"
+     data-year="2026" data-significance="medium"
+     data-search="enhanced differential-linear cryptanalysis of forr\&#x27;{o} with milp   arx-based design is a major building block of modern cryptographic ciphers due to its efficiency in software. forr\&#x27;{o} is an arx-based stream cipher proposed by coutinho et al. at asiacrypt 2022, whi">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1825" target="_blank">Enhanced Differential-linear Cryptanalysis of Forr\&#x27;{o} with MILP</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">ARX-based design is a major building block of modern cryptographic ciphers due to its efficiency in software. Forr\&#x27;{o} is an ARX-based stream cipher proposed by Coutinho et al. at ASIACRYPT 2022, whi</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">线性分析</span><span class="tag tag-direction">软件友好密码</span></div>
+</div>
+
+<div class="paper-card" data-id="comparing_privacypreserving_revocation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="comparing privacy-preserving revocation for the eudi wallet   the european digital identity wallet has integrated anonymous credentials into its technical specifications, and singles out four constructions for privacy-preserving revocation, drawn from two  famil">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1824" target="_blank">Comparing Privacy-Preserving Revocation for the EUDI Wallet</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The European Digital Identity Wallet has integrated anonymous credentials into its technical specifications, and singles out four constructions for privacy-preserving revocation, drawn from two  famil</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
