@@ -34137,3 +34137,21 @@ papers:
   - PRESENT
   fetched_date: '2026-08-31'
   source: eprint
+- id: adaptively_secure_hierarchical_2026
+  title: Adaptively Secure Hierarchical Attribute-Based Encryption from Witness Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/407
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Hierarchical attribute-based encryption (HABE), also called delegatable ABE, augments ABE with a public delegation
+    algorithm that lets any user holding a secret key for a predicate $f$ locally derive '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-01'
+  source: eprint
