@@ -34155,3 +34155,208 @@ papers:
   - LED
   fetched_date: '2026-09-01'
   source: eprint
+- id: reusable_fuzzy_extractors_2026
+  title: Reusable Fuzzy Extractors for Low-Entropy Distributions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2014/243
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fuzzy extractors (Dodis et al., Eurocrypt 2004) convert repeated noisy readings of a secret into the same uniformly
+    distributed key. To eliminate noise, they require an initial enrollment phase that t
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: determining_those_boolean_2026
+  title: Determining those Boolean functions whose restrictions to affine spaces are plateaued
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/386
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quadratic Boolean functions (that is, Boolean functions of algebraic degree at most 2), bent Boolean functions
+    (i.e. maximally nonlinear Boolean functions in even numbers of variables) and, as we obse
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: covert_federated_learning_2026
+  title: Covert Federated Learning under Regulation based on Threshold Anamorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1846
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: When communication systems are subject to strict external control, a powerful authority may monitor all transmitted
+    messages and compel users to surrender their secret keys, thereby undermining user a
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: latticebased_nike_with_2026
+  title: Lattice-based NIKE with optimal tightness
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1845
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this work we present a new variant of the non-interactive key exchange (NIKE) scheme based on the learning
+    with errors (LWE) assumption and prove its security with a security reduction that incurs '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: apex_afsbased_permutation_2026
+  title: 'APEX: AFS-based Permutation family for Efficiency and eXtensibility (feat. the APEX Suite)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1843
+  directions:
+  - aead
+  - tweakable
+  - lightweight
+  - software_friendly
+  - sbox
+  - differential
+  - milp_sat_cp
+  - permutation_layer
+  - linear
+  ciphers: []
+  significance: medium
+  summary: ARX-based cryptographic primitives have received considerable attention for their efficient software implementations.
+    For a long time, however, constructing ARX primitives with provable resistance aga
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - SAT
+  - block cipher
+  - S-box
+  - permutation
+  - ARX
+  - AEAD
+  - authenticated encryption
+  - tweakable
+  - lightweight
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: arion_arithmetizationoriented_hashing_2026
+  title: 'Arion: Arithmetization-Oriented Hashing for Zero-Knowledge Proof Systems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1842
+  directions:
+  - permutation_layer
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We propose the arithmetization-oriented (AO) hash function Arion, following a permutation-based design approach.
+    We first define the permutation Arion-π over the finite field F_p, where (p > 2) is pri
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: arithmetictoboolean_conversion_in_2026
+  title: Arithmetic-to-Boolean Conversion in ALU with O(1) Bootstrapping via Overflow Cancellation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1840
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Arithmetic logic unit (ALU) can combine word-level arithmetic with bit-level logic on encrypted machine words.
+    Triangle encoding provides a CKKS-based representation for leveled word arithmetic, but i
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: quasar_a_fieldagnostic_2026
+  title: 'Quasar: A Field-Agnostic Polynomial Commitment Scheme with Polylogarithmic Verification from Quasi-Abelian Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1839
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Polynomial commitment schemes (PCSs) are fundamental building blocks of modern zkSNARKs and often dominate their
+    concrete prover and verifier costs.
+
+    We introduce $\mathsf{Quasar}$, a field-agnostic PC'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: how_to_prove_2026
+  title: 'How to prove more false statements: Fiat–Shamir limitations on (generated) R1CS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1838
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The Fiat--Shamir (FS) transformation is a technique that converts interactive protocols into non-interactive ones.
+
+    FS is secure in idealized models such as the random oracle model (ROM) (if the intera'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
+- id: enhanced_differentiallinear_cryptanalysis_2026_1
+  title: Enhanced Differential-Linear Cryptanalysis of ChaCha Based on Bit Puncturing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1837
+  directions:
+  - lightweight
+  - linear
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ChaCha is one of the most extensively deployed symmetric ciphers. The security margin of ChaCha is directly related
+    to the safety of many widely used lightweight security protocols and operating syste
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - lightweight
+  - PRESENT
+  - ChaCha
+  - LED
+  fetched_date: '2026-09-02'
+  source: eprint
