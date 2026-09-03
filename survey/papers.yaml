@@ -34360,3 +34360,39 @@ papers:
   - LED
   fetched_date: '2026-09-02'
   source: eprint
+- id: xiezhi_toward_succinct_2026
+  title: 'Xiezhi: Toward Succinct Proofs of Solvency'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2001
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A proof of solvency (or proof of reserves) is a zero-knowledge proof produced by a centralized cryptocurrency exchange
+    to demonstrate that it holds enough cryptocurrency to cover all customer balances
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-03'
+  source: eprint
+- id: degree_bounds_and_2026
+  title: Degree bounds and synchronization in Gröbner basis computations for affine semi-regular systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/528
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Determining the complexity of computing Gröbner bases is an important problem in both theory and practice, and
+    solving degrees provide a central measure of this complexity.
+
+    We study solving degrees an'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-03'
+  source: eprint
