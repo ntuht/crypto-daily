@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-09-03 04:04</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-09-04 04:09</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">1891</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">1908</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,26 +35,26 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1891</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">1908</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">189</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">108</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">109</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">62</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">59</span></div>
-  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">40</span></div>
+  <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">41</span></div>
+  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">40</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
-  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">39</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">37</span></div>
-  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">28</span></div>
+  <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">29</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">23</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">998</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">318</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">213</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">80</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1009</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">321</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">217</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">81</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">50</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">43</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">40</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 1891 篇论文</div>
+        <div class="result-count" id="resultCount">显示 1908 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -22531,6 +22531,241 @@ we study solving degrees an">
   <div class="paper-authors"></div>
   <div class="paper-summary">Determining the complexity of computing Gröbner bases is an important problem in both theory and practice, and solving degrees provide a central measure of this complexity.
 We study solving degrees an</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="sublogarithmic_linear_time_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="sublogarithmic linear time snarks from improved sum-check   we present $\mathsf{hybridspartan}$ and $\mathsf{hybridplonk}$ -- the first snarks that simultaneously achieve linear-time prover, sublogarithmic proof size, logarithmic verifier, and also feature upd">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/908" target="_blank">SubLogarithmic Linear Time SNARKs from Improved Sum-Check</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present $\mathsf{HybridSpartan}$ and $\mathsf{HybridPlonk}$ -- the first SNARKs that simultaneously achieve linear-time prover, sublogarithmic proof size, logarithmic verifier, and also feature upd</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="neo_latticebased_folding_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="neo: lattice-based folding scheme for ccs over small fields and pay-per-bit commitments   this paper introduces neo, a new lattice-based folding scheme for ccs, an np-complete relation that generalizes r1cs, plonkish, and air. neo&#x27;s folding scheme can be viewed as adapting the folding sche">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/294" target="_blank">Neo: Lattice-based folding scheme for CCS over small fields and pay-per-bit commitments</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper introduces Neo, a new lattice-based folding scheme for CCS, an NP-complete relation that generalizes R1CS, Plonkish, and AIR. Neo&#x27;s folding scheme can be viewed as adapting the folding sche</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="anonymous_attributebased_signcryption_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="anonymous attribute-based signcryption: definitions, constructions, and applications   we put forward a generalization of attribute-based signcryption, called anonymous attribute-based signcryption (a$^2$bsc). beyond message confidentiality and ciphertext unforgeability, 
+a$^2$bsc furth">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1861" target="_blank">Anonymous Attribute-Based Signcryption: Definitions, Constructions, and Applications</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We put forward a generalization of attribute-based signcryption, called anonymous attribute-based signcryption (A$^2$BSC). Beyond message confidentiality and ciphertext unforgeability, 
+A$^2$BSC furth</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="impossibility_of_asynchronous_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="(im)possibility of asynchronous mpc with honest majority over blockchains   this work studies asynchronous verifiable secret sharing (avss) and asynchronous multi-party computation (ampc) in the blockchain-hybrid model, where parties have black-box access to an ideal (asynchr">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1860" target="_blank">(Im)possibility of Asynchronous MPC with Honest Majority over Blockchains</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This work studies asynchronous verifiable secret sharing (AVSS) and asynchronous multi-party computation (AMPC) in the blockchain-hybrid model, where parties have black-box access to an ideal (asynchr</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="finding_a_shortest_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="finding a shortest vector and more in $2^{n/2+o(n)}$ time using $q$-ary coset difference tree   this paper presents a new randomized algorithm for solving the exact shortest vector problem. for the $n$-dimensional lattice $\mathcal l$, our algorithm runs in time and space $2^{n/2+o(n)}$. 
+
+our a">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1859" target="_blank">Finding a Shortest Vector and More in $2^{n/2+o(n)}$ Time using $q$-ary Coset Difference Tree</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper presents a new randomized algorithm for solving the exact shortest vector problem. For the $n$-dimensional lattice $\mathcal L$, our algorithm runs in time and space $2^{n/2+o(n)}$. 
+
+Our a</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_mismatch_2026" data-dirs="software_friendly,differential,ml_aided"
+     data-year="2026" data-significance="medium"
+     data-search="on the mismatch between neural-discovered differential-linear features and long-round distinguisher construction   to the best of our knowledge, existing differential-neural cryptanalysis have not yet shown a clear round advantage over the strongest comparable classical analyses. recent fourier-based interpretabil">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1858" target="_blank">On the Mismatch between Neural-Discovered Differential-Linear Features and Long-Round Distinguisher Construction</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">To the best of our knowledge, existing differential-neural cryptanalysis have not yet shown a clear round advantage over the strongest comparable classical analyses. Recent Fourier-based interpretabil</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">软件友好密码</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span></div>
+</div>
+
+<div class="paper-card" data-id="latticeblindfold_a_latticebased_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="latticeblindfold: a lattice-based analogue of novablindfold   folding schemes compress many instances of a relation into a single accumulated one and, via composition with the fiat-shamir heuristic, yield snarks for arbitrarily large computations. however, essen">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1857" target="_blank">LatticeBlindFold: A Lattice-Based Analogue of NovaBlindFold</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Folding schemes compress many instances of a relation into a single accumulated one and, via composition with the Fiat-Shamir heuristic, yield SNARKs for arbitrarily large computations. However, essen</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="svp_is_nphard_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="svp is np-hard for some rank-2 cyclotomic modules   let $q$ range over primes congruent to $3$ modulo $4$. let $\zeta_q$ be a primitive $q$th root of unity, and put $k=\mathbb{q}(\zeta_q)$, with ring of integers
+$\mathcal{o}_k=\mathbb{z}[\zeta_q]$. we">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1856" target="_blank">SVP Is NP-Hard for Some Rank-2 Cyclotomic Modules</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Let $q$ range over primes congruent to $3$ modulo $4$. Let $\zeta_q$ be a primitive $q$th root of unity, and put $K=\mathbb{Q}(\zeta_q)$, with ring of integers
+$\mathcal{O}_K=\mathbb{Z}[\zeta_q]$. We</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="delegatable_anonymous_credentials_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="delegatable anonymous credentials from legacy credentials using recursive zk-snarks   digital identity systems are becoming increasingly prevalent, driven by regulatory efforts such as the european digital identity (eudi) wallet. yet these systems usually do not achieve strong privacy">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1855" target="_blank">Delegatable Anonymous Credentials from Legacy Credentials using Recursive zk-SNARKs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Digital identity systems are becoming increasingly prevalent, driven by regulatory efforts such as the European Digital Identity (EUDI) Wallet. Yet these systems usually do not achieve strong privacy</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="distributed_key_generation_2026_1" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="distributed key generation for ntru   ntru-based encryption enjoys compact keys and ciphertexts and admits non-interactive distributed decryption, making it an attractive basis for threshold encryption with applications to threshold fhe,">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1854" target="_blank">Distributed Key Generation for NTRU</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">NTRU-based encryption enjoys compact keys and ciphertexts and admits non-interactive distributed decryption, making it an attractive basis for threshold encryption with applications to threshold FHE,</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="automated_reasoning_for_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="automated reasoning for indistinguishability in the ccsa   cryptographic protocols are the foundation of secure digital communication, yet their design remains error-prone, as evidenced by the vulnerabilities that have plagued even the most widely adopted pro">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1853" target="_blank">Automated Reasoning for Indistinguishability in the CCSA</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Cryptographic protocols are the foundation of secure digital communication, yet their design remains error-prone, as evidenced by the vulnerabilities that have plagued even the most widely adopted pro</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="jacobian_diagnostics_for_2026" data-dirs="milp_sat_cp,differential"
+     data-year="2026" data-significance="medium"
+     data-search="jacobian diagnostics for under-constrained zero-knowledge circuits   under-constrained arithmetic circuits are a recurring source of soundness failures in zero-knowledge applications: after fixing the public statement, a malicious prover may be able to assign a securit">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1852" target="_blank">Jacobian Diagnostics for Under-Constrained Zero-Knowledge Circuits</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Under-constrained arithmetic circuits are a recurring source of soundness failures in zero-knowledge applications: after fixing the public statement, a malicious prover may be able to assign a securit</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="open_em_sidechannel_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="open em side-channel dataset for ml-kem (kyber) implementations   we present an open dataset of electromagnetic (em) traces captured during the decapsulation operation of ml-kem (kyber), the key encapsulation mechanism standardised by nist in fips 203. each trace is">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1851" target="_blank">Open EM Side-Channel Dataset for ML-KEM (Kyber) Implementations</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present an open dataset of electromagnetic (EM) traces captured during the decapsulation operation of ML-KEM (Kyber), the key encapsulation mechanism standardised by NIST in FIPS 203. Each trace is</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_codebased_knthreshold_2026" data-dirs="milp_sat_cp,linear_diffusion"
+     data-year="2026" data-significance="medium"
+     data-search="a code-based $(k,n)$-threshold secret sharing scheme with integrity verification   threshold secret sharing schemes (tsss) enable a dealer to distribute a secret among multiple participants such that only authorized subsets can reconstruct the secret while unauthorized subsets obtai">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1850" target="_blank">A Code-Based $(k,n)$-Threshold Secret Sharing Scheme with Integrity Verification</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Threshold secret sharing schemes (TSSS) enable a dealer to distribute a secret among multiple participants such that only authorized subsets can reconstruct the secret while unauthorized subsets obtai</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span><span class="tag tag-direction">线性扩散层</span></div>
+</div>
+
+<div class="paper-card" data-id="private_and_verifiable_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="private and verifiable outsourcing of open-weight llm inference   open-weight models allow clients to run llms locally, thus keeping their data private from untrusted  providers. however, running large models requires massive hardware and storage resources (especial">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1849" target="_blank">Private and Verifiable Outsourcing of Open-Weight LLM Inference</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Open-weight models allow clients to run LLMs locally, thus keeping their data private from untrusted  providers. However, running large models requires massive hardware and storage resources (especial</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_quasidifferential_analysis_2026" data-dirs="permutation_layer,differential,round_function"
+     data-year="2026" data-significance="medium"
+     data-search="a quasidifferential analysis of the wrong-key randomization hypothesis   the wrong-key randomization (wkr) hypothesis governs data-complexity
+estimates in differential cryptanalysis: wrong-key guesses are assumed to
+behave as a random permutation would.  exact
+computation">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1848" target="_blank">A Quasidifferential Analysis of the Wrong-Key Randomization Hypothesis</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Wrong-Key Randomization (WKR) hypothesis governs data-complexity
+estimates in differential cryptanalysis: wrong-key guesses are assumed to
+behave as a random permutation would.  Exact
+computation</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">轮函数结构</span></div>
+</div>
+
+<div class="paper-card" data-id="orderfour_symmetry_in_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="order-four symmetry in bgv bootstrapping: faster digit extraction for large primes   bootstrapping is the computational bottleneck of bgv/bfv fully homomorphic encryption, scaling particularly poorly with large plaintext primes. its two dominant stages: digit extraction and linear tra">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1847" target="_blank">Order-Four Symmetry in BGV Bootstrapping: Faster Digit Extraction for Large Primes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Bootstrapping is the computational bottleneck of BGV/BFV fully homomorphic encryption, scaling particularly poorly with large plaintext primes. Its two dominant stages: digit extraction and linear tra</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
 </div>
 
