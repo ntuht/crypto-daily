@@ -34396,3 +34396,325 @@ papers:
   - SAT
   fetched_date: '2026-09-03'
   source: eprint
+- id: sublogarithmic_linear_time_2026
+  title: SubLogarithmic Linear Time SNARKs from Improved Sum-Check
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/908
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present $\mathsf{HybridSpartan}$ and $\mathsf{HybridPlonk}$ -- the first SNARKs that simultaneously achieve
+    linear-time prover, sublogarithmic proof size, logarithmic verifier, and also feature upd
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: neo_latticebased_folding_2026
+  title: 'Neo: Lattice-based folding scheme for CCS over small fields and pay-per-bit commitments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/294
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: This paper introduces Neo, a new lattice-based folding scheme for CCS, an NP-complete relation that generalizes
+    R1CS, Plonkish, and AIR. Neo's folding scheme can be viewed as adapting the folding sche
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: anonymous_attributebased_signcryption_2026
+  title: 'Anonymous Attribute-Based Signcryption: Definitions, Constructions, and Applications'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1861
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We put forward a generalization of attribute-based signcryption, called anonymous attribute-based signcryption\
+    \ (A$^2$BSC). Beyond message confidentiality and ciphertext unforgeability, \nA$^2$BSC furth"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: impossibility_of_asynchronous_2026
+  title: (Im)possibility of Asynchronous MPC with Honest Majority over Blockchains
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1860
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: This work studies asynchronous verifiable secret sharing (AVSS) and asynchronous multi-party computation (AMPC)
+    in the blockchain-hybrid model, where parties have black-box access to an ideal (asynchr
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: finding_a_shortest_2026
+  title: Finding a Shortest Vector and More in $2^{n/2+o(n)}$ Time using $q$-ary Coset Difference Tree
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1859
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "This paper presents a new randomized algorithm for solving the exact shortest vector problem. For the $n$-dimensional\
+    \ lattice $\\mathcal L$, our algorithm runs in time and space $2^{n/2+o(n)}$. \n\nOur a"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: on_the_mismatch_2026
+  title: On the Mismatch between Neural-Discovered Differential-Linear Features and Long-Round Distinguisher Construction
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1858
+  directions:
+  - software_friendly
+  - differential
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: To the best of our knowledge, existing differential-neural cryptanalysis have not yet shown a clear round advantage
+    over the strongest comparable classical analyses. Recent Fourier-based interpretabil
+  status: pending_review
+  matched_keywords:
+  - differential
+  - neural distinguisher
+  - ARX
+  - PRESENT
+  - SPECK
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: latticeblindfold_a_latticebased_2026
+  title: 'LatticeBlindFold: A Lattice-Based Analogue of NovaBlindFold'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1857
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Folding schemes compress many instances of a relation into a single accumulated one and, via composition with the
+    Fiat-Shamir heuristic, yield SNARKs for arbitrarily large computations. However, essen
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: svp_is_nphard_2026
+  title: SVP Is NP-Hard for Some Rank-2 Cyclotomic Modules
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1856
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Let $q$ range over primes congruent to $3$ modulo $4$. Let $\zeta_q$ be a primitive $q$th root of unity, and put
+    $K=\mathbb{Q}(\zeta_q)$, with ring of integers
+
+    $\mathcal{O}_K=\mathbb{Z}[\zeta_q]$. We '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: delegatable_anonymous_credentials_2026
+  title: Delegatable Anonymous Credentials from Legacy Credentials using Recursive zk-SNARKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1855
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Digital identity systems are becoming increasingly prevalent, driven by regulatory efforts such as the European
+    Digital Identity (EUDI) Wallet. Yet these systems usually do not achieve strong privacy '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: distributed_key_generation_2026_1
+  title: Distributed Key Generation for NTRU
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1854
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'NTRU-based encryption enjoys compact keys and ciphertexts and admits non-interactive distributed decryption, making
+    it an attractive basis for threshold encryption with applications to threshold FHE, '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: automated_reasoning_for_2026
+  title: Automated Reasoning for Indistinguishability in the CCSA
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1853
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cryptographic protocols are the foundation of secure digital communication, yet their design remains error-prone,
+    as evidenced by the vulnerabilities that have plagued even the most widely adopted pro
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: jacobian_diagnostics_for_2026
+  title: Jacobian Diagnostics for Under-Constrained Zero-Knowledge Circuits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1852
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Under-constrained arithmetic circuits are a recurring source of soundness failures in zero-knowledge applications:
+    after fixing the public statement, a malicious prover may be able to assign a securit'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: open_em_sidechannel_2026
+  title: Open EM Side-Channel Dataset for ML-KEM (Kyber) Implementations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1851
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present an open dataset of electromagnetic (EM) traces captured during the decapsulation operation of ML-KEM
+    (Kyber), the key encapsulation mechanism standardised by NIST in FIPS 203. Each trace is
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: a_codebased_knthreshold_2026
+  title: A Code-Based $(k,n)$-Threshold Secret Sharing Scheme with Integrity Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1850
+  directions:
+  - milp_sat_cp
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: Threshold secret sharing schemes (TSSS) enable a dealer to distribute a secret among multiple participants such
+    that only authorized subsets can reconstruct the secret while unauthorized subsets obtai
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - MDS
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: private_and_verifiable_2026
+  title: Private and Verifiable Outsourcing of Open-Weight LLM Inference
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1849
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Open-weight models allow clients to run LLMs locally, thus keeping their data private from untrusted  providers.
+    However, running large models requires massive hardware and storage resources (especial
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: a_quasidifferential_analysis_2026
+  title: A Quasidifferential Analysis of the Wrong-Key Randomization Hypothesis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1848
+  directions:
+  - permutation_layer
+  - differential
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: 'The Wrong-Key Randomization (WKR) hypothesis governs data-complexity
+
+    estimates in differential cryptanalysis: wrong-key guesses are assumed to
+
+    behave as a random permutation would.  Exact
+
+    computation '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - permutation
+  - SPN
+  - GIFT
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
+- id: orderfour_symmetry_in_2026
+  title: 'Order-Four Symmetry in BGV Bootstrapping: Faster Digit Extraction for Large Primes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1847
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Bootstrapping is the computational bottleneck of BGV/BFV fully homomorphic encryption, scaling particularly poorly
+    with large plaintext primes. Its two dominant stages: digit extraction and linear tra'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-04'
+  source: eprint
