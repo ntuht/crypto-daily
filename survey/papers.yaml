@@ -34718,3 +34718,43 @@ papers:
   - PRESENT
   fetched_date: '2026-09-04'
   source: eprint
+- id: extending_the_sphincs_2026
+  title: 'Extending the SPHINCS+ Framework: Varying the Tree Heights and Chain Lengths'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2236
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The SPHINCS+ framework provides the underlying architecture for modern quantum resistant stateless hash-based signatures.
+    Notable examples include the NIST standard SLH-DSA and its recent variants suc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-05'
+  source: eprint
+- id: quadraticlike_balanced_functions_2026
+  title: Quadratic-like balanced functions and permutations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1484
+  directions:
+  - milp_sat_cp
+  - permutation_layer
+  - invariant
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: We study those $(n,n)$-permutations, and more generally those balanced $(n,m)$-functions, whose component functions
+    all admit a derivative equal to constant function 1 (this property itself implies ba
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - SAT
+  - permutation
+  - Feistel
+  fetched_date: '2026-09-05'
+  source: eprint
