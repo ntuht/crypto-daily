@@ -34758,3 +34758,58 @@ papers:
   - Feistel
   fetched_date: '2026-09-05'
   source: eprint
+- id: treecast_multiparty_key_2026
+  title: 'TreeCast: Multi-Party Key Establishment Protocol for IoT Devices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2021
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Secure communication in the Internet of Things (IoT) requires lightweight protocols that scale across unicast,
+    multicast, and broadcast settings. Existing solutions typically depend on centralized gat
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-06'
+  source: eprint
+- id: averagecase_matrix_code_2026
+  title: Average-Case Matrix Code Conjugacy in Arbitrary Dimension
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1664
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Matrix Code Conjugacy (MCC) asks whether two matrix spaces over a finite field are related by simultaneous conjugation;
+    for ordered \(m\)-slice presentations, an additional invertible change of coeffi
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-06'
+  source: eprint
+- id: watersqi_and_prismo_2026
+  title: 'WaterSQI and PRISMO: Quaternion Signatures for Supersingular Isogeny Group Actions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1737
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Isogeny group action based signatures are obtained from a sigma protocol with high soundness error, say $\frac{1}{2}$
+    for its most basic variant. One needs to independently repeat the sigma protocol  '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-06'
+  source: eprint
