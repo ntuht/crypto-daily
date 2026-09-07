@@ -34813,3 +34813,250 @@ papers:
   - LED
   fetched_date: '2026-09-06'
   source: eprint
+- id: scamayo_demystifying_sidechannel_2026
+  title: 'SCA-MAYO: Demystifying Side-channel Security of MAYO Signature Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/228
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Multivariate quadratic (MQ)-based digital signature schemes are promising candidates for the ongoing post-quantum
+    (PQ) standardization procedure due to their compact signatures and fast verification. '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: an_improved_randomized_2026
+  title: An Improved Randomized AKS-class Primality Proving Algorithm
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/051
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present an improved AKS condition $\binom {e \cdot |S|+ de - 1}{de - 1} \ge n^{\lceil \sqrt{d e/3} \rceil}$
+    in our randomized AKS algorithm, which tests $(x-s)^{n^j} \equiv x^{n^j} - s \pmod{x^e-r}
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: zeroknowledge_pcps_of_2026
+  title: Zero-Knowledge PCPs of Quasilinear Size via Locally Simulatable Sheaf Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1868
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We show that for every polynomial $T,b \colon \mathbb{N} \to \mathbb{N}$, there exist an $O(1)$-query probabilistically
+    checkable proof (PCP) for $\operatorname{NTIME}(T)$ of length $\widetilde{O}\big
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: certifiedeverlasting_quantum_nizk_2026
+  title: Certified-Everlasting Quantum NIZK Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2262
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We study non-interactive zero-knowledge proofs (NIZKs) for NP satisfying: 1) statistical soundness, 2) computational
+    zero-knowledge (ZK) and 3) certified-everlasting zero-knowledge (CE-ZK). The CE-ZK '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: equivalence_classes_of_2026
+  title: Equivalence Classes of BOGI-Based Ciphers for Differential and Linear Cryptanalysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1875
+  directions:
+  - differential
+  - milp_sat_cp
+  - linear
+  - permutation_layer
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: BOGI-based ciphers extend the design space of GIFT by combining 4-bit S-boxes with bit permutations satisfying
+    the ``Bad Output must go to Good Input'' principle. Prior work reduced this space to 41,4
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - SAT
+  - S-box
+  - permutation
+  - GIFT
+  - PRESENT
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: collusionresistant_constrained_prfs_2026
+  title: Collusion-Resistant Constrained PRFs for Compute-&-Compare Predicates from LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1874
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We design the first collusion-resistant constrained PRFs (CPRFs) for a non-trivial and expressive class of constraints
+    from standard LWE. The two predicate classes for which we design CPRFs are: compu'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: peev_parse_encrypt_2026
+  title: 'PEEV: Parse Encrypt Execute Verify - A Verifiable FHE Framework'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1871
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cloud computing has been a prominent technology that allows users to store their data and outsource intensive computations.
+    However, users of cloud services are also concerned about protecting the con
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: terrazzo_memoryaware_gpu_2026
+  title: 'Terrazzo: Memory-Aware GPU Framework for Private Transformer Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1870
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) allows a server to run inference directly on encrypted data, making it a promising
+    foundation for private transformer inference. Its dominant scheme, CKKS, has no na
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: highprecision_homomorphic_alu_2026
+  title: High-Precision Homomorphic ALU over Arbitrary Moduli with $O(1)$ Bootstrapping
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1869
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Homomorphic computation on large integers requires both arithmetic and non-arithmetic (e.g., Boolean) operations.
+
+    The radix-based method by Cha et al. (EUROCRYPT''26) supports both operation types over'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: a_simple_compiler_2026
+  title: A Simple Compiler for CCA2-Secure Pseudorandom Codes in the Standard Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1867
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Public-key pseudorandom codes (PRCs) combine two seemingly conflicting properties: their codewords are computationally
+    indistinguishable from uniformly random strings, yet a secret-key decoder can rec'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: peeling_nonlinear_layers_2026
+  title: 'Peeling Nonlinear Layers: Algebraic Cryptanalysis of Full-Round Iasta'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1866
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Iasta is a stream cipher designed for hybrid homomorphic encryption (HHE), with claimed $128$-bit security for
+    its Iasta-3 and Iasta-4 instances. In this work, we present the first third-party cryptan
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: polytopic_sieving_practical_2026
+  title: 'Polytopic Sieving: Practical Low-Data Key-Recovery Attacks on Reduced-Round AES'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1865
+  directions:
+  - differential
+  - integral_division
+  - meet_in_the_middle
+  - invariant
+  - lightweight
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Minimizing the data complexity required to recover the secret key of reduced-round block ciphers is a fundamental
+    problem in symmetric cryptanalysis. Here, we introduce Polytopic Sieving, a data-effic
+  status: pending_review
+  matched_keywords:
+  - differential
+  - integral attack
+  - meet-in-the-middle
+  - subspace trail
+  - block cipher
+  - S-box
+  - AES
+  fetched_date: '2026-09-07'
+  source: eprint
+- id: subring_vole_over_2026
+  title: Subring VOLE over Galois Rings with Applications to ZK over $\mathbb{Z}_{p^k}$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1864
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Vector oblivious linear evaluation (VOLE) is a type of correlation that is widely used in multiparty computation
+    (MPC) and zero-knowledge (ZK) proofs. Recently, the generation of VOLE correlation has '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-07'
+  source: eprint
