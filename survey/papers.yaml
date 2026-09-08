@@ -35060,3 +35060,327 @@ papers:
   - LED
   fetched_date: '2026-09-07'
   source: eprint
+- id: adding_more_parallelism_2026
+  title: Adding more parallelism to the AEGIS authenticated encryption algorithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/523
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'While the round function of the AEGIS authenticated encryption algorithms is highly parallelizable, their mode
+    of operation is not.
+
+
+    We introduce two new modes to overcome that limitation: AEGIS-128X '
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: on_compressing_linearly_2026
+  title: On Compressing Linearly Shared Correlations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/255
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Compressing correlated randomness is a key component of secure computation protocols in the silent preprocessing
+    model and has received significant attention in recent years. Most existing constructio
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: zhe_efficient_zeroknowledge_2026
+  title: 'ZHE: Efficient Zero-Knowledge Proofs for HE Evaluations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/770
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Homomorphic Encryption (HE) allows computations on encrypted data without decryption. It can be used where the
+    users’ information are to be processed by an untrustful server, and has been a popular ch
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: improved_relatedkey_boomerang_2026
+  title: Improved Related-Key Boomerang Distinguisher for Full-Round FUTURE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1891
+  directions:
+  - related_key
+  - differential
+  - boomerang
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: FUTURE is a lightweight block cipher with a 64-bit block, a 128-bit key and $10$ rounds, proposed at AFRICACRYPT
+    2022 for low-latency hardware. This study analyzes FUTURE in the related-key setting wi
+  status: pending_review
+  matched_keywords:
+  - differential
+  - boomerang
+  - related-key
+  - related key
+  - block cipher
+  - lightweight
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: rogue_updatable_matrix_2026
+  title: 'Rogue: Updatable Matrix Lookup Arguments and Applications to Verifiable Databases'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1890
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Proving the correctness of computations over a large dataset via succinct non-interactive arguments of knowledge
+    (SNARKs) entails the large overhead of ``loading'' the dataset in the SNARK. However, c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: a_general_approach_2026
+  title: A General Approach to Adaptor Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1889
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Adaptor signatures have emerged as a powerful contract-minimal mechanism for fair exchange on blockchains, enabling
+    efficient and privacy-preserving atomic swaps and conditional payments. However, exi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: bmusig2_schnorrcompatible_blind_2026
+  title: 'BMuSig2: Schnorr-Compatible Blind Multi-Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1888
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blind signatures and multi‑signatures are well‑known primitives, but blind multi‑signatures (BMS), which combine
+    both these primitives, were only recently formalized by Karantaidou et al (CCS'24). A B
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: vera_verifiable_microarchitectural_2026
+  title: 'VERA: VERifiable Microarchitectural Monitoring for Adversarially Robust Edge AI'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1887
+  directions:
+  - ml_aided
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: As machine learning increasingly moves to edge devices, model owners must trust predictions produced on devices
+    and inputs outside their direct control. This trust is challenged by adversarial inputs,
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - lightweight
+  - LED
+  - CRAFT
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: symplex_improved_pairingbased_2026
+  title: 'Symplex: Improved Pairing-Based zkSNARK using Partial Fraction Techniques'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1886
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present Symplex, a pairing-based zkSNARK for R1CS that preserves the syntax of Groth16: a $2G_1{+}1G_2$ proof,
+    and a verifier with three pairings and one public-input multi-scalar multiplication (M'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: compact_latticebased_nizk_2026
+  title: Compact Lattice-Based NIZK Arguments for Set Membership and Ring Signatures without RO
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1885
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs of set membership underpin privacy-preserving constructions such as ring signatures and anonymous
+    credentials. Existing succinct constructions rely mainly on the Fiat--Shamir tra
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: more_efficient_hintless_2026
+  title: More Efficient (Hintless) Keyword Private Information Retrieval
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1883
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Keyword private information retrieval (Keyword PIR) enables a client to retrieve the value associated with a keyword
+    from a database while keeping the queried keyword private, thereby generalizing tra
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: a_reproducible_securityperformance_2026
+  title: A Reproducible Security–Performance Benchmark Protocol for Lightweight AEAD on Resource-Constrained IoT Nodes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1882
+  directions:
+  - aead
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: '—Internet-of-Things (IoT) nodes must protect sensed
+
+    data while operating with limited processing capability, memory,
+
+    and battery capacity. In August 2025, the National Institute of
+
+    Standards and Techn'
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - lightweight
+  - AES
+  - PRESENT
+  - Ascon
+  - ChaCha
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: constanttime_conditions_for_2026
+  title: Constant-Time Conditions for Left-to-Right Scalar Multiplication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1881
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We consider methods for scalar multiplication on an elliptic curve where the scalar digits are processed from
+    left to right, that is, from most significant to least significant. We analyze exceptions '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: private_quantised_neural_2026
+  title: Private Quantised Neural Network Inference
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1880
+  directions:
+  - ml_aided
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Neural networks based machine learning models are used in many classification problems yet privacy issues in model
+    usage are mostly unresolved. When a model owner provides their model to other parties
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - machine learning
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: peel_and_vote_2026
+  title: 'Peel and Vote: A Paper Ballot Design for Publicly Verifiable Risk-Limiting Audits'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1879
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Post-election Risk-Limiting Audits (RLAs) provide statistical guarantees of election outcomes by hand-counting
+    randomly selected paper ballots. However, standard RLAs assume that ballots remain unalte
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: on_the_round_2026_1
+  title: On the Round Complexity of Early Stopping
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1878
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'A common pipeline of cryptographic research is: a theory paper asks an interesting question which triggers a line
+    of works; then the problem remains dormant until technology catches up and makes the p'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
+- id: otter_a_provably_2026
+  title: 'Otter: A Provably MEV-Resilient Automated Market Maker via Surplus Redistribution'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1877
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Miner extractable value (MEV) in automated market makers allows block builders to profit from transaction ordering
+    and injected trades, imposing costs on users and contributing to builder centralizati
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-08'
+  source: eprint
