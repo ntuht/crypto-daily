@@ -35384,3 +35384,96 @@ papers:
   - LED
   fetched_date: '2026-09-08'
   source: eprint
+- id: partially_noninteractive_tworound_2026
+  title: Partially Non-Interactive Two-Round Threshold and Multi-Signatures with Tighter and Adaptive Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/373
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold and multi-signature schemes enable a group of signers to jointly sign messages. In the pairing-free discrete-logarithm
+    setting, there have been extensive research efforts on two-round thresh
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-09'
+  source: eprint
+- id: velox_scalable_fair_2026
+  title: 'Velox: Scalable Fair Asynchronous MPC from Lightweight Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1630
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Multi-party computation (MPC) enables a set of mutually $n$ distrusting parties to compute any function on their
+    private inputs. Mainly, MPC facilitates agreement on the function’s output while preser
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-09'
+  source: eprint
+- id: computationally_efficient_asynchronous_2026
+  title: Computationally Efficient Asynchronous MPC with Linear Communication and Low Additive Overhead
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1666
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'We explore the setting of asynchronous multi-party computation (AMPC) with optimal resilience $n=3t+1$, and develop
+    an efficient protocol that optimizes both communication and computation.
+
+
+    The recent'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-09'
+  source: eprint
+- id: testing_security_equivalence_2026
+  title: Testing Security Equivalence in the Random Probing Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1858
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: The random probing model is a theoretical model that abstracts the physical leakage of an embedded device running
+    a cryptographic scheme with more realistic assumptions compared to the threshold probi
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - PRESENT
+  fetched_date: '2026-09-09'
+  source: eprint
+- id: dynasaurs_efficient_universal_2026
+  title: 'Dynasaurs: Efficient Universal Dynamic zkSNARKs from Sparse Linear Arguments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1892
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Dynamic zkSNARKs were recently introduced by Wang et al. [Eurocrypt, 2026]. This primitive extends standard zkSNARKs
+    with an update algorithm that adapts a proof to a new statement in time sublinear i
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-09-09'
+  source: eprint
