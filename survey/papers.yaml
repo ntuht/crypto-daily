@@ -35477,3 +35477,37 @@ papers:
   - LED
   fetched_date: '2026-09-09'
   source: eprint
+- id: alkaid_accelerating_threeparty_2026
+  title: 'ALKAID: Accelerating Three-Party Boolean Circuits by Mixing Correlations and Redundancy (Full Version)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2298
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'Secure three-party computation (3PC) with semi-honest security under an honest majority offers notable efficiency
+    in computation and communication; for Boolean circuits, each party sends a single bit '
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-09-10'
+  source: eprint
+- id: rank_measures_and_2026
+  title: Rank Measures and Exponential Lower Bounds for Multilinear Secret Sharing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1769
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Multilinear secret sharing can amortize share size over a vector secret, so scalar linear lower bounds need not
+    survive normalization by the secret dimension. We prove that the Razborov–G´al rank meas
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-10'
+  source: eprint
