@@ -35511,3 +35511,491 @@ papers:
   - SAT
   fetched_date: '2026-09-10'
   source: eprint
+- id: capss_a_framework_2026
+  title: 'CAPSS: A Framework for SNARK-Friendly Post-Quantum Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/061
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: In this paper, we present a general framework for constructing SNARK-friendly post-quantum signature schemes based
+    on minimal assumptions, specifically the security of an arithmetization-oriented fami
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: smallwood_hashbased_polynomial_2026
+  title: 'SmallWood: Hash-Based Polynomial Commitments and Zero-Knowledge Arguments for Relatively Small Instances'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1085
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs (ZKPs) are a fundamental building block in cryptography, enabling powerful privacy-preserving
+    and verifiable computations. In the post-quantum era, hash-based ZKPs have emerged a
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: aipa_anonymous_image_2026
+  title: 'AIPA: Anonymous Image Provenance Authentication in Online Social Networks via Unlinkable Pseudonym Certificates
+    and zk-SNARKs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1914
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Generative AI has made high-fidelity deepfakes easy to produce, and online social networks (OSNs) spread them widely
+    across users and platforms. Publicly verifying an image's provenance, i.e., where a
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: hebased_onthefly_mpc_2026
+  title: 'HE-based On-the-Fly MPC, Revisited: Universal Composability, Approximate and Imperfect Computation, Circuit Privacy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1845
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: On-the-fly multi-party computation (OtF-MPC, López-Alt, Tromer, and Vaikuntanathan, STOC 2012) allows clients to
+    join a computation dynamically without remaining online, while outsourcing the computat
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: a_ramefficient_implementation_2026
+  title: A RAM-Efficient Implementation of Falcon
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1915
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a RAM-efficient implementation of Falcon: RAM usage has shrunk to about 11 kB, down from about 31 kB
+    in the previous implementation of Falcon-512. This code is furthermore faster on Arm Cor'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: attacking_an_rsalike_2026
+  title: Attacking an RSA-like Cryptosystem Using Continued Fractions and Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1739
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Let $N = pq$ be the product of two balanced primes. Cotan and Te\c seleanu (2023) introduced a family of RSA-like
+    cryptosystems defined by $ed - k(p^n - 1)(q^n - 1) = 1$, where $n \geq 1$, encompassin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: a_generalized_wienertype_2026
+  title: A Generalized Wiener-type Attack Against a Family RSA-like Cryptosystem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1396
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Let $N = pq$ be the product of two balanced prime numbers $p$ and $q$. In 2023, Cotan and Te\c seleanu introduced
+    a family of RSA-like cryptosystems based on the key equation $ed - k(p^n - 1)(q^n - 1)
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: general_review_of_2026
+  title: General Review of Hash-Based Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1398
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The advent of quantum computing threatens the security assumptions underpinning classical public-key cryptographic
+    algorithms such as RSA and ECC. As a response, the cryptographic community has focuse
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: netadapt_networkadaptive_hybrid_2026
+  title: 'NetAdapt: Network-Adaptive Hybrid Protocol Assignment for PPML'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1315
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The widespread use of machine learning on sensitive data makes Privacy-Preserving Machine Learning (PPML) essential
+    for data confidentiality. Current state-of-the-art PPML systems employ hybrid protoc
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: hawk_with_hint_2026
+  title: 'HAWK with Hint: Algebraic Key Recovery from Side-Channel Leakage'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/699
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We investigate how partial physical leakage can be amplified through public algebraic relations, using HAWK as
+    a concrete case study of implementation security in an algebraically structured post-quan
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: new_exchanged_boomerang_2026
+  title: New Exchanged Boomerang Distinguishers for 5-Round AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/248
+  directions:
+  - lightweight
+  - permutation_layer
+  - boomerang
+  ciphers: []
+  significance: medium
+  summary: In block ciphers, the attacker should not be able to distinguish a block cipher from a random permutation; therefore
+    the existence of a distinguisher is important. Cryptanalysis of the reduced-round v
+  status: pending_review
+  matched_keywords:
+  - boomerang
+  - block cipher
+  - permutation
+  - AES
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: security_properties_of_2026
+  title: Security Properties of Iterated Random Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1923
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Iteration of a cryptographic hash function is a common practice in many applications, typically used to enhance
+    resistance against various attacks (e.g., to slow down dictionary attacks in password ha
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: compact_lattice_anonymous_2026
+  title: Compact Lattice Anonymous Credentials from Tighter Approximate Range Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1920
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Accommodating cryptographic authenticity with strong user privacy assurances has been the primary motivation for
+    anonymous credentials systems. Their features have recently come into the spotlight wit
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: cryptanalysis_of_deep_2026
+  title: 'Cryptanalysis of Deep Neural Cryptography: Second Round Key Recovery on the Unprotected Implementation and a Floating-Point
+    Attack on the Protected Implementation of AES'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1919
+  directions:
+  - sbox
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'At EUROCRYPT 2026, Gérault et al. introduced natural DNN implementations of block ciphers: ReLU networks that
+    agree exactly with the underlying cipher on binary inputs but extend it continuously to re'
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  - AES
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: towards_practical_privacypreserving_2026
+  title: Towards Practical Privacy-Preserving SAT Solving
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1918
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Privacy-preserving Boolean satisfiability (SAT) solvers allow multiple distrustful parties to solve the conjunction
+    of their private formulas without revealing their inputs.  Prior work on privacy-pre
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: coral_general_and_2026
+  title: 'Coral: General and Efficient Framework for Homomorphic Evaluation of Symmetric Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1917
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Fully homomorphic encryption (FHE) enables computation directly on encrypted data, but encrypting data under FHE
+    imposes client-side computational costs and produces large ciphertexts. Transciphering '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - ChaCha
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: computing_256bit_elliptic_2026
+  title: Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer
+    with 20,000 qubits
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1916
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: One of the strengths of our recently proposed Walking Cat Architecture for a trapped-ion quantum computer is that
+    it is straightforward to extend and optimize for a specific application. As a proof-of
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: trapdoor_functions_with_2026
+  title: Trapdoor Functions with Secure Key Leasing and Copy Protection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1913
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Inspired by the no-cloning theorem in quantum theory, a variety of quantum cryptographic primitives with unclonable
+    functionalities, such as secure key leasing and copy protection, have been proposed '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: ntpir_efficient_silentpreprocessing_2026
+  title: 'NTPIR: Efficient Silent-Preprocessing PIR using NTR'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1910
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Information Retrieval (PIR) enables a client to query a database without revealing the requested index.
+    In the silent preprocessing model, existing protocols typically adopt a two-layer pipeli
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: tightly_and_adaptively_2026
+  title: Tightly and Adaptively Secure Two-Round Threshold Signatures from DDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1909
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold signatures enable a set of $n$ parties to jointly generate signatures under a single public key such
+    that any subset of at least $t+1$ parties can produce a valid signature, whereas any coal
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: higherorder_differential_attacks_2026
+  title: Higher-order differential attacks on the full DuX
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1907
+  directions:
+  - sbox
+  - permutation_layer
+  - linear_diffusion
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: DuX is a family of substitution-permutation block ciphers over $\mathbb{F}_q^{16}$ with $q\in\{2^{8},2^{16},65537\}$
+    and twelve rounds. For the two large-word instances its designers estimate that int
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  - permutation
+  - diffusion
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: a_better_bivariate_2026
+  title: A Better Bivariate Resultant Attack on Round-Reduced Poseidon
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1905
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Poseidon is one of the most popular arithmetization-oriented (AO) hash function, due to its good performances both
+    in evaluation and in Zero-knowledge proof protocols. It is for instance used in the P
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: when_module_lattice_2026
+  title: 'When Module Lattice Leaks: Horizontal Fusion Attacks on ML-DSA Implementation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1904
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The standardization of ML-DSA has shifted the cryptographic community's focus toward its practical security. While
+    profiled attacks against its implementations are well studied with a few traces, non-
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: chosenblock_baa_codes_2026
+  title: 'Chosen-Block BAA Codes: Fast, Near the Gilbert–Varshamov Bound, and Field-Agnostic'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1903
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Block-Accumulate-Accumulate (BAA) codes provide fast encoding for
+
+    pseudorandom correlation generators and code-based zero-knowledge. We replace their independently sampled local maps with
+    repeated cop'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: nothing_up_my_2026
+  title: 'Nothing Up My Matrix: Kleptographic Backdoors in ZK-friendly Hash Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1901
+  directions:
+  - sbox
+  - permutation_layer
+  - round_function
+  - linear_diffusion
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ZK-friendly hash functions are often built from algebraic SPN permutations. The matrix provides diffusion by mixing
+    the state elements after the S-box layer. However, there is no uniform convention fo
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - S-box
+  - permutation
+  - diffusion
+  - MDS
+  - SPN
+  fetched_date: '2026-09-11'
+  source: eprint
+- id: threshold_fully_deniable_2026
+  title: Threshold Fully Deniable Interactive Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1900
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Deniable Encryption (Canetti et al., CRYPTO 1997) enables parties to produce fake internal states making any transcript
+    consistent with any plaintext of their choice. Fully Deniable Encryption (FDE) (
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  fetched_date: '2026-09-11'
+  source: eprint
