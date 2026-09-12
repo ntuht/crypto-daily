@@ -35999,3 +35999,82 @@ papers:
   - SAT
   fetched_date: '2026-09-11'
   source: eprint
+- id: largeuniverse_multiauthority_abe_2026
+  title: Large-Universe (Multi-Authority) ABE from LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1895
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'An attribute-based encryption (ABE) scheme is "large-universe" if its attribute universe is superpolynomial and
+    is not enumerated during setup. In the multi-authority setting, we further require that '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-12'
+  source: eprint
+- id: a_tight_analysis_2026
+  title: A Tight Analysis of GHOST Consistency
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1830
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The GHOST protocol was proposed in 2015 as an alternative
+
+    to the Nakamoto consensus mechanism that underlies Bitcoin. In con-
+
+    trast to the Nakamoto longest-chain rule, the GHOST rule justifies selec-
+
+    '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-12'
+  source: eprint
+- id: differential_meetinthemiddle_attacks_2026
+  title: Differential Meet-in-the-Middle Attacks on Feistel Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1911
+  directions:
+  - round_function
+  - meet_in_the_middle
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Differential meet-in-the-middle attacks, introduced by Boura et al. in 2023, propose a new way of dealing with
+    differential distinguishers. It allows, in particular, to combine differential attacks wi
+  status: pending_review
+  matched_keywords:
+  - differential
+  - meet-in-the-middle
+  - Feistel
+  - PRESENT
+  - SIMON
+  fetched_date: '2026-09-12'
+  source: eprint
+- id: sok_pqc_pakes_2026
+  title: 'SoK: PQC PAKEs - Design, Security and Performance'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/119
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Password Authenticated Key Exchange (PAKE) establishes secure communication channels using passwords for authentication.
+    Currently, standardized PAKEs rely on classical asymmetric cryptography. Howeve
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-12'
+  source: eprint
