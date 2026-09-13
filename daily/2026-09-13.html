@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-09-13</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-09-13</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-09-13</h1>
+
+<blockquote>
+<p>自动生成于 2026-09-13 04:28</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 18 篇 → 启发式 4 篇 → 精选 <strong>4 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Note on the Security Analysis of Areion](https://eprint.iacr.org/2026/1935)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1935.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：Areion是一种基于AES的置换族，专为短消息的快速哈希和认证加密设计，其安全性分析至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本论文指出Areion现有安全性分析中，将活跃S盒计数转换为区分器概率的方法存在错误。通过修正这些错误，作者提供了更精确的安全性评估，可能揭示了其在某些攻击场景下的实际安全裕度。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作对Areion的实际安全性提供了更准确的理解，并强调了密码分析中严谨性与精确性的重要性，对后续密码设计和评估具有指导意义。</p>
+
+<hr>
+
+<h3>2. [ASCON-Based Lightweight Cryptographic Provenance for Distinguishing Physiological Events, Sensor Faults, and Cyberattacks in IoMT](https://eprint.iacr.org/2026/1929)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1929.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：医疗物联网（IoMT）的持续监测面临归因难题，即异常数据可能源于生理事件、传感器故障或恶意网络攻击。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种基于ASCON的轻量级密码溯源方案，旨在为IoMT数据提供可信的来源证明。该方案利用ASCON的低资源消耗特性，在资源受限的IoMT设备上实现数据的完整性和真实性验证，从而有效区分不同类型的异常事件。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究为IoMT设备提供了关键的安全保障，增强了医疗数据的可信度，对于提升IoMT系统的诊断准确性和安全性具有重要实践价值。</p>
+
+<hr>
+
+<h3>3. [ReinsPIRe: High-Throughput, Low-Communication PIR with Server Preprocessing](https://eprint.iacr.org/2026/1934)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 7/10 | [📎 PDF](https://eprint.iacr.org/2026/1934.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：隐私信息检索（PIR）允许用户在不泄露查询内容的情况下从服务器检索数据，但现有方案常面临吞吐量低或通信开销大的挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了ReinsPIRe，一种新的单服务器PIR方案，通过引入服务器预处理技术，显著提高了吞吐量（降低了计算成本），同时保持了较低的通信开销。其核心在于创新的技术，使得在避免离线通信的前提下，实现了优于现有方案的性能。</p>
+
+<p>🎯 <strong>意义</strong>：ReinsPIRe为隐私信息检索提供了一个更高效的解决方案，特别适用于对计算和通信资源敏感的应用场景，推动了PIR技术在实际部署中的可行性。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1936" target="_blank">VAHANA: Hardware-Aware Noise Addition Against Gradient Inversion Attacks</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1936.pdf)</p>
+
+<blockquote>
+<p>VAHANA提出了一种硬件感知的噪声添加机制，以有效防御联邦学习中针对梯度更新的梯度反演攻击。</p>
+</blockquote>
+
+<p><em>精选自 18 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
