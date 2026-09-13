@@ -36078,3 +36078,338 @@ papers:
   - LED
   fetched_date: '2026-09-12'
   source: eprint
+- id: logstar_efficient_linear_2026
+  title: 'Logstar: Efficient Linear* Time Secure Merge'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/159
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure merge considers the problem of combining two sorted lists into a single sorted secret-shared list. Merge
+    is a fundamental building block for many real-world applications. For example, secure me
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: improved_multiparty_distributed_2026
+  title: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1942
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A multi-party distributed point function (DPF) compresses a point function instance $f_{\alpha,\beta}$, i.e., $f$
+    evaluates to $\beta$ at $\alpha$ and to $0$ otherwise, into short keys that are distri
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: dualms_20_practical_2026
+  title: 'DualMS 2.0: Practical Lattice-Based Two-Round Fiat-Shamir Multi-Signature with Better Efficiency'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1941
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a more practical lattice-based two-round Fiat–Shamir multi-signature scheme that achieves a substantial
+    reduction in signature size compared with DualMS, the state-of-the-art two-round latt
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: efficient_pseudorandom_correlation_2026
+  title: Efficient Pseudorandom Correlation Generators over Binary Extension Fields and More
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1940
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: In this work, we construct highly efficient pseudorandom correlation generators (PCGs) over binary extension fields.
+    PCGs allow for the distribution of a great amount of correlated randomness by havin
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: extendable_weighted_evolving_2026
+  title: Extendable Weighted Evolving Threshold Secret Sharing Schemes over Polynomial Quotient Rings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1939
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'In conventional $(k,n)$ secret sharing schemes, a dealer distributes shares of a secret among $n$ participants
+    such that any subset of at least $k$ participants can reconstruct the secret. While such '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: a_postquantum_cryptography_2026
+  title: A Post-Quantum Cryptography Recommendation System with TLS Validation for Heterogeneous Environments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1938
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The choice of a post-quantum cryptography (PQC) algorithm for a concrete deployment is governed by device performance,
+    network conditions, and the practical constraints of TLS stacks, factors that alg
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: robust_additive_randomized_2026_1
+  title: Robust Additive Randomized Encodings With Transparent Setup
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1937
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Additive randomized encodings (AREs) reduce the computation of an m-party function f(x1, . . . , xm) to independently
+    encoding each input and adding the resulting encodings in an Abelian group, so tha
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: vahana_hardwareaware_noise_2026
+  title: 'VAHANA: Hardware-Aware Noise Addition Against Gradient Inversion Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1936
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Federated learning (FL) enables clients to collaboratively train a global model by sharing gradient updates instead
+    of raw data. However, recent studies show that these shared gradients can be exploit
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: a_note_on_2026_4
+  title: A Note on the Security Analysis of Areion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1935
+  directions:
+  - permutation_layer
+  - differential
+  - sbox
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'Areion is a family of AES-based permutations designed for fast hashing and authenticated encryption of short messages.
+
+
+    We identify errors in how its security analysis converts active
+
+    S-box counts int'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - S-box
+  - permutation
+  - authenticated encryption
+  - AES
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: reinspire_highthroughput_lowcommunication_2026
+  title: 'ReinsPIRe: High-Throughput, Low-Communication PIR with Server Preprocessing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1934
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present ReinsPIRe, a new single-server PIR with higher
+
+    throughput (smaller computation costs) than all previous schemes that avoid offline communication.
+
+    The crux of ReinsPIRe is new techniques for'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: provenance_graphs_for_2026
+  title: 'Provenance Graphs for AML/CFT: Asset Tracing and Freezing in Private Payments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1933
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Anti-money laundering and counter-terrorist financing (AML/CFT) rules require payment service providers to assess
+    incoming funds'' provenance: for a target account, which earlier transfers contributed '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: obfuscating_nonevasive_programs_2026
+  title: 'Obfuscating Non-Evasive Programs: Making Witness Encryption Positional'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1932
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Indistinguishability obfuscation ($i\mathcal{O}$) is a powerful cryptographic tool that enables many cryptographic
+    capabilities. Due to its expressivity, constructing $i\mathcal{O}$ is challenging, an
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: sok_zeroknowledge_friendly_2026
+  title: 'SoK: Zero-Knowledge Friendly Hash Functions over Prime Fields'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1931
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-Knowledge (ZK) proof systems have become a cornerstone of privacy-preserving technologies and blockchain scalability.
+    However, traditional hash functions are often inefficient within ZK protocols
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: asconbased_lightweight_cryptographic_2026
+  title: ASCON-Based Lightweight Cryptographic Provenance for Distinguishing Physiological Events, Sensor Faults, and Cyberattacks
+    in IoMT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1929
+  directions:
+  - lightweight
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'Continuous monitoring in the Internet of Medical Things (IoMT)
+
+    creates an attribution problem: an abnormal sample may rep-
+
+    resent a genuine physiological event, an accidental sensor fault,
+
+    or a delibe'
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - lightweight
+  - Ascon
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: tworound_threshold_signatures_2026
+  title: Two-Round Threshold Signatures with Adaptive TS-UF-1 Security from MDDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1928
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we construct threshold signatures (TS) to achieve adaptive TS-UF-1 security and identifiable abort.
+    Our TS construction has two rounds. We prove its adaptive TS-UF-1 security in the ran
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: a_forgery_attack_2026
+  title: A Forgery Attack against Frobenius-UOV
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1927
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Frobenius-UOV (F-UOV) is a multivariate signature scheme by Macario-Rat over $\mathbb{F}_{p^e}$ whose public equations
+    are quadratic over $\mathbb{F}_p$ but have high degree over $\mathbb{F}_{p^e}$. A
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: reproducible_designspace_study_2026
+  title: Reproducible Design-Space Study of Lightweight Lattice-Based Authentication and Signatures for Blockchain Transactions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1925
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: "Quantum computers threaten the classical public-key primitives (RSA, ECDSA) used by most blockchains today; NIST\
+    \ has therefore standardized\n  lattice-based signatures (ML-DSA, FIPS 204; and FN-DSA, a "
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
+- id: decryptionfailure_rate_with_2026
+  title: 'Decryption-Failure Rate with Multidimensional Lattice Decoders: Unified Framework, Theory Refinement, and More Accurate
+    Evaluation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1924
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Using a multidimensional lattice block code complicates decryption-failure analysis in two distinct ways.  A norm
+    or BDD certificate need not equal the implemented message-failure event, and structure
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-13'
+  source: eprint
