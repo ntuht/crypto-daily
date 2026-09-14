@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-09-14</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-09-14</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-09-14</h1>
+
+<blockquote>
+<p>自动生成于 2026-09-14 04:34</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 23 篇 → 启发式 8 篇 → 精选 <strong>8 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Impossible Polytopic Attack Revisited: Low-Data Distinguishers and Attacks](https://eprint.iacr.org/2026/1963)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1963.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：不可能多面体攻击（Impossible Polytopic Attack, IPA）是一种针对分组密码的密码分析技术，旨在发现其内部结构中的不可能路径。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文重新审视了IPA，并提出了新的技术以构建针对AES变体、ISO/IEC标准化的Deoxys-BC/TBC和ChiL等分组密码的低数据区分器和攻击。通过优化攻击策略，研究人员能够在更少的数据量下识别出密码的弱点，显著提升了攻击的效率和实用性。</p>
+
+<p>🎯 <strong>意义</strong>：这些改进的低数据攻击方法对于评估当前广泛使用和新提出的分组密码（如Deoxys-TBC）的实际安全性具有重要意义。</p>
+
+<hr>
+
+<h3>2. [Efficient Polynomial System Solving via Dixon Resultants: Applications to AO Primitives](https://eprint.iacr.org/2026/1969)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1969.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：求解多元多项式系统是代数密码分析中的核心问题，尤其在针对算术化导向（Arithmetization-Oriented, AO）密码原语的攻击中，其重要性日益凸显。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种基于Dixon结式（Dixon Resultants）的高效多项式系统求解方法。该方法旨在克服现有代数攻击在处理AO原语时面临的计算复杂性，通过引入新的数学工具，显著提升了求解效率。</p>
+
+<p>🎯 <strong>意义</strong>：这一新方法为代数攻击提供了更强大的工具，有助于更有效地评估AO原语（如零知识证明系统中的组件）的安全性，推动了密码学和密码分析领域的发展。</p>
+
+<hr>
+
+<h3>3. [Parallelized Authenticated Encryption with Tag Combiners](https://eprint.iacr.org/2026/1981)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/1981.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：认证加密（Authenticated Encryption, AE）方案在处理输入数据时，存在串行调用底层构建模块（如基于双工模式的结构）和并行处理两种模式的需求。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种结合标签组合器（Tag Combiners）的并行化认证加密方案。该方案旨在通过并行处理数据并智能地组合生成的认证标签，克服传统串行方案的性能瓶颈，实现高吞吐量的安全通信。</p>
+
+<p>🎯 <strong>意义</strong>：设计高效的并行化AE方案对于满足现代多核处理器和高带宽应用的需求至关重要，能够显著提升实际加密系统的性能和效率。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1973" target="_blank">Addition-Efficient MDS Matrices from Superconcentrators (Full Version)</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1973.pdf)</p>
+
+<blockquote>
+<p>本文利用超集中器（Superconcentrators）构造了加法高效的MDS矩阵，以优化对称密码原语中的扩散层设计。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1972" target="_blank">Criminology: Refined Techniques for Compression Side-Channel Attacks</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1972.pdf)</p>
+
+<blockquote>
+<p>该研究提出了针对加密前数据压缩的侧信道攻击的改进技术，进一步揭示了这种操作带来的信息泄露风险。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2025/719" target="_blank">SNARKs over Small Prime Fields without Extension Field Multiplication</a></strong> | [📎 PDF](https://eprint.iacr.org/2025/719.pdf)</p>
+
+<blockquote>
+<p>该论文解决了基于Sumcheck的小素数域SNARKs在不使用扩域乘法时面临的健全性瓶颈问题。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2024/1619" target="_blank">Structure-Preserving Compressing Primitives: Vector Commitments and Accumulators and Applications</a></strong> | [📎 PDF](https://eprint.iacr.org/2024/1619.pdf)</p>
+
+<blockquote>
+<p>本文研究了结构保持的压缩原语，如向量承诺和累加器，并探讨了它们在表示和验证大型数据集方面的应用。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1964" target="_blank">Three-Round Weak Non-Malleable Zero-Knowledge Argument</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1964.pdf)</p>
+
+<blockquote>
+<p>该论文提出了一种三轮的弱不可篡改零知识论证方案，旨在提供针对中间人攻击的安全性。</p>
+</blockquote>
+
+<p><em>精选自 23 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
