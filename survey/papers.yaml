@@ -36413,3 +36413,422 @@ papers:
   - LED
   fetched_date: '2026-09-13'
   source: eprint
+- id: snarks_over_small_2026
+  title: SNARKs over Small Prime Fields without Extension Field Multiplication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/719
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Sumcheck-based transparent SNARKs over small prime fields encounter a basic soundness bottleneck. When instantiated
+    over $\mathbb{F}_p$, the round-by-round soundness error is $O(d/p)$, where $d$ is th
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: separating_pseudorandom_generators_2026
+  title: Separating Pseudorandom Generators from Logarithmic Pseudorandom States
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1994
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Pseudorandom generators (PRGs) are a foundational primitive in classical cryptography, underpinning a wide range
+    of constructions. In the quantum setting, pseudorandom quantum states (PRSs) were propo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: arithmetic_for_largecharacteristic_2026
+  title: Arithmetic for Large-Characteristic Finite Fields in CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1958
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Seur\'e and Suvanto (ePrint 2026/1102) recently showed that, for small-characteristic primes $p$, arithmetic over
+    $\mathbb{F}_{p^r}$ can be homomorphically evaluated in CKKS via a techniquethey call \
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: structurepreserving_compressing_primitives_2026
+  title: 'Structure-Preserving Compressing Primitives: Vector Commitments and Accumulators and Applications'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1619
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Compressing primitives such as accumulators and vector commitments, allow to rep- resent large data sets with
+    some compact, ideally constant-size value. Moreover, they support operations like proving '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: optimal_collision_sidechannel_2026
+  title: Optimal Collision Side-Channel Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2019/828
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Collision side-channel attacks are efficient attacks against cryptographic implementations, however, optimal collision
+    side-channel attacks and how to compute them efficiently is an open question. In '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: akita_a_highperformance_2026
+  title: 'Akita: A High-Performance Lattice-Based Polynomial Commitment Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1983
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Lattice-based polynomial commitment schemes (PCSs) promise post-quantum SNARKs with two properties that elliptic
+    curves provide and hash-based schemes, today''s deployed post-quantum default, do not: c'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: cryptanalysis_of_the_2026_4
+  title: Cryptanalysis of the Alternative Mod-2/Mod-3 Weak PRF
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1982
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The alternative mod-$2$/mod-$3$ function is one of the most widely used weak PRF constructions in modern cryptographic
+    protocols. Despite its practical importance, its security has received relatively
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: parallelized_authenticated_encryption_2026
+  title: Parallelized Authenticated Encryption with Tag Combiners
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1981
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: When looking at authenticated encryption schemes, we have schemes that process the input data by having serial
+    calls to their underlying building blocks, like duplex-based constructions, and schemes t
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: from_specs_to_2026
+  title: 'From Specs to Apps: Verifying and Monitoring Models of Signal and WhatsApp'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1979
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Signal protocol is a prominent messaging protocol that se-
+
+    cures communication for billions of users. It powers WhatsApp,
+
+    the most widely used messaging application worldwide, and the
+
+    Signal app, '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: latticebased_secretkey_functional_2026
+  title: Lattice-based Secret-Key Functional Encryption for Constant-Degree Polynomials
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1977
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a lattice-based construction of secret-key functional encryption (FE) for low-norm polynomials of any
+    constant degree $d$, hence also for $\mathsf{NC}^{0}$ circuits. We rely on two core ing
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: properties_of_the_2026
+  title: Properties of the Me Operation and Me-Scalar Multiplication on Elliptic Curves over Finite Fields
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1976
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The M operation was introduced by Yura as an alternative to the max operation appearing in the box-ball system
+    (BBS) to construct a BBS over finite fields. The Me operation is a version of the M opera
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: additionefficient_mds_matrices_2026
+  title: Addition-Efficient MDS Matrices from Superconcentrators (Full Version)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1973
+  directions:
+  - linear_diffusion
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: MDS matrices are a key structure for providing optimal diffusion in symmetric primitives. However, the theoretical
+    analysis of their cost remains limited. This issue is particularly relevant to arithm
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - diffusion
+  - MDS
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: criminology_refined_techniques_2026
+  title: 'Criminology: Refined Techniques for Compression Side-Channel Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1972
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'It has been known for two decades that performing compression before encryption is dangerous, because it introduces
+    a side channel leaking information about plaintexts through ciphertext lengths: the '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - CRAFT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: componentdual_compression_and_2026
+  title: Component-Dual Compression and the Exact Characteristic-Two Contribution Region of the Relaxed Non-Fano Port
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1971
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Jafari and Khazaei (Journal of Cryptology, 2021) introduced a kernel-based lower-bound method for linear secret-sharing
+    schemes by fixing one minimal qualified coalition and comparing its participant '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: efficient_polynomial_system_2026
+  title: 'Efficient Polynomial System Solving via Dixon Resultants: Applications to AO Primitives'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1969
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Solving multivariate polynomial systems is a fundamental problem in cryptanalysis, with increasing relevance in
+    algebraic attacks on arithmetization-oriented (AO) primitives. Current approaches primar
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: the_closestvector_problem_2026
+  title: The Closest-Vector Problem over Cyclotomics and its Application to Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1968
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study rounding error in the Closest-Vector Problem (CVP) over cyclotomic lattices of arbitrary order \(m\),
+    motivated by its role in approximate homomorphic encryption (HE), where lattice-based rou
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: azkaban_a_zeroknowledge_2026
+  title: 'Azkaban: A Zero-Knowledge Abstract Analysis for Neural Networks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1967
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Deep neural networks (DNNs) are increasingly used in sensitive applications, where certifying properties such as
+    adversarial robustness and fairness is crucial. Several recent works propose DNN certif
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: threeround_weak_nonmalleable_2026
+  title: Three-Round Weak Non-Malleable Zero-Knowledge Argument
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1964
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Non-malleable zero-knowledge argument(NMZK) is a strong notion of zero-knowledge argument that ensures security
+    against man-in-the-middle(MIM) attacks. While three-round constructions exist for variou
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: impossible_polytopic_attack_2026
+  title: 'Impossible Polytopic Attack Revisited: Low-Data Distinguishers and Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1963
+  directions:
+  - differential
+  - lightweight
+  - tweakable
+  - impossible_differential
+  ciphers: []
+  significance: medium
+  summary: Block ciphers including several variants of the well-known \textsf{AES}, the newly proposed tweakable block cipher
+    \textsf{Deoxys-BC} (standardized by ISO/IEC and renamed Deoxys-TBC), and \textsf{ChiL
+  status: pending_review
+  matched_keywords:
+  - differential
+  - impossible differential
+  - block cipher
+  - tweakable
+  - AES
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: a_formal_security_2026_1
+  title: A Formal Security Analysis of a MACsec Key Agreement Protocol Using Tamarin
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1961
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: MACsec Key Agreement (MKA) is the IEEE 802.1X key-management protocol used to establish and maintain Secure Associations
+    for MACsec deployments. Although MKA is widely deployed, machine-checked analys
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: unbounded_broadcast_and_2026
+  title: Unbounded Broadcast and KP-ABE with Sublinear Ciphertext from Pairings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1960
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present the first pairing-based unbounded broadcast encryption\n  and key-policy attribute-based encryption\
+    \ (KP-ABE) with sublinear\n  ciphertext size. Here, unbounded means set-up and the public\n  p"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: more_efficient_secretshared_2026
+  title: More Efficient Secret-Shared Joins with Multiplicity via  Oblivious Sort Expansion
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1957
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secret-shared SQL-style join is a fundamental building block in secure collaborative data analysis. In practice,
+    join operations frequently involve duplicate keys, giving rise to one-to-many (Join-OM)
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-14'
+  source: eprint
+- id: prism_efficient_zksnarks_2026
+  title: 'PRISM: Efficient zkSNARKs for RNS-Based Homomorphic Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1956
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Homomorphic Encryption (HE) enables computations on encrypted data without decryption, but it does not guarantee
+    the integrity or correctness of the performed operations. To address this limitation, v
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-14'
+  source: eprint
