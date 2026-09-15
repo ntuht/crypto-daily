@@ -36832,3 +36832,488 @@ papers:
   - LED
   fetched_date: '2026-09-14'
   source: eprint
+- id: wasp_succinct_noninteractive_2026
+  title: 'Wasp: Succinct Non-Interactive Zero-Knowledge Proofs from VOLE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1988
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge proofs (ZKPs) based on vector oblivious linear evaluation (VOLE) excel in prover efficiency but
+    typically require linear communication and verification. Antman (Weng et al., CCS '22) in
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: adaptive_special_soundness_2026
+  title: 'Adaptive Special Soundness: Improved Knowledge Extraction by Adaptive Useful Challenge Sampling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2038
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The knowledge soundness of an interactive proof is often proven via various ``special soundness (SS)'''' frameworks
+    which separate knowledge extraction into:
+
+    (1) extracting accepting transcripts conform'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: datastrophy_when_your_2026
+  title: 'Data-strophy: When Your Integrity Goes Wild, So Does Your Data!'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1994
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Proton is a popular security and privacy service provider with a large user base spanning both organizations and
+    individuals. Proton Docs/Sheets support real-time collaborative document editing while '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: fully_adaptive_frost_2026
+  title: Fully Adaptive FROST with Identifiable Aborts from AOMDL
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1950
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present FaFROST+, the first two-round Schnorr threshold signature scheme achieving full adaptive security under
+    the Algebraic One-More Discrete Logarithm (AOMDL) assumption with identifiable aborts
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: fhe_for_arbitrary_2026
+  title: FHE for Arbitrary Modulus ALU and Application to One-Round Threshold ECDSA
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1836
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) has served as a theoretical building block for cryptographic primitives, but
+    concrete instantiations remain limited by the cost of generic homomorphic computation. O
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: sok_private_transformer_2026
+  title: 'SoK: Private Transformer Inference Across Systems, Models, and Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2005
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Private inference can protect user queries and model weights without trusted hardware or statistical privacy relaxations,
+    but transformers combine large secret matrix multiplications, costly nonlinear
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: fair_distributed_exchange_2026
+  title: Fair Distributed Exchange via Threshold Adaptor Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/388
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Adaptor signatures enable scriptless protocols on blockchains such as Bitcoin by allowing a buyer to lock a coin
+    based on an NP statement and release payment to any party that reveals the correspondin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: refining_leakage_diagram_2026
+  title: Refining Leakage Diagram Analyses for Random Probing Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2016
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Masking is a widely used countermeasure against side-channel attacks, where sensitive variables are split into
+    randomized shares in order to prevent information leakage from intermediate computations.
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: a_unified_analysis_2026
+  title: A Unified Analysis of Refresh Gadgets in the Random Probing Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2015
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Masking is a standard countermeasure against side-channel attacks on embedded cryptographic implementations. Its
+    security is commonly analyzed in the random probing model, which offers a useful trade-
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: quantum_discrete_logarithms_2026
+  title: Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\widetilde O(n^2)$ Toffoli Gates
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2014
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We give a quantum algorithm for the elliptic curve discrete logarithm problem over an \(n\)-bit prime field using
+    \(\frac{5}{2}n+o(n)\) logical qubits and \(\widetilde O(n^2)\) Toffoli gates. Luo et a
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: revisiting_differentiallinear_cryptanalysis_2026
+  title: Revisiting Differential-Linear Cryptanalysis via a Walsh-Transform Perspective
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2013
+  directions:
+  - linear
+  - differential
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: Standard differential-linear (SDL) cryptanalysis has matured rapidly, now backed by the SDL connectivity table
+    (SDLCT) framework, multi-round middle-part extensions, and automated CP-based search mode
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - ARX
+  - SPECK
+  - Ascon
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: universally_composable_reverse_2026
+  title: Universally Composable Reverse Firewalls for Oblivious Linear Evaluation and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2012
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure multi-party computation (MPC) traditionally assumes that parties execute protocols on trustworthy machines.
+    This assumption fails under machine subversion, where compromised devices may leak se
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: cauchyfold_residueoptimal_higharity_2026
+  title: 'CauchyFold: Residue-Optimal High-Arity Lattice Folding via Scaled Cauchy Challenges'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2011
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'A direct $k$-ary quadratic fold with one accumulator and $k$ fresh inputs exposes $k + \binom{k}{2}$ mixed interactions.
+    These terms need not be retained independently across the folding challenge. A '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: beasley_efficient_zeroknowledge_2026
+  title: 'Beasley: Efficient Zero-Knowledge Proofs for Lattice-based Round-Optimal Oblivious Pseudorandom Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2010
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Verifiable oblivious pseudorandom functions (VOPRFs) enable a client to evaluate a pseudorandom function on a private
+    input under a server-held key while verifying that the server evaluated the functi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: on_succinct_obfuscation_2026
+  title: On Succinct Obfuscation via Propositional Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2009
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A central line of inquiry in the study of indistinguishability obfuscation (IO) is to minimize the size of the
+    obfuscation. Today we know how to obfuscate programs represented as Turing machines, wher
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: new_imperfect_high_2026
+  title: New Imperfect High Threshold and Slice Secret Sharing Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2008
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present new constructions of (n - t + 1)-out-of-n threshold and slice secret sharing schemes for short secrets
+    with imperfect secrecy for constant t and growing n.  Our main results are
+
+
+    1. an ε-di'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: sharp_minimumdistance_tails_2026
+  title: Sharp Minimum-Distance Tails for BAA Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2007
+  directions:
+  - permutation_layer
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'Fast randomized linear codes used in pseudorandom correlation generators and
+
+    code-based proof systems require quantitative guarantees on the probability of
+
+    sampling a code with insufficient distance. '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - MDS
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: exact_errorcompensated_pruning_2026
+  title: Exact Error-Compensated Pruning in Matrix Multiplication Time
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2004
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We characterize the arithmetic complexity of reproducing a prescribed error-compensated pruning procedure: select
+    weights for removal, set them to zero, and propagate each removal error to later colum'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: derivatives_of_quantum_2026
+  title: 'Derivatives of Quantum Randomness: Separating Pseudorandom Unitaries from Pseudorandom (Function-like) States'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2002
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Quantum computation gives rise to new pseudorandom primitives for states and unitaries, including pseudorandom
+    state generators (PRSGs), pseudorandom function-like state generators (PRFSGs), and pseud
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: revisiting_singlecolor_initial_2026
+  title: Revisiting Single-Color Initial Structures in Meet-In-The-Middle Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1999
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The meet-in-the-middle (MITM) attack framework is one of the most powerful cryptanalytic techniques with broad
+    influence to preimage, key recovery, and collision attacks. In this paper, we present two
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - MITM
+  - AES
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: a_lowcommunication_garbled_2026
+  title: A Low-Communication Garbled RAM from Homomorphic Secret Sharing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1998
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Garbled circuits are fundamental in modern cryptography and secure two- or multi-party computation. For real-world
+    programs that are naturally expressed in the Random-Access Machine (RAM) model, garbl
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: libfwht_from_exact_2026
+  title: 'LibFWHT: From Exact Walsh Spectra to Key Dependence in Differential-Linear Correlations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1997
+  directions:
+  - linear
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Walsh-Hadamard transform (WHT) computes the correlation of a Boolean function with every input parity function
+    at once. Cryptanalytic workflows transform large arrays repeatedly, in batches. Howev
+  status: pending_review
+  matched_keywords:
+  - differential
+  - linear cryptanalysis
+  - PRESENT
+  - SIMON
+  - LED
+  - KATAN
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: one_more_a_2026
+  title: 'One More A: Sharper Tails Without Scaling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1996
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Repeat--accumulate--accumulate (RAA) codes have minimum distance linear
+
+    in the block length with probability tending to one, both with and
+
+    without random coordinate scaling. Sharp results, however, re'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: bounded_information_pac_2026
+  title: 'Bounded Information: PAC Certification of Multivariate Side-Channel Traces'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1990
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Side-channel leakage certification aims to quantify what an attacker can learn about a secret variable from observed
+    leakage. Existing information-theoretic estimators, such as perceived information (
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: bonsai_scalable_private_2026
+  title: 'Bonsai: Scalable Private Payments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1987
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Virtually all deployed private payment systems publish a nullifier for every transaction to prevent double spending.
+    At a million transactions per second, the nullifier set grows by a petabyte each ye
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-15'
+  source: eprint
+- id: postquantum_private_set_2026
+  title: Post-Quantum Private Set Intersection for Small Sets
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1985
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Are private set intersection (PSI) protocols ready for the post-quantum future? We focus on the PSI protocol of
+    Rosulek \& Trieu (``RT21'', ACM CCS 2021), which is the current state-of-the-art for PSI
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-15'
+  source: eprint
