@@ -37317,3 +37317,117 @@ papers:
   - PRESENT
   fetched_date: '2026-09-15'
   source: eprint
+- id: a_new_approach_2026
+  title: A New Approach to Large Party Beaver-Style MPC with Small Computational Overhead
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2305
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Secure multi-party computation (MPC) enables $N$ parties to jointly evaluate any function over their private inputs
+    while preserving confidentiality. While decades of research have produced concretely
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-09-16'
+  source: eprint
+- id: highthroughput_verifiable_distributed_2026
+  title: High-throughput Verifiable Distributed OPRF from Gold PRF
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1953
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An oblivious pseudorandom function (OPRF) is a two-party protocol that enables a client to obtain $F_k(x)$ on an
+    input $x$ without learning the server-held key $k$, while the server learns nothing abo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-16'
+  source: eprint
+- id: spar_somewhat_practical_2026
+  title: 'sPAR: (Somewhat) Practical Anonymous Router'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/860
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Anonymous communication is one of the fundamental tools to achieve privacy for communication over the internet.
+    Almost all existing design strategies (e.g., onion routing/Tor, mixnets) for anonymous c
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-16'
+  source: eprint
+- id: cryptanalysis_of_full_2026
+  title: Cryptanalysis of Full BEANIE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2297
+  directions:
+  - tweakable
+  - low_latency
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Beanie is a tweakable block cipher recently published at ToSC aiming for memory encryption of microcontroller units.
+    In line with this goal, it handles small plaintexts of only 32 bits and has a low l
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - tweakable
+  - low latency
+  fetched_date: '2026-09-16'
+  source: eprint
+- id: noisetolerant_plaintextchecking_oracle_2026
+  title: Noise-Tolerant Plaintext-Checking Oracle Attacks -- A Soft-Analytic Approach Applied to ML-KEM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1496
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Plaintext-checking oracle (PCO) attacks are among the most prominent types of attacks against NIST''s recently
+    standardized ML-KEM.
+
+    Previous works have drastically reduced the number of queries needed '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-16'
+  source: eprint
+- id: shorter_voleintheheadbased_signatures_2026
+  title: Shorter VOLE-in-the-Head-based Signatures from Vector Semi-Commitment
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1077
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The VOLE-in-the-Head (VOLEitH) paradigm compiles VOLE-based zero-knowledge proofs into publicly verifiable post-quantum
+    signature schemes. A central component of VOLEitH is a GGM-style tree used to re
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - AES
+  - LED
+  fetched_date: '2026-09-16'
+  source: eprint
