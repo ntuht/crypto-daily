@@ -37431,3 +37431,272 @@ papers:
   - LED
   fetched_date: '2026-09-16'
   source: eprint
+- id: the_residue_is_2026
+  title: 'The Residue Is the Resource: Exact Fresh-State Complexity, Reconstruction Limits, and Challenge Design in Folding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2019
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Folding protocols cross public-randomness boundaries at which input-dependent information must be fixed before
+    a verifier challenge is known. We study the minimum amount of fresh scalar information th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: efficient_singleserver_onlineoffline_2026
+  title: Efficient Single-Server Online-Offline PIR without Periodic Preprocessing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2033
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Information Retrieval (PIR) allows a client to retrieve an entry from a public database without revealing
+    the entry of interest. Standard PIR, however, requires the server to perform expensive
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: exploiting_snovas_structure_2026
+  title: Exploiting SNOVA’s Structure in the Wedge Product Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/237
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: Post-quantum cryptography (PQC) aims to develop cryptographic schemes secure against quantum adversaries. One promising
+    class of digital signature schemes is based on multivariate quadratic equations,
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: maliciously_secure_shuffled_2026
+  title: Maliciously Secure Shuffled Distributed OPRF with Applications to Private Set Operations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2035
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Set Intersection (PSI) enables two parties to compute the intersection of their private sets without revealing
+    any additional information. For plain PSI, there exist extremely efficient soluti
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: barely_doublyefficient_pir_2026
+  title: Barely Doubly-Efficient PIR from Quadratic Residuosity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2034
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A Private Information Retrieval (PIR) scheme allows a client to retrieve data from a database hosted on a remote
+    server without revealing which location is being accessed. In Doubly-Efficient PIR (DEP
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: tight_constants_in_2026
+  title: Tight Constants in Talagrand's Boolean Convolution Inequality
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2032
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We study the optimal dimension-free constant $C_*(a)$ in Talagrand's Boolean convolution inequality $\Pr_\mu[T_af\ge
+    u]\le C_*(a)/(u\sqrt{\log u})$, where $T_a$ is the noise operator, $\mu$ is the uni
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: mind_small_integers_2026
+  title: 'Mind Small Integers in MDS Matrix: Collision Attacks on Round-Reduced Reinforced Concrete'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2031
+  directions:
+  - algebraic
+  - differential
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: "The rapid advancement of Zero-Knowledge Proofs (ZKP) has motivated the design of ZK-friendly hash functions. \n\
+    A relatively new design strategy for ZK-friendly hash functions is using the composition o"
+  status: pending_review
+  matched_keywords:
+  - differential
+  - algebraic attack
+  - MDS
+  - LED
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: new_pseudorandom_correlation_2026
+  title: New Pseudorandom Correlation Functions and Exponent VRFs from DCR
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2030
+  directions:
+  - related_key
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Pseudorandom correlation functions (PCFs) allow two parties to expand short correlated keys into an unbounded,
+    locally evaluatable source of correlated randomness. In this paper, we give the first con
+  status: pending_review
+  matched_keywords:
+  - related key
+  - lightweight
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: its_not_just_2026
+  title: 'It''s Not Just a Phase: Understanding Function Dependence in MPC Preprocessing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2029
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: 'Secure multiparty computation (MPC) is a key enabling technology for privacy-preserving applications. To achieve
+    low latency after inputs are provided, many efficient protocols utilize preprocessing, '
+  status: pending_review
+  matched_keywords:
+  - low latency
+  - LED
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: dimension_reduction_for_2026
+  title: Dimension Reduction for Theta Series of Ideal Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2028
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Theta series are fundamental functions that record lattice-vector lengths and connect lattice geometry with Gaussian
+    quantities such as Gaussian mass and the smoothing parameter. For ideal lattices un
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: optimistic_historyindependent_sleepy_2026
+  title: Optimistic History-Independent Sleepy Atomic Broadcast
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2024
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The latency of sleepy consensus protocols has been improved significantly, with recent designs achieving constant-round
+    confirmation. However, existing protocols either rely on unrealistic additional '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: robust_side_channel_2026
+  title: Robust Side Channel Analysis with Blocking and Quantification of Leakage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2023
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "While an abundance of SCA methodologies have arisen over the years with impressive theoretical backgrounds, they\
+    \ fail to take into account some important real-world aspects in the analysis.\n  Most of "
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: a_partial_injection_2026
+  title: A Partial Injection from Unsatisfiable to Uniquely Satisfiable Quadratic Systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2022
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Let $\mathrm{MQ}_0(n)$ and $\mathrm{MQ}_1(n)$ be the sets of square systems of $n$ quadratic
+
+    equations in $n$ variables over $\mathbb{F}_2$ having, respectively, no solution and exactly one solution, '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: silk_computationefficient_and_2026
+  title: 'Silk: Computation-Efficient and Post-Quantum-Friendly Randomness Beacon'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2021
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Distributed randomness beacons enable mutually distrustful parties to jointly generate public randomness. Several
+    existing beacons built from secret sharing use costly pairings or group operations to '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-17'
+  source: eprint
+- id: removing_the_human_2026
+  title: 'Removing the Human, Keeping the Doors Unlocked: A Cross-Tool Formal Analysis of GSMA SGP.32 eSIM IoT Provisioning'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2020
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: GSMA SGP.32 manages eSIM profiles for unattended IoT devices by replacing the local user confirmation of consumer
+    eSIM provisioning (SGP.22) with the signature of a remote manager, the eIM. The device
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-17'
+  source: eprint
