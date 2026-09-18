@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-09-18</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-09-18</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-09-18</h1>
+
+<blockquote>
+<p>自动生成于 2026-09-18 04:21</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 17 篇 → 启发式 4 篇 → 精选 <strong>4 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [SCA-GPT: A Generation-Planning-Tool Assisted LLM Agent for Fully Automated Side-Channel Analysis on Cryptosystems](https://eprint.iacr.org/2025/1643)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2025/1643.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：现有的非侵入式安全测试（如侧信道分析）高度依赖人类专家，导致效率低下且标准化程度不足。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出SCA-GPT，一个创新的基于大型语言模型（LLM）的智能体，并辅以生成规划工具，旨在实现密码系统侧信道分析的完全自动化。SCA-GPT能够自主理解测试标准（如ISO/IEC 17825），规划详细的测量策略，执行复杂的分析步骤，并根据收集到的数据自动评估目标系统的安全性。通过将LLM的理解和推理能力与规划工具的结构化执行相结合，SCA-GPT显著减少了对人工干预的需求，提升了分析的自动化水平。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为自动化安全测试领域开辟了新路径，有望大幅提升侧信道分析的效率、可重复性和标准化程度，从而加速密码系统安全评估的进程。</p>
+
+<hr>
+
+<h3>2. [A Unified Framework for Statistical Side-Channel Distinguishers: From Leakage Assessment to Key Recovery](https://eprint.iacr.org/2026/2041)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 9/10 | [📎 PDF](https://eprint.iacr.org/2026/2041.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：侧信道分析（SCA）领域长期以来在密钥恢复攻击（如CPA、MIA）和泄露评估方法（如TVLA、$t$-检验）之间存在两条并行发展路径，缺乏一个统一的理论基础来整合这些不同的技术。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一个创新的统一框架，旨在整合统计侧信道区分器，涵盖从泄露评估到密钥恢复的全过程。该框架通过引入一套通用的数学工具和概念，将传统的攻击方法和评估方法置于同一理论体系之下。它不仅量化了信息泄露与攻击成功率之间的内在联系，还为理解不同区分器的性能边界和适用场景提供了更清晰的视角，从而促进了对侧信道现象的全面理解。</p>
+
+<p>🎯 <strong>意义</strong>：这一统一框架深化了对侧信道攻击原理的理解，为设计更高效、更通用的侧信道分析工具和评估方法奠定了坚实基础，并有助于指导未来抗侧信道对策的开发。</p>
+
+<hr>
+
+<h3>3. [Failure Is Not Silent: Attacks on Blind Signatures](https://eprint.iacr.org/2026/2043)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 8/10 | [📎 PDF](https://eprint.iacr.org/2026/2043.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：盲签名和OPRF（不经意伪随机函数）是构建匿名代币和隐私保护协议的核心密码学原语，其安全性，特别是盲性和请求隐私，对于维护用户匿名性至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文通过深入分析，揭示了多个先前被声称具有强盲性和请求隐私的盲签名和OPRF方案存在严重漏洞。研究发现，在这些方案中，当协议执行失败时，其失败操作并非“无声”或不可区分。攻击者可以通过观察或利用这些失败操作泄露的特定信息，来破坏协议的匿名性或追踪用户的请求，从而违背了其核心隐私承诺。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作强调了对盲签名和OPRF方案进行更严格、更全面的安全分析的必要性，并为未来设计和实现更健壮、真正隐私保护的匿名协议提供了关键警示和指导。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/2052" target="_blank">One Scalar to Fold Them All, and in the Commitment Bind Them: Reduced Logarithmic ElGamal Shuffle Proofs</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/2052.pdf)</p>
+
+<blockquote>
+<p>本文通过结合KZG置换论证和带标签的承诺，设计了一种对重随机化ElGamal密文具有对数级大小的可验证洗牌证明，显著优化了证明效率。</p>
+</blockquote>
+
+<p><em>精选自 17 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
