@@ -37700,3 +37700,308 @@ papers:
   - PRESENT
   fetched_date: '2026-09-17'
   source: eprint
+- id: practical_key_recovery_2026
+  title: Practical Key Recovery Attacks on Full DuX and Reduced-Round YuX
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2045
+  directions:
+  - lightweight
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: DuX and YuX are recent block cipher families designed for efficient evaluation under fully homomorphic encryption.  Both
+    keep sixteen words of a large finite field in four blocks, with a low-degree bl
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: byzantine_broadcast_with_2026
+  title: Byzantine Broadcast with Unknown Participants
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2133
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A sender wishes to broadcast a message across an open, permissionless network (e.g., on the dark web) such that
+    whoever is around and active reaches agreement, even if the sender is malicious. Crucial
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: scagpt_a_generationplanningtool_2026
+  title: 'SCA-GPT: A Generation-Planning-Tool Assisted LLM Agent for Fully Automated Side-Channel Analysis on Cryptosystems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1643
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Non-invasive security testing under standards such as ISO/IEC 17825 still relies on human experts: how to measure
+    a given target, and what the standard requires once the results are available, differ '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: a_localitysensitive_hashing_2026
+  title: A Locality-Sensitive Hashing Framework for Reducing Bounded Distance Decoding to EDCP
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2055
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Bounded Distance Decoding (BDD) is a fundamental primitive in both code- and lattice-based post-quantum cryptography.
+    Prior work of Regev (FOCS~2002) and Brakerski, Kirshanova, Stehl\'e and Wen (PKC~2
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: lemur_compact_postquantum_2026
+  title: 'Lemur+: Compact Post-Quantum Synchronized Multi-Signatures and Multi-Hop Aggregation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2054
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this work, we introduce Lemur+, a compact post-quantum synchronized multi-signature scheme based on standard
+    lattice assumptions (namely, Module LWE and Module SIS). Lemur+ builds on Lemur (CCS 202
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: weighted_batch_threshold_2026
+  title: Weighted Batch Threshold Encryption with Efficient DKG
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2053
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Batch threshold encryption allows a committee to decrypt a selected batch of ciphertexts using one short pre-decryption
+    key per party, while ciphertexts outside the batch remain private. This makes ba
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: one_scalar_to_2026
+  title: 'One Scalar to Fold Them All, and in the Commitment Bind Them: Reduced Logarithmic ElGamal Shuffle Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2052
+  directions:
+  - meet_in_the_middle
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Xue, Lu, and Au design a logarithmic-size verifiable shuffle for rerandomized ElGamal ciphertexts by combining
+    a KZG permutation argument with a tagged inner-product argument, with cost $(2\log N+11) '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: pyuqumuqu_attacks_on_2026
+  title: 'PyuQuMuQu: Attacks on MQ-Based Linkable Ring Signatures and a New 5-Pass Construction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2051
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Linkable ring signatures (LRS) let a member sign on behalf of a group anonymously while ensuring that any two signatures
+    by the same signer are publicly linkable, a major component in e-voting and cry
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: rosetta_efficient_and_2026
+  title: 'ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2047
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Generative large language models (LLMs) have achieved state-of-the-art performance on many real-world tasks such
+    as code generation and question answering. These models predominantly rely on an autore
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: square_root_of_2026
+  title: 'Square Root of All Evil: The Dangers of Falcon''s Superfluous Square Roots'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2046
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Falcon is one of the 3 post-quantum signature schemes already selected by NIST for standardization (as FN-DSA).
+    It is very compact and efficient, but also infamously difficult to implement correctly a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: on_sparkle_and_2026
+  title: On Sparkle+ and its Security Claims
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2044
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We revisit the security bounds of Sparkle+, the threshold Schnorr signature scheme which first appeared in 2023.
+    This scheme has been updated and corrected in several versions and papers (also of othe
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: failure_is_not_2026
+  title: 'Failure Is Not Silent: Attacks on Blind Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2043
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Blind signatures and OPRFs are widely used to build anonymous tokens and privacy-preserving protocols. This paper
+    shows that several prior claims of blindness and request-privacy for such primitives a
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  - CRAFT
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: on_solving_idealsvp_2026
+  title: On Solving Ideal-SVP and Ideal-BDD with Group Representations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2042
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ideal lattices over number fields play a central role in post-quantum cryptography, as evidenced by the NIST-standardized
+    schemes Kyber and Dilithium. Understanding the hardness of ideal-lattice probl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: a_unified_framework_2026_1
+  title: 'A Unified Framework for Statistical Side-Channel Distinguishers: From Leakage Assessment to Key Recovery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2041
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Side-channel analysis (SCA) has historically developed along two parallel research avenues: key recovery attacks
+    (e.g., CPA, MIA, Templates) and leakage assessment methodologies (e.g., TVLA, $t$-tests'
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: zkjpeg_zeroknowledge_image_2026
+  title: 'ZK-JPEG: Zero-knowledge Image Editing and Compression'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2039
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Tools for generating deep fake photographs are proliferating with greater ease of use and prominence in pop culture.
+    Image authentication tools can defeat these deceitful developments by verifying tha
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: silent_payments_formally_2026
+  title: 'Silent Payments, Formally: Security, Scanning Costs, and Blind Collaborative Payments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2037
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Silent payments (BIP-352) let Bitcoin users publish one static address and receive at fresh, unlinkable outputs.
+    The protocol already ships in major wallets, yet its own specification concedes it has '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-18'
+  source: eprint
+- id: backdooring_the_ainative_2026
+  title: 'Backdooring the AI-Native Air Interface: One Poisoned Supply Chain Hijacks CSI Feedback and Beam Management'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2036
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The 5G-Advanced air interface is acquiring its first AI-native functions (AI/ML-based CSI feedback compression
+    and beam management, studied by 3GPP since Release 18) and their models increasingly arri
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-18'
+  source: eprint
