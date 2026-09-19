@@ -38005,3 +38005,110 @@ papers:
   - PRESENT
   fetched_date: '2026-09-18'
   source: eprint
+- id: volatile_and_persistent_2026
+  title: Volatile and Persistent Memory for zkSNARKs via Algebraic Interactive Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/979
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In verifiable outsourcing, an untrusted server runs an expensive computation and produces a succinct proof (called
+    a SNARK) of the results. In many scenarios, the computation accesses a RAM that the s
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-19'
+  source: eprint
+- id: deterministic_almostall_recovery_2026
+  title: Deterministic Almost-All Recovery for Square Four-Tensor Isomorphism
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1665
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: We give deterministic exact recovery for almost all square four-tensors over every finite field. For every \(n
+    \ge 2^{24}\) and prime power \(q \ge 2\), an explicit \(\mathrm{GL}_n(\mathbb{F}_q)^4\)-i
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-09-19'
+  source: eprint
+- id: tree_encodings_ii_2026
+  title: 'Tree Encodings II: Correlation Intractability for all Batched Relations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1140
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Fiat-Shamir transform is a central tool in cryptography and understanding its soundness is both a theoretically
+    challenging and practically pressing question. Correlation intractable hash function
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-19'
+  source: eprint
+- id: beyond_feedforward_networks_2026
+  title: 'Beyond Feedforward Networks: Cryptanalytic Extraction of RNNs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/168
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recurrent neural networks (RNNs) play an important role in time series modeling, signal processing, and resource
+    constrained applications. Their parameters encode valuable functionality and constitute
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-19'
+  source: eprint
+- id: on_aborts_in_2026
+  title: On Aborts in Differential Privacy
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2059
+  directions:
+  - differential
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: There is a growing literature on differential privacy (DP) in multiparty protocols, enabling use in distributed
+    settings and reduced trust assumptions. A largely overlooked aspect of such protocols is
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  fetched_date: '2026-09-19'
+  source: eprint
+- id: tracefactored_bigswitch_for_2026
+  title: Trace-Factored BigSwitch for Matrix-Friendly FHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2058
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Evaluation keys represent a primary memory and initialization bottleneck in matrix-native fully homomorphic encryption
+    (FHE). In the Gentry–Lee (GL) framework, each Trace product yields a four compone
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-19'
+  source: eprint
