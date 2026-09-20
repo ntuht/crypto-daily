@@ -38112,3 +38112,327 @@ papers:
   - PRESENT
   fetched_date: '2026-09-19'
   source: eprint
+- id: areatime_efficient_ntru_2026
+  title: 'Area-Time Efficient NTRU Prime Decapsulation: ASIC Evaluation of the First Five-Way Char-3 Multiplier'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2064
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Streamlined NTRU Prime (sntrup761) is a lattice-based key encapsulation mechanism that, although not a NIST standard,
+    remains widely deployed in critical internet infrastructure. It is the post-quantu
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: lightweight_cryptography_for_2026
+  title: Lightweight Cryptography for Secure UAV Data Integrity Using Ascon-XOF128 and SHAKE128
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2080
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The increasing deployment of unmanned aerial vehicles (UAVs) in communication, surveillance, and other mission-critical
+    applications has created a growing requirement for efficient mechanisms to prese
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - Ascon
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: periodaligned_secure_cosine_2026
+  title: Period-Aligned Secure Cosine Evaluation Based on Two-Party Computation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2079
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The cosine function is widely used in machine-learning applications,
+
+    but evaluating it on secret-shared data is difficult. Conventional
+
+    approaches use polynomial approximations or lookup tables, whose'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: practical_group_signatures_2026
+  title: Practical Group Signatures from Tag-Based NTRU Sampler
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2077
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The post-quantum migration for key agreements and signatures being well underway, the focus naturally shifts to
+    other properties and primitives that still lack efficient solutions. One such area is th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: bounding_the_excess_2026
+  title: Bounding the Excess Risk for Linear Models Trained on Marginal-Preserving, Differentially-Private, Synthetic Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2075
+  directions:
+  - differential
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The growing use of machine learning (ML) has raised concerns that an ML model may reveal private information about
+    an individual who has contributed to the training dataset. To prevent leakage of sens
+  status: pending_review
+  matched_keywords:
+  - differential
+  - machine learning
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: revisiting_malicious_private_2026
+  title: 'Revisiting Malicious Private Aggregation: Formalization, Weaknesses, and Enhancements'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2074
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private aggregation schemes enable aggregation of sensitive data across clients without leaking any individual
+    client's input. Their applications include privacy-preserving federated learning, private
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: revisiting_ml_training_2026
+  title: 'Revisiting ML Training under Fully Homomorphic Encryption: Convergence Guarantees, Differential Privacy, and Efficient
+    Algorithms'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2073
+  directions:
+  - differential
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'We present the first theoretical convergence analysis of machine learning training under fully homomorphic encryption
+    (FHE), combined with a differentially private (DP) training algorithm tailored to '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: sunshine_systems_enabling_2026
+  title: 'Sunshine Systems: Enabling Privacy-Preserving Compliance with Freedom of Information Laws'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2072
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Freedom of information laws (informally known as Sunshine Laws), such as the US Federal Freedom of Information
+    Act, provide legal pathways for members of the public to compel governments to produce in
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: soft_analytical_sidechannel_2026
+  title: Soft Analytical Side-Channel Attacks on SHA-2 and HMAC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2071
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We investigate the use of bit-level Soft Analytical Side-Channel Attacks (SASCA) to recover secret inputs of the
+    SHA-256 hash function, and secret keys of HMAC-SHA-256, using Sentential Decision Diagr
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: polynomial_time_algorithms_2026
+  title: Polynomial Time Algorithms for the Kadison-Singer Problem
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2070
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Marcus, Spielman, and Srivastava [MSS15] established the existence of Kadison--Singer partitions. We provide polynomial-time
+    algorithms for the Kadison--Singer problem. For Hermitian matrices $A_1,\ld
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: default_correct_a_2026
+  title: 'Default Correct: A New Fault Surface in the Comparison Booleanisation of Kyber-KEM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2069
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The Fujisaki–Okamoto (FO) transform protects Kyber-KEM against chosen-
+
+    ciphertext attacks and is based on a ciphertext comparison step. This comparison is usually treated as a single atomic
+    check. How'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: distributed_snargs_resilient_2026
+  title: Distributed SNARGs Resilient to Corrupt Verifiers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2068
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Distributed certification is a method for monitoring the correctness of a distributed system. The model consists
+    of a centralized prover in addition to multiple verifiers lying on the nodes of a commu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: maltese_succinct_polynomial_2026
+  title: 'Maltese: Succinct Polynomial Commitment from Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2067
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Succinct polynomial commitment schemes are a key building block in succinct non-interactive arguments of knowledge
+    (SNARKs). Existing succinct lattice-based polynomial commitment schemes take a "split
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: optimizing_haetae_and_2026
+  title: Optimizing HAETAE and SMAUG-T on Cortex-M4 for Resource-Constrained IoT Devices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2066
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The practicality of post-quantum cryptography (PQC) on IoT devices depends on both operation cycle counts and communication
+    costs from public values (public keys, ciphertexts, and signatures). The DSA
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: differentially_oblivious_resizing_2026
+  title: Differentially Oblivious Resizing for Group-By Aggregations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2065
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Systems for private group-by aggregation (e.g., computing histograms, min/max values, or averages) let a confidential
+    virtual machine (CVM) generate statistics from streaming user data. A particular c
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: witness_encryption_for_2026
+  title: Witness Encryption for NP from SNARGs and Groups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2063
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We construct the first witness encryption for NP in the generic group model from succinct non-interactive arguments
+    (SNARGs) for NP. Our construction applies to any SNARG with subexponential soundness
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: normal_alignment_improved_2026
+  title: 'Normal Alignment: Improved Cryptanalytic Sign Recovery on Hard-Label Networks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2061
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: At EUROCRYPT 2025, Carlini {\em et al.} proposed a breakthrough in the cryptanalytic extraction on hard‑label (S1)
+    deep neural networks (DNNs), demonstrating polynomial-time signature and sign recover
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-20'
+  source: eprint
+- id: delegproof_a_machinechecked_2026
+  title: 'DelegProof: A Machine-Checked Security Analysis of EIP-7702 Delegation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2060
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'EIP-7702, live on Ethereum since the Pectra upgrade, lets externally owned accounts delegate their execution to
+    arbitrary contract code with a single signature. The consequences are measurable: 63% of'
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-20'
+  source: eprint
