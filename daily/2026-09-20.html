@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-09-20</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-09-20</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-09-20</h1>
+
+<blockquote>
+<p>自动生成于 2026-09-20 04:36</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 18 篇 → 启发式 4 篇 → 精选 <strong>4 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Lightweight Cryptography for Secure UAV Data Integrity Using Ascon-XOF128 and SHAKE128](https://eprint.iacr.org/2026/2080)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/2080.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：随着无人机在通信、监控等关键任务中的广泛部署，保障其数据完整性的高效机制变得至关重要。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种利用Ascon-XOF128和SHAKE128两种轻量级密码算法来确保无人机数据完整性的方案。通过评估这些算法在资源受限的无人机平台上的性能，研究展示了它们在提供强大安全性的同时，能够满足无人机对低功耗和高效率的需求。具体而言，Ascon-XOF128作为NIST轻量级密码竞赛的最终入围者，在资源受限设备上表现出优异的性能，而SHAKE128则提供了灵活的输出长度。</p>
+
+<p>🎯 <strong>意义</strong>：该研究为未来无人机系统设计安全且高效的数据完整性保护机制提供了有价值的参考和实践指导。</p>
+
+<hr>
+
+<h3>2. [Differentially Oblivious Resizing for Group-By Aggregations](https://eprint.iacr.org/2026/2065)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 2/10 | [📎 PDF](https://eprint.iacr.org/2026/2065.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在机密虚拟机（CVM）中处理流式用户数据以生成私有分组聚合统计信息（如直方图、均值）时，如何有效管理内存并同时保障差分隐私是一个挑战。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种名为“差分隐私感知重采样”（Differentially Oblivious Resizing）的新方法，旨在优化CVM在处理分组聚合时对内存的使用。该方法通过在数据流处理过程中动态调整数据结构大小，确保在内存受限的环境下，仍能维持差分隐私的严格保证，同时避免了传统方法中可能出现的隐私泄露风险或性能瓶颈。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为在资源受限的隐私保护计算环境中实现高效且安全的流数据分组聚合提供了创新思路。</p>
+
+<hr>
+
+<h3>3. [DelegProof: A Machine-Checked Security Analysis of EIP-7702 Delegation](https://eprint.iacr.org/2026/2060)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 2/10 | [📎 PDF](https://eprint.iacr.org/2026/2060.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：以太坊EIP-7702提案允许外部拥有账户（EOA）通过单一签名将其执行委托给任意合约代码，这在提升灵活性的同时，也引入了潜在的安全风险。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出DelegProof，一个对EIP-7702委托机制进行机器验证的安全分析框架。研究人员利用形式化方法和工具，对EIP-7702的规范和实现进行了严格的安全性证明，识别并评估了该委托机制可能带来的安全隐患，例如重入攻击、权限滥用等。</p>
+
+<p>🎯 <strong>意义</strong>：该分析为EIP-7702的广泛应用提供了坚实的安全基础，并为未来区块链协议的设计和验证树立了典范。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/2075" target="_blank">Bounding the Excess Risk for Linear Models Trained on Marginal-Preserving, Differentially-Private, Synthetic Data</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/2075.pdf)</p>
+
+<blockquote>
+<p>本文研究了使用边缘保持差分隐私合成数据训练线性模型时，模型性能（过量风险）的理论界限，旨在量化隐私保护对机器学习模型准确性的影响。</p>
+</blockquote>
+
+<p><em>精选自 18 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
