@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-09-23</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-09-23</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-09-23</h1>
+
+<blockquote>
+<p>自动生成于 2026-09-23 04:27</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 113 篇 → 启发式 101 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [A Survey of Constraint-Based Side-Channel Analysis: From Algebraic Attacks to Exact Probabilistic Inference](https://eprint.iacr.org/2026/2125)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/2125.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：在过去十五年间，针对经典和后量子密码实现的侧信道分析（SCA）范式发生了从传统统计方法到基于约束推理的根本性转变。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：这篇综述系统地回顾了基于约束的侧信道分析方法，详细阐述了如何利用密码算法的代数结构和泄露信息，通过SAT/SMT求解器、整数线性规划等技术来推断密钥。它不仅涵盖了从早期代数攻击到精确概率推理的演进，还探讨了这些方法在处理复杂泄露模型和高噪声环境下的能力。</p>
+
+<p>🎯 <strong>意义</strong>：该综述为理解和发展更先进的侧信道攻击与防御技术提供了全面的视角和理论基础，对未来密码实现的安全评估具有重要指导意义。</p>
+
+<hr>
+
+<h3>2. [Revisiting the Transferability of Chosen- to Known-plaintext Attacks and Applications to Round-reduced AES](https://eprint.iacr.org/2026/1759)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1759.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：差分攻击是许多分组密码的最佳已知攻击方法，但通常要求攻击者具备选择明文（CP）或选择密文（CC）的能力。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文深入探讨了选择明文攻击（CPA）到已知明文攻击（KPA）的可迁移性问题，并将其应用于轮数约简的AES。研究者分析了在何种条件下，CPA的差分特性能够有效地转化为KPA，从而降低攻击者对明文选择能力的严格要求。他们通过理论分析和对AES的实际攻击实例，展示了如何构建在更弱攻击模型下依然有效的差分路径。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作深化了对差分攻击复杂性的理解，为在更实际的攻击场景下评估分组密码的安全性提供了新的思路和工具。</p>
+
+<hr>
+
+<h3>3. [Circle-Linear Cryptanalysis: Bibrace Characters and Weak-Key Linear Distinguishers for CRAFT](https://eprint.iacr.org/2026/1767)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/1767.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：线性密码分析通过衡量密码算法与定义差分的群的特征之间的相关性来评估其安全性。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文提出了一种名为“圆线性密码分析”的新方法，通过引入第二种初等阿贝尔群结构来定义S盒上的差分，并利用“Bibrace Characters”来衡量相关性。研究者将此方法应用于CRAFT分组密码，成功发现了针对其的弱密钥线性区分器，揭示了CRAFT在特定密钥条件下的脆弱性，从而扩展了线性密码分析的理论框架。</p>
+
+<p>🎯 <strong>意义</strong>：这项研究不仅为CRAFT密码的安全性评估提供了新的视角，也为开发针对其他分组密码的新型线性攻击技术开辟了道路。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/2090" target="_blank">Refining Probabilistic-Linearization TIDA for 5-Round SHA3-384 Collision Attacks (Full Version)</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/2090.pdf)</p>
+
+<blockquote>
+<p>本文改进了针对5轮SHA3-384的概率线性化TIDA（截断差分攻击）方法，以实现更有效的碰撞攻击。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1818" target="_blank">Blood MERIDIAN: a blockcipher that is not a blockcipher</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1818.pdf)</p>
+
+<blockquote>
+<p>本文揭示了轻量级分组密码MERIDIAN的“定向替换”层并非单射，从而证明其设计存在根本性缺陷，不符合分组密码的基本要求。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/2107" target="_blank">Enhancing SAT Solving to Find (Near) Collisions in 6-Round SHA-3 Variants</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/2107.pdf)</p>
+
+<blockquote>
+<p>本文通过增强SAT求解技术，成功找到了针对6轮SHA-3变体的（近似）碰撞，进一步评估了SHA-3家族的抗碰撞性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1788" target="_blank">Cryptanalysis of the DIZY Stream Cipher with Provable Security</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1788.pdf)</p>
+
+<blockquote>
+<p>本文对声称具有可证明安全性的超轻量级流密码DIZY进行了密码分析，揭示了其在资源受限设备应用中的潜在漏洞。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1981" target="_blank">Parallelized Authenticated Encryption with Tag Combiners</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1981.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种利用标签组合器实现并行化认证加密的新方案，旨在提高认证加密方案的处理效率。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1765" target="_blank">Exact linear correlations and the cost of Walsh-transform key recovery, with application to SPEEDY</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1765.pdf)</p>
+
+<blockquote>
+<p>本文研究了轮中S盒层之间无密钥加法时的精确线性相关性，并分析了Walsh变换密钥恢复的成本，将其应用于SPEEDY密码。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1848" target="_blank">A Quasidifferential Analysis of the Wrong-Key Randomization Hypothesis</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1848.pdf)</p>
+
+<blockquote>
+<p>差分密码分析、SPN</p>
+</blockquote>
+
+<p><em>精选自 113 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
