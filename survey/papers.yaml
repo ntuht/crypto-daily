@@ -39235,3 +39235,311 @@ papers:
   - PRESENT
   fetched_date: '2026-09-22'
   source: eprint
+- id: bitz_proofs_and_2026
+  title: 'BitZ: proofs and commitments in arbitrary rings through binary fields'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2141
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\mathbf{f}$
+    with coefficients in an arbitrary finitely generated ring $S$, e.g.\ a finite '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: algorithms_for_computing_2026
+  title: Algorithms for Computing Affine Equivalence and Self-Equivalence Groups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2144
+  directions:
+  - milp_sat_cp
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We study affine and linear equivalence of functions $F,G:\mathbb{F}_q^n\to\mathbb{F}_q^m$. We present practical
+    equivalence algorithms that handle arbitrary functions (any algebraic degree, permutatio
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: finegrained_noninteractive_keyexchange_2026
+  title: Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1784
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely,
+    we propose three multi-party NIKE schemes in three computation models, namely, the '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: amplifying_randomized_encodings_2026
+  title: Amplifying Randomized Encodings & Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/778
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A randomized encoding for a promise problem is a randomized reduction whose outcome distribution on input $x$ can
+    be simulated within some distance $d$, called privacy, using only one bit of informati
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: cryptanalysis_of_goldreichs_2026
+  title: Cryptanalysis of Goldreich's PRGs with MAJ–XOR Predicates
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2156
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Goldreich's pseudorandom generators (PRGs) expand a secret seed by evaluating a fixed low-locality predicate on
+    random subsets of its bits. We study the concrete and asymptotic security of constructio
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: practical_adaptor_signatures_2026_1
+  title: Practical Adaptor Signatures for NP from Online/Offline NIZK
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2155
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Adaptor signatures enable conditional payments on blockchain networks: a pre-signature is bound to a public instance
+    $Y$ and can be completed into a valid signature by any party knowing a witness $y$ '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: structural_weaknesses_in_2026
+  title: Structural Weaknesses in 7 NGCC Submitted Hash Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2152
+  directions:
+  - invariant
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The Institute of Commercial Cryptography Standards (ICCS) launched the Next-generation Commercial Cryptographic
+    Algorithms Program (NGCC) and invited worldwide comments on draft submission requirement
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: tighter_nonuniform_trace_2026
+  title: Tighter  Nonuniform Trace Reductions from Ring-LWE to MP-LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2151
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Middle-Product LWE (MP-LWE) can inherit hardness from Ring-LWE over many number fields. Peikert and Pepin developed
+    a direct reduction using field traces. Njah Nchiwo and Pellet-Mary (NP26) proved pol
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: optimal_byzantine_atomic_2026
+  title: Optimal Byzantine Atomic Broadcast with Message Drops
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2150
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Recent works have studied Byzantine agreement (BA) in the mixed-fault model with resilience threshold $n>2t+r+s$,
+    where $n$ is the number of parties, $t$ is the number of Byzantine parties, $r$ is the
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: identify_postquantum_cryptographic_2026
+  title: 'Identify Post-Quantum Cryptographic Algorithms for Automotive Security: Performance-Driven Guidance for Secure Boot,
+    OTA, and V2X Communication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2149
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The rapid expansion of quantum computing threatens the security foundations of classical public-key cryptography,
+    including RSA and ECC, both vulnerable to Shor's algorithm. For the automotive industr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: reedweave_faster_reedsolomon_2026
+  title: 'ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2147
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly.
+    Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its fo
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: succinct_shortness_check_2026
+  title: Succinct Shortness Check Under a Few Kilobytes via Tensor Train Random Projections
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2146
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Range proofs are a fundamental building block of lattice-based proof systems. Existing approaches relying on standard
+    Johnson-Lindenstrauss (JL) struggle to provide succinctness: unstructured JL incur'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: sak_sparse_arguments_2026
+  title: 'SAK: Sparse Arguments of Knowledge, from Sparse Lookup Arguments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2143
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: "We formalize and construct $sparse$ arguments of knowledge, \nwhere given a length $N$ witness that contains $n$\
+    \ non-zero values the prover time is $O(n) \\circ o(N)$.  \n     In particular,  we achieve "
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: mathsfprawns_threshold_hashbased_2026
+  title: '$\mathsf{PRAWNS}$: Threshold Hash-Based Signatures from Threshold PRFs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2142
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We propose an efficient threshold mechanism that is well suited for certain hash-based signatures. Our proposal
+    has a number of compelling features:
+
+
+    • The final signature assembled from a quorum of s'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: multireprogramming_with_quantum_2026
+  title: Multi-Reprogramming with Quantum Advice in the Quantum Random Oracle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2140
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Adaptive reprogramming is a central tool for proving security in the quantum random oracle model (QROM). Recently,
+    it has been extended to the setting when an oracle-dependent advice is in presence. H
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: a_latencyaware_fpga_2026
+  title: 'A Latency-Aware FPGA Architecture for SHAKE256 with Guarded Final-Block Construction: Targeting Post-Quantum XMSS
+    Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2139
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'The NIST SP 800-208 eXtended Merkle Signature Scheme (XMSS) profile XMSS-SHAKE256_10_256 repeatedly invokes
+
+    SHAKE256 primitives, making field-programmable gate array (FPGA) accelerator latency sensiti'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-09-23'
+  source: eprint
+- id: dash_distributed_asynchronous_2026
+  title: 'DASH: Distributed Asynchronous Schnorr with High Throughput'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2138
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Robust asynchronous threshold Schnorr signatures enable honest parties to complete signing despite malicious behavior
+    and network delays. To reduce online latency, these schemes typically follow an of
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-09-23'
+  source: eprint
