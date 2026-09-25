@@ -39543,3 +39543,147 @@ papers:
   - PRESENT
   fetched_date: '2026-09-23'
   source: eprint
+- id: implementation_and_performance_2026
+  title: Implementation and Performance Analysis of Homomorphic Signature Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/655
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Homomorphic signatures allow to validate computation on signed data. Alice, holding a dataset, $\{m_1 , \ldots
+    , m_t \}$ uses her secret key $\sf sk$ to sign these data and stores the authenticated da
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: kpirc_keyword_pir_2026
+  title: 'KPIR-C: Keyword PIR with Arbitrary Server-Side Computation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1952
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Keyword Private Information Retrieval (KPIR) enables clients to retrieve database entries by keyword without revealing
+    their query, with many efficient schemes relying on Fully Homomorphic Encryption '
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: reducing_the_share_2026
+  title: Reducing the Share Size of Weighted Threshold Secret Sharing Schemes via Chow Parameters Approximation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/772
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A secret sharing scheme is a cryptographic primitive that allows a dealer to share a secret among a set of parties,
+    so that only authorized subsets of them can recover it. The access structure of the '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: on_the_tight_2026
+  title: On the Tight Security of the Double Ratchet
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1625
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: The Signal Protocol is a two-party secure messaging protocol used in applications such as Signal, WhatsApp, Google
+    Messages and Facebook Messenger and is used by billions daily. It consists of two cor
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - LED
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: veried_nonrecursive_calculation_2026
+  title: Veriﬁed non-recursive calculation of Beneš networks applied to Classic McEliece
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/107
+  directions:
+  - milp_sat_cp
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The Beneš network can be utilised to apply a single permutation to different inputs repeatedly. We present novel
+    generalisations of Bernstein's formulae for the control bits of a Beneš network and fro
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: accordion_efficient_batch_2026
+  title: 'Accordion: Efficient Batch Proving via Algebraic Folding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2160
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "We present $\\mathsf{Accordion}$, a new proof system that works in two steps:\n  - $\\textit{Accumulate}$: The\
+    \ first building block is a multi-folding scheme that efficiently accumulates $k$ different in"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: batch_itmac_program_2026
+  title: 'Batch IT-MAC: Program the Randomness in Succinct VOLE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2159
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Many cryptographic protocols rely on affine message authentication tags of the form \({\boldsymbol\sigma}=\Delta{\boldsymbol
+    x}+{\boldsymbol k}\), the batch version of information-theoretic MAC.  Gene
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-25'
+  source: eprint
+- id: formally_modeling_the_2026
+  title: Formally Modeling the Terrapin Attack on SSH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2158
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'The Terrapin attack against SSH channel integrity (USENIX Security 2024) used a novel attack vector: attacks on
+    the channel state. Surprisingly, not all AEAD modes of SSH were equally affected by this'
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - AES
+  - ChaCha
+  fetched_date: '2026-09-25'
+  source: eprint
