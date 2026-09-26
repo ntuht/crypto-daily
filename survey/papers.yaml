@@ -39687,3 +39687,71 @@ papers:
   - ChaCha
   fetched_date: '2026-09-25'
   source: eprint
+- id: tworound_oblivious_linear_2026
+  title: Two-Round Oblivious Linear Evaluation from Learning with Errors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2020/635
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Oblivious Linear Evaluation (OLE) is the arithmetic analogue of the well-know oblivious transfer primitive. It
+    allows a sender, holding an affine function $f(x)=a+bx$ over a finite field or ring, to l
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-26'
+  source: eprint
+- id: writepublic_oblivious_ram_2026
+  title: Write-Public Oblivious RAM and Its Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2163
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Oblivious RAM (ORAM) protocols enable a resource-constrained client to outsource data to an untrusted server, and
+    access this data without revealing what is being accessed. While ORAM protocols are al
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-26'
+  source: eprint
+- id: a_survey_of_2026_1
+  title: A Survey of Pseudorandom Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2162
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A pseudorandom code (PRC) is a cryptographic primitive combining pseudorandom encryption and error-correcting codes
+    (Christ and Gunn, CRYPTO 2024). That is, any polynomial number of codewords are pseu
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-26'
+  source: eprint
+- id: extracting_cnns_in_2026
+  title: Extracting CNNs in the Unknown-Architecture and Feedback-Agnostic Setting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2161
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper studies the cryptanalytic extraction of convolutional neural networks (CNNs). Existing cryptanalytic
+    extraction attacks on CNNs assume that the network architecture is known, and try to rec
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-26'
+  source: eprint
