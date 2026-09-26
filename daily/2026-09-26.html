@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日论文 — 2026-09-26</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a36;
+      --bg-card: #1e1e3a;
+      --accent: #6c63ff;
+      --accent-light: #8b83ff;
+      --text-primary: #e8e8f0;
+      --text-secondary: #a0a0c0;
+      --text-muted: #6a6a8a;
+      --border: #2a2a4a;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(20px);
+    }
+    .nav a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .nav a:hover { text-decoration: underline; }
+    .nav .date {
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-light), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 24px 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent-light);
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 20px 0 10px;
+    }
+    p {
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+    p.paper-entry {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 12px 0 4px;
+      transition: border-color 0.2s;
+    }
+    p.paper-entry:hover {
+      border-color: var(--accent);
+    }
+    p.paper-entry a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    p.paper-entry a:hover {
+      color: var(--accent-light);
+    }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 8px 0 12px;
+      background: rgba(108, 99, 255, 0.08);
+      border-radius: 0 8px 8px 0;
+    }
+    blockquote p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+    th, td {
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background: var(--bg-card);
+      color: var(--accent-light);
+      font-weight: 600;
+    }
+    td {
+      color: var(--text-secondary);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+    strong { color: var(--text-primary); }
+    em { color: var(--text-muted); font-style: italic; }
+    @media (max-width: 600px) {
+      .container { padding: 12px 8px 32px; }
+      h1 { font-size: 1.2rem; }
+      h2 { font-size: 1.05rem; }
+      table { font-size: 0.8rem; }
+      th, td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html">← 论文库</a>
+    <span class="date">2026-09-26</span>
+    <a href="index.html">日报列表</a>
+  </div>
+  <div class="container">
+    <h1>每日精选 — 2026-09-26</h1>
+
+<blockquote>
+<p>自动生成于 2026-09-26 04:39</p>
+<p>数据来源：ePrint RSS → 启发式筛选 → LLM 评分</p>
+<p>候选池 96 篇 → 启发式 92 篇 → 精选 <strong>10 篇</strong></p>
+</blockquote>
+
+<hr>
+
+<h2>⭐ 重点推荐</h2>
+
+<h3>1. [Forkcipher-Based Committing Security from Explicit Collision Security Assumptions](https://eprint.iacr.org/2026/2110)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/2110.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：认证加密（AE）中的上下文承诺安全性要求密文与加密上下文唯一绑定，以防止重放攻击或上下文混淆，但许多传统AE方案未能提供此关键安全保证。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文提出了一种基于Forkcipher的通用承诺转换方法，并首次明确地将这种上下文承诺安全性归结为Forkcipher的显式碰撞安全假设。通过这种方式，它为如何从底层原语的特定碰撞属性构建具有承诺安全性的AE方案提供了严谨的理论框架和构造范式。</p>
+
+<p>🎯 <strong>意义</strong>：这项工作为设计和分析具有更强安全保证的认证加密方案提供了新的理论基础和实用工具，对于提升密码系统的整体安全性具有重要意义。</p>
+
+<hr>
+
+<h3>2. [A Survey of Constraint-Based Side-Channel Analysis: From Algebraic Attacks to Exact Probabilistic Inference](https://eprint.iacr.org/2026/2125)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2026/2125.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：过去十五年间，针对经典和后量子密码实现的侧信道分析（SCA）范式发生了根本性转变，从传统的统计学方法转向更精细的分析手段。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：本文全面综述了这一转变，重点介绍了从将SCA视为统计噪声问题，到利用约束求解器进行代数攻击和精确概率推断的演变，揭示了SCA如何从处理噪声测量转向利用密码算法的结构特性，从而实现更精确的密钥恢复。</p>
+
+<p>🎯 <strong>意义</strong>：这篇综述为研究人员提供了理解和应用先进侧信道分析技术的全面视角，有助于评估和增强密码实现的抗攻击能力。</p>
+
+<hr>
+
+<h3>3. [Adding more parallelism to the AEGIS authenticated encryption algorithms](https://eprint.iacr.org/2023/523)</h3>
+
+<blockquote>
+<p>ePrint | 相关性 10/10 | [📎 PDF](https://eprint.iacr.org/2023/523.pdf)</p>
+</blockquote>
+
+<p>🔬 <strong>背景</strong>：AEGIS认证加密算法的轮函数虽然具有高度并行性，但其整体操作模式却限制了在现代多核处理器上的并行度，影响了性能潜力。</p>
+
+<p>🔧 <strong>方法与贡献</strong>：论文引入了AEGIS-128X和AEGIS-256X两种全新的操作模式，通过重新设计数据处理流程和内部状态更新机制，显著提升了AEGIS算法的并行性，使其能够更有效地利用多核资源，实现更高的吞吐量。</p>
+
+<p>🎯 <strong>意义</strong>：这些新模式极大地提升了AEGIS算法在并行计算环境中的性能，使其更适用于高速数据传输和处理等对效率要求极高的应用场景。</p>
+
+<hr>
+
+<h2>📄 其他值得关注</h2>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1935" target="_blank">A Note on the Security Analysis of Areion</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1935.pdf)</p>
+
+<blockquote>
+<p>本文指出了Areion系列AES基置换在安全分析中存在的错误，Areion旨在实现短消息的快速哈希和认证加密。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/2090" target="_blank">Refining Probabilistic-Linearization TIDA for 5-Round SHA3-384 Collision Attacks (Full Version)</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/2090.pdf)</p>
+
+<blockquote>
+<p>本文改进了针对5轮SHA3-384的概率线性化TIDA碰撞攻击方法，进一步深入研究了SHA-3家族的碰撞抵抗性。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1981" target="_blank">Parallelized Authenticated Encryption with Tag Combiners</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1981.pdf)</p>
+
+<blockquote>
+<p>本文提出了一种利用标签组合器实现并行化认证加密的新方案，旨在克服传统AE方案中数据处理的串行瓶颈。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/2107" target="_blank">Enhancing SAT Solving to Find (Near) Collisions in 6-Round SHA-3 Variants</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/2107.pdf)</p>
+
+<blockquote>
+<p>本文通过增强SAT求解技术，成功找到了6轮SHA-3变体中的（近似）碰撞，进一步推动了对Keccak哈希函数安全性的分析。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1843" target="_blank">APEX: AFS-based Permutation family for Efficiency and eXtensibility (feat. the APEX Suite)</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1843.pdf)</p>
+
+<blockquote>
+<p>本文介绍了APEX，一个基于AFS的置换家族，旨在通过其高效和可扩展的特性，优化ARX基密码原语的软件实现。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1858" target="_blank">On the Mismatch between Neural-Discovered Differential-Linear Features and Long-Round Distinguisher Construction</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1858.pdf)</p>
+
+<blockquote>
+<p>本文探讨了神经网络发现的差分线性特征与长轮区分器构造之间的不匹配问题，指出现有差分神经网络密码分析尚未展现出明显的轮数优势。</p>
+</blockquote>
+
+<p class="paper-entry"><strong><a href="https://eprint.iacr.org/2026/1848" target="_blank">A Quasidifferential Analysis of the Wrong-Key Randomization Hypothesis</a></strong> | [📎 PDF](https://eprint.iacr.org/2026/1848.pdf)</p>
+
+<blockquote>
+<p>本文对差分密码分析中用于数据复杂度估计的“错误密钥随机化”假设进行了准差分分析，深入探究了错误密钥猜测行为。</p>
+</blockquote>
+
+<p><em>精选自 96 篇 ePrint 候选论文</em></p>
+  </div>
+</body>
+</html>
