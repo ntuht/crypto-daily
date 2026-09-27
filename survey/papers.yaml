@@ -39755,3 +39755,464 @@ papers:
   - LED
   fetched_date: '2026-09-26'
   source: eprint
+- id: stay_in_your_2026
+  title: 'Stay in Your Lane: Fast Arithmetic over Large Finite Rings with CKKS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2190
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Recent CKKS-based constructions support homomorphic arithmetic modulo powers of two and more general moduli. We
+    explore a complementary tradeoff: using polynomial rings native to CKKS simplifies arith'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: lifting_symmetries_for_2026
+  title: 'Lifting Symmetries for Dimension Reduction in Module-LIP: rank 2 and rank 4'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2198
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The module lattice isomorphism problem (module-LIP), introduced with HAWK, has attracted growing interest. Its
+    most studied case is ${\mathcal O_{\mathbb{L}}}^2$-LIP, underlying HAWK key recovery, whe
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: multla_a_framework_2026
+  title: 'MultLA: A Framework of Fast Correlation Attack Exploiting Multiple Linear Approximations and Its Application to
+    SNOW 5G'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2197
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The complexity of fast correlation attack is fundamentally determined by the correlations of the linear approximations
+    used. Conventional fast correlation attacks either rely on a single dominant line
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: revisiting_fuzzy_passwordauthenticated_2026
+  title: 'Revisiting Fuzzy Password-Authenticated Key Exchange: Unified Leakage and Improved Efficiency'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2196
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fuzzy Password-Authenticated Key Exchange (fuzzy PAKE) was introduced at Eurocrypt'18, enabling two parties to
+    securely establish a shared cryptographic key using passwords that are close and potentia
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: multikey_fhe_almost_2026
+  title: Multi-Key FHE Almost as Fast as Single-Key FHE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2195
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multi-key fully homomorphic encryption (MKFHE) supports homomorphic computation over ciphertexts encrypted under
+    independently generated keys. Known constructions accommodate independent keys by expan
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: a_blackbox_impossibility_2026
+  title: A Black-Box Impossibility Result for Threshold Signing Standard Hash-Based Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2194
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Hash-based signature schemes present an appealing proposition: they are broadly regarded as the most conservative
+    in terms of assumptions, and their efficiency profiles suit many applications. However'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: distributionaware_encryption_with_2026
+  title: Distribution-Aware Encryption with Optimal Recovery and Semantic Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2192
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Distribution-aware encryption seeks guarantees tailored to the probability
+
+    law of the protected data and the secret key. We study simultaneous
+
+    message-recovery, key-recovery, and target-distribution s'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: building_quantum_circuits_2026
+  title: Building Quantum Circuits with Qarton
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2191
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
+    of quantum algorithms for cryptographic problems. As a start, these algorithms can
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: rethinking_zeroknowledge_tls_2026
+  title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2187
+  directions:
+  - aead
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
+    revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AEAD
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: provable_fftaccelerated_dual_2026
+  title: Provable FFT-Accelerated Dual Attack on LWE Using the General Dual Lattice
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2186
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The dual attack is a central tool for evaluating the security of the Learning with Errors (LWE) problem, which
+    is the foundation of the lattice-based cryptosystems such as ML-KEM. Since the introducti
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: vespa_efficient_secure_2026
+  title: 'Vespa: Efficient Secure Aggregation with Integrity Defense under Server Privacy'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2183
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Secure aggregation with input validation enables a server to securely compute the summation of private data from
+    multiple clients while verifying that the inputs satisfy specific constraints. However,
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: lexicure_efficient_encrypted_2026
+  title: 'Lexicure: Efficient, Encrypted Lexical Search'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2182
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Lexical search retrieves documents containing query keywords that require exact matches, such as rare terms, entity
+    names or codewords. Search is increasingly hosted in the cloud, which places both th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: static_group_signature_2026
+  title: Static Group Signature with Post-Compromise Accountability
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2184
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Signatures with Post-Compromise Accountability (SPCA), introduced by Dayanikli et al. at SCN'26, are signature
+    schemes that enable signatures generated before the compromise of a signing key to be dis
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: leany_a_hardwarefriendly_2026
+  title: 'LEANY: A Hardware-Friendly Wide-Block Block Cipher'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2177
+  directions:
+  - invariant
+  - lightweight
+  - boomerang
+  - meet_in_the_middle
+  - round_function
+  - algebraic
+  - linear_diffusion
+  - impossible_differential
+  - sbox
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Wide-block block ciphers have attracted significant interest due to emerging high-throughput encryption requirements
+    and NIST's Accordion Mode Process. The primary choice for such ciphers is Rijndael-
+  status: pending_review
+  matched_keywords:
+  - differential
+  - impossible differential
+  - boomerang
+  - algebraic attack
+  - meet-in-the-middle
+  - invariant
+  - block cipher
+  - S-box
+  - diffusion
+  - MDS
+  - branch number
+  - SPN
+  - AES
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: budgeted_threshold_signatures_2026
+  title: 'Budgeted Threshold Signatures: Protocol-Native Spending Limits with Zero On-Chain Footprint'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2176
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Spending limits are the workhorse of custody policy, yet in every deployed threshold-signing stack they live outside
+    the signing protocol—in centralized policy engines, on-chain covenants, or hardware
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: mathsfrotor_snarks_for_2026
+  title: '$\mathsf{Rotor}$: SNARKs for Power-of-Two Rings'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2175
+  directions:
+  - permutation_layer
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Succinct proofs for arithmetic modulo powers of two are crucial for verifying machine-word computations in practice.
+    However, designing SNARKs over such rings is challenging, since they lack the algeb
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: switch_commitments_by_2026
+  title: 'Switch Commitments by Coincidence: Confidential Transactions Were Quantum-Upgradable All Along'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2173
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Upgrading cryptocurrencies to post-quantum security is inherently difficult, because their on-chain state associates
+    users'' holdings with public keys: users who fail to transfer their funds to (yet to'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: improved_quantum_linear_2026
+  title: Improved Quantum Linear Key-Recovery Attacks with Walsh-Spectrum Puncturing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2171
+  directions:
+  - linear
+  ciphers: []
+  significance: medium
+  summary: 'Quantum linear key-recovery attacks using QFT-based correlation state
+
+    preparation can achieve superquadratic speedups, but their
+
+    complexity grows rapidly with the active subkey dimension, potentially
+
+    '
+  status: pending_review
+  matched_keywords:
+  - linear cryptanalysis
+  - RECTANGLE
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: swing_the_lure_2026
+  title: 'Swing the Lure: How to Cheaply Mitigate Sign Leakage in Falcon'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2170
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Falcon is one of the three post-quantum signature schemes selected by NIST for standardization so far. It is efficient
+    and has particularly short signatures, but has the drawback of being difficult to
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: highperformance_implementations_of_2026
+  title: High-Performance Implementations of HAETAE and SMAUG-T on Arm Cortex-M55 Using MVE and Slothy
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2168
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Efficient execution of Post-Quantum Cryptography (PQC) in resource-constrained embedded environments requires the
+    joint optimization of not only algorithm vectorization but also dataflow and instructi
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: hardwareadapted_simd_optimization_2026
+  title: Hardware-Adapted SIMD Optimization of AIMer v3 on x86 and Cortex-M55
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2169
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: AIMer v3 replaces AIM2 with AIM3. We test whether SIMD methods developed for AIM2 can accelerate AIM3 while preserving
+    its results. We port the field-arithmetic, affine, party-parallel, and SHAKE meth
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: new_applications_of_2026
+  title: New Applications of RSA
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2167
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present new constructions of the following primitives featuring succinct communication: \n\n- Batch threshold\
+    \ encryption: Assuming RSA and DCR, we construct a threshold encryption scheme in which a b"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: argo_leaking_a_2026
+  title: 'Argo: Leaking a Secret from an Invalid Groth16 Proof'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2165
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present Argo, a randomized encoding scheme for the invalidity of pairing-based SNARKs like Groth16. Argo allows
+    an encoder
+
+    to encode a proof such that a decoder can derive a secret if the proof
+
+    is '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-27'
+  source: eprint
+- id: on_the_limits_2026
+  title: On the Limits of LWE and PCE based UPKE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2164
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Updatable Public-Key Encryption (UPKE) enables forward secrecy in asynchronous settings like secure group messaging.
+    At EC''25, Albrecht, Benčina and Lai proposed the first plausibly post-quantum UPKE '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  fetched_date: '2026-09-27'
+  source: eprint
