@@ -40216,3 +40216,361 @@ papers:
   - permutation
   fetched_date: '2026-09-27'
   source: eprint
+- id: pairwise_independence_of_2026
+  title: Pairwise independence of AES-like block ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1495
+  directions:
+  - sbox
+  - lightweight
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We prove that $4r + 4$ rounds of an AES variant with independent and uniform random round keys are $\varepsilon$-close
+    to pairwise independent with $\varepsilon = 2^{14}\, 2^{-39r}$. This result follo
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  - AES
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: a_fiatshamir_transformation_2026_1
+  title: A Fiat-Shamir Transformation for Private-Coin Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2227
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Fiat--Shamir transformation is a fundamental paradigm in cryptography for compiling interactive public-coin
+    protocols into non-interactive arguments. While this transformation has been extensively
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: micalis_snarg_function_2026
+  title: Micali’s SNARG, Function Vector Commitments, and Fiat–Shamir
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2328
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Micali's construction of succinct non-interactive arguments (SNARGs) combines a probabilistically checkable proof
+    (PCP), a vector commitment, and the Fiat--Shamir transformation. Its security is estab
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: indistinguishability_of_sum_2026
+  title: 'Indistinguishability of Sum of Permutations: A Fourier Analytic Route to Classical and Quantum Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2230
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We study classical and quantum indistinguishability of sums of independent random permutations and related transformations
+    from permutations to functions. Let $G$ be a finite abelian group of order $N
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: breaking_the_gomeztorrecillaslobillonavarro_2026
+  title: 'Breaking the G\''omez-Torrecillas--Lobillo--Navarro Cryptosystem: LLL Recovers the Secret Key Within Seconds'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2225
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present a key-recovery attack on the knapsack McEliece-based public key cryptosystem recently proposed by G\'omez-Torrecillas,
+    Lobillo, and Navarro in DCC 2026. Given the public key alone, the atta
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: the_tower_of_2026
+  title: 'The Tower of Babel: Large Language Models for Side-channel Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2224
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Deep learning-based side-channel analysis (DLSCA) is dominated by CNNs and from-scratch Transformer architectures,
+    while pretrained Large Language Models (LLMs) as side-channel distinguishers remain l
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - AES
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: linear_key_recovery_2026
+  title: Linear Key Recovery in the BAG-Loong Reference Implementation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2223
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'The BAG-Loong reference implementation samples its secret matrices X and Y from
+
+    fixed, publicly known subspaces, although the specification calls for secret random supports.
+
+    This makes the public-key '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: sok_the_landscape_2026
+  title: 'SoK: The Landscape of Post-Quantum Multi-Party Signature Aggregation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2222
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Post-quantum signature schemes such as ML-DSA, FN-DSA
+
+    (Falcon), and SLH-DSA have significantly larger keys and signatures
+
+    than their classical counterparts, making compact multiparty signing
+
+    an increa'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: practical_attacks_against_2026
+  title: Practical Attacks Against EALPN Using Belief Propagation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2213
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Weak and shallow pseudo random functions form a new class of symmetric primitives that is seeing a growing relevance,
+    from their use in the initialization phase of some MPC protocols to the internals '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: hiddenbits_generators_with_2026
+  title: Hidden-Bits Generators with Succinct CRS and Openings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2212
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Feige, Lapidot, and Shamir [FOCS'90] presented a generic approach for building non-interactive zero-knowledge proofs
+    via the notion of hidden-bits generators (HBGs). At a high level, an HBG allows a p
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: structural_cryptanalysis_of_2026
+  title: 'Structural Cryptanalysis of Polar-KEM: Direct Recovery of the Secret Isometry'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2211
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Polar-KEM is a lattice-based key encapsulation mechanism submitted
+
+    to the Next-generation Commercial Cryptographic Algorithms Program.
+
+    Its security is claimed to rely on a lattice isomorphism problem '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: skyhook_trustless_crosschain_2026
+  title: 'Skyhook: Trustless Cross-Chain Value Transfer with a Fully Scriptless Pool'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2210
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Facilitating value transfers with a scriptless chain is a longstanding problem in cryptography. We present a cross-chain
+    messaging and value transfer protocol that maintains game-theoretic atomicity e
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: the_cost_of_2026_1
+  title: 'The Cost of Rewinding for Succinct Arguments: Strict-Time Barriers and Expected-Time Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2209
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Succinct arguments are central cryptographic objects, underlying various applications such as blockchains and image
+    authentication. Almost all succinct arguments used in practice follow the commit-and
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: a_note_on_2026_5
+  title: A Note on CDS for Random Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2208
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We record the following bound: almost all Boolean functions $f : \{0,1\}^n \times \{0,1\}^n \to \{0,1\}$ require
+    $2n - 2\log n - O(1)$ bits of communication for perfect two-party conditional disclosur'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: govbind_from_authenticated_2026
+  title: 'GovBind: From Authenticated Fetch to Zero-Knowledge Predicate over Government Documents'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2206
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Government portals often issue PDF certificates whose provenance can be verified only through a live HTTPS verification
+    service. Proving a limited fact from such a document therefore commonly requires
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: provenance_proofs_linkable_2026
+  title: 'Provenance Proofs: Linkable Zero-Knowledge Derivation Relations for Hierarchical Deterministic Wallets'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2204
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: ZKPoSP proves that a public key or address was honestly derived from a hidden wallet seed, without revealing the
+    seed or the private derivation state. This paper studies relationships among several de
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: on_frost_and_2026
+  title: On FROST and Unconditional LDVR Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2203
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Inspired by the recent polynomial-time adaptive attacks on threshold Schnorr signatures, we contextualize the Low-Dimensional
+    Vector Representation (LDVR) assumption and its impact on relevant thresho
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: fully_anonymous_perfect_2026
+  title: 'Fully Anonymous Perfect Threshold Secret Sharing: Explicit One-Bit Construction and Rate Amplification'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2202
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Fully anonymous perfect threshold secret sharing combines exactly uniform unauthorized shares with reconstruction
+    from unlabeled share values. Con, Li, and Mazor proved that short-share schemes exist '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
+- id: on_the_power_2026_1
+  title: 'On the Power of Slicing and Dicing: Linear Garbling Beyond Two-Input Gates'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2200
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Communication is a central efficiency bottleneck in garbled circuits. Rosulek and Roy (CRYPTO 2021) introduced
+    \emph{slicing} and \emph{dicing}, obtaining a garbling scheme in which XOR gates require '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-28'
+  source: eprint
