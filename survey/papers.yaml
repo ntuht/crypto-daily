@@ -40574,3 +40574,205 @@ papers:
   - LED
   fetched_date: '2026-09-28'
   source: eprint
+- id: cryptanalysis_of_the_2026_5
+  title: Cryptanalysis of the ICCS NGCC Round-1 Public-Key Candidates
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2232
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The ICCS Next-Generation Commercial Cryptography (NGCC) round-1 call received 84 public-key candidates for public
+    evaluation. We present a design-level assessment that targets weaknesses no local code
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: nonlocal_searchtodecision_reduction_2026
+  title: Non-Local Search-to-Decision Reduction over $\mathbb{F}_2$, and More
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1740
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Non-local search-to-decision asks whether the difficulty of two non-communicating (non-local) parties both predicting
+    $x$ given a bipartite state (that possibly depends on $x$) implies the difficulty '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: reduce_and_prange_2026
+  title: 'Reduce and Prange: Revisiting Prange''s ISD for Solving LPN/RSD over Large Fields'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/276
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Syndrome decoding (SD), together with its regular-noise variant (RSD), is fundamental to many cryptographic primitives;
+    in the generator formulation used in cryptography, it is closely related to lear
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: revisiting_the_ipasumcheck_2026
+  title: Revisiting the IPA-sumcheck connection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1325
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: "Inner Product Arguments (IPA) [BCC+16,BBB+17] are a family of proof systems  with $O(\\log n)$ sized proofs, $O(n)$\
+    \ time verifiers, and transparent setup.\n  Bootle, Chiesa and Sotiraki [BCS21] observed"
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: what_to_guess_2026
+  title: What to Guess in Key-Recovery Attacks?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1897
+  directions:
+  - lightweight
+  - differential
+  - zero_correlation
+  ciphers: []
+  significance: medium
+  summary: 'Determining the precise parts of the key that need to be guessed in a key-recovery attack is fundamental for judging
+    its cost: if the same attack can be executed by guessing less key material, then th'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - zero-correlation
+  - block cipher
+  - GIFT
+  - PRESENT
+  - SKINNY
+  - SIMON
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: towards_formal_security_2026
+  title: Towards Formal Security Proofs of MQOM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/629
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Recent MPC-in-the-Head (MPCitH) signatures increasingly rely on aggressive GGM-tree optimizations to reduce signature
+    size and cost, culminating in secret-key-root correlated GGM trees as used in SBC '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: lower_bounds_on_2026
+  title: Lower Bounds on Random-Oracle-Model Signature Length
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2237
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Hash-based signatures offer a conservative foundation for post-quantum authentication, but their large signatures
+    impose substantial communication and storage costs. For security parameter $\lambda$, '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: a_complete_classification_2026
+  title: A Complete Classification of Whole-Output Linear Structures in FEILIAN-Type Components
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2236
+  directions:
+  - permutation_layer
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: We determine all input differences with constant whole-output XOR derivatives for a four-word ARX topology containing
+    FEILIAN SubColumn. For every word width $w\geq2$ and arbitrary XOR-linear internal
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - ARX
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: practical_nullbranch_witness_2026
+  title: Practical Null-Branch Witness Attacks on In-the-Head Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2235
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: In-the-head signatures provide a route to post-quantum authentication based on symmetric primitives. Their algebraic
+    instantiations rely on constraint relations that faithfully encode the underlying o
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: mind_the_gap_2026
+  title: 'Mind the Gap: Proving and Improving RPKI'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2233
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "We present the first rigorous security analysis of the \nResource Public Key Infrastructure (RPKI), an IETF standard\
+    \ for protecting inter-domain routing from basic yet effective attacks: prefix and sub"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-29'
+  source: eprint
+- id: truncated_differential_preimage_2026
+  title: Truncated Differential Preimage Attacks via Differential-Linear Correlations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2231
+  directions:
+  - differential
+  - related_key
+  ciphers: []
+  significance: medium
+  summary: We derive joint truncated differential (TD) probabilities from multiple differential-linear (DL) approximations
+    and use them in a framework for preimage filtering. For a fixed input difference, the in
+  status: pending_review
+  matched_keywords:
+  - differential
+  - related-key
+  - PRESENT
+  - SKINNY
+  fetched_date: '2026-09-29'
+  source: eprint
