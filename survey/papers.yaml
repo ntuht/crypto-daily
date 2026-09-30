@@ -40776,3 +40776,61 @@ papers:
   - SKINNY
   fetched_date: '2026-09-29'
   source: eprint
+- id: on_the_insecurity_2026
+  title: On the (In)security of Approximate Computation Protocols from CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/395
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Secure Multi-Party Computation (MPC) enables collaborative and privacy-preserving computation over private inputs.
+    Recent advances in Homomorphic Encryption (HE), particularly the CKKS scheme, have si
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-30'
+  source: eprint
+- id: quantum_security_of_2026
+  title: Quantum Security of XOR of Permutations via Fourier Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2241
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: The XOR of two or more independent random permutations (XoP) is the prototypical pseudorandom function built from
+    permutations achieving the security beyond the birthday bound.  The security of the Xo
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-09-30'
+  source: eprint
+- id: improved_cryptanalysis_of_2026_2
+  title: Improved Cryptanalysis of Local PRGs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2240
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present two seed-recovery attacks on a family of local PRGs, which map an $n$-bit random seed to an $m$-bit
+    pseudorandom string by applying $\XorMaj$ predicates.
+
+
+    For PRGs with large locality, we e'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-09-30'
+  source: eprint
