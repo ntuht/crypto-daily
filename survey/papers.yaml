@@ -41258,3 +41258,74 @@ papers:
   - PRESENT
   fetched_date: '2026-10-01'
   source: eprint
+- id: verifiable_computation_for_2026
+  title: Verifiable Computation for Approximate Homomorphic Encryption Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/286
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We address the problem of proving the validity of computation on ciphertexts of homomorphic encryption (HE) schemes,
+    a feature that enables outsourcing of data and computation while ensuring both data
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-02'
+  source: eprint
+- id: selforthogonal_minimal_codes_2026
+  title: Self-Orthogonal Minimal Codes From (Vectorial) p-ary Plateaued Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1383
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this article, we derive the weight distribution of linear codes stemming from a subclass of (vectorial) $p$-ary
+    plateaued functions (for a prime $p$), which includes all the explicitly known exampl
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-02'
+  source: eprint
+- id: efficient_pairingfree_adaptable_2026
+  title: Efficient Pairing-Free Adaptable k-out-of-N Oblivious Transfer Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1583
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Oblivious Transfer (OT) is one of the fundamental building blocks in cryptography that enables various privacy-preserving
+    applications. Constructing efficient OT schemes has been an active research ar
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-02'
+  source: eprint
+- id: zkban_an_efficient_2026
+  title: 'zk-BAN: An efficient anonymous blocklisting system with signature-based revocation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2274
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Anonymous blocklisting enables services to revoke malicious users while preserving anonymity for honest users.
+    Signature-based revocation supports revocation from past authentications, but existing sy
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-02'
+  source: eprint
