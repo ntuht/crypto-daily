@@ -41329,3 +41329,24 @@ papers:
   - LED
   fetched_date: '2026-10-02'
   source: eprint
+- id: fully_distributed_multipoint_2026
+  title: Fully Distributed Multi-Point Functions for PCGs and Beyond
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2294
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'We give fully distributed multi-point function (DMPF) constructions that
+
+    share a sparse map over a domain of size $N$. Setup takes secret-shared indices; each later expansion takes new payloads
+    for th'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - AES
+  - LED
+  fetched_date: '2026-10-03'
+  source: eprint
