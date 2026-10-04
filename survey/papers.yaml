@@ -41350,3 +41350,160 @@ papers:
   - LED
   fetched_date: '2026-10-03'
   source: eprint
+- id: score_a_slottocoeff_2026
+  title: 'SCORE: A SlotToCoeff Optimization for Real-Vector Encryption in CKKS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1983
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present SCORE, a tweaked version of the SlotToCoeff operation tailored to the context of encrypted real vectors
+    in the CKKS scheme, where SCORE stands for “SlotToCoeff Optimization for Real-Vector '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: randomized_earlystopping_byzantine_2026
+  title: Randomized Early-Stopping Byzantine Agreement with Applications to Round-Efficient MPC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2284
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We consider two main classes of synchronous round-efficient Byzantine Agreement (BA) protocols: \emph{expected
+    constant rounds} and \emph{early-stopping}. Randomized protocols can terminate in expecte'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: a_kleptographic_attack_2026
+  title: A Kleptographic Attack on CSIDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2283
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This note reports an attack scenario for CSIDH that does not appear to have been considered in the literature.
+    A subverted device of Alice can leak a shared curve between Alice and Bob through Alice's
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: davinci_a_decentralized_2026
+  title: 'DAVINCI: A Decentralized Cryptographic Voting Protocol'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2282
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present DAVINCI, a decentralized end-to-end verifiable voting protocol with no trusted coordinator.
+
+
+    The protocol is structured as a zero-knowledge (ZK) rollup: the election is a ZK-verified state '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: poisoned_cryptography_solving_2026
+  title: 'Poisoned Cryptography: Solving Direct-Sum LIP in Half the Dimension'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2281
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We analyse the Lattice Isomorphism Problem framework of Ducas and van Woerden when it is instantiated with the
+    direct sum of two rescaled integral Barnes-Wall lattices, $\Lambda_{\mathbf{S}}=gBW^{\mat
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: natural_barriers_to_2026
+  title: 'Natural Barriers to Quantum Extraction: On the Post-Quantum (In)security of (O)EKE and Masny-Rindal OT'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2280
+  directions:
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: Encrypted key exchange (EKE), introduced by Bellovin and Merritt (IEEE S\&P 1992), and Masny-Rindal OT, introduced
+    by Masny and Rindal (ACM CCS 2019), are highly-efficient methods for compiling essent
+  status: pending_review
+  matched_keywords:
+  - Feistel
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: a_cryptographic_perspective_2026_1
+  title: A Cryptographic Perspective on Fingerprinting Machine Learning Model Weights
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2279
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: We introduce a cryptographic framework for fingerprinting machine learning models, enabling model providers to
+    train models that can later be attributed to them. Our framework captures an honest setti
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: masked_cross_masking_2026
+  title: 'Masked CROSS: Masking the CROSS Digital Signature Scheme at Arbitrary Order'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2278
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: CROSS is a code-based signature scheme built on the Restricted Syndrome Decoding Problem and is a second-round
+    candidate in NIST's additional digital signature standardization process. Recent work sho
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-04'
+  source: eprint
+- id: concurrently_secure_variants_2026
+  title: Concurrently secure variants of blind (Okamoto-)Schnorr signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2276
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present variants of blind Schnorr and blind Okamoto-Schnorr signatures that are not susceptible to ROS-style
+    attacks. We prove the schemes unforgeable in the algebraic group model and the random or
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-04'
+  source: eprint
