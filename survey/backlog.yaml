@@ -1,49 +1,4 @@
 papers:
-- id: private_quantised_neural_2026
-  title: Private Quantised Neural Network Inference
-  url: https://eprint.iacr.org/2026/1880
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - machine learning
-  directions:
-  - ml_aided
-  - milp_sat_cp
-  summary: Neural networks based machine learning models are used in many classification problems yet privacy issues in model
-    usage are mostly unresolved. When a model owner provides their model to other parties
-  heuristic_score: 6
-  added_date: '2026-10-04'
-  authors: []
-- id: alkaid_accelerating_threeparty_2026
-  title: 'ALKAID: Accelerating Three-Party Boolean Circuits by Mixing Correlations and Redundancy (Full Version)'
-  url: https://eprint.iacr.org/2025/2298
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  directions:
-  - ml_aided
-  summary: 'Secure three-party computation (3PC) with semi-honest security under an honest majority offers notable efficiency
-    in computation and communication; for Boolean circuits, each party sends a single bit '
-  heuristic_score: 6
-  added_date: '2026-10-04'
-  authors: []
-- id: netadapt_networkadaptive_hybrid_2026
-  title: 'NetAdapt: Network-Adaptive Hybrid Protocol Assignment for PPML'
-  url: https://eprint.iacr.org/2025/1315
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  - PRESENT
-  directions:
-  - ml_aided
-  summary: The widespread use of machine learning on sensitive data makes Privacy-Preserving Machine Learning (PPML) essential
-    for data confidentiality. Current state-of-the-art PPML systems employ hybrid protoc
-  heuristic_score: 6
-  added_date: '2026-10-04'
-  authors: []
 - id: vahana_hardwareaware_noise_2026
   title: 'VAHANA: Hardware-Aware Noise Addition Against Gradient Inversion Attacks'
   url: https://eprint.iacr.org/2026/1936
@@ -56,7 +11,7 @@ papers:
   summary: Federated learning (FL) enables clients to collaboratively train a global model by sharing gradient updates instead
     of raw data. However, recent studies show that these shared gradients can be exploit
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: reinspire_highthroughput_lowcommunication_2026
   title: 'ReinsPIRe: High-Throughput, Low-Communication PIR with Server Preprocessing'
@@ -73,7 +28,7 @@ papers:
 
     The crux of ReinsPIRe is new techniques for'
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: criminology_refined_techniques_2026
   title: 'Criminology: Refined Techniques for Compression Side-Channel Attacks'
@@ -88,7 +43,7 @@ papers:
   summary: 'It has been known for two decades that performing compression before encryption is dangerous, because it introduces
     a side channel leaking information about plaintexts through ciphertext lengths: the '
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: sok_private_transformer_2026
   title: 'SoK: Private Transformer Inference Across Systems, Models, and Cryptography'
@@ -102,7 +57,7 @@ papers:
   summary: Private inference can protect user queries and model weights without trusted hardware or statistical privacy relaxations,
     but transformers combine large secret matrix multiplications, costly nonlinear
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: refining_leakage_diagram_2026
   title: Refining Leakage Diagram Analyses for Random Probing Security
@@ -117,7 +72,7 @@ papers:
   summary: Masking is a widely used countermeasure against side-channel attacks, where sensitive variables are split into
     randomized shares in order to prevent information leakage from intermediate computations.
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: a_unified_analysis_2026
   title: A Unified Analysis of Refresh Gadgets in the Random Probing Model
@@ -132,7 +87,7 @@ papers:
   summary: Masking is a standard countermeasure against side-channel attacks on embedded cryptographic implementations. Its
     security is commonly analyzed in the random probing model, which offers a useful trade-
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: quantum_discrete_logarithms_2026
   title: Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\widetilde O(n^2)$ Toffoli Gates
@@ -147,7 +102,7 @@ papers:
   summary: We give a quantum algorithm for the elliptic curve discrete logarithm problem over an \(n\)-bit prime field using
     \(\frac{5}{2}n+o(n)\) logical qubits and \(\widetilde O(n^2)\) Toffoli gates. Luo et a
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: highthroughput_verifiable_distributed_2026
   title: High-throughput Verifiable Distributed OPRF from Gold PRF
@@ -162,7 +117,7 @@ papers:
   summary: An oblivious pseudorandom function (OPRF) is a two-party protocol that enables a client to obtain $F_k(x)$ on an
     input $x$ without learning the server-held key $k$, while the server learns nothing abo
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: a_unified_framework_2026_1
   title: 'A Unified Framework for Statistical Side-Channel Distinguishers: From Leakage Assessment to Key Recovery'
@@ -176,7 +131,7 @@ papers:
   summary: 'Side-channel analysis (SCA) has historically developed along two parallel research avenues: key recovery attacks
     (e.g., CPA, MIA, Templates) and leakage assessment methodologies (e.g., TVLA, $t$-tests'
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: deterministic_almostall_recovery_2026
   title: Deterministic Almost-All Recovery for Square Four-Tensor Isomorphism
@@ -190,7 +145,7 @@ papers:
   summary: We give deterministic exact recovery for almost all square four-tensors over every finite field. For every \(n
     \ge 2^{24}\) and prime power \(q \ge 2\), an explicit \(\mathrm{GL}_n(\mathbb{F}_q)^4\)-i
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: delegproof_a_machinechecked_2026
   title: 'DelegProof: A Machine-Checked Security Analysis of EIP-7702 Delegation'
@@ -206,7 +161,7 @@ papers:
   summary: 'EIP-7702, live on Ethereum since the Pectra upgrade, lets externally owned accounts delegate their execution to
     arbitrary contract code with a single signature. The consequences are measurable: 63% of'
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: finegrained_noninteractive_keyexchange_2026
   title: Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds
@@ -220,7 +175,7 @@ papers:
   summary: 'In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely,
     we propose three multi-party NIKE schemes in three computation models, namely, the '
   heuristic_score: 6
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: aebap_an_efficient_2026
   title: 'AEBAP: An Efficient ECC-Based Authentication Protocol Designed for Wireless Networks'
@@ -237,7 +192,7 @@ papers:
 
     such as healthcare, transportation, and smar'
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: building_quantum_circuits_2026
   title: Building Quantum Circuits with Qarton
@@ -252,7 +207,7 @@ papers:
   summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
     of quantum algorithms for cryptographic problems. As a start, these algorithms can
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: rethinking_zeroknowledge_tls_2026
   title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
@@ -269,7 +224,7 @@ papers:
   summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
     revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: dime_queryefficient_framework_2026
   title: 'DIME: Query-Efficient Framework for Membership Inference on Diffusion Models'
@@ -283,7 +238,7 @@ papers:
   summary: 'Membership inference attacks expose whether individual records were used to train a model, yet existing attacks
     on diffusion models are largely heuristic and can require substantial query budgets. We '
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: novel_smt_encoding_2026
   title: Novel SMT Encoding for Quantum Circuit Optimization
@@ -299,7 +254,7 @@ papers:
   summary: In recent years, quantum circuit optimization has become an important research topic. Motivated by the fact that
     quantum gates act on fixed physical wires and modify only their target wires, we propos
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: on_the_fault_2026
   title: On the Fault Injection Security of White-box Ciphers
@@ -317,7 +272,7 @@ papers:
 
     Leakage-based attacks extract secret inf'
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: treecast_multiparty_key_2026
   title: 'TreeCast: Multi-Party Key Establishment Protocol for IoT Devices'
@@ -333,7 +288,7 @@ papers:
   summary: Secure communication in the Internet of Things (IoT) requires lightweight protocols that scale across unicast,
     multicast, and broadcast settings. Existing solutions typically depend on centralized gat
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: testing_security_equivalence_2026
   title: Testing Security Equivalence in the Random Probing Model
@@ -348,7 +303,7 @@ papers:
   summary: The random probing model is a theoretical model that abstracts the physical leakage of an embedded device running
     a cryptographic scheme with more realistic assumptions compared to the threshold probi
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []
 - id: hawk_with_hint_2026
   title: 'HAWK with Hint: Algebraic Key Recovery from Side-Channel Leakage'
@@ -363,5 +318,5 @@ papers:
   summary: We investigate how partial physical leakage can be amplified through public algebraic relations, using HAWK as
     a concrete case study of implementation security in an algebraically structured post-quan
   heuristic_score: 5
-  added_date: '2026-10-04'
+  added_date: '2026-10-05'
   authors: []

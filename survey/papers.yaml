@@ -41507,3 +41507,560 @@ papers:
   - PRESENT
   fetched_date: '2026-10-04'
   source: eprint
+- id: on_bestpossible_onetime_2026
+  title: On Best-Possible One-Time Programs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/413
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: One-time programs (OTPs) aim to let a user evaluate a program on a single input while revealing nothing else. Classical
+    OTPs require hardware assumptions. Quantum measurement offers a possible physica
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: gametheoretically_fair_distributed_2026
+  title: Game-Theoretically Fair Distributed Coin Tossing With Private Preferences
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2190
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Secure coin-tossing is typically modeled as an input-less functionality, where parties with no private inputs
+    jointly generate a fair coin. In the dishonest majority setting, however, a strongly fair '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: on_the_concrete_2026
+  title: On the Concrete Hardness Gap Between MLWE and LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/279
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Concrete security estimates for Module LWE (MLWE) over an appropriate ring are often obtained by translating to
+    an "equivalent" unstructured LWE instance, which implicitly treats algebraic structure a
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: spin_fast_codes_2026
+  title: 'SPIN: Fast Codes for Correlation Generation and Polynomial Commitments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2317
+  directions:
+  - meet_in_the_middle
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Binary codes used in correlation generation and proof systems need strong distance, fast ordinary and transposed
+    encoding, and regular memory access. We introduce Single-Permutation INterleaved (SPIN)
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: fast_linear_codes_2026
+  title: 'Fast Linear Codes over Large Fields: Addition-Only and Small-Coefficient Encoders'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2316
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We construct fast linear codes over large fields using addition-only encoders and variants with small integer
+    coefficients. A local precode is followed by rounds of a random permutation and a scan, a '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: expanderbased_codes_at_2026
+  title: Expander-Based Codes at the Gilbert–Varshamov Bound
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2315
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We prove that Expand--Accumulate (EA) codes approach the Gilbert--Varshamov (GV) distance as the code length grows.  The
+    result holds over the binary field and every fixed finite field.  At fixed rate
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: an_inputfed_aesround_2026
+  title: An Input-Fed AES-Round Family for Fixed-Length Hashing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2314
+  directions:
+  - tweakable
+  - meet_in_the_middle
+  - differential
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Secure computation often hashes high-entropy fixed-length values in inner loops. A public permutation with terminal
+    Davies--Meyer feed-forward can expose the permutation value when an application appl
+  status: pending_review
+  matched_keywords:
+  - differential
+  - MITM
+  - permutation
+  - tweakable
+  - AES
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: when_masking_preimage_2026
+  title: 'When Masking Preimage Computation Isn’t Enough: A Power Analysis Attack on Masked Implementations of Falcon'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2313
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we present a novel power analysis attack targeting a Falcon implementation protected by a masked
+    preimage computation. By analyzing the ratio between the real and imaginary parts of the
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: breaking_the_n2_2026
+  title: 'Breaking the $n^2$ Barrier: Information-Theoretic MPC with Sub-Quadratic Communication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2311
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Secure multi-party computation (MPC) considers the problem of securely computing a function across $n$ parties
+    such that no adversary controlling $t$ corrupted parties may learn any additional informa
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: lownoise_multivalue_bootstrapping_2026
+  title: Low-Noise Multi-Value Bootstrapping via Log-Unit Lattice Search and LUT Shifting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2310
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Programmable bootstrapping is a central procedure in the FHEW and TFHE families of fully homomorphic encryption
+    schemes, but its computational cost remains a major performance bottleneck. Multi-value '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: multiparty_homomorphic_secret_2026
+  title: Multiparty Homomorphic Secret Sharing From Distributed Discrete Logarithm
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2308
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Homomorphic secret sharing (HSS) enables non-interactive distributed evaluation of functions on secret-shared inputs.
+    While two-party HSS is well understood, multiparty constructions remain limited in
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: functional_verification_of_2026
+  title: Functional Verification of Additive FFT Assembly Implementations in Code-Based PQC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2307
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present the first formal verification results for the highly optimized additive Fast Fourier Transforms (FFTs)
+    in two different code-based post-quantum cryptosystems: Classic McEliece and Hamming Q'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: postquantum_timelock_puzzle_2026
+  title: Post-Quantum Time-Lock Puzzle from Isogenies
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2306
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We construct the first (conjectured) post-quantum Time Lock Puzzle (TLP) from isogenies. Our construction avoids
+    setup/preprocessing and achieves non-trivial efficiency, where puzzle generation runs i
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: gram_moments_and_2026
+  title: Gram Moments and Pairwise Mixing of AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2304
+  directions:
+  - linear_diffusion
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We prove that $4k+4$ rounds of AES with independent uniform round keys are $2^{-14-61k}$-close to pairwise independent,
+    improving on Hurst's announced bound of $2^{-3.82-48.03k}$. Here, closeness is m
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - diffusion
+  - MDS
+  - AES
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: on_the_pseudorandomness_2026
+  title: On the pseudorandomness of simple quantum processes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2303
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Can simple processes appear highly complex? Gowers (Comb. Prob. Comp. '96) conjectured that repeatedly composing
+    local random reversible operations can yield global permutations that are indistinguish
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: carousel_gpuaccelerated_private_2026
+  title: 'CAROUSEL: GPU-Accelerated Private Vector Search via Homomorphic Sketching'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2302
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Vector search on untrusted infrastructure exposes the \emph{query embedding}, a faithful summary of the user's
+    intent. Fully homomorphic encryption can hide the query, but existing approaches still re
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: breaking_the_bounded_2026
+  title: Breaking the Bounded Entanglement Barrier for Quantum Position Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2301
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Position verification, introduced by Chandran et al. (SIAM J. Computing 2014), allows verifiers to test a prover's
+    claimed position by an interactive protocol. Classical position verification is impos
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: durashare_bip39native_secret_2026
+  title: 'DuraShare: BIP39-native secret sharing with full manual fallback'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2300
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: BIP39 is a Bitcoin standard that turns a wallet's random seed of size between 128 and 256 bits into a human-readable
+    sequence of 12 to 24 words, taken from a fixed 2048-word list. Each word correspond
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: can_ai_oversight_2026
+  title: Can AI Oversight Be Zero Knowledge?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2299
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: AI systems increasingly produce outputs from confidential data, such as a fitness-for-duty assessment from medical
+    records or the predicted properties of a drug candidate from its secret structure. It
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: pseudorandom_correlation_generators_2026
+  title: Pseudorandom Correlation Generators for Matrix Triples
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2298
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'We introduce new pseudorandom correlation generators (PCGs) for matrix triples: shares of triples $(A,B,A\cdot
+    B)$ where $A,B$ are random matrices over $\mathbb{F}^{n\times n}$ for a field $\mathbb{F}'
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: an_analysis_of_2026
+  title: An Analysis of the ITU-T Multiple Cryptographic Algorithms X.509 Extensions for PQC Migration
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2297
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The 2019 edition of ITU-T X.509 adds three certificate extensions, colloquially called the Catalyst extensions,
+    that let a single certificate carry a second, alternative public key and issuer signatur
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: ix3dh_postquantum_subversionresilient_2026
+  title: 'iX3DH: Post-Quantum Subversion-Resilient X3DH Key-Exchange from Isogenies'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2296
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure messaging runs on commodity devices that can be subverted by malware or supply-chain attacks. Reverse firewalls
+    address this threat by interposing a user-side device that mediates the communica
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: contextblind_devicebound_anonymous_2026
+  title: Context-Blind Device-Bound Anonymous Credentials from Signatures and Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2295
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials enable privacy preserving authentication, but their transferability motivates binding each
+    credential to a key protected by a secure element (SE). Such binding should preserve pr
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: deniable_secret_sharing_2026
+  title: 'Deniable Secret Sharing: Towards Practical Faking'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2294
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Deniable secret sharing (DSS; Canetti et al, TCC 2025) is designed for a scenario where an adversary is able to
+    bribe or coerce all shareholders to divulge their shares of a secret. A deniable secret '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: nonce_misuse_resilience_2026
+  title: Nonce Misuse Resilience of GCM with Rijndael-256-256
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2293
+  directions:
+  - lightweight
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'GCM is the leading authenticated encryption scheme. With its application in TLS alone, it finds millions of uses
+    every day. However, in the last years, various shortcomings of GCM have been observed: '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - authenticated encryption
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: evidence_on_demand_2026
+  title: 'Evidence on Demand: Selectively Disclosable Watermarks for Generative AI'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2291
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Cryptographic watermarking for generative AI equips a generative model with a hidden mark that identifies its
+    outputs as machine-generated, without affecting output quality.
+
+    This study proposes a new '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: jambon_asynchronous_universally_2026
+  title: 'Jambon: Asynchronous Universally Composable Threshold FHE with Low Communication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2290
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Threshold fully homomorphic encryption distributes decryption authority among multiple parties, but achieving strong
+    security can significantly increase the required ciphertext modulus and the size of
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: a_subexponential_algorithm_2026
+  title: A Subexponential Algorithm for Binary LWE with Sublinear Samples
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2289
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We study Binary LWE with polynomial modulus in the regime of a linear number of samples. Prior work of Kirchner
+    and Fouque and of Herold, Kirshanova, and May (CRYPTO '15, DCC '18) gives an algorithm r
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: knuthyao_masked_gaussian_2026
+  title: Knuth–Yao masked (Gaussian) sampling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2287
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Discrete Gaussian sampling remains one of the most delicate operations to protect against side-channel attacks
+    in lattice-based cryptography. In this work, we present the first masked evaluation of th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: noninteractive_blackbox_witnessindistinguishable_2026
+  title: Non-Interactive Black-Box Witness-Indistinguishable Commit-and-Prove via Targeted Hitting-Set Generators
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2286
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Targeted hitting-set generators (HSGs) are primitives that have recently attracted attention in the study of pseudorandomness
+    and derandomization. Recent works have shown that sufficiently strong targ
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-10-05'
+  source: eprint
+- id: bandwidth_fee_mechanisms_2026
+  title: Bandwidth Fee Mechanisms for Certified Transaction Dissemination
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2285
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We study bandwidth fee mechanisms (BFMs) for pricing threshold certified transaction dissemination before consensus.
+    BFMs are analogous to transaction fee mechanisms (TFMs) introduced by Roughgarden (
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-10-05'
+  source: eprint
