@@ -42064,3 +42064,365 @@ papers:
   - PRESENT
   fetched_date: '2026-10-05'
   source: eprint
+- id: babe_verifying_proofs_2026
+  title: 'BABE: Verifying Proofs on Bitcoin Made 1000x Cheaper'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/065
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Endowing Bitcoin with the ability to verify succinct proofs has been a longstanding problem with important applications
+    such as scaling Bitcoin and allowing the Bitcoin asset to be used in other block
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: issuerhiding_anonymous_tokens_2026
+  title: Issuer-Hiding Anonymous Tokens and Credentials from Key-Randomizable Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/870
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymous authentication schemes allow a user to prove they have been authorized by some issuer, without revealing
+    any additional information about the user's identity. Two variants are currently seei
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: multiss_longterm_secure_2026
+  title: 'MULTISS: Long-Term Secure Distributed Storage over Remote QKD Networks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1915
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce MULTISS, a distributed storage protocol over multiple remote Quantum Key Distribution (QKD) networks
+    that ensures long-term data confidentiality. MULTISS is designed to combine several QK
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: combined_stability_protecting_2026
+  title: 'Combined Stability: Protecting against Combined Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1692
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel
+    analysis (SCA) has received significant attention, leading to well-established cou
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: picking_up_the_2026
+  title: 'Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1320
+  directions:
+  - differential
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Physical attacks pose a major challenge to the secure implementation of cryptographic algorithms. Although significant
+    progress has been made in countering passive attacks such as side-channel analysi
+  status: pending_review
+  matched_keywords:
+  - differential
+  - S-box
+  - AES
+  - PRESENT
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: stamac_fault_protection_2026
+  title: 'StaMAC: Fault Protection via Stable-MAC Tags'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/455
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fault attacks pose a significant threat to cryptographic implementations, motivating the development of countermeasures,
+    primarily based on a combination of redundancy and masking techniques. Redundan
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: plotkin_attacks_on_2026
+  title: Plotkin Attacks! On the (Mis)use of Raptor Codes in Asynchronous Verifiable Information Dispersal
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2338
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: Some asynchronous verifiable information dispersal (AVID) and data-availability protocols certify that a disperser's
+    message is available once $2f+1$ of $n=3f+1$ parties, at most $f$ of them Byzantine
+  status: pending_review
+  matched_keywords:
+  - MDS
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: querylimited_ram_programs_2026
+  title: Query-Limited RAM Programs and their Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2336
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Quantum one-time programs (Broadbent, Gutoski and Stebila, CRYPTO 2013) or OTPs for short, enable a functionality
+    to be encoded into a quantum token that can be evaluated on a single chosen input and '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: trapdoor_projective_sampling_2026
+  title: Trapdoor Projective Sampling and Identity-Based Anonymous Broadcast
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2334
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In anonymous broadcast encryption, a ciphertext hides both the message and the set of recipients. In the general
+    case, a lower bound of Kiayias and Samari forces the ciphertext to grow linearly with t
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: the_power_of_2026_1
+  title: 'The Power of Permutable PRPs: Towards Trapdoor Permutations with Full Key and Message Domains'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2333
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Shmueli and Zhandry introduced permutable pseudorandom permutations (PRPs) and used them to construct trapdoor
+    permutations with a full message domain but a sparse public-key space. We extend this app
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: ziren_succinct_arguments_2026
+  title: 'Ziren: Succinct Arguments for MIPS32 Execution'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2330
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A succinct argument for machine execution convinces a verifier that a program compiled for a real instruction set
+    ran correctly, with a proof far shorter than the execution and a check far cheaper tha
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: what_makes_lattice_2026
+  title: What Makes Lattice Key Generation Expensive? Controlled Cost Attribution with Structured LWR, ML-KEM, and HAETAE
+    on Cortex-M4
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2329
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: End-to-end cycle counts quantify lattice key-generation time on a microcontroller, but not which implementation
+    decisions create that cost. We develop a controlled attribution method for public struct
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: automorphismcompatible_ntt_and_2026
+  title: Automorphism-Compatible NTT and its Application to Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2328
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: "For $N$ a power of $2$, the negacyclic number-theoretic transform (NTT) maps a degree $N-1$ polynomial to its\
+    \ evaluations at the $N$ primitive $2N$th roots of unity. \nIn-place butterfly algorithms suc"
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: the_humbert_form_2026
+  title: The Humbert Form of Discriminant 36, and What It Says About Splitting Detection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2327
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Explicit equations for the locus $\mathcal{L}_n$ of genus-two curves with a maximal degree-$n$
+
+    elliptic subcover have been computed only for $n \le 5$, and by elimination, whose cost is
+
+    not predictabl'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: on_the_hull_2026
+  title: On the hull attacks against Construction A lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2325
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we present an algorithm for solving the Lattice Isomorphism Problem between input lattices that
+    are isometric to the Construction A lattice of a certain code C. Our algorithm is a direc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: indistinguishability_lifting_for_2026
+  title: Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2324
+  directions:
+  - permutation_layer
+  - tweakable
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: Cryptographic security proofs often involve an adversary interacting with a larger, keyed oracle that consists
+    of (potentially exponentially) many independent instances of a smaller, base oracle. Exam
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - Feistel
+  - tweakable
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: atlas_a_compact_2026
+  title: 'ATLAS: A Compact Module-LWR Signature Scheme'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2323
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present $\mathsf{ATLAS}$, a lattice-based digital signature scheme built on the Fiat--Shamir with aborts paradigm,
+    with security based on the hardness of the Module Learning with Rounding ($\mathsf
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: understanding_sigma_protocols_2026
+  title: Understanding Sigma Protocols via MPC-in-the-Head
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2322
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In this paper, we propose an understanding of classical Sigma protocols (as denoted by $\Sigma$-protocols in the
+    literature) through the lens of the MPC-in-the-head (MPCitH) paradigm. We seek not to c
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: mechanized_proofs_of_2026
+  title: Mechanized Proofs of ORAM Correctness, Security, and Failure Bounds
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2321
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "ORAM is a fundamental cryptographic technique that permits outsourcing memory storage while probabilistically\
+    \ hiding memory access patterns of client programs. \nWe use the EasyCrypt proof assistant to"
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-06'
+  source: eprint
+- id: automated_search_for_2026
+  title: 'Automated Search for Periodic Functions in Quantum Attacks: Distinguishers and Key-Recovery Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2319
+  directions:
+  - differential
+  - automated_search
+  ciphers: []
+  significance: medium
+  summary: 'Quantum attacks based on Simon''s algorithm rely on Boolean functions with hidden XOR periods. At ASIACRYPT 2025,
+    Liu et al. introduced a symbolic automated search model for periodic functions used in '
+  status: pending_review
+  matched_keywords:
+  - differential
+  - automated search
+  - PRESENT
+  - SIMON
+  fetched_date: '2026-10-06'
+  source: eprint
