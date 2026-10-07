@@ -1,78 +1,4 @@
 papers:
-- id: quantum_discrete_logarithms_2026
-  title: Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\widetilde O(n^2)$ Toffoli Gates
-  url: https://eprint.iacr.org/2026/2014
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  - LED
-  directions:
-  - invariant
-  summary: We give a quantum algorithm for the elliptic curve discrete logarithm problem over an \(n\)-bit prime field using
-    \(\frac{5}{2}n+o(n)\) logical qubits and \(\widetilde O(n^2)\) Toffoli gates. Luo et a
-  heuristic_score: 6
-  added_date: '2026-10-06'
-  authors: []
-- id: highthroughput_verifiable_distributed_2026
-  title: High-throughput Verifiable Distributed OPRF from Gold PRF
-  url: https://eprint.iacr.org/2026/1953
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - PRESENT
-  - LED
-  directions:
-  - differential
-  summary: An oblivious pseudorandom function (OPRF) is a two-party protocol that enables a client to obtain $F_k(x)$ on an
-    input $x$ without learning the server-held key $k$, while the server learns nothing abo
-  heuristic_score: 6
-  added_date: '2026-10-06'
-  authors: []
-- id: a_unified_framework_2026_1
-  title: 'A Unified Framework for Statistical Side-Channel Distinguishers: From Leakage Assessment to Key Recovery'
-  url: https://eprint.iacr.org/2026/2041
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - AES
-  directions:
-  - differential
-  summary: 'Side-channel analysis (SCA) has historically developed along two parallel research avenues: key recovery attacks
-    (e.g., CPA, MIA, Templates) and leakage assessment methodologies (e.g., TVLA, $t$-tests'
-  heuristic_score: 6
-  added_date: '2026-10-06'
-  authors: []
-- id: deterministic_almostall_recovery_2026
-  title: Deterministic Almost-All Recovery for Square Four-Tensor Isomorphism
-  url: https://eprint.iacr.org/2026/1665
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  directions:
-  - invariant
-  summary: We give deterministic exact recovery for almost all square four-tensors over every finite field. For every \(n
-    \ge 2^{24}\) and prime power \(q \ge 2\), an explicit \(\mathrm{GL}_n(\mathbb{F}_q)^4\)-i
-  heuristic_score: 6
-  added_date: '2026-10-06'
-  authors: []
-- id: delegproof_a_machinechecked_2026
-  title: 'DelegProof: A Machine-Checked Security Analysis of EIP-7702 Delegation'
-  url: https://eprint.iacr.org/2026/2060
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  - PRESENT
-  - LED
-  directions:
-  - invariant
-  summary: 'EIP-7702, live on Ethereum since the Pectra upgrade, lets externally owned accounts delegate their execution to
-    arbitrary contract code with a single signature. The consequences are measurable: 63% of'
-  heuristic_score: 6
-  added_date: '2026-10-06'
-  authors: []
 - id: finegrained_noninteractive_keyexchange_2026
   title: Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds
   url: https://eprint.iacr.org/2024/1784
@@ -85,7 +11,21 @@ papers:
   summary: 'In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely,
     we propose three multi-party NIKE schemes in three computation models, namely, the '
   heuristic_score: 6
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
+  authors: []
+- id: stomr_stateful_oblivious_2026
+  title: 'StOMR: Stateful Oblivious Message Retrieval'
+  url: https://eprint.iacr.org/2026/2369
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - lightweight
+  directions:
+  - lightweight
+  summary: Oblivious Message Retrieval (OMR) enables recipients to retrieve messages from an untrusted server without revealing
+    which messages correspond to them. OMR is useful for privacy-preserving systems suc
+  heuristic_score: 5
+  added_date: '2026-10-07'
   authors: []
 - id: combined_stability_protecting_2026
   title: 'Combined Stability: Protecting against Combined Attacks'
@@ -100,7 +40,7 @@ papers:
   summary: Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel
     analysis (SCA) has received significant attention, leading to well-established cou
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: indistinguishability_lifting_for_2026
   title: Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications
@@ -118,7 +58,7 @@ papers:
   summary: Cryptographic security proofs often involve an adversary interacting with a larger, keyed oracle that consists
     of (potentially exponentially) many independent instances of a smaller, base oracle. Exam
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: aebap_an_efficient_2026
   title: 'AEBAP: An Efficient ECC-Based Authentication Protocol Designed for Wireless Networks'
@@ -135,7 +75,7 @@ papers:
 
     such as healthcare, transportation, and smar'
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: building_quantum_circuits_2026
   title: Building Quantum Circuits with Qarton
@@ -150,7 +90,7 @@ papers:
   summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
     of quantum algorithms for cryptographic problems. As a start, these algorithms can
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: rethinking_zeroknowledge_tls_2026
   title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
@@ -167,7 +107,7 @@ papers:
   summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
     revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: dime_queryefficient_framework_2026
   title: 'DIME: Query-Efficient Framework for Membership Inference on Diffusion Models'
@@ -181,7 +121,7 @@ papers:
   summary: 'Membership inference attacks expose whether individual records were used to train a model, yet existing attacks
     on diffusion models are largely heuristic and can require substantial query budgets. We '
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: novel_smt_encoding_2026
   title: Novel SMT Encoding for Quantum Circuit Optimization
@@ -197,7 +137,7 @@ papers:
   summary: In recent years, quantum circuit optimization has become an important research topic. Motivated by the fact that
     quantum gates act on fixed physical wires and modify only their target wires, we propos
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: on_the_fault_2026
   title: On the Fault Injection Security of White-box Ciphers
@@ -215,7 +155,7 @@ papers:
 
     Leakage-based attacks extract secret inf'
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: treecast_multiparty_key_2026
   title: 'TreeCast: Multi-Party Key Establishment Protocol for IoT Devices'
@@ -231,7 +171,7 @@ papers:
   summary: Secure communication in the Internet of Things (IoT) requires lightweight protocols that scale across unicast,
     multicast, and broadcast settings. Existing solutions typically depend on centralized gat
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: testing_security_equivalence_2026
   title: Testing Security Equivalence in the Random Probing Model
@@ -246,7 +186,7 @@ papers:
   summary: The random probing model is a theoretical model that abstracts the physical leakage of an embedded device running
     a cryptographic scheme with more realistic assumptions compared to the threshold probi
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []
 - id: hawk_with_hint_2026
   title: 'HAWK with Hint: Algebraic Key Recovery from Side-Channel Leakage'
@@ -261,5 +201,5 @@ papers:
   summary: We investigate how partial physical leakage can be amplified through public algebraic relations, using HAWK as
     a concrete case study of implementation security in an algebraically structured post-quan
   heuristic_score: 5
-  added_date: '2026-10-06'
+  added_date: '2026-10-07'
   authors: []

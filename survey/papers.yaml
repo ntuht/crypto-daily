@@ -42426,3 +42426,378 @@ papers:
   - SIMON
   fetched_date: '2026-10-06'
   source: eprint
+- id: stomr_stateful_oblivious_2026
+  title: 'StOMR: Stateful Oblivious Message Retrieval'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2369
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Oblivious Message Retrieval (OMR) enables recipients to retrieve messages from an untrusted server without revealing
+    which messages correspond to them. OMR is useful for privacy-preserving systems suc
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: on_the_instantiability_2026
+  title: On the Instantiability of the Fujisaki–Okamoto Transform for Trapdoor Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2365
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Fujisaki--Okamoto (FO) transform (Journal of Cryptology, 2013) is the standard route from weakly secure public-key
+    encryption to chosen-ciphertext security, and it underlies many practical post-qu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: comparative_evaluation_of_2026
+  title: Comparative Evaluation of Open-Source Gröbner Basis Implementations for Small-Scale AES Polynomial Systems over GF(2)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2364
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The practical performance of Gröbner basis implementations depends on the
+
+    polynomial systems being solved. This work evaluates 20 open-source imple-
+
+    mentations with Magma as a proprietary reference on'
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: minishake_2026
+  title: MiniSHAKE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2363
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'The overwhelming majority of the Keccak instances standardized and
+
+    used in practice today make use of the Keccak-$f$ [1600] permutation or reduced-round versions of it. There are a few
+    use cases where'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: the_geometry_of_2026
+  title: The Geometry of Witness-Update Tradeoffs in Additive Positive Accumulators
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2362
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'An additive positive accumulator represents a growing set by a short public digest. Each inserted element has
+    a membership witness, which may have to be refreshed after later insertions. An execution '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: optimized_lll_algorithm_2026
+  title: Optimized LLL Algorithm
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2361
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The LLL algorithm involves reductions and swaps, corresponding to projection and ordering conditions. But the transformation
+    $\vec{b}'_i\leftarrow  \vec{b}_i- \lfloor\mu_{i,k} \rceil\vec{b}_k$  is not
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: areaefficient_hardware_architecture_2026
+  title: Area-Efficient Hardware Architecture of the Post-Quantum HQC Cryptosystem with Side-Channel Protection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2359
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Hamming-Quasi Cyclic (HQC) is the Post-Quantum Cryptography (PQC) Key Encapsulation Mechanism (KEM) algorithm
+    recently selected by the National Institute of Standards and Technology (NIST) for sta
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: glimpsing_the_leakage_2026
+  title: Glimpsing the Leakage Flow for Deep Learning-Based Side-Channel Analysis using Stochastic Leakage Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2358
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Deep learning has become the dominant method for profiled Side-Channel Analysis (SCA), successfully recovering
+    secret keys even in the presence of strong countermeasures. Despite its efficacy, Deep Ne
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: boltfhe_an_efficient_2026
+  title: 'BOLT-FHE: An Efficient Unified Framework for GPU-based TFHE Bootstrapping via On-Chip Local Tiling Strategies'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2356
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Bootstrapping is the main performance bottleneck in bitwise Fully Homomorphic Encryption (FHE), and practical acceleration
+    requires careful orchestration of the blind rotation and external product cha
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: gpuassisted_faest_v3_2026
+  title: 'GPU-Assisted FAEST v3 Signing: Challenge Grinding and CPU–GPU Pipelining'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2355
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Applying a GPU to FAEST v3 signing requires more than exploiting parallel computation: challenge grinding must
+    preserve the minimum accepting counter selected by the original signing procedure, and si'
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: xwing_on_cortexm85_2026
+  title: 'X-Wing on Cortex-M85: Architecture-Aware Integration and End-to-End Evaluation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2352
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: X-Wing combines ML-KEM-768 and X25519 for hybrid key establishment. On Cortex-M85, we adapted the coefficient representation
+    and storage order of an MVE NTT to the existing ML-KEM path and optimized d
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: batched_lsh_on_2026
+  title: Batched LSH on ARMv8 NEON and Its Application to K-SPHINCS+
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2351
+  directions:
+  - permutation_layer
+  - differential
+  ciphers: []
+  significance: medium
+  summary: With FIPS 205 standardizing post-quantum signatures and ARMv8 spanning mobile, embedded, and server platforms,
+    fast hash-based signing on ARM has become a pressing need. Since these schemes are domina
+  status: pending_review
+  matched_keywords:
+  - differential
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: optimized_neon_implementation_2026
+  title: Optimized NEON Implementation of MAYO on Apple M1
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2350
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: MAYO is one of nine third-round candidates in NIST’s process for additional post-quantum signatures. Its third-round
+    specification of August 2026 changed the level-1 parameters and added a hash-derive
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: output_policies_for_2026
+  title: 'Output Policies for Anomaly Detection with Homomorphic Encryption: Threshold Resolution, Decision Preservation,
+    and Numerical Stability'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2349
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Homomorphic encryption computes anomaly scores without exposing inputs, but released scores and decisions can
+    reveal a private threshold. We evaluate whether output policies limit numerical threshold '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: verifieraligned_canonical_source_2026
+  title: Verifier-Aligned Canonical Source Binding for Homomorphic Encryption Computations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2348
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: q0 preprocessing verification and native HE computation verification can each succeed without establishing that
+    their results refer to the same canonical source. To address this source mismatch across
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: hybind_structural_analysis_2026
+  title: 'HyBind: Structural Analysis of PQ/T Hybrid Cryptographic Usage'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2347
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The quantum threat to traditional public-key cryptography makes migration to post-quantum cryptography necessary.
+    During migration, the presence of both post-quantum and traditional (PQ/T) algorithms '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: publiccoin_differinginput_obfuscation_2026
+  title: Public-coin Differing-input Obfuscation from KOALA and iO
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2346
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: 'We show that the recent construction of witness encryption (Hair and Sahai, arXiv:2609.18275v1) is a public-coin
+    extractable witness encryption scheme under the Knowledge of Orthogonality Assumption, '
+  status: pending_review
+  matched_keywords:
+  - ARX
+  - LED
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: randomnessanchored_runtime_discovery_2026
+  title: Randomness-Anchored Runtime Discovery of Cryptographic Operations on Linux Using eBPF
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2345
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Migration to post-quantum cryptography requires knowing not only which cryptographic libraries are present on a
+    system, but which algorithms are actually executed at runtime. Static binary analysis an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: rolespecific_signature_placement_2026
+  title: 'Role-Specific Signature Placement in TLS 1.3: Cost Propagation and PQC Migration'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2344
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Certificate issuance and per-connection signing impose different costs in TLS 1.3, and authentication cost can
+    change depending on how signature algorithms are assigned to Root, Intermediate, and Leaf
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: deploying_nativerust_kpqc_2026
+  title: 'Deploying Native-Rust KpqC: Pluggable Post-Quantum KEMs and Signatures across TLS, Space Links, and the OQS Ecosystem'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2342
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Post-quantum migration is no longer only an algorithm problem but a deployment problem: standardized schemes must
+    be dropped into real protocol stacks, on real (often resource-constrained) targets, wi'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-07'
+  source: eprint
+- id: optimizing_montgomery_arithmetic_2026
+  title: Optimizing Montgomery Arithmetic for RSA on Cortex-M0+ and Cortex-M3
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2340
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cryptographic tokens that retain RSA credentials for compatibility with existing authentication systems require
+    efficient private-key operations on small processors. Cortex-M0+ (M0+) lacks native wide
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-07'
+  source: eprint
