@@ -1,162 +1,4 @@
 papers:
-- id: finegrained_noninteractive_keyexchange_2026
-  title: Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds
-  url: https://eprint.iacr.org/2024/1784
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  directions:
-  - milp_sat_cp
-  summary: 'In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely,
-    we propose three multi-party NIKE schemes in three computation models, namely, the '
-  heuristic_score: 6
-  added_date: '2026-10-07'
-  authors: []
-- id: stomr_stateful_oblivious_2026
-  title: 'StOMR: Stateful Oblivious Message Retrieval'
-  url: https://eprint.iacr.org/2026/2369
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  directions:
-  - lightweight
-  summary: Oblivious Message Retrieval (OMR) enables recipients to retrieve messages from an untrusted server without revealing
-    which messages correspond to them. OMR is useful for privacy-preserving systems suc
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: combined_stability_protecting_2026
-  title: 'Combined Stability: Protecting against Combined Attacks'
-  url: https://eprint.iacr.org/2025/1692
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - S-box
-  - AES
-  directions:
-  - sbox
-  summary: Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel
-    analysis (SCA) has received significant attention, leading to well-established cou
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: indistinguishability_lifting_for_2026
-  title: Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications
-  url: https://eprint.iacr.org/2026/2324
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - permutation
-  - Feistel
-  - tweakable
-  directions:
-  - permutation_layer
-  - tweakable
-  - round_function
-  summary: Cryptographic security proofs often involve an adversary interacting with a larger, keyed oracle that consists
-    of (potentially exponentially) many independent instances of a smaller, base oracle. Exam
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: aebap_an_efficient_2026
-  title: 'AEBAP: An Efficient ECC-Based Authentication Protocol Designed for Wireless Networks'
-  url: https://eprint.iacr.org/2026/2254
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  directions:
-  - lightweight
-  summary: 'The Internet of Things (IoT) comprises a vast array of interconnected devices
-
-    that rely heavily on wireless communication to enable applications in domains
-
-    such as healthcare, transportation, and smar'
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: building_quantum_circuits_2026
-  title: Building Quantum Circuits with Qarton
-  url: https://eprint.iacr.org/2026/2191
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - block cipher
-  - PRESENT
-  directions:
-  - lightweight
-  summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
-    of quantum algorithms for cryptographic problems. As a start, these algorithms can
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: rethinking_zeroknowledge_tls_2026
-  title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
-  url: https://eprint.iacr.org/2026/2187
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - AEAD
-  - LED
-  directions:
-  - aead
-  - milp_sat_cp
-  summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
-    revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: dime_queryefficient_framework_2026
-  title: 'DIME: Query-Efficient Framework for Membership Inference on Diffusion Models'
-  url: https://eprint.iacr.org/2026/1791
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - diffusion
-  directions:
-  - linear_diffusion
-  summary: 'Membership inference attacks expose whether individual records were used to train a model, yet existing attacks
-    on diffusion models are largely heuristic and can require substantial query budgets. We '
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: novel_smt_encoding_2026
-  title: Novel SMT Encoding for Quantum Circuit Optimization
-  url: https://eprint.iacr.org/2026/1815
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - S-box
-  - Ascon
-  - Midori
-  directions:
-  - sbox
-  summary: In recent years, quantum circuit optimization has become an important research topic. Motivated by the fact that
-    quantum gates act on fixed physical wires and modify only their target wires, we propos
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
-- id: on_the_fault_2026
-  title: On the Fault Injection Security of White-box Ciphers
-  url: https://eprint.iacr.org/2026/1833
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - Feistel
-  - SPN
-  - LED
-  directions:
-  - round_function
-  summary: 'White-box security settings assume an extremely powerful adversary having full visibility and control of the software
-    implementation and internal computations.
-
-    Leakage-based attacks extract secret inf'
-  heuristic_score: 5
-  added_date: '2026-10-07'
-  authors: []
 - id: treecast_multiparty_key_2026
   title: 'TreeCast: Multi-Party Key Establishment Protocol for IoT Devices'
   url: https://eprint.iacr.org/2025/2021
@@ -171,7 +13,7 @@ papers:
   summary: Secure communication in the Internet of Things (IoT) requires lightweight protocols that scale across unicast,
     multicast, and broadcast settings. Existing solutions typically depend on centralized gat
   heuristic_score: 5
-  added_date: '2026-10-07'
+  added_date: '2026-10-08'
   authors: []
 - id: testing_security_equivalence_2026
   title: Testing Security Equivalence in the Random Probing Model
@@ -186,7 +28,7 @@ papers:
   summary: The random probing model is a theoretical model that abstracts the physical leakage of an embedded device running
     a cryptographic scheme with more realistic assumptions compared to the threshold probi
   heuristic_score: 5
-  added_date: '2026-10-07'
+  added_date: '2026-10-08'
   authors: []
 - id: hawk_with_hint_2026
   title: 'HAWK with Hint: Algebraic Key Recovery from Side-Channel Leakage'
@@ -201,5 +43,5 @@ papers:
   summary: We investigate how partial physical leakage can be amplified through public algebraic relations, using HAWK as
     a concrete case study of implementation security in an algebraically structured post-quan
   heuristic_score: 5
-  added_date: '2026-10-07'
+  added_date: '2026-10-08'
   authors: []

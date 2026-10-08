@@ -42801,3 +42801,57 @@ papers:
   - PRESENT
   fetched_date: '2026-10-07'
   source: eprint
+- id: foundations_of_dynamic_2026
+  title: 'Foundations of Dynamic Group Signatures: The Case of Malicious Openers and Issuers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1752
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Dynamic group signatures are commonly formalized in the model of
+
+    Bellare, Shi, and Zhang (BSZ, CT-RSA 2005), whose security notions are
+
+    defined relative to specific trust assumptions and registration '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-08'
+  source: eprint
+- id: smoothing_the_degree_2026
+  title: Smoothing the degree of regularity for polynomial systems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/408
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The complexity of many algebraic algorithms for solving non-linear polynomial systems of equations over finite
+    fields, such as the XL (eXtended Linearization) algorithm or variants of the F4/F5 algori
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-08'
+  source: eprint
+- id: one_fell_swoop_2026
+  title: 'One Fell Swoop: A Single-Trace Key-Recovery Attack on the Falcon Signing Algorithm'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2159
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Falcon, a lattice-based signature scheme selected for NIST post-quantum standardization, is notable for its compact
+    signature size alongside a complex signing procedure involving extensive floating-po
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-08'
+  source: eprint
