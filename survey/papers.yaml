@@ -42855,3 +42855,371 @@ papers:
   - PRESENT
   fetched_date: '2026-10-08'
   source: eprint
+- id: revisiting_generic_transforms_2026
+  title: Revisiting Generic Transforms for Committing Authenticated Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/240
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'Committing security for authenticated encryption (AE) captures the difficulty of constructing a distinct input
+    tuple, including the key, that yields the same ciphertext. This notion is relatively new '
+  status: pending_review
+  matched_keywords:
+  - authenticated encryption
+  - AES
+  - PRESENT
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: timespace_tradeoffs_for_2026
+  title: Time-Space Tradeoffs For Probabilistic Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2406
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Many recent constructions of probabilistic proofs achieve fast proving times but have high space complexity (much
+    higher than that of the computation being proved). Empirically this arises due to the '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: the_geometry_of_2026_1
+  title: The Geometry of Collusion Leakage in Inner-Product Functional Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2404
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Inner-product functional encryption (IPFE) allows the holder of a
+
+    functional key for a vector $y$ to learn $\langle x,y\rangle$ from an
+
+    encryption of $x$, and nothing more.  Keys, however, accumulate:'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: practical_and_efficient_2026
+  title: Practical and Efficient MPC from FHE, without ZKPoKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2403
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) enables one to implement low-round and low-communication complexity Multi-Party
+    Computation (MPC) which is secure in the static malicious corruption model. By expand
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: new_infinite_families_2026
+  title: New infinite families of APN functions from the switching construction in even dimension
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2401
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the first new infinite family of APN functions obtained by applying the switching construction to a
+    known family since the introduction of the Budaghyan-Carlet-Leander family in 2009. Our c
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: simple_byzantine_lattice_2026
+  title: Simple Byzantine Lattice Agreement in $O(\frac{\log f}{\log \log f})$ Rounds
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2400
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Lattice agreement is a relaxed version of the standard consensus problem: correct processes need not decide the
+    same value, but their decisions must be ``comparable''''. Namely, every process proposes a'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: a_note_on_2026_6
+  title: A Note on Extractable Witness Encryption in Generic Groups
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2399
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Hair and Sahai have recently proposed a construction of witness encryption for NP satisfying semantic security.
+
+    In this short note we observe that this recent witness-encryption construction is uncond'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: note_on_extractability_2026
+  title: Note on Extractability of PST Polynomial Commitment Scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2398
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: A recent work by Belohorec et al. (Crypto, 2025) shows that the well-known PST multivariate polynomial commitment
+    scheme is black-box extractable under falsifiable assumptions. They show that a minima
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: hide_now_trace_2026
+  title: 'Hide Now, Trace Later: Retrospective Attribution in Issuer-Hiding Credentials'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2396
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Attribute-based credentials (ABCs) enable privacy-preserving authentication by allowing users to prove statements
+    about certified attributes without revealing unnecessary information. However, while A
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: postquantum_dropoutresilient_verifiable_2026
+  title: Post-Quantum Dropout-Resilient Verifiable Secure Aggregation for Federated Learning
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2394
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Secure weighted aggregation is essential for privacy
+
+    preserving federated learning, yet existing schemes do not
+
+    simultaneously provide post-quantum security, resilience to client
+
+    dropouts, verifiabili'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: round_optimal_mpc_2026
+  title: Round Optimal MPC With Provable Cheater Identification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2393
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Secure multiparty computation with provable identifiable selective abort (PISA), introduced by Kondi and Ravi
+    (CCS 2025), guarantees that every honest party either obtains the computation output or a '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: fair_and_efficient_2026
+  title: Fair and Efficient Helper-Aided MPC with Cheater Identification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2392
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Secure multi-party computation (MPC) enables privacy-preserving tasks such as auctions and voting. In practice,
+    more than half of the parties may collude, making security against a dishonest majority '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: retention_choices_for_2026
+  title: Retention Choices for Quantum CHAM Key Search under a Global Qubit Budget
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2391
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Retaining intermediate values can shorten a quantum cipher oracle but increase the logical qubits required by each
+    parallel search worker. We propose a joint selection procedure for 80-round and revis
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: quantum_timelock_puzzles_2026
+  title: Quantum Time-Lock Puzzles in the Quantum Random Oracle Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2387
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A time-lock puzzle allows a sender to hide a message in a puzzle such that recovering the message requires substantially
+    more sequential computation than the time required to generate the puzzle, even
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: the_postquantum_cost_2026
+  title: The Post-Quantum Cost of Garbled-Circuit Bitcoin Bridges
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2383
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Recent Bitcoin bridge designs rely on verification of succinct proofs to process withdrawals. This requires off-chain
+    garbled circuit evaluation of a succinct proof, the input labels for which must be
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: differentialneural_cryptanalysis_of_2026
+  title: Differential-Neural Cryptanalysis of ChaCha and Related ARX Stream Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2382
+  directions:
+  - differential
+  - software_friendly
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: The paper presents the first-ever differential neural cryptanalysis of the Latin Dances family of Salsa, ChaCha,
+    and Forró. First, we provide a systematic differential-neural study of the ARX stream c
+  status: pending_review
+  matched_keywords:
+  - differential
+  - diffusion
+  - ARX
+  - PRESENT
+  - ChaCha
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: the_lattice_isomorphism_2026
+  title: The Lattice Isomorphism Problem with Hints
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2381
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Lattice Isomorphism Problem (LIP) is a relatively new problem that has gained increasing attention in the field
+    of lattice-based cryptography. It is the underlying hard problem of the Hawk signatu
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: asyncls_an_iuc_2026
+  title: 'AsyncLS: an iUC Framework for Wallet-Based Asynchronous Ledger Services'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2378
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We define an asynchronous ledger service ($\mathsf{AsyncLS}$) in the IITM-based universal composability (iUC) framework.
+    The wallet-based service exposes a general state machine for a decentralized le
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: truffle_maliciously_secure_2026
+  title: 'Truffle: Maliciously Secure Three-Party Shuffles with Applications to Parsing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2376
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Deploying Secure Multiparty Computation (MPC) to operate on data from real world sources requires many connective
+    elements that have not received much attention in the literature. One prominent exampl
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-09'
+  source: eprint
+- id: klms_design_implementation_2026
+  title: 'K-LMS: Design, Implementation, and Evaluation of Leighton–Micali Signatures with Korean Cryptographic Primitives'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2372
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Hash-based signatures are the most conservative post-
+
+    quantum signature family, and the stateful schemes XMSS and LMS
+
+    are both standardized by NIST. Prior work has instantiated XMSS and
+
+    SPHINCS+ with '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  fetched_date: '2026-10-09'
+  source: eprint
