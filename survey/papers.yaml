@@ -43223,3 +43223,44 @@ papers:
   - block cipher
   fetched_date: '2026-10-09'
   source: eprint
+- id: refined_strategy_for_2026
+  title: Refined Strategy for Solving LWE in Two-step Mode
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/1343
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Learning with Errors (LWE) and its variants underlie many lattice-based cryptosystems, making accurate concrete
+    attack-cost estimates important for parameter selection. Practical primal attacks combin
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-10'
+  source: eprint
+- id: hash_function_constructions_2026
+  title: Hash Function Constructions from Lightweight Block Ciphers for Fully Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/309
+  directions:
+  - low_latency
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'This paper investigates hash-function constructions derived
+
+    from lightweight block ciphers, that are suitable for evaluation in fully homomorphic encryption (FHE) settings. We focus
+    on PRINCEv2, a 64-'
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - low latency
+  - lightweight
+  - PRINCE
+  fetched_date: '2026-10-10'
+  source: eprint
