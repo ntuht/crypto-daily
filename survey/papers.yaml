@@ -43264,3 +43264,207 @@ papers:
   - PRINCE
   fetched_date: '2026-10-10'
   source: eprint
+- id: programmable_distributed_point_2026
+  title: Programmable Distributed Point Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/1060
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A distributed point function (DPF) is a cryptographic primitive that enables compressed additive sharing of a secret
+    unit vector across two or more parties. Despite growing ubiquity within application
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: lowspace_quantum_discrete_2026
+  title: Low-Space Quantum Discrete Logarithms on Genus-Two Jacobians
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2057
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Generic divisor-addition formulas require little arithmetic workspace
+
+    but fail on exceptional inputs. We prove a randomized reduction that
+
+    enables their use in quantum phase computation. The reduction'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: a_note_on_2026_7
+  title: A Note on P $\neq$ NP
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2035
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'We study the Add/XNOR decision problem: given $n$ words of $n$ bits each, choose between addition modulo $2^n$
+    and bitwise XNOR at each position of a left-associative expression so that its final valu'
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - LED
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: individual_cryptography_from_2026
+  title: Individual Cryptography from Iterated Squaring
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2418
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Individual cryptography (Dziembowski et al. Crypto'23) and complete knowledge (Kelkar et al. CCS'24) aim at constructing
+    protocols that ensure that some individual party must know a secret value in th
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: new_constructions_of_2026_1
+  title: New Constructions of Quadratic and Cubic Permutations Admitting Optimal Threshold Implementations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2416
+  directions:
+  - permutation_layer
+  - differential
+  - lightweight
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Side-channel attacks can uncover sensitive data by analyzing information leakages of cryptographic hardware devices
+    caused by the power consumption, timing, electromagnetic, glitches, etc. Threshold i
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  - permutation
+  - PRESENT
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: the_power_of_2026_2
+  title: The Power of Multislices in Monotone Computation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2415
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Motivated by recent constructions and barriers in secret sharing, we study multislice functions. These functions,
+    parametrized by a width parameter $w$, take the value 0 on inputs of Hamming weight be
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: reversebleichenbacher_bleichenbacher_attacks_2026
+  title: 'Reverse-Bleichenbacher: Bleichenbacher Attacks are Practical Again'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2414
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Bleichenbacher''s 1998 padding oracle attack against RSA PKCS#1 v1.5 has resurfaced repeatedly over the past decades,
+    especially in TLS.
+
+    Although modern browsers prefer TLS 1.3, many servers and client'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: fast_polynomial_arithmetic_2026
+  title: Fast Polynomial Arithmetic in the Exponent without Roots of Unity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2413
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In cryptographic algorithms based on groups in which the discrete logarithm is supposed to be hard, it is frequent
+    to perform polynomial arithmetic in the exponent of group elements. This old techniqu
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: averagecase_hardness_of_2026
+  title: Average-Case Hardness of Lattice Problems in Special Genera of Fixed Rank
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2411
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'The distinguishing variant $\Delta$LIP of the Lattice Isomorphism Problem underlies the security proofs of a growing
+    family of lattice-based schemes. As the special genus is the strongest efficiently '
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: kifa_kernelbased_integral_2026
+  title: 'KIFA: Kernel-based Integral Fault Analysis on GIFT-Family Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2410
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present KIFA (Kernel-based Integral Fault Analysis), an integral fault attack framework that mines its balanced
+    properties with the kernel-based miner of Hwang et al. in place of Mixed Integer Line
+  status: pending_review
+  matched_keywords:
+  - MILP
+  - GIFT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-12'
+  source: eprint
+- id: language_modeling_is_2026
+  title: Language Modeling is Monotone Compression
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2407
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A long-standing hypothesis in artificial intelligence and neuroscience posits that intelligence is closely related
+    to compression: the ability to compress information efficiently intuitively reflects '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-12'
+  source: eprint
