@@ -43468,3 +43468,256 @@ papers:
   - LED
   fetched_date: '2026-10-12'
   source: eprint
+- id: succinct_homomorphic_macs_2026
+  title: Succinct Homomorphic MACs from Groups and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2073
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Homomorphic message authentication codes (HMACs) allow users to authenticate data using a shared secret key, while
+    supporting computation over authenticated data. Given data $(m_1, \ldots, m_n)$ and t
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: accountable_verifiable_secret_2026
+  title: Accountable Verifiable Secret Sharing and Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/318
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Verifiable Secret Sharing (VSS) ensures consistent sharing and correct reconstruction, but does not identify the
+    shareholders involved. Traceable Secret Sharing (TSS) expands secret sharing with two g
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: witnesssuccinct_ucsecure_snarks_2026
+  title: Witness-Succinct UC-Secure SNARKs with Weaker Trust Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2434
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge Succinct Non-Interactive Arguments of Knowledge (zkSNARKs) are foundational cryptographic primitives
+    enabling privacy-preserving and verifiable computation. However, most existing zkSNA
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: succinct_arguments_with_2026
+  title: Succinct Arguments with (almost) Minimal Time and Space Overheads from Symmetric-Key Primitives
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2433
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We construct public-coin, succinct, zero-knowledge interactive arguments for NP relations decided by time-$T$,
+    space-$S$ random-access machines. Assuming the existence of collision-resistant hash func
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: lattice_bingo_asynchrony_2026
+  title: 'Lattice Bingo: Asynchrony and One-Shot Adaptivity in Verifiable Secret Sharing via Erasure Code Commitments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2432
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Asynchronous verifiable secret sharing (AVSS) allows a dealer to distribute a secret among parties while preserving
+    privacy and consistent reconstruction, despite Byzantine faults and arbitrary messag
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: flying_not_floating_2026
+  title: 'Flying, Not Floating: Precise Fixed-Point Falcon on Embedded Processors'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2431
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Falcon digital signature scheme, under standardization as FN-DSA, requires real-number arithmetic during signing,
+    with its security dependent on numerical precision. Recently, De Almeida Braga et '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: distinguishers_for_the_2026
+  title: Distinguishers for the Squeezing of the Alternating Sponge and Duet
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2430
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Recently, the Institute of Commercial Cryptography Standards (ICCS) launched the Next Generation Commercial Cryptographic
+    Algorithm Program (NGCC), which includes a standardization process for cryptog
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: rapid_mixing_in_2026
+  title: Rapid mixing in superspecial isogeny graphs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2429
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We prove expansion properties of superspecial isogeny graphs in dimension $g \geq 2$, including arbitrary level
+    structure. In particular, we provide explicit bounds for the spectral gap, and a fine ch
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: beyondbirthday_mac_security_2026
+  title: Beyond-Birthday MAC Security for Encrypted Wegman-Carter and EWCDMD
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2428
+  directions:
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: At CRYPTO 2016, Cogliati and Seurin proposed EWCDM as a nonce-based MAC construction making two block cipher calls
+    and one almost-XOR-universal (AXU) hash evaluation and achieving beyond-birthday-boun
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: rmklpt_algebraic_pathfinding_2026
+  title: 'RM-KLPT: Algebraic Pathfinding for Superspecial Abelian Surfaces with Maximal Real Multiplication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2427
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The isogeny graphs of superspecial abelian surfaces with maximal real multiplication were first studied by Charles,
+    Goren, and Lauter in 2009, when they constructed the RM-CGL hash function on these g
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: samplepreserving_searchtodecision_reduction_2026
+  title: Sample-Preserving Search-to-Decision Reduction for Noisy Linear Equations over Large Moduli
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2425
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Noisy Linear Equations problem involves finding the solution to a random linear system over a finite field
+    given noisy evaluations. This is a generalisation of various learning problems widely use
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: magnetar_highspeed_postquantum_2026
+  title: 'Magnetar: High-speed post-quantum RV64 zkVM from standard hashes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2423
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We describe the design, implementation, and experimental evaluation of Magnetar, a transparent proof system for
+    RV64I program executions (i.e., a zkVM). Magnetar is the first zkVM to simultaneously sa
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: efficient_unbiasable_verifiable_2026
+  title: Efficient Unbiasable Verifiable Random Functions via (Non-)Black-Box Reductions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2421
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present conceptually simple and practically efficient constructions of a verifiable random function (VRF) that
+    fulfills strong notions of unbiasability recently introduced by Giunta and Stewart (Eu
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-13'
+  source: eprint
+- id: provable_subexponential_algorithms_2026
+  title: Provable Subexponential Algorithms for Module-SIS and Module-LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2420
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Ducas, Engelberts and Loyer (CRYPTO 2025) turned Wagner's generalized birthday algorithm into a provable subexponential-time
+    Gaussian sampler for unstructured short integer solutions. Recent preprints
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-13'
+  source: eprint
