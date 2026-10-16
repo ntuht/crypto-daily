@@ -1,129 +1,4 @@
 papers:
-- id: revisiting_generic_transforms_2026
-  title: Revisiting Generic Transforms for Committing Authenticated Encryption
-  url: https://eprint.iacr.org/2026/240
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - authenticated encryption
-  - AES
-  - PRESENT
-  directions:
-  - aead
-  summary: 'Committing security for authenticated encryption (AE) captures the difficulty of constructing a distinct input
-    tuple, including the key, that yields the same ciphertext. This notion is relatively new '
-  heuristic_score: 25
-  added_date: '2026-10-15'
-  authors: []
-- id: refining_probabilisticlinearization_tida_2026
-  title: Refining Probabilistic-Linearization TIDA for 5-Round SHA3-384 Collision Attacks (Full Version)
-  url: https://eprint.iacr.org/2026/2090
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - differential
-  - S-box
-  directions:
-  - sbox
-  - differential
-  summary: Since the SHA-3 family was standardized by NIST in 2015, its collision resistance has been extensively studied.
-    The previous best-known collision attack on 5-round SHA3-384 is based on internal differ
-  heuristic_score: 22
-  added_date: '2026-10-15'
-  authors: []
-- id: an_inputfed_aesround_2026
-  title: An Input-Fed AES-Round Family for Fixed-Length Hashing
-  url: https://eprint.iacr.org/2026/2314
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - differential
-  - MITM
-  - permutation
-  - tweakable
-  - AES
-  directions:
-  - tweakable
-  - meet_in_the_middle
-  - differential
-  - permutation_layer
-  summary: Secure computation often hashes high-entropy fixed-length values in inner loops. A public permutation with terminal
-    Davies--Meyer feed-forward can expose the permutation value when an application appl
-  heuristic_score: 22
-  added_date: '2026-10-15'
-  authors: []
-- id: enhancing_sat_solving_2026
-  title: Enhancing SAT Solving to Find (Near) Collisions in 6-Round SHA-3 Variants
-  url: https://eprint.iacr.org/2026/2107
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - differential
-  - SAT
-  - PRESENT
-  directions:
-  - milp_sat_cp
-  - differential
-  summary: The Keccak hash function, designed by Bertoni et al., was selected as the new generation of Secure Hash Algorithm
-    (SHA-3) in 2012. For NIST-standardized SHA-3 instances (SHA3-224/256/384/512, SHAKE128
-  heuristic_score: 21
-  added_date: '2026-10-15'
-  authors: []
-- id: structural_weaknesses_in_2026
-  title: Structural Weaknesses in 7 NGCC Submitted Hash Functions
-  url: https://eprint.iacr.org/2026/2152
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - invariant
-  - permutation
-  directions:
-  - invariant
-  - permutation_layer
-  summary: The Institute of Commercial Cryptography Standards (ICCS) launched the Next-generation Commercial Cryptographic
-    Algorithms Program (NGCC) and invited worldwide comments on draft submission requirement
-  heuristic_score: 18
-  added_date: '2026-10-15'
-  authors: []
-- id: flatmerkle_logarithmicspace_inclusion_2026
-  title: 'FlatMerkle: Logarithmic-Space Inclusion Proofs over a Single Linear Hash Stream'
-  url: https://eprint.iacr.org/2026/2468
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MITM
-  - PRESENT
-  directions:
-  - meet_in_the_middle
-  summary: 'Merkle trees are the standard way to obtain logarithmic-size, logarithmic-time
-
-    inclusion proofs over a large dataset, but they require a tree-shaped hash
-
-    structure distinct from the ordinary, linear ('
-  heuristic_score: 17
-  added_date: '2026-10-15'
-  authors: []
-- id: optimal_threshold_implementations_2026
-  title: Optimal Threshold Implementations of all bijective 4-bit S-boxes and new Infinite Families
-  url: https://eprint.iacr.org/2026/2449
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight cipher
-  - S-box
-  - permutation
-  - Feistel
-  - lightweight
-  directions:
-  - lightweight
-  - round_function
-  - sbox
-  - permutation_layer
-  summary: 'Threshold implementations (TIs) are now an established class of side-channel countermeasures. Their underlying
-    idea is simple and compelling: under mild, practical assumptions, they provide protection'
-  heuristic_score: 17
-  added_date: '2026-10-15'
-  authors: []
 - id: chosen_ciphertext_and_2026
   title: Chosen Ciphertext and Trapdoor Secure Public Key Authenticated Encryption with Keyword Search
   url: https://eprint.iacr.org/2026/2446
@@ -136,7 +11,7 @@ papers:
   summary: For public-key encryption with keyword search (PEKS), chosen-ciphertext attack (CCA) security has been studied
     in settings where an adversary is allowed to access the test oracle. Notably, the CHK tra
   heuristic_score: 17
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: mind_small_integers_2026
   title: 'Mind Small Integers in MDS Matrix: Collision Attacks on Round-Reduced Reinforced Concrete'
@@ -155,7 +30,7 @@ papers:
   summary: "The rapid advancement of Zero-Knowledge Proofs (ZKP) has motivated the design of ZK-friendly hash functions. \n\
     A relatively new design strategy for ZK-friendly hash functions is using the composition o"
   heuristic_score: 17
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: hardwareadapted_simd_optimization_2026
   title: Hardware-Adapted SIMD Optimization of AIMer v3 on x86 and Cortex-M55
@@ -169,7 +44,7 @@ papers:
   summary: AIMer v3 replaces AIM2 with AIM3. We test whether SIMD methods developed for AIM2 can accelerate AIM3 while preserving
     its results. We port the field-arithmetic, affine, party-parallel, and SHAKE meth
   heuristic_score: 17
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: impersonation_resilience_of_2026
   title: Impersonation Resilience of Subversion-Resilient UC Protocols
@@ -184,7 +59,7 @@ papers:
   summary: Subversion attacks where the attacker aims to replace parts of a cryptographic system by manipulated parts in an
     undetectable manner have been shown to model both theoretical and practical attacks suc
   heuristic_score: 17
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: what_to_guess_2026
   title: What to Guess in Key-Recovery Attacks?
@@ -206,7 +81,7 @@ papers:
   summary: 'Determining the precise parts of the key that need to be guessed in a key-recovery attack is fundamental for judging
     its cost: if the same attack can be executed by guessing less key material, then th'
   heuristic_score: 16
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: picking_up_the_2026
   title: 'Picking up the Fallen Mask: Breaking and Fixing the RS-Mask Countermeasure'
@@ -224,7 +99,7 @@ papers:
   summary: Physical attacks pose a major challenge to the secure implementation of cryptographic algorithms. Although significant
     progress has been made in countering passive attacks such as side-channel analysi
   heuristic_score: 16
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: new_constructions_of_2026_1
   title: New Constructions of Quadratic and Cubic Permutations Admitting Optimal Threshold Implementations
@@ -245,7 +120,7 @@ papers:
   summary: Side-channel attacks can uncover sensitive data by analyzing information leakages of cryptographic hardware devices
     caused by the power consumption, timing, electromagnetic, glitches, etc. Threshold i
   heuristic_score: 16
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: extended_biprojective_apn_2026
   title: Extended biprojective APN functions
@@ -259,7 +134,7 @@ papers:
   summary: Almost perfect nonlinear (APN) functions provide optimal resistance to differential cryptanalysis in characteristic
     two, and constructing new infinite families inequivalent to the known ones remains a
   heuristic_score: 15
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: cryptanalysis_of_full_2026
   title: Cryptanalysis of Full BEANIE
@@ -277,7 +152,7 @@ papers:
   summary: Beanie is a tweakable block cipher recently published at ToSC aiming for memory encryption of microcontroller units.
     In line with this goal, it handles small plaintexts of only 32 bits and has a low l
   heuristic_score: 13
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: improved_soundness_for_2026
   title: Improved Soundness for Compressed Permutation Oracles and Tight Quantum Preimage and Collision Bounds for the Sponge
@@ -292,7 +167,7 @@ papers:
   summary: We give a sharper bound on the error introduced by replacing a random permutation oracle with Carolan’s compressed
     permutation oracle. Building on Rosmanis’s representation-theoretic approach, we repr
   heuristic_score: 12
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: comparative_evaluation_of_2026
   title: Comparative Evaluation of Open-Source Gröbner Basis Implementations for Small-Scale AES Polynomial Systems over GF(2)
@@ -309,7 +184,7 @@ papers:
 
     mentations with Magma as a proprietary reference on'
   heuristic_score: 12
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: gpuassisted_faest_v3_2026
   title: 'GPU-Assisted FAEST v3 Signing: Challenge Grinding and CPU–GPU Pipelining'
@@ -324,7 +199,7 @@ papers:
   summary: 'Applying a GPU to FAEST v3 signing requires more than exploiting parallel computation: challenge grinding must
     preserve the minimum accepting counter selected by the original signing procedure, and si'
   heuristic_score: 12
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: hash_function_constructions_2026
   title: Hash Function Constructions from Lightweight Block Ciphers for Fully Homomorphic Encryption
@@ -344,7 +219,7 @@ papers:
     from lightweight block ciphers, that are suitable for evaluation in fully homomorphic encryption (FHE) settings. We focus
     on PRINCEv2, a 64-'
   heuristic_score: 12
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: distinguishers_for_the_2026
   title: Distinguishers for the Squeezing of the Alternating Sponge and Duet
@@ -359,7 +234,7 @@ papers:
   summary: Recently, the Institute of Commercial Cryptography Standards (ICCS) launched the Next Generation Commercial Cryptographic
     Algorithm Program (NGCC), which includes a standardization process for cryptog
   heuristic_score: 12
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: connecting_cryptanalytic_distinguishers_2026
   title: Connecting Cryptanalytic Distinguishers through Divisibility
@@ -388,7 +263,7 @@ papers:
   summary: 'Integral distinguishers can reveal more than a zero-sum property: the number of ones in an output component may
     be divisible by a high power of $2$, rather than merely being even. To exploit this divi'
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: edabits_in_the_2026
   title: edaBits in the Exponent (edaBitE) and Issuer-Hiding Blind Signatures from ML-DSA and VOLE-in-the-Head
@@ -405,7 +280,7 @@ papers:
   summary: Blind signatures let a user obtain a signature by interacting with an issuer that controls the signing key, while
     the issuer never sees the message. They form the basis of anonymous credentials, which
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: a_blackbox_compiler_2026
   title: A Black-Box Compiler from Static to Dynamic SNARKs
@@ -421,7 +296,7 @@ papers:
   summary: 'Succinct Non-Interactive Arguments of Knowledge (SNARKs) for NP allow a prover to prove knowledge of a witness
     of an NP relation to a verifier with a short proof. The primary goal of a (static) SNARK '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: cauchyfold_residueoptimal_higharity_2026
   title: 'CauchyFold: Residue-Optimal High-Arity Lattice Folding via Scaled Cauchy Challenges'
@@ -437,7 +312,7 @@ papers:
   summary: 'A direct $k$-ary quadratic fold with one accumulator and $k$ fresh inputs exposes $k + \binom{k}{2}$ mixed interactions.
     These terms need not be retained independently across the folding challenge. A '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: derivatives_of_quantum_2026
   title: 'Derivatives of Quantum Randomness: Separating Pseudorandom Unitaries from Pseudorandom (Function-like) States'
@@ -451,7 +326,7 @@ papers:
   summary: Quantum computation gives rise to new pseudorandom primitives for states and unitaries, including pseudorandom
     state generators (PRSGs), pseudorandom function-like state generators (PRFSGs), and pseud
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: libfwht_from_exact_2026
   title: 'LibFWHT: From Exact Walsh Spectra to Key Dependence in Differential-Linear Correlations'
@@ -471,7 +346,7 @@ papers:
   summary: The Walsh-Hadamard transform (WHT) computes the correlation of a Boolean function with every input parity function
     at once. Cryptanalytic workflows transform large arrays repeatedly, in batches. Howev
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: bonsai_scalable_private_2026
   title: 'Bonsai: Scalable Private Payments'
@@ -486,7 +361,7 @@ papers:
   summary: Virtually all deployed private payment systems publish a nullifier for every transaction to prevent double spending.
     At a million transactions per second, the nullifier set grows by a petabyte each ye
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: new_pseudorandom_correlation_2026
   title: New Pseudorandom Correlation Functions and Exponent VRFs from DCR
@@ -502,7 +377,7 @@ papers:
   summary: Pseudorandom correlation functions (PCFs) allow two parties to expand short correlated keys into an unbounded,
     locally evaluatable source of correlated randomness. In this paper, we give the first con
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: scagpt_a_generationplanningtool_2026
   title: 'SCA-GPT: A Generation-Planning-Tool Assisted LLM Agent for Fully Automated Side-Channel Analysis on Cryptosystems'
@@ -518,7 +393,7 @@ papers:
   summary: 'Non-invasive security testing under standards such as ISO/IEC 17825 still relies on human experts: how to measure
     a given target, and what the standard requires once the results are available, differ '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: one_scalar_to_2026
   title: 'One Scalar to Fold Them All, and in the Commitment Bind Them: Reduced Logarithmic ElGamal Shuffle Proofs'
@@ -535,7 +410,7 @@ papers:
   summary: 'Xue, Lu, and Au design a logarithmic-size verifiable shuffle for rerandomized ElGamal ciphertexts by combining
     a KZG permutation argument with a tagged inner-product argument, with cost $(2\log N+11) '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: failure_is_not_2026
   title: 'Failure Is Not Silent: Attacks on Blind Signatures'
@@ -554,7 +429,7 @@ papers:
   summary: Blind signatures and OPRFs are widely used to build anonymous tokens and privacy-preserving protocols. This paper
     shows that several prior claims of blindness and request-privacy for such primitives a
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: on_aborts_in_2026
   title: On Aborts in Differential Privacy
@@ -570,7 +445,7 @@ papers:
   summary: There is a growing literature on differential privacy (DP) in multiparty protocols, enabling use in distributed
     settings and reduced trust assumptions. A largely overlooked aspect of such protocols is
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: lightweight_cryptography_for_2026
   title: Lightweight Cryptography for Secure UAV Data Integrity Using Ascon-XOF128 and SHAKE128
@@ -586,7 +461,7 @@ papers:
   summary: The increasing deployment of unmanned aerial vehicles (UAVs) in communication, surveillance, and other mission-critical
     applications has created a growing requirement for efficient mechanisms to prese
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: bounding_the_excess_2026
   title: Bounding the Excess Risk for Linear Models Trained on Marginal-Preserving, Differentially-Private, Synthetic Data
@@ -602,7 +477,7 @@ papers:
   summary: The growing use of machine learning (ML) has raised concerns that an ML model may reveal private information about
     an individual who has contributed to the training dataset. To prevent leakage of sens
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: differentially_oblivious_resizing_2026
   title: Differentially Oblivious Resizing for Group-By Aggregations
@@ -617,7 +492,7 @@ papers:
   summary: Systems for private group-by aggregation (e.g., computing histograms, min/max values, or averages) let a confidential
     virtual machine (CVM) generate statistics from streaming user data. A particular c
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: mist_transparent_polynomial_2026
   title: 'Mist: Transparent Polynomial Commitments from Class Group Subset-Product Accumulators'
@@ -631,7 +506,7 @@ papers:
   summary: We construct the first polynomial commitment in groups of unknown order that simultaneously requires no trusted
     setup, has quasilinear prover time, and has constant-size opening proofs. Our main techn
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: couplet_multivariate_polynomial_2026
   title: 'Couplet: Multivariate Polynomial Commitments with Two-Group-Element Openings'
@@ -647,7 +522,7 @@ papers:
   summary: 'We present Couplet, a new pairing-based multivariate polynomial commitment scheme (PCS). Couplet is the first
     multivariate PCS whose opening proofs are solely two group elements. In addition, for the '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: interactive_secretkey_pir_2026
   title: Interactive Secret-Key PIR
@@ -661,7 +536,7 @@ papers:
   summary: 'Private information retrieval (PIR) inherently requires public-key cryptography. A recent line of work suggests
     that this barrier can be avoided in secret-key PIR, where the client first preprocesses '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: succinct_arguments_for_2026
   title: Succinct Arguments for QMA in the Quantum Random Oracle Model
@@ -677,7 +552,7 @@ papers:
   summary: Succinct arguments are a fundamental cryptographic primitive for verifying computational claims with small communication.
     In the classical setting, succinct arguments for NP can be constructed from un
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: faster_incremental_authenticated_2026
   title: 'Faster Incremental Authenticated Dictionaries: Removing the Query Bottleneck'
@@ -693,7 +568,7 @@ papers:
   summary: Known lower bounds prohibit the construction of very-efficient authenticated dictionaries that support both insertions
     and deletions. It remains an open question, however, whether it may be possible t
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: cryptanalytic_extraction_of_2026_1
   title: Cryptanalytic Extraction of Neural Networks Without Known Architecture Assumption
@@ -708,7 +583,7 @@ papers:
   summary: 'Cryptanalytic model extraction aims to reconstruct a functionally equivalent model through black-box interactions
     with the victim model. Under the fundamental assumption that the network architecture '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: is_it_safe_2026
   title: Is it safe to lie? Revisiting Incoercible Multi-Party Computation in the Universal Composability Framework
@@ -724,7 +599,7 @@ papers:
   summary: In a multi-party protocol, incoercibility aims to protect protocol participants by allowing them to use their honest
     inputs even in the presence of a coercer. A coercer is an adversary who pressures p
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: bitz_proofs_and_2026
   title: 'BitZ: proofs and commitments in arbitrary rings through binary fields'
@@ -739,7 +614,7 @@ papers:
   summary: 'We introduce BitZ, a hash-based Polynomial Commitment Scheme (PCS) for committing to multilinear polynomials $\mathbf{f}$
     with coefficients in an arbitrary finitely generated ring $S$, e.g.\ a finite '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: reedweave_faster_reedsolomon_2026
   title: 'ReedWeave: Faster Reed-Solomon Polynomial Commitments from Interleaving and Folding'
@@ -754,7 +629,7 @@ papers:
   summary: Polynomial commitment schemes (PCSs) allow a prover to commit to a polynomial and later prove its evaluations succinctly.
     Among hash-based constructions, FRI (Ben-Sasson et al., ICALP 2018) and its fo
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: dash_distributed_asynchronous_2026
   title: 'DASH: Distributed Asynchronous Schnorr with High Throughput'
@@ -769,7 +644,7 @@ papers:
   summary: Robust asynchronous threshold Schnorr signatures enable honest parties to complete signing despite malicious behavior
     and network delays. To reduce online latency, these schemes typically follow an of
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: on_the_tight_2026
   title: On the Tight Security of the Double Ratchet
@@ -784,7 +659,7 @@ papers:
   summary: The Signal Protocol is a two-party secure messaging protocol used in applications such as Signal, WhatsApp, Google
     Messages and Facebook Messenger and is used by billions daily. It consists of two cor
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: accordion_efficient_batch_2026
   title: 'Accordion: Efficient Batch Proving via Algebraic Folding'
@@ -799,7 +674,7 @@ papers:
   summary: "We present $\\mathsf{Accordion}$, a new proof system that works in two steps:\n  - $\\textit{Accumulate}$: The\
     \ first building block is a multi-folding scheme that efficiently accumulates $k$ different in"
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: mathsfrotor_snarks_for_2026
   title: '$\mathsf{Rotor}$: SNARKs for Power-of-Two Rings'
@@ -816,7 +691,7 @@ papers:
   summary: Succinct proofs for arithmetic modulo powers of two are crucial for verifying machine-word computations in practice.
     However, designing SNARKs over such rings is challenging, since they lack the algeb
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: improved_quantum_linear_2026
   title: Improved Quantum Linear Key-Recovery Attacks with Walsh-Spectrum Puncturing
@@ -837,7 +712,7 @@ papers:
 
     '
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: micalis_snarg_function_2026
   title: Micali’s SNARG, Function Vector Commitments, and Fiat–Shamir
@@ -854,7 +729,7 @@ papers:
   summary: Micali's construction of succinct non-interactive arguments (SNARGs) combines a probabilistically checkable proof
     (PCP), a vector commitment, and the Fiat--Shamir transformation. Its security is estab
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: skyhook_trustless_crosschain_2026
   title: 'Skyhook: Trustless Cross-Chain Value Transfer with a Fully Scriptless Pool'
@@ -870,7 +745,7 @@ papers:
   summary: Facilitating value transfers with a scriptless chain is a longstanding problem in cryptography. We present a cross-chain
     messaging and value transfer protocol that maintains game-theoretic atomicity e
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: govbind_from_authenticated_2026
   title: 'GovBind: From Authenticated Fetch to Zero-Knowledge Predicate over Government Documents'
@@ -886,7 +761,7 @@ papers:
   summary: Government portals often issue PDF certificates whose provenance can be verified only through a live HTTPS verification
     service. Proving a limited fact from such a document therefore commonly requires
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: revisiting_the_ipasumcheck_2026
   title: Revisiting the IPA-sumcheck connection
@@ -900,7 +775,7 @@ papers:
   summary: "Inner Product Arguments (IPA) [BCC+16,BBB+17] are a family of proof systems  with $O(\\log n)$ sized proofs, $O(n)$\
     \ time verifiers, and transparent setup.\n  Bootle, Chiesa and Sotiraki [BCS21] observed"
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: adaptively_ucsecure_oblivious_2026
   title: Adaptively UC-Secure Oblivious Transfer from Group Actions
@@ -917,7 +792,7 @@ papers:
 
     exactly one of them, without revealing which one was chosen a'
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: verifiable_computation_for_2026
   title: Verifiable Computation for Approximate Homomorphic Encryption Schemes
@@ -932,7 +807,7 @@ papers:
   summary: We address the problem of proving the validity of computation on ciphertexts of homomorphic encryption (HE) schemes,
     a feature that enables outsourcing of data and computation while ensuring both data
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: spin_fast_codes_2026
   title: 'SPIN: Fast Codes for Correlation Generation and Polynomial Commitments'
@@ -948,7 +823,7 @@ papers:
   summary: Binary codes used in correlation generation and proof systems need strong distance, fast ordinary and transposed
     encoding, and regular memory access. We introduce Single-Permutation INterleaved (SPIN)
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: gram_moments_and_2026
   title: Gram Moments and Pairwise Mixing of AES
@@ -967,7 +842,7 @@ papers:
   summary: We prove that $4k+4$ rounds of AES with independent uniform round keys are $2^{-14-61k}$-close to pairwise independent,
     improving on Hurst's announced bound of $2^{-3.82-48.03k}$. Here, closeness is m
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: contextblind_devicebound_anonymous_2026
   title: Context-Blind Device-Bound Anonymous Credentials from Signatures and Proofs
@@ -983,7 +858,7 @@ papers:
   summary: Anonymous credentials enable privacy preserving authentication, but their transferability motivates binding each
     credential to a key protected by a secure element (SE). Such binding should preserve pr
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: noninteractive_blackbox_witnessindistinguishable_2026
   title: Non-Interactive Black-Box Witness-Indistinguishable Commit-and-Prove via Targeted Hitting-Set Generators
@@ -997,7 +872,7 @@ papers:
   summary: Targeted hitting-set generators (HSGs) are primitives that have recently attracted attention in the study of pseudorandomness
     and derandomization. Recent works have shown that sufficiently strong targ
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: verifieraligned_canonical_source_2026
   title: Verifier-Aligned Canonical Source Binding for Homomorphic Encryption Computations
@@ -1012,7 +887,7 @@ papers:
   summary: q0 preprocessing verification and native HE computation verification can each succeed without establishing that
     their results refer to the same canonical source. To address this source mismatch across
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: note_on_extractability_2026
   title: Note on Extractability of PST Polynomial Commitment Scheme
@@ -1026,7 +901,7 @@ papers:
   summary: A recent work by Belohorec et al. (Crypto, 2025) shows that the well-known PST multivariate polynomial commitment
     scheme is black-box extractable under falsifiable assumptions. They show that a minima
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: a_note_on_2026_7
   title: A Note on P $\neq$ NP
@@ -1041,7 +916,7 @@ papers:
   summary: 'We study the Add/XNOR decision problem: given $n$ words of $n$ bits each, choose between addition modulo $2^n$
     and bitwise XNOR at each position of a left-associative expression so that its final valu'
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: fast_polynomial_arithmetic_2026
   title: Fast Polynomial Arithmetic in the Exponent without Roots of Unity
@@ -1056,7 +931,24 @@ papers:
   summary: In cryptographic algorithms based on groups in which the discrete logarithm is supposed to be hard, it is frequent
     to perform polynomial arithmetic in the exponent of group elements. This old techniqu
   heuristic_score: 11
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
+  authors: []
+- id: shiftinvariant_permutations_with_2026
+  title: 'Shift-Invariant Permutations with Polynomial Composition: Construction and Algebraic Structure'
+  url: https://eprint.iacr.org/2026/2491
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - invariant
+  - permutation
+  - PRESENT
+  directions:
+  - invariant
+  - permutation_layer
+  summary: Shift-invariant permutations of \(\mathbb F_2^n\) are particularly attractive in symmetric cryptography because
+    of their regularity and implementation efficiency. Constructing such permutations with a
+  heuristic_score: 10
+  added_date: '2026-10-16'
   authors: []
 - id: on_the_complexity_2026_1
   title: On the Complexity of Statistical and Multiplicative Zero-Knowledge
@@ -1071,7 +963,7 @@ papers:
   summary: Multiplicative zero-knowledge ($\mathsf{MZK}$) replaces the negligible statistical distance required by statistical
     zero-knowledge ($\mathsf{SZK}$) with symmetric $(\varepsilon,\delta)$ approximate ma
   heuristic_score: 10
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: formally_modeling_the_2026
   title: Formally Modeling the Terrapin Attack on SSH
@@ -1087,7 +979,7 @@ papers:
   summary: 'The Terrapin attack against SSH channel integrity (USENIX Security 2024) used a novel attack vector: attacks on
     the channel state. Surprisingly, not all AEAD modes of SSH were equally affected by this'
   heuristic_score: 9
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: a_complete_classification_2026
   title: A Complete Classification of Whole-Output Linear Structures in FEILIAN-Type Components
@@ -1103,7 +995,7 @@ papers:
   summary: We determine all input differences with constant whole-output XOR derivatives for a four-word ARX topology containing
     FEILIAN SubColumn. For every word width $w\geq2$ and arbitrary XOR-linear internal
   heuristic_score: 9
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: nonce_misuse_resilience_2026
   title: Nonce Misuse Resilience of GCM with Rijndael-256-256
@@ -1119,7 +1011,7 @@ papers:
   summary: 'GCM is the leading authenticated encryption scheme. With its application in TLS alone, it finds millions of uses
     every day. However, in the last years, various shortcomings of GCM have been observed: '
   heuristic_score: 9
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: publiccoin_differinginput_obfuscation_2026
   title: Public-coin Differing-input Obfuscation from KOALA and iO
@@ -1134,7 +1026,7 @@ papers:
   summary: 'We show that the recent construction of witness encryption (Hair and Sahai, arXiv:2609.18275v1) is a public-coin
     extractable witness encryption scheme under the Knowledge of Orthogonality Assumption, '
   heuristic_score: 9
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: beyondbirthday_mac_security_2026
   title: Beyond-Birthday MAC Security for Encrypted Wegman-Carter and EWCDMD
@@ -1150,7 +1042,7 @@ papers:
   summary: At CRYPTO 2016, Cogliati and Seurin proposed EWCDM as a nonce-based MAC construction making two block cipher calls
     and one almost-XOR-universal (AXU) hash evaluation and achieving beyond-birthday-boun
   heuristic_score: 9
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: nobody_will_read_2026
   title: 'Nobody Will Read the Lean: A Case for High-Level Cryptographic Languages'
@@ -1164,7 +1056,7 @@ papers:
   summary: In September 2026, an AI produced a Lean proof of Fermat's Last Theorem in eleven days, and AI provers have started
     on cryptography. Within a few years, an AI may hand you a machine-checked proof that
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: sok_private_transformer_2026
   title: 'SoK: Private Transformer Inference Across Systems, Models, and Cryptography'
@@ -1178,7 +1070,7 @@ papers:
   summary: Private inference can protect user queries and model weights without trusted hardware or statistical privacy relaxations,
     but transformers combine large secret matrix multiplications, costly nonlinear
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: refining_leakage_diagram_2026
   title: Refining Leakage Diagram Analyses for Random Probing Security
@@ -1193,7 +1085,7 @@ papers:
   summary: Masking is a widely used countermeasure against side-channel attacks, where sensitive variables are split into
     randomized shares in order to prevent information leakage from intermediate computations.
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: a_unified_analysis_2026
   title: A Unified Analysis of Refresh Gadgets in the Random Probing Model
@@ -1208,7 +1100,7 @@ papers:
   summary: Masking is a standard countermeasure against side-channel attacks on embedded cryptographic implementations. Its
     security is commonly analyzed in the random probing model, which offers a useful trade-
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: quantum_discrete_logarithms_2026
   title: Quantum Discrete Logarithms on Elliptic Curves with $5n/2+o(n)$ Logical Qubits and $\widetilde O(n^2)$ Toffoli Gates
@@ -1223,7 +1115,7 @@ papers:
   summary: We give a quantum algorithm for the elliptic curve discrete logarithm problem over an \(n\)-bit prime field using
     \(\frac{5}{2}n+o(n)\) logical qubits and \(\widetilde O(n^2)\) Toffoli gates. Luo et a
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: highthroughput_verifiable_distributed_2026
   title: High-throughput Verifiable Distributed OPRF from Gold PRF
@@ -1238,7 +1130,7 @@ papers:
   summary: An oblivious pseudorandom function (OPRF) is a two-party protocol that enables a client to obtain $F_k(x)$ on an
     input $x$ without learning the server-held key $k$, while the server learns nothing abo
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: a_unified_framework_2026_1
   title: 'A Unified Framework for Statistical Side-Channel Distinguishers: From Leakage Assessment to Key Recovery'
@@ -1252,7 +1144,7 @@ papers:
   summary: 'Side-channel analysis (SCA) has historically developed along two parallel research avenues: key recovery attacks
     (e.g., CPA, MIA, Templates) and leakage assessment methodologies (e.g., TVLA, $t$-tests'
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: deterministic_almostall_recovery_2026
   title: Deterministic Almost-All Recovery for Square Four-Tensor Isomorphism
@@ -1266,7 +1158,7 @@ papers:
   summary: We give deterministic exact recovery for almost all square four-tensors over every finite field. For every \(n
     \ge 2^{24}\) and prime power \(q \ge 2\), an explicit \(\mathrm{GL}_n(\mathbb{F}_q)^4\)-i
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: delegproof_a_machinechecked_2026
   title: 'DelegProof: A Machine-Checked Security Analysis of EIP-7702 Delegation'
@@ -1282,7 +1174,7 @@ papers:
   summary: 'EIP-7702, live on Ethereum since the Pectra upgrade, lets externally owned accounts delegate their execution to
     arbitrary contract code with a single signature. The consequences are measurable: 63% of'
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: finegrained_noninteractive_keyexchange_2026
   title: Fine-Grained Non-Interactive Key-Exchange without Idealized Assumptions, and Lower Bounds
@@ -1296,7 +1188,7 @@ papers:
   summary: 'In this paper, we study multi-party non-interactive key exchange (NIKE) in the fine-grained setting. More precisely,
     we propose three multi-party NIKE schemes in three computation models, namely, the '
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: linear_key_recovery_2026
   title: Linear Key Recovery in the BAG-Loong Reference Implementation
@@ -1313,7 +1205,7 @@ papers:
 
     This makes the public-key '
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: chinese_ngcc_algorithms_2026
   title: 'Chinese NGCC Algorithms: The First Week of AI Cryptanalysis'
@@ -1327,7 +1219,7 @@ papers:
   summary: 'On September 20, 2026, the Chinese Institute of Commercial Cryptography Standards published the 119 first-round
     candidates of its Next-generation Commercial Cryptographic Algorithms (NGCC) program: 34'
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: a_cryptographic_perspective_2026_1
   title: A Cryptographic Perspective on Fingerprinting Machine Learning Model Weights
@@ -1341,7 +1233,7 @@ papers:
   summary: We introduce a cryptographic framework for fingerprinting machine learning models, enabling model providers to
     train models that can later be attributed to them. Our framework captures an honest setti
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: pseudorandom_correlation_generators_2026
   title: Pseudorandom Correlation Generators for Matrix Triples
@@ -1355,7 +1247,7 @@ papers:
   summary: 'We introduce new pseudorandom correlation generators (PCGs) for matrix triples: shares of triples $(A,B,A\cdot
     B)$ where $A,B$ are random matrices over $\mathbb{F}^{n\times n}$ for a field $\mathbb{F}'
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: stamac_fault_protection_2026
   title: 'StaMAC: Fault Protection via Stable-MAC Tags'
@@ -1369,7 +1261,7 @@ papers:
   summary: Fault attacks pose a significant threat to cryptographic implementations, motivating the development of countermeasures,
     primarily based on a combination of redundancy and masking techniques. Redundan
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: the_power_of_2026_1
   title: 'The Power of Permutable PRPs: Towards Trapdoor Permutations with Full Key and Message Domains'
@@ -1384,7 +1276,7 @@ papers:
   summary: Shmueli and Zhandry introduced permutable pseudorandom permutations (PRPs) and used them to construct trapdoor
     permutations with a full message domain but a sparse public-key space. We extend this app
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: minishake_2026
   title: MiniSHAKE
@@ -1401,7 +1293,7 @@ papers:
     used in practice today make use of the Keccak-$f$ [1600] permutation or reduced-round versions of it. There are a few
     use cases where'
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: kifa_kernelbased_integral_2026
   title: 'KIFA: Kernel-based Integral Fault Analysis on GIFT-Family Ciphers'
@@ -1418,7 +1310,62 @@ papers:
   summary: We present KIFA (Kernel-based Integral Fault Analysis), an integral fault attack framework that mines its balanced
     properties with the kernel-based miner of Hwang et al. in place of Mixed Integer Line
   heuristic_score: 6
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
+  authors: []
+- id: a_hybrid_bpsat_2026
+  title: 'A Hybrid BP-SAT Attack on MILENAGE: Combining the Complementary Strengths of Algebraic and Soft-Analytical Side-Channel
+    Attacks'
+  url: https://eprint.iacr.org/2026/2487
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - SAT
+  - S-box
+  - AES
+  - LED
+  directions:
+  - sbox
+  - milp_sat_cp
+  summary: 'Profiled side-channel attacks combine noisy leakage predictions with the mathematical relations imposed by the
+    target algorithm to recover secrets from a small number of observations. Two established '
+  heuristic_score: 5
+  added_date: '2026-10-16'
+  authors: []
+- id: uniform_sharing_in_2026
+  title: 'Uniform Sharing in Multiple Stages: Towards Second-Order Security'
+  url: https://eprint.iacr.org/2026/2483
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - block cipher
+  - lightweight
+  - SKINNY
+  - Midori
+  - PRINCE
+  directions:
+  - lightweight
+  summary: Mitigating Side‑Channel Analysis (SCA) of cryptographic implementations relies heavily on masking schemes; however,
+    achieving efficient and straightforward hardware realizations remains challenging. W
+  heuristic_score: 5
+  added_date: '2026-10-16'
+  authors: []
+- id: polygero_proximity_testing_2026
+  title: 'Polygero: Proximity Testing From Polynomial Challenges'
+  url: https://eprint.iacr.org/2026/2481
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - MDS
+  - PRESENT
+  directions:
+  - linear_diffusion
+  summary: 'We present a new proximity test for Reed--Solomon codes that admits a higher-agreement regime with soundness approaching
+    the field''s bit length.
+
+
+    All prior work in this area [AHIV2017,BCIKS2020,BCHKS2'
+  heuristic_score: 5
+  added_date: '2026-10-16'
   authors: []
 - id: masterkey_recovery_from_2026
   title: Master-Key Recovery from Internal Activation Leakage in ReLU Realizations of Camellia
@@ -1436,7 +1383,7 @@ papers:
   summary: This paper investigates functional correctness and masterkey reconstruction in explicitly constructed rectified
     linear unit (ReLU) implementations of Camellia-128, Camellia-192, and Camellia-256. Exac
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: staggered_instructionfetch_duplication_2026
   title: 'Staggered Instruction-Fetch Duplication: A Lightweight Processor-Level Countermeasure Against Fault Injection'
@@ -1450,7 +1397,7 @@ papers:
   summary: 'Fault attacks exploit transient hardware faults to bypass software-level security checks in embedded processors.
     Processor-level redundancy can detect such faults, but duplicating the whole processor '
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: building_quantum_circuits_2026
   title: Building Quantum Circuits with Qarton
@@ -1465,7 +1412,7 @@ papers:
   summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
     of quantum algorithms for cryptographic problems. As a start, these algorithms can
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: rethinking_zeroknowledge_tls_2026
   title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
@@ -1482,7 +1429,7 @@ papers:
   summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
     revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: aebap_an_efficient_2026
   title: 'AEBAP: An Efficient ECC-Based Authentication Protocol Designed for Wireless Networks'
@@ -1499,7 +1446,7 @@ papers:
 
     such as healthcare, transportation, and smar'
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: combined_stability_protecting_2026
   title: 'Combined Stability: Protecting against Combined Attacks'
@@ -1514,7 +1461,7 @@ papers:
   summary: Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel
     analysis (SCA) has received significant attention, leading to well-established cou
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: indistinguishability_lifting_for_2026
   title: Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications
@@ -1532,7 +1479,7 @@ papers:
   summary: Cryptographic security proofs often involve an adversary interacting with a larger, keyed oracle that consists
     of (potentially exponentially) many independent instances of a smaller, base oracle. Exam
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: stomr_stateful_oblivious_2026
   title: 'StOMR: Stateful Oblivious Message Retrieval'
@@ -1546,7 +1493,7 @@ papers:
   summary: Oblivious Message Retrieval (OMR) enables recipients to retrieve messages from an untrusted server without revealing
     which messages correspond to them. OMR is useful for privacy-preserving systems suc
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []
 - id: klms_design_implementation_2026
   title: 'K-LMS: Design, Implementation, and Evaluation of Leighton–Micali Signatures with Korean Cryptographic Primitives'
@@ -1565,5 +1512,5 @@ papers:
 
     SPHINCS+ with '
   heuristic_score: 5
-  added_date: '2026-10-15'
+  added_date: '2026-10-16'
   authors: []

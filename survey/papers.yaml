@@ -44373,3 +44373,409 @@ papers:
   - permutation
   fetched_date: '2026-10-15'
   source: eprint
+- id: yoshan_algebraiccircuit_cosynthesis_2026
+  title: 'Yoshan: Algebraic-Circuit Co-Synthesis and Search Methodology of Hardware-Efficient S-Boxes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2488
+  directions:
+  - invariant
+  - milp_sat_cp
+  - permutation_layer
+  - sbox
+  - automated_search
+  - differential
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: Choosing a hardware S-box means balancing cryptanalytic strength (differential uniformity δ, linearity L, and algebraic
+    degree) against circuit cost (AND count and AND depth D). Under masking, non-lin
+  status: pending_review
+  matched_keywords:
+  - differential
+  - invariant
+  - SAT
+  - automated search
+  - S-box
+  - permutation
+  - Feistel
+  - AES
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: ghostfacempc_privacypreserving_face_2026
+  title: 'GhostFaceMPC: Privacy-Preserving Face Recognition with Multi-Party Computation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2499
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Facial recognition has become central to modern authentication systems, security frameworks, and personalized services.
+    However, its widespread adoption is hindered by severe privacy risks, particular
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: noisetolerant_quantum_onetime_2026
+  title: Noise-Tolerant Quantum One-Time Programs Using Stateless Trusted Hardware, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2498
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A quantum one-time program scheme is a functionality-preserving compiler that transforms a program into a quantum
+    state that can be used to obtain only one output of the program. Our goal is to design
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: secagg_a_postquantum_2026
+  title: 'SecAgg++: A Post-Quantum Privacy Preserving Federated Learning Protocol'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2497
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure aggregation is a fundamental building block for privacy-preserving federated learning, yet most existing
+    masking-based secure aggregation protocols do not provide post-quantum security. In this
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: a_zksnark_programming_2026
+  title: A zk-SNARK Programming Framework for Verifiable Data Analytics
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/572
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'zk-SNARKs enable succinct, efficiently verifiable proofs of correct computation
+
+    over private data, but require the computation to be compiled into a
+
+    \emph{statically defined and bounded} arithmetic ci'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: structural_cryptanalysis_of_2026_1
+  title: Structural Cryptanalysis of the Eevee AEAD Family
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2496
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Eevee is a family of three AEAD modes, Umbreon, Jolteon, and Espeon, proposed at CCS 2023 for IoT-to-cloud secure
+    computation. We analyze structural flaws in the algorithms of the supplied full-versio
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: issuerindependent_decentralized_exchange_2026
+  title: Issuer-Independent Decentralized Exchange for E-Cash
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2495
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Despite decades of cryptographic advances, electronic cash (e-cash) remains largely confined to payments and lacks
+    the broader decentralized financial applications built around cryptocurrencies. As a '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: speeding_up_sumcheck_2026_1
+  title: Speeding up Sumcheck using Algebraic Geometry
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2494
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The sumcheck protocol, a ubiquitous component of modern proof-systems, enables proving the sum of evaluations of
+    a low-degree multivariate polynomial. In theory, sumcheck has been generalized from pol
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: robust_ecdsa_threshold_2026
+  title: Robust ECDSA Threshold Signing at Scale
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2493
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This work presents an efficient, scalable, and robust threshold ECDSA signing protocol for the $t\leq (n-1)/3$
+    scenario, making it suitable for e.g., bridging consensus from one Blockchain to another.
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: exploring_fault_injection_2026
+  title: Exploring Fault Injection Attacks on HQC and BIKE Beyond Fujisaki-Okamoto Verification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2492
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fault injection attacks have been extensively studied in the context of post-quantum cryptography, yet existing
+    analyses on code-based KEMs largely focus on faults targeting the Fujisaki-Okamoto trans
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: shiftinvariant_permutations_with_2026
+  title: 'Shift-Invariant Permutations with Polynomial Composition: Construction and Algebraic Structure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2491
+  directions:
+  - invariant
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Shift-invariant permutations of \(\mathbb F_2^n\) are particularly attractive in symmetric cryptography because
+    of their regularity and implementation efficiency. Constructing such permutations with a
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: faest_on_gpus_2026
+  title: 'FAEST on GPUs: Addressing Field Multiplication as a Bottleneck'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2489
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'FAEST is a post-quantum signature scheme that combines VOLE-in-the-Head with QuickSilver to prove knowledge of
+    a secret key. It relies on well-established symmetric primitives and offers small public '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: a_hybrid_bpsat_2026
+  title: 'A Hybrid BP-SAT Attack on MILENAGE: Combining the Complementary Strengths of Algebraic and Soft-Analytical Side-Channel
+    Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2487
+  directions:
+  - sbox
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Profiled side-channel attacks combine noisy leakage predictions with the mathematical relations imposed by the
+    target algorithm to recover secrets from a small number of observations. Two established '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - S-box
+  - AES
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: heterogeneous_cpunpu_implementation_2026
+  title: Heterogeneous CPU–NPU Implementation of the AIMer Post-Quantum Signature for Low Latency on a Mobile SoC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2486
+  directions:
+  - low_latency
+  ciphers: []
+  significance: medium
+  summary: Signatures in the MPC-in-the-head paradigm rest only on a symmetric primitive, but their signing is slow, because
+    it computes hash functions and a linear map for every simulated party of every repetit
+  status: pending_review
+  matched_keywords:
+  - low latency
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: tulva_practical_asynchronous_2026
+  title: 'Tulva: Practical Asynchronous Threshold FHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2485
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) allows arbitrary computation over encrypted data, but its secret key presents
+    a single point of failure which limits its applications. Threshold FHE patches this gap
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: unveiling_the_cost_2026
+  title: 'Unveiling the Cost: Gas-Efficient Output-Private Distributed VRFs on Ethereum'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2484
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Unbiased and publicly verifiable randomness is a fundamen-
+
+    tal component of Web3 security, and output-private distributed verifiable
+
+    random functions (DVRFs) extend this guarantee by keeping the gener'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: uniform_sharing_in_2026
+  title: 'Uniform Sharing in Multiple Stages: Towards Second-Order Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2483
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Mitigating Side‑Channel Analysis (SCA) of cryptographic implementations relies heavily on masking schemes; however,
+    achieving efficient and straightforward hardware realizations remains challenging. W
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - lightweight
+  - SKINNY
+  - Midori
+  - PRINCE
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: edabits_generation_with_2026
+  title: Edabits Generation with Quasi-Linear Communication Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2482
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The work of (Escudero et al., CRYPTO 2020) introduces the so-called edabits, which are defined as a secret sharing
+    of an integer over an arithmetic domain, together with its bit decomposition secret s
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: polygero_proximity_testing_2026
+  title: 'Polygero: Proximity Testing From Polynomial Challenges'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2481
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'We present a new proximity test for Reed--Solomon codes that admits a higher-agreement regime with soundness approaching
+    the field''s bit length.
+
+
+    All prior work in this area [AHIV2017,BCIKS2020,BCHKS2'
+  status: pending_review
+  matched_keywords:
+  - MDS
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: postquantum_certificatebased_psk_2026
+  title: 'Post-Quantum Certificate-Based PSK Provisioning for WireGuard via Mutual TLS, DTLS, and QUIC: Design and Performance
+    Study'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2480
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present an architecture that provides WireGuard’s resistance against future quantum adversaries. By preserving
+    the core protocol, our approach minimizes deployment effort and adds certificate-based
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-16'
+  source: eprint
+- id: committing_security_of_2026_1
+  title: Committing Security of Forkcipher-based AEAD
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2479
+  directions:
+  - meet_in_the_middle
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'Authenticated Encryption with Associated Data (AEAD) provides confidentiality and integrity, but traditional security
+    notions do not prevent ciphertexts from decrypting correctly under multiple keys. '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AEAD
+  - authenticated encryption
+  - LED
+  fetched_date: '2026-10-16'
+  source: eprint
