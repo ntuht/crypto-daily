@@ -44779,3 +44779,38 @@ papers:
   - LED
   fetched_date: '2026-10-16'
   source: eprint
+- id: snarkmux_streaming_snark_2026
+  title: 'SnarkMux: Streaming SNARK Aggregation with Constant Online Verification'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1946
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: SNARKs let a verifier check an expensive computation via a succinct proof, without re-executing the computation.
+    However, many applications still verify proofs individually, creating verifier load and
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-17'
+  source: eprint
+- id: twist_and_shout_2026
+  title: 'Twist and Shout: Faster memory checking arguments via one-hot addressing and increments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/105
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Memory checking arguments enable an untrusted prover to prove that it is correctly processing reads and writes
+    to memory. They are used widely in modern SNARKs, especially in zkVMs, where the prover p
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-10-17'
+  source: eprint
