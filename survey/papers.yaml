@@ -44814,3 +44814,352 @@ papers:
   - LED
   fetched_date: '2026-10-17'
   source: eprint
+- id: swiftauth_conditional_privacypreserving_2026
+  title: 'SwiftAuth: Conditional Privacy-Preserving UAV Authentication with Multi-Source Credential Aggregation and Non-Interactive
+    Authorization'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2503
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: To address the challenges of interactive credential issuance and conditional privacy-preserving authentication
+    for dynamic terminals accessing multiple third-party services, we propose an traceable an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: superspecial_points_on_2026
+  title: Superspecial points on Humbert surfaces and the probability of (N,N)-splitting
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2522
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Let $p\equiv3\pmod4$ be a prime and let $N\geq2$ be an integer. We determine, to first order in $1/p$ and with
+    an explicit error bound, the proportion of superspecial principally polarized abelian sur
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: ecient_fixedpoint_implementation_2026
+  title: Eﬃcient Fixed-Point Implementation of Mitaka
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2521
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Mitaka signature scheme is a variant of Falcon (FN-DSA). It has a considerably simpler signing procedure that
+    can be parallelized while retaining Falcon's efficiency advantage. Mitaka offers two d
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: gpu_acceleration_for_2026
+  title: GPU Acceleration for Boyar-Peralta Algorithm in High Dimensional Linear Layers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2520
+  directions:
+  - meet_in_the_middle
+  - linear_diffusion
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The design of lightweight cryptographic schemes necessitates efficient circuit implementations of linear layers.
+    A commonly used metric for evaluating circuit efficiency is the number of XOR gates req
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - MITM
+  - MDS
+  - lightweight
+  - AES
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: dpastyle_attacks_on_2026
+  title: DPA-style Attacks on VOLE-in-the-Head Signature Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2519
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: VOLE-in-the-Head (VOLEitH) has emerged as a promising paradigm for the design of post-quantum signatures, as it
+    enables efficient signing and verification while also achieving small signature sizes. I
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: associateddata_correlations_in_2026
+  title: 'Associated-Data Correlations in Eevee: Deterministic Forgeries against Nonce-Misuse Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2518
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Eevee's Umbreon and Espeon modes claim online authenticated-encryption security under nonce reuse. We give an independent
+    analysis of associated-data correlations that yield probability-one non-empty-
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - SKINNY
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: watermarking_proofs_with_2026
+  title: Watermarking Proofs with Provenance-Binding ZK-SNARKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2516
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'The emerging ecosystem of outsourced proving services, decentralized prover networks, and prover marketplaces
+    raises a new requirement for ZK-SNARKs: the need to watermark proofs with provenance infor'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: champ_cayley_hashing_2026
+  title: 'CHAMP: Cayley HAshing with Matrix Products'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2515
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cayley hash functions hash binary strings by representing the bits of the message as elements of a semigroup and
+    multiplying the corresponding elements. This gives Cayley hash functions useful homomor
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: analysis_of_the_2026
+  title: Analysis of the Multi-Key Optimization for SPECK
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2514
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: SPECK has recently been introduced as a code-based digital signature scheme exploiting the similarities between
+    the Permuted Kernel Problem (PKP) and the Permutation Code Equivalence Problem (PEP). By
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - SPECK
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: fully_homomorphic_encryption_2026_2
+  title: Fully Homomorphic Encryption for Small Batches of Complex Numbers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2513
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a new approximate homomorphic encryption scheme to process small batches of complex numbers. Leveled
+    operations are based on a new shaped rounding, whose error is a multiple of a fixed publ
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: i_want_to_2026
+  title: 'I Want to Ride My BIKE:  Customizing Bit-Flipping Decoders for Ephemeral Key KEMs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2511
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Large public keys and ciphertexts remain a major obstacle to the deployment of post-quantum cryptosystems in applications
+    currently relying on compact classical schemes. In code-based post-quantum key
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: secure_compilation_of_2026
+  title: Secure Compilation of Probabilistic Side-Channel Countermeasures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2510
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Probabilistic countermeasures are a common means of protecting programs against side-channels. These countermeasures
+    are hard to implement and are routinely broken by compilers. Proving that a compile
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: sparse_secrets_dense_2026
+  title: 'Sparse Secrets, Dense Problems: Efficiently Masking HQC in Hardware'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2509
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: HQC has recently been selected by NIST as a code-based alternative to ML-KEM and is currently undergoing standardization.
+    While multiple timing and power side-channel attacks against HQC have been pre
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: safernsgcd_accelerating_falcon_2026
+  title: 'safeRNSgcd: Accelerating Falcon key generation with RNS in SafeGCD'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2507
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The deepest level of Falcon''s NTRU solver needs only one Bézout
+
+    coefficient from two large integer resultants already represented in a
+
+    residue number system (RNS). We give $\mathtt{safeRNSgcd}$, which'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: efficient_twodimensional_representation_2026
+  title: Efficient Two-Dimensional Representation Evaluation via Dual Isogenies with Applications to Isogeny-Based Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2506
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The evaluation of two-dimensional isogeny representations is a fundamental operation in many isogeny-based cryptographic
+    schemes, notably the public-key encryption schemes POK\'{E} (Eurocrypt 2025) an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: byzantine_broadcast_in_2026
+  title: Byzantine Broadcast in $\widetilde{O}(n^2)$ Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2504
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a deterministic $n$-party Byzantine broadcast protocol secure against $t<n$ faults, with communication
+    complexity $O(n^2\log^4(n)\lambda)$ and $O(t)$ rounds (where $\lambda$ is a security p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: shorter_hashbased_signatures_2026_1
+  title: Shorter Hash-Based Signatures via Guarded Sharing in a DAG Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2502
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Stateless hash-based signatures are among the most important post-quantum signature schemes. Although they have
+    been standardized by NIST, they still have large signatures. Within these constructions,
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: aerie_efficient_aggregation_2026
+  title: 'Aerie: Efficient Aggregation of Falcon Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2501
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The post-quantum signatures selected by NIST are ten to over a hundred times larger than the elliptic-curve signatures
+    they replace. Moreover, unlike the BLS signatures that blockchains use to aggrega
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-18'
+  source: eprint
+- id: threshold_postquantum_evoting_2026
+  title: Threshold Post-Quantum E-Voting from Lattice Commitments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2500
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Lattice-based homomorphic e-voting protocols built on commitments, such as EVOLVE, keep ballots private against
+    all but one authority and the tally verifiable even if all authorities collude, but need
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-18'
+  source: eprint
