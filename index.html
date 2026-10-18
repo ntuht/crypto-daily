@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-10-17 04:01</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-10-18 04:09</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">2456</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">2475</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,13 +35,13 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2456</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2475</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">226</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">165</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">228</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">166</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">80</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">73</span></div>
-  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">51</span></div>
+  <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">52</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">49</span></div>
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">41</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
@@ -51,11 +51,11 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1325</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">414</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">284</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1336</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">416</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">288</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">94</span></div>
-  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">62</span></div>
+  <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">63</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">48</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">45</span></div>
   <div class="dir-item" data-dir="integral_division" onclick="filterDir('integral_division')">积分与 Division Property <span class="count">32</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 2456 篇论文</div>
+        <div class="result-count" id="resultCount">显示 2475 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -30124,6 +30124,257 @@ All prior work in this area [AHIV2017,BCIKS2020,BCHKS2</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">Memory checking arguments enable an untrusted prover to prove that it is correctly processing reads and writes to memory. They are used widely in modern SNARKs, especially in zkVMs, where the prover p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="swiftauth_conditional_privacypreserving_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="swiftauth: conditional privacy-preserving uav authentication with multi-source credential aggregation and non-interactive authorization   to address the challenges of interactive credential issuance and conditional privacy-preserving authentication for dynamic terminals accessing multiple third-party services, we propose an traceable an">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2503" target="_blank">SwiftAuth: Conditional Privacy-Preserving UAV Authentication with Multi-Source Credential Aggregation and Non-Interactive Authorization</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">To address the challenges of interactive credential issuance and conditional privacy-preserving authentication for dynamic terminals accessing multiple third-party services, we propose an traceable an</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="superspecial_points_on_2026" data-dirs="invariant"
+     data-year="2026" data-significance="medium"
+     data-search="superspecial points on humbert surfaces and the probability of (n,n)-splitting   let $p\equiv3\pmod4$ be a prime and let $n\geq2$ be an integer. we determine, to first order in $1/p$ and with an explicit error bound, the proportion of superspecial principally polarized abelian sur">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2522" target="_blank">Superspecial points on Humbert surfaces and the probability of (N,N)-splitting</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Let $p\equiv3\pmod4$ be a prime and let $N\geq2$ be an integer. We determine, to first order in $1/p$ and with an explicit error bound, the proportion of superspecial principally polarized abelian sur</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">不变量与子空间</span></div>
+</div>
+
+<div class="paper-card" data-id="ecient_fixedpoint_implementation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="eﬃcient fixed-point implementation of mitaka   the mitaka signature scheme is a variant of falcon (fn-dsa). it has a considerably simpler signing procedure that can be parallelized while retaining falcon&#x27;s efficiency advantage. mitaka offers two d">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2521" target="_blank">Eﬃcient Fixed-Point Implementation of Mitaka</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Mitaka signature scheme is a variant of Falcon (FN-DSA). It has a considerably simpler signing procedure that can be parallelized while retaining Falcon&#x27;s efficiency advantage. Mitaka offers two d</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="gpu_acceleration_for_2026" data-dirs="meet_in_the_middle,linear_diffusion,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="gpu acceleration for boyar-peralta algorithm in high dimensional linear layers   the design of lightweight cryptographic schemes necessitates efficient circuit implementations of linear layers. a commonly used metric for evaluating circuit efficiency is the number of xor gates req">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2520" target="_blank">GPU Acceleration for Boyar-Peralta Algorithm in High Dimensional Linear Layers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The design of lightweight cryptographic schemes necessitates efficient circuit implementations of linear layers. A commonly used metric for evaluating circuit efficiency is the number of XOR gates req</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">线性扩散层</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="dpastyle_attacks_on_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="dpa-style attacks on vole-in-the-head signature schemes   vole-in-the-head (voleith) has emerged as a promising paradigm for the design of post-quantum signatures, as it enables efficient signing and verification while also achieving small signature sizes. i">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2519" target="_blank">DPA-style Attacks on VOLE-in-the-Head Signature Schemes</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">VOLE-in-the-Head (VOLEitH) has emerged as a promising paradigm for the design of post-quantum signatures, as it enables efficient signing and verification while also achieving small signature sizes. I</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="associateddata_correlations_in_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="associated-data correlations in eevee: deterministic forgeries against nonce-misuse security   eevee&#x27;s umbreon and espeon modes claim online authenticated-encryption security under nonce reuse. we give an independent analysis of associated-data correlations that yield probability-one non-empty-">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2518" target="_blank">Associated-Data Correlations in Eevee: Deterministic Forgeries against Nonce-Misuse Security</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Eevee&#x27;s Umbreon and Espeon modes claim online authenticated-encryption security under nonce reuse. We give an independent analysis of associated-data correlations that yield probability-one non-empty-</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="watermarking_proofs_with_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="watermarking proofs with provenance-binding zk-snarks   the emerging ecosystem of outsourced proving services, decentralized prover networks, and prover marketplaces raises a new requirement for zk-snarks: the need to watermark proofs with provenance infor">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2516" target="_blank">Watermarking Proofs with Provenance-Binding ZK-SNARKs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The emerging ecosystem of outsourced proving services, decentralized prover networks, and prover marketplaces raises a new requirement for ZK-SNARKs: the need to watermark proofs with provenance infor</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="champ_cayley_hashing_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="champ: cayley hashing with matrix products   cayley hash functions hash binary strings by representing the bits of the message as elements of a semigroup and multiplying the corresponding elements. this gives cayley hash functions useful homomor">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2515" target="_blank">CHAMP: Cayley HAshing with Matrix Products</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Cayley hash functions hash binary strings by representing the bits of the message as elements of a semigroup and multiplying the corresponding elements. This gives Cayley hash functions useful homomor</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="analysis_of_the_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="analysis of the multi-key optimization for speck   speck has recently been introduced as a code-based digital signature scheme exploiting the similarities between the permuted kernel problem (pkp) and the permutation code equivalence problem (pep). by">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2514" target="_blank">Analysis of the Multi-Key Optimization for SPECK</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">SPECK has recently been introduced as a code-based digital signature scheme exploiting the similarities between the Permuted Kernel Problem (PKP) and the Permutation Code Equivalence Problem (PEP). By</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="fully_homomorphic_encryption_2026_2" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="fully homomorphic encryption for small batches of complex numbers   we propose a new approximate homomorphic encryption scheme to process small batches of complex numbers. leveled operations are based on a new shaped rounding, whose error is a multiple of a fixed publ">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2513" target="_blank">Fully Homomorphic Encryption for Small Batches of Complex Numbers</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We propose a new approximate homomorphic encryption scheme to process small batches of complex numbers. Leveled operations are based on a new shaped rounding, whose error is a multiple of a fixed publ</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="i_want_to_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="i want to ride my bike:  customizing bit-flipping decoders for ephemeral key kems   large public keys and ciphertexts remain a major obstacle to the deployment of post-quantum cryptosystems in applications currently relying on compact classical schemes. in code-based post-quantum key">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2511" target="_blank">I Want to Ride My BIKE:  Customizing Bit-Flipping Decoders for Ephemeral Key KEMs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Large public keys and ciphertexts remain a major obstacle to the deployment of post-quantum cryptosystems in applications currently relying on compact classical schemes. In code-based post-quantum key</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="secure_compilation_of_2026" data-dirs="lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="secure compilation of probabilistic side-channel countermeasures   probabilistic countermeasures are a common means of protecting programs against side-channels. these countermeasures are hard to implement and are routinely broken by compilers. proving that a compile">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2510" target="_blank">Secure Compilation of Probabilistic Side-Channel Countermeasures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Probabilistic countermeasures are a common means of protecting programs against side-channels. These countermeasures are hard to implement and are routinely broken by compilers. Proving that a compile</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="sparse_secrets_dense_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="sparse secrets, dense problems: efficiently masking hqc in hardware   hqc has recently been selected by nist as a code-based alternative to ml-kem and is currently undergoing standardization. while multiple timing and power side-channel attacks against hqc have been pre">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2509" target="_blank">Sparse Secrets, Dense Problems: Efficiently Masking HQC in Hardware</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">HQC has recently been selected by NIST as a code-based alternative to ML-KEM and is currently undergoing standardization. While multiple timing and power side-channel attacks against HQC have been pre</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="safernsgcd_accelerating_falcon_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="safernsgcd: accelerating falcon key generation with rns in safegcd   the deepest level of falcon&#x27;s ntru solver needs only one bézout
+coefficient from two large integer resultants already represented in a
+residue number system (rns). we give $\mathtt{safernsgcd}$, which">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2507" target="_blank">safeRNSgcd: Accelerating Falcon key generation with RNS in SafeGCD</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The deepest level of Falcon&#x27;s NTRU solver needs only one Bézout
+coefficient from two large integer resultants already represented in a
+residue number system (RNS). We give $\mathtt{safeRNSgcd}$, which</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_twodimensional_representation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="efficient two-dimensional representation evaluation via dual isogenies with applications to isogeny-based cryptography   the evaluation of two-dimensional isogeny representations is a fundamental operation in many isogeny-based cryptographic schemes, notably the public-key encryption schemes pok\&#x27;{e} (eurocrypt 2025) an">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2506" target="_blank">Efficient Two-Dimensional Representation Evaluation via Dual Isogenies with Applications to Isogeny-Based Cryptography</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The evaluation of two-dimensional isogeny representations is a fundamental operation in many isogeny-based cryptographic schemes, notably the public-key encryption schemes POK\&#x27;{E} (Eurocrypt 2025) an</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="byzantine_broadcast_in_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="byzantine broadcast in $\widetilde{o}(n^2)$ communication   we present a deterministic $n$-party byzantine broadcast protocol secure against $t&lt;n$ faults, with communication complexity $o(n^2\log^4(n)\lambda)$ and $o(t)$ rounds (where $\lambda$ is a security p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2504" target="_blank">Byzantine Broadcast in $\widetilde{O}(n^2)$ Communication</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a deterministic $n$-party Byzantine broadcast protocol secure against $t&lt;n$ faults, with communication complexity $O(n^2\log^4(n)\lambda)$ and $O(t)$ rounds (where $\lambda$ is a security p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="shorter_hashbased_signatures_2026_1" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="shorter hash-based signatures via guarded sharing in a dag model   stateless hash-based signatures are among the most important post-quantum signature schemes. although they have been standardized by nist, they still have large signatures. within these constructions,">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2502" target="_blank">Shorter Hash-Based Signatures via Guarded Sharing in a DAG Model</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Stateless hash-based signatures are among the most important post-quantum signature schemes. Although they have been standardized by NIST, they still have large signatures. Within these constructions,</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="aerie_efficient_aggregation_2026" data-dirs="meet_in_the_middle,milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="aerie: efficient aggregation of falcon signatures   the post-quantum signatures selected by nist are ten to over a hundred times larger than the elliptic-curve signatures they replace. moreover, unlike the bls signatures that blockchains use to aggrega">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2501" target="_blank">Aerie: Efficient Aggregation of Falcon Signatures</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The post-quantum signatures selected by NIST are ten to over a hundred times larger than the elliptic-curve signatures they replace. Moreover, unlike the BLS signatures that blockchains use to aggrega</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="threshold_postquantum_evoting_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="threshold post-quantum e-voting from lattice commitments   lattice-based homomorphic e-voting protocols built on commitments, such as evolve, keep ballots private against all but one authority and the tally verifiable even if all authorities collude, but need">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2500" target="_blank">Threshold Post-Quantum E-Voting from Lattice Commitments</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Lattice-based homomorphic e-voting protocols built on commitments, such as EVOLVE, keep ballots private against all but one authority and the tally verifiable even if all authorities collude, but need</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
 </div>
 
