@@ -45163,3 +45163,20 @@ papers:
   - PRESENT
   fetched_date: '2026-10-18'
   source: eprint
+- id: highly_efficient_and_2026
+  title: Highly Efficient and Round-Optimal Asymmetric PAKE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/246
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client, who holds a raw password, and
+    a server, who holds a one-way mapping of the password, to jointly establish a cryptogr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-19'
+  source: eprint
