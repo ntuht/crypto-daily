@@ -45180,3 +45180,245 @@ papers:
   - PRESENT
   fetched_date: '2026-10-19'
   source: eprint
+- id: faster_bootstrapping_for_2026
+  title: Faster Bootstrapping for Fully Homomorphic Encryption over Mixed-Radix Cyclotomic Ring
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/853
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Homomorphic matrix arithmetic is central to many data-intensive fully homomorphic encryption (FHE) applications,
+    including privacy-preserving machine learning. Standard CKKS over power-of-two cyclotom
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: the_covering_radius_2026
+  title: The Covering Radius of $\text{RM}(1,9)$ is Precisely $242$
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2529
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Let $\text{RM}(r,n)$ be the $r$th order Reed-Muller code of length $2^n$, and let $\rho(r,n)$ denote its covering
+    radius, so that $\rho(1,n)$ is the largest possible nonlinearity of a Boolean function
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: cirrus_performant_and_2026
+  title: 'Cirrus: Performant and Accountable Distributed SNARK'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1873
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Succinct Non-interactive Arguments of Knowledge (SNARKs) can enable efficient verification of computation in many
+    applications. However, generating SNARK proofs for large-scale tasks, such as verifiab
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: wisch_efficient_data_2026
+  title: 'WISCH: Efficient data signing via correlated signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1650
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present WISCH, a commit-reveal protocol that combines compact aggregate signatures with hash-based commitments
+    to enable selective disclosure of correlated data in multiparty computation. The proto
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: scmac_and_lol20_2026
+  title: 'SCMAC and LOL2.0: An AEAD Design Framework  and A New Version of LOL  Stream Cipher Design Framework'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/925
+  directions:
+  - integral_division
+  - differential
+  - aead
+  ciphers: []
+  significance: medium
+  summary: In this paper, we introduce SCMAC, a general framework that transforms large-memory stream ciphers into AEAD schemes.
+    It represents an intermediate design paradigm between Encrypt-then-MAC and dedicat
+  status: pending_review
+  matched_keywords:
+  - differential
+  - integral attack
+  - AEAD
+  - AES
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: offkey_inconsistent_mac_2026
+  title: 'Off-Key: Inconsistent MAC Keys Compromise Privacy in SPDZ-Family MPC'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2533
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: SPDZ-family protocols for maliciously secure multi-party computation protect secret-shared values with message
+    authentication codes (MACs) under a secret-shared global key. Their security requires tha
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: hermes_highperformance_private_2026
+  title: 'HERMES: High-Performance Private Decoding for Large Language Models'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2532
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Privacy-preserving inference (PI) enables users to query large language models (LLMs) without revealing their prompts,
+    but incurs substantial computation and communication overhead. Prior PI systems p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: computing_endomorphisms_of_2026
+  title: Computing endomorphisms of superspecial principally polarized abelian surfaces in time and memory \(p^{4/5+o(1)}\)
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2530
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present an algorithm for computing endomorphisms of superspecial principally polarized abelian surfaces over
+    finite fields. Under a standard heuristic, we obtain a non-scalar polarized endomorphism
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: how_secure_are_2026
+  title: How Secure are NTRU+ Keys? Analysing the Best Module Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2527
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A recent analysis of module-BKZ [Ducas–Engleberts–Perthuis, Asiacrypt'25] predicts subexponential speedups for
+    lattice reduction on module lattices over cyclotomic fields whose conductor has small odd
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: faster_abe_for_2026
+  title: Faster ABE for Turing Machines from Circular Evasive LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2526
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present a new ABE for Turing machines, where
+
+
+    - encryption runs in time $O(T)$ and produces a ciphertext of size $O(T)$ for time $T$ computation;
+
+    -  key generation produces a key of size $O(1)$;
+
+    - '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: enjoy_faest_on_2026
+  title: 'Enjoy FAEST on Hardware: Efficient and Novel Hardware Acceleration of Emerging Post-Quantum Digital Signature Scheme
+    FAEST'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2525
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The National Institute of Standards and Technology (NIST) Post-Quantum Cryptography (PQC) standardization process
+    has drawn significant attention from the research community recently, especially regar
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: homomorphic_encryption_for_2026
+  title: Homomorphic Encryption for High-precision Arithmetic of Approximate Numbers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2524
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The CKKS fully homomorphic encryption scheme enables efficient arithmetic over complex numbers, but each homomorphic
+    multiplication consumes a large modulus to ensure enough precision, limiting both t
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-20'
+  source: eprint
+- id: gks_fhe_security_2026
+  title: 'GKS FHE: Security Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2523
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'All traditional encryption schemes share a fundamental operational vulnerability: encrypted data must be decrypted
+    before it can be used. Fully homomorphic encryption eliminates this vulnerability by '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-20'
+  source: eprint
