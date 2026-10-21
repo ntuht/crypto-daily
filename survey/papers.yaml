@@ -45422,3 +45422,475 @@ papers:
   - PRESENT
   fetched_date: '2026-10-20'
   source: eprint
+- id: efficient_and_compact_2026
+  title: Efficient and Compact High-order Masking Raccoon on Memory Constrained Devices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2540
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Raccoon, presented at CRYPTO 2024, is a provably secure lattice-based signature scheme featuring an $O(d \log{d})$
+    masking overhead. Although it did not advance beyond the first-round of NIST's additi
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: faster_logical_operations_2026
+  title: Faster Logical Operations from Discrete CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/732
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study non-arithmetic operations for BFV with arbitrary plaintext moduli and for large-modulus GBFV. Existing
+    approaches either rely on interpolation over large plaintext spaces or use digit represe
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: stronger_security_for_2026
+  title: Stronger Security for Blind Signatures with Attributes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/161
+  directions:
+  - lightweight
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Single-use anonymous credentials are issued once and allow users to unlinkably authenticate exactly once. Recent
+    anonymous-token and age-verification systems increasingly rely on such credentials to m
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: daste_decentralized_adhoc_2026
+  title: 'DASTE: Decentralized Ad-Hoc Access-Structured Threshold Encryption with Dynamic Policy Evolution'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1141
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We introduce DASTE, a decentralized encryption primitive for auditable access control in settings where users independently
+    generate public keys, register them on an immutable ledger, and decrypt only
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: implementing_predicate_encryption_2026
+  title: 'Implementing Predicate Encryption for Branching Programs: Private Computation over Key-Homomorphic Encodings Without
+    FHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2539
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Predicate encryption (PE) encrypts a message under an attribute that the ciphertext hides, allowing a secret key
+    for a predicate to recover the message only when the attribute satisfies the predicate.
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: new_indcpad_attacks_2026
+  title: New IND-CPA-D Attacks on BFV and BGV
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2546
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: IND-CPA-D security is an extension of IND-CPA security introduced in the context of Fully Homomorphic Encryption
+    (FHE). It captures the situation where the computation result is known to the adversary
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  - CRAFT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: arion_attentionoptimized_transformer_2026
+  title: 'ARION: Attention-Optimized Transformer Inference on Encrypted Data'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2271
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Privacy-preserving Transformer inference (PPTI) is essential for deploying large language models (LLMs) such as
+    BERT and LLaMA in sensitive domains. In these models, the attention mechanism is both th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: sat_and_neural_2026
+  title: SAT and Neural Network Filters for Misinjections in Fault Attacks
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2537
+  directions:
+  - differential
+  - linear_diffusion
+  - sbox
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A misinjection, an injection that misses the fault form an attack assumes, can make an elimination fault attack
+    discard the correct key. They occur when the attacker has not determined the timing of t
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - S-box
+  - diffusion
+  - GIFT
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: iisfa_ineffective_instructionskip_2026
+  title: 'IISFA: Ineffective Instruction-Skip Fault Attacks on Bitslice Implementations'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2536
+  directions:
+  - differential
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Redundancy countermeasures prevent differential fault analysis by withholding faulty ciphertexts. Ineffective fault
+    analysis and statistical ineffective fault attacks exploit executions in which an in
+  status: pending_review
+  matched_keywords:
+  - differential
+  - S-box
+  - GIFT
+  - PRESENT
+  - SKINNY
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: balancing_exploration_and_2026
+  title: 'Balancing Exploration and Exploitation: Discriminative-Model-based Fault Injection Parameter Search'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/536
+  directions:
+  - automated_search
+  ciphers: []
+  significance: medium
+  summary: Fault Injection (FI) attacks are physical attacks that deliberately induce malfunctions in a target device. Inducing
+    the intended fault requires precise tuning of the FI parameters, for which automate
+  status: pending_review
+  matched_keywords:
+  - automated search
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: fndsa_on_arm_2026
+  title: 'FN-DSA on Arm Cortex-M55: Revisiting a Floating-Point Lattice Signature with Native FP64 and Helium'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2559
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: FN-DSA has the shortest signatures among NIST's post-quantum signature standards, but on microcontrollers its signing
+    is slow because the binary64 arithmetic it specifies is emulated with integer inst
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: analysis_of_an_2026
+  title: Analysis of an AI based code distinguisher
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2556
+  directions:
+  - ml_aided
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Recently, DeepDistinguisher demonstrated the capability of transformer-like architectures to accurately distinguish
+    Goppa codes from linear codes randomly generated, outperforming traditional distingu
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - neural distinguisher
+  - machine learning
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: postquantum_commutative_group_2026
+  title: Post-quantum commutative group actions from oriented superspecial abelian varieties
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2555
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We study the cryptographic use of Shimura class group actions on superspecial principally polarized abelian varieties  equipped
+    with a CM orientation, within the context of post-quantum cryptography. '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: concrete_ldvr_attacks_2026
+  title: Concrete LDVR Attacks with Fewer Signers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2554
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We improve the concrete parameters of the attacks on the low-dimensional vector representation (LDVR) problem by
+    Rodríguez García and Tessaro (ePrint 2026/2126), whose attack on canonical evaluation p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: nearoptimal_early_stopping_2026
+  title: Near-Optimal Early Stopping with Optimal Communication
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2553
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Minimizing both the round and communication complexity of Byzantine agreement (BA) is a longstanding problem.
+
+    In the synchronous setting, early stopping protocols aim to terminate in number of rounds '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: charrm_characterizing_hardware_2026
+  title: CHARRM - Characterizing Hardware Leakage in the Robust Random Probing Model
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2552
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Masking is a prevalent countermeasure against passive physical implementation attacks such as Side-Channel Analysis
+    (SCA). Despite its theoretical soundness, the practical application of masking is of
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: privacy_with_leakage_2026
+  title: Privacy with Leakage from Falsifiable Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2551
+  directions:
+  - lightweight
+  - tweakable
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'An inherent challenge in cryptography is finding realistic
+
+    and meaningful models and assumptions. Such assumptions must be fal-
+
+    sifiable. For symmetric-key cryptography in the standard model (i.e.,
+
+    bl'
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - tweakable
+  - LED
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: ppga_a_framework_2026
+  title: 'PPGA: A Framework for Privacy-Preserving Graph Algorithms using the Prepare/Propagate/Gather/Apply Paradigm'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2550
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Privacy-preserving graph computation enables the secure analysis of graphs modeling social interactions and networks,
+    financial transactions, etc., while keeping the graph private. One approach is to '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: firebolt_fast_lightweight_2026
+  title: 'Firebolt: Fast, Lightweight, Malicious Non-Interactive Vector-OLE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2549
+  directions:
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We introduce a new maliciously-secure vector oblivious linear evaluation (VOLE), building upon a recent construction
+    of (semi-honest) Paillier-based non-interactive VOLE. Our protocol is non-interacti
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: mathcalio_from_lwe_2026
+  title: $\mathcal{iO}$ from LWE with Structured Preimage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2547
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Constructing $\mathcal{iO}$ from simple, safe assumptions in the post-quantum regime is an important problem with
+    wide-ranging applications. In this work, we make progress towards this goal. We formul
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: blinddlpa_an_endtoend_2026
+  title: 'Blind-DLPA: An End-to-End Framework for Profiled Blind Side-Channel Analysis'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2544
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Conventional profiled side-channel analysis generally assumes that the plaintexts or ciphertexts associated with
+    target traces are available during key recovery. We consider a profiled blind setting i
+  status: pending_review
+  matched_keywords:
+  - AES
+  - Ascon
+  - LED
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: a_keyrecovery_attack_2026_1
+  title: A Key-Recovery Attack on the GTLN Knapsack Cryptosystem via Continued Fractions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2543
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a continued-fraction key-recovery attack on the knapsack-based public-key cryptosystem proposed by Gómez-Torrecillas,
+    Lobillo, and Navarro (GTLN). The key observation is that ratios of publ
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: provable_lattice_reduction_2026
+  title: Provable Lattice Reduction in Nearly the Time of QR Factorization
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2541
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a deterministic lattice-reduction algorithm with bit complexity matching QR factorization up to logarithmic
+    factors, and an implementation that uses fewer instructions than \texttt{flatter}
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: optimizing_hqc_with_2026
+  title: Optimizing HQC with Enhanced Parallel Binary Polynomial Multiplication on GPUs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2538
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Graphics processing units (GPUs) are widely employed as accelerators in modern servers to handle key-establishment
+    requests in bulk. Such deployments require the GPU implementation to sustain high thr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
+- id: circular_dragon_widetildeoptimal_2026
+  title: 'Circular Dragon: $\widetilde{{O}}$ptimal Adaptively Secure Distributed Randomness/Key Generation and Parallel Broadcast'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2534
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present the first strongly adaptive common coin protocol, under the PKI setup (in the random oracle model and
+    the algebraic group model, yet with no trusted dealer), that (i) achieves the optimal r
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-21'
+  source: eprint
