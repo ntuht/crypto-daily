@@ -45894,3 +45894,235 @@ papers:
   - PRESENT
   fetched_date: '2026-10-21'
   source: eprint
+- id: a_spectral_theory_2026
+  title: A Spectral Theory of Local-to-Global Leakage
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2571
+  directions:
+  - invariant
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: This paper studies how local leakages characterize the global leakage in additive secret sharing over a finite
+    abelian group, which is a special case of linear secret sharing and side-channel masking.
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - permutation
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: laminate_succinct_simdfriendly_2026
+  title: 'Laminate: Succinct SIMD-Friendly Verifiable FHE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/2285
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'In outsourcing computation to untrusted servers, one can cryptographically ensure privacy using Fully Homomorphic
+    Encryption (FHE) or integrity using Verifiable Computation (VC) such as SNARK proofs. '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: witnesssuccinct_universallycomposable_snarks_2026
+  title: Witness-Succinct Universally-Composable SNARKs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/1618
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge Succinct Non-interactive ARguments of Knowledge (zkSNARKs) are becoming an increasingly fundamental
+    tool in many real-world applications where the proof compactness is of the utmost imp
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: author_lower_cost_2026
+  title: 'AuthOr: Lower Cost Privacy-Free Garbling of Arbitrary Boolean Circuits'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/775
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Privacy-free garbling schemes of Frederiksen et al. (Eurocrypt
+
+    ’15) are designed to satisfy only the authenticity criterion of Bellare
+
+    et al. (ACM CCS ’12) and to be more efficient than full-fledged g'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: hidden_parabolic_subgroups_2026
+  title: Hidden parabolic subgroups of $\mathrm{GL}_n$ over finite chain rings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2573
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We give a bounded-error quantum polynomial-time algorithm for finding hidden parabolic subgroups of $\mathrm{GL}_n(R)$
+    over any effectively presented finite chain ring $R$.  We call auxiliary group el
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: disco_distributed_and_2026
+  title: 'DISCO*: DIstributed and SCalable Oblivious Joins and Oblivious Primitives'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2572
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Trusted Execution Environments (TEEs) let clients outsource computation to untrusted clouds, but they remain vulnerable
+    to side-channel and leakage-abuse attacks. Recent work closes this gap by combin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: membership_inference_in_2026
+  title: Membership Inference in Privacy-Preserving Vector Search
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2570
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Vector retrieval increasingly runs over sensitive embedding databases. Backend-compatible protections are desirable
+    in such settings in that they transform the plaintext vectors while leaving the sear
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: efficient_ntru_implementations_2026
+  title: Efficient NTRU+ Implementations on Cortex-M
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2568
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Post-quantum cryptography on embedded devices requires implementations that perform cryptographic operations efficiently
+    within limited computation and memory. Most lattice-based KEMs use 2-way NTTs o
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: a_systematic_evaluation_2026
+  title: A Systematic Evaluation of Fault Attacks and Countermeasures on ML-DSA Rejection Sampling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2567
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This paper presents a systematic evaluation of fault attacks on the rejection sampling of ML-DSA (FIPS 204) and
+    of the countermeasures proposed against them. Using the identity \(\mathbf{Az} - ct = \m
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: faultinduced_nonce_repetition_2026
+  title: 'Fault-Induced Nonce Repetition in Threshold Lattice Signatures: A Reveal-Structure Criterion, Cross-Scheme Analysis,
+    and Detection Boundaries'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2566
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Threshold ML-DSA is regarded as a deployment model that eliminates single-point key risk, and the NIST threshold
+    call (IR 8214C) has likewise attracted many proposals. Existing security analyses, howe
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: further_elaborations_on_2026
+  title: Further Elaborations on the Provable Dual Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2565
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The dual attack is one of the main strategies for attacking the learning-with-errors (LWE) problem. A recent line
+    of work aims at provable analyses of dual attacks that rely on as few heuristic assump
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: regular_syndrome_decoding_2026
+  title: Regular Syndrome Decoding Is Easier Than Previously Estimated
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2563
+  directions:
+  - algebraic
+  ciphers: []
+  significance: medium
+  summary: The Regular Syndrome Decoding (RSD) problem is a structured variant of classical Syndrome Decoding and underlies
+    a growing number of efficient cryptographic constructions, including zero-knowledge pro
+  status: pending_review
+  matched_keywords:
+  - algebraic attack
+  - LED
+  fetched_date: '2026-10-22'
+  source: eprint
+- id: a_new_approach_2026_1
+  title: 'A New Approach to Reducing Modulus Requirements in Homomorphic Computation: Precision Allocation in CKKS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2562
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) enables  computation over encrypted data subject to the prescribed security
+    and precision requirements (allowable deviations from ideal results). Among all FHE schem
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-22'
+  source: eprint
