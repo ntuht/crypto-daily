@@ -46126,3 +46126,22 @@ papers:
   - PRESENT
   fetched_date: '2026-10-22'
   source: eprint
+- id: adaptively_secure_blockchainaided_2026
+  title: 'Adaptively Secure Blockchain-Aided Decentralized Storage Networks: Formalization and Generic Construction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/887
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Blockchain-aided decentralized storage networks (DSNs) use public audits to verify outsourced storage and smart
+    contracts to govern payments and collateral.
+
+    Published audit evidence, however, remains '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-23'
+  source: eprint
