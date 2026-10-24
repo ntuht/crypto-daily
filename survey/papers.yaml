@@ -46145,3 +46145,81 @@ papers:
   - LED
   fetched_date: '2026-10-23'
   source: eprint
+- id: vector_commitment_design_2026
+  title: 'Vector Commitment Design, Analysis, and Applications: A Survey'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/667
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Due to their widespread applications in decentralized and privacy preserving technologies, commitment schemes have
+    become increasingly important cryptographic primitives. With a wide variety of applic
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-10-24'
+  source: eprint
+- id: beastmev_batched_threshold_2026
+  title: 'BEAST-MEV: Batched Threshold Encryption with Silent Setup for MEV prevention'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1419
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Threshold encrypted mempools protect the privacy of transactions up until the point their inclusion on chain is
+    confirmed. They are a promising approach to protection against front-running attacks on '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-10-24'
+  source: eprint
+- id: on_reduction_probability_2026
+  title: On Reduction Probability Models in Lattice Sieving
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1465
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In lattice sieving, the sphere model assumes that sieving elements are distributed close to or on a sphere with
+    uniformly distributed direction.
+
+    It is extensively used to predict how lattice sieving b'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-24'
+  source: eprint
+- id: animagus_a_provably_2026
+  title: 'ANIMAGUS: A Provably Secure Tweakable Wide-Block Mode'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/229
+  directions:
+  - tweakable
+  - lightweight
+  - aead
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Motivated by the accordion mode approach, we propose a length preserving tweakable wide block mode based on the
+    hash-encrypt-hash paradigm. The construction uses AES and HMAC-SHA3-256 with five purpos
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - authenticated encryption
+  - tweakable
+  - AES
+  fetched_date: '2026-10-24'
+  source: eprint
