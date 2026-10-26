@@ -46881,3 +46881,20 @@ papers:
   - LED
   fetched_date: '2026-10-25'
   source: eprint
+- id: fully_secure_dkg_2026
+  title: Fully Secure DKG Protocols for Discrete Logarithm Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/042
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In EUROCRYPT 1999, Gennaro, Jarecki, Krawczyk, and Rabin (GJKR) showed that in the well-known Pedersen robust Distributed
+    Key Generation (DKG) protocol for the Discrete Logarithm (DL), an adversary ca
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-26'
+  source: eprint
