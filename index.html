@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-10-26 04:22</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-10-27 04:41</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">2568</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">2590</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,15 +35,15 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2568</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2590</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">235</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">172</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">236</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">174</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">85</span></div>
-  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">75</span></div>
+  <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">76</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">54</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">49</span></div>
-  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">43</span></div>
+  <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">44</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">33</span></div>
   <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">27</span></div>
@@ -51,9 +51,9 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1393</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">433</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">298</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1404</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">439</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">302</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">97</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">66</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">49</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 2568 篇论文</div>
+        <div class="result-count" id="resultCount">显示 2590 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -31626,6 +31626,316 @@ against its users. Its designer hides a structure tha</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">In EUROCRYPT 1999, Gennaro, Jarecki, Krawczyk, and Rabin (GJKR) showed that in the well-known Pedersen robust Distributed Key Generation (DKG) protocol for the Discrete Logarithm (DL), an adversary ca</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="omix_offline_mixing_2026" data-dirs="permutation_layer,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="omix: offline mixing for self-tallying elections   in e-voting, a mix-net is a widely used system for shuffling votes in order to guarantee voter privacy. the core principle is as follows: (1) n voters cast their votes; (2) a sequence of mix-servers s">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1232" target="_blank">OMIX: Offline Mixing for Self-Tallying Elections</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In e-voting, a mix-net is a widely used system for shuffling votes in order to guarantee voter privacy. The core principle is as follows: (1) N voters cast their votes; (2) a sequence of mix-servers s</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span><span class="tag tag-direction">轻量级密码综合</span></div>
+</div>
+
+<div class="paper-card" data-id="hello_goodbye_concurrent_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="hello, goodbye: concurrent general composition from super-rushing security   kushilevitz, lindell, and rabin (stoc `06, siam journal on computing `10), in their seminal result, showed that any standalone-secure synchronous multiparty computation (mpc) protocol can be compiled">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2651" target="_blank">HELLO, GOODBYE: Concurrent General Composition From Super-Rushing Security</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Kushilevitz, Lindell, and Rabin (STOC `06, SIAM Journal on Computing `10), in their seminal result, showed that any standalone-secure synchronous multiparty computation (MPC) protocol can be compiled</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="linebreak_cryptanalysis_and_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="line-break: cryptanalysis and reverse engineering of letter sealing   we present a security analysis of the messaging service known as
+line, a popular platform used daily by millions of users in east
+and southeast asia – most notably japan, taiwan, thailand, and
+indones">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2649" target="_blank">LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a security analysis of the messaging service known as
+LINE, a popular platform used daily by millions of users in East
+and Southeast Asia – most notably Japan, Taiwan, Thailand, and
+Indones</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="notes_on_bulletproofs_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="notes on bulletproofs++ range proofs   we review the bulletproofs++ construction which replaces the bit-decomposition inner-product argument of bulletproofs with a reciprocal set-membership argument over base-$16$ digits. we present a self">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2648" target="_blank">Notes on BulletProofs++ Range Proofs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We review the Bulletproofs++ construction which replaces the bit-decomposition inner-product argument of Bulletproofs with a reciprocal set-membership argument over base-$16$ digits. We present a self</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="revisiting_zmac_birthdaybound_2026" data-dirs="differential,tweakable"
+     data-year="2026" data-significance="medium"
+     data-search="revisiting zmac+: birthday-bound attacks and a beyond-birthday-bound repair   zmac+ is a tweakable-block-cipher-based mac proposed by list and nandi
+in tosc 2017 with claimed beyond-birthday-bound security. we show that
+a tag-swap mechanism previously observed for a hypothetica">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2647" target="_blank">Revisiting ZMAC+: Birthday-Bound Attacks and a Beyond-Birthday-Bound Repair</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">ZMAC+ is a tweakable-block-cipher-based MAC proposed by List and Nandi
+in ToSC 2017 with claimed beyond-birthday-bound security. We show that
+a tag-swap mechanism previously observed for a hypothetica</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span><span class="tag tag-direction">可调密码</span></div>
+</div>
+
+<div class="paper-card" data-id="mikros_bitwidthaware_snarks_2026" data-dirs="meet_in_the_middle,permutation_layer,milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="mikros: bitwidth-aware snarks over extensions of small fields   provers for succinct non-interactive arguments of knowledge (snarks) perform arithmetic over a large field for soundness, even when the witness entries are a few bits wide, which inflates both prover">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2646" target="_blank">Mikros: Bitwidth-Aware SNARKs over Extensions of Small Fields</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Provers for succinct non-interactive arguments of knowledge (SNARKs) perform arithmetic over a large field for soundness, even when the witness entries are a few bits wide, which inflates both prover</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span><span class="tag tag-direction">置换层</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="isotaxis_optimal_asynchronous_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="isotaxis: optimal asynchronous byzantine consensus with ordering linearizability   despite ensuring both consistency and liveness, state machine replication (smr) protocols remain vulnerable to adversaries that manipulate transaction order, causing, e.g., mev attacks. to mitigate th">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2645" target="_blank">Isotaxis: Optimal Asynchronous Byzantine Consensus with Ordering Linearizability</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Despite ensuring both consistency and liveness, state machine replication (SMR) protocols remain vulnerable to adversaries that manipulate transaction order, causing, e.g., MEV attacks. To mitigate th</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="proofs_of_quantum_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="proofs of quantum memory   with the rapid advances in quantum computer architectures and the emerging prospect of large-scale quantum memory, it is becoming essential to classically verify that remote devices genuinely allocate">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1837" target="_blank">Proofs of Quantum Memory</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">With the rapid advances in quantum computer architectures and the emerging prospect of large-scale quantum memory, it is becoming essential to classically verify that remote devices genuinely allocate</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="the_generals_scuttlebutt_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="the generals’ scuttlebutt: byzantine-resilient gossip protocols   one of the most successful applications of peer-to-peer communication networks is in the context of blockchain protocols, which—in satoshi nakamoto&#x27;s own words—rely on the &quot;nature of information being">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2022/541" target="_blank">The Generals’ Scuttlebutt: Byzantine-Resilient Gossip Protocols</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">One of the most successful applications of peer-to-peer communication networks is in the context of blockchain protocols, which—in Satoshi Nakamoto&#x27;s own words—rely on the &quot;nature of information being</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="nonprofiled_singletrace_mldsa_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="non-profiled single-trace ml-dsa secret key recovery by horizontal distribution analysis   during the last decade, single-trace side-channel attacks on cryptographic implementations have largely focused on profiled methods, which typically assume that the attacker has a clone device and imp">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2643" target="_blank">Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">During the last decade, single-trace side-channel attacks on cryptographic implementations have largely focused on profiled methods, which typically assume that the attacker has a clone device and imp</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="cryptanalysis_and_repair_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="cryptanalysis and repair of &quot;decentralized multi-authority abe for nc$^1$ from bdh&quot;   we present a plaintext-recovery attack on both the dbdh-based construction and the cbdh-based variant of datta, komargodski, and waters (journal of cryptology, 2023). the attack succeeds with probabil">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2642" target="_blank">Cryptanalysis and Repair of &quot;Decentralized Multi-authority ABE for NC$^1$ from BDH&quot;</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a plaintext-recovery attack on both the DBDH-based construction and the CBDH-based variant of Datta, Komargodski, and Waters (Journal of Cryptology, 2023). The attack succeeds with probabil</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_memoryefficient_implementation_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a memory-efficient implementation of wiedemann xl   the signature schemes mqom, snova, mayo, and uov are third-round candidates in the nist standardization process for additional post-quantum signatures, and their security relies on the hardness of the">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2641" target="_blank">A Memory-efficient Implementation of Wiedemann XL</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The signature schemes MQOM, SNOVA, MAYO, and UOV are third-round candidates in the NIST standardization process for additional post-quantum signatures, and their security relies on the hardness of the</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="subexponential_algorithms_for_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="subexponential algorithms for lwe via rejection sampling on superlattices   recent superlattice algorithms have improved the provable complexity of lattice problems. ducas, engelberts, and loyer used this framework to obtain a subexponential algorithm for infinity-norm short">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2640" target="_blank">Subexponential Algorithms for LWE via Rejection Sampling on Superlattices</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Recent superlattice algorithms have improved the provable complexity of lattice problems. Ducas, Engelberts, and Loyer used this framework to obtain a subexponential algorithm for infinity-norm short</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="private_information_retrieval_2026_1" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="private information retrieval with accountability at erasure-optimal server redundancy   private information retrieval (pir) hides which database item a client requests.
+we study pir that also identifies servers that respond incorrectly. against a
+coalition of at most $t$ corrupted server">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2639" target="_blank">Private Information Retrieval with Accountability at Erasure-Optimal Server Redundancy</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Private information retrieval (PIR) hides which database item a client requests.
+We study PIR that also identifies servers that respond incorrectly. Against a
+coalition of at most $t$ corrupted server</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="maximumlikelihood_decoding_of_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="maximum-likelihood decoding of gabidulin codes is np-hard even in dimension one   fix a prime power q . we prove that deciding whether a received word y ∈ f^n_qm lies
+at rank distance at most n − 2 from the one-dimensional gabidulin code {λg : λ in fqm }
+is np-complete. thus maximu">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2637" target="_blank">Maximum-Likelihood Decoding of Gabidulin Codes Is NP-Hard Even in Dimension One</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Fix a prime power q . We prove that deciding whether a received word y ∈ F^n_qm lies
+at rank distance at most n − 2 from the one-dimensional Gabidulin code {λg : λ in Fqm }
+is NP-complete. Thus maximu</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="revisiting_aes_key_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="revisiting aes key wrap: forgery bounds, structural observations, and recommendations for the revision of nist sp 800-38f   nist is revising sp~800-38f, which specifies the aes key wrap modes kw and kwp. this paper is an updated and expanded
+version of our technical comments to nist. we show that the forgery probabilities">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2636" target="_blank">Revisiting AES Key Wrap: Forgery Bounds, Structural Observations, and Recommendations for the Revision of NIST SP 800-38F</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">NIST is revising SP~800-38F, which specifies the AES Key Wrap modes KW and KWP. This paper is an updated and expanded
+version of our technical comments to NIST. We show that the forgery probabilities</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="a_kelseykohno_attack_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="a kelsey–kohno attack variant against sha-2 message digests in hss/lms and xmss   we present a multi-target second-preimage attack on the message hashing of the stateful hash-based signature schemes hss/lms and xmss with sha-256 and with the truncated sha-256/192. the attack builds">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2635" target="_blank">A Kelsey–Kohno Attack Variant against SHA-2 Message Digests in HSS/LMS and XMSS</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present a multi-target second-preimage attack on the message hashing of the stateful hash-based signature schemes HSS/LMS and XMSS with SHA-256 and with the truncated SHA-256/192. The attack builds</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_inapplicability_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="on the inapplicability of residue-confined error attacks to crt-fhe with non-degenerate error distributions   this paper responds to the cryptanalysis presented in “key recovery from residue-
+confined errors in the pradhan crt-rlwe construction” (olejnik and naskrecki, 2026),
+which claims key recovery and pla">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2633" target="_blank">On the Inapplicability of Residue-Confined Error Attacks to CRT-FHE with Non-Degenerate Error Distributions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">This paper responds to the cryptanalysis presented in “Key Recovery from Residue-
+Confined Errors in the Pradhan CRT-RLWE Construction” (Olejnik and Naskrecki, 2026),
+which claims key recovery and pla</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="chosen_commitments_and_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="chosen commitments and certified decoding regions in the adaptive threshold schnorr attack   crites and stewart reduce an adaptive forgery attack on threshold schnorr signatures with $n$ parties and threshold $\tau$ to one call to a sparse linear search oracle, which they show to be bounded d">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2632" target="_blank">Chosen Commitments and Certified Decoding Regions in the Adaptive Threshold Schnorr Attack</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Crites and Stewart reduce an adaptive forgery attack on threshold Schnorr signatures with $N$ parties and threshold $\tau$ to one call to a sparse linear search oracle, which they show to be bounded d</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_subtleties_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="on the subtleties of non-malleability in ivc: notions, attacks and constructions from falsifiable assumptions   we investigate non-malleable incrementally verifiable computation (ivc), a subject that has received limited attention. we focus on whether and how simulation-sound ivc can be obtained from falsifiabl">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2631" target="_blank">On the Subtleties of Non-Malleability in IVC: Notions, Attacks and Constructions from Falsifiable Assumptions</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We investigate non-malleable Incrementally Verifiable Computation (IVC), a subject that has received limited attention. We focus on whether and how simulation-sound IVC can be obtained from falsifiabl</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="veildns_postquantum_dns_2026" data-dirs="aead"
+     data-year="2026" data-significance="medium"
+     data-search="veildns: post-quantum dns privacy from the first udp packet   dns was designed around udp, and most dns traffic today still follows that design: one query, one response, and no handshake. this makes dns fast and scalable, but exposes client queries in cleartext.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2629" target="_blank">VeilDNS: Post-Quantum DNS Privacy from the First UDP Packet</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">DNS was designed around UDP, and most DNS traffic today still follows that design: one query, one response, and no handshake. This makes DNS fast and scalable, but exposes client queries in cleartext.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">认证加密 (AEAD)</span></div>
+</div>
+
+<div class="paper-card" data-id="faster_polynomial_factorization_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="faster polynomial factorization over finite fields via batched modular composition   in the algebraic model, where one counts operations in $\mathbb{f}_q$ uniformly in the characteristic, the best published algorithm for factoring a polynomial of degree $n$ over $\mathbb{f}_q$, due to">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2625" target="_blank">Faster Polynomial Factorization over Finite Fields via Batched Modular Composition</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In the algebraic model, where one counts operations in $\mathbb{F}_q$ uniformly in the characteristic, the best published algorithm for factoring a polynomial of degree $n$ over $\mathbb{F}_q$, due to</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
