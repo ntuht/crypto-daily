@@ -46898,3 +46898,417 @@ papers:
   - PRESENT
   fetched_date: '2026-10-26'
   source: eprint
+- id: omix_offline_mixing_2026
+  title: 'OMIX: Offline Mixing for Self-Tallying Elections'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1232
+  directions:
+  - permutation_layer
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'In e-voting, a mix-net is a widely used system for shuffling votes in order to guarantee voter privacy. The core
+    principle is as follows: (1) N voters cast their votes; (2) a sequence of mix-servers s'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - lightweight
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: hello_goodbye_concurrent_2026
+  title: 'HELLO, GOODBYE: Concurrent General Composition From Super-Rushing Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2651
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Kushilevitz, Lindell, and Rabin (STOC `06, SIAM Journal on Computing `10), in their seminal result, showed that
+    any standalone-secure synchronous multiparty computation (MPC) protocol can be compiled '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: linebreak_cryptanalysis_and_2026
+  title: 'LINE-Break: Cryptanalysis and Reverse Engineering of Letter Sealing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2649
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We present a security analysis of the messaging service known as
+
+    LINE, a popular platform used daily by millions of users in East
+
+    and Southeast Asia – most notably Japan, Taiwan, Thailand, and
+
+    Indones'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: notes_on_bulletproofs_2026
+  title: Notes on BulletProofs++ Range Proofs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2648
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We review the Bulletproofs++ construction which replaces the bit-decomposition inner-product argument of Bulletproofs
+    with a reciprocal set-membership argument over base-$16$ digits. We present a self
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: revisiting_zmac_birthdaybound_2026
+  title: 'Revisiting ZMAC+: Birthday-Bound Attacks and a Beyond-Birthday-Bound Repair'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2647
+  directions:
+  - differential
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: 'ZMAC+ is a tweakable-block-cipher-based MAC proposed by List and Nandi
+
+    in ToSC 2017 with claimed beyond-birthday-bound security. We show that
+
+    a tag-swap mechanism previously observed for a hypothetica'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - tweakable
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: mikros_bitwidthaware_snarks_2026
+  title: 'Mikros: Bitwidth-Aware SNARKs over Extensions of Small Fields'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2646
+  directions:
+  - meet_in_the_middle
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Provers for succinct non-interactive arguments of knowledge (SNARKs) perform arithmetic over a large field for
+    soundness, even when the witness entries are a few bits wide, which inflates both prover '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - permutation
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: isotaxis_optimal_asynchronous_2026
+  title: 'Isotaxis: Optimal Asynchronous Byzantine Consensus with Ordering Linearizability'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2645
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Despite ensuring both consistency and liveness, state machine replication (SMR) protocols remain vulnerable to
+    adversaries that manipulate transaction order, causing, e.g., MEV attacks. To mitigate th
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: proofs_of_quantum_2026
+  title: Proofs of Quantum Memory
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1837
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: With the rapid advances in quantum computer architectures and the emerging prospect of large-scale quantum memory,
+    it is becoming essential to classically verify that remote devices genuinely allocate
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: the_generals_scuttlebutt_2026
+  title: 'The Generals’ Scuttlebutt: Byzantine-Resilient Gossip Protocols'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/541
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: One of the most successful applications of peer-to-peer communication networks is in the context of blockchain
+    protocols, which—in Satoshi Nakamoto's own words—rely on the "nature of information being
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: nonprofiled_singletrace_mldsa_2026
+  title: Non-profiled Single-Trace ML-DSA Secret Key Recovery by Horizontal Distribution Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2643
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: During the last decade, single-trace side-channel attacks on cryptographic implementations have largely focused
+    on profiled methods, which typically assume that the attacker has a clone device and imp
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: cryptanalysis_and_repair_2026
+  title: Cryptanalysis and Repair of "Decentralized Multi-authority ABE for NC$^1$ from BDH"
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2642
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present a plaintext-recovery attack on both the DBDH-based construction and the CBDH-based variant of Datta,
+    Komargodski, and Waters (Journal of Cryptology, 2023). The attack succeeds with probabil
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: a_memoryefficient_implementation_2026
+  title: A Memory-efficient Implementation of Wiedemann XL
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2641
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The signature schemes MQOM, SNOVA, MAYO, and UOV are third-round candidates in the NIST standardization process
+    for additional post-quantum signatures, and their security relies on the hardness of the
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: subexponential_algorithms_for_2026
+  title: Subexponential Algorithms for LWE via Rejection Sampling on Superlattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2640
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Recent superlattice algorithms have improved the provable complexity of lattice problems. Ducas, Engelberts, and
+    Loyer used this framework to obtain a subexponential algorithm for infinity-norm short '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: private_information_retrieval_2026_1
+  title: Private Information Retrieval with Accountability at Erasure-Optimal Server Redundancy
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2639
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Private information retrieval (PIR) hides which database item a client requests.
+
+    We study PIR that also identifies servers that respond incorrectly. Against a
+
+    coalition of at most $t$ corrupted server'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: maximumlikelihood_decoding_of_2026
+  title: Maximum-Likelihood Decoding of Gabidulin Codes Is NP-Hard Even in Dimension One
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2637
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Fix a prime power q . We prove that deciding whether a received word y ∈ F^n_qm lies
+
+    at rank distance at most n − 2 from the one-dimensional Gabidulin code {λg : λ in Fqm }
+
+    is NP-complete. Thus maximu'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: revisiting_aes_key_2026
+  title: 'Revisiting AES Key Wrap: Forgery Bounds, Structural Observations, and Recommendations for the Revision of NIST SP
+    800-38F'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2636
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'NIST is revising SP~800-38F, which specifies the AES Key Wrap modes KW and KWP. This paper is an updated and expanded
+
+    version of our technical comments to NIST. We show that the forgery probabilities '
+  status: pending_review
+  matched_keywords:
+  - AES
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: a_kelseykohno_attack_2026
+  title: A Kelsey–Kohno Attack Variant against SHA-2 Message Digests in HSS/LMS and XMSS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2635
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We present a multi-target second-preimage attack on the message hashing of the stateful hash-based signature schemes
+    HSS/LMS and XMSS with SHA-256 and with the truncated SHA-256/192. The attack builds
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: on_the_inapplicability_2026
+  title: On the Inapplicability of Residue-Confined Error Attacks to CRT-FHE with Non-Degenerate Error Distributions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2633
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This paper responds to the cryptanalysis presented in “Key Recovery from Residue-
+
+    Confined Errors in the Pradhan CRT-RLWE Construction” (Olejnik and Naskrecki, 2026),
+
+    which claims key recovery and pla'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: chosen_commitments_and_2026
+  title: Chosen Commitments and Certified Decoding Regions in the Adaptive Threshold Schnorr Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2632
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Crites and Stewart reduce an adaptive forgery attack on threshold Schnorr signatures with $N$ parties and threshold
+    $\tau$ to one call to a sparse linear search oracle, which they show to be bounded d
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: on_the_subtleties_2026
+  title: 'On the Subtleties of Non-Malleability in IVC: Notions, Attacks and Constructions from Falsifiable Assumptions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2631
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We investigate non-malleable Incrementally Verifiable Computation (IVC), a subject that has received limited attention.
+    We focus on whether and how simulation-sound IVC can be obtained from falsifiabl
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: veildns_postquantum_dns_2026
+  title: 'VeilDNS: Post-Quantum DNS Privacy from the First UDP Packet'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2629
+  directions:
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'DNS was designed around UDP, and most DNS traffic today still follows that design: one query, one response, and
+    no handshake. This makes DNS fast and scalable, but exposes client queries in cleartext.'
+  status: pending_review
+  matched_keywords:
+  - AEAD
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint
+- id: faster_polynomial_factorization_2026
+  title: Faster Polynomial Factorization over Finite Fields via Batched Modular Composition
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2625
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the algebraic model, where one counts operations in $\mathbb{F}_q$ uniformly in the characteristic, the best
+    published algorithm for factoring a polynomial of degree $n$ over $\mathbb{F}_q$, due to
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-27'
+  source: eprint

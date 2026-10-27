@@ -1,81 +1,4 @@
 papers:
-- id: pseudorandom_correlation_generators_2026
-  title: Pseudorandom Correlation Generators for Matrix Triples
-  url: https://eprint.iacr.org/2026/2298
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - machine learning
-  directions:
-  - ml_aided
-  summary: 'We introduce new pseudorandom correlation generators (PCGs) for matrix triples: shares of triples $(A,B,A\cdot
-    B)$ where $A,B$ are random matrices over $\mathbb{F}^{n\times n}$ for a field $\mathbb{F}'
-  heuristic_score: 6
-  added_date: '2026-10-26'
-  authors: []
-- id: stamac_fault_protection_2026
-  title: 'StaMAC: Fault Protection via Stable-MAC Tags'
-  url: https://eprint.iacr.org/2025/455
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - AES
-  directions:
-  - differential
-  summary: Fault attacks pose a significant threat to cryptographic implementations, motivating the development of countermeasures,
-    primarily based on a combination of redundancy and masking techniques. Redundan
-  heuristic_score: 6
-  added_date: '2026-10-26'
-  authors: []
-- id: the_power_of_2026_1
-  title: 'The Power of Permutable PRPs: Towards Trapdoor Permutations with Full Key and Message Domains'
-  url: https://eprint.iacr.org/2026/2333
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - permutation
-  - LED
-  directions:
-  - permutation_layer
-  summary: Shmueli and Zhandry introduced permutable pseudorandom permutations (PRPs) and used them to construct trapdoor
-    permutations with a full message domain but a sparse public-key space. We extend this app
-  heuristic_score: 6
-  added_date: '2026-10-26'
-  authors: []
-- id: minishake_2026
-  title: MiniSHAKE
-  url: https://eprint.iacr.org/2026/2363
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - permutation
-  - PRESENT
-  directions:
-  - permutation_layer
-  summary: 'The overwhelming majority of the Keccak instances standardized and
-
-    used in practice today make use of the Keccak-$f$ [1600] permutation or reduced-round versions of it. There are a few
-    use cases where'
-  heuristic_score: 6
-  added_date: '2026-10-26'
-  authors: []
-- id: kifa_kernelbased_integral_2026
-  title: 'KIFA: Kernel-based Integral Fault Analysis on GIFT-Family Ciphers'
-  url: https://eprint.iacr.org/2026/2410
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MILP
-  - GIFT
-  - PRESENT
-  - LED
-  directions:
-  - milp_sat_cp
-  summary: We present KIFA (Kernel-based Integral Fault Analysis), an integral fault attack framework that mines its balanced
-    properties with the kernel-based miner of Hwang et al. in place of Mixed Integer Line
-  heuristic_score: 6
-  added_date: '2026-10-26'
-  authors: []
 - id: secure_compilation_of_2026
   title: Secure Compilation of Probabilistic Side-Channel Countermeasures
   url: https://eprint.iacr.org/2026/2510
@@ -90,7 +13,7 @@ papers:
   summary: Probabilistic countermeasures are a common means of protecting programs against side-channels. These countermeasures
     are hard to implement and are routinely broken by compilers. Proving that a compile
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: a_hybrid_bpsat_2026
   title: 'A Hybrid BP-SAT Attack on MILENAGE: Combining the Complementary Strengths of Algebraic and Soft-Analytical Side-Channel
@@ -109,7 +32,7 @@ papers:
   summary: 'Profiled side-channel attacks combine noisy leakage predictions with the mathematical relations imposed by the
     target algorithm to recover secrets from a small number of observations. Two established '
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: uniform_sharing_in_2026
   title: 'Uniform Sharing in Multiple Stages: Towards Second-Order Security'
@@ -127,7 +50,7 @@ papers:
   summary: Mitigating Side‑Channel Analysis (SCA) of cryptographic implementations relies heavily on masking schemes; however,
     achieving efficient and straightforward hardware realizations remains challenging. W
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: polygero_proximity_testing_2026
   title: 'Polygero: Proximity Testing From Polynomial Challenges'
@@ -145,7 +68,7 @@ papers:
 
     All prior work in this area [AHIV2017,BCIKS2020,BCHKS2'
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: masterkey_recovery_from_2026
   title: Master-Key Recovery from Internal Activation Leakage in ReLU Realizations of Camellia
@@ -163,7 +86,7 @@ papers:
   summary: This paper investigates functional correctness and masterkey reconstruction in explicitly constructed rectified
     linear unit (ReLU) implementations of Camellia-128, Camellia-192, and Camellia-256. Exac
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: staggered_instructionfetch_duplication_2026
   title: 'Staggered Instruction-Fetch Duplication: A Lightweight Processor-Level Countermeasure Against Fault Injection'
@@ -177,7 +100,7 @@ papers:
   summary: 'Fault attacks exploit transient hardware faults to bypass software-level security checks in embedded processors.
     Processor-level redundancy can detect such faults, but duplicating the whole processor '
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: building_quantum_circuits_2026
   title: Building Quantum Circuits with Qarton
@@ -192,7 +115,7 @@ papers:
   summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
     of quantum algorithms for cryptographic problems. As a start, these algorithms can
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: rethinking_zeroknowledge_tls_2026
   title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
@@ -209,7 +132,7 @@ papers:
   summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
     revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: aebap_an_efficient_2026
   title: 'AEBAP: An Efficient ECC-Based Authentication Protocol Designed for Wireless Networks'
@@ -226,7 +149,7 @@ papers:
 
     such as healthcare, transportation, and smar'
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: combined_stability_protecting_2026
   title: 'Combined Stability: Protecting against Combined Attacks'
@@ -241,7 +164,7 @@ papers:
   summary: Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel
     analysis (SCA) has received significant attention, leading to well-established cou
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: indistinguishability_lifting_for_2026
   title: Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications
@@ -259,7 +182,7 @@ papers:
   summary: Cryptographic security proofs often involve an adversary interacting with a larger, keyed oracle that consists
     of (potentially exponentially) many independent instances of a smaller, base oracle. Exam
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: stomr_stateful_oblivious_2026
   title: 'StOMR: Stateful Oblivious Message Retrieval'
@@ -273,7 +196,7 @@ papers:
   summary: Oblivious Message Retrieval (OMR) enables recipients to retrieve messages from an untrusted server without revealing
     which messages correspond to them. OMR is useful for privacy-preserving systems suc
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
 - id: klms_design_implementation_2026
   title: 'K-LMS: Design, Implementation, and Evaluation of Leighton–Micali Signatures with Korean Cryptographic Primitives'
@@ -292,5 +215,5 @@ papers:
 
     SPHINCS+ with '
   heuristic_score: 5
-  added_date: '2026-10-26'
+  added_date: '2026-10-27'
   authors: []
