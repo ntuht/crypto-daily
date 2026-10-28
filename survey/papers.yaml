@@ -47312,3 +47312,126 @@ papers:
   - PRESENT
   fetched_date: '2026-10-27'
   source: eprint
+- id: ringlwr_based_commitments_2026
+  title: Ring-LWR based Commitments and ZK-PoKs with Application to Verifiable Quantum-Safe Searchable Symmetric Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1216
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Prior research on ensuring trust in delegated computation through lattice-based zero-knowledge proofs mostly rely
+    on Learning-With-Errors (LWE) assumption. In this work, we propose a zero-knowledge pr
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-10-28'
+  source: eprint
+- id: faster_postquantum_zksnark_2026
+  title: Faster Post-Quantum zkSNARK Provers Using the LCH Polynomial Basis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1784
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An important class of plausibly post-quantum zkSNARKs uses univariate-polynomial interactive oracle proofs (IOPs)
+    over binary extension fields $\mathbb{F}_{2^k}$, relying on the Fast Reed--Solomon (RS
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-28'
+  source: eprint
+- id: practical_roundoptimal_latticebased_2026
+  title: Practical, Round-Optimal Lattice-Based Blind Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2021/1565
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Blind signatures are a fundamental cryptographic primitive with numerous practical applications. While there exist
+    many practical blind signatures from number-theoretic assumptions, the situation is f
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-10-28'
+  source: eprint
+- id: tlshare_private_authenticated_2026
+  title: 'TLShare: Private Authenticated MPC and FHE Inputs Over TLS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1434
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Transport Layer Security (TLS) is the backbone of the web, allowing clients to establish secure and private channels
+    with servers. DECO (CCS'20) and follow-up works proposed protocols that enable prov
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-28'
+  source: eprint
+- id: on_lifting_agm_2026
+  title: On Lifting AGM Security to the AGM with Oblivious Sampling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/201
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Algebraic Group Model (AGM) is widely used to prove the security of cryptographic schemes involving groups
+    and pairings. It requires adversaries to explain how their output group elements are obta
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-28'
+  source: eprint
+- id: when_algebraic_structure_2026
+  title: When Algebraic Structure Meets Too Many Hints
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2654
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The hint framework of Dachman-Soled, Ducas, Gong, and Rossi (CRYPTO 2020), together with the later too-many-hints
+    analyses from May and Nowakowski (ASIACRYPT 2023) and Cao, Jiang, and Cheng (CRYPTO 20
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-28'
+  source: eprint
+- id: analyzing_compilerinduced_constanttime_2026
+  title: Analyzing Compiler-induced Constant-time Violations with Compiler at Scale
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2653
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel
+    attacks. However, compiler optimizations may break constant-time source code duri
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-10-28'
+  source: eprint

@@ -1,139 +1,4 @@
 papers:
-- id: secure_compilation_of_2026
-  title: Secure Compilation of Probabilistic Side-Channel Countermeasures
-  url: https://eprint.iacr.org/2026/2510
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  - PRESENT
-  - LED
-  directions:
-  - lightweight
-  summary: Probabilistic countermeasures are a common means of protecting programs against side-channels. These countermeasures
-    are hard to implement and are routinely broken by compilers. Proving that a compile
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: a_hybrid_bpsat_2026
-  title: 'A Hybrid BP-SAT Attack on MILENAGE: Combining the Complementary Strengths of Algebraic and Soft-Analytical Side-Channel
-    Attacks'
-  url: https://eprint.iacr.org/2026/2487
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - S-box
-  - AES
-  - LED
-  directions:
-  - sbox
-  - milp_sat_cp
-  summary: 'Profiled side-channel attacks combine noisy leakage predictions with the mathematical relations imposed by the
-    target algorithm to recover secrets from a small number of observations. Two established '
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: uniform_sharing_in_2026
-  title: 'Uniform Sharing in Multiple Stages: Towards Second-Order Security'
-  url: https://eprint.iacr.org/2026/2483
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - block cipher
-  - lightweight
-  - SKINNY
-  - Midori
-  - PRINCE
-  directions:
-  - lightweight
-  summary: Mitigating Side‑Channel Analysis (SCA) of cryptographic implementations relies heavily on masking schemes; however,
-    achieving efficient and straightforward hardware realizations remains challenging. W
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: polygero_proximity_testing_2026
-  title: 'Polygero: Proximity Testing From Polynomial Challenges'
-  url: https://eprint.iacr.org/2026/2481
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - MDS
-  - PRESENT
-  directions:
-  - linear_diffusion
-  summary: 'We present a new proximity test for Reed--Solomon codes that admits a higher-agreement regime with soundness approaching
-    the field''s bit length.
-
-
-    All prior work in this area [AHIV2017,BCIKS2020,BCHKS2'
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: masterkey_recovery_from_2026
-  title: Master-Key Recovery from Internal Activation Leakage in ReLU Realizations of Camellia
-  url: https://eprint.iacr.org/2026/2458
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - S-box
-  - permutation
-  - PRESENT
-  - LED
-  directions:
-  - sbox
-  - permutation_layer
-  summary: This paper investigates functional correctness and masterkey reconstruction in explicitly constructed rectified
-    linear unit (ReLU) implementations of Camellia-128, Camellia-192, and Camellia-256. Exac
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: staggered_instructionfetch_duplication_2026
-  title: 'Staggered Instruction-Fetch Duplication: A Lightweight Processor-Level Countermeasure Against Fault Injection'
-  url: https://eprint.iacr.org/2026/2440
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - lightweight
-  directions:
-  - lightweight
-  summary: 'Fault attacks exploit transient hardware faults to bypass software-level security checks in embedded processors.
-    Processor-level redundancy can detect such faults, but duplicating the whole processor '
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: building_quantum_circuits_2026
-  title: Building Quantum Circuits with Qarton
-  url: https://eprint.iacr.org/2026/2191
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - block cipher
-  - PRESENT
-  directions:
-  - lightweight
-  summary: In order to estimate accurately the impact of large-scale computing devices, one requires a precise resource estimate
-    of quantum algorithms for cryptographic problems. As a start, these algorithms can
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
-- id: rethinking_zeroknowledge_tls_2026
-  title: 'Rethinking Zero-Knowledge TLS: Proof of Protocol Execution and the Reclaim Protocol'
-  url: https://eprint.iacr.org/2026/2187
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - AEAD
-  - LED
-  directions:
-  - aead
-  - milp_sat_cp
-  summary: In a zkTLS protocol, a user proves to a third party a property of data obtained from an online service over TLS,
-    revealing nothing beyond the statement proven. Each existing scheme, however, comes wit
-  heuristic_score: 5
-  added_date: '2026-10-27'
-  authors: []
 - id: aebap_an_efficient_2026
   title: 'AEBAP: An Efficient ECC-Based Authentication Protocol Designed for Wireless Networks'
   url: https://eprint.iacr.org/2026/2254
@@ -149,7 +14,7 @@ papers:
 
     such as healthcare, transportation, and smar'
   heuristic_score: 5
-  added_date: '2026-10-27'
+  added_date: '2026-10-28'
   authors: []
 - id: combined_stability_protecting_2026
   title: 'Combined Stability: Protecting against Combined Attacks'
@@ -164,7 +29,7 @@ papers:
   summary: Physical attacks pose serious challenges to the secure implementation of cryptographic algorithms. While side-channel
     analysis (SCA) has received significant attention, leading to well-established cou
   heuristic_score: 5
-  added_date: '2026-10-27'
+  added_date: '2026-10-28'
   authors: []
 - id: indistinguishability_lifting_for_2026
   title: Indistinguishability Lifting for Keyed Oracles, Compressed Ideal Cipher, and More Applications
@@ -182,7 +47,7 @@ papers:
   summary: Cryptographic security proofs often involve an adversary interacting with a larger, keyed oracle that consists
     of (potentially exponentially) many independent instances of a smaller, base oracle. Exam
   heuristic_score: 5
-  added_date: '2026-10-27'
+  added_date: '2026-10-28'
   authors: []
 - id: stomr_stateful_oblivious_2026
   title: 'StOMR: Stateful Oblivious Message Retrieval'
@@ -196,7 +61,7 @@ papers:
   summary: Oblivious Message Retrieval (OMR) enables recipients to retrieve messages from an untrusted server without revealing
     which messages correspond to them. OMR is useful for privacy-preserving systems suc
   heuristic_score: 5
-  added_date: '2026-10-27'
+  added_date: '2026-10-28'
   authors: []
 - id: klms_design_implementation_2026
   title: 'K-LMS: Design, Implementation, and Evaluation of Leighton–Micali Signatures with Korean Cryptographic Primitives'
@@ -215,5 +80,5 @@ papers:
 
     SPHINCS+ with '
   heuristic_score: 5
-  added_date: '2026-10-27'
+  added_date: '2026-10-28'
   authors: []
