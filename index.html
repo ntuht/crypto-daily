@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-10-28 05:15</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-10-29 05:26</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">2597</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">2613</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,10 +35,10 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2597</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2613</span></div>
   <h3>📐 算法设计</h3>
-  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">236</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">174</span></div>
+  <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">237</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">178</span></div>
   <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">85</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">76</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">54</span></div>
@@ -46,15 +46,15 @@
   <div class="dir-item" data-dir="tweakable" onclick="filterDir('tweakable')">可调密码 <span class="count">44</span></div>
   <div class="dir-item" data-dir="hardware_friendly" onclick="filterDir('hardware_friendly')">硬件友好密码 <span class="count">40</span></div>
   <div class="dir-item" data-dir="software_friendly" onclick="filterDir('software_friendly')">软件友好密码 <span class="count">33</span></div>
-  <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">27</span></div>
+  <div class="dir-item" data-dir="low_latency" onclick="filterDir('low_latency')">低时延密码 <span class="count">28</span></div>
   <div class="dir-item" data-dir="hash_xof" onclick="filterDir('hash_xof')">哈希与可扩展输出 <span class="count">11</span></div>
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1409</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">440</span></div>
-  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">303</span></div>
-  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">97</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1418</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">441</span></div>
+  <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">304</span></div>
+  <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">98</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">66</span></div>
   <div class="dir-item" data-dir="linear" onclick="filterDir('linear')">线性分析 <span class="count">49</span></div>
   <div class="dir-item" data-dir="algebraic" onclick="filterDir('algebraic')">代数攻击 <span class="count">46</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 2597 篇论文</div>
+        <div class="result-count" id="resultCount">显示 2613 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -32028,6 +32028,226 @@ which claims key recovery and pla</div>
   <div class="paper-authors"></div>
   <div class="paper-summary">The constant-time programming policy is a de facto standard for cryptographic libraries to prevent timing side-channel attacks. However, compiler optimizations may break constant-time source code duri</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="an_algebraic_polynomial_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="an algebraic polynomial evaluation datastructure for fields of large characteristic   in this work, we study (multivariate) polynomial evaluation datastructures, i.e. algorithms that can evaluate a multivariate polynomial at any input point, using random access to some precomputed enco">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2668" target="_blank">An Algebraic Polynomial Evaluation Datastructure for Fields of Large Characteristic</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In this work, we study (multivariate) polynomial evaluation datastructures, i.e. algorithms that can evaluate a multivariate polynomial at any input point, using random access to some precomputed enco</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="pir_through_the_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="pir through the lens of probabilistic inference   private information retrieval (pir) allows a client to retrieve an entry of a database while revealing no information about the requested index to the servers. classic information-theoretic pir protoc">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2669" target="_blank">PIR through the Lens of Probabilistic Inference</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Private Information Retrieval (PIR) allows a client to retrieve an entry of a database while revealing no information about the requested index to the servers. Classic information-theoretic PIR protoc</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="efficient_simd_shake_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="efficient simd shake through cost-aware permutation scheduling   lattice-based cryptography uses shake to expand seeds into byte strings for matrix generation and sampling. simd keccak implementations process multiple hash streams in parallel. differences in stream">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2666" target="_blank">Efficient SIMD SHAKE through Cost-Aware Permutation Scheduling</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Lattice-based cryptography uses SHAKE to expand seeds into byte strings for matrix generation and sampling. SIMD Keccak implementations process multiple hash streams in parallel. Differences in stream</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="a_practical_randomized_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="a practical randomized nearest-colattice framework for arbitrary norms   the approximate closest vector problem $\mathsf{cvp}$ with large approximation factors, such as a polynomial approximation, arises in the concrete cryptanalysis of lattice-based signatures, yet it is">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1176" target="_blank">A Practical Randomized Nearest-Colattice Framework for Arbitrary Norms</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The approximate Closest Vector Problem $\mathsf{CVP}$ with large approximation factors, such as a polynomial approximation, arises in the concrete cryptanalysis of lattice-based signatures, yet it is</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="barriers_to_identitybased_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="barriers to identity-based encryption in generic group-action models   identity-based encryption (ibe) is required to support a superpolynomial-size identity space using only polynomial-size public parameters. this compression requirement underlies known barriers to ibe">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2670" target="_blank">Barriers to Identity-Based Encryption in Generic Group-Action Models</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Identity-based encryption (IBE) is required to support a superpolynomial-size identity space using only polynomial-size public parameters. This compression requirement underlies known barriers to IBE</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="shors_algorithm_compiled_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="shor&#x27;s algorithm compiled on cat qubits: 22 593 qubits for rsa-2048 in 3.14 days   we present an end-to-end resource estimation of shor&#x27;s algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2665" target="_blank">Shor&#x27;s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present an end-to-end resource estimation of Shor&#x27;s algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="beyond_the_event_2026" data-dirs="meet_in_the_middle"
+     data-year="2026" data-significance="medium"
+     data-search="beyond the event horizon of keccak, extending the observation from 2011 and applications   in 2011 we observed that a single path in the keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2671" target="_blank">Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back to such a state yields an explicit, infinite family of second preimages for every message</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">中间相遇</span></div>
+</div>
+
+<div class="paper-card" data-id="exploiting_the_complexity_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="exploiting the complexity of lattice isomorphism problem via irreducible decomposition   the lattice isomorphism problem (lip) is a computational problem that has recently been introduced into cryptography and is believed to be hard. its search version, search lattice isomorphism problem">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/1139" target="_blank">Exploiting the complexity of Lattice Isomorphism Problem via Irreducible Decomposition</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The Lattice Isomorphism Problem (LIP) is a computational problem that has recently been introduced into cryptography and is believed to be hard. Its search version, Search Lattice Isomorphism Problem</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="capacityapproaching_pseudorandom_code_2026" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="capacity-approaching pseudorandom code for stochastic edit channels   pseudorandom codes (prcs) are error-correcting codes whose codewords are
+computationally indistinguishable from uniformly random strings to any
+efficient adversary. we study public-key multi-bit prcs">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2179" target="_blank">Capacity-Approaching Pseudorandom Code for Stochastic Edit Channels</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Pseudorandom codes (PRCs) are error-correcting codes whose codewords are
+computationally indistinguishable from uniformly random strings to any
+efficient adversary. We study public-key multi-bit PRCs</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="rerandomizable_garbling_beyond_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="rerandomizable garbling beyond bhho-kmhe and a construction from lwe   rerandomizable garbling schemes (rgs) are a fundamental primitive enabling advanced cryptographic constructions such as multi-hop homomorphic encryption (gentry, halevi, vaikuntanathan, crypto 2010),">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2664" target="_blank">Rerandomizable Garbling Beyond BHHO-KMHE and a Construction from LWE</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Rerandomizable garbling schemes (RGS) are a fundamental primitive enabling advanced cryptographic constructions such as multi-hop homomorphic encryption (Gentry, Halevi, Vaikuntanathan, CRYPTO 2010),</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="quantum_multicollision_lower_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="quantum multi-collision lower bounds for arbitrary bounded types   we study quantum collision finding for functions of prescribed
+exact type.
+for fixed constants $k\ge r\ge2$ and $n=kn$, consider functions
+$f:[n]\to\mathbb z_q$ of type $(k^n)$, with exactly $n$
+disti">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2663" target="_blank">Quantum Multi-Collision Lower Bounds for Arbitrary Bounded Types</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We study quantum collision finding for functions of prescribed
+exact type.
+For fixed constants $k\ge r\ge2$ and $N=kn$, consider functions
+$f:[N]\to\mathbb Z_q$ of type $(k^n)$, with exactly $n$
+disti</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="algossa_decentralized_secure_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="alg\{ossa\}: decentralized secure aggregation with rotating committees and eventual delivery   secure aggregation lets clients reveal only an aggregate of their private contributions, supporting a variety of applications, including privacy-preserving sensing, collaborative analytics, and federa">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2659" target="_blank">Alg\{Ossa\}: Decentralized Secure Aggregation with Rotating Committees and Eventual Delivery</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Secure aggregation lets clients reveal only an aggregate of their private contributions, supporting a variety of applications, including privacy-preserving sensing, collaborative analytics, and federa</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="unshuffling_fisheryates_practical_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="unshuffling fisher-yates: practical recovery of length-128 permutations and application to ml-dsa   shuffling is a standard hiding countermeasure against (single-trace) side-channel attacks on the number-theoretic transform (ntt) of lattice-based post-quantum schemes, such as ml-dsa. the fisher-yate">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2658" target="_blank">Unshuffling Fisher-Yates: Practical Recovery of Length-128 Permutations and Application to ML-DSA</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Shuffling is a standard hiding countermeasure against (single-trace) side-channel attacks on the number-theoretic transform (NTT) of lattice-based post-quantum schemes, such as ML-DSA. The Fisher-Yate</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="poly2msgleaks_certified_key_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="poly2msgleaks: certified key recovery from polynomial-to-message leakage   we present poly2msgleaks, a profiled chosen-ciphertext power-analysis attack that recovers the complete 512-coefficient public-key encryption (pke) secret of smaug-t in its timer parameter set. each p">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2657" target="_blank">Poly2MsgLeaks: Certified Key Recovery from Polynomial-to-Message Leakage</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">We present Poly2MsgLeaks, a profiled chosen-ciphertext power-analysis attack that recovers the complete 512-coefficient public-key encryption (PKE) secret of SMAUG-T in its TiMER parameter set. Each p</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="falcon_key_recovery_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="falcon key recovery from joint sampler leakages   falcon and the forthcoming fn-dsa standard based on it generate signatures via discrete gaussian sampling, during which power consumption leaks information about secret-dependent intermediate values.">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2656" target="_blank">Falcon Key Recovery from Joint Sampler Leakages</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Falcon and the forthcoming FN-DSA standard based on it generate signatures via discrete Gaussian sampling, during which power consumption leaks information about secret-dependent intermediate values.</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="oblivdgl_oblivious_deep_2026" data-dirs="ml_aided,low_latency,lightweight"
+     data-year="2026" data-significance="medium"
+     data-search="oblivdgl: oblivious deep graph learning made practical   the rapid deployment of graph neural networks (gnns) within machine learning as a service (mlaas) has opened up new privacy concerns. both sensitive graph data and proprietary gnn models are submitted">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2655" target="_blank">OblivDGL: Oblivious Deep Graph Learning Made Practical</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up new privacy concerns. Both sensitive graph data and proprietary GNN models are submitted</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">ML/LLM 辅助密码分析</span><span class="tag tag-direction">低时延密码</span><span class="tag tag-direction">轻量级密码综合</span></div>
 </div>
 
 <div class="paper-card" data-id="chen2025beam" data-dirs="ml_aided,differential,automated_search"
