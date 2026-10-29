@@ -47435,3 +47435,297 @@ papers:
   - PRESENT
   fetched_date: '2026-10-28'
   source: eprint
+- id: an_algebraic_polynomial_2026
+  title: An Algebraic Polynomial Evaluation Datastructure for Fields of Large Characteristic
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2668
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this work, we study (multivariate) polynomial evaluation datastructures, i.e. algorithms that can evaluate a
+    multivariate polynomial at any input point, using random access to some precomputed enco
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: pir_through_the_2026
+  title: PIR through the Lens of Probabilistic Inference
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2669
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Information Retrieval (PIR) allows a client to retrieve an entry of a database while revealing no information
+    about the requested index to the servers. Classic information-theoretic PIR protoc
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: efficient_simd_shake_2026
+  title: Efficient SIMD SHAKE through Cost-Aware Permutation Scheduling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2666
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Lattice-based cryptography uses SHAKE to expand seeds into byte strings for matrix generation and sampling. SIMD
+    Keccak implementations process multiple hash streams in parallel. Differences in stream
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: a_practical_randomized_2026
+  title: A Practical Randomized Nearest-Colattice Framework for Arbitrary Norms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1176
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The approximate Closest Vector Problem $\mathsf{CVP}$ with large approximation factors, such as a polynomial approximation,
+    arises in the concrete cryptanalysis of lattice-based signatures, yet it is '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: barriers_to_identitybased_2026
+  title: Barriers to Identity-Based Encryption in Generic Group-Action Models
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2670
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Identity-based encryption (IBE) is required to support a superpolynomial-size identity space using only polynomial-size
+    public parameters. This compression requirement underlies known barriers to IBE '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: shors_algorithm_compiled_2026
+  title: 'Shor''s algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2665
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present an end-to-end resource estimation of Shor''s algorithm on superconducting cat qubits, from its mathematical
+    description to the allocation and scheduling of physical qubits on a chip layout. '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: beyond_the_event_2026
+  title: Beyond the Event Horizon of Keccak, Extending the Observation from 2011 and applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2671
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: In 2011 we observed that a single path in the Keccak sponge from a state whose capacity has all zero bits back
+    to such a state yields an explicit, infinite family of second preimages for every message
+  status: pending_review
+  matched_keywords:
+  - meet-in-the-middle
+  - MITM
+  - LED
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: exploiting_the_complexity_2026
+  title: Exploiting the complexity of Lattice Isomorphism Problem via Irreducible Decomposition
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1139
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Lattice Isomorphism Problem (LIP) is a computational problem that has recently been introduced into cryptography
+    and is believed to be hard. Its search version, Search Lattice Isomorphism Problem '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: capacityapproaching_pseudorandom_code_2026
+  title: Capacity-Approaching Pseudorandom Code for Stochastic Edit Channels
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2179
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Pseudorandom codes (PRCs) are error-correcting codes whose codewords are
+
+    computationally indistinguishable from uniformly random strings to any
+
+    efficient adversary. We study public-key multi-bit PRCs '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: rerandomizable_garbling_beyond_2026
+  title: Rerandomizable Garbling Beyond BHHO-KMHE and a Construction from LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2664
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Rerandomizable garbling schemes (RGS) are a fundamental primitive enabling advanced cryptographic constructions
+    such as multi-hop homomorphic encryption (Gentry, Halevi, Vaikuntanathan, CRYPTO 2010), '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: quantum_multicollision_lower_2026
+  title: Quantum Multi-Collision Lower Bounds for Arbitrary Bounded Types
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2663
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'We study quantum collision finding for functions of prescribed
+
+    exact type.
+
+    For fixed constants $k\ge r\ge2$ and $N=kn$, consider functions
+
+    $f:[N]\to\mathbb Z_q$ of type $(k^n)$, with exactly $n$
+
+    disti'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: algossa_decentralized_secure_2026
+  title: 'Alg\{Ossa\}: Decentralized Secure Aggregation with Rotating Committees and Eventual Delivery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2659
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure aggregation lets clients reveal only an aggregate of their private contributions, supporting a variety of
+    applications, including privacy-preserving sensing, collaborative analytics, and federa
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: unshuffling_fisheryates_practical_2026
+  title: 'Unshuffling Fisher-Yates: Practical Recovery of Length-128 Permutations and Application to ML-DSA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2658
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Shuffling is a standard hiding countermeasure against (single-trace) side-channel attacks on the number-theoretic
+    transform (NTT) of lattice-based post-quantum schemes, such as ML-DSA. The Fisher-Yate
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: poly2msgleaks_certified_key_2026
+  title: 'Poly2MsgLeaks: Certified Key Recovery from Polynomial-to-Message Leakage'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2657
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present Poly2MsgLeaks, a profiled chosen-ciphertext power-analysis attack that recovers the complete 512-coefficient
+    public-key encryption (PKE) secret of SMAUG-T in its TiMER parameter set. Each p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: falcon_key_recovery_2026
+  title: Falcon Key Recovery from Joint Sampler Leakages
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2656
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Falcon and the forthcoming FN-DSA standard based on it generate signatures via discrete Gaussian sampling, during
+    which power consumption leaks information about secret-dependent intermediate values. '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
+- id: oblivdgl_oblivious_deep_2026
+  title: 'OblivDGL: Oblivious Deep Graph Learning Made Practical'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2655
+  directions:
+  - ml_aided
+  - low_latency
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: The rapid deployment of Graph Neural Networks (GNNs) within Machine Learning as a Service (MLaaS) has opened up
+    new privacy concerns. Both sensitive graph data and proprietary GNN models are submitted
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - low latency
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-10-29'
+  source: eprint
