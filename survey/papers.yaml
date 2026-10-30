@@ -47729,3 +47729,20 @@ papers:
   - PRESENT
   fetched_date: '2026-10-29'
   source: eprint
+- id: indistinguishability_obfuscation_via_2026
+  title: Indistinguishability Obfuscation via Mathematical Proofs of Equivalence
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/1430
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Over the last decade, indistinguishability obfuscation (iO) has emerged as a seemingly omnipotent primitive in
+    cryptography. Moreover, recent breakthrough work has demonstrated that iO can be realized
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-10-30'
+  source: eprint
