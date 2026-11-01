@@ -47746,3 +47746,215 @@ papers:
   - PRESENT
   fetched_date: '2026-10-30'
   source: eprint
+- id: just_how_secure_2026
+  title: Just How Secure is SRP, Really?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1869
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: An asymmetric Password-Authenticated Key Exchange (aPAKE) protocol allows a client and a server to agree upon a
+    cryptographic key, with the only information shared in advance being a low-entropy passw
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: minmandate_taskhiding_payment_2026
+  title: 'MinMandate: Task-Hiding Payment Authorization for Web Agents'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1674
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: AI agents increasingly pay for Web services on behalf of their users to complete complex tasks. Such a task needs
+    many payments, and the user usually must approve each one, forcing the agent to stop a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: sok_multiple_concurrent_2026
+  title: 'SoK: Multiple Concurrent Proposer Blockchains'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2684
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Multiple concurrent proposer (MCP) protocols let several parties contribute transactions to the same ledger update.
+    They can distribute communication and reduce one proposer's control over inclusion a
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: a_quantitative_evaluation_2026
+  title: A Quantitative Evaluation of Constant-Time Analysis Tools
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2682
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The constant-time programming policy protects cryptographic code from timing side-channels. However, writing constant-time
+    code remains challenging even for experienced developers. Therefore, over 50 '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: improving_code_rate_2026
+  title: Improving Code Rate and Query Complexity for the Ligero-IOP System
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2681
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This work presents two main contributions to the analysis and design of Ligero-style zero-knowledge proof systems.
+    First, we analyze the original Ligero IOP in the list-decoding regime and show that m
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: balanced_boolean_functions_2026
+  title: (Balanced) Boolean Functions on 375 Variables with Nonlinearity Exceeding the Patterson-Wiedemann Direct-Sum Bound
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2680
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Patterson and Wiedemann [IEEE-IT 1983] constructed Boolean functions on 15 variables with nonlinearity 16276,
+    which is strictly greater than the bent concatenation bound.
+
+    Taking their direct sum with '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: cryptanalysis_and_enhancement_2026
+  title: 'Cryptanalysis and Enhancement of VTBSAE: Provably Secure Verifier-Based PAKE Protocols for the Industrial Internet
+    of Things'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2679
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Verifier‑based password‑authenticated key exchange (PAKE) enables a client and a server to establish high‑entropy
+    session keys from low‑entropy passwords without requiring the server to store plaintex
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: optimality_and_efficiency_2026
+  title: Optimality and Efficiency of Higher-Order Rank-Based Side-Channel Attacks against Inner Product Masking Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2676
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Higher-Order Spearman Coefficient Analysis (HO-SPA) is of particular interest in non-profiling Side-Channel Attacks
+    (SCA) due to its effectiveness against monotonic nonlinear leakage. However, the opt
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: high_precision_noise_2026
+  title: High Precision Noise Cleaning for CKKS with Application to Asynchronous Threshold CKKS
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2675
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Noise cleaning in discrete CKKS uses Hermite interpolation to reduce the input error while preserving the encrypted
+    discrete message. Cryptographic applications based on noise flooding require the err
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: sybilproofness_of_generalized_2026
+  title: Sybil-Proofness of Generalized Adaptive Clinching and Implications for Blockchain Mechanism Design
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2674
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The adaptive clinching auction of Dobzinski, Lavi, and Nisan (FOCS'08) is a cornerstone of mechanism design with
+    budget-constrained bidders, and it has since inspired a broad range of extensions to su
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: beyond_the_scope_2026
+  title: 'Beyond the Scope of This Paper: Practical Flash-Accelerator and Cache-Collision Timing Attacks on Microcontrollers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2673
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Cache and cache-collision attacks against AES are well-known since 2005, but their application to small (Cortex-M
+    sized) microcontrollers has been limited in prior work, and in many cases the devices '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
+- id: nenya_efficient_zksnarks_2026
+  title: 'Nenya: Efficient zkSNARKs for Integer Rings Z/2kZ via Reverse Multiplication-Friendly Embeddings'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2672
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Zero-knowledge succinct non-interactive arguments of knowledge (zkSNARKs) are powerful cryptographic tools for
+    certifying the correctness of computations with short proofs, fast verification, and zero
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-11-01'
+  source: eprint
