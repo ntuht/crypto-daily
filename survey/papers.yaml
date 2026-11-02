@@ -47958,3 +47958,20 @@ papers:
   - LED
   fetched_date: '2026-11-01'
   source: eprint
+- id: sharing_a_secret_2026
+  title: 'Sharing a Secret Anamorphically: Secret Shares Disguised as Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/236
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anamorphic Encryption (Persiano, Phan and Yung, Eurocrypt '22) allows private communication in a challenging setting
+    where encryption is severely controlled by a central authority (henceforth the dict
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-02'
+  source: eprint
