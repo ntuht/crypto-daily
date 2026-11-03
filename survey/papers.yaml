@@ -47975,3 +47975,20 @@ papers:
   - LED
   fetched_date: '2026-11-02'
   source: eprint
+- id: can_frodokem_run_2026
+  title: Can FrodoKEM Run in a Millisecond? FPGA Says Yes!
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1312
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'FrodoKEM is a post-quantum key encapsulation mechanism based on plain Learning With Errors (LWE). In contrast
+    to module-lattice-based schemes, it relies on an unstructured variant of the LWE problem, '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-03'
+  source: eprint
