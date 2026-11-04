@@ -47992,3 +47992,313 @@ papers:
   - PRESENT
   fetched_date: '2026-11-03'
   source: eprint
+- id: decentralized_multiauthority_attributebased_2026_1
+  title: 'Decentralized Multi-Authority Attribute-Based Inner-Product FE: Large Universe and Unbounded'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/565
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: This paper presents the first decentralized multi-authority attribute-based inner product functional encryption
+    (MA-ABIPFE) schemes supporting vectors of a priori unbounded lengths. The notion of AB-I
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: locally_recoverable_data_2026
+  title: Locally Recoverable Data Availability Sampling with Derived Group Commitments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1851
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Data availability sampling (DAS) enables a verifier to assess whether an encoded object is available for reconstruction
+    without downloading it in full. Nodes that accumulate partial data additionally '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: provable_recovery_from_2026
+  title: 'Provable Recovery from Integer Quotients: Improved Bounds for Nonlinear Hidden Number Problems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2686
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The hidden number problem (HNP) asks whether a secret can be recovered from partial information about values linked
+    to it by known algebraic relations. In cryptosystems where partial information about
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: decentralized_multiauthority_abe_2026
+  title: Decentralized Multi-Authority ABE for NC^1 from Computational-BDH
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2021/1325
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Decentralized multi-authority attribute-based encryption (𝖬𝖠-𝖠𝖡𝖤) is a strengthening of standard ciphertext-policy
+    attribute-based encryption so that there is no trusted central authority: any party c'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: quantum_evolving_secret_2026
+  title: Quantum Evolving Secret Sharing - revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1946
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In evolving secret sharing, introduced by Komargodski et
+
+    al., an infinite set of parties share a secret according to an infinite access
+
+    structure (where minimal qualified sets are finite). In such sch'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: asyrand_an_asynchronous_2026
+  title: 'AsyRand: An Asynchronous Randomness Beacon via Look-Ahead Agreement'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/406
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Asynchronous randomness beacons must preserve agreement and sustain output generation despite Byzantine faults
+    while preventing adversarial bias. We present $\mathsf{AsyRand}$, a publicly verifiable r
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: exact_svp_and_2026
+  title: 'Exact SVP and CVP in Structured Lattices: Polynomial-Space Algorithms and Reductions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/480
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Although module lattices possess richer algebraic structure than
+
+    general lattices, their algorithmic benefits for exact shortest and
+
+    closest vector problems (SVP and CVP) remain relatively unexplored.'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: bbb_secure_largetweak_2026
+  title: BBB Secure Large-Tweak TBC from Ideal Block Ciphers
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/2049
+  directions:
+  - lightweight
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: 'At FSE''15, Mennink introduced the concept of designing beyond-birthday bound secure tweakable block cipher from
+    an ideal block cipher. They proposed two tweakable block ciphers $\widetilde{F}[1]$ and '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - tweakable
+  - AES
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: batched_threshold_predicate_2026
+  title: Batched Threshold Predicate Encryption from Succinct LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2697
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Predicate encryption extends attribute-based encryption by providing fine-grained access control while hiding the
+    attribute associated with a ciphertext beyond what the secret keys held by an adversar
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: short_collisions_separate_2026
+  title: Short Collisions Separate Sponge from Merkle-Damgård
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2695
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We study short collisions in salted Merkle-Damg{\aa}rd (MD) and Sponge under the query-bounded preprocessing model
+    introduced by Ghoshal and Tessaro (CRYPTO '23). The adversary makes at most $T_1$ ora
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: rotom_a_microcontrolleroriented_2026
+  title: 'Rotom: A Microcontroller-Oriented Tweakable Block Cipher Using Modular Multiplication'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2693
+  directions:
+  - lightweight
+  - sbox
+  - software_friendly
+  - tweakable
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We propose Rotom, a family of 128-bit tweakable block ciphers designed for efficient software implementation on
+    32-bit microcontrollers.
+
+    The central design idea is to use modular multiplication as a c'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - S-box
+  - ARX
+  - tweakable
+  - lightweight
+  - AES
+  - PRESENT
+  - SPECK
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: efficient_implementations_of_2026
+  title: Efficient Implementations of Small-Modulus Lattice KEM Components
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2692
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Small moduli support compact polynomial representations in lattice-based key encapsulation mechanisms (KEMs), including
+    BAT (TCHES 2022) and END (ASIACRYPT 2026, to appear). However, compact encodings
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: revisiting_hashecbhash_enciphering_2026
+  title: 'Revisiting Hash-ECB-Hash Enciphering: Plaintext Recovery Attacks on PEP and TET'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2691
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: Storage encryption motivates tweakable enciphering schemes, which encrypt entire multi-block data units without
+    length expansion and use a public tweak to identify their context. We revisit PEP (FSE 2
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  - tweakable
+  - PRESENT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: weir_boundedmemory_indexing_2026
+  title: 'Weir: Bounded-Memory Indexing and Proving with Sequential Storage'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2689
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: A low-memory prover must control sumcheck tables, sparse accesses, commitments and proof assembly. We present Weir,
+    a Shockwave-derived protocol with a complete read-write (RW) index-and-prove schedul
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: gaussian_difference_dynamics_2026
+  title: 'Gaussian Difference Dynamics: Breaking the $2^{n/2}$ Barrier for the Shortest Vector Problem and Discrete Gaussian
+    Sampling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2690
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We give classical randomized algorithms in a word-RAM model that break the $2^{n/2}$ barrier for both discrete
+    Gaussian sampling (DGS) and the Shortest Vector Problem (SVP). For every fixed $\alpha>1$
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-04'
+  source: eprint
+- id: penalty_deposits_for_2026
+  title: Penalty Deposits For Discrete Logarithms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2687
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We propose a technique that allows a trusted party in some protocol to attach deposits to their own secrets, without
+    impacting security, and convincing other parties using zero-knowledge proofs. The r
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-04'
+  source: eprint
