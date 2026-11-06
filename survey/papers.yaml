@@ -48935,3 +48935,276 @@ papers:
   - LED
   fetched_date: '2026-11-05'
   source: eprint
+- id: how_to_trace_2026
+  title: How to Trace Viral Content in End-to-End Encrypted Messaging
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1052
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study the problem of combating *viral* misinformation campaigns in end-to-end encrypted (E2EE) messaging systems
+    such as WhatsApp. We propose a new notion of Hop Tracking Signatures (HTS) that allo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: the_authentication_complexity_2026
+  title: The Authentication Complexity of Byzantine Consensus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2702
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Byzantine broadcast and Byzantine agreement are fundamental problems in distributed computing and building blocks
+    for secure multiparty computation. In complete synchronous networks of $n$ parties wit
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: separating_pseudorandom_codes_2026
+  title: Separating Pseudorandom Codes from Quantum Random Oracles
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2774
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Pseudorandom codes (PRCs) combine two seemingly conflicting goals: robustness to noise and computational indistinguishability
+    from random strings. Recent work has shown that classical symmetric-key PR'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: stirshaken_a_cocktail_2026
+  title: 'STIR/SHAKEN: A Cocktail of Cryptographic Clumsiness'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2772
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Scams and fraudulent robocalls are rampant in the telephone system. Fraudsters often employ call spoofing to impersonate
+    a known caller to the victim, making it difficult to detect and block the fraud
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: can_fully_homomorphic_2026
+  title: Can Fully Homomorphic Encryption on Public Blockchains Protect Sensitive Medical Consultations? A Security and Privacy
+    Assessment
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2771
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: '%=====================================================================
+
+    \begin{abstract}
+
+    People seeking care for stigmatised conditions often delay treatment because they fear exposure, yet digital hea'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: sumcheck_bit_packing_2026
+  title: Sumcheck bit packing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2770
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Circuit-based zero-knowledge proofs over large fields waste most of a field element when they commit to a single
+    bit. We study the problem of committing to packed witnesses, in which $m$ bits are stor
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: projective_jet_geometry_2026
+  title: Projective Jet Geometry and Hold-Out Rank of Binary Goppa Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2769
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We develop a projective-geometric and algebraic framework for the
+
+    higher-order polynomial relations among the public generator-matrix
+
+    columns of a binary Goppa code, the relations exploited by the rec'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: hqclethe_streaming_hqc_2026
+  title: 'HqcLethe: Streaming HQC Encapsulation for Tiny Stateless Servers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2767
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Stateless post-quantum authenticated key exchanges such as post-quantum WireGuard hedge against unexpected cryptanalytic
+    advances by combining a lattice KEM with code-based Classic McEliece. However, '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: keyber_recovering_the_2026
+  title: 'Keyber: Recovering the Signal by Amplifying the Noise in ML-KEM'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2766
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: ML-KEM (FIPS 203) is now being deployed in real-world applications to provide security against adversaries with
+    quantum computers. Therefore, the resistance of ML-KEM’s implementations to physical att
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: bastion_lockstep_staggered_2026
+  title: 'BASTION: Lock-Step, Staggered and Sequential Share Schedules for a First-Order Masked ML-KEM NTT on FPGA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2765
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Number Theoretic Transform (NTT) is the arithmetic core of ML-KEM (FIPS 203) and a prominent side-channel target
+    in hardware. Because the transform is linear, first-order arithmetic masking applie
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: airbb_lightweight_threshold_2026
+  title: 'AirBB: Lightweight Threshold Anonymous Credentials without Random Oracles from BB Signatures'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2762
+  directions:
+  - meet_in_the_middle
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials are a well-studied cryptographic primitive enabling users to prove statements about their
+    identity and selectively present personal information in an unlinkable manner. The issue
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: superlattice_methods_for_2026
+  title: Superlattice methods for the shortest vector problem and discrete Gaussian sampling
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2761
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We give worst-case algorithms for the shortest vector problem (SVP) and discrete Gaussian sampling (DGS) at arbitrary
+    widths. Both algorithms generate lists on a dense superlattice and combine vectors
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: syndrome_decoding_out_2026
+  title: 'Syndrome Decoding out of the Head: Structure-Aided Side-Channel Witness Recovery on SDitH'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2760
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Regular syndrome decoding (RSD) underlies several code-based signature schemes, including SD-in-the-Head (SDitH).
+    Its secret witness has exactly one nonzero coordinate per block, and the selected posi
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: differentially_oblivious_graph_2026
+  title: Differentially Oblivious Graph Ball Queries
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2759
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A graph ball query returns all vertices within distance $r$ of a source vertex. On $N$-vertex graphs with maximum
+    degree at most $\Delta$, ordinary breadth-first search answers such queries with $O_{\
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-11-06'
+  source: eprint
+- id: refined_bounds_for_2026
+  title: Refined Bounds for the Smoothing Parameter of Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2756
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: The smoothing parameter $\eta_\varepsilon(\Lambda)$ is a fundamental invariant in lattice-based cryptography. Zheng,
+    Zhao, and Xu (AAECC 2021) proved $\eta_\varepsilon(\mathbb{Z}) \le \sqrt{\ln(\frac{
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-11-06'
+  source: eprint
