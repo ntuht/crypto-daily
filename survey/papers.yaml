@@ -49208,3 +49208,25 @@ papers:
   - invariant
   fetched_date: '2026-11-06'
   source: eprint
+- id: baksheesh_similar_yet_2026
+  title: 'BAKSHEESH: Similar Yet Different From GIFT'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/750
+  directions:
+  - differential
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: We propose a lightweight block cipher named BAKSHEESH, which follows up on the popular cipher GIFT-128 (CHES'17).
+    BAKSHEESH runs for 35 rounds, which is 12.50 percent smaller compared to GIFT-128 (run
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - lightweight cipher
+  - lightweight
+  - GIFT
+  fetched_date: '2026-11-07'
+  source: eprint
