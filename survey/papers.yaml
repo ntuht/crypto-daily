@@ -49230,3 +49230,91 @@ papers:
   - GIFT
   fetched_date: '2026-11-07'
   source: eprint
+- id: ledgerhedger_gas_reservation_2026
+  title: 'LedgerHedger: Gas Reservation for Smart-Contract Security'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/056
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In smart contract blockchain platforms such as Ethereum, users interact with the system by issuing transactions.
+    System operators called miners or validators add those transactions to the blockchain. '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-09'
+  source: eprint
+- id: deep_bribe_predicting_2026
+  title: 'Deep Bribe: Predicting the Rise of Bribery in Blockchain Mining with Deep RL'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/472
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blockchain security relies on incentives to ensure participants, called miners, cooperate and behave as the protocol
+    dictates. Such protocols have a security threshold – a miner whose relative computa
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-09'
+  source: eprint
+- id: werlman_to_tackle_2026
+  title: 'WeRLman: To Tackle Whale (Transactions), Go Deep (RL)'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/175
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The security of proof-of-work blockchain protocols critically relies on incentives. Their operators, called miners,
+    receive rewards for creating blocks containing user-generated transactions. Each blo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-09'
+  source: eprint
+- id: optimizations_and_firstorder_2026
+  title: Optimizations and First-Order Masking of AIMer on Cortex-M4
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2779
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: We optimize AIMer-128f on Cortex-M4 and propose first-order masking of its signing. Since squaring is a Frobenius
+    map about $\times 16$ cheaper than multiplication, we restructure AIM2's inverse-Merse
+  status: pending_review
+  matched_keywords:
+  - S-box
+  fetched_date: '2026-11-09'
+  source: eprint
+- id: oneway_functions_and_2026
+  title: One-Way Functions and Local Descriptions of Random Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2776
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Sample compression describes a labeled sample by retained examples and extra information from which a decoder recovers
+    the labels. We show that estimating the length of the shortest such description o
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-09'
+  source: eprint
