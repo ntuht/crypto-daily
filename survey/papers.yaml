@@ -49318,3 +49318,457 @@ papers:
   - LED
   fetched_date: '2026-11-09'
   source: eprint
+- id: independent_leakage_does_2026
+  title: 'Independent Leakage Does Not Save Evasive LWE: Refuting Folklore Fixes in the Private-Coin Setting'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2792
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The evasive learning with errors (evasive LWE) assumption has enabled a wide range of advanced cryptographic constructions
+    from lattices in the past few years. The simple intuition that LWE remains se
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: on_the_number_2026
+  title: On the Number of Restricted Solutions to Constrained Systems and their Applications
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1163
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we formulate a special class of systems of linear equations over finite fields that appears naturally
+    in the provable security analysis of several MAC and PRF modes of operation. We der
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: masked_solving_of_2026
+  title: Masked Solving of Linear Equations System and Application to UOV Signatures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/048
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In response to the looming quantum threat, NIST has selected four algorithms for standardization (i.e., ML-KEM,
+    ML-DSA, SLH-DSA, and FN-DSA), yet three of the four schemes are based on Euclidean latti
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: practical_snargs_for_2026
+  title: Practical SNARGs for Matrix Multiplications over Encrypted Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/027
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data, without ever
+    requiring decryption. This capability is particularly crucial for privacy-preserving ou
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: the_effectiveness_of_2026
+  title: 'The Effectiveness of Differential Privacy in Real-world Settings:  A Metrics-based Framework to help Practitioners
+    Visualise and Evaluate $\varepsilon$'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1173
+  directions:
+  - differential
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Differential privacy (DP) has emerged as a preferred solution for private data analysis, having been adopted by
+    several leading Internet companies. DP is a privacy-preserving mechanism that protects a
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: firstswap_preconsensus_trade_2026
+  title: 'FirstSwap: Pre-Consensus Trade Approvals for Decentralized Market Design'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2807
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Decentralized exchanges typically give traders no execution guarantee until a block is finalized. In the meantime,
+    external prices move, traders strategically delay submission, and block producers can
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: on_proximity_gaps_2026
+  title: On Proximity Gaps for Expander Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2806
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: 'Proximity gaps describe a phenomenon concerning random linear combinations of words and their distance from a
+    linear error-correcting code.
+
+    Informally, they address the following question: if a collec'
+  status: pending_review
+  matched_keywords:
+  - ARX
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: snarks_from_lwe_2026
+  title: SNARKs from LWE via Non-black-box Reductions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2805
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We construct the first succinct non-interactive arguments of knowledge (SNARKs) from the polynomial-hardness of
+    Learning with Errors (LWE) for a subclass of UP languages whose witness unambiguity has '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: actively_secure_pir_2026
+  title: Actively Secure PIR from Verifiable Linear Relations over Rings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2804
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Privately retrieving data from a database without revealing which element is being retrieved is a fundamental problem
+    in cryptography with many diverse applications. State-of-the-art solutions to this
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: the_ggm_prf_2026
+  title: The GGM PRF Construction is Optimal
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2803
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: We study the complexity of fully black-box constructions of pseudorandom functions (PRFs) from pseudorandom generators
+    (PRGs). The seminal work of Goldreich, Goldwasser, and Micali (JACM 1986), combin
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - SIMON
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: filtered_merges_make_2026
+  title: 'Filtered merges make deeper representation trees pay: Subset Sum and Meet-LWE'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2802
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Dubiner's bucketing codes, used as type-class filters on representation coordinates, let a merge avoid generating
+    matched pairs with the wrong split pattern. We show that in representation trees their
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: parallelizable_modes_for_2026
+  title: Parallelizable modes for duplex-based authenticated encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2801
+  directions:
+  - permutation_layer
+  - aead
+  ciphers: []
+  significance: medium
+  summary: 'This note enriches the SHAKE and TurboSHAKE-based authenticated encryption schemes defined by Daemen et al. at
+    EuroS&P 2025 with parallelizable ones, while keeping their security properties. The main '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - authenticated encryption
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: testing_cczequivalence_to_2026
+  title: Testing CCZ-equivalence to permutations via projections of Walsh zero spaces, with applications to APN functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2800
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Whether almost perfect nonlinear (APN) permutations exist in even dimension $n\ge 8$ is a long-standing open question,
+    the big APN problem. The only example known in even dimension, on six bits, was f
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: exploring_the_set_2026
+  title: Exploring the Set of APN Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2799
+  directions:
+  - differential
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'An Almost Perfect Nonlinear (APN) function $F : \mathbb{F}_2^n \to  \mathbb{F}_2^n$ provides optimal protection
+    against differential attacks, meaning that the equation $F(x+a)=F(x)+b$ has at most 2 so'
+  status: pending_review
+  matched_keywords:
+  - differential
+  - invariant
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: applying_combinatorial_techniques_2026
+  title: Applying Combinatorial Techniques To Find Minimal Non-Complete Set Coverings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2796
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'One of the most prominent hardware countermeasures against side-channel attacks are threshold implementations
+    (TIs).
+
+    The technique uses masking to split the operations in a cryptographic algorithm int'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: exploiting_matrixvector_multiplication_2026
+  title: 'Exploiting Matrix-Vector Multiplication in AIMer: Single-Trace Attacks on Key Generation and Signing'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2795
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: This paper presents two side-channel attacks against AIMer v3.0, one of the two signature schemes selected in the
+    Korean Post-Quantum Cryptography (KpqC) competition. Both are single-trace attacks tha
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: beaverdam_a_postquantum_2026
+  title: 'BeaverDam: A Post-Quantum Threshold Key Recovery Protocol from a One-Time Threshold Oblivious Random Function'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2794
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure backups are a practical necessity of E2EE messaging apps, typically relying on password-protected key-recovery
+    (PPKR) protocols. These allow users to turn a human-memorable password into a cryp
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: weights_come_almost_2026
+  title: Weights Come Almost for Free in Ramp Threshold Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2793
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A weighted threshold access structure assigns a weight to each party and authorizes a subset of parties whenever
+    their total weight exceeds a prescribed threshold. Most existing approaches to designin
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: new_results_in_2026
+  title: New Results in Adaptively-Secure Broadcast Encryption and Succinct Computational Secret Sharing from Standard Lattices
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2791
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Projective pseudorandom generators (PPRGs), introduced by [Applebaum et al.; STOC'23], expand a short seed into
+    a long pseudorandom string, with a special feature that one can generate a short $\texti
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: vector_commitandreduce_schemes_2026
+  title: Vector Commit-and-Reduce Schemes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2790
+  directions:
+  - milp_sat_cp
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Hash-based argument systems are seeing increasing adoption in practice, owing to their ease of deployment, fast
+    provers, and plausible post-quantum security. However, they still lag behind elliptic-cu
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: seth_subcode_equivalence_2026
+  title: 'SETH: Subcode Equivalence in the Head'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2789
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The Multi-Party Computation in the Head (MPCitH) paradigm has proven to be a versatile tool to design post-quantum
+    digital signature schemes. Recently, MPCitH was improved with Threshold Computation i
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: differentially_private_distancesensitive_2026
+  title: Differentially Private Distance-Sensitive Representations for General Metrics
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2788
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A distance-sensitive set representation stores a set $S$ from a metric space $(U,d)$ and answers queries of the
+    form "is some element of $S$ within distance $r$ of $q$?''. Existing differentially priv
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: optimal_earlystopping_broadcast_2026
+  title: Optimal Early-Stopping Broadcast via Exponential Information Gathering
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2785
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Early-stopping broadcast protocols guarantee termination based on the actual number of malicious parties, $f \leq
+    t$, encountered during execution, rather than the worst-case scenario of $t < n$ corru
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: privacypreserving_multiinstitutional_clinical_2026
+  title: Privacy-Preserving Multi-Institutional Clinical Prediction via Multiparty Encrypted Newton-CG Logistic Regression
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2784
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Multi-institutional clinical prediction can benefit from larger and more diverse patient populations, but privacy
+    and data-governance
+
+    constraints often prevent pooling patient-level records. This stud'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-10'
+  source: eprint
+- id: memoryefficient_hqc_implementations_2026
+  title: Memory-Efficient HQC Implementations on Cortex-M3 and Cortex-M7
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2782
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the Hamming Quasi-Cyclic (HQC) key encapsulation mechanism (KEM), eliminating the polynomial product buffer
+    still leaves serialized inputs, operands, and candidate ciphertexts that may coexist duri
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-10'
+  source: eprint
