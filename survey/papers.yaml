@@ -49772,3 +49772,228 @@ papers:
   - PRESENT
   fetched_date: '2026-11-10'
   source: eprint
+- id: constructions_of_boolean_2026
+  title: Constructions of Boolean Correctors with Optimal Nonlinearity and Vectorial Correctors Beyond Optimal Linear Correction
+    Order
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2812
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Correctors are postprocessing functions that reduce or eliminate statistical bias in raw bitstreams produced by
+    physical noise sources in true random number generators. In this paper, we develop a fra
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: on_the_provable_2026
+  title: On the Provable Dual Attack for LWE by Modulus Switching
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/859
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As a theoretical cornerstone of post-quantum cryptography, the Learning With Errors (LWE) problem serves as the
+    security foundation for standardized algorithms such as Kyber and Dilithium. Recently, a
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: revisiting_the_security_2026
+  title: Revisiting the Security of OleF, t-OleF, and OlÆF
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2823
+  directions:
+  - milp_sat_cp
+  - permutation_layer
+  - aead
+  - tweakable
+  ciphers: []
+  significance: medium
+  summary: We revisit the security of OleF, t-OleF, and \olaef\ and identify two independent security flaws. First, we establish
+    a mask-compensation relation between continuation and termination processing in Ol
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  - authenticated encryption
+  - tweakable
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: threshold_batched_attributebased_2026
+  title: Threshold Batched Attribute-Based Encryption from Succinct LWE
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2822
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Batched identity-based encryption (BIBE) enables a single compact key to decrypt ciphertexts associated with a
+    designated batch of identities. Batched attribute-based encryption (B-ABE) extends this f
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: the_minimum_bucket_2026
+  title: The Minimum Bucket Capacity for Reliable Path ORAM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2820
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Path ORAM hides memory access patterns by storing $N$ data blocks in a binary tree whose buckets have capacity
+    $Z$, using a client-side stash for blocks that cannot be placed in the tree. Smaller buck
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: how_to_revoke_2026
+  title: How to Revoke Users in Encryption Schemes?
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2819
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Revocation is essential for keeping encryption secure as keys leak, devices are compromised or users leave the
+    system. We revisit the problem of revocation for encryption schemes and give, to our know
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: from_degree_three_2026
+  title: 'From Degree Three to Degree Two: Statistical Randomized Encodings for All Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2817
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A randomized encoding represents a function by a simpler randomized map whose output allows recovery of the function
+    value while revealing essentially no further information about the input. Perfectly
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: registrationbased_encryption_with_2026
+  title: Registration-based Encryption with Logarithmic Registration
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2814
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Registration-based encryption (RBE) preserves IBE''s identity-only encryption interface while eliminating key
+    escrow: users generate their own keys, and a Key Curator manages only registered public key'
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: overcoming_padding_in_2026
+  title: Overcoming Padding in Cryptography via  Hardness of Certifying Random Strings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2813
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Modern cryptography relies on a provable security paradigm where the security of a primitive is established from
+    the intractability of one or more computational problems. Hybrid arguments are central '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: more_keys_less_2026
+  title: 'More Keys, Less Commitment: Key-Committing Attacks on BBB Accordions via Encode-then-Encipher and a Key-Committing
+    Transform'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2811
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Cryptographic accordions with beyond-birthday-bound (BBB) security are being actively studied in connection with
+    NIST’s ongoing standardization effort.
+
+    We show that BBB security of an accordion does n'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - AES
+  - PRESENT
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: quasi_postquantum_quorum_2026
+  title: 'QUASI: Post-Quantum Quorum Attestation of Pre-Validated Statements'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2810
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We present QUASI, a newly conceived class of protocols that
+
+    enable a group of parties to produce a publicly verifiable
+
+    attestation about a pre-validated statement. Designed for
+
+    quorum-based systems, Q'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-11'
+  source: eprint
+- id: pastel_single_secret_2026
+  title: 'Pastel: Single Secret Leader Election with Private Weights'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2809
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A single secret leader election (SSLE) protocol allows an election of exactly one leader among $n$ parties in a
+    secrecy-preserving manner, where only the elected leader knows it has won until it publi
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-11'
+  source: eprint
