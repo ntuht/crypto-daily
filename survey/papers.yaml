@@ -49997,3 +49997,272 @@ papers:
   - LED
   fetched_date: '2026-11-11'
   source: eprint
+- id: tutti_parallel_ckks_2026
+  title: 'TUTTI: Parallel CKKS Bootstrapping in under 3 ms on CPU'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2848
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: This paper introduces TUTTI, a new CKKS bootstrapping procedure that outperforms previous low-latency solutions
+    in multi-threaded latency for any number of messages and, most notably, has a lower late
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: the_isodual_constant_2026
+  title: 'The isodual constant of the LLL potential: exact values and structure'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2846
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: 'The LLL potential $\Psi^2(B)=\prod_k\det\mathrm{Gram}(b_1,\dots,b_k)$, minimized over the bases of a lattice $L$
+    and normalized by its determinant, defines an isodual lattice invariant $\eta(L)$. Its '
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: on_composing_oracle_2026
+  title: On Composing Oracle Separations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2845
+  directions:
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Black-box separations constitute very powerful technical barriers against constructing primitives from specific
+    building blocks. However, they give surprisingly little indication on the usefulness of '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - permutation
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: adaptively_secure_threshold_2026_1
+  title: Adaptively Secure (Threshold) Batched IBE from Static Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2843
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Batched identity-based encryption (batched IBE) lets a key authority release one short decryption key for a set
+    of identities and a batch label/epoch. It has been used to mitigate maximal extractable '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: enabling_memory_encryption_2026
+  title: Enabling Memory Encryption Using Ascon Derivatives
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2842
+  directions:
+  - lightweight
+  - low_latency
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Keeping data stored in memory confidential is a tough challenge when assuming an adversary with physical access
+    to it. First, we have fine-grained access to typically 256 to 512 bits at once, so nonce
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - authenticated encryption
+  - low latency
+  - AES
+  - Ascon
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: sec_oneshare_everywhereshort_2026
+  title: 'SEC: One-Share Everywhere-Short Secret Sharing from Lossless Expanders'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2841
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We introduce \(\mathsf{SEC}\), an expander-code-based ramp secret sharing scheme over \(\mathbb{Z}\)-modules,
+    particularly suitable for lattice-based distributed cryptography. It is everywhere-short: '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: mpctm_mpcbased_trajectory_2026
+  title: 'MPCTM: MPC-Based Trajectory Matching on Unmanned Autonomous Systems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2840
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Emerging technologies such as Unmanned Autonomous Systems (UASs) are increasingly being deployed across several
+    application domains. Their deployment, however, introduces safety risks, especially when
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: dkg_a_duallayer_2026
+  title: 'DKG: A Dual-Layer Knowledge Graph and LLM Co-Driven Framework for Fully Automated Side-Channel Analysis of Cryptosystems'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2838
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Cryptographic algorithms underpin billions of devices, from payment smartcards to smartphone secure enclaves and
+    industrial controllers. Yet their physical implementations risk leaking secret keys. No
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: adaptive_leaky_lwe_2026
+  title: Adaptive Leaky LWE and Its Security
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2837
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Leaky LWE problem, proposed by Lai, Swarnakar, and Woo (CiC '25), studies whether LWE samples remain pseudorandom
+    in the presence of noisy linear information about their secrets and errors. In Lea
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: doublyefficient_private_information_2026
+  title: Doubly-Efficient Private Information Retrieval from Modular Forms
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2836
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We present new information-theoretic protocols for $s$-server, doubly-efficient private information retrieval (PIR)
+    in sublinear server time and one extra bit of space on the servers, for every consta
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: multihop_functional_encryption_2026
+  title: Multi-Hop Functional Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2835
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this paper, we initiate the study of multi-hop functional encryption ($\mathsf{MHFE}$), a new primitive for
+    computing over encrypted data in recursive and multi-stage workflows while enabling contr
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: undine_distributed_extendable_2026
+  title: 'Undine: Distributed Extendable Merkle Tree Storage with Private Retrieval and Efficient Reconfiguration'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2834
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Clients of transparency logs, public-key directories, and shielded blockchain pools require authenticated access
+    to an ever-changing Merkle tree, without storing it in full or revealing which entry th
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: the_closest_vector_2026
+  title: 'The Closest Vector Problem on Gadget Lattices: Efficient Algorithms and Voronoi Geometry'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2833
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Gadget lattices are a prominent family of lattices widely used in lattice-based cryptography, error-correcting\
+    \ codes, and computational complexity. \nWe present efficient algorithms for the Closest Vec"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: twisted_towers_a_2026
+  title: 'Twisted Towers: A Faster and Fully Costed SexTNFS Attack'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2831
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'We study the Special exTNFS attack on discrete logarithms in the target group $\mathbb{G}_T$ of BLS12-381. We
+    give a (6,2) design in which every step is priced in one instruction-level model: relation'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
+- id: one_selected_contact_2026
+  title: 'γ₁₁: One Selected Contact, Two Linked Blocks — the macadamia 0030'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2830
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'This paper is one of five companion papers completing the proof of $\gamma_{11}=4/\sqrt[11]{972}$ announced in
+    the root paper and assembled in “A Focus on Hermite Constant 11”. The root paper reduces '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-12'
+  source: eprint
