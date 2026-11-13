@@ -50266,3 +50266,356 @@ papers:
   - LED
   fetched_date: '2026-11-12'
   source: eprint
+- id: a_tutorial_on_2026
+  title: A Tutorial on Oblivious Random Access Memory
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2852
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Abstract—Oblivious RAM (ORAM) is a key technique for pro-
+
+    tecting memory access patterns in systems with untrusted mem-
+
+    ory, including secure processors, trusted execution environments,
+
+    and multi-part'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: bmraccoon_blind_multisignatures_2026
+  title: 'BMRaccoon: Blind Multi-Signatures from Lattices'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2870
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blind multi-signatures (BMS) allow a user to obtain a compact signature on a hidden message through the joint participation
+    of multiple signers, providing a basis for decentralized issuance of anonymo
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: from_dependent_ciphertexts_2026
+  title: From Dependent Ciphertexts to Sharp Bounds for Polynomial Evaluation in BGV
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2869
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A central challenge in Fully Homomorphic Encryption (FHE) is the selection of ciphertext moduli, which depends
+    on accurately estimating noise growth during homomorphic evaluation. Choosing excessively
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: bulletproofs_are_optimal_2026
+  title: 'Bulletproofs are Optimal: Lower Bounds for Vector Commitments from Fiat-Shamir in Pairing-Free Groups'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2868
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Vector Commitments allow parties to commit to an (ordered) vector and to later succinctly open it at any desired
+    position. In plain (i.e., known order and pairing-free) prime-order groups, all state-o
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: collision_attacks_on_2026
+  title: 'Collision Attacks on SHA-2: 39-Step SHA-256 below the Birthday Bound'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2867
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: SHA-2 is the most widely deployed family of hash functions, and its security margin is measured by the number of
+    steps collision attacks reach. Li et al. gave the first classical collision attack on 3
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: anamorphic_nizk_definition_2026
+  title: 'Anamorphic NIZK: Definition, Construction and More'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2866
+  directions:
+  - milp_sat_cp
+  - aead
+  ciphers: []
+  significance: medium
+  summary: Anamorphic encryption enables covert communication despite disclosure of ordinary decryption keys~\cite{PersianoPY22}.
+    Work on anamorphic signatures extends this capability to settings permitting only
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - authenticated encryption
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: hit_singlepass_inference_2026
+  title: 'HIT: Single-Pass Inference for Single-Trace NTT Side-Channel Attacks'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2865
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In physical implementations of the post-quantum standards ML-KEM and ML-DSA, the Number-Theoretic Transform (NTT)
+    directly processes secret polynomials and is a primary target for single-trace side-ch
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: tightly_secure_and_2026
+  title: Tightly Secure and Modular Post-Quantum TLS Handshakes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2864
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In the post-quantum (PQ) migration of the TLS~1.3 handshake, the classical Diffie--Hellman key exchange is replaced
+    with a post-quantum key encapsulation mechanism (KEM). Furthermore, KEMTLS builds up
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: an_improvement_to_2026
+  title: An improvement to the KLPT2 algorithm
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2862
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In this short note, we present a tweak to the KLPT2 algorithm that reduces the size of the output from $O(p^{15.5})$
+    to $\tilde O(p^{14.5})$.Then, we show that the recent improvement by Nakagawa, Yosh
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: delegatable_keyedverification_anonymous_2026
+  title: Delegatable Keyed-Verification Anonymous Credentials
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2860
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Keyed-verification anonymous credentials (KVACs) are a variant of anonymous credentials (ACs) in which the issuer
+    and the verifier are either the same entity or mutually trusted entities. Due to this '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: a_singletrace_sidechannel_2026
+  title: A Single-Trace Side-Channel Attack on the KpqC Digital Signature Scheme AIMer v3
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2859
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'The Korean Post-Quantum Cryptography (KpqC) competition selected AIMer, a post-quantum digital signature scheme
+    based on the MPC-in-the-Head paradigm, as one of its final algorithms in 2025. However, '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: revisiting_fiatshamir_nizkps_2026
+  title: Revisiting Fiat-Shamir NIZKPs and Signatures from Seed-Friendly Sigma Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2858
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Seed-friendly sigma protocols have a small challenge space, and when compiled into NIZKP, they require parallel
+    repetition to reduce extraction error. Fiat-Shamir proofs obtained from seed-friendly Si
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: when_one_bit_2026
+  title: 'When One Bit Is (Almost) Enough: A Low Leakage Chosen Plaintext Side Channel Attack on AES'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2857
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In order to thwart Side Channel Attacks (SCA) and keep secret safe, countermeasures such as masking can be implemented
+    to hide information. However, when a defect occurs in software or in hardware, a '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: a_new_class_2026
+  title: A New Class of PRFs and Efficient VRFs from Isogeny-based Group Actions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2856
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Polynomial-in-exponent pseudorandom functions (Poly-style PRFs) based on group actions have recently emerged as
+    a promising framework for post-quantum cryptography, offering compact keys and efficient
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: dettreechain_parallel_block_2026
+  title: 'DetTreeChain: Parallel Block Production on an N-ary Block Tree with Bounded Lane Divergence'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2855
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Nakamoto-style blockchains append one block at a time to a single chain, and raising the block rate increases
+    forking and weakens security. We present DetTreeChain, a ledger in which up to $N$ blocks '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: homomorphism_in_expectation_2026
+  title: 'Homomorphism in Expectation: Leveled Homomorphic Encryption with Range-Relative Correctness'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2854
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Lattices have dominated the development of homomorphic encryption for deep computation. We introduce $\textit{Homomorphism
+    in Expectation (HIE)}$, a new construction showing that encrypted addition su
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: ascent_algebraic_structured_2026
+  title: 'ASCENT: Algebraic Structured Compilation of Exact Norms for Succinct Lattice Proofs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2853
+  directions:
+  - meet_in_the_middle
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Norm bounds are semantic constraints in lattice cryptography: satisfying the modular equations is not enough unless
+    the witness also satisfies the prescribed shortness bound.
+
+    Existing norm reductions '
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - LED
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: bounding_the_security_2026
+  title: Bounding the security of the Bromberg-Shpilrain-Vdovina hash function
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2851
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The Bromberg-Shpilrain-Vdovina hash functions are a family of Cayley hash functions indexed by an integer parameter
+    $k\ge 2$. Hashes are matrices in $SL_2(p)$ where $p$ is a large prime. We present an
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-13'
+  source: eprint
+- id: neural_cipher_bench_2026
+  title: 'Neural Cipher Bench: Cost and Portability of Corner-ReLU Cipher Implementation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2850
+  directions:
+  - permutation_layer
+  - round_function
+  - ml_aided
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Edge and Internet of Things (IoT) devices run neural networks on GPUs, neural processing units (NPUs), and microcontrollers
+    (MCUs) through machine learning (ML) runtimes. Deep Neural Cryptography (DNC
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - S-box
+  - permutation
+  - Feistel
+  - AES
+  - ChaCha
+  fetched_date: '2026-11-13'
+  source: eprint
