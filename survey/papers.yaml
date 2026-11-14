@@ -50619,3 +50619,21 @@ papers:
   - ChaCha
   fetched_date: '2026-11-13'
   source: eprint
+- id: the_price_of_2026
+  title: 'The Price of Geometry for Private Distance-Sensitive Filters: $\ell_\infty$ versus $\ell_2$'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2871
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: A distance-sensitive set representation stores a set $S$ in a metric space and must accept points within distance
+    $r$ of $S$ and reject points farther than $cr$, each with error probability at most $\
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-11-14'
+  source: eprint
