@@ -11,9 +11,9 @@
   <header>
     <div class="container">
       <h1>🔐 对称密码研究论文库</h1>
-      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-11-14 05:57</div>
+      <div class="subtitle">Symmetric Cipher Research Paper Collection · Last updated: 2026-11-15 05:59</div>
       <div class="stats-bar">
-        <div class="stat-item"><span class="stat-value">2772</span> 论文</div>
+        <div class="stat-item"><span class="stat-value">2778</span> 论文</div>
         <div class="stat-item"><span class="stat-value">26</span> 方向</div>
         <div class="stat-item"><span class="stat-value">108</span> 高影响</div>
         <div class="stat-item"><span class="stat-value">1973-2026</span> 年份跨度</div>
@@ -35,11 +35,11 @@
 
     <div class="main-layout">
       <div class="sidebar">
-  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2772</span></div>
+  <div class="dir-item" data-dir="all" onclick="filterDir('all')">全部 <span class="count">2778</span></div>
   <h3>📐 算法设计</h3>
   <div class="dir-item" data-dir="lightweight" onclick="filterDir('lightweight')">轻量级密码综合 <span class="count">248</span></div>
-  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">188</span></div>
-  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">92</span></div>
+  <div class="dir-item" data-dir="permutation_layer" onclick="filterDir('permutation_layer')">置换层 <span class="count">189</span></div>
+  <div class="dir-item" data-dir="sbox" onclick="filterDir('sbox')">S-box 设计与评估 <span class="count">93</span></div>
   <div class="dir-item" data-dir="aead" onclick="filterDir('aead')">认证加密 (AEAD) <span class="count">80</span></div>
   <div class="dir-item" data-dir="linear_diffusion" onclick="filterDir('linear_diffusion')">线性扩散层 <span class="count">55</span></div>
   <div class="dir-item" data-dir="round_function" onclick="filterDir('round_function')">轮函数结构 <span class="count">50</span></div>
@@ -51,8 +51,8 @@
   <div class="dir-item" data-dir="key_schedule" onclick="filterDir('key_schedule')">密钥编排 <span class="count">4</span></div>
   <div class="dir-item" data-dir="high_throughput" onclick="filterDir('high_throughput')">高吞吐密码 <span class="count">2</span></div>
   <h3>🔍 算法分析</h3>
-  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1521</span></div>
-  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">470</span></div>
+  <div class="dir-item" data-dir="differential" onclick="filterDir('differential')">差分分析 <span class="count">1524</span></div>
+  <div class="dir-item" data-dir="milp_sat_cp" onclick="filterDir('milp_sat_cp')">MILP/SAT/CP 建模技术 <span class="count">471</span></div>
   <div class="dir-item" data-dir="meet_in_the_middle" onclick="filterDir('meet_in_the_middle')">中间相遇 <span class="count">318</span></div>
   <div class="dir-item" data-dir="ml_aided" onclick="filterDir('ml_aided')">ML/LLM 辅助密码分析 <span class="count">100</span></div>
   <div class="dir-item" data-dir="invariant" onclick="filterDir('invariant')">不变量与子空间 <span class="count">70</span></div>
@@ -67,7 +67,7 @@
 </div>
 
       <div>
-        <div class="result-count" id="resultCount">显示 2772 篇论文</div>
+        <div class="result-count" id="resultCount">显示 2778 篇论文</div>
         <div class="paper-list" id="paperList">
           
 <div class="paper-card" data-id="geo_dl2026" data-dirs="differential,linear"
@@ -34372,6 +34372,88 @@ Existing norm reductions</div>
   </div>
   <div class="paper-authors"></div>
   <div class="paper-summary">A distance-sensitive set representation stores a set $S$ in a metric space and must accept points within distance $r$ of $S$ and reject points farther than $cr$, each with error probability at most $\</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="one_more_pair_2026" data-dirs="sbox"
+     data-year="2026" data-significance="medium"
+     data-search="one more pair, more information gained: improved attacks on lowmc with full s-box layers using two plaintext/ciphertext pairs   motivated by lowmc cryptanalysis challenge, research in recent years focuses more on attacking lowmc in \picnic application setting,  \ie an attacker can see only a single plaintext/ciphertext pair. i">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2025/1498" target="_blank">One More Pair, More Information Gained: Improved Attacks on LowMC with Full S-box Layers Using Two Plaintext/Ciphertext Pairs</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \PICNIC application setting,  \ie an attacker can see only a single plaintext/ciphertext pair. I</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">S-box 设计与评估</span></div>
+</div>
+
+<div class="paper-card" data-id="toward_ecient_postquantum_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="toward eﬃcient post-quantum bitcoin bridges   bitvm-style protocols verify succinct proofs on bitcoin by garbling a proof veriﬁer oﬀ-chain. what reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that au">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2877" target="_blank">Toward Eﬃcient Post-Quantum Bitcoin Bridges</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the chain in a dispute is the proof itself: its bits under one-time keys, the scripts that au</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="encrypted_authorship_attribution_2026" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="encrypted authorship attribution for fraud detection   authorship attribution techniques are routinely used to re-
+late anonymous or disputed texts to known authors through characteris-
+tic writing styles. within the financial sector, such techniques may">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2876" target="_blank">Encrypted Authorship Attribution for Fraud Detection</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Authorship attribution techniques are routinely used to re-
+late anonymous or disputed texts to known authors through characteris-
+tic writing styles. Within the financial sector, such techniques may</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
+</div>
+
+<div class="paper-card" data-id="security_analysis_of_2026_1" data-dirs="milp_sat_cp"
+     data-year="2026" data-significance="medium"
+     data-search="security analysis of anonymous authentication in apple&#x27;s private cloud compute   apple&#x27;s private cloud compute (pcc) offloads on-device computation, such as large language-model prompts, to the cloud while seeking to preserve the privacy users expect from local processing. at its">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2875" target="_blank">Security Analysis of Anonymous Authentication in Apple&#x27;s Private Cloud Compute</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Apple&#x27;s Private Cloud Compute (PCC) offloads on-device computation, such as large language-model prompts, to the cloud while seeking to preserve the privacy users expect from local processing. At its</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">MILP/SAT/CP 建模技术</span></div>
+</div>
+
+<div class="paper-card" data-id="triads_below_the_2026" data-dirs="permutation_layer"
+     data-year="2026" data-significance="medium"
+     data-search="triads below the isa: optimizing cryptographic software in cpu microcode   cryptographic software is typically optimized for the instruction set architecture exposed by the processor. modern processors, however, contain deeper execution layers with computational capabilities">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2874" target="_blank">Triads below the ISA: Optimizing Cryptographic Software in CPU Microcode</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">Cryptographic software is typically optimized for the instruction set architecture exposed by the processor. Modern processors, however, contain deeper execution layers with computational capabilities</div>
+  <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">置换层</span></div>
+</div>
+
+<div class="paper-card" data-id="on_the_security_2026_6" data-dirs="differential"
+     data-year="2026" data-significance="medium"
+     data-search="on the security of the cubic uov variant cml   cml is a cubic multivariate signature scheme proposed over $\mathbb{f}_q$ with $q = 2^8$. earlier cubic oil--vinegar variants such as cuov and cssv were broken by differential and high-rank attacks. c">
+  <div class="paper-title"><a href="https://eprint.iacr.org/2026/2872" target="_blank">On the Security of the Cubic UOV Variant CML</a></div>
+  <div class="paper-meta">
+    <span>📅 2026</span>
+    <span>📖 ePrint</span>
+  </div>
+  <div class="paper-authors"></div>
+  <div class="paper-summary">CML is a cubic multivariate signature scheme proposed over $\mathbb{F}_q$ with $q = 2^8$. Earlier cubic Oil--Vinegar variants such as CUOV and CSSv were broken by differential and high-rank attacks. C</div>
   <div class="paper-tags"><span class="tag tag-significance-medium">medium</span><span class="tag tag-direction">差分分析</span></div>
 </div>
 
