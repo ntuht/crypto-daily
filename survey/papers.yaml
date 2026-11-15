@@ -50637,3 +50637,112 @@ papers:
   - PRESENT
   fetched_date: '2026-11-14'
   source: eprint
+- id: one_more_pair_2026
+  title: 'One More Pair, More Information Gained: Improved Attacks on LowMC with Full S-box Layers Using Two Plaintext/Ciphertext
+    Pairs'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1498
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Motivated by LowMC cryptanalysis challenge, research in recent years focuses more on attacking LowMC in \PICNIC
+    application setting,  \ie an attacker can see only a single plaintext/ciphertext pair. I
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - PRESENT
+  fetched_date: '2026-11-15'
+  source: eprint
+- id: toward_ecient_postquantum_2026
+  title: Toward Eﬃcient Post-Quantum Bitcoin Bridges
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2877
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'BitVM-style protocols verify succinct proofs on Bitcoin by garbling a proof veriﬁer oﬀ-chain. What reaches the
+    chain in a dispute is the proof itself: its bits under one-time keys, the scripts that au'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-15'
+  source: eprint
+- id: encrypted_authorship_attribution_2026
+  title: Encrypted Authorship Attribution for Fraud Detection
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2876
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Authorship attribution techniques are routinely used to re-
+
+    late anonymous or disputed texts to known authors through characteris-
+
+    tic writing styles. Within the financial sector, such techniques may '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-15'
+  source: eprint
+- id: security_analysis_of_2026_1
+  title: Security Analysis of Anonymous Authentication in Apple's Private Cloud Compute
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2875
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Apple''s Private Cloud Compute (PCC) offloads on-device computation, such as large language-model prompts, to
+    the cloud while seeking to preserve the privacy users expect from local processing. At its '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-15'
+  source: eprint
+- id: triads_below_the_2026
+  title: 'Triads below the ISA: Optimizing Cryptographic Software in CPU Microcode'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2874
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: Cryptographic software is typically optimized for the instruction set architecture exposed by the processor. Modern
+    processors, however, contain deeper execution layers with computational capabilities
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-11-15'
+  source: eprint
+- id: on_the_security_2026_6
+  title: On the Security of the Cubic UOV Variant CML
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2872
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: CML is a cubic multivariate signature scheme proposed over $\mathbb{F}_q$ with $q = 2^8$. Earlier cubic Oil--Vinegar
+    variants such as CUOV and CSSv were broken by differential and high-rank attacks. C
+  status: pending_review
+  matched_keywords:
+  - differential
+  fetched_date: '2026-11-15'
+  source: eprint
