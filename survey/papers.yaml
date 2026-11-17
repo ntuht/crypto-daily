@@ -50746,3 +50746,245 @@ papers:
   - differential
   fetched_date: '2026-11-15'
   source: eprint
+- id: unconditional_unclonable_encryption_2026
+  title: Unconditional Unclonable Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1511
+  directions:
+  - software_friendly
+  ciphers: []
+  significance: medium
+  summary: We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption
+    for one-bit messages, with efficient encryption and decryption and exponentially sm
+  status: pending_review
+  matched_keywords:
+  - ARX
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: zeroknowledge_iopps_for_2026
+  title: Zero-Knowledge IOPPs for Constrained Interleaved Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/391
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Succinct arguments based on interactive oracle proofs (IOPs) have achieved remarkable efficiency improvements and
+    are now widely adopted in applications. State-of-the-art IOPs involve protocols for te
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: reusable_anonymous_credentials_2026
+  title: Reusable Anonymous Credentials with Flow-Mode Unlinkability
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/119
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Anonymous credentials let a holder prove certified attributes and verifier predicates without revealing the credential
+    or linking sessions. SNARK-based credentials support expressive predicates and de
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: multiparty_computation_with_2026
+  title: Multiparty Computation with Minimal Overhead without Circuit Transformation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2891
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'A central goal in secure multiparty computation (MPC) is to minimize the gap between the total computation performed
+    by all parties and the cost of insecure circuit evaluation. In the honest majority '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: quadratic_apn_functions_2026
+  title: Quadratic APN Functions of $\mathbb{F}_2^{10}$ with a Self-Equivalence of Prime Order
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2889
+  directions:
+  - permutation_layer
+  - differential
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Almost perfect nonlinear (APN) functions of $\mathbb{F}_2^n$ have the lowest possible differential uniformity.
+    The only known APN permutation in even dimension, in dimension six, is equivalent to a qu
+  status: pending_review
+  matched_keywords:
+  - differential
+  - invariant
+  - permutation
+  - LED
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: homomorphic_encryption_and_2026
+  title: Homomorphic Encryption and Bootstrapping for Real Matrices over Conjugate-Invariant Rings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2887
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: The conjugate-invariant variant of CKKS (CI-CKKS) by Kim and Song encrypts real vectors over the subring of a power-of-two
+    cyclotomic ring fixed by $X \mapsto X^{-1}$, with as many real slots as the r
+  status: pending_review
+  matched_keywords:
+  - invariant
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: roundkey_equivalence_and_2026
+  title: Round-Key Equivalence and Collisions of the Revised MoFang
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2886
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: The revised reference implementation of MoFang moves the S-box of the second message half to row 1, which does
+    not eliminate the original per-round key cancellation. Collisions of this type on the ori
+  status: pending_review
+  matched_keywords:
+  - S-box
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: revisiting_homomorphic_aes_2026
+  title: Revisiting homomorphic AES evaluation with Hybrid Byte-Bit Packing
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2885
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'Homomorphic AES evaluation is an important benchmark for practical FHE systems. Existing BGV-based AES transciphering
+    schemes typically employ byte-oriented representations, which are well suited for '
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AES
+  - PRESENT
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: earlystopping_dishonest_majority_2026
+  title: Early-Stopping Dishonest Majority Broadcast with Optimal Round Complexity
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2883
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Early-stopping broadcast protocols guarantee termination as a function of the number $f\le t$ of parties actually
+    corrupted in an execution, rather than of the worst-case bound $t<n$. Loss and Nielsen
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: rrhl_a_relational_2026
+  title: 'RRHL: A Relational Logic for Rényi Differential Privacy of Private Learning'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2881
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Differential privacy is the standard framework for defining privacy-preserving computation and is adopted in large-scale
+    production systems, including industrial-level private learning. The underlying
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: sumchecking_smallwood_smaller_2026
+  title: 'Sum-Checking SmallWood: Smaller Hash-Based Zero-Knowledge Arguments'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2880
+  directions:
+  - permutation_layer
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Hash-based zero-knowledge (ZK) arguments are particularly attractive for their conservative post-quantum security,
+    relying only on cryptographic hash functions. While VOLE-in-the-Head proofs, based on
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - permutation
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: privacypreserving_systemic_portfolio_2026
+  title: Privacy-Preserving Systemic Portfolio Analysis and Repair
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2879
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Financial institutions can be exposed to systemic risk through overlapping
+
+    portfolios and common liquidity shocks, yet identifying and reducing these dependencies requires precisely the portfolio
+    info'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-17'
+  source: eprint
+- id: batch_pack_and_2026
+  title: 'Batch, Pack, and Prove: More Efficient Verifiable Computation for CKKS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2878
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: An important challenge in homomorphic encryption (HE) is ensuring the integrity of the encrypted computations.
+    Although verifiable computation can address this in theory, making it practical is far fr
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-11-17'
+  source: eprint
