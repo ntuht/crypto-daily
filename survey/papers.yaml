@@ -50988,3 +50988,92 @@ papers:
   - PRESENT
   fetched_date: '2026-11-17'
   source: eprint
+- id: is_it_even_2026
+  title: Is It Even Possible? On the Parallel Composition of Asynchronous MPC Protocols
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1707
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Despite several known idiosyncrasies separating the synchronous and the asynchronous models, asynchronous secure
+    multi-party computation (MPC) protocols demonstrate high-level similarities to synchron
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-18'
+  source: eprint
+- id: concurrent_asynchronous_byzantine_2026
+  title: Concurrent Asynchronous Byzantine Agreement in Expected-Constant Rounds, Revisited
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/1003
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: It is well known that without randomization, Byzantine agreement (BA) requires a linear number of rounds in the
+    synchronous setting, while it is flat out impossible in the asynchronous setting. The pr
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-18'
+  source: eprint
+- id: blind_zksnarks_for_2026
+  title: Blind zkSNARKs for Private Proof Delegation and Verifiable Computation over Encrypted Data
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1684
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In this paper, we show for the first time it is practical to privately delegate proof generation of zkSNARKs to
+    a single server for computations of up to $2^{20}$ R1CS constraints. We achieve this by '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-18'
+  source: eprint
+- id: circulant_diffusion_layers_2026
+  title: 'Circulant Diffusion Layers: Cost Bounds and Rectangle Reuse'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2893
+  directions:
+  - linear_diffusion
+  ciphers: []
+  significance: medium
+  summary: 'We study the addition complexity of sparse invertible circulant matrices over $\mathbb{F}_2$ and odd prime fields.
+    Diffusion is measured by branch numbers, and prime field coefficients are restricted '
+  status: pending_review
+  matched_keywords:
+  - diffusion
+  - branch number
+  - RECTANGLE
+  - LED
+  fetched_date: '2026-11-18'
+  source: eprint
+- id: phasehiding_programmable_bootstrapping_2026
+  title: Phase-Hiding Programmable Bootstrapping with Online Client Assistance
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2892
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Programmable bootstrapping in Fast Fully Homomorphic Encryption over the Torus (TFHE) uses a bootstrapping key
+    (BSK) to control successive external products during blind rotation, incurring computatio
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-18'
+  source: eprint
