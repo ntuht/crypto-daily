@@ -51077,3 +51077,152 @@ papers:
   - LED
   fetched_date: '2026-11-18'
   source: eprint
+- id: aker_efficient_twoparty_2026
+  title: 'Aker: Efficient Two-Party SLH-DSA'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2899
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold signing is widely deployed to protect cryptographic keys, but extending these deployments to post-quantum
+    signatures remains challenging. While NIST's lattice-based signatures now have effic
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: abba_latticebased_commitments_2026
+  title: 'ABBA: Lattice-based Commitments from Commutators'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/148
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We study the cryptographic properties of sums of commutators of quaternions modulo $q$. We show that for certain
+    parameters, the distribution of the sum of commutators of uniformly random elements wit
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: bounds_of_falcons_2026
+  title: Bounds of Falcon's Fast Fourier Sampler with Fixed-Point Arithmetic
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2902
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Falcon was selected by NIST for standardization as FN-DSA in the forthcoming FIPS 206, and its signature generation
+    is driven by the fast Fourier sampler, defined over the complex numbers. This report
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: a_bleichenbacher_bitbybit_2026
+  title: A Bleichenbacher bit-by-bit oracle attack from partial message knowledge
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2901
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Oracle attacks show the importance of a correct implementation of cryptographic standards when translated into
+    code. A notable example is the Bleichenbacher attack on RSA with PKCS#1 v1.5 padding and '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: leash_when_labradors_2026
+  title: 'LEASH: When LaBRADOR’s Guarantees Go Astray'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2898
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Succinct arguments enable efficient verification of large computations, while lattice-based constructions offer
+    a promising path toward post-quantum security. LaBRADOR advances this direction through '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: four_ciphers_in_2026
+  title: 'Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2896
+  directions:
+  - differential
+  - zero_correlation
+  - linear_diffusion
+  - sbox
+  - lightweight
+  - impossible_differential
+  ciphers: []
+  significance: medium
+  summary: LLBC is a 128-bit low-latency block cipher for IoT applications, proposed in the IEEE Internet of Things Journal
+    in 2025. The designers release a reference implementation in C and Verilog for reproduc
+  status: pending_review
+  matched_keywords:
+  - differential
+  - impossible differential
+  - zero-correlation
+  - block cipher
+  - S-box
+  - diffusion
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: concrete_quantum_circuit_2026
+  title: Concrete Quantum Circuit Implementations and Resource Estimates for the Quantum 3 and 4-Sieves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2895
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Chailloux and Loyer (2023) introduced quantum 3- and 4-sieve algorithms for the Shortest Vector Problem (SVP) with
+    asymptotic analyses, but concrete circuit implementations remain unexplored. We prese
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-19'
+  source: eprint
+- id: bmusigl_blind_multisignature_2026
+  title: 'BMuSig-L: Blind Multi-Signature from Lattice'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2894
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Blind signatures and multi-signatures are two fundamental cryptographic primitives for privacy-preserving decentralized
+    protocols. A blind signature enables a user to obtain a signature on a message f
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-19'
+  source: eprint

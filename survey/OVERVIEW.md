@@ -1,6 +1,6 @@
 # 对称密码研究论文概览
 
-📊 **总计**: 2796 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
+📊 **总计**: 2804 篇论文 | 26 个方向 | 79 个密码算法 | 108 篇高影响力论文
 
 ## 年份分布
 
@@ -40,11 +40,11 @@
 - **2023**: █████████████████████████ (25)
 - **2024**: ████████████████████████████████ (32)
 - **2025**: █████████████████████ (21)
-- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (2587)
+- **2026**: ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ (2595)
 
 ## 算法设计
 
-### 轻量级密码综合 (249 篇)
+### 轻量级密码综合 (250 篇)
 
 - 🟡 **2026** — HCTR$^{++}$ : A Beyond Birthday Bound Secure HCTR2 Variant
 - 🟡 **2026** — Oracle-Based Multistep Strategy for Solving Polynomial Systems Over Finite Fields and Algebraic Cryptanalysis of the Aradi Cipher
@@ -266,6 +266,7 @@
 - 🟡 **2026** — Enabling Memory Encryption Using Ascon Derivatives
 - 🟡 **2026** — MPCTM: MPC-Based Trajectory Matching on Unmanned Autonomous Systems
 - 🟡 **2026** — Zero-Knowledge IOPPs for Constrained Interleaved Codes
+- 🟡 **2026** — Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC
 - 🔴 **2025** — Post-Quantum Security of Ascon AEAD Mode [Ascon]
 - 🟡 **2023** — Eevee Family of AEAD Modes for IoT-to-Cloud Secure Computation [Eevee]
 - 🔴 **2023** — Exact Security Analysis of ASCON [Ascon]
@@ -490,7 +491,7 @@
 - 🟡 **2015** — RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms [RECTANGLE]
 - 🔴 **2007** — PRESENT: An Ultra-Lightweight Block Cipher [PRESENT]
 
-### S-box 设计与评估 (94 篇)
+### S-box 设计与评估 (95 篇)
 
 - 🟡 **2026** — How Small Can S-boxes Be?
 - 🟡 **2026** — Efficient and Composable Masked AES S-Box Designs Using Optimized Inverters
@@ -569,6 +570,7 @@
 - 🟡 **2026** — Neural Cipher Bench: Cost and Portability of Corner-ReLU Cipher Implementation
 - 🟡 **2026** — One More Pair, More Information Gained: Improved Attacks on LowMC with Full S-box Layers Using Two Plaintext/Ciphertext Pairs
 - 🟡 **2026** — Round-Key Equivalence and Collisions of the Revised MoFang
+- 🟡 **2026** — Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC
 - 🟡 **2024** — Minimum Area for Optimal 4-bit S-boxes
 - 🟡 **2024** — A Family of Biprojective APN Functions
 - 🟡 **2023** — Masking Thresholds for Lightweight Ciphers
@@ -670,7 +672,7 @@
 - 🔴 **2004** — Efficient Instantiations of Tweakable Blockciphers and Refinements to Modes OCB and PMAC [OCB]
 - 🔴 **2004** — The Galois/Counter Mode of Operation (GCM) [AES-GCM]
 
-### 线性扩散层 (56 篇)
+### 线性扩散层 (57 篇)
 
 - 🟡 **2026** — New General MDS Matrix Construction Method Towards Low Area
 - 🟡 **2026** — MDS Diffusion Layers for Arithmetization-Oriented Symmetric Ciphers: The Rotational-Add Construction
@@ -719,6 +721,7 @@
 - 🟡 **2026** — Pairwise Independence of Ten-Round AES
 - 🟡 **2026** — Differential Cryptanalysis of SPEEDY: Revised Security Evaluation and Improved Key Recovery Attack
 - 🟡 **2026** — Circulant Diffusion Layers: Cost Bounds and Rectangle Reuse
+- 🟡 **2026** — Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC
 - 🔴 **2025** — THF: Ultra-Low Latency Tweakable Block Cipher Family [THF]
 - 🔴 **2025** — Multiple Rows Mixers and Hsilu: A Family of Linear Layers and a Permutation with Fewer XORs [Hsilu]
 - 🟡 **2024** — Ultra-Light MDS Matrices: Implementation Trees and Enumeration
@@ -975,7 +978,7 @@
 
 ## 算法分析
 
-### 差分分析 (1534 篇)
+### 差分分析 (1540 篇)
 
 - 🔴 **2026** — Round-Based Approximation of (Higher-Order) Differential-Linear Correlation - A Geometric Approach
 - 🟡 **2026** — A Built-in Crypto Expert for Artificial Intelligence: How Far is the Horizon?
@@ -2449,6 +2452,12 @@
 - 🟡 **2026** — Concurrent Asynchronous Byzantine Agreement in Expected-Constant Rounds, Revisited
 - 🟡 **2026** — Blind zkSNARKs for Private Proof Delegation and Verifiable Computation over Encrypted Data
 - 🟡 **2026** — Phase-Hiding Programmable Bootstrapping with Online Client Assistance
+- 🟡 **2026** — Aker: Efficient Two-Party SLH-DSA
+- 🟡 **2026** — A Bleichenbacher bit-by-bit oracle attack from partial message knowledge
+- 🟡 **2026** — LEASH: When LaBRADOR’s Guarantees Go Astray
+- 🟡 **2026** — Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC
+- 🟡 **2026** — Concrete Quantum Circuit Implementations and Resource Estimates for the Quantum 3 and 4-Sieves
+- 🟡 **2026** — BMuSig-L: Blind Multi-Signature from Lattice
 - 🔴 **2025** — ML-Guided Beam Search for Differential Trail Discovery [GIFT]
 - 🔴 **2025** — New Techniques for Analyzing Differentials with Applications to AES [AES]
 - 🟡 **2025** — Improved Differential Cryptanalysis of SPEEDY [SPEEDY]
@@ -2512,7 +2521,7 @@
 - 🔴 **1991** — Differential Cryptanalysis of DES-like Cryptosystems [DES]
 - 🔴 **1991** — Markov Ciphers and Differential Cryptanalysis
 
-### MILP/SAT/CP 建模技术 (473 篇)
+### MILP/SAT/CP 建模技术 (474 篇)
 
 - 🟡 **2026** — Signal Lost (Integrity): The Signal App is More than the Sum of its Protocols
 - 🟡 **2026** — DAC-PRE: Practical Anonymous Data Access Scheme Control with Proxy Re-encryption for Implantable Medical Devices
@@ -2953,6 +2962,7 @@
 - 🟡 **2026** — Security Analysis of Anonymous Authentication in Apple's Private Cloud Compute
 - 🟡 **2026** — Zero-Knowledge IOPPs for Constrained Interleaved Codes
 - 🟡 **2026** — Revisiting homomorphic AES evaluation with Hybrid Byte-Bit Packing
+- 🟡 **2026** — Bounds of Falcon's Fast Fourier Sampler with Fixed-Point Arithmetic
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🔴 **2025** — The Window Heuristic: Automating Differential Trail Search in ARX Ciphers [ChaCha, SPECK, LEA, HIGHT]
 - 🟡 **2025** — Trail-Estimator: An Automated Verifier for Differential Trails in Block Ciphers
@@ -2988,7 +2998,7 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **2011** — Differential and Linear Cryptanalysis using Mixed-Integer Linear Programming [AES, Enocoro-128v2]
 
-### 中间相遇 (320 篇)
+### 中间相遇 (321 篇)
 
 - 🟡 **2026** — Neural-Inspired Advances in Integral Cryptanalysis
 - 🟡 **2026** — Committing Security of BBB Secure MACs
@@ -3299,6 +3309,7 @@
 - 🟡 **2026** — ASCENT: Algebraic Structured Compilation of Exact Norms for Succinct Lattice Proofs
 - 🟡 **2026** — Sum-Checking SmallWood: Smaller Hash-Based Zero-Knowledge Arguments
 - 🟡 **2026** — Batch, Pack, and Prove: More Efficient Verifiable Computation for CKKS
+- 🟡 **2026** — ABBA: Lattice-based Commitments from Commutators
 - 🔴 **2025** — An Automated Model to Search For Differential Meet-In-The-Middle Attack [SIMON, Simeck]
 - 🔴 **2024** — Generalized Impossible Differential Meet-in-the-Middle Attacks on SKINNY and ForkSKINNY [SKINNY, ForkSKINNY]
 - 🔴 **2024** — Partial Sums Meet FFT: Improved Attack on 6-Round AES [AES]
@@ -3706,13 +3717,14 @@
 - 🔴 **2014** — Automatic Search for Related-Key Differential Characteristics in Byte-Oriented Block Ciphers [AES]
 - 🔴 **1994** — On Correlation Between the Order of S-boxes and the Strength of DES [DES]
 
-### 不可能差分 (14 篇)
+### 不可能差分 (15 篇)
 
 - 🟡 **2026** — ToFA: Towards Fault Analysis of GIFT and GIFT-like Ciphers Leveraging Truncated Impossible Differentials
 - 🟡 **2026** — More Brisés in Ballet: Extending Differential and Linear Cryptanalysis
 - 🟡 **2026** — Impossible Polytopic Attack Revisited: Low-Data Distinguishers and Attacks
 - 🟡 **2026** — LEANY: A Hardware-Friendly Wide-Block Block Cipher
 - 🟡 **2026** — Modeling Modular Multiplication for Monomial Prediction and Impossible Differentials, with Application to MSX
+- 🟡 **2026** — Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC
 - 🔴 **2025** — Holistic Framework for Impossible Boomerang Attacks [SKINNY, AES]
 - 🟡 **2024** — Impossible Boomerang Distinguishers Revisited [AES, SPECK, GIFT, CHAM, SKINNY]
 - 🔴 **2024** — Impossible Differential Automation: Model Generation and New Techniques [AES, SKINNY, PRESENT, SIMON, SPECK]
@@ -3723,10 +3735,11 @@
 - 🔴 **1999** — Cryptanalysis of Skipjack Reduced to 31 Rounds Using Impossible Differentials [Skipjack]
 - 🔴 **1998** — Impossible Differentials in Twofish [Twofish]
 
-### 零相关线性 (5 篇)
+### 零相关线性 (6 篇)
 
 - 🟡 **2026** — What to Guess in Key-Recovery Attacks?
 - 🟡 **2026** — Connecting Cryptanalytic Distinguishers through Divisibility
+- 🟡 **2026** — Four Ciphers in One: Full-Round Attacks on the Reference Implementation of LLBC
 - 🟡 **2020** — Automatic Search for Impossible Differentials and Zero-Correlation Linear Approximations [SKINNY, GIFT, Midori]
 - 🔴 **2012** — Zero-Correlation Linear Cryptanalysis with Reduced Data Complexity
 - 🔴 **2012** — Integral and Multidimensional Linear Distinguishers with Correlation Zero
