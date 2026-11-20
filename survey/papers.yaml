@@ -51226,3 +51226,38 @@ papers:
   - LED
   fetched_date: '2026-11-19'
   source: eprint
+- id: codetta_highcapacity_keyless_2026
+  title: 'Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2218
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language
+    collaboration. The same communication channel can also enable collusion, such as exfiltr
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - LED
+  fetched_date: '2026-11-20'
+  source: eprint
+- id: phoenix_hashandsign_with_2026
+  title: 'Phoenix: Hash-and-Sign with Aborts from Lattice Gadgets'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2023/446
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Preimage sampling is a fundamental tool in lattice-based cryptography, and its performance directly impacts that
+    of the cryptographic mechanisms relying on it. In 2012, Micciancio and Peikert proposed
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-20'
+  source: eprint
