@@ -51261,3 +51261,57 @@ papers:
   - LED
   fetched_date: '2026-11-20'
   source: eprint
+- id: homomorphic_nizks_and_2026
+  title: Homomorphic NIZKs and Maliciously-Secure MPC with Optimal Communication Complexity from Standard Assumptions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1806
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We construct fully-homomorphic NIZKs and a communication-complexity-preserving semi-malicious to malicious multiparty
+    computation (MPC) compiler from a broader range of cryptographic assumptions, incl
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-21'
+  source: eprint
+- id: scalable_multiserver_private_2026
+  title: Scalable Multi-Server Private Information Retrieval using Homomorphic Encryption for Cloud Environments
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1131
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Information Retrieval (PIR) based on Fully Homomorphic Encryption (FHE) enables secure query processing
+    over encrypted data without revealing user intent. However, existing FHE based PIR solut
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-21'
+  source: eprint
+- id: highly_scalable_searchable_2026
+  title: Highly Scalable Searchable Symmetric Encryption for Boolean Queries from NTRU Lattice Trapdoors
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/1215
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Searchable symmetric encryption (SSE) enables query execution directly over sym-
+
+    metrically encrypted databases. To support realistic query executions over encrypted
+
+    document collections, one needs SS'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-21'
+  source: eprint
