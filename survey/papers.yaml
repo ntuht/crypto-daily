@@ -51315,3 +51315,349 @@ papers:
   - PRESENT
   fetched_date: '2026-11-21'
   source: eprint
+- id: nonlinear_invariant_attacks_2026
+  title: 'Nonlinear Invariant Attacks on Full CRAFT: Chosen-Tweak Key Recovery'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2918
+  directions:
+  - lightweight
+  - tweakable
+  - milp_sat_cp
+  - invariant
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 'A nonlinear invariant is a Boolean function of the state that every round preserves, up to a constant, for a class
+    of keys. It then relates plaintext and ciphertext with correlation one, whatever the '
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - SAT
+  - block cipher
+  - S-box
+  - tweakable
+  - CRAFT
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: a_quasipolynomial_quantum_2026
+  title: A Quasipolynomial Quantum Algorithm for the Vector Dihedral Coset Problem with Smooth Modulus
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2925
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We give a quantum algorithm for the vector dihedral coset problem over $\mathbb{Z}_q^n$, in which the goal is to
+    recover $\mathbf{s} \in \mathbb{Z}_q^n$ given independent samples of the form $\frac{1}
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: onestep_schnorr_threshold_2026
+  title: One-Step Schnorr Threshold Identification
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/722
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Threshold cryptographic primitives have not been widely adopted beyond the closed committee model, presumably due
+    to state-synchronization overhead and complex certification processes for the sharehol
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: computational_certificates_the_2026
+  title: 'γ₁₁: Computational Certificates — the macadamias 0001, 0014, 0015, 0059 and 0052'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2926
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The macadamias are the ten perfect forms of rank 9 for which the proof of the Hermite constant $\gamma_{11}$ cannot
+    be completed at rank 10. Four of them, 0001, 0014, 0059 and 0015, were treated at ra
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: the_swell_protocol_2026
+  title: 'The Swell Protocol: Invite-Bound Hybrid Key Agreement, a Double Ratchet with an ML-KEM Epoch Ratchet, and a Signed
+    Server Statement'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2924
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We describe the Swell Protocol, the end-to-end encryption protocol of the Swell messenger, as fixed by draft 3
+    of its specification. First contact uses an out-of-band invite code instead of a server-h
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: pcdgs_a_poolcertified_2026
+  title: 'PC-DGS: A Pool-Certified Dynamic Group Signature Scheme Based on XMSS'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2922
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Hash-based group signatures provide a conservative approach to post-quantum anonymous authentication, but existing
+    constructions often face a tension between stateless signing, compact signatures, and
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: ckks_acceleration_for_2026
+  title: CKKS Acceleration for Next-Wave Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2921
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Fully Homomorphic Encryption (FHE) is a powerful cryptographic tool that enables computation directly on encrypted
+    data without first decrypting it. It allows privacy-preserving computing where sensit
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: six_passes_are_2026
+  title: 'Six Passes Are Enough: Security Proofs for NIST AES Key Wrap'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2917
+  directions:
+  - aead
+  - permutation_layer
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: AES Key Wrap protects keys entering and leaving hardware security modules and keys exchanged through S/MIME, JOSE
+    and PKCS#11. NIST standardized it as KW and KWP in SP 800-38F and is now revising that
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - Feistel
+  - authenticated encryption
+  - AES
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: a_new_cryptanalytic_2026
+  title: A New Cryptanalytic Attack on an RSA Variant Arising from Cubic Pell Curves
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2915
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: 'In 2024, Nitaj and Seck introduced an RSA-like cryptosystem defined by a public key $(N,e)$ and a corresponding
+    private key $(N,d)$ satisfying
+
+    $
+
+    ed-1 \equiv 0 \pmod{p^{2(a-1)} q^{2(b-1)} (p-1)^2 (q-1)'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: recovering_hqc_secret_2026
+  title: Recovering HQC Secret Key from Distance Spectrum using Side-Channel Attack
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2914
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'HQC is a code-based key encapsulation mechanism selected for standardiza-
+
+    tion by NIST. It uses sparse secret vectors in a quasi-cyclic structure, where GJS-style
+
+    attacks can exploit correlations betw'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: a_collision_for_2026
+  title: A Collision for 38-Step SHA-256
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2913
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We give a collision for 38-step SHA-256 from the standard initial value, to our knowledge the first. The attack
+    is a two-block differential attack whose message differences are in the same words as in
+  status: pending_review
+  matched_keywords:
+  - differential
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: automatic_preimage_attacks_2026
+  title: Automatic Preimage Attacks on Xoodyak Based on Linear Structures
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2910
+  directions:
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Xoodyak was one of the ten finalists in the NIST Lightweight Cryptography standardization process (2018-2023).
+    In this paper, we investigate preimage attacks on Xoodyak-XOF using linear structures wit
+  status: pending_review
+  matched_keywords:
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: kairos_efficient_highthreshold_2026
+  title: 'Kairos: Efficient High-Threshold Asynchronous Distributed Key Generation from Lightweight Cryptography'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2909
+  directions:
+  - lightweight
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Asynchronous distributed key generation (ADKG) bootstraps threshold cryptosystems by robustly generating threshold
+    public and private key pairs. This primitive is a fundamental building block for dist
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - lightweight
+  - PRESENT
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: from_decoding_leakage_2026
+  title: 'From Decoding Leakage to Full Key Recovery: A Single-Trace Attack on FALCON'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2908
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: FALCON is one of the post-quantum signature schemes selected by NIST. Its compact keys make it attractive for embedded
+    devices, which are exposed to side-channel attacks. Such attacks on FALCON have s
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: sparsezkvc_sparsityaware_r1cs_2026
+  title: 'Sparse-zkVC: Sparsity-Aware R1CS Synthesis for Zero-Knowledge Proofs of Sparse LLM Inference'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2907
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Zero-knowledge proofs for machine-learning inference are often limited by dense arithmetization: even after model
+    pruning, R1CS generators may instantiate witness variables and linear-combination term'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: travess_traceable_threshold_2026
+  title: 'TRAVESS: Traceable Threshold VSS with Publicly Verifiable Shares and Tracing Evidence'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2905
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Secret sharing protects a secret against coalitions below the reconstruction threshold, but it does not stop participants
+    from selling their shares. Traceable secret sharing (TSS) holds participants a
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  - CRAFT
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: blind_deeplearning_sidechannel_2026
+  title: Blind Deep-Learning Side-Channel Analysis of XTS-AES on a Commercial RISC-V Microcontroller
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2904
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The XTS-AES mode is widely deployed to provide storage encryption in embedded systems, where hardware accelerators
+    are commonly used to protect sensitive firmware stored in external flash. Existing si
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-22'
+  source: eprint
+- id: batched_function_secret_2026
+  title: 'Batched Function Secret Sharing: Parallel Generation and Key Compression'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2903
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Function secret sharing (FSS) enables local evaluation of secret-shared functions and is an important building
+    block for efficient secure computation, particularly for comparisons and private lookups.
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-22'
+  source: eprint
