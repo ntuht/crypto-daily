@@ -52720,3 +52720,55 @@ papers:
   - SPECK
   fetched_date: '2026-11-23'
   source: eprint
+- id: pairingbased_accountable_subgroup_2026
+  title: Pairing-based Accountable Subgroup Multi-signatures with Verifiable Group Setup
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2022/018
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'In an accountable subgroup multi-signature (ASM), any subgroup $S$ of a group of signers can sign a message so
+    that each member of $S$ is accountable for the signature. We propose three pairing-based '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-24'
+  source: eprint
+- id: maverick_private_and_2026
+  title: 'Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/1955
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Open-source large language models (LLMs) are increasingly competitive with closed-source models while offering
+    transparency and the ability to run inference without exposing user inputs to a service p
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-24'
+  source: eprint
+- id: sok_of_private_2026
+  title: SoK of Private Deep Neural Network Inference with Approximate Fully Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/047
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Deep neural networks (DNNs), a hot topic in this decade, are already solving many practical problems previously
+    unsolved. There are clear use cases with strong privacy requirements for the input data '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-24'
+  source: eprint
