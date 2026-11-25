@@ -52772,3 +52772,73 @@ papers:
   - PRESENT
   fetched_date: '2026-11-24'
   source: eprint
+- id: ultrafold_distributed_codebased_2026
+  title: 'UltraFold: Distributed Code-Based PCS from Packed Interleaved Merkle Trees'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/266
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Transparent, code-based polynomial commitment schemes (PCSs) are a foundation for large-scale succinct proofs:
+    they avoid trusted setup, support post-quantum security, and achieve high performance. As'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  fetched_date: '2026-11-25'
+  source: eprint
+- id: rareevent_decorrelation_for_2026
+  title: Rare-Event Decorrelation for Linear Tests of Low-Complexity Pseudorandom Functions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/2357
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Ball et al. left open whether their bounded-query strong-PRF candidate in $\mathrm{AC}^0[2]$ resists general non-adaptive
+    linear tests with polynomially many chosen queries. Boyle et al. left open whe
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-25'
+  source: eprint
+- id: where_on_earth_2026
+  title: Where on Earth? Zero-Knowledge Proof of Location from a Phone Photograph of the Moon and Stars
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3002
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We study whether a single photograph taken with commodity hardware, such as an unmodified phone, can serve as a
+    privacy-preserving proof of location. The physical anchor is lunar parallax. The Moon is
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - LED
+  fetched_date: '2026-11-25'
+  source: eprint
+- id: representationaware_kleptographic_attacks_2026
+  title: Representation-Aware Kleptographic Attacks on Post-Quantum Cryptography
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3001
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Kleptographic subversions of cryptographic implementations, through Algorithm Substitution Attacks (ASAs), threaten
+    the trust assumptions of black-box cryptosystems. This work studies such subversions
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-25'
+  source: eprint
