@@ -52842,3 +52842,181 @@ papers:
   - PRESENT
   fetched_date: '2026-11-25'
   source: eprint
+- id: jacobi_signatures_certified_2026
+  title: 'Jacobi Signatures: Certified Chosen-Offset One-Wayness and Random-Offset Collision Resistance'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3006
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Jacobi signatures are publicly computable vectors of quadratic characters whose security has primarily been studied
+    for fixed consecutive offsets. We investigate two public-offset models under Balance
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: maleak_blind_sidechannel_2026
+  title: 'MALeak: Blind Side-Channel Key Recovery Exploiting Modular Addition Leakage in ARX-based Block Ciphers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/067
+  directions:
+  - lightweight
+  - software_friendly
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: 'Side-channel analysis can recover secret keys by exploiting physical leakages emitted during cryptographic computations.
+    Most SCA techniques, however, require knowledge of the plaintext or ciphertext '
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - S-box
+  - ARX
+  - PRESENT
+  - SPECK
+  - LED
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: hidden_deltafairness_a_2026
+  title: 'Hidden $\Delta$-fairness: A Novel Notion for Fair Secure Two-Party Computation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/587
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Secure two-party computation allows two mutually distrusting parties to compute a joint function over their inputs,
+    guaranteeing properties such as input privacy or correctness.
+
+
+    For many tasks, such '
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: merkle_trees_minimize_2026
+  title: Merkle Trees Minimize Verifier Complexity in the ROM
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3015
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Nearly five decades after their introduction, Merkle trees remain the most efficient hash-based vector commitments.
+    They compress a vector $x \in \{0,1\}^n$ into a commitment whose size is independent
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: charts_computeefficient_homomorphic_2026
+  title: 'CHARTS: Compute-efficient Homomorphic Anonymous Routing with Tag Sums'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3012
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Anonymous routing is a fundamental tool to protect communication privacy by hiding who communicates with whom.
+    Existing constructions based on a single untrusted router, including NIAR (EUROCRYPT''21) '
+  status: pending_review
+  matched_keywords:
+  - permutation
+  - PRESENT
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: practical_fixedplaintext_key_2026
+  title: Practical Fixed-Plaintext Key Collisions on Reduced-Round AES
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3009
+  directions:
+  - differential
+  - meet_in_the_middle
+  - sbox
+  - aead
+  ciphers: []
+  significance: medium
+  summary: We study chosen-key collisions on reduced-round AES under the fixed zero plaintext $P = 0^{128}$, i.e., key pairs
+    $K \neq K'$ with $AES_K^{(R)}(0^{128}) = AES_{K'}^{(R)}(0^{128})$. This setting direct
+  status: pending_review
+  matched_keywords:
+  - differential
+  - meet-in-the-middle
+  - S-box
+  - authenticated encryption
+  - AES
+  - LED
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: neonhtlc_collateralfree_htlcs_2026
+  title: 'Neon-HTLC: Collateral-Free HTLCs with Logarithmic Timeout'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3008
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Hashed time-lock contracts (HTLCs) are fundamental building blocks for decentralized finance, enabling trustless
+    cross-chain asset exchanges and off-chain payment networks. However, standard HTLCs are
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: sincom_shallowandnarrow_sinusoidal_2026
+  title: 'SinCom: Shallow-and-Narrow Sinusoidal Composites for Low\\ Constant-Round Secure Evaluation of Activation Functions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3004
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: 'Non-linear activations remain the bottleneck in privacy-preserving
+
+    machine learning: secure comparison is expensive, polynomial
+
+    approximation needs many multiplication rounds, and the nested-sine cons'
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - CRAFT
+  fetched_date: '2026-11-26'
+  source: eprint
+- id: easesvm_an_efficient_2026
+  title: 'EASE-SVM: An Efficient, Accurate, and Secure RBF Kernel SVM Framework for Medical IoT'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3003
+  directions:
+  - lightweight
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: The increasing use of machine learning in Internet of Things (IoT) environments facilitates more intensive data
+    exchange, raising growing concerns about data privacy. Secure computation techniques add
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  - lightweight
+  fetched_date: '2026-11-26'
+  source: eprint

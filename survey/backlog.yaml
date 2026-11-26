@@ -1,86 +1,4 @@
 papers:
-- id: parallelizable_modes_for_2026
-  title: Parallelizable modes for duplex-based authenticated encryption
-  url: https://eprint.iacr.org/2026/2801
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - permutation
-  - authenticated encryption
-  - LED
-  directions:
-  - permutation_layer
-  - aead
-  summary: 'This note enriches the SHAKE and TurboSHAKE-based authenticated encryption schemes defined by Daemen et al. at
-    EuroS&P 2025 with parallelizable ones, while keeping their security properties. The main '
-  heuristic_score: 6
-  added_date: '2026-11-25'
-  authors: []
-- id: testing_cczequivalence_to_2026
-  title: Testing CCZ-equivalence to permutations via projections of Walsh zero spaces, with applications to APN functions
-  url: https://eprint.iacr.org/2026/2800
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - permutation
-  directions:
-  - permutation_layer
-  - milp_sat_cp
-  summary: Whether almost perfect nonlinear (APN) permutations exist in even dimension $n\ge 8$ is a long-standing open question,
-    the big APN problem. The only example known in even dimension, on six bits, was f
-  heuristic_score: 6
-  added_date: '2026-11-25'
-  authors: []
-- id: dkg_a_duallayer_2026
-  title: 'DKG: A Dual-Layer Knowledge Graph and LLM Co-Driven Framework for Fully Automated Side-Channel Analysis of Cryptosystems'
-  url: https://eprint.iacr.org/2026/2838
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - AES
-  - LED
-  directions:
-  - differential
-  summary: Cryptographic algorithms underpin billions of devices, from payment smartcards to smartphone secure enclaves and
-    industrial controllers. Yet their physical implementations risk leaking secret keys. No
-  heuristic_score: 6
-  added_date: '2026-11-25'
-  authors: []
-- id: praxis_practical_witness_2026
-  title: 'Praxis: Practical Witness Encryption for NP'
-  url: https://eprint.iacr.org/2026/2971
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - ARX
-  directions:
-  - software_friendly
-  summary: Witness encryption encrypts a message to an NP statement so that whoever holds a witness can decrypt. Over a decade
-    after its introduction, known constructions for general NP statements are far from p
-  heuristic_score: 5
-  added_date: '2026-11-25'
-  authors: []
-- id: mosaic_a_modular_2026
-  title: 'Mosaic: A Modular Framework for Private Fuzzy Heavy Hitters'
-  url: https://eprint.iacr.org/2026/2968
-  source: eprint
-  venue: ePrint
-  matched_keywords:
-  - SAT
-  - lightweight
-  - PRESENT
-  - LED
-  directions:
-  - lightweight
-  - milp_sat_cp
-  summary: 'We present Mosaic, a modular cryptographic framework for Private Fuzzy Heavy Hitters Detection, a new problem
-    introduced and formalized in this work.
-
-    In this problem, a service provider aims to identi'
-  heuristic_score: 5
-  added_date: '2026-11-25'
-  authors: []
 - id: classical_oracle_separation_2026
   title: Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum   Cryptography Even When P = QCMA
   url: https://eprint.iacr.org/2026/2958
@@ -97,7 +15,7 @@ papers:
 
     Inspired by the Codeword-Hash Structure problem'
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: codetta_highcapacity_keyless_2026
   title: 'Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion'
@@ -112,7 +30,7 @@ papers:
   summary: Multi-agent systems powered by large language models (LLMs) achieve strong performance through natural-language
     collaboration. The same communication channel can also enable collusion, such as exfiltr
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: unconditional_unclonable_encryption_2026
   title: Unconditional Unclonable Encryption
@@ -126,7 +44,7 @@ papers:
   summary: We give an unconditional construction of information-theoretically secure one-time private-key unclonable encryption
     for one-bit messages, with efficient encryption and decryption and exponentially sm
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: zeroknowledge_iopps_for_2026
   title: Zero-Knowledge IOPPs for Constrained Interleaved Codes
@@ -144,7 +62,7 @@ papers:
   summary: Succinct arguments based on interactive oracle proofs (IOPs) have achieved remarkable efficiency improvements and
     are now widely adopted in applications. State-of-the-art IOPs involve protocols for te
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: secure_compilation_of_2026
   title: Secure Compilation of Probabilistic Side-Channel Countermeasures
@@ -160,7 +78,7 @@ papers:
   summary: Probabilistic countermeasures are a common means of protecting programs against side-channels. These countermeasures
     are hard to implement and are routinely broken by compilers. Proving that a compile
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: cryptanalysis_and_enhancement_2026
   title: 'Cryptanalysis and Enhancement of VTBSAE: Provably Secure Verifier-Based PAKE Protocols for the Industrial Internet
@@ -175,7 +93,7 @@ papers:
   summary: Verifier‑based password‑authenticated key exchange (PAKE) enables a client and a server to establish high‑entropy
     session keys from low‑entropy passwords without requiring the server to store plaintex
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: optimizations_and_firstorder_2026
   title: Optimizations and First-Order Masking of AIMer on Cortex-M4
@@ -189,7 +107,7 @@ papers:
   summary: We optimize AIMer-128f on Cortex-M4 and propose first-order masking of its signing. Since squaring is a Frobenius
     map about $\times 16$ cheaper than multiplication, we restructure AIM2's inverse-Merse
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: on_proximity_gaps_2026
   title: On Proximity Gaps for Expander Codes
@@ -205,7 +123,7 @@ papers:
 
     Informally, they address the following question: if a collec'
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
 - id: revisiting_the_security_2026
   title: Revisiting the Security of OleF, t-OleF, and OlÆF
@@ -225,5 +143,5 @@ papers:
   summary: We revisit the security of OleF, t-OleF, and \olaef\ and identify two independent security flaws. First, we establish
     a mask-compensation relation between continuation and termination processing in Ol
   heuristic_score: 5
-  added_date: '2026-11-25'
+  added_date: '2026-11-26'
   authors: []
