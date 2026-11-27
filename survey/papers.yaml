@@ -53020,3 +53020,56 @@ papers:
   - lightweight
   fetched_date: '2026-11-26'
   source: eprint
+- id: quickpool_privacypreserving_ridesharing_2026
+  title: 'QuickPool: Privacy-Preserving Ride-Sharing Service'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2024/1109
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Online ride-sharing services (RSS) have become very popular owing to increased awareness of environmental concerns
+    and also as a response to increased traffic congestion. To request a ride, users subm
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-27'
+  source: eprint
+- id: dcnpsca_dataconstrained_nonprofiled_2026
+  title: 'DC-NPSCA: Data-Constrained Non-profiled Side-Channel Analysis using Metric Learning'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3017
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "Reliable key-byte recovery with limited power traces remains challenging in non-profiled side-channel analysis\
+    \ (NPSCA). \nThis letter presents data-constrained NPSCA (DC-NPSCA), a metric learning frame"
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-27'
+  source: eprint
+- id: breaking_the_curse_2026
+  title: 'Breaking the Curse of Dimensionality: Fuzzy PSI without $O((\log \delta)^d)$ Overhead'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3016
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Private Set Intersection (PSI) enables two parties—a sender holding set $Q$ and a receiver holding set $W$—to securely
+    compute their intersection $Q \cap W$. Fuzzy PSI (FPSI) extends this functionalit
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-27'
+  source: eprint
