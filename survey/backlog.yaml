@@ -1,1 +1,82 @@
-papers: []
+papers:
+- id: when_verification_leaks_2026
+  title: 'When Verification Leaks: Breaking and Repairing Verifiable PIR with Small Client Storage'
+  url: https://eprint.iacr.org/2026/3039
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - MITM
+  directions:
+  - meet_in_the_middle
+  summary: Verifiable private information retrieval (vPIR) lets a client retrieve a database entry privately and check the
+    server's answer. Efficient designs such as VeriSimplePIR require clients to retain a lar
+  heuristic_score: 11
+  added_date: '2026-11-28'
+  authors: []
+- id: dovetail_groupaction_adaptor_2026
+  title: 'Dovetail: Group-Action Adaptor Signatures via a Heterogeneous Two-Block Construction'
+  url: https://eprint.iacr.org/2026/3036
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  directions:
+  - meet_in_the_middle
+  summary: Adaptor signatures bind the adaptation of a pre-signature into a valid signature to the disclosure of a witness,
+    enabling atomic swaps, payment channels, and scriptless scripts. However, existing grou
+  heuristic_score: 11
+  added_date: '2026-11-28'
+  authors: []
+- id: full_structure_recovery_2026
+  title: Full Structure Recovery of Linearized Reed–Solomon Codes
+  url: https://eprint.iacr.org/2026/3067
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - invariant
+  - LED
+  directions:
+  - invariant
+  summary: Linearized Reed-Solomon codes (LRS) are optimal sum-rank-metric codes that generalize both Reed-Solomon and Gabidulin
+    codes, and benefit from excellent decoding capabilities, making them potentially i
+  heuristic_score: 6
+  added_date: '2026-11-28'
+  authors: []
+- id: a_oneresidual_procedure_2026
+  title: A One-Residual Procedure for Deriving Inverse Expressions of Shift-Invariant Transformations
+  url: https://eprint.iacr.org/2026/3062
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - invariant
+  - SAT
+  - permutation
+  - PRESENT
+  directions:
+  - invariant
+  - permutation_layer
+  - milp_sat_cp
+  summary: We present a one-residual procedure for deriving factorized inverse expressions of a class of shift-invariant (SI)
+    transformations.  The procedure uses iterative substitution to isolate a single resid
+  heuristic_score: 6
+  added_date: '2026-11-28'
+  authors: []
+- id: mechcrypto_agentassisted_cryptanalysis_2026
+  title: 'MechCrypto: Agent-Assisted Cryptanalysis of the First-Round NGCC Candidates'
+  url: https://eprint.iacr.org/2026/3050
+  source: eprint
+  venue: ePrint
+  matched_keywords:
+  - S-box
+  - PRESENT
+  - Ascon
+  - LED
+  directions:
+  - sbox
+  summary: Evaluating large batches of cryptographic submissions demands sustained scrutiny across mathematical design, security
+    proofs, concrete parameters, and implementation code. Although large language mode
+  heuristic_score: 5
+  added_date: '2026-11-28'
+  authors: []

@@ -53073,3 +53073,814 @@ papers:
   - LED
   fetched_date: '2026-11-27'
   source: eprint
+- id: myco_unlocking_polylogarithmic_2026
+  title: 'Myco: Unlocking Polylogarithmic Accesses in Metadata-Private Messaging'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2025/687
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: As billions of people rely on end-to-end encrypted messaging, the exposure of metadata, such as communication timing
+    and participant relationships, continues to deanonymize users. Asynchronous metadat
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: anamorphism_beyond_onetoone_2026
+  title: 'Anamorphism Beyond One-To-One Messaging: PKE with Public-Key Anamorphic Broadcast Encryption'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3040
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'To date, Anamorphic Cryptography [EC22] has been developed to support the addition of an anamorphic plaintext
+    message to a ciphertext carrying a regular message. The anamorphic message remains hidden '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: hcenc_how_to_2026
+  title: 'HCENC: How to Design an Efficient Committing Beyond-Birthday-Bound Accordion from a Block Cipher with n-Bit Blocks
+    and Keys'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3078
+  directions:
+  - milp_sat_cp
+  - permutation_layer
+  - tweakable
+  - lightweight
+  - meet_in_the_middle
+  - round_function
+  ciphers: []
+  significance: medium
+  summary: Many accordions, that is, tweakable encryption modes for inputs of variable length, offer security beyond the birthday
+    bound, but they differ in cost and in how they obtain key commitment (CMT-1) or f
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - SAT
+  - block cipher
+  - permutation
+  - Feistel
+  - tweakable
+  - AES
+  - CRAFT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: stateful_llm_guardrails_2026
+  title: Stateful LLM Guardrails without Surveillance via Anonymous Risk Token
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3046
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Safety guardrails for large language models (LLMs) judge each message on its own, yet multi-turn jailbreaks spread
+    a harmful request over messages that each look benign. To catch them, a guardrail mus
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: endtoend_framework_for_2026
+  title: End-to-End Framework for  Maliciously Secure Threshold Homomorphic Encryption
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3042
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'We study $t$-out-of-$n$ threshold homomorphic encryption (ThHE) and its instantiation as a maliciously secure
+    multiparty computation (MPC) protocol.
+
+    We observe that recent ThHE constructions often foc'
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: beyond_stepwise_transformation_2026
+  title: 'Beyond Stepwise Transformation: MILP Model for Low-Area Implementations of Linear Layers'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3077
+  directions:
+  - milp_sat_cp
+  - linear_diffusion
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Low-area linear layers play an important role in lightweight symmetric-key cryptography. Across gate libraries,
+    multi-input XOR gates are effective in reducing the area of linear layers, but finding l
+  status: pending_review
+  matched_keywords:
+  - MILP
+  - mixed-integer
+  - MDS
+  - lightweight
+  - AES
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: exact_postquantum_security_2026
+  title: Exact Post-Quantum Security Analysis of Ascon Authenticated Encryption under Nonce Misuse
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3076
+  directions:
+  - permutation_layer
+  - aead
+  - tweakable
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: Ascon AEAD is a lightweight authenticated encryption algorithm recently standardized by NIST as SP 800-232, and
+    is expected to be deployed in a wide range of resource-constrained applications. In this
+  status: pending_review
+  matched_keywords:
+  - block cipher
+  - permutation
+  - AEAD
+  - authenticated encryption
+  - tweakable
+  - lightweight
+  - PRESENT
+  - Ascon
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: lightningfast_twoparty_secure_2026
+  title: Lightning-fast Two-Party Secure Sampling Protocol for Arbitrary Public Discrete Distributions
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3075
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Secure sampling enables randomized mechanisms to be executed within secure computation without revealing the generated
+    randomness. Existing approaches, however, are often specialized to particular dis
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: aggregation_techniques_for_2026
+  title: Aggregation techniques for the SPoCK scheme
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3074
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: In preceding work, we formalized a novel cryptographic primitive called Specialized Proof of Confidential Knowledge
+    (SPoCK). The SPoCK scheme allows any two independent parties to convince a third par
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: extending_the_security_2026
+  title: Extending the Security of Arithmetic Masking to All Finite Cyclic Groups via Fourier Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3073
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Let $N\geq 2$ and let $G=\mathbb{Z}/N\mathbb{Z}$. A secret $s\in G$ is shared by choosing a tuple $(X_1,\ldots,X_k)$
+    uniformly subject to $X_1+\cdots+X_k=s$ in $G$. Represent each share by the unique '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: nearnbit_preimage_and_2026
+  title: Near-n-Bit Preimage and Second-Preimage Security of the JH Mode
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3071
+  directions:
+  - permutation_layer
+  ciphers: []
+  significance: medium
+  summary: 'Existing direct bounds on preimage and second-preimage resistance for the JH mode remain at the birthday scale.
+
+    We revisit this mode in the ideal-permutation model, with a \(2n\)-bit state and permuta'
+  status: pending_review
+  matched_keywords:
+  - permutation
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: on_perfect_additive_2026
+  title: On Perfect Additive Randomized Encodings
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3070
+  directions:
+  - milp_sat_cp
+  - differential
+  ciphers: []
+  significance: medium
+  summary: "An Additive Randomized Encoding (ARE) for $f(x_1,\\ldots,x_n)$ reduces the task of securely computing $f$ to computing\
+    \ the sum of locally encoded inputs. \nConcretely, an ARE for $f$ over an Abelian gro"
+  status: pending_review
+  matched_keywords:
+  - differential
+  - SAT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: parity_leakage_and_2026
+  title: Parity Leakage and Sparse-Mask Sampling in Distorted-McEliece Pseudorandom Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3068
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Dyseryn, Francati and Venturi (DFV) recently proposed binary public-key pseudorandom codes that combine robustness
+    to a constant fraction of substitutions with conjectured subexponential security. The
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: full_structure_recovery_2026
+  title: Full Structure Recovery of Linearized Reed–Solomon Codes
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3067
+  directions:
+  - invariant
+  ciphers: []
+  significance: medium
+  summary: Linearized Reed-Solomon codes (LRS) are optimal sum-rank-metric codes that generalize both Reed-Solomon and Gabidulin
+    codes, and benefit from excellent decoding capabilities, making them potentially i
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: one_algebra_to_2026
+  title: 'One Algebra to Multiply Them All: Fast Homomorphic Linear Algebra in Every Encoding'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3066
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Linear algebra is a core primitive of many applications of fully homomorphic encryption, including privacy-preserving
+    machine learning, statistical analysis, and encrypted search. Efficient homomorphi
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: faulting_the_proof_2026
+  title: 'Faulting the Proof: Key Recovery Attacks on MQOM, SDitH and FAEST'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3064
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'MQOM, SDitH and FAEST are three candidates in the third round of NIST’s additional call for post-quantum signature
+    schemes.  The signature in all of them is a proof of knowledge of the secret key. We '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: a_oneresidual_procedure_2026
+  title: A One-Residual Procedure for Deriving Inverse Expressions of Shift-Invariant Transformations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3062
+  directions:
+  - invariant
+  - permutation_layer
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We present a one-residual procedure for deriving factorized inverse expressions of a class of shift-invariant (SI)
+    transformations.  The procedure uses iterative substitution to isolate a single resid
+  status: pending_review
+  matched_keywords:
+  - invariant
+  - SAT
+  - permutation
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: on_the_hardness_2026_2
+  title: On the Hardness of Decomposed Learning with Errors Problems
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3061
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: This work strengthens the known hardness reduction for the decision variant of Decomposed Learning With Errors
+    (LWE) problem and additionally presents a reduction of its search variant. The Decomposed
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: on_the_npcompleteness_2026
+  title: On the NP-Completeness of Worst-Case (2,1)-Quasi-Cyclic Syndrome Decoding
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3059
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: We study the worst-case $(2,1)$-Quasi-Cyclic Syndrome Decoding problem ($\mathsf{QCSD}_{n,w}$) over $R_n = \mathbb{F}_2[X]/(X^n
+    - 1)$. Given explicit polynomials $h, s \in R_n$ and an integer $w \ge 0
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: elligator_prime_injective_2026
+  title: 'Elligator Prime: Injective Encodings to Elliptic Curves Without Torsion Assumptions'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3058
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: \textit{Encoding functions} map finite-field elements to rational points on elliptic curves and are used in many
+    cryptographic protocols. Injective encodings with efficient inversion are of particular
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: faster_provable_algorithm_2026
+  title: Faster Provable Algorithm For Random Modular Subset Sum
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3055
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: We study random modular subset sum with $n$ coefficients sampled independently and uniformly modulo $Q$. The target
+    is $t=\mathbf a\cdot\mathbf x\pmod Q$, where the hidden binary vector $\mathbf x$ is
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: bifold_memoryefficient_homomorphic_2026
+  title: 'BIFOLD: Memory-Efficient Homomorphic CNN Inference over Bivariate Rings'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3054
+  directions:
+  - ml_aided
+  ciphers: []
+  significance: medium
+  summary: Fully homomorphic encryption (FHE) enables private convolutional neural network (CNN) inference, but large evaluation
+    keys hinder practical deployment. We introduce an exponential bootstrapping method
+  status: pending_review
+  matched_keywords:
+  - machine learning
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: onebitpergate_distributed_garbling_2026
+  title: One-Bit-per-Gate Distributed Garbling and Constant-Round Malicious MPC
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3052
+  directions:
+  - milp_sat_cp
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: 'Distributed garbling, introduced by Beaver, Micali, and Rogaway (BMR), lets N mutually distrustful parties jointly
+    run the garbling algorithm: as long as one of them is honest, the resulting garbled c'
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - lightweight
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: mechcrypto_agentassisted_cryptanalysis_2026
+  title: 'MechCrypto: Agent-Assisted Cryptanalysis of the First-Round NGCC Candidates'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3050
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: Evaluating large batches of cryptographic submissions demands sustained scrutiny across mathematical design, security
+    proofs, concrete parameters, and implementation code. Although large language mode
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - PRESENT
+  - Ascon
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: resourceaware_deployment_of_2026
+  title: Resource-Aware Deployment of NIST Additional PQC Signatures on Automotive ECUs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3049
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The transition to Post-Quantum Cryptography (PQC) is vital for securing next-generation automotive architectures.
+    However, deploying candidate algorithms from the NIST Round 3 Additional PQC Signature
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: tbiopp_repairgrouplocal_iops_2026
+  title: 'TB-IOPP: Repair-Group-Local IOPs of Proximity for Tamo–Barg Codes'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3043
+  directions:
+  - linear_diffusion
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: 'Reed-Solomon IOPPs underpin transparent succinct arguments but inherently lack small-locality symbol repair: by
+    the MDS barrier, reconstructing missing queries requires global recovery, creating a fun'
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - MDS
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: internal_differential_collision_2026
+  title: Internal Differential Collision Attacks against Round-Reduced SHA-3
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3041
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: The \sc{Keccak} hash function was selected by NIST as the winner of the \texttt{SHA-3} competition in 2012 and
+    was adopted as the \texttt{SHA-3} hash standard of NIST in 2015. This paper focuses on in
+  status: pending_review
+  matched_keywords:
+  - differential
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: when_verification_leaks_2026
+  title: 'When Verification Leaks: Breaking and Repairing Verifiable PIR with Small Client Storage'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3039
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Verifiable private information retrieval (vPIR) lets a client retrieve a database entry privately and check the
+    server's answer. Efficient designs such as VeriSimplePIR require clients to retain a lar
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: beyond_the_inputlength_2026
+  title: 'Beyond the Input-Length Barrier: AND and OT Complexity of Two-Party Computation'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3038
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: A natural quantitative question in secure two-party computation is how many calls to a complete primitive (AND,
+    Oblivious Transfer) are necessary to securely compute a given function.  Beimel and Malk
+  status: pending_review
+  matched_keywords:
+  - SAT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: dovetail_groupaction_adaptor_2026
+  title: 'Dovetail: Group-Action Adaptor Signatures via a Heterogeneous Two-Block Construction'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3036
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: Adaptor signatures bind the adaptation of a pre-signature into a valid signature to the disclosure of a witness,
+    enabling atomic swaps, payment channels, and scriptless scripts. However, existing grou
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: clearwater_a_zeroknowledge_2026
+  title: 'ClearWater: A Zero-Knowledge Local-Context Hardware IP Watermarking Framework'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3035
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'ClearWater embeds hardware IP watermarks during standard-cell placement in LLM-assisted flows and verifies detection
+    without revealing the owner''s key. Bounded fan-in contexts identify carrier pairs, '
+  status: pending_review
+  matched_keywords:
+  - AES
+  - ChaCha
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: almost_tight_bounds_2026
+  title: (Almost) Tight Bounds for Pairing-Based SNARGs
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3031
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: We construct a publicly verifiable succinct non-interactive argument (SNARG) for NP in the asymmetric bilinear
+    generic group and random oracle models. At $\lambda$ bits of security, a proof consists o
+  status: pending_review
+  matched_keywords:
+  - MITM
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: unmasking_glitches_why_2026
+  title: 'Unmasking Glitches: Why Secure Hardware Gadgets Still Leak'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3030
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Probing-based security notions underpin the design and verification of
+
+    masked hardware. Glitch-aware extensions, such as the robust probing model, provide strong guarantees within their abstraction
+    an'
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: defolklorizing_paillierbased_vole_2026
+  title: 'De-Folklorizing Paillier-Based VOLE: UC Security and Reusable Keys'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3029
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Vector Oblivious Linear Evaluation (VOLE) is a fundamental building block underlying secure computation protocols.
+    Protocols for threshold ECDSA and related applications commonly employ "folkloric" or
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: improving_lindells_twoparty_2026
+  title: 'Improving Lindell''s Two-Party ECDSA: Faster Key Generation and UC Security Without Global Abort'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3028
+  directions:
+  - meet_in_the_middle
+  ciphers: []
+  significance: medium
+  summary: The two-party ECDSA signing protocol constructed by Lindell (CRYPTO '17) has a substantial implementation footprint
+    across the blockchain industry. Despite its advantage of completely static state man
+  status: pending_review
+  matched_keywords:
+  - MITM
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: adams_bridge_is_2026
+  title: 'Adams Bridge is Falling Down: A New Chosen Ciphertext Side-Channel Attack on the PQC Accelerator'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3027
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: With ML-KEM and ML-DSA now standardized by NIST, post-quantum cryptography (PQC) is moving from research into real
+    world. Adams Bridge is an industry-oriented hardware accelerator that implements both
+  status: pending_review
+  matched_keywords:
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: minimizing_toffoli_gate_2026
+  title: Minimizing Toffoli Gate Counts in In-Place S-Box Implementations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3026
+  directions:
+  - sbox
+  ciphers: []
+  significance: medium
+  summary: In this paper, we study ancilla-free in-place quantum implementations of the Ascon S-box and the 5-bit Keccak $\chi_5$
+    mapping. We develop a complete synthesis method that treats NOT and CNOT gates as
+  status: pending_review
+  matched_keywords:
+  - S-box
+  - PRESENT
+  - Ascon
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: epochpir_low_amortized_2026
+  title: 'EpochPIR: Low Amortized Communication PIR at Near-Optimal Throughput'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3025
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Existing single-server private information retrieval (PIR) schemes face a sharp trade-off between server throughput
+    and communication. Schemes built on SimplePIR scan the database at nearly memory ban
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: crafting_an_attack_2026
+  title: CRAFTing an Attack on the Full-Round CRAFT
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3024
+  directions:
+  - differential
+  - tweakable
+  - lightweight
+  ciphers: []
+  significance: medium
+  summary: CRAFT is a 64-bit block, 128-bit key tweakable block cipher presented in 2019 by Beierle et al. can be efficiently
+    protected against differential fault attacks. Since its introduction, numerous attack
+  status: pending_review
+  matched_keywords:
+  - differential
+  - block cipher
+  - tweakable
+  - PRESENT
+  - CRAFT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: beskar_efficient_threshold_2026
+  title: 'Beskar: Efficient Threshold ML-DSA via Preprocessed Rejection Sampling'
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3023
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: Efficient threshold variants of ML-DSA are important for the transition to post-quantum cryptography, as they allow
+    parties to jointly produce standard ML-DSA signatures without reconstructing the sig
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: automated_verification_of_2026
+  title: Automated Verification of Glitch- and Transition-Robust Composable Masked Circuits via Logic Simulations
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3022
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: Power analysis attacks can extract sensitive information processed by electronic circuits. To mitigate information
+    leakage, the most common approach is to transform the circuit using the masking count
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: efficient_and_verifiable_2026
+  title: Efficient and Verifiable One-Shot Secure Aggregation with Dynamic Client Participation
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3021
+  directions:
+  - differential
+  ciphers: []
+  significance: medium
+  summary: 'Privacy-preserving federated learning (PPFL) often relies on multi-round secure aggregation, which increases communication
+    overhead and the risk of client dropout.  Recent one-shot secure aggregation '
+  status: pending_review
+  matched_keywords:
+  - PRESENT
+  fetched_date: '2026-11-28'
+  source: eprint
+- id: remote_fault_attacks_2026
+  title: Remote Fault Attacks on PIOP-based Post-Quantum Digital Signatures using Statistical Ineffective Fault Analysis
+  authors: []
+  venue: ePrint
+  year: 2026
+  url: https://eprint.iacr.org/2026/3019
+  directions:
+  - milp_sat_cp
+  ciphers: []
+  significance: medium
+  summary: The threat posed by quantum computing has necessitated the replacement of  existing public-key cryptographic algorithms.
+    NIST is currently running the third round of a competition to identify addition
+  status: pending_review
+  matched_keywords:
+  - SAT
+  - AES
+  - PRESENT
+  - LED
+  fetched_date: '2026-11-28'
+  source: eprint
